@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="el">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+<!--Distributors might need to comment out the two elements below if they
+    don't ship GNOME's Web browser by default.-->
+<!--    <link type="guide" xref="getting-started" group="tasks"/>-->
+<!--    <title role="trail" type="link">Browse the web</title>-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Περιήγηση στον ιστό</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>ενέργειες</gui> στα πάνω αριστερά της οθόνης για να εμφανίσετε την <gui>επισκόπηση ενεργειών</gui>.</p></item>
+      <item><p>Επιλέξτε το εικονίδιο περιηγητή <app>ιστού</app> από τη γραμμή στα αριστερά της οθόνης.</p></item>
+    </steps>
+
+    <note><p>Εναλλακτικά, μπορείτε να ξεκινήσετε τον περιηγητή <link xref="gs-use-system-search">πληκτρολογώντας απλά</link> <em>web</em> στην <gui>Επισκόπηση ενεργειών</gui>.</p></note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Πατήστε στη γραμμή διευθύνσεων στην κορυφή του παραθύρου περιηγητή και αρχίστε να πληκτρολογείτε τον επιθυμητό ιστότοπο.</p></item>
+      <item><p>Πληκτρολογώντας σε μια ιστοσελίδα ξεκινά η αναζήτηση της στο ιστορικό περιηγητή και τους σελιδοδείκτες, έτσι δεν χρειάζεστε να θυμόσαστε την ακριβή διεύθυνση.</p>
+        <p>Εάν η ιστοσελίδα βρεθεί στο ιστορικό ή τους σελιδοδείκτες, μια πτυσσόμενη λίστα προβάλλεται κάτω από τη γραμμή διευθύνσεων.</p></item>
+      <item><p>Από την πτυσσόμενη λίστα, μπορείτε γρήγορα να επιλέξετε μια ιστοσελίδα χρησιμοποιώντας τα πλήκτρα βελών.</p>
+      </item>
+      <item><p>Μετά την επιλογή μιας ιστοσελίδας, πατήστε <key>Εισαγωγή</key> για να την επισκεφτείτε.</p>
+      </item>
+    </steps>
+
+</page>

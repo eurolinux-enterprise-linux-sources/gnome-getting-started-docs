@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="ta">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>ஜேக்கப் ஸ்டெயினர்</name>
+    </credit>
+    <credit type="author">
+      <name>பெட்ர் கோவர்</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">தேதி, நேரம், நேரமண்டலம் ஆகியவற்றை மாற்றவும்</title>
+    <link type="seealso" xref="clock"/>
+    <title role="seealso" type="link">தேதி, நேரம், நேர மண்டலம் ஆகியவற்றை மாற்றுவதற்கான பயிற்சி</title>
+    <link type="next" xref="gs-change-wallpaper"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Dr. T. Vasudevan</mal:name>
+      <mal:email>agnihot3@gmail.com</mal:email>
+      <mal:years>2012Shantha kumar &lt;shantha.thamizh@gmail.com&gt; 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>தேதி, நேரம், நேரமண்டலம் ஆகியவற்றை மாற்றவும்</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>தேதியையும் நேரத்தையும் மாற்றுதல்</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>மேல் பட்டியில் உள்ள கடிகாரத்தைச் சொடுக்கவும்.</tt:p>
+           </tt:div>
+         <tt:div begin="9s" end="13s">
+           <tt:p><gui>தேதி &amp; நேர அமைவுகள்</gui>ஐத் தேர்ந்தெடுக்கவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="15s">
+           <tt:p><gui>தானியங்கு நேரமண்டலம்</gui> அணைக்கப்பட்டுள்ளதை உறுதிப்படுத்திக் கொள்ளவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="15s" end="17s">
+           <tt:p><gui>நேர மண்டலம்</gui> என்பதைச் சொடுக்கவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="17s" end="21s">
+           <tt:p>வரைபடத்தில் உங்கள் இடத்தைச் சொடுக்கவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="21s" end="23s">
+           <tt:p><gui>மூடு</gui> என்பதைச் சொடுக்கவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
+           <tt:p>சாளரத்தை மூடு.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+  <section id="change-date-time">
+    <title>தேதி, நேரம், நேரமண்டலம் ஆகியவற்றை மாற்றவும்</title>
+
+  <steps>
+    <item><p>மேல் பட்டியில் உள்ள கடிகாரத்தைச் சொடுக்கி, <gui>தேதி &amp; நேர அமைவுகள்</gui> உருப்படியைத் தேர்ந்தெடுக்கவும்.</p></item>
+    <item><p><gui>தானியங்கு நேர மண்டலம்</gui> உருப்படி அணைக்கப்பட்டுள்ளதா என உறுதிப்படுத்திவிட்டு, கீழே உள்ள <gui>நேர மண்டலம்</gui> உருப்படியை சொடுக்கவும்.</p></item>
+    <item><p>வரைபடத்தில் உங்கள் இருப்பிடத்தைச் சொடுக்கவும். அப்போது உங்கள் தற்போதைய நகரம் தேர்ந்தெடுக்கப்படும், இதை வரைபடத்திற்கு மேல் உள்ள தேடல் பெட்டியில் தேடியும் நீங்கள் கண்டறியலாம்.</p></item>
+    <item><p>மீண்டும் <gui>தேதி &amp; நேர அமைவுகள்</gui> சாளரத்திற்குச் செல்ல <gui>மூடு</gui> பொத்தானைச் சொடுக்கவும்.</p></item>
+    <item><p><gui>தானியங்கு தேதி &amp; நேரம்</gui> உருப்படி அணைக்கப்பட்டுள்ளதா என உறுதிப்படுத்திவிட்டு, <gui>தேதி &amp; நேரம்</gui> சாளரத்தைத் திறக்க கீழே உள்ள <gui>தேதி &amp; நேரம்</gui> உருப்படியை சொடுக்கவும். அங்கு நீங்கள் <gui>+</gui> அல்லது <gui>-</gui> பொத்தான்களைச் சொடுக்கி தேதி மற்றும் நேர அமைவுகளை சரி செய்யலாம்.</p>
+     </item>
+    <item><p>மீண்டும் <gui>தேதி &amp; நேர அமைவுகள்</gui> சாளரத்திற்குச் செல்ல <gui>மூடு</gui> பொத்தானை சொடுக்கவும். அந்த சாளரத்தை மூட, அதன் மேல் வலது மூலையில் உள்ள கூட்டல் குறியை சொடுக்கவும்.</p></item>
+  </steps>
+
+  <!-- FIXME: 
+	- explain what time/date does - a reference in further reading?
+  -->
+
+  </section>
+
+</page>

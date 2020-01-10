@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="el">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Σύνδεση στο δίκτυο</title>
+    <link type="seealso" xref="net"/>
+    <title role="seealso" type="link">Ένα μάθημα στη λήψη δικτύου</title>
+    <link type="next" xref="gs-connect-online-accounts"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Σύνδεση στο δίκτυο</title>
+  
+  <note style="important">
+      <p>Μπορείτε να δείτε την κατάσταση της δικτυακής σας σύνδεσης στα δεξιά της πάνω γραμμής.</p>
+  </note>  
+
+  <section id="going-online-wired">
+
+    <title>Σύνδεση σε ενσύρματο δίκτυο</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Το εικονίδιο σύνδεσης δικτύου στα δεξιά της πάνω γραμμής δείχνει ότι είσαστε εκτός σύνδεσης.</p>
+      <p>Η κατάσταση χωρίς σύνδεση μπορεί να προκληθεί από αρκετές αιτίες: για παράδειγμα, ένα καλώδιο δικτύου έχει αποσυνδεθεί, ο υπολογιστής έχει οριστεί σε <em>λειτουργία αεροπλάνου</em>, ή δεν υπάρχουν διαθέσιμα ασύρματα δίκτυα στην περιοχή σας.</p>
+      <p>Εάν θέλετε να χρησιμοποιήσετε μια ενσύρματη σύνδεση, απλά συνδέστε ένα καλώδιο δικτύου για να συνδεθείτε. Ο υπολογιστής θα προσπαθήσει να εγκαταστήσει μια σύνδεση δικτύου αυτόματα.</p>
+      <p>Ενώ ο υπολογιστής ρυθμίζει μια σύνδεση δικτύου, το εικονίδιο σύνδεσης δικτύου εμφανίζει τρεις κουκκίδες.</p></item>
+      <item><p>Μόλις η σύνδεση δικτύου ρυθμιστεί με επιτυχία, το εικονίδιο σύνδεσης δικτύου αλλάζει στο σύμβολο δικτυωμένου υπολογιστή.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="going-online-wifi">
+
+    <title>Σύνδεση σε ασύρματο δίκτυο Wi-Fi</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    
+    <steps>
+    <item><p>Για να συνδεθείτε σε ένα Wi-Fi (ασύρματο) δίκτυο, κάντε κλικ στο μενού της κατάστασης στο πάνω δεξί μέρος της οθόνης, και μετά στο <gui>Επιλογή Δικτύου</gui>.</p>
+    </item>
+    </steps>
+
+     <note style="important">
+       <p>Μπορείτε να συνδεθείτε σε ένα ασύρματο Wi-Fi δίκτυο μόνο αν το υλικό του υπολογιστή σας το υποστηρίζει και βρίσκεστε σε περιοχή με κάλυψη Wi-Fi.</p>
+     </note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
+
+    <steps style="continues">
+    <item><p>Από τη λίστα με τα διαθέσιμα ασύρματα δίκτυα Wi-Fi, επιλέξτε το δίκτυο που θέλετε να συνδεθείτε, και κάντε κλικ στο <gui>Σύνδεση</gui> για επιβεβαίωση.</p>
+    <p>Ανάλογα με τη ρύθμιση του δικτύου, μπορεί να ζητηθούν πιστοποιητικά δικτύου.</p></item>
+    </steps>
+
+    <!-- FIXME: links to existing wireless/broadband connection documents. -->
+
+  </section>
+
+</page>

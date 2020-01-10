@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="ru">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Якуб Штайнер (Jakub Steiner)</name>
+    </credit>
+    <credit type="author">
+      <name>Пётр Ковар (Petr Kovar)</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Использование системного поиска</title>
+    <link type="seealso" xref="shell-apps-open"/>
+    <title role="seealso" type="link">Руководство по использованию системного поиска</title>
+    <link type="next" xref="gs-get-online"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрий Мясоедов</mal:name>
+      <mal:email>ymyasoedov@yandex.ru</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Использование системного поиска</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    
+    <steps>
+    <item><p>Open the <gui>Activities Overview</gui> by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. Start typing
+    to search.</p>
+    <p>Results matching what you have typed will appear as you type. The first
+    result is always highlighted and shown at the top.</p>
+    <p>Press <key>Enter</key> to switch to the first highlighted result.</p></item>
+    </steps>
+    
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <steps style="continues">
+      <item><p>Элементы, которые могут появиться в результатах поиска, включают в себя:</p>
+      <list>
+        <item><p>соответствующие приложения, показанные в верхней части страницы результатов поиска,</p></item>
+        <item><p>соответствующие настройки,</p></item>
+        <item><p>соответствующие контакты, и</p></item>
+        <item><p>соответствующие документы.</p></item>
+      </list>
+      </item>
+      <item><p>В списке результатов поиска нажмите на элемент, чтобы переключиться на него.</p>
+      <p>Также можно выделить элемент с помощью клавиш со стрелками и нажать клавишу <key>Enter</key>.</p></item>
+    </steps>
+
+    <section id="use-search-inside-applications">
+    
+      <title>Поиск внутри приложений</title>
+      
+      <p>Системный поиск собирает результаты от разных приложений. На левой стороне от результатов поиска можно видеть значки приложений, которые предоставили эти результаты. Нажмите на один из этих значков, чтобы перезапустить поиск внутри приложения, обозначенного этим значком. Поскольку в <gui>Обзоре действий</gui>показываются только наиболее точные совпадения, поиск внутри приложения может дать дополнительные результаты.</p>
+
+    </section>
+
+    <section id="use-search-customize">
+
+      <title>Настройка результатов поиска</title>
+
+      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+
+      <note style="important">
+      <p>GNOME даёт возможность настроить результаты поиска, показываемые в <gui>Обзоре действий</gui>.  Например, можно выбрать, показывать ли результаты, полученные от веб-сайтов, фотографий или музыки.</p>
+      </note>
+
+      <p>Чтобы настроить показываемые результаты поиска:</p>
+
+      <steps>
+        <item><p>Click the system menu on the right side of the top bar and press
+         the settings button at the bottom of the menu.</p></item>
+        <item><p>В списке элементов нужно выбрать <gui>Поиск</gui>.</p></item>
+        <item><p>В списке местоположений для поиска нажмите переключатель <gui>Вкл/Выкл</gui> рядом с тем местоположением, которое вы хотите включить или исключить.</p>
+         </item>
+      </steps>
+      
+    </section>
+
+</page>

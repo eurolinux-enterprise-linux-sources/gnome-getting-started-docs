@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="gu">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>જેકબ સ્ટેઇનર</name>
+    </credit>
+    <credit type="author">
+      <name>પેટર કોવર</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">સંદેશાઓનો જવાબ આપો</title>
+    <link type="seealso" xref="shell-notifications"/>
+    <title role="seealso" type="link">સંદેશાને જવાબ આપવા પર માર્ગદર્શિકા</title>
+    <link type="next" xref="gs-use-windows-workspaces"/>
+  </info>
+
+  <title>સંદેશાઓનો જવાબ આપો</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="3s">
+           <tt:p>સંદેશાના જવાબ આપી રહ્યા છે</tt:p>
+         </tt:div>
+         <tt:div begin="4s" end="7s">
+           <tt:p>સ્ક્રીનની નીચે સંદેશા ટ્રેમાં તમારા માઉસને ખસેડો અને વાર્તાલાપ સંદેશા પર ક્લિક કરો.</tt:p>
+           </tt:div>
+         <tt:div begin="7s" end="9s">
+           <tt:p>તમારા જવાબને ટાઇપ કરવાનું શરૂ કરો અને જ્યારે સમાપ્ત થાય, જવાબને મોકલવા માટે <key>Enter </key> ને દબાવો.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="11s">
+           <tt:p>વાર્તાલાપ સંદેશાને બંધ કરો.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>વિલંબ થયેલ જવાબ</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="20s">
+           <tt:p>સંદેશા ટ્રેમાં વાર્તાલાપ સંદેશો થોડો સમય માટે અદૃશ્ય થાય છે જો તમે સંદેશા ટ્રેમાં તમારા માઉસને ખસેડો નહિં.</tt:p>
+         </tt:div>
+         <tt:div begin="20s" end="23s">
+           <tt:p>તમારાં જવાબ ન આપેલ સંદેશામાં પાછુ આવવા માટે, સંદેશા ટ્રેમાં તમારા માઉસને ખસેડો.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
+           <tt:p>માણસ પર ક્લિક કરો જેને સંદેશાને તમને મોકલેલ છે.</tt:p>
+         </tt:div>
+         <tt:div begin="25s" end="28s">
+           <tt:p>તમારાં જવાબને લખવાનું શરૂ કરો અને જ્યારે સમાપ્ત હોય, <key>Enter </key> ને દબાવો.</tt:p>
+         </tt:div>
+         <tt:div begin="29s" end="30s">
+           <tt:p>વાર્તાલાપ સંદેશાને બંધ કરો.</tt:p>
+         </tt:div>
+         <tt:div begin="36s" end="38s">
+           <tt:p>સંદેશા ટ્રેને બતાવવા માટે, <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>M</key></keyseq> ને દબાવો</tt:p>
+         </tt:div>
+         <tt:div begin="39s" end="42s">
+           <tt:p>માણસને પસંદ કરવા માટે તીર કીઓને વાપરો જે તમે જવાબ આપવા માંગો છો, અને <key>Enter</key> દબાવો.</tt:p>
+         </tt:div>
+         <tt:div begin="42s" end="45s">
+           <tt:p>તમારાં જવાબને લખવાનું શરૂ કરો અને જ્યારે સમાપ્ત હોય, <key>Enter </key> ને દબાવો.</tt:p>
+         </tt:div>
+         <tt:div begin="45s" end="46s">
+           <tt:p>વાર્તાલાપ સંદેશાને બંધ કરવા માટે <key>Esc</key> ને દબાવો.</tt:p>
+         </tt:div>
+         <tt:div begin="46s" end="48s">
+           <tt:p>સંદેશા ટ્રેને નીકાળવા માટે, <key>Esc</key> દબાવો.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="respond-to-messages-mouse">
+    <title>માઉસ સાથે વાર્તાલાપ સંદેશાનો જવાબ</title>
+    
+    <steps>
+      <item><p>સ્ક્રીનની નીચે સંદેશા ટ્રેમાં તમારા માઉસને ખસેડો અને વાર્તાલાપ સંદેશા પર ક્લિક કરો.</p></item>
+      <item><p>તમારા જવાબને ટાઇપ કરવાનું શરૂ કરો અને જ્યારે સમાપ્ત થાય, જવાબને મોકલવા માટે <key>Enter </key> ને દબાવો.</p></item>
+      <item><p>વાર્તાલાપ સંદેશાને બંધ કરવા માટે, વાર્તાલાપ સંદેશાની ટોચની જમણે ખૂણે બંધ કરો બટન પર ક્લિક કરો.</p></item>
+    </steps>
+    <p/>
+  </section>
+  
+  <section id="respond-to-messages-delayed-mouse">
+    <title>માઉસની મદદથી વાર્તાલાપ સંદેશાનો વિલંબ થયેલ જવાબ</title>
+    
+    <steps>
+      <item><p>જ્યારે સંદેશા ટ્રેમાં વાર્તાવાપ સંદેશો દેખાય છે અને તમે સંદેશા ટ્રેમાં તમારા માઉસને ખસેડતા નથી, સંદેશો થોડી વાર માટે અદૃશ્ય થાય છે.</p></item>
+      <item><p>જવાબ ન આપેલ સંદેશામાં પાછા જવા માટે, સ્ક્રીનનાં એકદમ તળીયે સંદેશામાં તમારા માઉસને ખસેડો.</p></item>
+      <item><p>જ્યારે સંદેશા ટ્રે દેખાય ત્યારે, નાની ઇમેજ પર ક્લિક કરો કે જે માણસને રજૂ કરે છે કે જેને તમને સંદેશો મોકલ્યો છે.</p></item>
+      <item><p>જ્યારે વાર્તાલાપ સંદેશો બતાવેલ હોય, તમારા જવાબને ટાઇપ કરવાનું શરૂ કરો અને જ્યારે સમાપ્ત થાય, જવાબને મોકલવા માટે <key>Enter</key> દબાવો.</p></item>
+      <item><p>વાર્તાલાપ સંદેશાને બંધ કરવા માટે, વાર્તાલાપ સંદેશાની ટોચની જમણે ખૂણે બંધ કરો બટન પર ક્લિક કરો.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="respond-to-messages-delayed-keyboard">
+    <title>કિબોર્ડની મદદથી વાર્તાલાપ સંદેશાનો વિલંબ થયેલ જવાબ</title>
+    <steps>
+      <item><p>તમારા જવાબ ન આપેલ વાર્તાલાપ સંદેશાને પાછુ મેળવવા માટે, સંદેશા ટ્રેને દર્શાવવા માટે <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq> ને દબાવો કે જે સંદેશાઓને સમાવે છે.</p>
+      </item>
+      <item><p>માણસને રજૂ કરતી નાની ઇમેજને પસંદ કરવા માટે તીર કીને વાપરો જે તમે જવાબ આપવા માંગો છો, અને <key>Enter</key> ને દબાવો.</p></item>
+      <item><p>તમારા જવાબને ટાઇપ કરવાનું શરૂ કરો અને જ્યારે સમાપ્ત થાય, જવાબને મોકલવા માટે <key>Enter </key> ને દબાવો.</p></item>
+      <item><p>વાર્તાલાપ સંદેશાને બંધ કરવા માટે <key>Esc</key> ને દબાવો.</p></item>
+      <item><p>સંદેશાને નીકાળવા માટે, <key>Esc</key> અથવા <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq> ને દબાવો.</p></item>
+    </steps>
+
+  </section>
+
+
+</page>

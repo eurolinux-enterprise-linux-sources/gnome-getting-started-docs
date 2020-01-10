@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="ca">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Canvieu la data, l'hora i la zona horària</title>
+    <link type="seealso" xref="clock"/>
+    <title role="seealso" type="link">Un programa d'aprenentatge per canviar la data, l'hora i la zona horària</title>
+    <link type="next" xref="gs-change-wallpaper"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013, 2014/t</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Canvieu la data, l'hora i la zona horària</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Canvieu la data i l'hora</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Feu clic al rellotge de la barra superior.</tt:p>
+           </tt:div>
+         <tt:div begin="9s" end="13s">
+           <tt:p>Feu clic a <gui>Configuració de la data i l'hora</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="15s">
+           <tt:p>Assegureu-vos que la opció de <gui>Data i hora automàtiques</gui> estigui desactivada.</tt:p>
+         </tt:div>
+         <tt:div begin="15s" end="17s">
+           <tt:p>Feu clic a <gui>Fus Horari</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="17s" end="21s">
+           <tt:p>Feu clic a la vostra ubicació en el mapa.</tt:p>
+         </tt:div>
+         <tt:div begin="21s" end="23s">
+           <tt:p>Feu clic al botó <gui>Tanca</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
+           <tt:p>Tanqueu la finestra.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+  <section id="change-date-time">
+    <title>Canvieu la data, l'hora i la zona horària</title>
+
+  <steps>
+    <item><p>Feu clic primer al rellotge situat a la barra superior i després a <gui>Configuració de la data i l'hora</gui>.</p></item>
+    <item><p>Assegureu-vos que la opció de <gui>Fus horari automàtic</gui> estigui desactivada, llavors feu clic a <gui>Fus Horari</gui> que es troba situat a sota.</p></item>
+    <item><p>Podeu establir la vostra ciutat actual bé seleccionant-la sobre el mapa o bé fent servir el quadre de cerca situat a la part superior del mateix mapa.</p></item>
+    <item><p>Feu clic al botó <gui>Tanca</gui> per tornar a la finestra de <gui>Configuració de la data i l'hora</gui>.</p></item>
+    <item><p>Assegureu-vos que l'opció de <gui>Data i hora automàtiques</gui> estigui desactivada, llavors feu clic a <gui>Data i hora</gui> per obrir la finestra de <gui>Data i hora</gui>. En aquesta finestra podeu ajustar la data i l'hora fent servir els botons de <gui>+</gui> o <gui>-</gui>.</p>
+     </item>
+    <item><p>Per tancar la finestra de <gui>Configuració de la data i de l'hora</gui> primer feu clic al botó <gui>Tanca</gui> i després feu clic a la creu situada a la cantonada superior dreta de la finestra.</p></item>
+  </steps>
+
+  <!-- FIXME: 
+	- explain what time/date does - a reference in further reading?
+  -->
+
+  </section>
+
+</page>

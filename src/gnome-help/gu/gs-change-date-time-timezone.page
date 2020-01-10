@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="gu">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>જેકબ સ્ટેઇનર</name>
+    </credit>
+    <credit type="author">
+      <name>પેટર કોવર</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">તારીખ, સમય અને ટાઇમઝોનને બદલો</title>
+    <link type="seealso" xref="clock"/>
+    <title role="seealso" type="link">તારીખ, સમય અને ટાઇમઝોનને બદલવા પર પુસ્તિકા</title>
+    <link type="next" xref="gs-change-wallpaper"/>
+  </info>
+
+  <title>તારીખ, સમય અને ટાઇમઝોનને બદલો</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>તારીખ અને સમયને બદલી રહ્યા છે</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>ટોચની પટ્ટી પર ઘડિયાળ પર ક્લિક કરો.</tt:p>
+           </tt:div>
+         <tt:div begin="9s" end="13s">
+           <tt:p><gui>તારીખ અને સમય સુયોજનો</gui> પસંદ કરો.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="15s">
+           <tt:p>Make sure that <gui>Automatic Time Zone</gui> is switched
+            off.</tt:p>
+         </tt:div>
+         <tt:div begin="15s" end="17s">
+           <tt:p><gui>ટાઇમઝોન</gui> પર ક્લિક કરો.</tt:p>
+         </tt:div>
+         <tt:div begin="17s" end="21s">
+           <tt:p>નક્ષા પર તમારાં સ્થાન પર ક્લિક કરો.</tt:p>
+         </tt:div>
+         <tt:div begin="21s" end="23s">
+           <tt:p><gui>બંધ કરો</gui> પર ક્લિક કરો.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
+           <tt:p>વિન્ડો બંધ કરો.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+  <section id="change-date-time">
+    <title>તારીખ, સમય અને ટાઇમઝોનને બદલો</title>
+
+  <steps>
+    <item><p>ટોચની પટ્ટી પર ઘડિયાળને ક્લિક કરો અને <gui>તારીખ અને સમય સુયોજનો</gui> વસ્તુને પસંદ કરો.</p></item>
+    <item><p>Make sure that the <gui>Automatic Time Zone</gui> item is switched
+     off, and then click the <gui>Time Zone</gui> item below.</p></item>
+    <item><p>નક્ષા પર તમારાં સ્થાન પર ક્લિક કરો. આ તમારા હાલનાં શહેરને પસંદ કરે છે, કે જે તમે પણ નક્ષા પર શોધ બોક્સમાં શોધી શકો છો.</p></item>
+    <item><p><gui>તારીખ અને સમય સુયોજનો</gui> વિન્ડોમાં પાછા જવા માટે <gui>બંધ કરો</gui> બટન પર ક્લિક કરો.</p></item>
+    <item><p>Make sure that the <gui>Automatic Date &amp; Time</gui> item is
+     switched off, and then click the <gui>Date &amp; Time</gui> item below to
+     open the <gui>Date &amp; Time</gui> window. There you can adjust your date
+     and time settings by clicking on the <gui>+</gui> or <gui>-</gui> buttons.</p>
+     </item>
+    <item><p>Click the <gui>Close</gui> button to go back to the <gui>Date &amp;
+     Time Settings</gui> window, and then close that window by clicking the
+     cross at the top-right corner of that window.</p></item>
+  </steps>
+
+  <!-- FIXME: 
+	- explain what time/date does - a reference in further reading?
+  -->
+
+  </section>
+
+</page>

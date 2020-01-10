@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="ta">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>ஜேக்கப் ஸ்டெயினர்</name>
+    </credit>
+    <credit type="author">
+      <name>பெட்ர் கோவர்</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">செய்திகளுக்கு பதிலளிக்கவும்</title>
+    <link type="seealso" xref="shell-notifications"/>
+    <title role="seealso" type="link">செய்திகளுக்கு பதிலளித்தல் பற்றிய பயிற்சி</title>
+    <link type="next" xref="gs-use-windows-workspaces"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Dr. T. Vasudevan</mal:name>
+      <mal:email>agnihot3@gmail.com</mal:email>
+      <mal:years>2012Shantha kumar &lt;shantha.thamizh@gmail.com&gt; 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>செய்திகளுக்கு பதிலளிக்கவும்</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="3s">
+           <tt:p>செய்திகளுக்கு பதிலளித்தல்</tt:p>
+         </tt:div>
+         <tt:div begin="4s" end="7s">
+           <tt:p>உங்கள் சொடுக்கியை திரையின் அடிப்பகுதியில் உள்ள செய்திப் பலகத்திற்குக் கொண்டு சென்று அரட்டை செய்தியை சொடுக்கவும்.</tt:p>
+           </tt:div>
+         <tt:div begin="7s" end="9s">
+           <tt:p>உங்கள் பதிலைத் தட்டச்சு செய்யத் தொடங்குங்கள், முடித்ததும் பதிலை அனுப்ப <key>Enter </key> ஐ அழுத்தவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="11s">
+           <tt:p>அரட்டைச் செய்தியை மூடு.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>தாமதித்த பதிலளிப்பு</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="20s">
+           <tt:p>செய்திப் பலகத்தில் காண்பிக்கப்படும் ஒரு அரட்டைச் செய்தி, நீங்கள் செய்திப் பலகத்திற்கு உங்கள் சொடுக்கியைக் கொண்டு செல்லாவிட்டால் சற்று நேரம் கழித்து மறைந்துபோகும்.</tt:p>
+         </tt:div>
+         <tt:div begin="20s" end="23s">
+           <tt:p>இன்னும் நீங்கள் பதிலளிக்காத செய்திக்கு மீண்டும் செல்ல, உங்கள் சொடுக்கியை செய்தித் தட்டுகுக் கொண்டு செல்லவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
+           <tt:p>உங்களுக்கு செய்தி அனுப்பியவரைச் சொடுக்கவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="25s" end="28s">
+           <tt:p>உங்கள் பதிலைத் தட்டச்சு செய்யத் தொடங்குங்கள், முடித்ததும் பதிலை அனுப்ப <key>Enter </key> ஐ அழுத்தவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="29s" end="30s">
+           <tt:p>அரட்டைச் செய்தியை மூடு.</tt:p>
+         </tt:div>
+         <tt:div begin="36s" end="38s">
+           <tt:p>மாறாக, <gui>செயல்பாடுக் மேலோட்டம்</gui> என்பதைத் திறக்க <key href="help:gnome-help/keyboard-key-super">Super</key> விசையை அழுத்துவதன் மூலம் விசைப்பலகையைப் பயன்படுத்தவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="39s" end="42s">
+           <tt:p>அம்புக்குறி விசைகளைப் பயன்படுத்தி, நீங்கள் பதிலளிக்க விரும்பும் நபரைத் தேர்ந்தெடுத்து, <key>Enter</key> ஐ அழுத்தவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="42s" end="45s">
+           <tt:p>உங்கள் பதிலைத் தட்டச்சு செய்யத் தொடங்குங்கள், முடித்ததும் பதிலை அனுப்ப <key>Enter </key> ஐ அழுத்தவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="45s" end="46s">
+           <tt:p>அரட்டை செய்தியை மூட <key>Esc</key> ஐ அழுத்தவும்.</tt:p>
+         </tt:div>
+         <tt:div begin="46s" end="48s">
+           <tt:p>செய்தித் தட்டை மூட <key>Esc</key> ஐ அழுத்தவும்.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="respond-to-messages-mouse">
+    <title>அரட்டை செய்திக்கு சொடுக்கி கொண்டு பதிலளிக்கவும்</title>
+    
+    <steps>
+      <item><p>உங்கள் சொடுக்கியை திரையின் அடிப்பகுதியில் உள்ள செய்திப் பலகத்திற்குக் கொண்டு சென்று அரட்டை செய்தியை சொடுக்கவும்.</p></item>
+      <item><p>உங்கள் பதிலைத் தட்டச்சு செய்யத் தொடங்குங்கள், முடித்ததும் பதிலை அனுப்ப <key>Enter</key> ஐ அழுத்தவும்.</p></item>
+      <item><p>அரட்டைச் செய்தியை மூட, அரட்டை செய்தியின் மேல் வலது மூலையில் உள்ள மூடு பொத்தானைச் சொடுக்கவும்.</p></item>
+    </steps>
+    <p/>
+  </section>
+  
+  <section id="respond-to-messages-delayed-mouse">
+    <title>சொடுக்கியைப் பயன்படுத்தி ஒரு அரட்டை செய்திக்கு தாமதித்த பதிலளிப்பு</title>
+    
+    <steps>
+      <item><p>செய்தித் தட்டில் ஒரு அரட்டைச் செய்தி தோன்றும் போது, நீங்கள் உங்கள் சொடுக்கியை செய்தித் தட்டுக்குக் கொண்டு செல்லாவிட்டால், சற்று நேரத்திற்குப் பிறகு செய்தி மறைந்துபோகும்.</p></item>
+      <item><p>இன்னும் நீங்கள் பதிலளிக்காத செய்திக்கு மீண்டும் செல்ல, உங்கள் சொடுக்கியை திரையின் அடிப்பகுதியில் உள்ள செய்தித் தட்டுகுக் கொண்டு செல்லவும்.</p></item>
+      <item><p>செய்தித் தட்டு காண்பிக்கப்படும் போது, உங்களுக்கு செய்தி அனுப்பிய நபரைக் குறிக்கும் சிறு படத்தைச் சொடுக்கவும்.</p></item>
+      <item><p>அரட்டை செய்தி காண்பிக்கப்படும் போது, உங்கள் பதிலைத் தட்டச்சு செய்யத் தொடங்கவும், உங்கள் பதிலை தட்டச்சு முடித்ததும் அனுப்ப <key>Enter</key> ஐ அழுத்தவும்.</p></item>
+      <item><p>அரட்டைச் செய்தியை மூட, அரட்டை செய்தியின் மேல் வலது மூலையில் உள்ள மூடு பொத்தானைச் சொடுக்கவும்.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="respond-to-messages-delayed-keyboard">
+    <title>விசைப்பலகையைப் பயன்படுத்தி ஒரு அரட்டை செய்திக்கு தாமதித்த பதிலளிப்பு</title>
+    <steps>
+      <item><p>நீங்கள் பதிலளிக்காத அரட்டை செய்திகளை மீண்டும் பார்க்க, செய்திகளைக் கொண்டுள்ள செய்தித் தட்டைக் காண்பிக்கச் செய்ய <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq> ஐ அழுத்தவும்.</p>
+      </item>
+      <item><p>அம்புக்குறி விசைகளைப் பயன்படுத்தி, நீங்கள் பதிலளிக்க விரும்பும் நபரைக் குறிக்கும் சிறு படத்தைத் தேர்ந்தெடுத்து, <key>Enter</key> ஐ அழுத்தவும்.</p></item>
+      <item><p>உங்கள் பதிலைத் தட்டச்சு செய்யத் தொடங்குங்கள், முடித்ததும் பதிலை அனுப்ப <key>Enter</key> ஐ அழுத்தவும்.</p></item>
+      <item><p>அரட்டை செய்தியை மூட <key>Esc</key> ஐ அழுத்தவும்.</p></item>
+      <item><p>செய்தித் தட்டை மூட, <key>Esc</key> அல்லது <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq> ஐ அழுத்தவும்.</p></item>
+    </steps>
+
+  </section>
+
+
+</page>

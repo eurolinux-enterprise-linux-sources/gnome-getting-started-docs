@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="pl">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Odpowiadanie na wiadomości</title>
+    <link type="seealso" xref="shell-notifications"/>
+    <title role="seealso" type="link">Samouczek odpowiadania na wiadomości</title>
+    <link type="next" xref="gs-use-windows-workspaces"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>gnomepl@aviary.pl</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Odpowiadanie na wiadomości</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="3s">
+           <tt:p>Odpowiadanie na wiadomości</tt:p>
+         </tt:div>
+         <tt:div begin="4s" end="7s">
+           <tt:p>Przesuń kursor myszy na obszar powiadamiania na dole ekranu i kliknij wiadomość.</tt:p>
+           </tt:div>
+         <tt:div begin="7s" end="9s">
+           <tt:p>Zacznij pisać swoją odpowiedź, a po skończeniu naciśnij klawisz <key>Enter</key>, aby ją wysłać.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="11s">
+           <tt:p>Zamknij wiadomość.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Opóźniona odpowiedź</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="20s">
+           <tt:p>Wiadomość w obszarze powiadamiania znika po chwili, jeśli użytkownik nie przesunie do niego kursora myszy.</tt:p>
+         </tt:div>
+         <tt:div begin="20s" end="23s">
+           <tt:p>Aby wrócić do takiej wiadomości, przesuń kursor myszy do obszaru powiadamiania.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
+           <tt:p>Kliknij osobę, która wysłała ci wiadomość.</tt:p>
+         </tt:div>
+         <tt:div begin="25s" end="28s">
+           <tt:p>Zacznij pisać swoją odpowiedź, a po skończeniu naciśnij klawisz <key>Enter</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="29s" end="30s">
+           <tt:p>Zamknij wiadomość.</tt:p>
+         </tt:div>
+         <tt:div begin="36s" end="38s">
+           <tt:p>Aby wyświetlić obszar powiadamiania, naciśnij klawisze <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq></tt:p>
+         </tt:div>
+         <tt:div begin="39s" end="42s">
+           <tt:p>Użyj klawiszy strzałek, aby wybrać osobę, która wysłała tę wiadomość i naciśnij klawisz <key>Enter</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="42s" end="45s">
+           <tt:p>Zacznij pisać swoją odpowiedź, a po skończeniu naciśnij klawisz <key>Enter</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="45s" end="46s">
+           <tt:p>Naciśnij klawisz <key>Esc</key>, aby zamknąć wiadomość.</tt:p>
+         </tt:div>
+         <tt:div begin="46s" end="48s">
+           <tt:p>Aby ukryć obszar powiadamiania, naciśnij klawisz <key>Esc</key>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="respond-to-messages-mouse">
+    <title>Odpowiadanie na wiadomości komunikatora za pomocą myszy</title>
+    
+    <steps>
+      <item><p>Przesuń kursor myszy na obszar powiadamiania na dole ekranu i kliknij wiadomość.</p></item>
+      <item><p>Zacznij pisać swoją odpowiedź, a po skończeniu naciśnij klawisz <key>Enter</key>, aby ją wysłać.</p></item>
+      <item><p>Aby zamknąć wiadomość, kliknij jej przycisk zamknięcia w prawym górnym rogu.</p></item>
+    </steps>
+    <p/>
+  </section>
+  
+  <section id="respond-to-messages-delayed-mouse">
+    <title>Opóźniona odpowiedź na wiadomość komunikatora używając myszy</title>
+    
+    <steps>
+      <item><p>Kiedy wiadomość pojawi się w obszarze powiadamiania, a użytkownik nie przesunie do niego kursora myszy, to ta po chwili zniknie.</p></item>
+      <item><p>Aby wrócić do takiej wiadomości, przesuń kursor myszy do obszaru powiadamiania na samym dole ekranu.</p></item>
+      <item><p>Kiedy obszar powiadamiania się pojawi, kliknij mały obrazek przedstawiający osobę, która wysłała tę wiadomość.</p></item>
+      <item><p>Kiedy wiadomość zostanie wyświetlona, zacznij pisać odpowiedź swoją odpowiedź, a po skończeniu naciśnij klawisz <key>Enter</key>, aby ją wysłać.</p></item>
+      <item><p>Aby zamknąć wiadomość, kliknij jej przycisk zamknięcia w prawym górnym rogu.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="respond-to-messages-delayed-keyboard">
+    <title>Opóźniona odpowiedź na wiadomość komunikatora używając klawiatury</title>
+    <steps>
+      <item><p>Aby wrócić do takiej wiadomości, naciśnij klawisze <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq>, aby wyświetlić obszar powiadamiania zawierający wiadomości.</p>
+      </item>
+      <item><p>Użyj klawiszy strzałek, aby wybrać mały obrazek przedstawiający osobę, która wysłała tę wiadomość i naciśnij klawisz <key>Enter</key>.</p></item>
+      <item><p>Zacznij pisać swoją odpowiedź, a po skończeniu naciśnij klawisz <key>Enter</key>, aby ją wysłać.</p></item>
+      <item><p>Naciśnij klawisz <key>Esc</key>, aby zamknąć wiadomość.</p></item>
+      <item><p>Aby ukryć obszar powiadamiania, naciśnij klawisz <key>Esc</key> lub <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq>.</p></item>
+    </steps>
+
+  </section>
+
+
+</page>

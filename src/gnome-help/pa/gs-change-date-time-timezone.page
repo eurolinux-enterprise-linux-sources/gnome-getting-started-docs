@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="pa">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>ਜੈਕਬ ਸਟਿਈਨੇਰ</name>
+    </credit>
+    <credit type="author">
+      <name>ਪੇਟਰ ਕੋਵਰ</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">ਮਿਤੀ, ਸਮਾਂ ਅਤੇ ਸਮਾਂ-ਖੇਤਰ ਬਦਲੋ</title>
+    <link type="seealso" xref="clock"/>
+    <title role="seealso" type="link">ਮਿਤੀ, ਸਮਾਂ ਅਤੇ ਸਮਾਂ-ਖੇਤਰ ਬਦਲਣ ਲਈ ਸਿਖਲਾਈ</title>
+    <link type="next" xref="gs-change-wallpaper"/>
+  </info>
+
+  <title>ਮਿਤੀ, ਸਮਾਂ ਅਤੇ ਸਮਾਂ-ਖੇਤਰ ਬਦਲੋ</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>ਮਿਤੀ ਤੇ ਸਮਾਂ ਬਦਲਣਾ</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>ਉੱਤੇ ਪੱਟੀ ਵਿੱਚੋਂ ਘੜੀ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</tt:p>
+           </tt:div>
+         <tt:div begin="9s" end="13s">
+           <tt:p><gui>ਸਮਾਂ ਤੇ ਮਿਤੀ ਸੈਟਿੰਗ</gui> ਚੁਣੋ।</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="15s">
+           <tt:p>ਪੱਕਾ ਕਰੋ ਕਿ <gui>ਆਟੋਮੈਟਿਕ ਸਮਾਂ- ਖੇਤਰ</gui> ਬੰਦ ਹੈ।</tt:p>
+         </tt:div>
+         <tt:div begin="15s" end="17s">
+           <tt:p><gui>ਸਮਾਂ ਖੇਤਰ</gui> ਨੂੰ ਕਲਿੱਕ ਕਰੋ।</tt:p>
+         </tt:div>
+         <tt:div begin="17s" end="21s">
+           <tt:p>ਨਕਸ਼ੇ ਉੱਤੇ ਆਪਣੇ ਟਿਕਾਣੇ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</tt:p>
+         </tt:div>
+         <tt:div begin="21s" end="23s">
+           <tt:p><gui>ਬੰਦ ਕਰੋ</gui> ਨੂੰ ਕਲਿੱਕ ਕਰੋ।</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
+           <tt:p>ਵਿੰਡੋ ਬੰਦ ਕਰੋ।</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+  <section id="change-date-time">
+    <title>ਮਿਤੀ, ਸਮਾਂ ਅਤੇ ਸਮਾਂ-ਖੇਤਰ ਬਦਲੋ</title>
+
+  <steps>
+    <item><p>ਉੱਤੇ ਪੱਟੀ ਵਿੱਚ ਘੜੀ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ ਤੇ <gui>ਸਮਾਂ ਤੇ ਮਿਤੀ ਸੈਟਿੰਗ</gui> ਆਈਟਮ ਚੁਣੋ।</p></item>
+    <item><p>ਪੱਕਾ ਕਰੋ ਕਿ <gui>ਆਟੋਮੈਟਿਕ ਸਮਾਂ- ਖੇਤਰ</gui> ਬੰਦ ਹੈ ਅਤੇ ਤਦ ਹੇਠਾਂ <gui>ਸਮਾਂ ਖੇਤਰ</gui> ਆਈਟਮ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p></item>
+    <item><p>ਨਕਸ਼ੇ ਉੱਤੇ ਆਪਣੇ ਟਿਕਾਣੇ ਨੂੰ ਕਲਿੱਕ ਕਰੋ। ਇਹ ਤੁਹਾਡੇ ਮੌਜੂਦਾ ਸ਼ਹਿਰ ਨੂੰ ਚੁਣਦਾ ਹੈ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਨਕਸ਼ ਉੱਤੇ ਦਿੱਤੇ ਖੋਜ ਬਾਕਸ ਵਿੱਚ ਵੀ ਲੱਭ ਸਕਦੇ ਹੋ।</p></item>
+    <item><p><gui>ਮਿਤੀ ਤੇ ਸਮਾਂ ਸੈਟਿੰਗ</gui> ਵਿੰਡੋ ਉੱਤੇ ਵਾਪਿਸ ਜਾਣ ਲਈ <gui>ਬੰਦ ਕਰੋ</gui> ਬਟਨ ਨੂੰ ਕਲਿੱਕ ਕਰੋ।</p></item>
+    <item><p>ਪੱਕਾ ਕਰੋ ਕਿ <gui>ਆਟੋਮੈਟਿਕ ਮਿਤੀ ਤੇ ਸਮਾਂ</gui> ਬੰਦ ਹੈ ਅਤੇ <gui>ਮਿਤੀ ਤੇ ਸਮਾਂ</gui> ਵਿੰਡੋ ਖੋਲ੍ਹਣ ਲਈ ਹੇਠਾਂ <gui>ਮਿਤੀ ਤੇ ਸਮਾਂ</gui> ਆਈਟਮ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ। ਇੱਥੇ ਤੁਸੀਂ <gui>+</gui> ਜਾਂ <gui>-</gui> ਬਟਨਾਂ ਨੂੰ ਕਲਿੱਕ ਕਰਕੇ ਆਪਣੀ ਮਿਤੀ ਤੇ ਸਮਾਂ ਸੈਟਿੰਗ ਬਦਲ ਸਕਦੇ ਹੋ।</p>
+     </item>
+    <item><p><gui>ਮਿਤੀ ਤੇ ਸਮਾਂ ਸੈਟਿੰਗ</gui> ਵਿੰਡੋ ਉੱਤੇ ਵਾਪਿਸ ਜਾਣ ਲਈ <gui>ਬੰਦ ਕਰੋ</gui> ਬਟਨ ਨੂੰ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਵਿੰਡੋ ਦੇ ਉੱਤਲੇ ਸੱਜੇ ਕੋਨੇ ਉੱਤੇ ਗੁਣਾ ਦੇ ਨਿਸ਼ਾਨ ਨੂੰ ਕਲਿੱਕ ਕਰੇ ਉਸ ਵਿੰਡੋ ਨੂੰ ਬੰਦ ਕਰੋ।</p></item>
+  </steps>
+
+  <!-- FIXME: 
+	- explain what time/date does - a reference in further reading?
+  -->
+
+  </section>
+
+</page>

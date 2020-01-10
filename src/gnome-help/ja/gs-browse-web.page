@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="ja">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+<!--Distributors might need to comment out the two elements below if they
+    don't ship GNOME's Web browser by default.-->
+<!--    <link type="guide" xref="getting-started" group="tasks"/>-->
+<!--    <title role="trail" type="link">Browse the web</title>-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Web を閲覧する</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+
+    <steps>
+      <item><p>マウスポインターを画面左上角の<gui>アクティビティ</gui>まで移動させ、<gui>アクティビティ画面</gui>を開きます。</p></item>
+      <item><p>画面左端のバーから、<app>Web</app> ブラウザーのアイコンを選択します。</p></item>
+    </steps>
+
+    <note><p>あるいは、<gui>アクティビティ画面</gui>で <em>web</em> と<link xref="gs-use-system-search">入力</link>してブラウザーを起動することもできます。</p></note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>ブラウザーウィンドウ上部のアドレスバーを選択し、アクセスしたい Web サイトを入力します。</p></item>
+      <item><p>Web サイトを入力すると、閲覧履歴やブックマークから該当するサイトが検索されます。そのため、サイトの正確なアドレスを覚えておく必要はありません。</p>
+        <p>サイトが履歴やブックマークに見つかると、ドロップダウンリストがアドレスバーの下に表示されます。</p></item>
+      <item><p>ドロップダウンリストから、矢印キーを使って簡単にサイトを選択できます。</p>
+      </item>
+      <item><p>サイトを選択して <key>Enter</key> を押すと、そのサイトにアクセスします。</p>
+      </item>
+    </steps>
+
+</page>

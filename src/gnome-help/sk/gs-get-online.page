@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="sk">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Pripojenie k internetu</title>
+    <link type="seealso" xref="net"/>
+    <title role="seealso" type="link">Návod ako sa pripojiť k internetu</title>
+    <link type="next" xref="gs-connect-online-accounts"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Richard Stanislavský</mal:name>
+      <mal:email>kenny.vv@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Pripojenie k internetu</title>
+  
+  <note style="important">
+      <p>You can see the status of your network connection on the right-hand
+       side of the top bar.</p>
+  </note>  
+
+  <section id="going-online-wired">
+
+    <title>Pripojenie k drôtovej sieti</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Ikona sieťového pripojenia na pravej strane horného panelu ukazuje, že nie sme pripojení.</p>
+      <p>The off-line status can be caused by a number of reasons: for
+       example, a network cable has been unplugged, the computer has been set
+       to run in <em>airplane mode</em>, or there are no available Wi-Fi
+       networks in your area.</p>
+      <p>Ak chceme použiť drôtové pripojenie, jednoducho pripojíme kábel počítačovej siete. Počítač sa automatický pokúsi nastaviť sieťové pripojenie.</p>
+      <p>Pokiaľ počítač nastavuje sieťové pripojenie, ikona sieťového pripojenia bude zobrazovať tri bodky.</p></item>
+      <item><p>Keď bude sieťové pripojenie nastavené, ikona sieťového pripojenia sa zmení na symbol zosieťovaného počítača.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="going-online-wifi">
+
+    <title>Connect to a Wi-Fi network</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    
+    <steps>
+    <item><p>To connect to a Wi-Fi (wireless) network, click the status menu at
+     the top right of the screen, and then click <gui>Select Network</gui>.</p>
+    </item>
+    </steps>
+
+     <note style="important">
+       <p>You can only connect to a Wi-Fi network if your computer hardware
+        supports it and you are in an area with Wi-Fi coverage.</p>
+     </note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
+
+    <steps style="continues">
+    <item><p>From the list of available Wi-Fi networks, select the network you
+    want to connect to, and click <gui>Connect</gui> to confirm.</p>
+    <p>Depending on the network configuration, you may be prompted for network
+     credentials.</p></item>
+    </steps>
+
+    <!-- FIXME: links to existing wireless/broadband connection documents. -->
+
+  </section>
+
+</page>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="es">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Responder a mensajes</title>
+    <link type="seealso" xref="shell-notifications"/>
+    <title role="seealso" type="link">Un tutorial para responder a los mensajes</title>
+    <link type="next" xref="gs-use-windows-workspaces"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabiola Tortul</mal:name>
+      <mal:email>fabiolatortul@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Responder a mensajes</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="3s">
+           <tt:p>Responder a los mensajes</tt:p>
+         </tt:div>
+         <tt:div begin="4s" end="7s">
+           <tt:p>Mueva el ratón hacia la bandeja de mensajes que se encuentra en la parte inferior de la pantalla y pulse en el mensaje de chat.</tt:p>
+           </tt:div>
+         <tt:div begin="7s" end="9s">
+           <tt:p>Comience a responder y cuando haya terminado, pulse <key>Intro</key> para enviar la respuesta.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="11s">
+           <tt:p>Cierre el mensaje de chat.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Responder más tarde</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="20s">
+           <tt:p>Si no mueve el ratón en la bandeja de mensajes, después de un rato un mensaje de chat desaparecerá.</tt:p>
+         </tt:div>
+         <tt:div begin="20s" end="23s">
+           <tt:p>Para volver al mensaje no respondido, mueva el ratón hacia la bandeja de mensajes.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
+           <tt:p>Pulse en la persona que le envió el mensaje.</tt:p>
+         </tt:div>
+         <tt:div begin="25s" end="28s">
+           <tt:p>Comience a responder y cuando haya terminado, pulse <key>Intro</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="29s" end="30s">
+           <tt:p>Cierre el mensaje de chat.</tt:p>
+         </tt:div>
+         <tt:div begin="36s" end="38s">
+           <tt:p>Para visualizar la bandeja de mensajes, pulse <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>M</key></keyseq></tt:p>
+         </tt:div>
+         <tt:div begin="39s" end="42s">
+           <tt:p>Utilice las teclas de dirección para seleccionar la persona a quien desee responder, y pulse <key>Intro</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="42s" end="45s">
+           <tt:p>Comience a responder y cuando haya terminado, pulse <key>Intro</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="45s" end="46s">
+           <tt:p>Pulse <key>Esc</key> para cerrar el mensaje de chat.</tt:p>
+         </tt:div>
+         <tt:div begin="46s" end="48s">
+           <tt:p>Para quitar la bandeja de mensajes, pulse <key>Esc</key>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="respond-to-messages-mouse">
+    <title>Responder a un mensaje de chat con el mouse</title>
+    
+    <steps>
+      <item><p>Mueva el ratón hacia la bandeja de mensajes que se encuentra en la parte inferior de la pantalla y pulse en el mensaje de chat.</p></item>
+      <item><p>Comience a responder y cuando haya terminado, pulse <key>Intro</key> para enviar la respuesta.</p></item>
+      <item><p>Para cerrar el mensaje de chat, pulse el botón de cierre que está en la esquina superior derecha del mensaje de chat.</p></item>
+    </steps>
+    <p/>
+  </section>
+  
+  <section id="respond-to-messages-delayed-mouse">
+    <title>Retrasar una respuesta al mensaje de chat con el ratón</title>
+    
+    <steps>
+      <item><p>Cuando aparece un mensaje de chat en la bandeja de mensajes y no mueve el ratón hacia la bandeja de mensajes, el mensaje desaparece después de un rato.</p></item>
+      <item><p>Para volver al mensaje no respondido, mueva el ratón hacia la bandeja de mensajes que está bien en la base de la pantalla.</p></item>
+      <item><p>Cuando aparece la bandeja de mensajes, pulse una pequeña imagen que representa a la persona que le ha enviado el mensaje.</p></item>
+      <item><p>Cuando aparece el mensaje de chat, comience a responder y cuando haya terminado, pulse <key>Intro</key> para enviar la respuesta.</p></item>
+      <item><p>Para cerrar el mensaje de chat, pulse el botón de cierre que está en la esquina superior derecha del mensaje de chat.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="respond-to-messages-delayed-keyboard">
+    <title>Retrasar una respuesta al mensaje de chat con el teclado</title>
+    <steps>
+      <item><p>Para volver a los mensajes de chat no respondidos, pulse <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq> para visualizar la bandeja de mensajes que contiene los mensajes.</p>
+      </item>
+      <item><p>Utilice las teclas de flecha para seleccionar una pequeña imagen que represente a la persona a quien quiera responder y pulse <key>Intro</key>.</p></item>
+      <item><p>Comience a responder y cuando haya terminado, pulse <key>Intro</key> para enviar la respuesta.</p></item>
+      <item><p>Pulse <key>Esc</key> para cerrar el mensaje de chat.</p></item>
+      <item><p>Para quitar la bandeja de entrada, pulse <key>Esc</key> o <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq>.</p></item>
+    </steps>
+
+  </section>
+
+
+</page>

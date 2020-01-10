@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="fr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Modification de la date, de l'heure et du fuseau horaire</title>
+    <link type="seealso" xref="clock"/>
+    <title role="seealso" type="link">Modifier la date, l'heure et le fuseau horaire</title>
+    <link type="next" xref="gs-change-wallpaper"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Modifier la date, l'heure et le fuseau horaire</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Modifier la date et l'heure</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Cliquez sur l'horloge dans la barre supérieure.</tt:p>
+           </tt:div>
+         <tt:div begin="9s" end="13s">
+           <tt:p>Sélectionnez <gui>Paramètres de date et heure</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="15s">
+           <tt:p>Assurez-vous que <gui>Fuseau horaire automatique</gui> est désactivé.</tt:p>
+         </tt:div>
+         <tt:div begin="15s" end="17s">
+           <tt:p>Cliquez sur <gui>Fuseau horaire</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="17s" end="21s">
+           <tt:p>Cliquez sur votre pays sur la carte.</tt:p>
+         </tt:div>
+         <tt:div begin="21s" end="23s">
+           <tt:p>Cliquez sur <gui>Fermer</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
+           <tt:p>Fermez la boîte de dialogue.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+  <section id="change-date-time">
+    <title>Modifier la date, l'heure et le fuseau horaire</title>
+
+  <steps>
+    <item><p>Cliquez sur l'horloge dans la barre supérieure, et sélectionnez <gui>Paramètres de date et heure</gui>.</p></item>
+    <item><p>Assurez-vous que <gui>Fuseau horaire automatique</gui> est désactivé et cliquez ensuite sur <gui>Fuseau horaire</gui> en dessous.</p></item>
+    <item><p>Cliquez sur votre ville sur la carte. Cela sélectionne votre ville actuelle. Vous pouvez aussi la rechercher dans le champ au-dessus de la carte.</p></item>
+    <item><p>Cliquez sur le bouton <gui>Fermer</gui> pour retourner dans la fenêtre <gui>Paramètres de date et heure</gui>.</p></item>
+    <item><p>Assurez-vous que <gui>Date et heure automatiques</gui> est désactivé et cliquez ensuite sur <gui>Date et heure</gui> en-dessous pour ouvrir la boîte de dialogue <gui>Date et heure</gui>. Réglez enfin votre date et heure à l'aide des boutons <gui>+</gui> ou <gui>-</gui>.</p>
+     </item>
+    <item><p>Cliquez sur le bouton <gui>Fermer</gui> pour revenir à la fenêtre <gui>Date et heure</gui> et fermez ensuite la fenêtre en cliquant sur la croix dans le coin en haut à droite.</p></item>
+  </steps>
+
+  <!-- FIXME: 
+	- explain what time/date does - a reference in further reading?
+  -->
+
+  </section>
+
+</page>

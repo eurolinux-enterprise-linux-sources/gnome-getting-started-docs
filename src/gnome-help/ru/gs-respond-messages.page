@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="ru">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Якуб Штайнер (Jakub Steiner)</name>
+    </credit>
+    <credit type="author">
+      <name>Пётр Ковар (Petr Kovar)</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Ответить на сообщения</title>
+    <link type="seealso" xref="shell-notifications"/>
+    <title role="seealso" type="link">Руководство по ответу на сообщения</title>
+    <link type="next" xref="gs-use-windows-workspaces"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрий Мясоедов</mal:name>
+      <mal:email>ymyasoedov@yandex.ru</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ответ на сообщение</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="3s">
+           <tt:p>Ответы на сообщения</tt:p>
+         </tt:div>
+         <tt:div begin="4s" end="7s">
+           <tt:p>Наведите курсор мыши на лоток сообщений в нижней части экрана и нажмите на сообщение.</tt:p>
+           </tt:div>
+         <tt:div begin="7s" end="9s">
+           <tt:p>Начните вводить ответ и, когда закончите, нажмите <key>Enter </key>, чтобы отправить его.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="11s">
+           <tt:p>Закройте сообщение.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Отложенный ответ</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="20s">
+           <tt:p>Сообщение чата в лотке сообщений через некоторое время исчезнет, если вы не наведёте курсор мыши на лоток.</tt:p>
+         </tt:div>
+         <tt:div begin="20s" end="23s">
+           <tt:p>Чтобы вернуться к неотвеченным сообщениям, наведите курсор мыши на лоток сообщений.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
+           <tt:p>Нажмите на собеседника, который отправил вам сообщение.</tt:p>
+         </tt:div>
+         <tt:div begin="25s" end="28s">
+           <tt:p>Начните вводить ответ и, когда закончите, нажмите <key>Enter </key>.</tt:p>
+         </tt:div>
+         <tt:div begin="29s" end="30s">
+           <tt:p>Закройте сообщение.</tt:p>
+         </tt:div>
+         <tt:div begin="36s" end="38s">
+           <tt:p>Чтобы открыть лоток сообщений, используйте комбинацию клавиш: левая <keyseq> <key href="help:gnome-help/keyboard-key-super">Win</key> <key>M</key></keyseq></tt:p>
+         </tt:div>
+         <tt:div begin="39s" end="42s">
+           <tt:p>С помощью клавиш со стрелками выберите собеседника, которому хотите ответить, и нажмите <key>Enter</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="42s" end="45s">
+           <tt:p>Начните вводить ответ и, когда закончите, нажмите <key>Enter </key>.</tt:p>
+         </tt:div>
+         <tt:div begin="45s" end="46s">
+           <tt:p>Чтобы закрыть сообщение, нажмите <key>Esc</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="46s" end="48s">
+           <tt:p>Чтобы скрыть лоток сообщений, нажмите <key>Esc</key>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="respond-to-messages-mouse">
+    <title>Как ответить на сообщение с помощью мыши</title>
+    
+    <steps>
+      <item><p>Наведите курсор мыши на лоток сообщений в нижней части экрана и нажмите на сообщение.</p></item>
+      <item><p>Начните вводить ответ. Закончив, нажмите клавишу <key>Enter</key>, чтобы отправить ответ.</p></item>
+      <item><p>Чтобы закрыть сообщение чата, нажмите кнопку «закрыть» в правом верхнем углу сообщения.</p></item>
+    </steps>
+    <p/>
+  </section>
+  
+  <section id="respond-to-messages-delayed-mouse">
+    <title>Отложенный ответ на сообщение в чате с помощью мыши</title>
+    
+    <steps>
+      <item><p>Если в лотке сообщений у вас появилось сообщение и если курсор мышки не был передвинут на лоток, то сообщение через некоторое время исчезнет. </p></item>
+      <item><p>Чтобы вернуться к неотвеченным сообщениям, передвиньте курсор мышки на лоток сообщений в самом низу экрана.</p></item>
+      <item><p>Когда лоток сообщений появится, нажмите на маленькое изображение, представляющее контакт, который послал вам сообщение.</p></item>
+      <item><p>После появления сообщения, начните вводить ответ. Закончив, нажмите клавишу <key>Enter</key>, чтобы его отослать.</p></item>
+      <item><p>Чтобы закрыть сообщение чата, нажмите кнопку «закрыть» в правом верхнем углу сообщения.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="respond-to-messages-delayed-keyboard">
+    <title>Отложенный ответ на сообщения с помощью клавиатуры</title>
+    <steps>
+      <item><p>Чтобы вернуться к неотвеченным сообщениям, нажмите сочетание клавиш: левая  <keyseq> <key href="help:gnome-help/keyboard-key-super">Win</key><key>M</key> </keyseq>. Будет показан лоток сообщений.</p>
+      </item>
+      <item><p>Чтобы выбрать маленькое изображение, представляющее контакт, который послал вам сообщение, используйте клавиши со стрелками, и затем нажмите <key>Enter</key>.</p></item>
+      <item><p>Начните вводить ответ. Закончив, нажмите клавишу <key>Enter</key>, чтобы отправить ответ.</p></item>
+      <item><p>Чтобы закрыть сообщение, нажмите <key>Esc</key>.</p></item>
+      <item><p>Чтобы покинуть лоток сообщений, нажмите <key>Esc</key> или сочетание клавиш: левая <keyseq> <key href="help:gnome-help/keyboard-key-super">Win</key><key>M</key> </keyseq>.</p></item>
+    </steps>
+
+  </section>
+
+
+</page>

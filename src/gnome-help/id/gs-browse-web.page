@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="id">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+<!--Distributors might need to comment out the two elements below if they
+    don't ship GNOME's Web browser by default.-->
+<!--    <link type="guide" xref="getting-started" group="tasks"/>-->
+<!--    <title role="trail" type="link">Browse the web</title>-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Jelajah web</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Pindahkan penunjuk tetikus Anda ke pojok <gui>Aktivitas</gui> di kiri atas layar untuk menampilkan <gui>Ringkasan Aktivitas</gui>.</p></item>
+      <item><p>Pilih ikon peramban <app>Web</app> dari bilah di kiri layar.</p></item>
+    </steps>
+
+    <note><p>Sebagai alternatif, Anda dapat meluncurkan peramban dengan <link xref="gs-use-system-search">sekedar mengetik</link> <em>web</em> dalam <gui>Ringkasan Aktivitas</gui>.</p></note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Klik pada bilah alamat di bagian atas jendela peramban dan mulailah mengetikkan situs web yang ingin Anda kunjungi.</p></item>
+      <item><p>Mengetikkan suatu situs web memulai pencariannya dalam riwayat peramban dan penanda taut, sehingga Anda tidak perlu mengingat alamat persisnya.</p>
+        <p>Bila situs web tersebut ditemukan dalam riwayat atau penanda taut, suatu daftar drop down ditampilkan di bawah bilah alamat.</p></item>
+      <item><p>Dari daftar drop down, Anda dapat memilih suatu situs web secara cepat memakai tombol panah.</p>
+      </item>
+      <item><p>Setelah Anda memilih suatu situs web, tekan <key>Enter</key> untuk mengunjunginya.</p>
+      </item>
+    </steps>
+
+</page>

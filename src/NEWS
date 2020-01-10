@@ -1,0 +1,234 @@
+==================
+Version 3.14.1.0.2
+==================
+
+* Re-branded videos and SVGs (Jakub Steiner, Petr Kovar)
+
+==================
+Version 3.14.1.0.1
+==================
+
+* Downstream updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Use the correct gs-browse-web page and not gs-switch-tasks
+* Updated translations:
+  ca        (Manel Vidal)
+  gu        (Sweta Kothari)
+  ru        (Yuri Myasoedov)
+
+==============
+Version 3.14.1
+==============
+
+* Updates to Getting Started (Petr Kovar, Jakub Steiner)
+* Updated background music
+* Changed title font
+* Added fr and ru rendered videos
+* Updated translations:
+  hi        (Rajesh Ranjan)
+  pa        (A S Alam)
+
+==============
+Version 3.14.0
+==============
+
+* Updates to Getting Started (Petr Kovar, Jakub Steiner)
+* Updated translations:
+  hi        (Rajesh Ranjan)
+  kn        (Shankar Prasad)
+  ko        (Seong-ho Cho)
+  mr        (Sandeep Sheshrao Shedmake)
+  sv        (Sebastian Rasmussen)
+  te        (Krishnababu Krothapalli)
+
+===============
+Version 3.13.90
+===============
+
+* Updates to Getting Started (Petr Kovar, Jakub Steiner)
+* New soundtrack, see AUTHORS for details (Jakub Steiner)
+
+==============
+Version 3.12.0
+==============
+
+* Updated translations:
+  fr        (AlainLojewski)
+  gl        (Fran Dieguez)
+  id        (Piotr Drąg)
+  lv        (Rūdolfs Mazurs)
+  zh_HK     (Piotr Drąg, Cheng-Chia Tseng)
+  zh_TW     (Piotr Drąg, Cheng-Chia Tseng)
+
+===============
+Version 3.11.90
+===============
+
+* Updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Updated translations:
+ pt_BR (Rafael Ferreira)
+ es (Daniel Mustieles)
+ el (Νικολέτα Παπαναστασίου)
+ te Krishnababu Krothapalli
+ kn (Shankar Prasad)
+ id (Andika Triwidada)
+ de (Benjamin Steinwender)
+
+==============
+Version 3.10.2
+==============
+
+* Updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Updated translations:
+ pl (Piotr Drąg)
+ es (Daniel Mustieles)
+ as (Nilamdyuti Goswami)
+ lv (Rūdolfs Mazurs)
+ pt_BR (Enrico Nicoletto)
+ el (Νικολέτα Παπαναστασίου)
+ hu (Gabor Kelemen)
+ ta (Shantha kumar)
+
+==============
+Version 3.10.1
+==============
+
+* Updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Updated translations:
+ lv (Rūdolfs Mazurs)
+ ca (Gil Forcada)
+ es (Daniel Mustieles)
+
+================
+Version 3.10.0.1
+================
+
+* Included translated videos (Jakub Steiner)
+
+==============
+Version 3.10.0
+==============
+
+* Translation updates
+
+==============
+Version 3.9.90
+==============
+
+* Updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Fix the position of time setting adjuster (Jiro Matsuzawa)
+* Updated translations:
+ es (Daniel Mustieles)
+ pt_BR (Rafael Ferreira, Enrico Nicoletto)
+ sk (Richard Stanislavský, Pavol Šimo)
+ de (Christian Kirbach)
+ mr (Aniket Deshpande, Sandeep Sheshrao Shedmake)
+ el (Dimitris Spingos)
+ gu (Sweta Kothari)
+ as (Nilamdyuti Goswami)
+ ru (Yuri Myasoedov)
+ gl (Fran Diéguez)
+ fr (Alexandre Franke)
+
+=============
+Version 3.8.3
+=============
+
+* Updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Updated translations:
+ ca (Manel Vidal)
+ es (Daniel Mustieles)
+
+=============
+Version 3.8.2
+=============
+
+* Add some basic instructions for translators and distributors to README
+* Add gs-browse-web-firefox.page (not linked from the landing page by default)
+* Other updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Updated translations:
+ pa (A S Alam)
+ el (Dimitris Spingos)
+ hu (Gabor Kelemen)
+ pt_BR (Rafael Ferreira)
+
+=============
+Version 3.8.1
+=============
+
+* Updated translations:
+ it (Luca Ferretti)
+ el (Dimitris Spingos)
+ pt_BR (Enrico Nicoletto)
+ es (Fabiola Tortul)
+ hu (Gabor Kelemen)
+
+===============
+Version 3.8.0.1
+===============
+
+ * bugfix for some truncated video files
+ * updates for gl (Fran Diéguez)
+
+=============
+Version 3.8.0
+=============
+
+* Updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Imported translated videos for the following locales:
+ cs, de, es, gl, pl, pt_BR
+* Updated translations:
+ el (Dimitris Spingos)
+ gl (Fran Diéguez)
+ pl (Piotr Drąg)
+ de (Mario Blättermann)
+ hu (Gabor Kelemen)
+ cs (Petr Kovar)
+ es (Fabiola Tortul)
+
+==============
+Version 3.7.92
+==============
+
+* Updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Updated translations:
+ es (Fabiola Tortul, Daniel Mustieles)
+ pl (Piotr Drąg)
+ el (Dimitris Spingos)
+ pt_BR (Enrico Nicoletto)
+ de (Mario Blättermann)
+
+==============
+Version 3.7.91
+==============
+
+* Getting Started is now installed in the gnome-help installation directory
+* Updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Updated translations:
+ pt_BR (Enrico Nicoletto)
+ es (Fabiola Tortul)
+ gl (Fran Diéguez)
+ pl (Piotr Drąg)
+ el (Dimitris Spingos)
+
+==============
+Version 3.7.90
+==============
+
+* Updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Updated translations:
+ es (Daniel Mustieles, Fabiola Tortul, Nicolás Satragno)
+ id (Andika Triwidada)
+ pt_BR (Enrico Nicoletto, Rafael Ferreira)
+
+=============
+Version 3.7.3
+=============
+
+New snapshot, still a work in progress
+
+=============
+Version 3.7.2
+=============
+
+Initial snapshot, still a work in progress
+
