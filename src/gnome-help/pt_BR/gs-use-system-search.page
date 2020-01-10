@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="pt-BR">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-system-search" xml:lang="pt-BR">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">Usando a pesquisa do sistema</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">Um tutorial sobre o uso da pesquisa do sistema</title>
-    <link type="next" xref="gs-get-online"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Enrico Nicoletto</mal:name>
@@ -30,15 +29,15 @@
 
   <title>Usando a pesquisa do sistema</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    <media type="image" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Abra o <gui>Panorama de atividades</gui> ao pressionar a tecla <key href="help:gnome-help/keyboard-key-super">Super</key>. Comece a digitar para pesquisar.</p>
-    <p>A medida que você escreve, resultados que coincidem com o que digitou aparecerão. O primeiro resultado é sempre destacado e mostrado em cima.</p>
-    <p>Pressione <key>Enter</key> para alternar para o primeiro resultado destacado.</p></item>
+    <item><p>Abra o <gui>Panorama de atividades</gui> ao pressionar a tecla <key href="help:gnome-help/keyboard-key-super">Super</key>.</p></item>
+     <item><p>Comece a digitar para pesquisar. Resultados correspondendo a o que você digitou vão aparecer na medida em que você digita.</p></item>
+     <item><p>O primeiro resultado é sempre destacado e mostrado em cima. Pressione <key>Enter</key> para alternar para o primeiro resultado destacado.</p></item>
     </steps>
     
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <media type="image" src="gs-search2.svg" width="100%"/>
     <steps style="continues">
       <item><p>Itens que podem aparecer nos resultados de pesquisa incluem:</p>
       <list>
@@ -64,7 +63,7 @@
 
       <title>Personalizando resultados de pesquisa</title>
 
-      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+      <media type="image" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
       <p>GNOME permite que você personalize o que você deseja exibir nos resultados de pesquisa no <gui>Panorama de atividades</gui>. Por exemplo, você pode escolher se deseja mostrar resultados de páginas web, fotos ou músicas.</p>
@@ -73,7 +72,8 @@
       <p>Para personalizar o que é exibido nos resultados de pesquisa:</p>
 
       <steps>
-        <item><p>Clique no menu de sistema ao lado direito da barra superior e pressione o botão de configurações no canto inferior do menu.</p></item>
+        <item><p>Clique no seu nome na barra superior.</p></item>
+        <item><p>Selecione o item <gui>Configurações</gui>.</p></item>
         <item><p>Da lista de itens, selecione <gui>Pesquisar</gui>.</p></item>
         <item><p>Na lista de localizações de pesquisa, clique no interruptor de <gui>ON/OFF</gui> próximo à localização de pesquisa que deseja habilitar ou desabilitar.</p>
          </item>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="es">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="es">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -36,24 +36,24 @@
   <title>Cambiar el fondo de pantalla</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Cambiar el fondo de pantalla</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Pulse en el menú del sistema en la parte derecha de la barra superior y pulse el botón de configuración.</tt:p>
+           <tt:p>Pulse su nombre en la barra superior y seleccione <gui>Configuración</gui>.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p>Seleccione <gui>Fondo</gui>.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="13s">
-           <tt:p>Pulse la imagen de fondo actual.</tt:p>
+           <tt:p>Pulse la imagen de su fondo de pantalla actual.</tt:p>
          </tt:div>
          <tt:div begin="13s" end="16s">
-           <tt:p>Pulse en la imagen de fondo que quiera utilizar.</tt:p>
+           <tt:p>Pulse la imagen de fondo que quiera utilizar.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18s">
            <tt:p>Pulse el botón <gui>Seleccionar</gui>.</tt:p>
@@ -70,10 +70,10 @@
     <title>Cambiar el fondo de pantalla</title>
     
     <steps>
-      <item><p>Pulse en el menú del sistema en la parte derecha de la barra superior y pulse el botón de configuración en la parte inferior del menú.</p></item>
+      <item><p>Pulse su nombre en la barra superior y seleccione <gui>Configuración</gui>.</p></item>
       <item><p>De la lista de elementos, seleccione <gui>Fondo</gui>.</p></item>
-      <item><p>Pulse la imagen del fondo de pantalla actual que está en la parte izquierda de la ventana <gui>Fondo</gui>.</p></item>
-      <item><p>Pulse en la imagen de fondo que quiera utilizar.</p></item>
+      <item><p>Pulse la imagen del fondo de pantalla actual que está en el centro de la ventana <gui>Fondo</gui>.</p></item>
+      <item><p>Pulse la imagen de fondo que quiera utilizar.</p></item>
       <item><p>Pulse el botón <gui>Seleccionar</gui>.</p></item>
       <item><p>Cierre la ventana <gui>Fondo</gui> pulsando la cruz que está en la esquina superior derecha de la ventana.</p></item>
     </steps>

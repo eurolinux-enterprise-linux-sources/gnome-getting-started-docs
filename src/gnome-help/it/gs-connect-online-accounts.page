@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="it">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="it">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -14,7 +14,6 @@
     <link type="seealso" xref="accounts"/>
     <title role="seealso" type="link">A tutorial on connecting to online
      accounts</title>
-    <link type="next" xref="gs-change-date-time-timezone"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Luca Ferretti</mal:name>
@@ -25,32 +24,32 @@
 
   <title>Connettere ad account online</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+    <media type="image" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>Click the system menu on the right side of the top bar.</p></item>
-      <item><p>Press the settings button at the bottom of the menu.</p></item>
+      <item><p>Fare clic sul proprio nome nella barra superiore.</p></item>
+      <item><p>Selezionare la voce <gui>Impostazioni</gui>.</p></item>
     </steps>
        
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
+    <media type="image" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>From the list of items, select <gui>Online Accounts</gui>, then
-      click on the <gui>Add an online account</gui> button.</p></item>
+      <item><p>Dall'elenco delle voci, scegliere <gui>Account online</gui>.</p></item>
+      <item><p>Fare clic sul pulsante <gui>Aggiungi un account online</gui>.</p></item>
     </steps>
     
     <note><p>If you have set up an online account before, you can add another
      online account by clicking the <gui>+</gui> button at the bottom left
      corner of the window.</p></note>
     
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+    <media type="image" src="gs-goa3.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>Click the online account you want to use. This will open a new
        window where you can sign in to your online account.</p></item>
     </steps>
       
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
+    <media type="image" src="gs-goa4.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>In most cases, you will have to grant access to the online
@@ -59,7 +58,7 @@
        will have to click the <gui>Grant Access</gui> button.</p></item>
     </steps>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
+    <media type="image" src="gs-goa5.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>Many online accounts let you choose the services you want to use

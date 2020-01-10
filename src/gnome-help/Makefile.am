@@ -2,9 +2,11 @@
 
 HELP_ID = gnome-help
 
-HELP_LINGUAS = as ca cs de el es fr gl gu hi hu id it ja kn ko lv mr pa pl pt_BR ru sk sv ta te zh_HK zh_TW
+HELP_LINGUAS = as ca cs de el es fr gl gu hu id it ja mr pa pl pt_BR ru sk ta
 
 HELP_MEDIA = \
+	figures/classic-timezone.webm \
+	figures/classic-task-switching.webm \
 	figures/gnome-change-wallpaper.webm \
 	figures/gnome-launching-applications.webm \
 	figures/gnome-responding-to-messages.webm \

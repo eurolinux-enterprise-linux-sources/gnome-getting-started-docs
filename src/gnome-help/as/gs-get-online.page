@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="as">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-get-online" xml:lang="as">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,55 +13,50 @@
     <title role="trail" type="link">অনলাইন হওক</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">অনলাইন হবলৈ এটা শিক্ষা</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
   </info>
 
   <title>অনলাইন হওক</title>
   
   <note style="important">
-      <p>আপুনি আপোনাৰ নেটৱাৰ্ক সংযোগৰ অৱস্থা ওপৰ বাৰৰ সোঁ-ফালে দেখা পাব।</p>
+      <p>আপুনি আপোনাৰ নেটৱাৰ্ক সংযোগৰ অৱস্থা ওপৰ বাৰৰ সোঁ-ফালে দেখা পাব, আপোনাৰ নামৰ ওচৰত।</p>
   </note>  
 
   <section id="going-online-wired">
 
     <title>এটা তাঁৰযুক্ত নেটৱাৰ্কৰ সৈতে সংযোগ কৰক</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+    <media type="image" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>ওপৰ বাৰৰ সোঁ-ফালে থকা নেটৱাৰ্ক সংযোগ আইকনে আপুনি অফ-লাইন থকাটো দেখুৱায়।</p>
-      <p>অফলাইন অৱস্থা কেইবাটাও কাৰণৰ বাবে হ'ব পাৰে: উদাহৰণস্বৰূপ, এটা নেটৱাৰ্ক কেবুল আনপ্লাগ্গড্ থাকিব পাৰে, কমপিউটাৰক হয়তো <em>বিমান অৱস্থা</em> ত চলিবলৈ সংহতি কৰা আছে, অথবা আপোনাৰ স্থানত কোনো Wi-Fi নেটৱাৰ্ক উপলব্ধ নাই।</p>
-      <p>যদি আপুনি এটা তাঁৰযুক্ত নেটৱাৰ্ক ব্যৱহাৰ কৰিব বিচাৰে, অনলাইন হ'বলৈ এটা নেটৱাৰ্ক কেবুল প্লাগ কৰক। কমপিউটাৰে আপোনাৰ বাবে স্বচালিতভাৱে নেটৱাৰ্ক সংযোগ সংস্থাপন কৰাৰ চেষ্টা কৰিব।</p>
-      <p>যেতিয়া কমপিউটাৰে আপোনাৰ বাবে এটা নেটৱাৰ্ক সংযোগ সংস্থাপন কৰি থাকে, নেটৱাৰ্ক সংযোগ আইকনে তিনিটা বিন্দু দেখুৱাব।</p></item>
+      <item><p>ওপৰ বাৰৰ সোঁ-ফালে থকা নেটৱাৰ্ক সংযোগ আইকনে আপুনি অফ-লাইন থকাটো দেখুৱায়।</p></item>
+      <item><p>আপোনাৰ নেটৱাৰ্ক সংযোগৰ অৱস্থাৰ বিষয়ে অধিক বিৱৰণ দেখুৱাবলে নেটৱাৰ্ক সংযোগ আইকনত ক্লিক কৰক।</p>
+      <p>অফলাইন অৱস্থা কেইবাটাও কাৰণৰ বাবে হ'ব পাৰে: উদাহৰণস্বৰূপ, এটা নেটৱাৰ্ক কেবুল আনপ্লাগ্গড্ থাকিব পাৰে, কমপিউটাৰক হয়তো <em>বিমান অৱস্থা</em> ত চলিবলৈ সংহতি কৰা আছে, অথবা আপোনাৰ স্থানত কোনো বেতাঁৰ নেটৱাৰ্ক উপলব্ধ নাই।</p></item>
+    </steps>
+
+    <media type="image" src="gs-go-online2.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>যদি আপুনি এটা তাঁৰযুক্ত নেটৱাৰ্ক ব্যৱহাৰ কৰিব বিচাৰে, অনলাইন হ'বলৈ এটা নেটৱাৰ্ক কেবুল প্লাগ কৰক। কমপিউটাৰে আপোনাৰ বাবে স্বচালিতভাৱে নেটৱাৰ্ক সংযোগ সংস্থাপন কৰাৰ চেষ্টা কৰিব।</p>
+      </item>
+      <item><p>যেতিয়া কমপিউটাৰে আপোনাৰ বাবে এটা নেটৱাৰ্ক সংযোগ সংস্থাপন কৰি থাকে, নেটৱাৰ্ক সংযোগ আইকনে তিনিটা বিন্দু দেখুৱাব।</p></item>
       <item><p>যেতিয়া নেটৱাৰ্ক সংযোগ সফলভাৱে সংস্থাপন হৈ যায়, নেটৱাৰ্ক সংযোগ আইকন নেটৱাৰ্ক কমপিউটাৰ চিহ্নলৈ পৰিবৰ্তন হৈ যায়।</p></item>
     </steps>
     
   </section>
 
-  <section id="going-online-wifi">
+  <section id="going-online-other">
 
-    <title>এটা Wi-Fi নেটৱাৰ্কৰ সৈতে সংযোগ কৰক</title>
+    <title>অন্য ধৰণৰ নেটৱাৰ্কৰ সৈতে সংযোগ কৰক</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    <media type="image" src="gs-go-online3.svg" width="100%"/>
     
     <steps>
-    <item><p>এটা Wi-Fi (বেতাঁৰ) নেটৱাৰ্কৰ সৈতে সংযোগ কৰিবলৈ, পৰ্দাৰ ওপৰ সোঁফালে অৱস্থা মেনুত ক্লিক কৰক, আৰু তাৰ পিছত <gui>নেটৱাৰ্ক বাছক</gui> ক্লিক কৰক।</p>
-    </item>
-    </steps>
-
-     <note style="important">
-       <p>আপুনি এটা Wi-Fi নেটৱাৰ্কৰ সৈতে কেৱল তেতিয়াহে সংযোগ কৰিব পাৰিব যদি আপোনাৰ কমপিউটাৰে ইয়াক সমৰ্থন কৰে আৰু আপুনি Wi-Fi পৰিধিৰ স্থানত থাকে।</p>
-     </note>
-
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
-
-    <steps style="continues">
-    <item><p>উপলব্ধ Wi-Fi নেটৱাৰ্কসমূহৰ তালিকাৰ পৰা, আপুনি সংযোগ কৰিব বিচৰা নেটৱাৰ্ক বাছক, আৰু সুনিশ্চিত কৰিবলৈ <gui>সংযোগ কৰক</gui> ক্লিক কৰক।</p>
-    <p>নেটৱাৰ্ক সংযোগৰ ওপৰত নিৰ্ভৰ কৰি, আপোনাক নেটৱাৰ্ক তথ্যসমূহৰ বাবে প্ৰমপ্ট কৰা হব পাৰে।</p></item>
-    </steps>
-
+    <item><p>আপুনি আপোনাৰ কমপিউটাৰৰ সৈতে ব্যৱহাৰ কৰিবলে বিভিন্ন ধৰণৰ নেটৱাৰ্ক সংযোগ উপলব্ধ আছে, উদাহৰণস্বৰূপ, মবাইল ব্ৰডবেণ্ড, অথবা বেতাঁৰ নেটৱাৰ্ক।</p></item>
+    <item><p>আপোনাৰ কমপিউটাৰ হাৰ্ডৱেৰ আৰু নেটৱাৰ্কৰ উপলব্ধতাৰ ওপৰত নিৰ্ভৰ কৰি, আপুনি ওপৰ বাৰৰ সোঁ-ফালে নেটৱাৰ্ক সংযোগ আইকন ক্লিক কৰি আৰু আপুনি সংযোগ কৰিব বিচৰা নেটৱাৰ্ক সংযোগ নিৰ্বাচন কৰি অন্য নেটৱাৰ্ক সংযোগ ধৰণসমূহ বাছিব পাৰিব।</p></item>
+     </steps>
+    
     <!-- FIXME: links to existing wireless/broadband connection documents. -->
-
+    
   </section>
 
 </page>

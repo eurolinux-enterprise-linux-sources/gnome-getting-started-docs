@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="hu">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-respond-messages" xml:lang="hu">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">Üzenetek megválaszolása</title>
     <link type="seealso" xref="shell-notifications"/>
     <title role="seealso" type="link">Ismertető üzenetek megválaszolásához</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Kelemen Gábor</mal:name>
@@ -25,9 +24,9 @@
   <title>Üzenetek megválaszolása</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="3s">
            <tt:p>Üzenetek megválaszolása</tt:p>
@@ -47,20 +46,22 @@
          <tt:div begin="16s" end="20s">
            <tt:p>Ha nem viszi egerét az üzenettálcára, az ott látható csevegési üzenet egy idő után eltűnik.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
+         <tt:div begin="20s" end="24s">
            <tt:p>A megválaszolatlan üzenetekhez való visszatéréshez vigye az egérmutatót az üzenettálcára.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
+         <tt:div begin="25s" end="26s">
            <tt:p>Kattintson az üzenet feladójára.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
+         <tt:div begin="26s" end="28s">
            <tt:p>Kezdje el beírni a válaszát, amikor kész, nyomja meg az <key>Enter</key> billentyűt.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="30s">
            <tt:p>Zárja be a csevegési üzenetet.</tt:p>
          </tt:div>
          <tt:div begin="36s" end="38s">
-           <tt:p>Az üzenettálca megjelenítéséhez nyomja meg a <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>M</key></keyseq> billentyűkombinációt. </tt:p>
+           <tt:p>To show the message tray, press <keyseq>
+           <key href="help:gnome-help/keyboard-key-super">Super</key>
+           <key>M</key></keyseq></tt:p>
          </tt:div>
          <tt:div begin="39s" end="42s">
            <tt:p>A nyílbillentyűk segítségével válassza ki, hogy kinek szeretne válaszolni, majd nyomja meg az <key>Enter</key> billentyűt.</tt:p>
@@ -106,12 +107,16 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>Csevegési üzenet késleltetett megválaszolása billentyűzettel</title>
     <steps>
-      <item><p>A megválaszolatlan csevegési üzeneteire való visszatéréshez nyomja meg a <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq> billentyűkombinációt az üzeneteket tartalmazó üzenettálca megjelenítéséhez.</p>
+      <item><p>To get back to your unanswered chat messages, press <keyseq>
+      <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key>
+      </keyseq> to display the message tray that contains the messages.</p>
       </item>
       <item><p>A nyílbillentyűk segítségével válassza ki azon személy kis képét, akinek válaszolni szeretne, majd nyomja meg az <key>Enter</key> billentyűt.</p></item>
       <item><p>Kezdje el beírni a válaszát, majd amikor kész, nyomja meg az <key>Enter</key> billentyűt az elküldéséhez.</p></item>
       <item><p>A csevegési üzenet bezárásához nyomja meg az <key>Esc</key> billentyűt.</p></item>
-      <item><p>Az üzenettálca elrejtéséhez nyomja meg az <key>Esc</key> billentyűt vagy a <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq> billentyűkombinációt.</p></item>
+      <item><p>To dismiss the message tray, press <key>Esc</key> or <keyseq>
+      <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key>
+      </keyseq>.</p></item>
     </steps>
 
   </section>

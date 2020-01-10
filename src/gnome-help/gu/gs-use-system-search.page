@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="gu">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-system-search" xml:lang="gu">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,23 +13,19 @@
     <title role="trail" type="link">સિસ્ટમ શોધ વાપરો</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">સિસ્ટમ શોધને વાપરવા પર માર્ગદર્શિકા</title>
-    <link type="next" xref="gs-get-online"/>
   </info>
 
   <title>સિસ્ટમ શોધને વાપરો</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    <media type="image" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Open the <gui>Activities Overview</gui> by pressing the
-    <key href="help:gnome-help/keyboard-key-super">Super</key> key. Start typing
-    to search.</p>
-    <p>Results matching what you have typed will appear as you type. The first
-    result is always highlighted and shown at the top.</p>
-    <p>Press <key>Enter</key> to switch to the first highlighted result.</p></item>
+    <item><p><key href="help:gnome-help/keyboard-key-super">Super</key> કીને દબાવીને <gui>પ્રવૃત્તિ ઝાંખી</gui> ને ખોલો.</p></item>
+     <item><p>શોધવા માટે ટાઇપ કરવાનું શરૂ કરો. પરિણામો બંધબેસી રહ્યા છે જે તમે ટાઇપ કર્યુ છે તે દેખાશે.</p></item>
+     <item><p>પ્રથન પરિણામ હંમેશા પ્રકાશિત દેખાય છે અને ટોચે બતાવેલ છે. પહેલા પ્રકાશિત થયેલ પરિણામને બદલવા માટે <key>Enter</key> ને દબાવો.</p></item>
     </steps>
     
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <media type="image" src="gs-search2.svg" width="100%"/>
     <steps style="continues">
       <item><p>વસ્તુઓ કે જે શોધ પરિણામોમાં દેખાઇ શકે છે તેને અહિં સમાવેલ છે:</p>
       <list>
@@ -55,7 +51,7 @@
 
       <title>શોધ પરિમાણોને વૈવિધ્યપૂર્ણ બનાવો</title>
 
-      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+      <media type="image" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
       <p>GNOME ને તમે વૈવિધ્યપૂર્ણ બનવા દો જે તમે <gui>પ્રવૃત્તિ ઝાંખી</gui> માં શોધ પરિણામોમાં દેખવા માંગો છો. ઉદાહરણ તરીકે, તમે પસંદ કરી શકો છો ક્યાંતો તમે વેબસાઇટ, ફોટો, અથવા સંગીત માટે પરિણામો ને બતાવવા ઇચ્છો છો. </p>
@@ -64,8 +60,8 @@
       <p>વૈવિધ્યપૂર્ણ બનાવવા માટે શોધ પરિણામોમાં શું દર્શાવેલ છે:</p>
 
       <steps>
-        <item><p>Click the system menu on the right side of the top bar and press
-         the settings button at the bottom of the menu.</p></item>
+        <item><p>ટોચની પટ્ટી પર તમારાં નામ પર ક્લિક કરો.</p></item>
+        <item><p><gui>સુયોજન</gui> વસ્તુને પસંદ કરો.</p></item>
         <item><p>વસ્તુઓની યાદીમાંથી, <gui>શોધો</gui> પસંદ કરો.</p></item>
         <item><p>શોધ સ્થાનોની યાદીમાં, સ્થાનને શોધવા માટે આગળ <gui>ચાલુ/બંધ</gui> સ્વીચ પર ક્લિક કરો જે તમે સક્રિય અથવા નિષ્ક્રિય કરવા માંગો છો.</p>
          </item>

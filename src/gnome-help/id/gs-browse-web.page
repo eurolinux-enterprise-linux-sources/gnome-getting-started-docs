@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="id">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-browse-web" xml:lang="id">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -23,24 +23,32 @@
 
   <title>Jelajah web</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+    <media type="image" src="gs-web-browser1.svg" width="100%"/>
 
     <steps>
       <item><p>Pindahkan penunjuk tetikus Anda ke pojok <gui>Aktivitas</gui> di kiri atas layar untuk menampilkan <gui>Ringkasan Aktivitas</gui>.</p></item>
-      <item><p>Pilih ikon peramban <app>Web</app> dari bilah di kiri layar.</p></item>
+      <item><p>Select the <app>Web</app> browser icon from the bar on the
+      left-hand side of the screen.</p></item>
     </steps>
 
-    <note><p>Sebagai alternatif, Anda dapat meluncurkan peramban dengan <link xref="gs-use-system-search">sekedar mengetik</link> <em>web</em> dalam <gui>Ringkasan Aktivitas</gui>.</p></note>
+    <note><p>Alternatively, you can launch the browser by <link xref="gs-use-system-search">just typing</link> <em>web</em> in the
+    <gui>Activities Overview</gui>.</p></note>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+    <media type="image" src="gs-web-browser2.svg" width="100%"/>
 
     <steps style="continues">
-      <item><p>Klik pada bilah alamat di bagian atas jendela peramban dan mulailah mengetikkan situs web yang ingin Anda kunjungi.</p></item>
-      <item><p>Mengetikkan suatu situs web memulai pencariannya dalam riwayat peramban dan penanda taut, sehingga Anda tidak perlu mengingat alamat persisnya.</p>
-        <p>Bila situs web tersebut ditemukan dalam riwayat atau penanda taut, suatu daftar drop down ditampilkan di bawah bilah alamat.</p></item>
-      <item><p>Dari daftar drop down, Anda dapat memilih suatu situs web secara cepat memakai tombol panah.</p>
+      <item><p>Click the address bar at the top of the browser window and start
+       typing in the website you want to visit.</p></item>
+      <item><p>Typing in a website starts searching for it in the
+       browser history and bookmarks, so you do not need to remember the exact
+        address.</p>
+        <p>If the website is found in the history or bookmarks, a drop-down list
+         is shown below the address bar.</p></item>
+      <item><p>From the drop-down list, you can quickly select a website
+       using the arrow keys.</p>
       </item>
-      <item><p>Setelah Anda memilih suatu situs web, tekan <key>Enter</key> untuk mengunjunginya.</p>
+      <item><p>After you have selected a website, press <key>Enter</key> to
+       visit it.</p>
       </item>
     </steps>
 

@@ -1,133 +1,40 @@
-==================
-Version 3.14.1.0.2
-==================
+=================
+Version 3.8.3.0.2
+=================
 
-* Re-branded videos and SVGs (Jakub Steiner, Petr Kovar)
-
-==================
-Version 3.14.1.0.1
-==================
-
-* Downstream updates to Getting Started (Jakub Steiner, Petr Kovar)
-* Use the correct gs-browse-web page and not gs-switch-tasks
+* Drop the intro video (rhbz#982731)
 * Updated translations:
-  ca        (Manel Vidal)
-  gu        (Sweta Kothari)
-  ru        (Yuri Myasoedov)
-
-==============
-Version 3.14.1
-==============
-
-* Updates to Getting Started (Petr Kovar, Jakub Steiner)
-* Updated background music
-* Changed title font
-* Added fr and ru rendered videos
-* Updated translations:
-  hi        (Rajesh Ranjan)
-  pa        (A S Alam)
-
-==============
-Version 3.14.0
-==============
-
-* Updates to Getting Started (Petr Kovar, Jakub Steiner)
-* Updated translations:
-  hi        (Rajesh Ranjan)
-  kn        (Shankar Prasad)
-  ko        (Seong-ho Cho)
-  mr        (Sandeep Sheshrao Shedmake)
-  sv        (Sebastian Rasmussen)
-  te        (Krishnababu Krothapalli)
-
-===============
-Version 3.13.90
-===============
-
-* Updates to Getting Started (Petr Kovar, Jakub Steiner)
-* New soundtrack, see AUTHORS for details (Jakub Steiner)
-
-==============
-Version 3.12.0
-==============
-
-* Updated translations:
-  fr        (AlainLojewski)
-  gl        (Fran Dieguez)
-  id        (Piotr Drąg)
-  lv        (Rūdolfs Mazurs)
-  zh_HK     (Piotr Drąg, Cheng-Chia Tseng)
-  zh_TW     (Piotr Drąg, Cheng-Chia Tseng)
-
-===============
-Version 3.11.90
-===============
-
-* Updates to Getting Started (Jakub Steiner, Petr Kovar)
-* Updated translations:
- pt_BR (Rafael Ferreira)
- es (Daniel Mustieles)
- el (Νικολέτα Παπαναστασίου)
- te Krishnababu Krothapalli
- kn (Shankar Prasad)
- id (Andika Triwidada)
- de (Benjamin Steinwender)
-
-==============
-Version 3.10.2
-==============
-
-* Updates to Getting Started (Jakub Steiner, Petr Kovar)
-* Updated translations:
- pl (Piotr Drąg)
- es (Daniel Mustieles)
  as (Nilamdyuti Goswami)
- lv (Rūdolfs Mazurs)
+ gu (Sweta Kothari)
+ de (Christian Kirbach)
+ mr (Sandeep Sheshrao Shedmake)
+ ru (Yuri Myasoedov)
+ gl (Fran Diéguez)
+ ja (Jiro Matsuzawa)
  pt_BR (Enrico Nicoletto)
- el (Νικολέτα Παπαναστασίου)
- hu (Gabor Kelemen)
+ fr (Alexandre Franke)
+ el (Dimitris Spingos)
+ pl (Piotr Drąg)
  ta (Shantha kumar)
 
-==============
-Version 3.10.1
-==============
+=================
+Version 3.8.3.0.1
+=================
 
-* Updates to Getting Started (Jakub Steiner, Petr Kovar)
-* Updated translations:
- lv (Rūdolfs Mazurs)
- ca (Gil Forcada)
- es (Daniel Mustieles)
-
-================
-Version 3.10.0.1
-================
-
-* Included translated videos (Jakub Steiner)
-
-==============
-Version 3.10.0
-==============
-
-* Translation updates
-
-==============
-Version 3.9.90
-==============
-
-* Updates to Getting Started (Jakub Steiner, Petr Kovar)
+* Downstream updates to Getting Started (Jakub Steiner, Petr Kovar):
+ Use EL brand for media files
+ Use the correct gs-browse-web page and do not use gs-switch-tasks
+ Add videos and content for classic mode
 * Fix the position of time setting adjuster (Jiro Matsuzawa)
 * Updated translations:
  es (Daniel Mustieles)
- pt_BR (Rafael Ferreira, Enrico Nicoletto)
+ pt_BR (Rafael Ferreira)
  sk (Richard Stanislavský, Pavol Šimo)
  de (Christian Kirbach)
- mr (Aniket Deshpande, Sandeep Sheshrao Shedmake)
+ mr (Aniket Deshpande)
  el (Dimitris Spingos)
  gu (Sweta Kothari)
  as (Nilamdyuti Goswami)
- ru (Yuri Myasoedov)
- gl (Fran Diéguez)
- fr (Alexandre Franke)
 
 =============
 Version 3.8.3

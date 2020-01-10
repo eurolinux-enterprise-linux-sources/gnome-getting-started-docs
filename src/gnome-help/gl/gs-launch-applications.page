@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-launch-applications" xml:lang="gl">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-launch-applications" xml:lang="gl">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -15,22 +15,21 @@
     <title role="trail" type="link">Launch applications</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">A tutorial on launching applications</title>
-    <link type="next" xref="gs-switch-tasks"/>
 -->
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Fran Diéguez</mal:name>
       <mal:email>frandieguez@gnome.org</mal:email>
-      <mal:years>2013-2014.</mal:years>
+      <mal:years>2013.</mal:years>
     </mal:credit>
   </info>
 
   <title>Iniciar aplicativos</title>
 
   <ui:overlay width="812" height="452">
-   <media type="video" its:translate="no" src="figures/gnome-launching-applications.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-launching-apps.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+   <media type="video" src="figures/gnome-launching-applications.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-launching-apps.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Iniciando aplicativos</tt:p>

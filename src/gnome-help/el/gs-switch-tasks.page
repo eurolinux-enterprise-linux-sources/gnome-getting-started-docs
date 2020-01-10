@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-switch-tasks" version="1.0 if/1.0" xml:lang="el">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-switch-tasks" xml:lang="el">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">Εναλλαγή εργασιών</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Ένα μάθημα στην αλλαγή εργασιών</title>
-    <link type="next" xref="gs-respond-messages"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name> Δημήτρης Σπίγγος</mal:name>
@@ -30,19 +29,20 @@
 
   <title>Εναλλαγή εργασιών</title>
 
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-task-switching.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-task-switching.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-task-switching.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-task-switching.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Αλλαγή εργασιών</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
            <tt:p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>Ενέργειες</gui> στα πάνω αριστερά της οθόνης.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Πατήστε σε ένα παράθυρο για να αλλάξετε σε αυτήν την εργασία.</tt:p>
          </tt:div>
@@ -80,6 +80,55 @@
      </tt:tt>
   </media>
   </ui:overlay>
+
+</if:when>
+<if:when test="platform:gnome-classic">
+
+  <ui:overlay width="812" height="452">
+  <media type="video" src="figures/classic-task-switching.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-task-switching.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Αλλαγή εργασιών</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της αριστερής πλευράς της οθόνης, πάρτε τη γραμμή τίτλου του παραθύρου και μεταφέρτε την στα αριστερά.</tt:p>
+         </tt:div>
+         <tt:div begin="14s" end="16s">
+           <tt:p>Όταν η μισή οθόνη επισημανθεί, ελευθερώστε το παράθυρο.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18">
+           <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της δεξιάς πλευράς, πάρτε τη γραμμή τίτλου του παραθύρου και μεταφέρτε την στα δεξιά.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="20s">
+           <tt:p>Όταν η μισή οθόνη επισημανθεί, ελευθερώστε το παράθυρο.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="27s">
+           <tt:p>Πατήστε το <keyseq> <key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key><key>στηλοθέτης</key></keyseq> για να εμφανίσετε τον <gui>εναλλάκτη παραθύρου</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="27s" end="29s">
+           <tt:p>Απελευθερώστε το <key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key> για να επιλέξτε το επόμενο επισημασμένο παράθυρο.</tt:p>
+         </tt:div>
+         <tt:div begin="29s" end="32s">
+           <tt:p>Για να περιηγηθείτε στη λίστα των ανοικτών παραθύρων, μην αφήσετε το <key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key>, αλλά κρατήστε το πατημένο και πατήστε <key>στηλοθέτης</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="37s">
+           <tt:p>Πατήστε το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">λογότυπου</key> για να εμφανίσετε την <gui>Επισκόπηση ενεργειών</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="37s" end="40s">
+           <tt:p>Αρχίστε να πληκτρολογείτε το όνομα της εφαρμογής στην οποία θέλετε να μεταβείτε.</tt:p>
+         </tt:div>
+         <tt:div begin="40s" end="43s">
+           <tt:p>Όταν η εφαρμογή εμφανιστεί ως το πρώτο αποτέλεσμα, πατήστε <key>Εισαγωγή</key> για να αλλάξετε σε αυτό.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+</if:when>
+</if:choose>
 
   <section id="switch-tasks-overview">
     <title>Εναλλαγή εργασιών</title>

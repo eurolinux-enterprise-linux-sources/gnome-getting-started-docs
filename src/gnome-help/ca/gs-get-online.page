@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="ca">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-get-online" xml:lang="ca">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -10,64 +10,74 @@
       <name>Petr Kovar</name>
     </credit>
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Connecteu-vos</title>
+    <title role="trail" type="link">Get online</title>
     <link type="seealso" xref="net"/>
-    <title role="seealso" type="link">Un programa s'aprenentatge per connectar-se a Internet</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <title role="seealso" type="link">A tutorial on getting online</title>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Manel Vidal</mal:name>
       <mal:email>verduler@gmail.com</mal:email>
-      <mal:years>2013, 2014/t</mal:years>
+      <mal:years>2013	</mal:years>
     </mal:credit>
   </info>
 
-  <title>Connecteu-vos</title>
+  <title>Get online</title>
   
   <note style="important">
-      <p>Podeu veure l'estat de la connexió a la xarxa a la part dreta de la barra superior.</p>
+      <p>You can see the status of your network connection on the right-hand
+       side of the top bar, next to your name.</p>
   </note>  
 
   <section id="going-online-wired">
 
-    <title>Connecteu-vos a una xarxa amb fil</title>
+    <title>Connect to a wired network</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+    <media type="image" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>La icona de l'estat de la connexió a la xarxa situada a la part dreta de la barra superior indica que esteu fora de línia.</p>
-      <p>L'estat de fora de línia pot ser degut a diverses causes, per exemple: que el cable de xarxa estigui desconnectat, que l'ordinador estigui en <em>mode d'avió</em> o que no hi hagi cap xarxa sense fil disponible al vostre voltant.</p>
-      <p>Si voleu utilitzar una connexió amb fil, només cal que connecteu un cable de xarxa. L'ordinador intentarà configurar la connexió de xarxa automàticament.</p>
-      <p>Mentre s'està configurant la connexió de xarxa, la icona de l'estat de la connexió a la xarxa mostra tres punts.</p></item>
-      <item><p>Un cop s'ha configurat correctament la connexió de xarxa, la icona de l'estat de la connexió a la xarxa canvia per mostrar el símbol d'un ordinador connectat en xarxa.</p></item>
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are off-line.</p></item>
+      <item><p>Click the network connection icon to show more details about
+       the status of your network connection.</p>
+      <p>The off-line status can be caused by a number of reasons: for
+       example, a network cable has been unplugged, the computer has been set
+       to run in <em>airplane mode</em>, or there are no available wireless
+       networks in your area.</p></item>
+    </steps>
+
+    <media type="image" src="gs-go-online2.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>If you want to use a wired connection, just plug in a network
+      cable to go online. The computer will try to set up the network
+      connection for you automatically.</p>
+      </item>
+      <item><p>While the computer sets up a network connection for you, the
+      network connection icon shows three dots.</p></item>
+      <item><p>Once the network connection has been successfully set up, the
+      network connection icon changes to the networked computer symbol.</p></item>
     </steps>
     
   </section>
 
-  <section id="going-online-wifi">
+  <section id="going-online-other">
 
-    <title>Connecteu-vos a una xarxa sense fil</title>
+    <title>Connect to other types of networks</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    <media type="image" src="gs-go-online3.svg" width="100%"/>
     
     <steps>
-    <item><p>Per connectar-vos a una xarxa sense fil (Wi-Fi), primer feu clic al menú del sistema situat a la part dreta del la barra superior, després feu clic a <gui>Wi-Fi</gui> i finalment feu clic a <gui>Trieu una xarxa</gui>.</p>
-    </item>
-    </steps>
-
-     <note style="important">
-       <p>Només us podeu connectar a una xarxa sense fil si el vostre maquinari ho suporta i si us trobeu dins d'una zona amb cobertura d'una xarxa sense fil.</p>
-     </note>
-
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
-
-    <steps style="continues">
-    <item><p>De la llista de xarxes sense fil disponibles, seleccioneu la xarxa a la que us voleu connectar i per confirmar, feu clic a <gui>Connecta</gui>.</p>
-    <p>En funció de quina sigui la configuració de la xarxa, se us demanaran les credencials per connectar-vos-hi.</p></item>
-    </steps>
-
+    <item><p>There are various types of network connections that you can use
+     with your computer, for example, mobile broadband, or wireless networks.
+     </p></item>
+    <item><p>Depending on your computer hardware and the networks availability,
+     you can choose other connection types by clicking the network connection
+     icon on the right-hand side of the top bar and selecting the network
+     connection you want to connect to.</p></item>
+     </steps>
+    
     <!-- FIXME: links to existing wireless/broadband connection documents. -->
-
+    
   </section>
 
 </page>

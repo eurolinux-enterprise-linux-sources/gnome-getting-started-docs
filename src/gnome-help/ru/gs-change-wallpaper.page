@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="ru">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="ru">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,42 +13,29 @@
     <title role="trail" type="link">Смена обоев</title>
     <link type="seealso" xref="look-background"/>
     <title role="seealso" type="link">Как сменить обои на рабочем столе</title>
-  
-    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Юлия Дронова</mal:name>
-      <mal:email>juliette.tux@gmail.com</mal:email>
-      <mal:years>2014</mal:years>
-    </mal:credit>
-  
-    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Юрий Мясоедов</mal:name>
-      <mal:email>ymyasoedov@yandex.ru</mal:email>
-      <mal:years>2014</mal:years>
-    </mal:credit>
   </info>
 
   <title>Сменить обои</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Смена фона рабочего стола</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Click the system menu on the right side of the top bar and press
-           the settings button.</tt:p>
+           <tt:p>Нажмите на своё имя в верхней панели и выберите <gui>Параметры</gui>.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p>Выберите <gui>Фон</gui>.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="13s">
-           <tt:p>Click the current background image.</tt:p>
+           <tt:p>Нажмите на изображение, используемое в данный момент в качестве обоев.</tt:p>
          </tt:div>
          <tt:div begin="13s" end="16s">
-           <tt:p>Click the background image you want to use.</tt:p>
+           <tt:p>Нажмите на изображение, которое нужно использовать</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18s">
            <tt:p>Нажмите кнопку <gui>Выбрать</gui>.</tt:p>
@@ -65,12 +52,10 @@
     <title>Сменить обои</title>
     
     <steps>
-      <item><p>Click the system menu on the right side of the top bar and press
-      the settings button at the bottom of the menu.</p></item>
+      <item><p>Нажмите на своё имя в верхней панели и выберите <gui>Параметры</gui>.</p></item>
       <item><p>В списке элементов выберите <gui>Фон</gui>.</p></item>
-      <item><p>Click the current background image on the left side of the
-      <gui>Background</gui> window.</p></item>
-      <item><p>Click the background image you want to use.</p></item>
+      <item><p>Нажмите на используемое в данный момент изображение в центре окна <gui>Фон</gui>.</p></item>
+      <item><p>Нажмите на изображение, которое нужно использовать</p></item>
       <item><p>Нажмите кнопку <gui>Выбрать</gui>.</p></item>
       <item><p>Закройте окно <gui>Фон</gui>, нажав на крестик в правом верхнем углу окна.</p></item>
     </steps>

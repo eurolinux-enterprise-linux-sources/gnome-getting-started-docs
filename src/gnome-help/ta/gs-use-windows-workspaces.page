@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="ta">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="ta">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">சாளரங்கள் மற்றும் பணிவெளிகளைப் பயன்படுத்து</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">சாளரங்களையும் பணிவெளிகளையும் பயன்படுத்துவது பற்றிய பயிற்சி</title>
-    <link type="next" xref="gs-use-system-search"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Dr. T. Vasudevan</mal:name>
@@ -25,9 +24,9 @@
   <title>சாளரங்கள் மற்றும் பணிவெளிகளைப் பயன்படுத்து</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-windows-and-workspaces.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>சாளரங்கள் மற்றும் பணிவெளிகள்</tt:p>
@@ -56,22 +55,22 @@
          <tt:div begin="44s" end="48s">
            <tt:p>திரையில் பாதி தனிப்படுத்தப்பட்டிருக்கும் போது, சாளரத்தை விடுவிக்கவும்.</tt:p>
          </tt:div>
-         <tt:div begin="54s" end="60s">
+         <tt:div begin="52s" end="58s">
            <tt:p>ஒரு சாளரத்தை விசைப்பலகையைப் பயன்படுத்தி பெரிதாக்க <key href="help:gnome-help/keyboard-key-super">Super</key> விசையைப் பிடித்தபடி <key>↑</key> ஐ அழுத்தவும்.</tt:p>
          </tt:div>
-         <tt:div begin="61s" end="66s">
+         <tt:div begin="59s" end="63s">
            <tt:p>ஒரு சாளரத்தை அதன் பெரிதாக்கப்படாத அளவுக்கு மீட்டமைக்க, <key href="help:gnome-help/keyboard-key-super">Super</key> விசையை பிடித்தவாறு <key>↓</key> ஐ அழுத்தவும்.</tt:p>
          </tt:div>
-         <tt:div begin="66s" end="73s">
+         <tt:div begin="63s" end="68s">
            <tt:p>திரையின் வலப்புறம் பக்கவாட்டில் ஒரு சாளரத்தைப் பெரிதாக்க, <key href="help:gnome-help/keyboard-key-super">Super</key> விசையைப் பிடித்தவாறு <key>→</key> ஐ அழுத்தவும்.</tt:p>
          </tt:div>
-         <tt:div begin="76s" end="82s">
+         <tt:div begin="69s" end="72s">
            <tt:p>திரையின் இடப்புறம் பக்கவாட்டில் ஒரு சாளரத்தைப் பெரிதாக்க, <key href="help:gnome-help/keyboard-key-super">Super</key> விசையைப் பிடித்தவாறு <key>←</key> ஐ அழுத்தவும்.</tt:p>
          </tt:div>
-         <tt:div begin="83s" end="89s">
+         <tt:div begin="73s" end="76s">
            <tt:p>தற்போதைய பணிவெளிக்குக் கீழே உள்ள ஒரு பணிவெளிக்கு நகர, <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Down</key></keyseq> ஐ அழுத்தவும்.</tt:p>
          </tt:div>
-         <tt:div begin="90s" end="97s">
+         <tt:div begin="77s" end="80s">
            <tt:p>தற்போதைய பணிவெளிக்கு மேலே உள்ள ஒரு பணிவெளிக்கு நகர, <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Up</key></keyseq> ஐ அழுத்தவும்.</tt:p>
          </tt:div>
        </tt:body>

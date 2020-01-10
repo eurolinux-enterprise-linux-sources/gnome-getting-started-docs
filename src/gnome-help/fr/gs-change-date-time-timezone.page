@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="fr">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-date-time-timezone" xml:lang="fr">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,12 +13,11 @@
     <title role="trail" type="link">Modification de la date, de l'heure et du fuseau horaire</title>
     <link type="seealso" xref="clock"/>
     <title role="seealso" type="link">Modifier la date, l'heure et le fuseau horaire</title>
-    <link type="next" xref="gs-change-wallpaper"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Alain Lojewski</mal:name>
       <mal:email>allomervan@gmail.com</mal:email>
-      <mal:years>2013-2014</mal:years>
+      <mal:years>2013</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -30,33 +29,30 @@
 
   <title>Modifier la date, l'heure et le fuseau horaire</title>
 
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-timezone.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Modifier la date et l'heure</tt:p>
          </tt:div>
-         <tt:div begin="6s" end="9s">
+         <tt:div begin="6s" end="8s">
            <tt:p>Cliquez sur l'horloge dans la barre supérieure.</tt:p>
            </tt:div>
-         <tt:div begin="9s" end="13s">
+         <tt:div begin="8s" end="13s">
            <tt:p>Sélectionnez <gui>Paramètres de date et heure</gui>.</tt:p>
          </tt:div>
-         <tt:div begin="13s" end="15s">
-           <tt:p>Assurez-vous que <gui>Fuseau horaire automatique</gui> est désactivé.</tt:p>
-         </tt:div>
-         <tt:div begin="15s" end="17s">
-           <tt:p>Cliquez sur <gui>Fuseau horaire</gui>.</tt:p>
-         </tt:div>
-         <tt:div begin="17s" end="21s">
+         <tt:div begin="13s" end="16s">
            <tt:p>Cliquez sur votre pays sur la carte.</tt:p>
          </tt:div>
-         <tt:div begin="21s" end="23s">
-           <tt:p>Cliquez sur <gui>Fermer</gui>.</tt:p>
+         <tt:div begin="16s" end="20s">
+           <tt:p>Utilisez les flèches correspondantes pour régler l'heure, les minutes et la date.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
+         <tt:div begin="21s" end="23s">
            <tt:p>Fermez la boîte de dialogue.</tt:p>
          </tt:div>
        </tt:body>
@@ -64,17 +60,59 @@
   </media>
   </ui:overlay>
 
+</if:when>
+<if:when test="platform:gnome-classic">
+
+  <ui:overlay width="812" height="452">
+  <media type="video" src="figures/classic-timezone.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Modifier la date et l'heure</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="8s">
+           <tt:p>Cliquez sur l'horloge dans la barre supérieure.</tt:p>
+           </tt:div>
+         <tt:div begin="8s" end="13s">
+           <tt:p>Sélectionnez <gui>Paramètres de date et heure</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="16s">
+           <tt:p>Cliquez sur votre pays sur la carte.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="20s">
+           <tt:p>Utilisez les flèches correspondantes pour régler l'heure, les minutes et la date.</tt:p>
+         </tt:div>
+         <tt:div begin="21s" end="23s">
+           <tt:p>Fermez la boîte de dialogue.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+</if:when>
+</if:choose>
+
   <section id="change-date-time">
     <title>Modifier la date, l'heure et le fuseau horaire</title>
 
   <steps>
-    <item><p>Cliquez sur l'horloge dans la barre supérieure, et sélectionnez <gui>Paramètres de date et heure</gui>.</p></item>
-    <item><p>Assurez-vous que <gui>Fuseau horaire automatique</gui> est désactivé et cliquez ensuite sur <gui>Fuseau horaire</gui> en dessous.</p></item>
-    <item><p>Cliquez sur votre ville sur la carte. Cela sélectionne votre ville actuelle. Vous pouvez aussi la rechercher dans le champ au-dessus de la carte.</p></item>
-    <item><p>Cliquez sur le bouton <gui>Fermer</gui> pour retourner dans la fenêtre <gui>Paramètres de date et heure</gui>.</p></item>
-    <item><p>Assurez-vous que <gui>Date et heure automatiques</gui> est désactivé et cliquez ensuite sur <gui>Date et heure</gui> en-dessous pour ouvrir la boîte de dialogue <gui>Date et heure</gui>. Réglez enfin votre date et heure à l'aide des boutons <gui>+</gui> ou <gui>-</gui>.</p>
+    <item><p>Cliquez sur l'horloge dans la barre supérieure.</p></item>
+    <item><p>Sélectionnez <gui>Paramètres de date et heure</gui>.</p></item>
+    <item>
+    
+    <comment>
+    <cite date="2013-06-20">pmkovar</cite>
+    <p>Changing timezone hopefully won't require authorization.</p>
+    </comment>
+
+    <p>Il peut être nécessaire de cliquer sur le bouton <gui>Déverrouiller</gui> et renseigner votre mot de passe administrateur.</p></item>
+    <item><p>Cliquez sur votre pays sur la carte.</p>
+    <p>Cela sélectionne votre ville actuelle, aussi affichée dans la liste déroulante sous la carte et que vous pouvez modifier.</p></item>
+    <item><p>Dans la partie droite de la fenêtre, vous pouvez régler l'heure et la date à l'aide des flèches pour choisir l'heure, les minutes et la date.</p>
      </item>
-    <item><p>Cliquez sur le bouton <gui>Fermer</gui> pour revenir à la fenêtre <gui>Date et heure</gui> et fermez ensuite la fenêtre en cliquant sur la croix dans le coin en haut à droite.</p></item>
+    <item><p>Cliquez sur la croix dans le coin supérieur droit pour fermer la boîte de dialogue.</p></item>
   </steps>
 
   <!-- FIXME: 

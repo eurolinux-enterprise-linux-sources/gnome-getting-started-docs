@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="hu">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-browse-web" xml:lang="hu">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -23,7 +23,7 @@
 
   <title>Világháló böngészése</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+    <media type="image" src="gs-web-browser1.svg" width="100%"/>
 
     <steps>
       <item><p>Vigye az egérmutatót a képernyő bal felső sarkában lévő <gui>Tevékenységek</gui> feliratra a <gui>Tevékenységek áttekintés</gui> megjelenítéséhez.</p></item>
@@ -32,7 +32,7 @@
 
     <note><p>A böngészőt elindíthatja a <em>web</em> szó <link xref="gs-use-system-search">begépelésével</link> is a <gui>Tevékenységek áttekintésben</gui>.</p></note>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+    <media type="image" src="gs-web-browser2.svg" width="100%"/>
 
     <steps style="continues">
       <item><p>Kattintson a böngészőablak tetején lévő címsorra, és kezdje el begépelni a felkeresni kívánt weboldal címét.</p></item>

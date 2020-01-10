@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-switch-tasks" version="1.0 if/1.0" xml:lang="fr">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-switch-tasks" xml:lang="fr">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,12 +13,11 @@
     <title role="trail" type="link">Navigation entre les tâches</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Naviguer entre les tâches</title>
-    <link type="next" xref="gs-respond-messages"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Alain Lojewski</mal:name>
       <mal:email>allomervan@gmail.com</mal:email>
-      <mal:years>2013-2014</mal:years>
+      <mal:years>2013</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -30,19 +29,20 @@
 
   <title>Naviguer entre les tâches</title>
 
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-task-switching.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-task-switching.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-task-switching.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-task-switching.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Navigation entre les tâches</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
            <tt:p>Déplacez le pointeur de votre souris vers <gui>Activités</gui> dans le coin supérieur gauche de l'écran.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Cliquez sur une fenêtre pour passer à cette tâche.</tt:p>
          </tt:div>
@@ -80,6 +80,55 @@
      </tt:tt>
   </media>
   </ui:overlay>
+
+</if:when>
+<if:when test="platform:gnome-classic">
+
+  <ui:overlay width="812" height="452">
+  <media type="video" src="figures/classic-task-switching.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-task-switching.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Navigation entre les tâches</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Pour maximiser une fenêtre le long du bord gauche de l'écran, saisissez la fenêtre par sa barre de titre et glissez-la vers la gauche.</tt:p>
+         </tt:div>
+         <tt:div begin="14s" end="16s">
+           <tt:p>Lorsque la moitié de l'écran s'éclaire, lâchez la fenêtre.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18">
+           <tt:p>Pour maximiser une fenêtre le long du bord droit de l'écran, saisissez la fenêtre par sa barre de titre et glissez-la à droite.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="20s">
+           <tt:p>Lorsque la moitié de l'écran s'éclaire, lâchez la fenêtre.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="27s">
+           <tt:p>Appuyez simultanément sur <keyseq><key href="help:gnome-help/keyboard-key-super">Logo</key><key>Tabulation</key></keyseq> pour afficher le <gui>sélecteur de fenêtres</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="27s" end="29s">
+           <tt:p>Relâchez <key href="help:gnome-help/keyboard-key-super">Logo</key> pour sélectionner la fenêtre en surbrillance suivante.</tt:p>
+         </tt:div>
+         <tt:div begin="29s" end="32s">
+           <tt:p>Pour naviguer entre les fenêtres ouvertes, maintenez la touche <key href="help:gnome-help/keyboard-key-super">Logo</key> enfoncée et appuyez sur <key>Tabulation</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="37s">
+           <tt:p>Appuyez sur la touche <key href="help:gnome-help/keyboard-key-super">Logo</key> pour afficher la vue d'ensemble des <gui>Activités</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="37s" end="40s">
+           <tt:p>Commencez à saisir le nom de l'application vers laquelle vous voulez basculer.</tt:p>
+         </tt:div>
+         <tt:div begin="40s" end="43s">
+           <tt:p>Quand l'application recherchée s'affiche en premier résultat, appuyez sur <key>Entrée</key> pour l'ouvrir.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+</if:when>
+</if:choose>
 
   <section id="switch-tasks-overview">
     <title>Naviguer entre les tâches</title>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="pa">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-respond-messages" xml:lang="pa">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,15 +13,14 @@
     <title role="trail" type="link">ਸੁਨੇਹੇ ਨੂੰ ਜਵਾਬ ਦੇਣਾ</title>
     <link type="seealso" xref="shell-notifications"/>
     <title role="seealso" type="link">ਸੁਨੇਹਿਆਂ ਨੂੰ ਜਵਾਬ ਦੇਣ ਲਈ ਸਿਖਲਾਈ</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>ਸੁਨੇਹੇ ਨੂੰ ਜਵਾਬ ਦੇਣਾ</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="3s">
            <tt:p>ਸੁਨੇਹਿਆਂ ਨੂੰ ਜਵਾਬ ਦੇਣਾ</tt:p>
@@ -41,23 +40,26 @@
          <tt:div begin="16s" end="20s">
            <tt:p>ਸੁਨੇਹਾ ਟਰੇ ਵਿੱਚੋਂ ਗੱਲਬਾਤ ਸੁਨੇਹਾ ਕੁਝ ਦੇਰ ਬਾਅਦ ਗੁੰਮ ਹੋ ਜਾਂਦਾ ਹੈ, ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਮਾਊਸ ਦੇ ਪੁਆਇੰਟਰ ਨੂੰ ਸੁਨੇਹਾ ਟਰੇ ਉੱਤੇ ਨਹੀਂ ਲੈ ਕੇ ਜਾਂਦੇ ਹੋ।</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
+         <tt:div begin="20s" end="24s">
            <tt:p>ਆਪਣੇ ਨਾ-ਜਵਾਬ ਦਿੱਤੇ ਸੁਨੇਹੇ ਉੱਤੇ ਵਾਪਸ ਜਾਣ ਲਈ, ਆਪਣੇ ਮਾਊਸ ਨੂੰ ਸੁਨੇਹਾ ਟਰੇ ਉੱਤੇ ਲੈ ਜਾਉ।</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
+         <tt:div begin="25s" end="26s">
            <tt:p>ਵਿਅਕਤੀ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ, ਜਿਸ ਨੇ ਤੁਹਾਨੂੰ ਸੁਨੇਹਾ ਭੇਜਿਆ ਸੀ।</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
+         <tt:div begin="26s" end="28s">
            <tt:p>ਆਪਣਾ ਜਵਾਬ ਲਿਖਣਾ ਚਾਲੂ ਕਰੋ ਅਤੇ ਜਦੋਂ ਪੂਰਾ ਹੋ ਜਾਵੇ ਤਾਂ <key>ਐਂਟਰ</key> ਦੱਬੋ।</tt:p>
          </tt:div>
          <tt:div begin="29s" end="30s">
            <tt:p>ਗੱਲਬਾਤ ਸੁਨੇਹਾ ਬੰਦ ਕਰੋ।</tt:p>
          </tt:div>
          <tt:div begin="36s" end="38s">
-           <tt:p>ਸੁਨੇਹਾ ਟਰੇ ਵੇਖਣ ਲਈ, <keyseq> <key href="help:gnome-help/keyboard-key-super">ਸੁਪਰ</key><key>M</key></keyseq> ਦੱਬੋ।</tt:p>
+           <tt:p>To show the message tray, press <keyseq>
+           <key href="help:gnome-help/keyboard-key-super">Super</key>
+           <key>M</key></keyseq></tt:p>
          </tt:div>
          <tt:div begin="39s" end="42s">
-           <tt:p>ਵਿਅਕਤੀ ਨੂੰ ਚੁਣਨ ਲਈ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਜਵਾਬ ਦੇਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਤੀਰ ਵਾਲੀਆਂ ਸਵਿੱਚ ਵਰਤੋਂ ਅਤੇ <key>ਐਂਟਰ</key> ਦੱਬੋ।</tt:p>
+           <tt:p>Use the arrow keys to select the person you want to reply to,
+            and press <key>Enter</key>.</tt:p>
          </tt:div>
          <tt:div begin="42s" end="45s">
            <tt:p>ਆਪਣਾ ਜਵਾਬ ਲਿਖਣਾ ਚਾਲੂ ਕਰੋ ਅਤੇ ਜਦੋਂ ਪੂਰਾ ਹੋ ਜਾਵੇ ਤਾਂ <key>ਐਂਟਰ</key> ਦੱਬੋ।</tt:p>
@@ -88,10 +90,13 @@
     <title>ਮਾਊਂਸ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਗੱਲਬਾਤ ਸੁਨੇਹੇ ਨੂੰ ਦੇਰੀ ਨਾਲ ਜਵਾਬ ਦੇਣਾ</title>
     
     <steps>
-      <item><p>ਜਦੋਂ ਸੁਨੇਹਾ ਟਰੇ ਵਿੱਚੋਂ ਗੱਲਬਾਤ ਸੁਨੇਹਾ ਆਉਂਦਾ ਹੈ ਹੈ,ਅਤੇ ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਮਾਊਸ ਦੇ ਪੁਆਇੰਟਰ ਨੂੰ ਸੁਨੇਹਾ ਟਰੇ ਉੱਤੇ ਨਹੀਂ ਲੈ ਕੇ ਜਾਂਦੇ ਹੋ ਤਾਂ ਸੁਨੇਹਾ ਕੁਝ ਦੇਰ ਬਾਅਦ ਗੁੰਮ ਹੋ ਜਾਂਦਾ ਹੈ।</p></item>
+      <item><p>When a chat message appears in the message tray and you do not
+       move your mouse to the message tray, the message disappears after a
+       while.</p></item>
       <item><p>ਆਪਣੇ ਨਾ-ਜਵਾਬ ਦਿੱਤੇ ਸੁਨੇਹੇ ਉੱਤੇ ਵਾਪਸ ਜਾਣ ਲਈ, ਆਪਣੇ ਮਾਊਸ ਨੂੰ ਸਕਰੀਨ ਦੇ ਬਿਲਕੁਲ ਹੇਠਾਂ ਸੁਨੇਹਾ ਟਰੇ ਉੱਤੇ ਲੈ ਜਾਉ।</p></item>
       <item><p>ਜਦੋਂ ਸੁਨੇਹਾ ਟਰੇ ਵਿਖਾਈ ਦੇਵੇ ਤਾਂ ਛੋਟੇ ਆਈਕਾਨ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ, ਜੋ ਕਿ ਵਿਅਕਤੀ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ, ਜਿਸ ਨੇ ਤੁਹਾਨੂੰ ਸੁਨੇਹਾ ਭੇਜਿਆ ਸੀ।</p></item>
-      <item><p>ਜਦੋਂ ਗੱਲਾਬਤ ਸੁਨੇਹਾ ਵੇਖਾਇਆ ਜਾਂਦਾ ਹੈ ਤਾਂ ਆਪਣਾ ਜਵਾਬ ਲਿਖਣਾ ਚਾਲੂ ਕਰੋ ਅਤੇ ਜਦੋਂ ਪੂਰਾ ਹੋ ਜਾਵੇ ਤਾਂ ਜਵਾਬ ਭੇਜਣ ਲਈ <key>ਐਂਟਰ</key> ਦੱਬੋ।</p></item>
+      <item><p>When the chat message is shown, start typing your reply and when
+       finished, press <key>Enter</key> to send the reply.</p></item>
       <item><p>ਗੱਲਬਾਤ ਸੁਨੇਹਾ ਬੰਦ ਕਰਨ ਲਈ, ਗੱਲਬਾਤ ਸੁਨੇਹੇ ਦੇ ਉੱਤੇ ਸੱਜੇ ਕੋਨੇ ਵਿੱਚ ਬੰਦ ਕਰਨ ਦੇ ਬਟਨ ਨੂੰ ਕਲਿੱਕ ਕਰੋ।</p></item>
     </steps>
     
@@ -100,12 +105,17 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>ਕੀਬੋਰਡ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਗੱਲਬਾਤ ਸੁਨੇਹੇ ਨੂੰ ਦੇਰੀ ਨਾਲ ਜਵਾਬ ਦੇਣਾ</title>
     <steps>
-      <item><p>ਆਪਣੇ ਨਾ-ਜਵਾਬ ਦਿੱਤੇ ਗੱਲਬਾਤ ਸੁਨੇਹੇ ਉੱਤੇ ਜਾਣ ਲਈ, ਸੁਨੇਹੇ ਰੱਖਣ ਵਾਲੀ ਸੁਨੇਹਾ ਟਰੇ ਵੇਖਾਉਣ ਵਾਸਤੇ <keyseq> <key href="help:gnome-help/keyboard-key-super">ਸੁਪਰ</key> <key>M</key> </keyseq> ਨੂੰ ਦੱਬੋ।</p>
+      <item><p>To get back to your unanswered chat messages, press <keyseq>
+      <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key>
+      </keyseq> to display the message tray that contains the messages.</p>
       </item>
-      <item><p>ਛੋਟੇ ਚਿੱਤਰ, ਜੋ ਉਸ ਵਿਅਕਤੀ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ, ਜਿਸ ਨਾਲ ਗੱਲ ਕਰਨੀ ਹੈ, ਚੁਣਨ ਲਈ ਤੀਰ ਸਵਿੱਚਾਂ ਵਰਤੋਂ ਅਤੇ <key>ਐਂਟਰ</key> ਦੱਬੋ।</p></item>
+      <item><p>Use the arrow keys to select a small image representing the
+      person you want to reply to, and press <key>Enter</key>.</p></item>
       <item><p>ਆਪਣਾ ਜਵਾਬ ਲਿਖਣਾ ਚਾਲੂ ਕਰੋ ਅਤੇ ਜਦੋਂ ਪੂਰਾ ਹੋ ਜਾਵੇ ਤਾਂ ਜਵਾਬ ਭੇਜਣ ਲਈ <key>ਐਂਟਰ</key> ਦੱਬੋ।</p></item>
       <item><p>ਗੱਲਬਾਤ ਸੁਨੇਹੇ ਨੂੰ ਬੰਦ ਕਰਨ ਲਈ <key>Esc</key> ਦੱਬੋ।</p></item>
-      <item><p>ਸੁਨੇਹਾ ਟਰੇ ਨੂੰ ਅਣਡਿੱਠਾ ਕਰਨ ਲਈ <key>Esc</key> ਜਾਂ <keyseq> <key href="help:gnome-help/keyboard-key-super">ਸੁਪਰ</key><key>M</key> </keyseq> ਵਰਤੋਂ।</p></item>
+      <item><p>To dismiss the message tray, press <key>Esc</key> or <keyseq>
+      <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key>
+      </keyseq>.</p></item>
     </steps>
 
   </section>

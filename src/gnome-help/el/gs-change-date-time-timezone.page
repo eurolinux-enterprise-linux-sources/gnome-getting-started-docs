@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="el">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-date-time-timezone" xml:lang="el">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">Αλλαγή ημερομηνίας, ώρας και ζώνης χρόνου</title>
     <link type="seealso" xref="clock"/>
     <title role="seealso" type="link">Ένα μάθημα στην αλλαγή ημερομηνίας, ώρας και ζώνης χρόνου</title>
-    <link type="next" xref="gs-change-wallpaper"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name> Δημήτρης Σπίγγος</mal:name>
@@ -30,33 +29,30 @@
 
   <title>Αλλαγή ημερομηνίας, ώρας και ζώνης χρόνου</title>
 
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-timezone.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Αλλαγή ημερομηνίας &amp; ώρας</tt:p>
          </tt:div>
-         <tt:div begin="6s" end="9s">
+         <tt:div begin="6s" end="8s">
            <tt:p>Πατήστε το ρολόι στην πάνω γραμμή.</tt:p>
            </tt:div>
-         <tt:div begin="9s" end="13s">
+         <tt:div begin="8s" end="13s">
            <tt:p>Επιλέξτε το στοιχείο <gui>Ρυθμίσεις ημερομηνίας &amp; ώρας</gui>.</tt:p>
          </tt:div>
-         <tt:div begin="13s" end="15s">
-           <tt:p>Σιγουρευτείτε ότι το <gui>Αυτόματη Ζώνη ώραςe</gui>είναι απενεργοποιημένο.</tt:p>
-         </tt:div>
-         <tt:div begin="15s" end="17s">
-           <tt:p>Επιλέξτε το <gui>Ζώνη ώρας</gui>.</tt:p>
-         </tt:div>
-         <tt:div begin="17s" end="21s">
+         <tt:div begin="13s" end="16s">
            <tt:p>Πατήστε στην τοποθεσία σας στον χάρτη.</tt:p>
          </tt:div>
-         <tt:div begin="21s" end="23s">
-           <tt:p>Πατήστε το κουμπί <gui>Κλείσιμο</gui>.</tt:p>
+         <tt:div begin="16s" end="20s">
+           <tt:p>Μπορείτε να ρυθμίσετε την ημερομηνία και ώρα πατώντας στα βέλη για να επιλέξετε ώρα, λεπτά και έτος.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
+         <tt:div begin="21s" end="23s">
            <tt:p>Κλείστε το παράθυρο.</tt:p>
          </tt:div>
        </tt:body>
@@ -64,17 +60,59 @@
   </media>
   </ui:overlay>
 
+</if:when>
+<if:when test="platform:gnome-classic">
+
+  <ui:overlay width="812" height="452">
+  <media type="video" src="figures/classic-timezone.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Αλλαγή ημερομηνίας &amp; ώρας</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="8s">
+           <tt:p>Πατήστε το ρολόι στην πάνω γραμμή.</tt:p>
+           </tt:div>
+         <tt:div begin="8s" end="13s">
+           <tt:p>Επιλέξτε το στοιχείο <gui>Ρυθμίσεις ημερομηνίας &amp; ώρας</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="16s">
+           <tt:p>Πατήστε στην τοποθεσία σας στον χάρτη.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="20s">
+           <tt:p>Μπορείτε να ρυθμίσετε την ημερομηνία και ώρα πατώντας στα βέλη για να επιλέξετε ώρα, λεπτά και έτος.</tt:p>
+         </tt:div>
+         <tt:div begin="21s" end="23s">
+           <tt:p>Κλείστε το παράθυρο.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+</if:when>
+</if:choose>
+
   <section id="change-date-time">
     <title>Αλλαγή ημερομηνίας, ώρας και ζώνης χρόνου</title>
 
   <steps>
-    <item><p>Επιλέξτε το ρολόι στην μπάρα - μενού και μετά το στοιχείο <gui>Ρυθμίσεις ημερομηνίας &amp; ώρας</gui>.</p></item>
-    <item><p>Σιγουρευτείτε ότι το <gui>Αυτόματη Ζώνη ώρας</gui>είναι απενεργοποιημένο, και μετά επιλέξτε παρακάτω το αντικείμενο <gui>Ζώνη ώρας</gui>.</p></item>
-    <item><p>Κάντε κλικ στην τοποθεσία σας πάνω στο χάρτη. Αυτό επιλέγει την τρέχουσα πόλη, την οποία μπορείτε επίσης να αναζητήσετε και στο πλαίσιο αναζήτησης πάνω από τον χάρτη.</p></item>
-    <item><p>Επιλέξτε το στοιχείο <gui>Κλείσιμο</gui>για να επιστρέψετε στο <gui>Ρυθμίσεις ημερομηνίας &amp; ώρας</gui>.</p></item>
-    <item><p>Σιγουρευτείτε ότι το <gui>Αυτόματη ρύθμιση ημερομηνίας &amp; ώρας</gui>είναι απενεργοποιημένο, και μετά επιλέξτε παρακάτω το στοιχείο <gui> ημερομηνία &amp; ώρα</gui> για να ανοίξετε το παράθυρο <gui> ημερομηνίας &amp; ώρα</gui> . Εκεί μπορείτε να προσαρμόσετε τις ρυθμίσεις ώρας και ημερομηνίας επιλέγοντας τα κουμπιά <gui>+</gui> ή <gui>-</gui>.</p>
+    <item><p>Πατήστε το ρολόι στην πάνω γραμμή.</p></item>
+    <item><p>Επιλέξτε το στοιχείο <gui>Ρυθμίσεις ημερομηνίας &amp; ώρας</gui>.</p></item>
+    <item>
+    
+    <comment>
+    <cite date="2013-06-20">pmkovar</cite>
+    <p>Changing timezone hopefully won't require authorization.</p>
+    </comment>
+
+    <p>Μπορεί να χρειαστείτε να πατήσετε το κουμπί <gui>Ξεκλείδωμα</gui> και να πληκτρολογήσετε τον κωδικό πρόσβασης του διαχειριστή.</p></item>
+    <item><p>Πατήστε στην τοποθεσία σας στον χάρτη.</p>
+    <p>Αυτό επιλέγει την τρέχουσα πόλη, που μπορείτε επίσης να δείτε και να αλλάξετε στην πτυσσόμενη λίστα κάτω από τον χάρτη.</p></item>
+    <item><p>Στα δεξιά του παραθύρου, μπορείτε να ρυθμίσετε την ημερομηνία και ώρα πατώντας στα βέλη για να επιλέξετε ώρα, λεπτά και έτος.</p>
      </item>
-    <item><p>Επιλέξτε το στοιχείο <gui>Κλείσιμο</gui> για να επιστρέψετε στο <gui>Ρύθμιση ημερομηνίας &amp; ώρας</gui> και μετά κλείστε το παράθυρο πατώντας τον σταυρό στην πάνω δεξιά γωνία του παραθύρου.</p></item>
+    <item><p>Κλείστε το παράθυρο πατώντας τον σταυρό στην πάνω δεξιά γωνία του παραθύρου.</p></item>
   </steps>
 
   <!-- FIXME: 

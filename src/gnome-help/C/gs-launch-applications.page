@@ -1,7 +1,8 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:ui="http://projectmallard.org/experimental/ui/"
-      xmlns:its="http://www.w3.org/2005/11/its"
-      type="topic" style="ui" id="gs-launch-applications">
+      type="topic"
+      style="ui"
+      id="gs-launch-applications">
 
   <info>
     <include href="gs-legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
@@ -17,16 +18,15 @@
     <title role="trail" type="link">Launch applications</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">A tutorial on launching applications</title>
-    <link type="next" xref="gs-switch-tasks"/>
 -->
   </info>
 
   <title>Launch applications</title>
 
   <ui:overlay width="812" height="452">
-   <media type="video" its:translate="no" src="figures/gnome-launching-applications.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-launching-apps.svg"/>
-      <tt:tt its:translate="yes" xmlns:tt="http://www.w3.org/ns/ttml">
+   <media type="video" src="figures/gnome-launching-applications.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-launching-apps.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Launching Applications</tt:p>

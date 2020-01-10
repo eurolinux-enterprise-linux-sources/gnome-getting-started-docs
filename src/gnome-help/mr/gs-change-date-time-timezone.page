@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="mr">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-date-time-timezone" xml:lang="mr">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">तारीख, वेळ आणि काल विभाग बदला</title>
     <link type="seealso" xref="clock"/>
     <title role="seealso" type="link">तारीख, वेळ आणि काल विभाग बदलण्याबाबत वर्गपाठ</title>
-    <link type="next" xref="gs-change-wallpaper"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Aniket Deshpande</mal:name>
@@ -24,33 +23,30 @@
 
   <title>तारीख, वेळ आणि काल विभाग बदला</title>
 
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-timezone.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>बदलती तारीख &amp; वेळ</tt:p>
          </tt:div>
-         <tt:div begin="6s" end="9s">
+         <tt:div begin="6s" end="8s">
            <tt:p>सगळ्यात वरच्या पट्टीच्या घड्याळावर क्लिक करा.</tt:p>
            </tt:div>
-         <tt:div begin="9s" end="13s">
-           <tt:p><gui>दिनांक &amp; वेळ सेटिंग्ज</gui> निवडा.</tt:p>
+         <tt:div begin="8s" end="13s">
+           <tt:p><gui>वेळ &amp; तारीख सेटिंग</gui> घटक निवडा.</tt:p>
          </tt:div>
-         <tt:div begin="13s" end="15s">
-           <tt:p><gui>स्व वेळ क्षेत्र</gui> बंद केले आहे याची खात्री करा.</tt:p>
-         </tt:div>
-         <tt:div begin="15s" end="17s">
-           <tt:p><gui>वेळ क्षेत्र</gui> क्लिक करा.</tt:p>
-         </tt:div>
-         <tt:div begin="17s" end="21s">
+         <tt:div begin="13s" end="16s">
            <tt:p>नकाशावर तुमच्या ठिकाणी क्लिक करा.</tt:p>
          </tt:div>
-         <tt:div begin="21s" end="23s">
-           <tt:p><gui>बंद करा</gui> क्लिक करा.</tt:p>
+         <tt:div begin="16s" end="20s">
+           <tt:p>तास, मिनिट आणि वर्षवरच्या बाणांवर क्लिक करून तुम्ही तारीख आणि वेळ बदलू शकता.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
+         <tt:div begin="21s" end="23s">
            <tt:p>पटल बंद करा.</tt:p>
          </tt:div>
        </tt:body>
@@ -58,17 +54,59 @@
   </media>
   </ui:overlay>
 
+</if:when>
+<if:when test="platform:gnome-classic">
+
+  <ui:overlay width="812" height="452">
+  <media type="video" src="figures/classic-timezone.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>बदलती तारीख &amp; वेळ</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="8s">
+           <tt:p>सगळ्यात वरच्या पट्टीच्या घड्याळावर क्लिक करा.</tt:p>
+           </tt:div>
+         <tt:div begin="8s" end="13s">
+           <tt:p><gui>वेळ &amp; तारीख सेटिंग</gui> घटक निवडा.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="16s">
+           <tt:p>नकाशावर तुमच्या ठिकाणी क्लिक करा.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="20s">
+           <tt:p>तास, मिनिट आणि वर्षवरच्या बाणांवर क्लिक करून तुम्ही तारीख आणि वेळ बदलू शकता.</tt:p>
+         </tt:div>
+         <tt:div begin="21s" end="23s">
+           <tt:p>पटल बंद करा.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+</if:when>
+</if:choose>
+
   <section id="change-date-time">
     <title>तारीख, वेळ आणि काल विभाग बदला</title>
 
   <steps>
-    <item><p>शीर्ष पट्टीवरील घड्याळ क्लिक करा आणि <gui>दिनांक &amp; वेळ सेटिंग्ज</gui> घटक निवडा.</p></item>
-    <item><p><gui>स्व वेळ क्षेत्र</gui> घटक बंद केले आहे याची खात्री करा, आणि त्यानंतर <gui>वेळ क्षेत्र</gui> घटक खालीलनुरूप क्लिक करा.</p></item>
-    <item><p>मॅपवरील सध्याचे ठिकाण क्लिक करा. हे तुमचं सध्याचं शहर निवडत, जे तुम्ही बघू आणि नकाशाच्या खालच्या यादीतून निवडून बदलू शकता.</p></item>
-    <item><p><gui>दिनांक &amp; वेळ सेटिंग्ज</gui> पटलकडे जाण्याकरिता <gui>बंद करा</gui> बटन क्लिक करा.</p></item>
-    <item><p><gui>स्व दिनांक &amp; वेळ</gui> घटक बंद आहे याची खात्री करा, आणि त्यानंतर <gui>दिनांक &amp; वेळ</gui> पटल उघडण्याकरिता खालील <gui>दिनांक &amp; वेळ</gui> घटकावर क्लिक करा. तेथे तुम्ही <gui>+</gui> किंवा <gui>-</gui> बटनांवर क्लिक करून दिनांक आणि वेळ सेटिंग्ज सुस्थीत करू शकता.</p>
+    <item><p>सगळ्यात वरच्या पट्टीच्या घड्याळावर क्लिक करा.</p></item>
+    <item><p><gui>वेळ &amp; तारीख सेटिंग</gui> घटक निवडा.</p></item>
+    <item>
+    
+    <comment>
+    <cite date="2013-06-20">pmkovar</cite>
+    <p>Changing timezone hopefully won't require authorization.</p>
+    </comment>
+
+    <p>तुम्हाला <gui>कुलूप उघडा</gui>वर क्लिक करून प्रशासकाचा पासवर्ड टाइप करावा लागू शकतो.</p></item>
+    <item><p>नकाशावर तुमच्या ठिकाणी क्लिक करा.</p>
+    <p>हे तुमचं सध्याचं शहर निवडत, जे तुम्ही बघू आणि नकाशाच्या खालच्या यादीतून निवडून बदलू शकता.</p></item>
+    <item><p>पटलाच्या डाव्या बाजूस, तास, मिनिट आणि वर्षवरच्या बाणांवर क्लिक करून तुम्ही दिनांक आणि वेळ बदलू शकता.</p>
      </item>
-    <item><p><gui>बंद करा</gui> बटन क्लिक करा आणि <gui>दिनांक &amp; वेळ सेटिंग्ज</gui> पटलाकडे जा, आणि पटलाच्या उजव्या कोपऱ्यावरच्या फुलीवर क्लिक करून बंद करा.</p></item>
+    <item><p>पटलाच्या उजव्या कोपऱ्यावरच्या फुलीवर क्लिक करून पटल बंद करा.</p></item>
   </steps>
 
   <!-- FIXME: 

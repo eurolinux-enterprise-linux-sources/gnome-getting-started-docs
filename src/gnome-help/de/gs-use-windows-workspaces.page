@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="de">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="de">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,12 @@
     <title role="trail" type="link">Fenster und Arbeitsflächen verwenden</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Eine Kurzanleitung zum Verwenden von Fenstern und Arbeitsflächen</title>
-    <link type="next" xref="gs-use-system-search"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Mario Blättermann</mal:name>
@@ -24,22 +29,16 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013, 2014</mal:years>
-    </mal:credit>
-  
-    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Benjamin Steinwender</mal:name>
-      <mal:email>b@stbe.at</mal:email>
-      <mal:years>2013, 2014</mal:years>
+      <mal:years>2013</mal:years>
     </mal:credit>
   </info>
 
   <title>Fenster und Arbeitsflächen verwenden</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-windows-and-workspaces.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Fenster und Arbeitsflächen</tt:p>
@@ -68,22 +67,22 @@
          <tt:div begin="44s" end="48s">
            <tt:p>Wenn die Hälfte des Bildschirms markiert ist, lassen Sie das Fenster los.</tt:p>
          </tt:div>
-         <tt:div begin="54s" end="60s">
+         <tt:div begin="52s" end="58s">
            <tt:p>Um ein Fenster mit der Tastatur zu maximieren, halten Sie die <key href="help:gnome-help/keyboard-key-super">Super</key>-Taste und drücken Sie <key>↑</key>.</tt:p>
          </tt:div>
-         <tt:div begin="61s" end="66s">
+         <tt:div begin="59s" end="63s">
            <tt:p>Um die Fenstergröße wiederherzustellen, halten Sie die <key href="help:gnome-help/keyboard-key-super">Super</key>-Taste und drücken Sie <key>↓</key>.</tt:p>
          </tt:div>
-         <tt:div begin="66s" end="73s">
+         <tt:div begin="63s" end="68s">
            <tt:p>Um ein Fenster auf der rechten Bildschirmhälfte zu maximieren, halten Sie die <key href="help:gnome-help/keyboard-key-super">Super</key>-Taste und drücken Sie <key>→</key>.</tt:p>
          </tt:div>
-         <tt:div begin="76s" end="82s">
+         <tt:div begin="69s" end="72s">
            <tt:p>Um ein Fenster auf der linken Bildschirmhälfte zu maximieren, halten Sie die <key href="help:gnome-help/keyboard-key-super">Super</key>-Taste und drücken Sie <key>←</key>.</tt:p>
          </tt:div>
-         <tt:div begin="83s" end="89s">
+         <tt:div begin="73s" end="76s">
            <tt:p>Um zur darunter liegenden Arbeitsfläche zu wechseln, drücken Sie <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>↓</key></keyseq>.</tt:p>
          </tt:div>
-         <tt:div begin="90s" end="97s">
+         <tt:div begin="77s" end="80s">
            <tt:p>Um zur darüber liegenden Arbeitsfläche zu wechseln, drücken Sie <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>↑</key></keyseq>.</tt:p>
          </tt:div>
        </tt:body>

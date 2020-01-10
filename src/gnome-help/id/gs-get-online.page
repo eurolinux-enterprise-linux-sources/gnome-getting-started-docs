@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="id">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-get-online" xml:lang="id">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -10,10 +10,9 @@
       <name>Petr Kovar</name>
     </credit>
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Menuju daring</title>
+    <title role="trail" type="link">Get online</title>
     <link type="seealso" xref="net"/>
-    <title role="seealso" type="link">Tutorial cara daring</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <title role="seealso" type="link">A tutorial on getting online</title>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Andika Triwidada</mal:name>
@@ -22,52 +21,63 @@
     </mal:credit>
   </info>
 
-  <title>Menuju daring</title>
+  <title>Get online</title>
   
   <note style="important">
-      <p>Anda dapat melihat status koneksi jaringan Anda di sisi kanan bilah puncak.</p>
+      <p>You can see the status of your network connection on the right-hand
+       side of the top bar, next to your name.</p>
   </note>  
 
   <section id="going-online-wired">
 
-    <title>Menyambung ke jaringan kabel</title>
+    <title>Connect to a wired network</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+    <media type="image" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>Ikon koneksi jaringan di sisi kanan bilah puncak menunjukkan bahwa Anda luring.</p>
-      <p>Status luring bisa disebabkan oleh sejumlah alasan: sebagai contoh, suatu kabel jaringan telah terlepas, komputer telah ditata agar berjalan dalam <em>mode pesawat terbang</em>, atau tidak ada jaringan Wi-Fi yang tersedia di area Anda.</p>
-      <p>Bila Anda ingin memakai jaringa lewat kabel, tancapkan saja kabel jaringan untuk menuju daring. Komputer akan mencoba menyiapkan koneksi jaringan untuk Anda secara otomatis.</p>
-      <p>Ketika komputer menyiapkan suatu koneksi jaringan untuk Anda, ikon koneksi jaringan menampilkan tiga titik.</p></item>
-      <item><p>Setelah koneksi jaringan telah sukses disiapkan, ikon koneksi jaringan berubah menjadi simbol komputer terjejaring.</p></item>
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are off-line.</p></item>
+      <item><p>Click the network connection icon to show more details about
+       the status of your network connection.</p>
+      <p>The off-line status can be caused by a number of reasons: for
+       example, a network cable has been unplugged, the computer has been set
+       to run in <em>airplane mode</em>, or there are no available wireless
+       networks in your area.</p></item>
+    </steps>
+
+    <media type="image" src="gs-go-online2.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>If you want to use a wired connection, just plug in a network
+      cable to go online. The computer will try to set up the network
+      connection for you automatically.</p>
+      </item>
+      <item><p>While the computer sets up a network connection for you, the
+      network connection icon shows three dots.</p></item>
+      <item><p>Once the network connection has been successfully set up, the
+      network connection icon changes to the networked computer symbol.</p></item>
     </steps>
     
   </section>
 
-  <section id="going-online-wifi">
+  <section id="going-online-other">
 
-    <title>Menyambung ke jaringan Wi-Fi</title>
+    <title>Connect to other types of networks</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    <media type="image" src="gs-go-online3.svg" width="100%"/>
     
     <steps>
-    <item><p>Untuk menyambung ke suatu jaringan Wi-Fi (nirkabel), klik menu status di kanan atas layar, lalu klik <gui>Pilih Jaringan</gui>.</p>
-    </item>
-    </steps>
-
-     <note style="important">
-       <p>Anda hanya dapat menyambung ke suatu jaringan Wi-Fi bila perangkat keras komputer Anda mendukungnya dan Anda berada di suatu area dengan cakupan Wi-Fi.</p>
-     </note>
-
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
-
-    <steps style="continues">
-    <item><p>Dari daftar jaringan Wi-Fi yang tersedia, pilih jaringan tempat Anda ingin menyambung, dan klik <gui>Sambung</gui> untuk mengkonfirmasi.</p>
-    <p>Bergantung kepada konfigurasi jaringan, Anda mungkin dimintai kredensial jaringan.</p></item>
-    </steps>
-
+    <item><p>There are various types of network connections that you can use
+     with your computer, for example, mobile broadband, or wireless networks.
+     </p></item>
+    <item><p>Depending on your computer hardware and the networks availability,
+     you can choose other connection types by clicking the network connection
+     icon on the right-hand side of the top bar and selecting the network
+     connection you want to connect to.</p></item>
+     </steps>
+    
     <!-- FIXME: links to existing wireless/broadband connection documents. -->
-
+    
   </section>
 
 </page>

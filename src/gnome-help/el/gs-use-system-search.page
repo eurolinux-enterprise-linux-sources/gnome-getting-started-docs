@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="el">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-system-search" xml:lang="el">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">Χρησιμοποιήστε το σύστημα αναζήτησης</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">Ένα μάθημα στη χρήση του συστήματος αναζήτησης</title>
-    <link type="next" xref="gs-get-online"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name> Δημήτρης Σπίγγος</mal:name>
@@ -30,15 +29,15 @@
 
   <title>Χρησιμοποιήστε το σύστημα αναζήτησης</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    <media type="image" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Ανοίξτε την <gui>Επισκόπηση ενεργειών</gui> πατώντας το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key>. Για αναζήτηση ξεκινήστε να δακτυλογραφείτε.</p>
-    <p>Αποτελέσματα ανάλογα με αυτό που έχετε γράψει θα εμφανίζονται όσο γράφετε. Το πρώτο αποτέλεσμα είναι πάντα επισημαίνεται και εμφανίζεται στην κορυφή.</p>
-    <p>Για να μεταβείτε στο πρώτο επισημασμένο αποτέλεσμα, πατήστε το πλήκτρο <key>Εισαγωγή</key>.</p></item>
+    <item><p>Ανοίξτε την <gui>Επισκόπηση ενεργειών</gui> πατώντας το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">Λογότυπου</key>.</p></item>
+     <item><p>Αρχίστε να πληκτρολογείτε για την αναζήτηση. Τα αποτελέσματα που ταιριάζουν με αυτά που πληκτρολογείτε θα εμφανιστούν καθώς πληκτρολογείτε.</p></item>
+     <item><p>Το πρώτο αποτέλεσμα επισημαίνεται πάντα και εμφανίζεται στην κορυφή. Για να μεταβείτε στο πρώτο επισημασμένο αποτέλεσμα, πατήστε το πλήκτρο <key>Εισαγωγή</key>.</p></item>
     </steps>
     
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <media type="image" src="gs-search2.svg" width="100%"/>
     <steps style="continues">
       <item><p>Τα στοιχεία που μπορούν να εμφανιστούν στα αποτελέσματα αναζήτησης περιλαμβάνουν:</p>
       <list>
@@ -64,7 +63,7 @@
 
       <title>Προσαρμογή αποτελεσμάτων αναζήτησης</title>
 
-      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+      <media type="image" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
       <p>Το GNOME επιτρέπει την προσαρμογή του τι θέλετε να εμφανίζεται στα αποτελέσματα αναζήτησης στο <gui>Επισκόπηση ενεργειών</gui>. Για παράδειγμα, μπορείτε να επιλέξετε εάν θέλετε να εμφανίζονται αποτελέσματα για ιστοτόπους, φωτογραφίες ή μουσική.</p>
@@ -73,7 +72,8 @@
       <p>Για να προσαρμόσετε το τι εμφανίζεται στα αποτελέσματα αναζήτησης:</p>
 
       <steps>
-        <item><p>Επιλέξτε το μενού του συστήματος στο δεξί μέρος της γραμμής μενού και επιλέξτε το κουμπί ρυθμίσεις στο τέλος του μενού.</p></item>
+        <item><p>Πατήστε στο όνομα σας στη πάνω γραμμή.</p></item>
+        <item><p>Επιλέξτε το στοιχείο <gui>Ρυθμίσεις</gui>.</p></item>
         <item><p>Από τη λίστα των στοιχείων, επιλέξτε <gui>Αναζητήστε</gui>.</p></item>
         <item><p>Στη λίστα των τοποθεσιών αναζήτησης, πατήστε τον διακόπτη <gui>ON/OFF</gui> δίπλα στην τοποθεσία αναζήτησης που θέλετε να ενεργοποιήσετε ή να απενεργοποιήσετε.</p>
          </item>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="id">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-respond-messages" xml:lang="id">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -10,10 +10,9 @@
       <name>Petr Kovar</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">Merespon ke pesan</title>
+    <title role="trail" type="link">Respond to messages</title>
     <link type="seealso" xref="shell-notifications"/>
-    <title role="seealso" type="link">Tutorial tentang merespon ke pesan</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
+    <title role="seealso" type="link">A tutorial on responding to messages</title>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Andika Triwidada</mal:name>
@@ -22,57 +21,66 @@
     </mal:credit>
   </info>
 
-  <title>Merespon ke pesan</title>
+  <title>Respond to messages</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="3s">
            <tt:p>Merespon ke Pesan</tt:p>
          </tt:div>
          <tt:div begin="4s" end="7s">
-           <tt:p>Gerakkan penunjuk tetikus Anda ke baki pesan di dasar layar dan klik pesan obrolan tersebut.</tt:p>
+           <tt:p>Move your mouse to the message tray at the bottom of the screen
+            and click the chat message.</tt:p>
            </tt:div>
          <tt:div begin="7s" end="9s">
-           <tt:p>Mulailah mengetikkan jawaban Anda dan ketika selesai, tekan <key>Enter</key> untuk mengirim jawaban.</tt:p>
+           <tt:p>Start typing your reply and when finished, press <key>Enter
+           </key> to send the reply.</tt:p>
          </tt:div>
          <tt:div begin="9s" end="11s">
-           <tt:p>Tutup pesan obrolan.</tt:p>
+           <tt:p>Close the chat message.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>Respon Tertunda</tt:p>
          </tt:div>
          <tt:div begin="16s" end="20s">
-           <tt:p>Suatu pesan obrolan di baki pesan lenyap setelah beberapa saat bila Anda tak menggerakkan tetikus Anda ke baki pesan.</tt:p>
+           <tt:p>A chat message in the message tray disappears after a while if
+            you do not move your mouse to the message tray.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>Untuk mendapatkan kembali pesan Anda yang belum terjawab, gerakkan tetikus Anda ke baki pesan.</tt:p>
+         <tt:div begin="20s" end="24s">
+           <tt:p>To get back to your unanswered message, move your mouse to the
+            message tray.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>Klik orang yang ingin Anda kirimi pesan.</tt:p>
+         <tt:div begin="25s" end="26s">
+           <tt:p>Click the person who sent you the message.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>Mulailah mengetikkan jawaban Anda dan ketika selesai, tekan <key>Enter</key>.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Start typing your reply and when finished, press <key>Enter
+           </key>.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="30s">
-           <tt:p>Tutup pesan obrolan.</tt:p>
+           <tt:p>Close the chat message.</tt:p>
          </tt:div>
          <tt:div begin="36s" end="38s">
-           <tt:p>Untuk menampilkan baki pesan, tekan <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>M</key></keyseq></tt:p>
+           <tt:p>To show the message tray, press <keyseq>
+           <key href="help:gnome-help/keyboard-key-super">Super</key>
+           <key>M</key></keyseq></tt:p>
          </tt:div>
          <tt:div begin="39s" end="42s">
-           <tt:p>Gunakan tombol panah untuk memilih orang yang ingin Anda balas, dan tekan <key>Enter</key>.</tt:p>
+           <tt:p>Use the arrow keys to select the person you want to reply to,
+            and press <key>Enter</key>.</tt:p>
          </tt:div>
          <tt:div begin="42s" end="45s">
-           <tt:p>Mulailah mengetikkan jawaban Anda dan ketika selesai, tekan <key>Enter</key>.</tt:p>
+           <tt:p>Start typing your reply and when finished, press <key>Enter
+           </key>.</tt:p>
          </tt:div>
          <tt:div begin="45s" end="46s">
            <tt:p>Tekan <key>Esc</key> untuk menutup pesan obrolan.</tt:p>
          </tt:div>
          <tt:div begin="46s" end="48s">
-           <tt:p>Untuk menyembunyikan baki pesan, tekan <key>Esc</key>.</tt:p>
+           <tt:p>To dismiss the message tray, press <key>Esc</key>.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -80,10 +88,11 @@
   </ui:overlay>
   
   <section id="respond-to-messages-mouse">
-    <title>Merespon ke pesan obrolan memakai tetikus</title>
+    <title>Respond to a chat message with the mouse</title>
     
     <steps>
-      <item><p>Gerakkan penunjuk tetikus Anda ke baki pesan di dasar layar dan klik pesan obrolan tersebut.</p></item>
+      <item><p>Move your mouse to the message tray at the bottom of the screen
+       and click the chat message.</p></item>
       <item><p>Mulailah mengetikkan jawaban Anda dan ketika selesai, tekan <key>Enter</key> untuk mengirim jawaban.</p></item>
       <item><p>Untuk menutup pesan obrolan, klik tombol tutup pada pojok kanan atas dari pesan obrolan tersebut.</p></item>
     </steps>
@@ -106,12 +115,16 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>Respon tertunda ke suatu pesan obrolan memakai papan tik</title>
     <steps>
-      <item><p>Untuk mendapat kembali pesan-pesan obrolan Anda yang belum terjawab, tekan <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq> untuk menampilkan baki pesan yang memuat pesan-pesan.</p>
+      <item><p>To get back to your unanswered chat messages, press <keyseq>
+      <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key>
+      </keyseq> to display the message tray that contains the messages.</p>
       </item>
       <item><p>Gunakan tombol panah untuk memiliki gambar kecil yang mewakili orang yang ingin Anda balas, dan tekan <key>Enter</key>.</p></item>
       <item><p>Mulailah mengetikkan jawaban Anda dan ketika selesai, tekan <key>Enter</key> untuk mengirim jawaban.</p></item>
       <item><p>Tekan <key>Esc</key> untuk menutup pesan obrolan.</p></item>
-      <item><p>Untuk menyembunyikan baki pesan, tekan <key>Esc</key> atau <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq>.</p></item>
+      <item><p>To dismiss the message tray, press <key>Esc</key> or <keyseq>
+      <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key>
+      </keyseq>.</p></item>
     </steps>
 
   </section>

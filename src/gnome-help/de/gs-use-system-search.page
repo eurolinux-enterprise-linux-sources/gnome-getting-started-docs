@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="de">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-system-search" xml:lang="de">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,12 @@
     <title role="trail" type="link">Die Systemsuche verwenden</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">Eine Kurzanleitung zum Verwenden der Systemsuche</title>
-    <link type="next" xref="gs-get-online"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Mario Blättermann</mal:name>
@@ -24,27 +29,21 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013, 2014</mal:years>
-    </mal:credit>
-  
-    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Benjamin Steinwender</mal:name>
-      <mal:email>b@stbe.at</mal:email>
-      <mal:years>2013, 2014</mal:years>
+      <mal:years>2013</mal:years>
     </mal:credit>
   </info>
 
   <title>Die Systemsuche verwenden</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    <media type="image" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Öffnen Sie die <gui>Aktivitäten-Übersicht</gui> durch Drücken der <key href="help:gnome-help/keyboard-key-super">Super</key>-Taste. Tippen Sie, um mit der Suche zu beginnen.</p>
-    <p>Ergebnisse passend zu Ihrer Eingabe erscheinen während Sie tippen. Das erste Ergebnis wird immer hervorgehoben und ganz oben angezeigt.</p>
-    <p>Drücken Sie <key>Eingabe</key>, um zum ersten hervorgehobenen Ergebnis zu wechseln.</p></item>
+    <item><p>Öffnen Sie die <gui>Aktivitäten-Übersicht</gui> durch Drücken der <key href="help:gnome-help/keyboard-key-super">Super</key>-Taste.</p></item>
+     <item><p>Beginnen Sie zu tippen, um zu suchen. Ergebnisse passend zu Ihrer Eingabe werden angezeigt, sobald Sie zu tippen beginnen.</p></item>
+     <item><p>Das erste Ergebnis ist immer markiert und wird oben angezeigt. Um zum ersten heverogehobenen Ergebnis zu wechseln, drücken Sie <key>Eingabe</key>.</p></item>
     </steps>
     
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <media type="image" src="gs-search2.svg" width="100%"/>
     <steps style="continues">
       <item><p>Elemente, die in den Suchergebnissen erscheinen können, sind u.a.:</p>
       <list>
@@ -70,7 +69,7 @@
 
       <title>Suchergebnisse anpassen</title>
 
-      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+      <media type="image" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
       <p>GNOME lässt Sie Ihre angezeigten Suchergebnisse in der <gui>Aktivitäten-Übersicht</gui> anpassen. Zum Beispiel können Sie wählen, ob Sie Suchergebnisse für Webseiten, Fotos oder Musik anzeigen lassen.</p>
@@ -79,7 +78,8 @@
       <p>Zum Anpassen der Suchergebnisse:</p>
 
       <steps>
-        <item><p>Klicken Sie auf das Systemmenü auf der rechten Seite der oberen Leiste und dann auf den Knopf für Einstellungen im unteren Bereich des Menüs.</p></item>
+        <item><p>Klicken Sie auf Ihren Namen im oberen Panel.</p></item>
+        <item><p>Wählen Sie <gui>Einstellungen</gui>.</p></item>
         <item><p>Wählen Sie <gui>Suchen</gui> aus der Liste aus.</p></item>
         <item><p>Klicken Sie in der Liste der Suchpfade die <gui>AN/AUS</gui>-Schalter neben dem Suchpfad zum Aktivieren oder Deaktivieren.</p>
          </item>

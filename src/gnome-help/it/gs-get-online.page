@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="it">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-get-online" xml:lang="it">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">Andare online</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">A tutorial on getting online</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Luca Ferretti</mal:name>
@@ -25,57 +24,45 @@
   <title>Andare online</title>
   
   <note style="important">
-      <p>You can see the status of your network connection on the right-hand
-       side of the top bar.</p>
+      <p>È possibile visualizzare lo stato della propria connessione di rete sul lato destro della barra superiore, accanto al proprio nome.</p>
   </note>  
 
   <section id="going-online-wired">
 
     <title>Connettere a una rete via cavo</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+    <media type="image" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>L'icona di connessione di rete sul lato destro della barra superiore mostra che si è offline.</p>
-      <p>The off-line status can be caused by a number of reasons: for
-       example, a network cable has been unplugged, the computer has been set
-       to run in <em>airplane mode</em>, or there are no available Wi-Fi
-       networks in your area.</p>
-      <p>Per usare una connessione via cavo è sufficiente collegare il cavo di rete. Il computer proverà a impostare automaticamente la connessione di rete.</p>
-      <p>Mentre il computer imposta una connessione di rete, l'icona di connessione rete mostra tre puntini.</p></item>
+      <item><p>L'icona di connessione di rete sul lato destro della barra superiore mostra che si è offline.</p></item>
+      <item><p>Fare clic sull'icona di connesione di rete per mostrare maggiori dettagli sullo stato della propria connessione di rete.</p>
+      <p>Lo stato offline può essere causato da diversi motivi: per esempio un cavo di rete scollegato, il computer impostato in <em>modalità aeroplano</em> oppure l'assenza di una rete wireless nella propria area.</p></item>
+    </steps>
+
+    <media type="image" src="gs-go-online2.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Per usare una connessione via cavo è sufficiente collegare il cavo di rete. Il computer proverà a impostare automaticamente la connessione di rete.</p>
+      </item>
+      <item><p>Mentre il computer imposta una connessione di rete, l'icona di connessione rete mostra tre puntini.</p></item>
       <item><p>Una volta che la connessione è riuscita, l'icona di connessione di rete mostra il simbolo di un computer connesso in rete.</p></item>
     </steps>
     
   </section>
 
-  <section id="going-online-wifi">
+  <section id="going-online-other">
 
-    <title>Connect to a Wi-Fi network</title>
+    <title>Connettere ad altri tipi di rete</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    <media type="image" src="gs-go-online3.svg" width="100%"/>
     
     <steps>
-    <item><p>To connect to a Wi-Fi (wireless) network, click the status menu at
-     the top right of the screen, and then click <gui>Select Network</gui>.</p>
-    </item>
-    </steps>
-
-     <note style="important">
-       <p>You can only connect to a Wi-Fi network if your computer hardware
-        supports it and you are in an area with Wi-Fi coverage.</p>
-     </note>
-
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
-
-    <steps style="continues">
-    <item><p>From the list of available Wi-Fi networks, select the network you
-    want to connect to, and click <gui>Connect</gui> to confirm.</p>
-    <p>Depending on the network configuration, you may be prompted for network
-     credentials.</p></item>
-    </steps>
-
+    <item><p>Ci sono diversi tipi di connessione di rete che è possibile usare con il proprio computer, per esempio le reti wireless o quelle broadband mobile.</p></item>
+    <item><p>A seconda dell'hardware del computer e della disponibilità di reti, è possibile scegliere altri tipi di connessione facendo clic sull'icona di connessione rete sul lato destro della barra superiore e selezionando la connessione di rete che si vuole utilizzare.</p></item>
+     </steps>
+    
     <!-- FIXME: links to existing wireless/broadband connection documents. -->
-
+    
   </section>
 
 </page>

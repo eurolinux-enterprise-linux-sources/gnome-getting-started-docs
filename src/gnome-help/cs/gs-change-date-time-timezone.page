@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="cs">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-date-time-timezone" xml:lang="cs">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -14,39 +14,35 @@
     <link type="seealso" xref="clock"/>
     <title role="seealso" type="link">A tutorial on changing the date, time and
      timezone</title>
-    <link type="next" xref="gs-change-wallpaper"/>
   </info>
 
   <title>Změna data, času a časového pásma</title>
 
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-timezone.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Změna data a času</tt:p>
          </tt:div>
-         <tt:div begin="6s" end="9s">
+         <tt:div begin="6s" end="8s">
            <tt:p>Click the clock on the top bar.</tt:p>
            </tt:div>
-         <tt:div begin="9s" end="13s">
-           <tt:p>Select <gui>Date &amp; Time Settings</gui>.</tt:p>
+         <tt:div begin="8s" end="13s">
+           <tt:p>Select the <gui>Date &amp; Time Settings</gui> item.</tt:p>
          </tt:div>
-         <tt:div begin="13s" end="15s">
-           <tt:p>Make sure that <gui>Automatic Time Zone</gui> is switched
-            off.</tt:p>
-         </tt:div>
-         <tt:div begin="15s" end="17s">
-           <tt:p>Click <gui>Time Zone</gui>.</tt:p>
-         </tt:div>
-         <tt:div begin="17s" end="21s">
+         <tt:div begin="13s" end="16s">
            <tt:p>Click on your location on the map.</tt:p>
          </tt:div>
-         <tt:div begin="21s" end="23s">
-           <tt:p>Click <gui>Close</gui>.</tt:p>
+         <tt:div begin="16s" end="20s">
+           <tt:p>You can adjust the date and time by clicking on the arrows to
+           choose the hour, minute, and year.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
+         <tt:div begin="21s" end="23s">
            <tt:p>Close the window.</tt:p>
          </tt:div>
        </tt:body>
@@ -54,27 +50,64 @@
   </media>
   </ui:overlay>
 
+</if:when>
+<if:when test="platform:gnome-classic">
+
+  <ui:overlay width="812" height="452">
+  <media type="video" src="figures/classic-timezone.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Změna data a času</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="8s">
+           <tt:p>Click the clock on the top bar.</tt:p>
+           </tt:div>
+         <tt:div begin="8s" end="13s">
+           <tt:p>Select the <gui>Date &amp; Time Settings</gui> item.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="16s">
+           <tt:p>Click on your location on the map.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="20s">
+           <tt:p>You can adjust the date and time by clicking on the arrows to
+           choose the hour, minute, and year.</tt:p>
+         </tt:div>
+         <tt:div begin="21s" end="23s">
+           <tt:p>Close the window.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+</if:when>
+</if:choose>
+
   <section id="change-date-time">
     <title>Změna data, času a časového pásma</title>
 
   <steps>
-    <item><p>Click the clock on the top bar and select the <gui>Date &amp; Time
-     Settings</gui> item.</p></item>
-    <item><p>Make sure that the <gui>Automatic Time Zone</gui> item is switched
-     off, and then click the <gui>Time Zone</gui> item below.</p></item>
-    <item><p>Click on your location on the map. This selects your current city,
-     which you can also search for in the
-     search box above the map.</p></item>
-    <item><p>Click the <gui>Close</gui> button to go back to the <gui>Date &amp;
-     Time Settings</gui> window.</p></item>
-    <item><p>Make sure that the <gui>Automatic Date &amp; Time</gui> item is
-     switched off, and then click the <gui>Date &amp; Time</gui> item below to
-     open the <gui>Date &amp; Time</gui> window. There you can adjust your date
-     and time settings by clicking on the <gui>+</gui> or <gui>-</gui> buttons.</p>
+    <item><p>Click the clock on the top bar.</p></item>
+    <item><p>Select the <gui>Date &amp; Time Settings</gui> item.</p></item>
+    <item>
+    
+    <comment>
+    <cite date="2013-06-20">pmkovar</cite>
+    <p>Changing timezone hopefully won't require authorization.</p>
+    </comment>
+
+    <p>You may need to click the <gui>Unlock</gui> button and type the
+     administrator's password.</p></item>
+    <item><p>Click on your location on the map.</p>
+    <p>This selects your current city, which you can also see and change in the
+     drop-down list below the map.</p></item>
+    <item><p>On the right-hand side of the window, you can adjust the date and
+     time by clicking on the arrows to choose the hour, minute, and year.</p>
      </item>
-    <item><p>Click the <gui>Close</gui> button to go back to the <gui>Date &amp;
-     Time Settings</gui> window, and then close that window by clicking the
-     cross at the top-right corner of that window.</p></item>
+    <item><p>Close the window by clicking the cross at the top-right corner of
+     the window.</p></item>
   </steps>
 
   <!-- FIXME: 

@@ -39,8 +39,8 @@
       </ns6:Work>
     </rdf:RDF>
   </ns0:metadata>
-  <ns0:g id="layer1" transform="translate(0,-492.3622)" ns2:insensitive="true" ns1:groupmode="layer" ns1:label="bg">
-    <ns0:rect height="1036" id="background" style="fill:url(#BLANK);" width="866" x="-16" y="475.36218" ns1:label="background" />
+  <ns0:g id="layer1" transform="translate(0,-492.3622)" ns1:insensitive="true" ns2:groupmode="layer" ns2:label="bg">
+    <ns0:rect height="1036" id="background" style="fill:url(#RHEL7);" width="866" x="-16" y="475.36218" ns2:label="background" />
   </ns0:g>
   <ns0:g id="layer2" transform="translate(0,-40)" ns1:groupmode="layer" ns1:label="fg">
     <ns0:g id="g11020" transform="translate(-35,-619.36217)">

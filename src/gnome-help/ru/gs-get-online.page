@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="ru">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-get-online" xml:lang="ru">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,75 +13,50 @@
     <title role="trail" type="link">Выход в сеть</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">Руководство по выходу в сеть</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
-  
-    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Юлия Дронова</mal:name>
-      <mal:email>juliette.tux@gmail.com</mal:email>
-      <mal:years>2014</mal:years>
-    </mal:credit>
-  
-    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Юрий Мясоедов</mal:name>
-      <mal:email>ymyasoedov@yandex.ru</mal:email>
-      <mal:years>2014</mal:years>
-    </mal:credit>
   </info>
 
   <title>Выход в сеть</title>
   
   <note style="important">
-      <p>You can see the status of your network connection on the right-hand
-       side of the top bar.</p>
+      <p>Состояние вашего сетевого подключения можно увидеть в верхней панели с правой стороны рядом с вашим именем.</p>
   </note>  
 
   <section id="going-online-wired">
 
     <title>Подключиться к проводной сети</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+    <media type="image" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>Значок сетевого подключения в верхней панели с правой стороны показывает, что вы находитесь не в сети.</p>
-      <p>The off-line status can be caused by a number of reasons: for
-       example, a network cable has been unplugged, the computer has been set
-       to run in <em>airplane mode</em>, or there are no available Wi-Fi
-       networks in your area.</p>
-      <p>Если вы хотите использовать проводное соединение, подключите сетевой кабель. Компьютер попробует настроить соединение автоматически.</p>
-      <p>Во время установки сетевого соединения значок подключения показывает три точки. </p></item>
+      <item><p>Значок сетевого подключения в верхней панели с правой стороны показывает, что вы находитесь не в сети.</p></item>
+      <item><p>Нажмите на значок сетевого подключения, чтобы просмотреть подробности о состоянии сетевого подключения.</p>
+      <p>Статус «не в сети» может возникнуть по нескольким причинам: например, сетевой кабель отключён, компьютер настроен на работу в <em>режиме перелёта</em> или в вашем районе нет доступных беспроводных сетей.</p></item>
+    </steps>
+
+    <media type="image" src="gs-go-online2.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Если вы хотите использовать проводное соединение, подключите сетевой кабель. Компьютер попробует настроить соединение автоматически.</p>
+      </item>
+      <item><p>Во время установки сетевого соединения значок подключения показывает три точки. </p></item>
       <item><p>Как только сетевое соединение будет настроено, значок сетевого подключения изменится на значок компьютера, подключённого к сети.</p></item>
     </steps>
     
   </section>
 
-  <section id="going-online-wifi">
+  <section id="going-online-other">
 
-    <title>Connect to a Wi-Fi network</title>
+    <title>Подключение к другим типам сетей</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    <media type="image" src="gs-go-online3.svg" width="100%"/>
     
     <steps>
-    <item><p>To connect to a Wi-Fi (wireless) network, click the status menu at
-     the top right of the screen, and then click <gui>Select Network</gui>.</p>
-    </item>
-    </steps>
-
-     <note style="important">
-       <p>You can only connect to a Wi-Fi network if your computer hardware
-        supports it and you are in an area with Wi-Fi coverage.</p>
-     </note>
-
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
-
-    <steps style="continues">
-    <item><p>From the list of available Wi-Fi networks, select the network you
-    want to connect to, and click <gui>Connect</gui> to confirm.</p>
-    <p>Depending on the network configuration, you may be prompted for network
-     credentials.</p></item>
-    </steps>
-
+    <item><p>Существуют различные типы сетевых соединений, которые можно использовать на вашем компьютере, например, мобильное широкополосное соединение или беспроводное соединение.</p></item>
+    <item><p>В зависимости от аппаратных компонентов вашей машины и доступности сети можно выбрать другие типы соединений, нажав значок сетевых соединений в верхней панели с правой стороны и выбрав нужный тип соединения.</p></item>
+     </steps>
+    
     <!-- FIXME: links to existing wireless/broadband connection documents. -->
-
+    
   </section>
 
 </page>

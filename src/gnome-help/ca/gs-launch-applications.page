@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-launch-applications" xml:lang="ca">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-launch-applications" xml:lang="ca">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -15,22 +15,21 @@
     <title role="trail" type="link">Launch applications</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">A tutorial on launching applications</title>
-    <link type="next" xref="gs-switch-tasks"/>
 -->
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Manel Vidal</mal:name>
       <mal:email>verduler@gmail.com</mal:email>
-      <mal:years>2013, 2014/t</mal:years>
+      <mal:years>2013	</mal:years>
     </mal:credit>
   </info>
 
-  <title>Iniciació d'aplicacions</title>
+  <title>Launch applications</title>
 
   <ui:overlay width="812" height="452">
-   <media type="video" its:translate="no" src="figures/gnome-launching-applications.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-launching-apps.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+   <media type="video" src="figures/gnome-launching-applications.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-launching-apps.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Inicieu aplicacions</tt:p>
@@ -59,23 +58,28 @@
   </ui:overlay>
 
   <section id="launch-apps-mouse">
-    <title>Inicieu les aplicacions amb el ratolí</title>
+    <title>Launch applications with the mouse</title>
  
   <steps>
     <item><p>Moveu el ratolí fins a la cantonada d'<gui>Activitats</gui> situat a la part superior esquerra de la pantalla per visualitzar la <gui>Vista general de les activitats</gui>.</p></item>
-    <item><p>Feu clic a la icona <gui>Mostra les aplicacions</gui> situada a la part inferior de la barra situada a la part esquerra de la pantalla.</p></item>
-    <item><p>Es mostrarà una llista amb les aplicacions. Feu clic a l'aplicació que voleu iniciar, per exemple, l'Ajuda.</p></item>
+    <item><p>Click the <gui>Show Applications</gui> icon that is shown at the
+     bottom of the bar on the left-hand side of the screen.</p></item>
+    <item><p>A list of applications is shown. Click the application you want to
+     run, for example, Help.</p></item>
   </steps>
 
   </section>
 
   <section id="launch-app-keyboard">
-    <title>Inicieu les aplicacions amb el teclat</title>
+    <title>Launch applications with the keyboard</title>
 
   <steps>
-    <item><p>Premeu la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> per obrir la <gui>Vista general de les activitats</gui>.</p></item>
-    <item><p>Comenceu a escriure el nom de l'aplicació que voleu iniciar. La cerca de l'aplicació comença instantàniament.</p></item>
-    <item><p>Un cop es mostri, i estigui seleccionada, la icona de l'aplicació premeu <key>Retorn</key> per iniciar-la.</p></item>
+    <item><p>Open the <gui>Activities Overview</gui> by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key.</p></item>
+    <item><p>Start typing the name of the application you want to launch.
+     Searching for the application begins instantly.</p></item>
+    <item><p>Once the icon of the application is shown and selected, press <key>
+    Enter</key> to launch the application.</p></item>
   </steps>
 
   </section>

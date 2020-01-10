@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="pt-BR">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="pt-BR">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">Usando janelas e espaços de trabalho</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Um tutorial sobre o uso de janelas e espaços de trabalho</title>
-    <link type="next" xref="gs-use-system-search"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Enrico Nicoletto</mal:name>
@@ -31,9 +30,9 @@
   <title>Usando janelas e espaços de trabalho</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-windows-and-workspaces.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Janelas e espaços de trabalho</tt:p>
@@ -62,22 +61,22 @@
          <tt:div begin="44s" end="48s">
            <tt:p>Quando metade da tela for destacada, solte a janela.</tt:p>
          </tt:div>
-         <tt:div begin="54s" end="60s">
+         <tt:div begin="52s" end="58s">
            <tt:p>Para maximizar uma janela usando o teclado, mantenha pressionada a tecla <key href="help:gnome-help/keyboard-key-super">Super</key> e pressione <key>↑</key>.</tt:p>
          </tt:div>
-         <tt:div begin="61s" end="66s">
+         <tt:div begin="59s" end="63s">
            <tt:p>Para restaurar a janela ao seu tamanho desmaximizado, mantenha pressionada a tecla <key href="help:gnome-help/keyboard-key-super">Super</key> e pressione <key>↓</key>.</tt:p>
          </tt:div>
-         <tt:div begin="66s" end="73s">
+         <tt:div begin="63s" end="68s">
            <tt:p>Para maximizar uma janela ao longo do lado direito da tela, mantenha pressionada a tecla <key href="help:gnome-help/keyboard-key-super">Super</key> e pressione <key>→</key>.</tt:p>
          </tt:div>
-         <tt:div begin="76s" end="82s">
+         <tt:div begin="69s" end="72s">
            <tt:p>Para maximizar uma janela ao longo do lado esquerdo da tela, mantenha pressionada a tecla <key href="help:gnome-help/keyboard-key-super">Super</key> e pressione <key>←</key>.</tt:p>
          </tt:div>
-         <tt:div begin="83s" end="89s">
+         <tt:div begin="73s" end="76s">
            <tt:p>Para mover para um espaço de trabalho que está abaixo do espaço de trabalho atual, pressione <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Down</key></keyseq>.</tt:p>
          </tt:div>
-         <tt:div begin="90s" end="97s">
+         <tt:div begin="77s" end="80s">
            <tt:p>Para mover para um espaço de trabalho que está acima do espaço de trabalho atual, pressione <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key> <key>Page Up</key></keyseq>.</tt:p>
          </tt:div>
        </tt:body>

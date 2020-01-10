@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="pl">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-get-online" xml:lang="pl">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">Łączenie z siecią</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">Samouczek łączenia z siecią</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Piotr Drąg</mal:name>
@@ -31,49 +30,45 @@
   <title>Łączenie z siecią</title>
   
   <note style="important">
-      <p>Można zobaczyć stan połączenia sieciowego po prawej stronie górnego paska.</p>
+      <p>Można zobaczyć stan połączenia sieciowego po prawej stronie górnego paska, obok swojego imienia.</p>
   </note>  
 
   <section id="going-online-wired">
 
     <title>Łączenie z siecią przewodową</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+    <media type="image" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>Ikona połączenia sieciowego po prawej stronie górnego paska pokazuje, że komputer nie jest połączony (tryb offline).</p>
-      <p>Stan offline może mieć wiele przyczyn: na przykład kabel mógł zostać odłączony, komputer został ustawiony w <em>trybie samolotowym</em> lub brak dostępnych sieci Wi-Fi w okolicy.</p>
-      <p>Aby użyć połączenia przewodowego, po prostu podłącz kabel sieciowy. Komputer spróbuje automatycznie ustawić połączenie sieciowe.</p>
-      <p>Kiedy komputer ustawia połączenie sieciowe, ikona połączenia wyświetla trzy kropki.</p></item>
+      <item><p>Ikona połączenia sieciowego po prawej stronie górnego paska pokazuje, że komputer nie jest połączony (tryb offline).</p></item>
+      <item><p>Kliknięcie ikony połączenia sieciowego wyświetli więcej informacji o stanie połączenia.</p>
+      <p>Stan offline może mieć wiele przyczyn: na przykład kabel mógł zostać odłączony, komputer został ustawiony w <em>trybie samolotowym</em> lub brak dostępnych sieci bezprzewodowych w okolicy.</p></item>
+    </steps>
+
+    <media type="image" src="gs-go-online2.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Aby użyć połączenia przewodowego, po prostu podłącz kabel sieciowy. Komputer spróbuje automatycznie ustawić połączenie sieciowe.</p>
+      </item>
+      <item><p>Kiedy komputer ustawia połączenie sieciowe, ikona połączenia wyświetla trzy kropki.</p></item>
       <item><p>Po pomyślnym ustawieniu połączenia sieciowego ikona połączenia zmienia się w symbol komputera podłączonego do sieci.</p></item>
     </steps>
     
   </section>
 
-  <section id="going-online-wifi">
+  <section id="going-online-other">
 
-    <title>Łączenie z siecią Wi-Fi</title>
+    <title>Łączenie z innymi rodzajami sieci</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    <media type="image" src="gs-go-online3.svg" width="100%"/>
     
     <steps>
-    <item><p>Aby połączyć z bezprzewodową siecią Wi-Fi, kliknij menu stanu w górnym prawym rogu ekranu, a następnie kliknij <gui>Wybierz sieć</gui>.</p>
-    </item>
-    </steps>
-
-     <note style="important">
-       <p>Można łączyć się z sieciami Wi-Fi tylko, jeśli komputer je obsługuje oraz jest w zasięgu jednej z nich.</p>
-     </note>
-
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
-
-    <steps style="continues">
-    <item><p>Z listy dostępnych sieci Wi-Fi wybierz sieć, z którą połączyć, i kliknij <gui>Połącz</gui>, aby potwierdzić.</p>
-    <p>W zależności od konfiguracji sieci, może być wymagane podanie danych uwierzytelniających sieci.</p></item>
-    </steps>
-
+    <item><p>Komputer można podłączyć do sieci na wiele różnych sposobów, na przykład przez połączenie komórkowe lub sieci bezprzewodowe.</p></item>
+    <item><p>W zależności od sprzętu i dostępności sieci, można wybrać inny rodzaj połączenia klikając ikonę połączenia sieciowego po prawej stronie górnego paska i wybierając rodzaj sieci, z którą się połączyć.</p></item>
+     </steps>
+    
     <!-- FIXME: links to existing wireless/broadband connection documents. -->
-
+    
   </section>
 
 </page>

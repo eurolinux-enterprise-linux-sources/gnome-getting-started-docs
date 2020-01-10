@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="ja">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-browse-web" xml:lang="ja">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -23,7 +23,7 @@
 
   <title>Web を閲覧する</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+    <media type="image" src="gs-web-browser1.svg" width="100%"/>
 
     <steps>
       <item><p>マウスポインターを画面左上角の<gui>アクティビティ</gui>まで移動させ、<gui>アクティビティ画面</gui>を開きます。</p></item>
@@ -32,7 +32,7 @@
 
     <note><p>あるいは、<gui>アクティビティ画面</gui>で <em>web</em> と<link xref="gs-use-system-search">入力</link>してブラウザーを起動することもできます。</p></note>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+    <media type="image" src="gs-web-browser2.svg" width="100%"/>
 
     <steps style="continues">
       <item><p>ブラウザーウィンドウ上部のアドレスバーを選択し、アクセスしたい Web サイトを入力します。</p></item>

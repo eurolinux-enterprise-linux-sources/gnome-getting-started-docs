@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="it">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-respond-messages" xml:lang="it">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">Rispondere ai messaggi</title>
     <link type="seealso" xref="shell-notifications"/>
     <title role="seealso" type="link">A tutorial on responding to messages</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Luca Ferretti</mal:name>
@@ -25,9 +24,9 @@
   <title>Rispondere ai messaggi</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+  <media type="video" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
        <tt:body>
          <tt:div begin="1s" end="3s">
            <tt:p>Rispondere ai messaggi</tt:p>
@@ -47,13 +46,13 @@
          <tt:div begin="16s" end="20s">
            <tt:p>Un messaggio di chat nella message tray scompare dopo un breve intervanno se non si sposta il mouse sulla tray stessa.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
+         <tt:div begin="20s" end="24s">
            <tt:p>Per tornare al messaggio senza risposta, spostare il puntatore sulla message tray.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
+         <tt:div begin="25s" end="26s">
            <tt:p>Fare clic sulla persona che ha inviato il messaggio.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
+         <tt:div begin="26s" end="28s">
            <tt:p>Iniziare a digitare la propria risposta e, una volta finito, premere <key>Invio</key>.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="30s">

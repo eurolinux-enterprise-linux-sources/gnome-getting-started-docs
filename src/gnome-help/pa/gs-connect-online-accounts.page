@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="pa">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="pa">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,43 +13,51 @@
     <title role="trail" type="link">ਆਨਲਾਈਨ ਖਾਤਿਆਂ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨਾ</title>
     <link type="seealso" xref="accounts"/>
     <title role="seealso" type="link">ਆਨਲਾਈਨ ਖਾਤਿਆਂ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਲਈ ਸਿਖਲਾਈ</title>
-    <link type="next" xref="gs-change-date-time-timezone"/>
   </info>
 
   <title>ਆਨਲਾਈਨ ਖਾਤਿਆਂ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨਾ</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+    <media type="image" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>ਉੱਤੇ ਪੱਟੀ ਦੇ ਸੱਜੇ ਪਾਸੇ ਉੱਤੇ ਸਿਸਟਮ ਮੇਨੂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p></item>
-      <item><p>ਮੇਨੂ ਦੇ ਹੇਠਾਂ ਸੈਟਿੰਗ ਬਟਨ ਨੂੰ ਦੱਬੋ।</p></item>
+      <item><p>ਉੱਤੇ ਪੱਟੀ ਵਿੱਚੋਂ ਆਪਣੇ ਨਾਂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p></item>
+      <item><p><gui>ਸੈਟਿੰਗ</gui> ਦੀ ਚੋਣ ਕਰੋ।</p></item>
     </steps>
        
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
+    <media type="image" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>ਆਈਟਮਾਂ ਦੀ ਸੂਚੀ ਵਿੱਚੋਂ, <gui>ਆਨਲਾਈਨ ਅਕਾਊਂਟ</gui> ਚੁਣੋ ਅਤੇ <gui>ਆਨਲਾਈਨ ਖਾਤਾ ਜੋੜੋ</gui> ਬਟਨ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p></item>
+      <item><p>ਆਈਟਮਾਂ ਦੀ ਸੂਚੀ ਵਿੱਚੋਂ, <gui>ਆਨਲਾਈਨ ਅਕਾਊਂਟ</gui> ਚੁਣੋ।</p></item>
+      <item><p><gui>ਆਨਲਾਈਨ ਅਕਾਊਂਟ ਸ਼ਾਮਿਲ ਕਰੋ</gui> ਬਟਨ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p></item>
     </steps>
     
-    <note><p>ਜੇ ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਆਨਲਾਈਨ ਅਕਾਊਂਟ (ਖਾਤਾ) ਸੈਟ ਅੱਪ ਕੀਤਾ ਹੋਇਆ ਹੈ ਤਾਂ ਤੁਸੀਂ ਹੋਰ ਅਕਾਊਂਟ ਨੂੰ ਵਿੰਡੋ ਦੇ ਹੇਠਲੇ ਖੱਬੇ ਕੋਨੇ ਵਿੱਚ <gui>+</gui> ਨਿਸ਼ਾਨ ਨੂੰ ਕਲਿੱਕ ਕਰਕੇ ਕਰ ਸਕਦੇ ਹੋ।</p></note>
+    <note><p>If you have set up an online account before, you can add another
+     online account by clicking the <gui>+</gui> button at the bottom left
+     corner of the window.</p></note>
     
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+    <media type="image" src="gs-goa3.svg" width="100%"/>
 
     <steps style="continues">  
-      <item><p>ਆਨਲਾਈਨ ਅਕਾਊਂਟ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਇਸ ਨਾਲ ਨਵੀਂ ਵਿੰਡੋ ਖੁੱਲ੍ਹੇਗੀ, ਜਿੱਥੇ ਤੁਸੀਂ ਆਪਣੇ ਆਨਲਾਈਣ ਖਾਤੇ ਵਿੱਚ ਸਾਇਨ ਕਰ ਸਕਦੇ ਹੋ।</p></item>
+      <item><p>Click the online account you want to use. This will open a new
+       window where you can sign in to your online account.</p></item>
     </steps>
       
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
+    <media type="image" src="gs-goa4.svg" width="100%"/>
 
     <steps style="continues">  
-      <item><p>ਬਹੁਤੇ ਹਾਲਤਾਂ ਵਿੱਚ, ਤੁਹਾਨੂੰ ਸਾਇਨ ਇਨ ਕਰਨ ਦੇ ਬਾਅਦ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਆਨਲਾਈਨ ਸੇਵਾਵਾਂ ਲਈ ਅਧਿਕਾਰ ਦੇਣੇ ਪੈਣਗੇ।</p></item>
-      <item><p>ਉਦਾਹਰਨ ਲਈ, ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਗੂਗਲ ਅਕਾਊਂਟ ਨਾਲ ਕੁਨੈਕਟ ਹੋ ਰਹੇ ਹੋ ਤਾਂ ਤੁਹਾਨੂੰ <gui>ਅਧਿਕਾਰ ਮਨਜ਼ੂਰੀ (Grant Access)</gui> ਬਟਨ ਨੂੰ ਕਲਿੱਕ ਕਰਨਾ ਪਵੇਗਾ।</p></item>
+      <item><p>In most cases, you will have to grant access to the online
+       service after signing in to get started.</p></item>
+      <item><p>For example, if you are connecting to your Google account, you
+       will have to click the <gui>Grant Access</gui> button.</p></item>
     </steps>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
+    <media type="image" src="gs-goa5.svg" width="100%"/>
 
     <steps style="continues">  
-      <item><p>ਕਈ ਆਨਲਾਈਨ ਖਾਤੇ ਤੁਹਾਨੂੰ ਸੇਵਾ ਚੁਣਨ ਲਈ ਸਹਾਇਕ ਹੈ, ਜੋ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਆਨਲਾਈਨ ਖਾਤੇ ਨਾਲ ਵਰਤਣੀ ਚਾਹੁੰਦੇ ਹੋ। ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਵਰਤਣ ਲਈ ਸੇਵਾ ਨਹੀਂ ਹੈ ਤਾਂ ਇਸ ਨੂੰ ਵਿੰਡੋ ਦੇ ਸੱਜੇ ਹੱਥ ਉੱਤੇ ਤੋਂ <gui>ਚਾਲੂ/ਬੰਦ</gui> ਸਵਿੱਚ ਨੂੰ ਕਲਿੱਕ ਕਰਕੇ ਅਸਮਰੱਥ ਕਰ ਦਿਉ।</p></item>
+      <item><p>Many online accounts let you choose the services you want to use
+       with your online account. If you do not want to use a service, disable it
+       by clicking the <gui>ON/OFF</gui> switch on the right-hand side of the
+       window.</p></item>
     </steps>
 
 </page>

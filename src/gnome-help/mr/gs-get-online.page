@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="mr">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-get-online" xml:lang="mr">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">ऑनलाईन या</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">ऑनलाईन येण्याबाबत वर्गपाठ</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Aniket Deshpande</mal:name>
@@ -25,49 +24,45 @@
   <title>ऑनलाईन या</title>
   
   <note style="important">
-      <p>नेटवर्कची स्थिती तुम्ही उजव्या हाताला सगळ्यात वरच्या पट्टीवर पाहू शकता.</p>
+      <p>नेटवर्कची स्थिती तुम्ही उजव्या हाताला सगळ्यात वरच्या पट्टीवर,तुमच्या नावाच्या बाजूला पाहू शकता.</p>
   </note>  
 
   <section id="going-online-wired">
 
     <title>वायर्ड नेटवर्कशी जोडा</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+    <media type="image" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>नेटवर्कची जोडणी चिन्ह जे उजव्या हाताला सगळ्यात वरच्या पट्टीवर दाखवत आहे तुम्ही ऑफलाईन आहात.</p>
-      <p>ऑफ-लाईन स्थिती ही वेगवेगळ्या कारणांमुळे निर्माण होऊ शकते: उदाहरणार्थ, नेटवर्क तार निघाली, कम्प्युटर हा <em>एअरप्लेन मोड</em>मध्ये गेला आहे, किंवा तुमच्या क्षेत्रात उपलब्ध वाय-फाय नेटवर्क्स नाहीत.</p>
-      <p>तुम्हाला वायर्ड जोडणी वापरायची असेल तर, ऑनलाईन जायला फक्त जोडणी तार लावा. कम्प्युटर तुमच्यासाठी आपोआप नेटवर्क जोडणी स्थापित करण्याचा प्रयत्न करेल.</p>
-      <p>संगणक तुमच्यासाठी नेटवर्कची जोडणी करत असतांना, नेटवर्कची जोडणी चिन्ह तीन टिंब दाखवतं.</p></item>
+      <item><p>नेटवर्कची जोडणी चिन्ह जे उजव्या हाताला सगळ्यात वरच्या पट्टीवर दाखवत आहे तुम्ही ऑफलाईन आहात.</p></item>
+      <item><p>तुमच्या नेटवर्कची जोडणी स्थिती बद्दल अधिक माहिती साठी नेटवर्कची जोडणी चिन्हावर क्लिक करा.</p>
+      <p>ऑफ-लाईन स्थिती ही वेगवेगळ्या कारणांमुळे निर्माण होऊ शकते: उदाहरण म्हणून, नेटवर्क तार निघाली, कम्प्युटर हा <em>एअरप्लेन मोड</em>मध्ये गेला आहे, किंवा तुमच्या क्षेत्रात उपलब्ध वायरलेस नेटवर्क नाहीत.</p></item>
+    </steps>
+
+    <media type="image" src="gs-go-online2.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>तुम्हाला वायर्ड जोडणी वापरायची असेल तर, ऑनलाईन जायला फक्त जोडणी तार लावा. कम्प्युटर तुमच्यासाठी आपोआप नेटवर्क जोडणी स्थापित करण्याचा प्रयत्न करेल.</p>
+      </item>
+      <item><p>संगणक तुमच्यासाठी नेटवर्कची जोडणी करत असतांना, नेटवर्कची जोडणी चिन्ह तीन टिंब दाखवतं.</p></item>
       <item><p>एकदा नेटवर्क जोडणी स्थापित झाली की, नेटवर्क जोडणी चिन्ह हे कमप्यूटर चिन्हामध्ये बदलतं.</p></item>
     </steps>
     
   </section>
 
-  <section id="going-online-wifi">
+  <section id="going-online-other">
 
-    <title>वाय-फाय नेटवर्कशी जोडणी करा</title>
+    <title>बाकी प्रकारांच्या नेटवर्कशी जोडा</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    <media type="image" src="gs-go-online3.svg" width="100%"/>
     
     <steps>
-    <item><p>वाय-फाय नेटवर्कशी जोडणीकरिता, पडद्याच्या उजव्या बाजूवरील स्टेटस मेन्यु क्लिक करा, आणि त्यानंतर <gui>नेटवर्क नीवडा</gui> क्लिक करा.</p>
-    </item>
-    </steps>
-
-     <note style="important">
-       <p>तुम्ही फक्त वाय-फाय नेटवर्कशी जोडणी करू शकता, संगणकावरील हार्डवेअर त्याकरिता समर्थन पुरवत अल्यास आणि तुम्ही वाय-फाय व्याप्ति अंतर्गत असाल.</p>
-     </note>
-
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
-
-    <steps style="continues">
-    <item><p>उपलब्ध वाय-फाय नेटवर्क्सच्या सूचीतून, जोडणीजोगी नेटवर्क पसंत करा, आणि खात्रीकरिता <gui>जोडणी करा</gui> क्लिक करा.</p>
-    <p>नेटवर्क संरचनावर आधारित, तुम्हाला नेटवर्क श्रेयकरिता विनंती केली जाईल.</p></item>
-    </steps>
-
+    <item><p>वेगवेगळ्या प्रकारच्या नेटवर्कची जोडण्या आहेत ज्या तुमच्या संगणकासोबत वापरल्या जाऊ शकतात, उदाहरण म्हणून, मोबाईल ब्रॉडबॅन्ड, किंवा वायरलेस नेटवर्क.</p></item>
+    <item><p>तुमच्या कमप्यूटर हार्डवेअर आणि नेटवर्क उपलब्धतेनुसार, उजव्या हाताला बाजूच्या उच्च पट्टीवरच्या नेटवर्क जोडणी चिन्हावर क्लिक करून इतर जोडणी प्रकार निवडू शकता आणि इच्छित नेटवर्क जोडणीशी जोडले जाऊ शकता.</p></item>
+     </steps>
+    
     <!-- FIXME: links to existing wireless/broadband connection documents. -->
-
+    
   </section>
 
 </page>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="sk">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-system-search" xml:lang="sk">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">Používanie systémového hľadania</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">Návod na používanie systémového hľadania</title>
-    <link type="next" xref="gs-get-online"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Richard Stanislavský</mal:name>
@@ -24,18 +23,15 @@
 
   <title>Používanie systémového hľadania</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    <media type="image" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Open the <gui>Activities Overview</gui> by pressing the
-    <key href="help:gnome-help/keyboard-key-super">Super</key> key. Start typing
-    to search.</p>
-    <p>Results matching what you have typed will appear as you type. The first
-    result is always highlighted and shown at the top.</p>
-    <p>Press <key>Enter</key> to switch to the first highlighted result.</p></item>
+    <item><p>Otvoríme <gui>Prehľad aktivít</gui> stlačením klávesu <key href="help:gnome-help/keyboard-key-super">Super</key>.</p></item>
+     <item><p>Vyhľadávanie spustíme písaním. Ihneď ako začneme písať sa budú zobrazovať zodpovedajúce výsledky.</p></item>
+     <item><p>Prvý výsledok je vždy zvýraznený a zobrazený na vrchu. Na tento prvý zvýraznený výsledok sa prepneme stlačením klávesu <key>Enter</key>.</p></item>
     </steps>
     
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <media type="image" src="gs-search2.svg" width="100%"/>
     <steps style="continues">
       <item><p>Medzi výsledkami vyhľadávania sa môžu objaviť nasledujúce položky: </p>
       <list>
@@ -61,7 +57,7 @@
 
       <title>Prispôsobenie výsledkov vyhľadávania</title>
 
-      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+      <media type="image" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
       <p>GNOME nám umožňuje prispôsobiť to, čo chceme zobrazovať medzi výsledkami vyhľadávania v <gui>Prehľade aktivít</gui>. Napríklad si môžeme vybrať, či chceme zobraziť výsledky internetových stránok, fotografií, alebo hudby.</p>
@@ -70,8 +66,8 @@
       <p>To, čo chceme zobraziť vo výsledkoch vyhľadávania môžeme prispôsobiť takto:</p>
 
       <steps>
-        <item><p>Click the system menu on the right side of the top bar and press
-         the settings button at the bottom of the menu.</p></item>
+        <item><p>Klikneme na naše meno v hornom paneli.</p></item>
+        <item><p>Vyberieme možnosť <gui>Nastavenia</gui>.</p></item>
         <item><p>Zo zoznamu položiek vyberieme <gui>Vyhľadávanie</gui>.</p></item>
         <item><p>Ak chceme povoliť alebo blokovať vyhľadávanie v nejakom umiestnení, klikneme na prepínač <gui>ZAP/VYP</gui> vedľa daného umiestnenia v zozname.</p>
          </item>

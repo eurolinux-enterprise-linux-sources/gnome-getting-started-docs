@@ -102,8 +102,8 @@
       </ns6:Work>
     </rdf:RDF>
   </ns0:metadata>
-  <ns0:g id="layer1" transform="translate(0,-992.3622)" ns2:insensitive="true" ns1:groupmode="layer" ns1:label="bg">
-    <ns0:rect height="656" id="background" style="fill:url(#BLANK);" width="866" x="-16" y="855.36218" ns1:label="background"/>
+  <ns0:g id="layer1" transform="translate(0,-992.3622)" ns1:insensitive="true" ns2:groupmode="layer" ns2:label="bg">
+    <ns0:rect height="656" id="background" style="fill:url(#RHEL7);" width="866" x="-16" y="855.36218" ns2:label="background"/>
   </ns0:g>
   <ns0:g id="layer2" transform="translate(0,-540)" ns1:groupmode="layer" ns1:label="fg">
     <ns0:g id="g4890" style="display:inline" transform="matrix(2.6833333,0,0,2.6833333,-1275.5101,-1072.8539)">
@@ -153,7 +153,7 @@
           <ns0:rect height="24" id="rect3923" style="fill:#d3d7cf;fill-opacity:1;stroke:none" transform="scale(-1,-1)" width="74" x="-594.42188" y="-405.36218"/>
           <ns0:rect height="24" id="rect3925" style="fill:#000000;fill-opacity:1;stroke:none" transform="scale(-1,-1)" width="36" x="-556.42188" y="-405.36218"/>
         </ns0:g>
-        <ns0:text id="text28760" style="font-size:5.21739149px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" x="716.83618" y="645.78406" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan28762" x="716.83618" y="645.78406" ns2:role="line">Nyala</ns0:tspan></ns0:text>
+        <ns0:text id="text28760" style="font-size:5.21739149px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" x="716.83618" y="645.78406" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan28762" x="716.83618" y="645.78406" ns2:role="line">I</ns0:tspan></ns0:text>
       </ns0:g>
       <ns0:path d="m 570.65534,726.81596 125.40492,0" id="path6614" style="color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:none;stroke:#000000;stroke-width:0.50954634;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;clip-rule:nonzero" ns1:connector-curvature="0"/>
       <ns0:g id="g12195" transform="matrix(0.14462412,0,0,0.14462412,541.15861,598.9906)">
@@ -270,21 +270,21 @@
           <ns0:rect height="24" id="rect8862" style="fill:#d3d7cf;fill-opacity:1;stroke:none" transform="scale(-1,-1)" width="74" x="-594.42188" y="-405.36218"/>
           <ns0:rect height="24" id="rect8864" style="fill:#000000;fill-opacity:1;stroke:none" transform="scale(-1,-1)" width="36" x="-556.42188" y="-405.36218"/>
         </ns0:g>
-        <ns0:text id="text8866" style="font-size:5.21739149px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" x="716.83612" y="645.78406" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan8868" x="716.83612" y="645.78406" ns2:role="line">Nyala</ns0:tspan></ns0:text>
+        <ns0:text id="text8866" style="font-size:5.21739149px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" x="716.83612" y="645.78406" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan8868" x="716.83612" y="645.78406" ns2:role="line">I</ns0:tspan></ns0:text>
       </ns0:g>
       <ns0:g id="g8870" transform="translate(-46.583853,37.267081)">
         <ns0:g id="g8872" style="display:inline" transform="matrix(0.37267081,0,0,0.37267081,516.18196,497.32611)">
           <ns0:rect height="24" id="rect8874" style="fill:#d3d7cf;fill-opacity:1;stroke:none" transform="scale(-1,-1)" width="74" x="-594.42188" y="-405.36218"/>
           <ns0:rect height="24" id="rect8876" style="fill:#000000;fill-opacity:1;stroke:none" transform="scale(-1,-1)" width="36" x="-556.42188" y="-405.36218"/>
         </ns0:g>
-        <ns0:text id="text8878" style="font-size:5.21739149px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" x="716.83612" y="645.78406" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan8880" x="716.83612" y="645.78406" ns2:role="line">Nyala</ns0:tspan></ns0:text>
+        <ns0:text id="text8878" style="font-size:5.21739149px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" x="716.83612" y="645.78406" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan8880" x="716.83612" y="645.78406" ns2:role="line">I</ns0:tspan></ns0:text>
       </ns0:g>
       <ns0:g id="g8882" transform="translate(-46.583853,52.173913)">
         <ns0:g id="g8884" style="display:inline" transform="matrix(0.37267081,0,0,0.37267081,516.18196,497.32611)">
           <ns0:rect height="24" id="rect8886" style="fill:#d3d7cf;fill-opacity:1;stroke:none" transform="scale(-1,-1)" width="74" x="-594.42188" y="-405.36218"/>
           <ns0:rect height="24" id="rect8888" style="fill:#000000;fill-opacity:1;stroke:none" transform="scale(-1,-1)" width="36" x="-556.42188" y="-405.36218"/>
         </ns0:g>
-        <ns0:text id="text8890" style="font-size:5.21739149px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" x="716.83612" y="645.78406" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan8892" x="716.83612" y="645.78406" ns2:role="line">Nyala</ns0:tspan></ns0:text>
+        <ns0:text id="text8890" style="font-size:5.21739149px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" x="716.83612" y="645.78406" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan8892" x="716.83612" y="645.78406" ns2:role="line">I</ns0:tspan></ns0:text>
       </ns0:g>
       <ns0:g id="g8894" transform="translate(-46.583853,67.080745)">
         <ns0:g id="g8896" style="display:inline" transform="matrix(0.37267081,0,0,0.37267081,516.18196,497.32611)">

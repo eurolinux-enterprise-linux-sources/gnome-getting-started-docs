@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="ru">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-browse-web" xml:lang="ru">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,32 +13,21 @@
     don't ship GNOME's Web browser by default.-->
 <!--    <link type="guide" xref="getting-started" group="tasks"/>-->
 <!--    <title role="trail" type="link">Browse the web</title>-->
-  
-    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Юлия Дронова</mal:name>
-      <mal:email>juliette.tux@gmail.com</mal:email>
-      <mal:years>2014</mal:years>
-    </mal:credit>
-  
-    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Юрий Мясоедов</mal:name>
-      <mal:email>ymyasoedov@yandex.ru</mal:email>
-      <mal:years>2014</mal:years>
-    </mal:credit>
   </info>
 
-  <title>Путешествие по Интернету</title>
+  <title>Browse the web</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+    <media type="image" src="gs-web-browser1.svg" width="100%"/>
 
     <steps>
       <item><p>Чтобы включить <gui>Режим обзора</gui> переместите курсор мыши в левый верхний угол, где находится надпись <gui>Обзор</gui>.</p></item>
       <item><p>Выберите значок <app>веб-браузера</app> в панели с левой стороны экрана.</p></item>
     </steps>
 
-    <note><p>Веб-браузер можно запустить <link xref="gs-use-system-search">просто напечатав</link> <em>web</em> в <gui>режиме обзора</gui>.</p></note>
+    <note><p>Alternatively, you can launch the browser by <link xref="gs-use-system-search">just typing</link> <em>web</em> in the
+    <gui>Activities Overview</gui>.</p></note>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+    <media type="image" src="gs-web-browser2.svg" width="100%"/>
 
     <steps style="continues">
       <item><p>Нажмите на адресную строку в верхней части окна браузера и введите адрес сайта, который вы хотите открыть.</p></item>

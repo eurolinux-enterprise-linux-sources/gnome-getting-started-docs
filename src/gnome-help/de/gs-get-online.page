@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="de">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-get-online" xml:lang="de">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,12 @@
     <title role="trail" type="link">Online gehen</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">Eine Kurzanleitung, wie man ins Internet gelangt</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Mario Blättermann</mal:name>
@@ -24,62 +29,52 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013, 2014</mal:years>
-    </mal:credit>
-  
-    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Benjamin Steinwender</mal:name>
-      <mal:email>b@stbe.at</mal:email>
-      <mal:years>2013, 2014</mal:years>
+      <mal:years>2013</mal:years>
     </mal:credit>
   </info>
 
   <title>Online gehen</title>
   
   <note style="important">
-      <p>Sie können den Zustand Ihrer Netzwerkverbindungen auf der rechten Seite der oberen Leiste sehen.</p>
+      <p>Sie können den Zustand der Netzwerkverbindungen auf der rechten Seite der oberen Leiste neben Ihrem Namen sehen.</p>
   </note>  
 
   <section id="going-online-wired">
 
     <title>Mit einem kabelgebundenen Netzwerk verbinden</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+    <media type="image" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>Das Netzwerkverbindungssymbol rechts auf der oberen Leiste zeigt, dass Sie offline sind.</p>
-      <p>Der Offline-Status kann verschiedene Ursachen haben: zum Beispiel ist das Netzwerkkabel nicht verbunden, der Rechner wurde in den <em>Flugzeug-Modus</em> versetzt, oder es gibt keine verfügbaren Drahtlosnetzwerke in der Umgebung.</p>
-      <p>Wenn Sie eine kabelgebundene Verbindung verwenden wollen, stecken Sie einfach das Netzwerkkabel ein. Der Rechner wird versuchen, die Netzwerkverbindung für Sie automatisch einzurichten. </p>
-      <p>Während der Rechner die Netzwerkverbindung für Sie einrichtet, werden drei Punkte anstelle des Netzwerkverbindungssymbols angezeigt.</p></item>
+      <item><p>Das Netzwerkverbindungssymbol rechts auf der oberen Leiste zeigt, dass Sie offline sind.</p></item>
+      <item><p>Klicken Sie das Netzwerkverbindungssymbol, um mehr Informationen über den Status Ihrer Netzwerkverbindungen zu erfahren.</p>
+      <p>Der Offline-Status kann verschiedene Ursachen haben: zum Beispiel ist das Netzwerkkabel nicht verbunden, der Rechner wurde in den <em>Flugzeug-Modus</em> versetzt, oder es gibt keine verfügbaren Drahtlosnetzwerke in der Umgebung.</p></item>
+    </steps>
+
+    <media type="image" src="gs-go-online2.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Wenn Sie eine kabelgebundene Verbindung verwenden wollen, stecken Sie einfach das Netzwerkkabel ein. Der Rechner wird versuchen, die Netzwerkverbindung für Sie automatisch einzurichten. </p>
+      </item>
+      <item><p>Während der Rechner die Netzwerkverbindung für Sie einrichtet, werden drei Punkte anstelle des Netzwerkverbindungssymbols angezeigt.</p></item>
       <item><p>Sobald die Netzwerkverbindung erfolgreich eingerichtet wurde, ändert sich das Netzwerkverbindungssymbol und zeigt einen vernetzten Rechner an.</p></item>
     </steps>
     
   </section>
 
-  <section id="going-online-wifi">
+  <section id="going-online-other">
 
-    <title>Mit einem drahtlosen Netzwerk verbinden</title>
+    <title>Mit anderen Netzwerktypen verbinden</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    <media type="image" src="gs-go-online3.svg" width="100%"/>
     
     <steps>
-    <item><p>Um sich mit einem Drahtlosnetzwerk zu verbinden, klicken Sie auf das Statusmenü im oberen rechten Bereich des Bildschirms und dann klicken Sie auf <gui>Netzwerk wählen</gui>.</p>
-    </item>
-    </steps>
-
-     <note style="important">
-       <p>Sie können sich nur dann mit einem Drahtlosnetzwerk verbinden, wenn Ihre Rechnerhardware dies unterstützt und Sie sich in einem Bereich mit einem Drahtlosnetzwerk befinden.</p>
-     </note>
-
-    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
-
-    <steps style="continues">
-    <item><p>Wählen Sie aus der Liste der verfügbaren Drahtlosnetzwerke das Netzwerk, zu dem Sie sich verbinden möchten, und klicken Sie auf <gui>Verbinden</gui>, um die Wahl zu bestätigen.</p>
-    <p>Abhängig von Ihrer Netzwerkkonfiguration werden Sie eventuell nach Netzwerk-Zugangsinformationen gefragt.</p></item>
-    </steps>
-
+    <item><p>Es gibt verschiedene Netzwerkverbindungstypen, die Sie mit Ihrem Rechner nutzen können, zum Beispiel: mobiles Breitband oder Drahtlosnetzwerk.</p></item>
+    <item><p>Abhängig von Ihrer Hardware- und Netzwerkverfügbarkeit können Sie zusätzliche Verbindungsmöglichkeiten auswählen. Klicken Sie auf das Netzwerkverbindungssymbol auf der rechten Seite der oberen Leiste und wählen Sie die Netzwerkverbindung, die Sie verbinden wollen.</p></item>
+     </steps>
+    
     <!-- FIXME: links to existing wireless/broadband connection documents. -->
-
+    
   </section>
 
 </page>

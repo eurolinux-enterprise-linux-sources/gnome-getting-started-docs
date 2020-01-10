@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="es">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-system-search" xml:lang="es">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,7 +13,6 @@
     <title role="trail" type="link">Utilizar la búsqueda de sistema</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">Un tutorial para utilizar la búsqueda de sistema</title>
-    <link type="next" xref="gs-get-online"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Daniel Mustieles</mal:name>
@@ -36,15 +35,15 @@
 
   <title>Utilizar la búsqueda de sistema</title>
 
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    <media type="image" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Abra la <gui>Vista de actividades</gui> pulsando la tecla <key href="help:gnome-help/keyboard-key-super">Super</key> y empiece a escribir para buscar.</p>
-    <p>Los resultados que coincidan con lo que ha escritor aparecerán a medida que escribe. El primer resultado siempre se resalta y se muestra en la parte superior.</p>
-    <p>Pulse <key>Intro</key> para cambiar al primer resultado resaltado.</p></item>
+    <item><p>Abra la <gui>Vista de actividades</gui> pulsando la tecla <key href="help:gnome-help/keyboard-key-super">Super</key>.</p></item>
+     <item><p>Para buscar, comience a escribir. Los resultados que coincidan con lo escrito aparecerán a medida que vaya escribiendo.</p></item>
+     <item><p>El primer resultado siempre aparece arriba y resaltado. Para cambiarse al primer resultado resaltado, pulse <key>Intro</key>.</p></item>
     </steps>
     
-    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <media type="image" src="gs-search2.svg" width="100%"/>
     <steps style="continues">
       <item><p>Los elementos que pueden aparecer en los resultados de búsqueda incluyen:</p>
       <list>
@@ -70,7 +69,7 @@
 
       <title>Personalizar los resultados de búsqueda</title>
 
-      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+      <media type="image" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
       <p>GNOME le permite personalizar lo que quiere mostrar en los resultados de búsqueda en la <gui>Vista de actividades</gui>. Por ejemplo, puede decidir si quiere mostrar los resultados para los sitios web, fotografías o música.</p>
@@ -79,7 +78,8 @@
       <p>Para personalizar lo que aparece en los resultados de búsqueda:</p>
 
       <steps>
-        <item><p>Pulse en el menú del sistema en la parte derecha de la barra superior y pulse el botón de configuración en la parte inferior del menú.</p></item>
+        <item><p>Pulse su nombre en la barra superior.</p></item>
+        <item><p>Seleccione el elemento <gui>Configuración</gui>.</p></item>
         <item><p>De la lista de elementos, seleccione <gui>Buscar</gui>.</p></item>
         <item><p>En la lista de direcciones de búsqueda, pulse el interruptor de <gui>ENCENDIDO/APAGADO</gui> que está al lado de la dirección de búsqueda que quiera activar o desactivar.</p>
          </item>
