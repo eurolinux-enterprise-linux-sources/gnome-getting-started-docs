@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-browse-web" xml:lang="as">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="as">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -17,7 +17,7 @@
 
   <title>ৱেব ব্ৰাউছ কৰক</title>
 
-    <media type="image" src="gs-web-browser1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
 
     <steps>
       <item><p><gui>কাৰ্য্যসমূহ অভাৰভিউ</gui> দেখুৱাবলৈ আপোনাৰ মাউছ পোইন্টাৰক পৰ্দাৰ ওপৰ বাঁওফালৰ চুকত <gui>কাৰ্য্যসমূহ</gui> লৈ নিয়ক।</p></item>
@@ -26,7 +26,7 @@
 
     <note><p>বিকল্পভাৱে, ব্ৰাউছাৰক <gui>কাৰ্য্যসমূহ অভাৰভিউ</gui> ত <em>web</em> <link xref="gs-use-system-search">টাইপ কৰি</link> আৰম্ভ কৰিব পাৰিব।</p></note>
 
-    <media type="image" src="gs-web-browser2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
 
     <steps style="continues">
       <item><p>ব্ৰাউছাৰ উইন্ডোৰ ওপৰত ঠিকনা বাৰত ক্লিক কৰক আৰু আপুনি ভ্ৰমণ কৰিব বিচৰা ৱেবছাইটৰ নাম লিখা আৰম্ভ কৰক।</p></item>

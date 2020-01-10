@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="pa">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="pa">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -18,21 +18,21 @@
   <title>ਵਾਲਪਪੇਰ ਬਦਲਣਾ</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-changing-wallpaper.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>ਵਾਲਪੇਪਰ ਬਦਲਣਾ</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>ਉੱਤੇ ਪੱਟੀ ਵਿੱਚੋਂ ਆਪਣੇ ਨਾਂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇ <gui>ਸੈਟਿੰਗ</gui> ਦੀ ਚੋਣ ਕਰੋ।</tt:p>
+           <tt:p>ਪੱਟੀ ਦੇ ਸੱਜੇ ਪਾਸੇ ਉੱਤੇ ਸਿਸਟਮ ਮੇਨੂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਸੈਟਿੰਗ ਬਟਨ ਨੂੰ ਦੱਬੋ।</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p><gui>ਬੈਕਗਰਾਊਂਡ</gui> ਚੁਣੋ।</tt:p>
          </tt:div>
          <tt:div begin="12s" end="13s">
-           <tt:p>ਆਪਣੇ ਮੌਜੂਦ ਵਾਲਪੇਪਰ ਦੇ ਚਿੱਤਰ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</tt:p>
+           <tt:p>ਮੌਜੂਦਾ ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</tt:p>
          </tt:div>
          <tt:div begin="13s" end="16s">
            <tt:p>ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ।</tt:p>
@@ -52,14 +52,12 @@
     <title>ਵਾਲਪਪੇਰ ਬਦਲਣਾ</title>
     
     <steps>
-      <item><p>ਉੱਤੇ ਪੱਟੀ ਵਿੱਚੋਂ ਆਪਣੇ ਨਾਂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇ <gui>ਸੈਟਿੰਗ</gui> ਦੀ ਚੋਣ ਕਰੋ।</p></item>
+      <item><p>ਪੱਟੀ ਦੇ ਸੱਜੇ ਪਾਸੇ ਉੱਤੇ ਸਿਸਟਮ ਮੇਨੂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇਮੇਨੂ ਦੇ ਹੇਠਾਂ ਤੋਂ ਸੈਟਿੰਗ ਬਟਨ ਨੂੰ ਦੱਬੋ।</p></item>
       <item><p>ਆਈਟਮਾਂ ਦੀ ਸੂਚੀ ਵਿੱਚੋਂ <gui>ਬੈਕਗਰਾਊਂਡ</gui> ਚੁਣੋ।</p></item>
-      <item><p>Click the image of your current wallpaper in the center of the
-      <gui>Background</gui> window.</p></item>
+      <item><p><gui>ਬੈਕਗਰਾਊਂਡ</gui> ਵਿੰਡੋ ਸੱਜੇ ਪਾਸੇ ਆਪਣੇ ਮੌਜੂਦਾ ਵਾਲਪੇਪਰ ਦੇ ਚਿੱਤਰ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p></item>
       <item><p>ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ।</p></item>
       <item><p><gui>ਚੁਣੋ</gui> ਬਟਨ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p></item>
-      <item><p>Close the <gui>Background</gui> window by clicking the cross at
-      the top-right corner of the window.</p></item>
+      <item><p><gui>ਬੈਕਗਰਾਊਂਡ</gui> ਵਿੰਡੋ ਨੂੰ ਬੰਦ ਕਰਨ ਲਈ ਵਿੰਡੋ ਦੇ ਉੱਤਲੇ ਸੱਜੇ ਕੋਨੇ ਉੱਤੇ ਗੁਣਾ ਦੇ ਨਿਸ਼ਾਨ ਨੂੰ ਕਲਿੱਕ ਕਰ ਸਕਦੇ ਹੋ।</p></item>
     </steps>
   </section>
 

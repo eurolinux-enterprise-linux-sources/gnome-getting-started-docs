@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-respond-messages" xml:lang="de">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="de">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,12 +13,7 @@
     <title role="trail" type="link">Auf Nachrichten antworten</title>
     <link type="seealso" xref="shell-notifications"/>
     <title role="seealso" type="link">Eine Kurzanleitung zum Antworten auf Nachrichten</title>
-  
-    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Benjamin Steinwender</mal:name>
-      <mal:email>b@stbe.at</mal:email>
-      <mal:years>2013</mal:years>
-    </mal:credit>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Mario Blättermann</mal:name>
@@ -29,16 +24,22 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2013, 2014</mal:years>
     </mal:credit>
   </info>
 
   <title>Auf Nachrichten antworten</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-responding-to-messages.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="3s">
            <tt:p>Auf Nachrichten antworten</tt:p>
@@ -58,13 +59,13 @@
          <tt:div begin="16s" end="20s">
            <tt:p>Wenn eine Chat-Nachricht im Nachrichtenfeld erscheint und Sie Ihre Maus nicht über das Nachrichtenfeld bewegen, schließt sich das Nachrichtenfeld nach einiger Zeit.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="24s">
+         <tt:div begin="20s" end="23s">
            <tt:p>Um zu der unbeantworteten Chat-Nachricht zu gelangen, bewegen Sie die Maus zum Nachrichtenfeld.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="26s">
+         <tt:div begin="23s" end="25s">
            <tt:p>Klicken Sie auf die Person, die Ihnen eine Nachricht gesendet hat.</tt:p>
          </tt:div>
-         <tt:div begin="26s" end="28s">
+         <tt:div begin="25s" end="28s">
            <tt:p>Tippen Sie Ihre Antwort und drücken Sie die <key>Eingabetaste</key>, wenn Sie fertig sind.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="30s">

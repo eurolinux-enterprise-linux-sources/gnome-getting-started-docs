@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="it">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="it">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -24,24 +24,25 @@
   <title>Cambiare lo sfondo</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-changing-wallpaper.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Cambiare sfondo</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Fare clic sul proprio nome sulla barra superiore e premere <gui>Impostazioni</gui>.</tt:p>
+           <tt:p>Click the system menu on the right side of the top bar and press
+           the settings button.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p>Selezionare <gui>Sfondo</gui>.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="13s">
-           <tt:p>Fare clic sull'immagine dello sfondo attuale.</tt:p>
+           <tt:p>Click the current background image.</tt:p>
          </tt:div>
          <tt:div begin="13s" end="16s">
-           <tt:p>Fare clic sull'immagine di sfondo che si vuole usare.</tt:p>
+           <tt:p>Click the background image you want to use.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18s">
            <tt:p>Fare clic sul pulsante <gui>Seleziona</gui>.</tt:p>
@@ -58,10 +59,12 @@
     <title>Cambiare lo sfondo</title>
     
     <steps>
-      <item><p>Fare clic sul proprio nome sulla barra superiore e premere <gui>Impostazioni</gui>.</p></item>
+      <item><p>Click the system menu on the right side of the top bar and press
+      the settings button at the bottom of the menu.</p></item>
       <item><p>Dall'elenco di voci selezionare <gui>Sfondo</gui>.</p></item>
-      <item><p>Fare clic sull'immagine dello sfondo corrente al centro della finestra <gui>Sfondo</gui>.</p></item>
-      <item><p>Fare clic sull'immagine di sfondo che si vuole usare.</p></item>
+      <item><p>Click the current background image on the left side of the
+      <gui>Background</gui> window.</p></item>
+      <item><p>Click the background image you want to use.</p></item>
       <item><p>Fare clic sul pulsante <gui>Seleziona</gui>.</p></item>
       <item><p>Chiudere la finestra <gui>Sfondo</gui> facendo clic sulla croce nell'angolo superiore destro della finestra.</p></item>
     </steps>

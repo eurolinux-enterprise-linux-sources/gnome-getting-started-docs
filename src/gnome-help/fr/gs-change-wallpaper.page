@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="fr">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="fr">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -17,7 +17,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Alain Lojewski</mal:name>
       <mal:email>allomervan@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013-2014</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -30,24 +30,24 @@
   <title>Modifier le papier peint</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-changing-wallpaper.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Modification du papier peint</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Cliquez sur votre nom dans la barre supérieure et sélectionnez <gui>Paramètres</gui>.</tt:p>
+           <tt:p>Ouvrez le menu système à droite dans la barre supérieure et cliquez sur le bouton des paramètres.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p>Sélectionnez <gui>Arrière-plan</gui>.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="13s">
-           <tt:p>Cliquez sur l'image de votre papier peint actuel.</tt:p>
+           <tt:p>Cliquez sur l'image d'arrière-plan actuelle.</tt:p>
          </tt:div>
          <tt:div begin="13s" end="16s">
-           <tt:p>Cliquez sur l'image que vous voulez utiliser comme papier peint.</tt:p>
+           <tt:p>Cliquez sur l'image que vous voulez utiliser comme arrière-plan.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18s">
            <tt:p>Cliquez sur <gui>Sélectionner</gui>.</tt:p>
@@ -64,10 +64,10 @@
     <title>Modifier le papier peint</title>
     
     <steps>
-      <item><p>Cliquez sur votre nom dans la barre supérieure et sélectionnez <gui>Paramètres</gui>.</p></item>
+      <item><p>Ouvrez le menu système à droite dans la barre supérieure et cliquez sur le bouton des paramètres en bas du menu.</p></item>
       <item><p>Dans la boîte de dialogue, sélectionnez <gui>Arrière-plan</gui>.</p></item>
-      <item><p>Cliquez sur votre papier peint actuel au centre de la boîte de dialogue <gui>Arrière-plan</gui>.</p></item>
-      <item><p>Cliquez sur l'image que vous voulez utiliser comme papier peint.</p></item>
+      <item><p>Cliquez sur votre image d'arrière-plan actuelle à gauche de la boîte de dialogue <gui>Arrière-plan</gui>.</p></item>
+      <item><p>Cliquez sur l'image que vous voulez utiliser comme arrière-plan.</p></item>
       <item><p>Cliquez sur <gui>Sélectionner</gui>.</p></item>
       <item><p>Cliquez sur la croix dans le coin supérieur droit pour fermer la boîte de dialogue <gui>Arrière-plan</gui>.</p></item>
     </steps>

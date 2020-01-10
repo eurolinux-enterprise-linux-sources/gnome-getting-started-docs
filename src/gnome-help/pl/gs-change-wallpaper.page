@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="pl">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="pl">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -30,24 +30,24 @@
   <title>Zmiana tapety</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-changing-wallpaper.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Zmienianie tapety</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Kliknij swoje imię na górnym pasku i wybierz <gui>Ustawienia</gui>.</tt:p>
+           <tt:p>Kliknij menu systemowe po prawej stronie górnego paska i naciśnij przycisk ustawień.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p>Wybierz <gui>Tło</gui>.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="13s">
-           <tt:p>Kliknij na obraz obecnej tapety.</tt:p>
+           <tt:p>Kliknij obecny obraz tła.</tt:p>
          </tt:div>
          <tt:div begin="13s" end="16s">
-           <tt:p>Kliknij na obrazie tła, którego chcesz użyć.</tt:p>
+           <tt:p>Kliknij obraz tła, który chcesz użyć.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18s">
            <tt:p>Kliknij przycisk <gui>Wybierz</gui>.</tt:p>
@@ -64,10 +64,10 @@
     <title>Zmiana tapety</title>
     
     <steps>
-      <item><p>Kliknij swoje imię na górnym pasku i wybierz <gui>Ustawienia</gui>.</p></item>
+      <item><p>Kliknij menu systemowe po prawej stronie górnego paska i naciśnij przycisk ustawień na dole menu.</p></item>
       <item><p>Z listy elementów wybierz <gui>Tło</gui>.</p></item>
-      <item><p>Kliknij obraz obecnej tapety na środku okna <gui>Tło</gui>.</p></item>
-      <item><p>Kliknij na obrazie tła, którego chcesz użyć.</p></item>
+      <item><p>Kliknij obraz obecnej tapety po lewej stronie okna <gui>Tło</gui>.</p></item>
+      <item><p>Kliknij obraz tła, który chcesz użyć.</p></item>
       <item><p>Kliknij przycisk <gui>Wybierz</gui>.</p></item>
       <item><p>Zamknij okno <gui>Tło</gui> klikając krzyżyk w prawym górnym rogu okna.</p></item>
     </steps>

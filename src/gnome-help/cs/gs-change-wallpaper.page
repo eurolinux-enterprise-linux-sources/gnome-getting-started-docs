@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="cs">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="cs">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -18,24 +18,25 @@
   <title>Změna tapety</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-changing-wallpaper.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Změna pozadí</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Klikněte na své jméno v horní liště a zvolte <gui>Nastavení</gui>.</tt:p>
+           <tt:p>Click the system menu on the right side of the top bar and press
+           the settings button.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p>Select <gui>Background</gui>.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="13s">
-           <tt:p>Click the image of your current wallpaper.</tt:p>
+           <tt:p>Click the current background image.</tt:p>
          </tt:div>
          <tt:div begin="13s" end="16s">
-           <tt:p>Klikněte na obrázek na pozadí, který chcete použít.</tt:p>
+           <tt:p>Click the background image you want to use.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18s">
            <tt:p>Klikněte na tlačítko <gui>Vybrat</gui>.</tt:p>
@@ -52,10 +53,12 @@
     <title>Změna tapety</title>
     
     <steps>
-      <item><p>Klikněte na své jméno v horní liště a zvolte <gui>Nastavení</gui>.</p></item>
+      <item><p>Click the system menu on the right side of the top bar and press
+      the settings button at the bottom of the menu.</p></item>
       <item><p>Ze seznamu položek vyberte <gui>Pozadí</gui>.</p></item>
-      <item><p>Klikněte na aktuální tapetu, která je zobrazena ve středu okna <gui>Pozadí</gui>.</p></item>
-      <item><p>Klikněte na obrázek na pozadí, který chcete použít.</p></item>
+      <item><p>Click the current background image on the left side of the
+      <gui>Background</gui> window.</p></item>
+      <item><p>Click the background image you want to use.</p></item>
       <item><p>Klikněte na tlačítko <gui>Vybrat</gui>.</p></item>
       <item><p>Zavřete okno <gui>Pozadí</gui> kliknutím na křížek v pravém horním rohu okna.</p></item>
     </steps>

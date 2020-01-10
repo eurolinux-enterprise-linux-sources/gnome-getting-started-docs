@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-browse-web" xml:lang="mr">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="mr">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -23,7 +23,7 @@
 
   <title>वेबला चाळा</title>
 
-    <media type="image" src="gs-web-browser1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
 
     <steps>
       <item><p><gui>कार्य सारांश</gui> दाखवण्यासाठी तुमचा माऊस प्वाइन्टर <gui>कृती</gui> येथे हलवा जे स्क्रीनच्या सगळ्यात वर डाव्या हाताच्या कोपऱ्यावर आहे.</p></item>
@@ -32,7 +32,7 @@
 
     <note><p>पर्यायी, तुम्ही <gui>कार्य सारांश</gui>मध्ये <em>वेब</em> <link xref="gs-use-system-search">टाइप करून</link> ब्राउझर लाँच करू शकता.</p></note>
 
-    <media type="image" src="gs-web-browser2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
 
     <steps style="continues">
       <item><p>ब्राउझर पटलाच्या सगळ्यात वरच्या पत्ता पट्टीवर क्लिक करा आणि इच्छित वेबसाईट टाइप करारायला सुरुवात करा.</p></item>

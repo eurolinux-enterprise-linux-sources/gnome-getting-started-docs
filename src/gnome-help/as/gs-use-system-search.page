@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-system-search" xml:lang="as">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="as">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,19 +13,20 @@
     <title role="trail" type="link">চিস্টেমৰ সন্ধান ব্যৱহাৰ কৰক</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">চিস্টেমৰ সন্ধান ব্যৱহাৰ কৰিবলৈ এটা শিক্ষা</title>
+    <link type="next" xref="gs-get-online"/>
   </info>
 
   <title>চিস্টেমৰ সন্ধান ব্যৱহাৰ কৰক</title>
 
-    <media type="image" src="gs-search1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p><key href="help:gnome-help/keyboard-key-super">Super</key> কি টিপি <gui>কাৰ্য্যসমূহ অভাৰভিউ</gui> খোলক।</p></item>
-     <item><p>সন্ধান কৰিবলৈ টাইপ কৰা আৰম্ভ কৰক। আপুনি টাইপ কৰি থাকোতে আপোনাৰ টাইপ কৰা সৈতে মিল খোৱা ফলাফলসমূহ উপস্থিত হব।</p></item>
-     <item><p>প্ৰথম ফলাফল সদায় উজ্জ্বল হয় আৰু ওপৰত দেখুৱা হয়। প্ৰথম উজ্জ্বল ফলাফললৈ যাবলৈ <key> Enter</key> টিপক।</p></item>
+    <item><p><key href="help:gnome-help/keyboard-key-super">Super</key> কি টিপি <gui>কাৰ্য্যসমূহ অভাৰভিউ</gui> খোলক। সন্ধান কৰিবলৈ টাইপ কৰা আৰম্ভ কৰক।</p>
+    <p>আপুনি টাইপ কৰি থাকোতে আপোনাৰ টাইপ কৰা সৈতে মিল খোৱা ফলাফলসমূহ উপস্থিত হব। প্ৰথম ফলাফল সদায় উজ্জ্বল থাকে আৰু ওপৰত দেখুৱা হয়।</p>
+    <p>প্ৰথম উজ্জ্বল ফলাফললৈ যাবলৈ <key> Enter</key> টিপক।</p></item>
     </steps>
     
-    <media type="image" src="gs-search2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
     <steps style="continues">
       <item><p>সন্ধান ফলাফলসমূহত উপস্থিত হব পৰা বস্তুবোৰত অন্তৰ্ভুক্ত হ'ব পাৰে:</p>
       <list>
@@ -51,7 +52,7 @@
 
       <title>সন্ধানৰ ফলাফলসমূহ স্বনিৰ্বাচন কৰক</title>
 
-      <media type="image" src="gs-search-settings.svg" width="100%"/>
+      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
       <p>GNOME এ আপোনাক <gui>Activities Overview</gui> ত সন্ধান ফলাফলসমূহত আপুনি কি প্ৰদৰ্শন কৰাব বিচাৰে স্বনিৰ্বাচন কৰাৰ সুবিধা দিয়ে। উদাহৰণস্বৰূপ, আপুনি ৱেবছাইটসমূহ, ফ'টোসমূহ, অথবা সংগীতৰ মাজত কি দেখাব বিচাৰে নিৰ্বাচন কৰিব পাৰে।</p>
@@ -60,8 +61,7 @@
       <p>সন্ধান ফলাফলসমূহত কি প্ৰদৰ্শন কৰা হ'ব স্বনিৰ্বাচন কৰিবলে:</p>
 
       <steps>
-        <item><p>ওপৰ বাৰত আপোনাৰ নাম ক্লিক কৰক।</p></item>
-        <item><p><gui>সংহতিসমূহ</gui> বস্তু বাছক।</p></item>
+        <item><p>ওপৰ বাৰৰ সোঁ কাষত চিস্টেম মেনুত ক্লিক কৰক আৰু মেনুৰ তলত সংহতিসমূহ বুটাম টিপক।</p></item>
         <item><p>বস্তুবোৰৰ তালিকাৰ পৰা, <gui>সন্ধান কৰক</gui> বাছক।</p></item>
         <item><p>সন্ধান অৱস্থানসমূহৰ তালিকাৰ পৰা, আপুনি সামৰ্থবান অথবা অসামৰ্থবান কৰিব বিচৰা সন্ধান অৱস্থানৰ কাষত <gui>ON/OFF</gui> চুইচ ক্লিক কৰক।</p>
          </item>

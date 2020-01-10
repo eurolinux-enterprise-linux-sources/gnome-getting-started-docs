@@ -1,13 +1,11 @@
 Name:           gnome-getting-started-docs
-Version:        3.8.3.0.2
+Version:        3.14.1.0.2
 Release:        3%{?dist}
 Summary:        Help a new user get started in GNOME
 
 License:        CC-BY-SA
 URL:            http://help.gnome.org/
 Source0:        %{name}-%{version}.tar.xz
-# https://bugzilla.redhat.com/show_bug.cgi?id=1030341
-Patch0:         translation-updates.patch
 Group:          Documentation
 
 BuildArch:      noarch
@@ -17,6 +15,10 @@ BuildRequires:  gettext
 BuildRequires:  itstool
 BuildRequires:  yelp-tools
 Requires: gnome-user-docs
+
+# https://bugzilla.redhat.com/show_bug.cgi?id=1302982
+Patch0: gnome-getting-started-docs-3.14.1.0.2-EL7.3_translations.patch
+Patch1: gnome-getting-started-docs-3.14.1.0.2-EL7.3_translations_for_it.patch
 
 %description
 This package contains a 'Getting Started' guide that can be viewed
@@ -48,6 +50,15 @@ Requires:       gnome-getting-started-docs = %{version}-%{release}
 
 %description es
 Spanish (es) translations for the Getting Started guide videos.
+
+
+%package fr
+Summary:        French translations for gnome-getting-started-docs videos
+Group:          Documentation
+Requires:       gnome-getting-started-docs = %{version}-%{release}
+
+%description fr
+French (fr) translations for the Getting Started guide videos.
 
 
 %package gl
@@ -95,9 +106,20 @@ Requires:       gnome-getting-started-docs = %{version}-%{release}
 Brazilian Portuguese (pt_BR) translations for the Getting Started guide videos.
 
 
+%package ru
+Summary:        Russian translations for gnome-getting-started-docs videos
+Group:          Documentation
+Requires:       gnome-getting-started-docs = %{version}-%{release}
+
+%description ru
+Russian (ru) translations for the Getting Started guide videos.
+
+
 %prep
 %setup -q
-%patch0 -p2 -b .translation-updates
+%patch0 -p1 -b gnome-getting-started-docs-3.14.1.0.2-EL7.3_translations.patch
+%patch1 -p1 -b gnome-getting-started-docs-3.14.1.0.2-EL7.3_translations_for_it.patch
+
 
 %build
 %configure
@@ -111,15 +133,18 @@ make install DESTDIR=$RPM_BUILD_ROOT INSTALL="install -p"
 
 
 %files -f %{name}.lang
-%doc COPYING NEWS AUTHORS
+%doc NEWS AUTHORS
+%license COPYING
 %exclude %{_datadir}/help/cs/gnome-help/figures/
 %exclude %{_datadir}/help/de/gnome-help/figures/
 %exclude %{_datadir}/help/es/gnome-help/figures/
+%exclude %{_datadir}/help/fr/gnome-help/figures/
 %exclude %{_datadir}/help/gl/gnome-help/figures/
 %exclude %{_datadir}/help/hu/gnome-help/figures/
 %exclude %{_datadir}/help/it/gnome-help/figures/
 %exclude %{_datadir}/help/pl/gnome-help/figures/
 %exclude %{_datadir}/help/pt_BR/gnome-help/figures/
+%exclude %{_datadir}/help/ru/gnome-help/figures/
 
 %files cs
 %{_datadir}/help/cs/gnome-help/figures/
@@ -129,6 +154,9 @@ make install DESTDIR=$RPM_BUILD_ROOT INSTALL="install -p"
 
 %files es
 %{_datadir}/help/es/gnome-help/figures/
+
+%files fr
+%{_datadir}/help/fr/gnome-help/figures/
 
 %files gl
 %{_datadir}/help/gl/gnome-help/figures/
@@ -145,8 +173,32 @@ make install DESTDIR=$RPM_BUILD_ROOT INSTALL="install -p"
 %files pt_BR
 %{_datadir}/help/pt_BR/gnome-help/figures/
 
+%files ru
+%{_datadir}/help/ru/gnome-help/figures/
+
 
 %changelog
+* Thu Jun 23 2016 Petr Kovar <pkovar@redhat.com> - 3.14.1.0.2-3
+- Update it translation
+- Resolves: rhbz#1302982
+
+* Wed Mar 30 2016 Petr Kovar <pkovar@redhat.com> - 3.14.1.0.2-2
+- Update translations
+- Resolves: rhbz#1302982
+
+* Wed Jul 15 2015 Petr Kovar <pkovar@redhat.com> - 3.14.1.0.2-1
+- Update to 3.14.1.0.2
+- Resolves: rhbz#1184036
+
+* Wed Jul 01 2015 Petr Kovar <pkovar@redhat.com> - 3.14.1.0.1-1
+- Update to 3.14.1.0.1
+- Resolves: rhbz#1174430
+
+* Wed Jun 10 2015 Matthias Clasen <mclasen@redhat.com> - 3.14.1-1
+- Update to 3.14.1
+- Add subpackages for fr and ru video translations
+Resolves: #1174430
+
 * Wed Jan 22 2014 Petr Kovar <pkovar@redhat.com> - 3.8.3.0.2-3
 - Translation updates
 - Resolves: rhbz#1030341

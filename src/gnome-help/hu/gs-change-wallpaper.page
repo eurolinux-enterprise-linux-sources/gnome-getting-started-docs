@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="hu">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="hu">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -24,21 +24,21 @@
   <title>Háttérkép módosítása</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-changing-wallpaper.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Háttérkép módosítása</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Kattintson a nevére a felső sávban, és válassza a <gui>Beállítások</gui> menüpontot.</tt:p>
+           <tt:p>Kattintson a rendszer menüre a felső sáv jobb oldalán, és nyomja meg a beállítások gombot.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p>Válassza a <gui>Háttér</gui> ikont.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="13s">
-           <tt:p>Kattintson a jelenlegi háttérképére.</tt:p>
+           <tt:p>Kattintson az aktuális háttérképre.</tt:p>
          </tt:div>
          <tt:div begin="13s" end="16s">
            <tt:p>Kattintson a használni kívánt háttérképre.</tt:p>
@@ -58,9 +58,9 @@
     <title>Háttérkép módosítása</title>
     
     <steps>
-      <item><p>Kattintson a nevére a felső sávban, és válassza a <gui>Beállítások</gui> menüpontot.</p></item>
+      <item><p>Kattintson a rendszer menüre a felső sáv jobb oldalán, és válassza a Beállítások gombot a menü alján.</p></item>
       <item><p>Az elemek listájából válassza a <gui>Háttér</gui> ikont.</p></item>
-      <item><p>Kattintson a jelenlegi háttérkép képére a <gui>Háttér</gui> ablak közepén.</p></item>
+      <item><p>Kattintson a jelenlegi háttérkép képére a <gui>Háttér</gui> ablak bal oldalán.</p></item>
       <item><p>Kattintson a használni kívánt háttérképre.</p></item>
       <item><p>Nyomja meg a <gui>Kijelölés</gui> gombot.</p></item>
       <item><p>Zárja be a <gui>Háttér</gui> ablakot az ablak jobb felső sarkában lévő keresztre való kattintással.</p></item>

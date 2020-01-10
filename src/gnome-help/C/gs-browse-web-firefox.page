@@ -1,9 +1,8 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:if="http://projectmallard.org/if/1.0/"
       xmlns:ui="http://projectmallard.org/experimental/ui/"
-      type="topic"
-      style="ui"
-      id="gs-browse-web-firefox">
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="ui" id="gs-browse-web-firefox" version="1.0 if/1.0">
 
   <info>
     <include href="gs-legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
@@ -24,7 +23,8 @@
 <if:choose>
 <if:when test="!platform:gnome-classic">
 
-    <media type="image" src="gs-web-browser1-firefox.svg" width="100%" />
+    <media its:translate="no" type="image" mime="image/svg"
+    src="gs-web-browser1-firefox.svg" width="100%" />
 
     <steps>
       <item><p>Move your mouse pointer to the <gui>Activities</gui> corner at
@@ -41,7 +41,8 @@
 </if:when>
 <if:when test="platform:gnome-classic">
 
-    <media type="image" src="gs-web-browser1-firefox-classic.svg" width="100%" />
+    <media its:translate="no" type="image" mime="image/svg"
+    src="gs-web-browser1-firefox-classic.svg" width="100%" />
 
     <steps>
       <item><p>Click the <gui>Applications</gui> menu at the top left of the
@@ -53,7 +54,8 @@
 </if:when>
 </if:choose>
 
-    <media type="image" src="gs-web-browser2-firefox.svg" width="100%" />
+    <media its:translate="no" type="image" mime="image/svg"
+    src="gs-web-browser2-firefox.svg" width="100%" />
 
     <steps style="continues">
       <item><p>Click the address bar at the top of the browser window and start

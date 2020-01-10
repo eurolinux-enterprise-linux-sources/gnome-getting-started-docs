@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-browse-web" xml:lang="ca">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="ca">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -17,13 +17,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Manel Vidal</mal:name>
       <mal:email>verduler@gmail.com</mal:email>
-      <mal:years>2013	</mal:years>
+      <mal:years>2013, 2014/t</mal:years>
     </mal:credit>
   </info>
 
   <title>Navegueu per la web</title>
 
-    <media type="image" src="gs-web-browser1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
 
     <steps>
       <item><p>Moveu el ratolí fins a la cantonada d'<gui>Activitats</gui> situat a la part superior esquerra de la pantalla per visualitzar la <gui>Vista general de les activitats</gui>.</p></item>
@@ -32,13 +32,11 @@
 
     <note><p>També podeu executar el navegador <link xref="gs-use-system-search">simplement teclejant</link> <em>web</em> a la <gui>Vista general de les activitats</gui>.</p></note>
 
-    <media type="image" src="gs-web-browser2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
 
     <steps style="continues">
       <item><p>Feu clic a la barra d'adreces situada a la part superior de la finestra del navegador i comenceu a escriure l'adreça del lloc web que voleu visitar.</p></item>
-      <item><p>Typing in a website starts searching for it in the
-       browser history and bookmarks, so you do not need to remember the exact
-        address.</p>
+      <item><p>Des del moment que comenceu a escriure l'adreça d'un lloc web, el navegador el comença a cercar a l'historial i a les adreces d'interès, d'aquesta manera no cal que recordeu quina és l'adreça exacta.</p>
         <p>En cas que l'adreça del lloc web estigui a l'historial o a les adreces d'interès apareixerà una llista desplegable just a sota de la barra d'adreces.</p></item>
       <item><p>A la llista desplegable podreu seleccionar ràpidament un lloc web mitjançant les tecles de desplaçament.</p>
       </item>

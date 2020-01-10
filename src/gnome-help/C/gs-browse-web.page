@@ -1,8 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:ui="http://projectmallard.org/experimental/ui/"
-      type="topic"
-      style="ui"
-      id="gs-browse-web">
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="ui" id="gs-browse-web">
 
   <info>
     <include href="gs-legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
@@ -20,7 +19,8 @@
 
   <title>Browse the web</title>
 
-    <media type="image" src="gs-web-browser1.svg" width="100%" />
+    <media its:translate="no" type="image" mime="image/svg"
+    src="gs-web-browser1.svg" width="100%" />
 
     <steps>
       <item><p>Move your mouse pointer to the <gui>Activities</gui> corner at
@@ -34,7 +34,8 @@
     xref="gs-use-system-search">just typing</link> <em>web</em> in the
     <gui>Activities Overview</gui>.</p></note>
 
-    <media type="image" src="gs-web-browser2.svg" width="100%" />
+    <media its:translate="no" type="image" mime="image/svg"
+    src="gs-web-browser2.svg" width="100%" />
 
     <steps style="continues">
       <item><p>Click the address bar at the top of the browser window and start

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="el">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="el">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -30,24 +30,24 @@
   <title>Αλλαγή ταπετσαρίας</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-changing-wallpaper.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Αλλαγή ταπετσαρίας</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Πατήστε το όνομά σας στην πάνω γραμμή και επιλέξτε <gui>Ρυθμίσεις</gui>.</tt:p>
+           <tt:p>Επιλέξτε το μενού του συστήματος στο δεξί μέρος της γραμμής μενού και επιλέξτε το κουμπί ρυθμίσεις.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p>Επιλέξτε <gui>παρασκήνιο</gui>.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="13s">
-           <tt:p>Πατήστε την εικόνα της τρέχουσας ταπετσαρίας.</tt:p>
+           <tt:p>Πατήστε στην τρέχουσα εικόνα παρασκηνίου.</tt:p>
          </tt:div>
          <tt:div begin="13s" end="16s">
-           <tt:p>Πατήστε στην εικόνα παρασκηνίου που θέλετε να χρησιμοποιήσετε.</tt:p>
+           <tt:p>Κάντε κλικ στην εικόνα παρασκηνίου που θέλετε να χρησιμοποιήσετε.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18s">
            <tt:p>Πατήστε το κουμπί <gui>Επιλογή</gui>.</tt:p>
@@ -64,10 +64,10 @@
     <title>Αλλαγή ταπετσαρίας</title>
     
     <steps>
-      <item><p>Πατήστε το όνομά σας στην πάνω γραμμή και επιλέξτε <gui>Ρυθμίσεις</gui>.</p></item>
+      <item><p>Επιλέξτε το μενού του συστήματος στο δεξί μέρος της γραμμής μενού και επιλέξτε το κουμπί ρυθμίσεις στο τέλος του μενού.</p></item>
       <item><p>Από τη λίστα των στοιχείων, επιλέξτε <gui>παρασκήνιο</gui>.</p></item>
-      <item><p>Πατήστε την εικόνα της τρέχουσας ταπετσαρίας σας στο κέντρο του παραθύρου <gui>παρασκηνίου</gui>.</p></item>
-      <item><p>Πατήστε στην εικόνα παρασκηνίου που θέλετε να χρησιμοποιήσετε.</p></item>
+      <item><p>Πατήστε την εικόνα της τρέχουσας ταπετσαρίας σας στο κέντρο του παραθύρου <gui>παρασκήνιο</gui>.</p></item>
+      <item><p>Κάντε κλικ στην εικόνα παρασκηνίου που θέλετε να χρησιμοποιήσετε.</p></item>
       <item><p>Πατήστε το κουμπί <gui>Επιλογή</gui>.</p></item>
       <item><p>Κλείστε το παράθυρο <gui>παρασκηνίου</gui> πατώντας τον σταυρό στην πάνω δεξιά γωνία του παραθύρου.</p></item>
     </steps>

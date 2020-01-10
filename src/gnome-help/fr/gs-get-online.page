@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-get-online" xml:lang="fr">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="fr">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,11 +13,12 @@
     <title role="trail" type="link">Connexion au réseau</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">Se connecter au réseau</title>
+    <link type="next" xref="gs-connect-online-accounts"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Alain Lojewski</mal:name>
       <mal:email>allomervan@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013-2014</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -30,45 +31,49 @@
   <title>Se connecter au réseau</title>
   
   <note style="important">
-      <p>Le statut de votre connexion au réseau se trouve dans la barre supérieure à droite, à côté de votre nom.</p>
+      <p>L'état de votre connexion au réseau se trouve dans la barre supérieure à droite.</p>
   </note>  
 
   <section id="going-online-wired">
 
     <title>Connexion à un réseau filaire</title>
 
-    <media type="image" src="gs-go-online1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>L'icône de connexion réseau située dans le coin en haut à droite dans la barre supérieure indique que vous êtes déconnecté.</p></item>
-      <item><p>Cliquez sur l'icône de connexion réseau de la barre supérieure pour connaître l'état de votre connexion au réseau.</p>
-      <p>Si vous êtes déconnecté, cela peut être dû à différentes raisons : le câble réseau est débranché, votre ordinateur est en <em>mode avion</em>, ou alors il n'y a pas de réseau sans fil disponible dans votre environnement.</p></item>
-    </steps>
-
-    <media type="image" src="gs-go-online2.svg" width="100%"/>
-
-    <steps style="continues">
-      <item><p>Si vous voulez une liaison filaire, branchez simplement le câble réseau et l'ordinateur commence automatiquement à configurer une connexion.</p>
-      </item>
-      <item><p>Pendant que l'ordinateur configure une connexion réseau, l'îcone de connexion affiche trois points.</p></item>
+      <item><p>L'icône de connexion réseau située dans le coin en haut à droite dans la barre supérieure indique que vous êtes déconnecté.</p>
+      <p>Si vous êtes déconnecté, cela peut être dû à différentes raisons : le câble réseau est débranché, votre ordinateur est en <em>mode avion</em>, ou alors il n'y a pas de réseau Wi-Fi disponible dans votre environnement.</p>
+      <p>Si vous voulez une liaison filaire, branchez simplement le câble réseau et l'ordinateur commence automatiquement à configurer une connexion.</p>
+      <p>Pendant que l'ordinateur configure une connexion réseau, l'îcone de connexion affiche trois points.</p></item>
       <item><p>Dès que la configuration est achevée, les trois points se transforment en icône ordinateur connecté.</p></item>
     </steps>
     
   </section>
 
-  <section id="going-online-other">
+  <section id="going-online-wifi">
 
-    <title>Autres types de connexions réseau</title>
+    <title>Connexion à un réseau Wi-Fi</title>
 
-    <media type="image" src="gs-go-online3.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>Vous pouvez configurer différents types de connexions réseau avec votre ordinateur, comme par exemple une connexion mobile à large bande, ou une connexion sans fil.</p></item>
-    <item><p>En fonction de la configuration matérielle de votre ordinateur et des disponibilités du réseau, vous pouvez modifier votre type de connexion en cliquant sur l'icône de connexion réseau dans la barre supérieure et en choisissant un réseau dans la liste proposée.</p></item>
-     </steps>
-    
+    <item><p>Pour vous connecter à un réseau Wi-Fi (sans fil), cliquez sur le menu état dans le coin droit de l'écran et cliquez sur <gui>Selectionner un réseau</gui>.</p>
+    </item>
+    </steps>
+
+     <note style="important">
+       <p>Pour vous connecter à un réseau sans fil, votre ordinateur doit être équipé pour prendre en charge la connexion et doit se trouver dans une zone couverte par le Wi-Fi.</p>
+     </note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
+
+    <steps style="continues">
+    <item><p>Dans la liste des réseaux Wi-Fi disponibles, choisissez celui auquel vous souhaitez vous connecter et cliquez sur <gui>Connexion</gui> pour confirmer.</p>
+    <p>Selon la configuration du réseau, il peut vous être demandé de vous identifier.</p></item>
+    </steps>
+
     <!-- FIXME: links to existing wireless/broadband connection documents. -->
-    
+
   </section>
 
 </page>

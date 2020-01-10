@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-browse-web" xml:lang="sk">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="sk">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -23,7 +23,7 @@
 
   <title>Prehliadanie webu</title>
 
-    <media type="image" src="gs-web-browser1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
 
     <steps>
       <item><p>Presunieme kurzor myši na <gui>Aktivity</gui> do ľavého horného rohu obrazovky, čím zobrazíme <gui>Prehľad aktivít</gui>.</p></item>
@@ -32,7 +32,7 @@
 
     <note><p>Internetový prehliadač môžeme spustiť aj <link xref="gs-use-system-search">začatím písania</link> <em>web</em> do vyhľadávača v <gui>Prehľade aktivít</gui>.</p></note>
 
-    <media type="image" src="gs-web-browser2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
 
     <steps style="continues">
       <item><p>Klikneme na panel adresy v hornej časti prehliadača a začneme písať adresu webovej stránky, ktorú chceme navštíviť.</p></item>

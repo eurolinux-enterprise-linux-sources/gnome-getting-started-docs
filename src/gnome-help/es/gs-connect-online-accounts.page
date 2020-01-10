@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="es">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="es">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,6 +13,7 @@
     <title role="trail" type="link">Conectarse a cuentas en línea</title>
     <link type="seealso" xref="accounts"/>
     <title role="seealso" type="link">Un tutorial para conectarse a cuentas en línea</title>
+    <link type="next" xref="gs-change-date-time-timezone"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Daniel Mustieles</mal:name>
@@ -35,36 +36,35 @@
 
   <title>Conectarse a cuentas en línea</title>
 
-    <media type="image" src="gs-goa1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>Pulse su nombre en la barra superior.</p></item>
-      <item><p>Seleccione el elemento <gui>Configuración</gui>.</p></item>
+      <item><p>Pulse en el menú del sistema en la parte derecha de la barra superior.</p></item>
+      <item><p>Pulse el botón de configuración en la parte inferior del menú.</p></item>
     </steps>
        
-    <media type="image" src="gs-goa2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>De la lista de elementos, seleccione <gui>Cuentas en línea</gui>.</p></item>
-      <item><p>Pulse en el botón <gui>Agregar una cuenta en línea</gui>.</p></item>
+      <item><p>De la lista de elementos, seleccione <gui>Cuentas en línea</gui> y pulse el botón <gui>Añadir una cuenta en línea</gui>.</p></item>
     </steps>
     
     <note><p>Si ya ha creado una cuenta en línea, puede añadir otra cuenta en línea pulsando el botón <gui>+</gui> en la esquina izquierda inferior de la ventana.</p></note>
     
-    <media type="image" src="gs-goa3.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>Pulse la cuenta en línea que quiera utilizar. Se abrirá una nueva ventana donde puede iniciar sesión en su cuenta en línea.</p></item>
     </steps>
       
-    <media type="image" src="gs-goa4.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>En la mayoría de los casos, después de haber iniciado sesión tendrá que conceder acceso al servicio en línea para comenzar.</p></item>
       <item><p>Por ejemplo, si se conecta a su cuenta de Google, tendrá que pulsar el botón <gui>Conceder acceso</gui>.</p></item>
     </steps>
 
-    <media type="image" src="gs-goa5.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>Muchas cuentas en línea le permiten elegir los servicios que desee utilizar con su cuenta en línea. Si no desea algún servicio en particular, desactívelo con el <gui>interruptor de encendido/apagado</gui> que está al lado derecho de la ventana.</p></item>

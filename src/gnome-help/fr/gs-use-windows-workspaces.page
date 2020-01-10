@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="fr">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="fr">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,11 +13,12 @@
     <title role="trail" type="link">Utilisation des fenêtres et espaces de travail</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Utilisation des fenêtres et espaces de travail</title>
+    <link type="next" xref="gs-use-system-search"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Alain Lojewski</mal:name>
       <mal:email>allomervan@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013-2014</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -30,9 +31,9 @@
   <title>Utilisation des fenêtres et espaces de travail</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-windows-and-workspaces.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Fenêtres et espaces de travail</tt:p>
@@ -61,27 +62,23 @@
          <tt:div begin="44s" end="48s">
            <tt:p>Lorsque la moitié de l'écran s'éclaire, lâchez la fenêtre.</tt:p>
          </tt:div>
-         <tt:div begin="52s" end="58s">
+         <tt:div begin="54s" end="60s">
            <tt:p>Pour maximiser une fenêtre à l'aide du clavier, appuyez sur la touche <key href="help:gnome-help/keyboard-key-super">Logo</key> et sur <key>↑</key>.</tt:p>
          </tt:div>
-         <tt:div begin="59s" end="63s">
+         <tt:div begin="61s" end="66s">
            <tt:p>Pour restaurer une fenêtre à sa taille initiale, appuyez sur la touche <key href="help:gnome-help/keyboard-key-super">Logo</key> et sur <key>↓</key>.</tt:p>
          </tt:div>
-         <tt:div begin="63s" end="68s">
+         <tt:div begin="66s" end="73s">
            <tt:p>Pour maximiser une fenêtre le long du bord droit de l'écran, tenez la touche <key href="help:gnome-help/keyboard-key-super">Logo</key> enfoncée et appuyez sur <key>→</key>.</tt:p>
          </tt:div>
-         <tt:div begin="69s" end="72s">
+         <tt:div begin="76s" end="82s">
            <tt:p>Pour maximiser une fenêtre le long du bord gauche de l'écran, tenez la touche <key href="help:gnome-help/keyboard-key-super">Logo</key> enfoncée et appuyez sur <key>←</key>.</tt:p>
          </tt:div>
-         <tt:div begin="73s" end="76s">
-           <tt:p>To move to a workspace which is below the current workspace,
-            press <keyseq><key href="help:gnome-help/keyboard-key-super">Super
-            </key><key>Page Down</key></keyseq>.</tt:p>
+         <tt:div begin="83s" end="89s">
+           <tt:p>Pour vous déplacer vers l'espace de travail situé au-dessous de l'actuel, appuyez sur <keyseq><key href="help:gnome-help/keyboard-key-super">Logo</key><key>Page bas</key></keyseq>.</tt:p>
          </tt:div>
-         <tt:div begin="77s" end="80s">
-           <tt:p>To move to a workspace which is above the current workspace,
-            press <keyseq><key href="help:gnome-help/keyboard-key-super">Super
-            </key><key>Page Up</key></keyseq>.</tt:p>
+         <tt:div begin="90s" end="97s">
+           <tt:p>Pour vous déplacer vers l'espace de travail situé au-dessus de l'actuel, appuyez sur <keyseq><key href="help:gnome-help/keyboard-key-super">Logo</key><key>Page haut</key></keyseq>.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -138,12 +135,8 @@
     
     <steps>
     
-    <item><p>To move to a workspace which is below the current workspace, press
-     <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page
-     Down</key></keyseq>.</p></item>
-    <item><p>To move to a workspace which is above the current workspace, press
-     <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page
-     Up</key></keyseq>.</p></item>
+    <item><p>Pour vous déplacer vers l'espace de travail situé au-dessous de l'actuel, appuyez sur <keyseq><key href="help:gnome-help/keyboard-key-super">Logo</key><key>Page bas</key></keyseq>.</p></item>
+    <item><p>Pour vous déplacer vers l'espace de travail situé au-dessus de l'actuel, appuyez sur <keyseq><key href="help:gnome-help/keyboard-key-super">Logo</key><key>Page haut</key></keyseq>.</p></item>
 
     </steps>
     

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-respond-messages" xml:lang="ca">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="ca">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -10,23 +10,24 @@
       <name>Petr Kovar</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">Respond to messages</title>
+    <title role="trail" type="link">Responeu als missatges</title>
     <link type="seealso" xref="shell-notifications"/>
-    <title role="seealso" type="link">A tutorial on responding to messages</title>
+    <title role="seealso" type="link">Un programa d'aprenentatge per respondre als missatges</title>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Manel Vidal</mal:name>
       <mal:email>verduler@gmail.com</mal:email>
-      <mal:years>2013	</mal:years>
+      <mal:years>2013, 2014/t</mal:years>
     </mal:credit>
   </info>
 
-  <title>Responeu missatges</title>
+  <title>Respondre als missatges</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-responding-to-messages.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="3s">
            <tt:p>Responeu als missatges</tt:p>
@@ -41,18 +42,18 @@
            <tt:p>Tanqueu el missatge de xat.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>Delayed Response</tt:p>
+           <tt:p>Responeu més tard</tt:p>
          </tt:div>
          <tt:div begin="16s" end="20s">
            <tt:p>Si no moveu el ratolí fins a la safata de missatges, el missatge de xat desapareixerà al cap d'una estona.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="24s">
+         <tt:div begin="20s" end="23s">
            <tt:p>Per tornar a un missatge que no s'ha contestat, moveu el ratolí fins a la safata de missatges.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="26s">
+         <tt:div begin="23s" end="25s">
            <tt:p>Feu clic a sobre de la persona que us ha enviat el missatge.</tt:p>
          </tt:div>
-         <tt:div begin="26s" end="28s">
+         <tt:div begin="25s" end="28s">
            <tt:p>Escriviu la resposta i un cop hagueu acabat premeu la tecla de <key>Retorn</key>.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="30s">
@@ -79,52 +80,38 @@
   </ui:overlay>
   
   <section id="respond-to-messages-mouse">
-    <title>Respond to a chat message with the mouse</title>
+    <title>Responeu un missatge de xat amb el ratolí</title>
     
     <steps>
       <item><p>Moveu el ratolí fins a la safata de missatges situada a la part inferior de la pantalla i feu clic a sobre del missatge de xat.</p></item>
-      <item><p>Start typing your reply and when finished, press <key>Enter</key>
-       to send the reply.</p></item>
-      <item><p>To close the chat message, click the close button at the top
-       right corner of the chat message.</p></item>
+      <item><p>Comenceu a escriure la resposta i un cop hagueu acabat, premeu <key>Retorn</key> per enviar-la.</p></item>
+      <item><p>Per tancar el missatge de xat, feu clic al botó situat a la cantonada superior dreta del missatge de xat.</p></item>
     </steps>
     <p/>
   </section>
   
   <section id="respond-to-messages-delayed-mouse">
-    <title>Delayed response to a chat message using the mouse</title>
+    <title>Responeu més tard a un missatge de xat amb el ratolí</title>
     
     <steps>
-      <item><p>When a chat message appears in the message tray and you do not
-       move your mouse to the message tray, the message disappears after a
-       while.</p></item>
-      <item><p>To get back to your unanswered message, move your mouse to the
-       message tray at the very bottom of the screen.</p></item>
-      <item><p>When the message tray appears, click a small image that
-       represents the person who sent you the message.</p></item>
-      <item><p>When the chat message is shown, start typing your reply and when
-       finished, press <key>Enter</key> to send the reply.</p></item>
-      <item><p>To close the chat message, click the close button at the top
-       right corner of the chat message.</p></item>
+      <item><p>Si no moveu el ratolí fins a la safata de missatges quan apareix un missatge de xat, aquest desapareixerà al cap d'una estona.</p></item>
+      <item><p>Si voleu tornar a veure el missatge sense contestar, moveu el ratolí fins a la safata de missatges situada a la part inferior de la pantalla.</p></item>
+      <item><p>Quan aparegui la safata de missatges, feu clic a la petita imatge que representa la persona que us ha enviat el missatge.</p></item>
+      <item><p>Un cop visualitzeu el missatge de xat podeu començar a escriure la resposta, quan hagueu acabat, premeu <key>Retorn</key> per enviar-la.</p></item>
+      <item><p>Per tancar el missatge de xat, feu clic al botó situat a la cantonada superior dreta del missatge de xat.</p></item>
     </steps>
     
   </section>
   
   <section id="respond-to-messages-delayed-keyboard">
-    <title>Delayed response to a chat message using the keyboard</title>
+    <title>Responeu més tard a un missatge de xat amb el teclat</title>
     <steps>
-      <item><p>To get back to your unanswered chat messages, press <keyseq>
-      <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key>
-      </keyseq> to display the message tray that contains the messages.</p>
+      <item><p>Si voleu tornar a veure el missatge sense contestar, premeu <keyseq> <key href="help:gnome-help/keyboard-key-super">Súper</key><key>M</key> </keyseq> per visualitzar la safata de missatges.</p>
       </item>
-      <item><p>Use the arrow keys to select a small image representing the
-      person you want to reply to, and press <key>Enter</key>.</p></item>
-      <item><p>Start typing your reply and when finished, press <key>Enter</key>
-      to send the reply.</p></item>
+      <item><p>Utilitzeu les tecles de desplaçament per seleccionar la petita imatge que representa la persona que us ha enviat el missatge i premeu <key>Retorn</key>.</p></item>
+      <item><p>Comenceu a escriure la resposta i un cop hagueu acabat, premeu <key>Retorn</key> per enviar-la.</p></item>
       <item><p>Premeu <key>Escapada</key> per tancar el missatge de xat.</p></item>
-      <item><p>To dismiss the message tray, press <key>Esc</key> or <keyseq>
-      <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key>
-      </keyseq>.</p></item>
+      <item><p>Per amagar de nou la safata de missatges, premeu <key>Esc</key> o <keyseq> <key href="help:gnome-help/keyboard-key-super">Súper</key><key>M</key> </keyseq>.</p></item>
     </steps>
 
   </section>

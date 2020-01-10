@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-browse-web" xml:lang="es">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="es">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -35,7 +35,7 @@
 
   <title>Navegar por la Web</title>
 
-    <media type="image" src="gs-web-browser1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
 
     <steps>
       <item><p>Mueva el cursor del ratón hacia la esquina de <gui>Actividades</gui> en la esquina superior izquierda de la pantalla para mostrar la <gui>Vista de actividades</gui>.</p></item>
@@ -44,7 +44,7 @@
 
     <note><p>Alternativamente, puede abrir el navegador <app>Web</app> <link xref="gs-use-system-search">simplemente escribiendo</link> el nombre del navegador en la <gui>Vista de actividades</gui>.</p></note>
 
-    <media type="image" src="gs-web-browser2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
 
     <steps style="continues">
       <item><p>Pulse la barra de direcciones que está en la parte superior de la ventana del navegador y comience a escribir en el sitio web que quiera visitar.</p></item>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="hi">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">दिनांक, समय और समय क्षेत्र बदलें</title>
+    <link type="seealso" xref="clock"/>
+    <title role="seealso" type="link">तिथि, समय और समयक्षेत्र बदलने पर एक ट्यूटोरियल</title>
+    <link type="next" xref="gs-change-wallpaper"/>
+  </info>
+
+  <title>दिनांक, समय और समय क्षेत्र बदलें</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>तिथि व समय बदलना</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>शीर्ष पट्टी पर घड़ी क्लिक करें.</tt:p>
+           </tt:div>
+         <tt:div begin="9s" end="13s">
+           <tt:p><gui>तिथि व समय सेटिंग</gui> चुनें.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="15s">
+           <tt:p>पक्का करें कि <gui>स्वचालित समय क्षेत्र</gui> बंद है.</tt:p>
+         </tt:div>
+         <tt:div begin="15s" end="17s">
+           <tt:p><gui>समय क्षेत्र</gui> क्लिक करें.</tt:p>
+         </tt:div>
+         <tt:div begin="17s" end="21s">
+           <tt:p>मानचित्र पर अपने स्थान क्लिक करें.</tt:p>
+         </tt:div>
+         <tt:div begin="21s" end="23s">
+           <tt:p><gui> बन्द </gui> पर क्लिक करें.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
+           <tt:p>विंडो बंद करें.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+  <section id="change-date-time">
+    <title>दिनांक, समय और समय क्षेत्र बदलें</title>
+
+  <steps>
+    <item><p>घड़ी को शीर्ष पट्टी पर क्लिक करें और <gui>तिथि व समय सेटिंग</gui> मद को चुनें.</p></item>
+    <item><p>पक्का करें कि <gui>स्वचालित समय क्षेत्र</gui> मद बंद है और फिर <gui>समय क्षेत्र</gui> को नीचे क्लिक करें.</p></item>
+    <item><p>मानचित्र पर अपने स्थान क्लिक करें. यह आपके मौजूदा शहर को चुनता है, जिसे आप खोज पेटी के लिए नक्शे पर खोज सकते हैं.</p></item>
+    <item><p><gui>बंद करें</gui> बटन को <gui>तिथि व समय सेटिंग</gui> विंडो पर जाने के लिए क्लिक करें.</p></item>
+    <item><p>पक्का करें कि <gui>स्वचालित तिथि व समय</gui> मद बंद किए जाते हैं, और फिर <gui>तिथि व समय</gui> मद को को <gui>तिथि व समय</gui> विंडो खोलने के लिए क्लिक करें. वहाँ आप अपनी तिथि और समय को <gui>+</gui> या <gui>-</gui> बटन पर क्लिक करके समायोजित कर सकते हैं.</p>
+     </item>
+    <item><p><gui>बंद करें</gui> बटन को <gui>तिथि व समय सेटिंग</gui> विंडो पर जाने के लिए क्लिक करें और फिर विंडो को विंडो के ऊपर दाहिने कोने में बने क्रॉस के निशान पर क्लिक करके बंद करें.</p></item>
+  </steps>
+
+  <!-- FIXME: 
+	- explain what time/date does - a reference in further reading?
+  -->
+
+  </section>
+
+</page>

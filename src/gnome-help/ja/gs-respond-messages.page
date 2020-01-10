@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-respond-messages" xml:lang="ja">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="ja">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,6 +13,7 @@
     <title role="trail" type="link">メッセージに返信する</title>
     <link type="seealso" xref="shell-notifications"/>
     <title role="seealso" type="link">メッセージへの返事に関するチュートリアル</title>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>松澤 二郎</mal:name>
@@ -24,9 +25,9 @@
   <title>メッセージに返信する</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-responding-to-messages.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="3s">
            <tt:p>メッセージへの返事</tt:p>
@@ -46,13 +47,13 @@
          <tt:div begin="16s" end="20s">
            <tt:p>メッセージトレイのチャットメッセージは、マウスをトレイに移動させなければ、しばらくすると、画面から消えます。</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="24s">
+         <tt:div begin="20s" end="23s">
            <tt:p>未返事のメッセージを再表示するには、マウスをメッセージにトレイに移動させます。</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="26s">
+         <tt:div begin="23s" end="25s">
            <tt:p>メッセージを送信してきた人をクリックします。</tt:p>
          </tt:div>
-         <tt:div begin="26s" end="28s">
+         <tt:div begin="25s" end="28s">
            <tt:p>返信内容を入力し、完了したら <key>Enter</key> を押します。</tt:p>
          </tt:div>
          <tt:div begin="29s" end="30s">

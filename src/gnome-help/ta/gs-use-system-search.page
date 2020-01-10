@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-system-search" xml:lang="ta">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="ta">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,6 +13,7 @@
     <title role="trail" type="link">கணினி தேடலைப் பயன்படுத்து</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">கணினி தேடலைப் பயன்படுத்துவது பற்றிய பயிற்சி</title>
+    <link type="next" xref="gs-get-online"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Dr. T. Vasudevan</mal:name>
@@ -23,15 +24,15 @@
 
   <title>கணினி தேடலைப் பயன்படுத்து</title>
 
-    <media type="image" src="gs-search1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p><key href="help:gnome-help/keyboard-key-super">Super</key> விசையை அழுத்துவதன் மூலம் <gui>செயல்பாடுக் மேலோட்டத்தைத்</gui> திறக்கவும்.</p></item>
-     <item><p>தேட தட்டச்சு செய்யத் தொடங்கவும். நீங்கள் தட்டச்சு செய்த உரைக்குப் பொருந்தும் முடிவுகள் நீங்கள் தட்டச்சு செய்யும் போதே காண்பிக்கப்படும்.</p></item>
-     <item><p>எப்போதும் முதல் முடிவு தனிப்படுத்திக் காண்பிக்கப்பட்டு மேலே காண்பிக்கப்படும். முதல் தனிப்படுத்தப்பட்ட முடிவுக்கு மாற <key>Enter</key> ஐ அழுத்தவும்.</p></item>
+    <item><p><key href="help:gnome-help/keyboard-key-super">Super</key> விசையை அழுத்தி <gui>செயல்பாடுகள் மேலோட்டம்</gui> ஐத் திறக்கவும். தேடுவதற்கு தட்டச்சு செய்யத் தொடங்கும்.</p>
+    <p>நீங்கள் தட்டச்சு செய்யும் போதே, நீங்கள் தட்டச்சு செய்த உரைக்குப் பொருந்தும் முடிவுகள் காண்பிக்கப்படும். முதல் முடிவு எப்போதும் தனிப்படுத்தப்பட்டு மேலே காண்பிக்கப்படும்.</p>
+    <p>தனிப்படுத்திக் காண்பிக்கப்படும் முதல் முடிவுக்கு மாற <key>Enter</key> ஐ அழுத்தவும்.</p></item>
     </steps>
     
-    <media type="image" src="gs-search2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
     <steps style="continues">
       <item><p>உங்கள் தேடல் முடிவுகளில் பின்வருபவை சேர்க்கப்பட்டிருக்கலாம்:</p>
       <list>
@@ -57,7 +58,7 @@
 
       <title>தேடல் முடிவுகளைத் தனிப்பயனாக்கு</title>
 
-      <media type="image" src="gs-search-settings.svg" width="100%"/>
+      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
       <p><gui>செயல்பாடுகள் மேலோட்டத்தில்</gui> தேடல் முடிவுகளில் என்ன காண்பிக்க வேண்டும் என்பதை நீங்கள் தனிப்பயனாக்கம் செய்துகொள்ள GNOME வழிவகை செய்கிறது. எடுத்துக்காட்டுக்கு, நீங்கள் வலைத்தளங்கள், புகைப்படங்கள் அல்லது இசை முடிவுகளைக் காண்பிக்க வேண்டுமா வேண்டாமா எனத் தேர்வு செய்யலாம்.</p>
@@ -66,8 +67,7 @@
       <p>தேடல் முடிவுகளில் எவை காண்பிக்கப்பட வேண்டும் எனத் தனிப்பயனாக்கம் செய்ய:</p>
 
       <steps>
-        <item><p>மேல் பட்டியில் உங்கள் பெயரைச் சொடுக்கவும்.</p></item>
-        <item><p><gui>அமைவுகள்</gui> உருப்படியைத் தேர்ந்தெடுக்கவும்.</p></item>
+        <item><p>மேல்பட்டியின் வலப்புறம் உள்ள கணினி மெனுவைச் சொடுக்கி, மெனுவின் அடிப்பகுதியில் உள்ள அமைவுகள் பொத்தானை அழுத்தவும்.</p></item>
         <item><p>உருப்படிகளின் பட்டியலிருந்து <gui>தேடு</gui> என்பதைத் தேர்ந்தெடுக்கவும்.</p></item>
         <item><p>தேடல் இடங்களின் பட்டியலில், நீங்கள் செயல்படுத்த அல்லது முடக்க விரும்பும் தேடல் இடத்திற்கு அடுத்துள்ள <gui>ஆன்/ஆஃப்</gui> சாவியை சொடுக்கவும்.</p>
          </item>

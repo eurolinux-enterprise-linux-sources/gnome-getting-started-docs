@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web-firefox" version="1.0 if/1.0" xml:lang="ko">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+<!--Distributors might need to comment out the two elements below if they
+    don't ship Firefox by default.-->
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">웹 탐색하기</title>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Seong-ho Cho</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>웹 탐색하기</title>
+
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox.svg" width="100%"/>
+
+    <steps>
+      <item><p><gui>현재 활동 요약</gui>을 표시하려면 화면 좌측 상단 구석의 <gui>현재 활동</gui>에 마우스 포인터를 옮겨 놓으십시오.</p></item>
+      <item><p>화면의 왼편 표시줄에서  <app>Firefox</app> 브라우저 아이콘을 선택하십시오.</p></item>
+    </steps>
+
+    <note><p>대신, <gui>현재 활동 요약</gui>에서 <em>Firefox</em>를 <link xref="gs-use-system-search">그냥 입력</link>하여 브라우저를 실행할 수 있습니다.</p></note>
+
+</if:when>
+<if:when test="platform:gnome-classic">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox-classic.svg" width="100%"/>
+
+    <steps>
+      <item><p>좌측 상단의 <gui>프로그램</gui> 메뉴를 누르십시오.</p></item>
+      <item><p>메뉴에서 <guiseq><gui>인터넷</gui><gui>Firefox</gui></guiseq>를 선택하십시오.</p></item>
+    </steps>
+
+</if:when>
+</if:choose>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2-firefox.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>브라우더 창 상단의 주소 표시줄을 누른 후 방문하려는 웹사이트 입력을 시작하십시오.</p></item>
+      <item><p>웹사이트에서 입력하면 브라우저 기록과 책갈피 검색을 시작하기 때문에, 정확한 주소를 기억할 필요가 없습니다.</p>
+        <p>기록 또는 책갈피에서 웹사이트를 찾았다면, 드롭다운 목록아 주소 표시줄 아래 나타납니다.</p></item>
+      <item><p>드롭다운 목록에서 화살표 키를 사용하면 웹사이트를 빨리 선택할 수 있습니다.</p>
+      </item>
+      <item><p>웹사이트를 선택한 다음, <key>Enter</key>키를 눌러 방문하십시오.</p>
+      </item>
+    </steps>
+
+</page>

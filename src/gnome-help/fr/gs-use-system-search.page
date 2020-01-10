@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-system-search" xml:lang="fr">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="fr">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,11 +13,12 @@
     <title role="trail" type="link">Utilisation de la recherche système</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">Utilisation de la recherche système</title>
+    <link type="next" xref="gs-get-online"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Alain Lojewski</mal:name>
       <mal:email>allomervan@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013-2014</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -29,15 +30,15 @@
 
   <title>Utilisation de la recherche système</title>
 
-    <media type="image" src="gs-search1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Appuyez sur la touche <key href="help:gnome-help/keyboard-key-super">Logo</key> pour ouvrir la vue d'ensemble des <gui>Activités</gui>.</p></item>
-     <item><p>Commencer votre saisie pour lancer la recherche. Des propositions correspondantes s'affichent au fur et à mesure de votre saisie.</p></item>
-     <item><p>Le premier résultat est toujours sélectionné (surligné) et placé en tête de liste. Appuyer sur <key>Entrée</key> pour l'activer.</p></item>
+    <item><p>Appuyez sur la touche <key href="help:gnome-help/keyboard-key-super">Logo</key> pour ouvrir la vue d'ensemble des <gui>Activités</gui>. Commencer à saisir pour rechercher.</p>
+    <p>Des résultats correspondants à votre saisie commencent à s'afficher. Le premier est toujours sélectionné (surligné) et placé en tête de liste.</p>
+    <p>Appuyez sur <key>Entrée</key> pour aller au premier résultat sélectionné (surligné).</p></item>
     </steps>
     
-    <media type="image" src="gs-search2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
     <steps style="continues">
       <item><p>Les éléments pouvant apparaitre dans les résultats de la recherche incluent :</p>
       <list>
@@ -63,7 +64,7 @@
 
       <title>Personnalisation des résultat de la recherche</title>
 
-      <media type="image" src="gs-search-settings.svg" width="100%"/>
+      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
       <p>GNOME vous permet de personnaliser le contenu des résultats de la recherche dans la vue d'ensemble des <gui>Activités</gui>. Vous pouvez, par exemple, choisir de n'afficher que les résultats de sites Web, de photos, ou de musique.</p>
@@ -72,8 +73,7 @@
       <p>Pour personnaliser vos résultats :</p>
 
       <steps>
-        <item><p>Cliquez sur votre nom dans la barre supérieure.</p></item>
-        <item><p>Sélectionnez <gui>Paramètres</gui>.</p></item>
+        <item><p>Ouvrez le menu système à droite dans la barre supérieure et cliquez sur le bouton des paramètres en bas du menu.</p></item>
         <item><p>Dans la liste d'éléments, sélectionnez <gui>Recherche</gui>.</p></item>
         <item><p>Dans la liste des emplacements de recherche, basculez l'interrupteur <gui>I/O</gui> pour activer/désactiver ceux que vous voulez.</p>
          </item>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="mr">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="mr">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,6 +13,7 @@
     <title role="trail" type="link">पटल आणि वर्कस्पेसेस वापरा</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">पटल आणि वर्कस्पेसेस वापरण्याबाबत वर्गपाठ</title>
+    <link type="next" xref="gs-use-system-search"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Aniket Deshpande</mal:name>
@@ -24,9 +25,9 @@
   <title>पटल आणि वर्कस्पेसेस वापरा</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-windows-and-workspaces.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>पटल आणि वर्कस्पेसेस</tt:p>
@@ -55,22 +56,22 @@
          <tt:div begin="44s" end="48s">
            <tt:p>जेव्हा अर्धी स्क्रीन दृष्टीवेधली असेल, पटल सोडा.</tt:p>
          </tt:div>
-         <tt:div begin="52s" end="58s">
+         <tt:div begin="54s" end="60s">
            <tt:p>पटल कीबोर्डने मोठे करण्यासाठी, <key href="help:gnome-help/keyboard-key-super">Super</key> दाबून ठेवा आणि <key>↑</key> दाबा.</tt:p>
          </tt:div>
-         <tt:div begin="59s" end="63s">
+         <tt:div begin="61s" end="66s">
            <tt:p>पटल कीबोर्डने पूर्वस्थितीत छोटे करण्यासाठी, <key href="help:gnome-help/keyboard-key-super">Super</key> दाबून ठेवा आणि <key>↓</key> दाबा.</tt:p>
          </tt:div>
-         <tt:div begin="63s" end="68s">
+         <tt:div begin="66s" end="73s">
            <tt:p>पटल कीबोर्डने उजव्या बाजूला मोठे करण्यासाठी, <key href="help:gnome-help/keyboard-key-super">Super</key> दाबून ठेवा आणि <key>→</key> दाबा.</tt:p>
          </tt:div>
-         <tt:div begin="69s" end="72s">
+         <tt:div begin="76s" end="82s">
            <tt:p>पटल कीबोर्डने डाव्या बाजूला मोठे करण्यासाठी, <key href="help:gnome-help/keyboard-key-super">Super</key> दाबून ठेवा आणि <key>←</key> दाबा.</tt:p>
          </tt:div>
-         <tt:div begin="73s" end="76s">
+         <tt:div begin="83s" end="89s">
            <tt:p>आत्ताच्या वर्कस्पेसपेक्षा खालच्या वर्कस्पेसवर जाण्यासाठी, <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Page Down</key></keyseq> दाबा.</tt:p>
          </tt:div>
-         <tt:div begin="77s" end="80s">
+         <tt:div begin="90s" end="97s">
            <tt:p>आत्ताच्या वर्कस्पेसपेक्षा वरच्या वर्कस्पेसवर जाण्यासाठी, <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Page Up</key></keyseq> दाबा.</tt:p>
          </tt:div>
        </tt:body>

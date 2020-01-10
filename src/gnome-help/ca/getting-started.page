@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="guide" id="getting-started" style="task" xml:lang="ca">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="getting-started" version="1.0 if/1.0" xml:lang="ca">
 
 <info>
     <link type="guide" xref="index" group="#first"/>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
-    <desc>New to GNOME? Learn how to get around.</desc>
+    <desc>És el primer cop que utilitzeu el GNOME? Apreneu a fer-lo servir.</desc>
     <title type="link">Primers passos amb el GNOME</title>
     <title type="text">Primers passos</title>
 
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Manel Vidal</mal:name>
       <mal:email>verduler@gmail.com</mal:email>
-      <mal:years>2013	</mal:years>
+      <mal:years>2013, 2014/t</mal:years>
     </mal:credit>
   </info>
 
@@ -21,11 +21,11 @@
 <if:when test="!platform:gnome-classic">
 
   <ui:overlay width="235" height="145">
-  <media type="video" src="figures/gnome-launching-applications.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-launching-apps.svg">
-      <ui:caption><desc style="center">Launch applications</desc></ui:caption>
+  <media type="video" its:translate="no" src="figures/gnome-launching-applications.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-launching-apps.svg">
+      <ui:caption its:translate="yes"><desc style="center">Iniciació d'aplicacions</desc></ui:caption>
     </ui:thumb>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Inicieu aplicacions</tt:p>
@@ -57,29 +57,26 @@
 <if:when test="platform:gnome-classic">
 
   <ui:overlay width="235" height="145">
-  <media type="video" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-windows-and-workspaces.svg">
-          <ui:caption><desc style="center">Use windows and workspaces</desc></ui:caption>
+  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg">
+          <ui:caption its:translate="yes"><desc style="center">Feu ús de finestres i espais de treball</desc></ui:caption>
     </ui:thumb>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
-           <tt:p>Windows and Workspaces</tt:p>
+           <tt:p>Finestres i espais de treball</tt:p>
          </tt:div>
          <tt:div begin="6s" end="10s">
-           <tt:p>To maximize a window, grab the window's titlebar and drag it to
-            the top of the screen.</tt:p>
+           <tt:p>Per maximitzar una finestra, agafeu la finestra per la barra del títol i arrossegueu-la cap a la part superior de la pantalla.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="13s">
-           <tt:p>When the screen is highlighted, release the window.</tt:p>
+           <tt:p>Quan es realci la pantalla, deixeu anar la finestra.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="20s">
-           <tt:p>To unmaximize a window, grab the window's titlebar and drag it
-            away from the edges of the screen.</tt:p>
+           <tt:p>Per desmaximitzar una finestra, agafeu la finestra per la barra del títol i arrossegueu-la cap al centre de la pantalla.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
-           <tt:p>You can also click the top bar to drag the window away and
-            unmaximize it.</tt:p>
+           <tt:p>També podeu desmaximitzar la finestra si feu clic en la barra superior i arrossegueu la finestra cap al centre de la pantalla.</tt:p>
          </tt:div>
          <tt:div begin="34s" end="38s">
            <tt:p>Per maximitzar una finestra i que ocupi la part esquerra de la pantalla, agafeu la finestra per la barra del títol i arrossegueu-la cap a l'esquerra.</tt:p>
@@ -88,41 +85,28 @@
            <tt:p>Quan es realci la meitat de la pantalla, deixeu anar la finestra.</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
-           <tt:p>To maximize a window along the right side of the screen, grab
-            the window's titlebar and drag it to the right.</tt:p>
+           <tt:p>Per maximitzar una finestra i que ocupi la part dreta de la pantalla, agafeu la finestra per la barra del títol i arrossegueu-la cap a la dreta.</tt:p>
          </tt:div>
          <tt:div begin="44s" end="48s">
            <tt:p>Quan es realci la meitat de la pantalla, deixeu anar la finestra.</tt:p>
          </tt:div>
-         <tt:div begin="52s" end="58s">
-           <tt:p>To maximize a window using the keyboard, hold down the
-            <key href="help:gnome-help/keyboard-key-super">Super</key> key and
-            press <key>↑</key>.</tt:p>
+         <tt:div begin="54s" end="60s">
+           <tt:p>Per maximitzar una finestra mitjançant el teclat, mantingueu premuda la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> i premeu <key>↑</key>.</tt:p>
          </tt:div>
-         <tt:div begin="59s" end="63s">
-           <tt:p>To restore the window to its unmaximized size, hold down the
-            <key href="help:gnome-help/keyboard-key-super">Super</key> key and
-            press <key>↓</key>.</tt:p>
+         <tt:div begin="61s" end="66s">
+           <tt:p>Per desmaximitzar la finestra mantingueu premuda la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> i premeu <key>↓</key>.</tt:p>
          </tt:div>
-         <tt:div begin="63s" end="68s">
-           <tt:p>To maximize a window along the right side of the screen, hold
-            down the <key href="help:gnome-help/keyboard-key-super">Super</key>
-            key and press <key>→</key>.</tt:p>
+         <tt:div begin="66s" end="73s">
+           <tt:p>Per maximitzar una finestra i que ocupi la part dreta de la pantalla, mantingueu premuda la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> i premeu <key>→</key>.</tt:p>
          </tt:div>
-         <tt:div begin="69s" end="72s">
-           <tt:p>To maximize a window along the left side of the screen, hold
-            down the <key href="help:gnome-help/keyboard-key-super">Super</key>
-            key and press <key>←</key>.</tt:p>
+         <tt:div begin="76s" end="82s">
+           <tt:p>Per maximitzar una finestra i que ocupi la part esquerra de la pantalla, mantingueu premuda la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> i premeu <key>←</key>.</tt:p>
          </tt:div>
-         <tt:div begin="73s" end="76s">
-           <tt:p>To move to a workspace which is below the current workspace,
-            press <keyseq><key href="help:gnome-help/keyboard-key-super">Super
-            </key><key>Page Down</key></keyseq>.</tt:p>
+         <tt:div begin="83s" end="89s">
+           <tt:p>Si voleu anar a un espai de treball que es troba a sota de l'espai de treball actual, premeu <keyseq><key href="help:gnome-help/keyboard-key-super">Súper </key><key>Pàgina següent</key></keyseq>.</tt:p>
          </tt:div>
-         <tt:div begin="77s" end="80s">
-           <tt:p>To move to a workspace which is above the current workspace,
-            press <keyseq><key href="help:gnome-help/keyboard-key-super">Super
-            </key><key>Page Up</key></keyseq>.</tt:p>
+         <tt:div begin="90s" end="97s">
+           <tt:p>Si voleu anar a un espai de treball que es troba a sobre de l'espai de treball actual, premeu <keyseq><key href="help:gnome-help/keyboard-key-super">Súper </key><key>Pàgina anterior</key></keyseq>.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -132,24 +116,23 @@
 </if:when>
 </if:choose>
 
-<if:choose>
-<if:when test="!platform:gnome-classic">
-
   <ui:overlay width="235" height="145">
-  <media type="video" src="figures/gnome-task-switching.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-task-switching.svg">
-        <ui:caption><desc style="center">Switch tasks</desc></ui:caption>
+  <media type="video" its:translate="no" src="figures/gnome-task-switching.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-task-switching.svg">
+        <ui:caption its:translate="yes"><desc style="center">Canvieu entre les tasques</desc></ui:caption>
     </ui:thumb>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
-           <tt:p>Switching Tasks</tt:p>
+           <tt:p>Canvieu entre les tasques</tt:p>
          </tt:div>
+         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
            <tt:p>Moveu el ratolí fins a la cantonada d'<gui>Activitats</gui> situat a la part superior esquerra de la pantalla.</tt:p>
            </tt:div>
+         </if:if>
          <tt:div begin="9s" end="12s">
-           <tt:p>Click a window to switch to that task.</tt:p>
+           <tt:p>Feu clic en una finestra per canviar a aquella tasca.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>Per maximitzar una finestra i que ocupi la part esquerra de la pantalla, agafeu la finestra per la barra del títol i arrossegueu-la cap a l'esquerra.</tt:p>
@@ -167,7 +150,7 @@
            <tt:p>Premeu <keyseq><key href="help:gnome-help/keyboard-key-super">Súper</key><key> Tabulació</key></keyseq> per visualitzar el <gui>canviador de finestres</gui>.</tt:p>
          </tt:div>
          <tt:div begin="27s" end="29s">
-           <tt:p>Deixeu anar la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> si voleu seleccionar la finestra realçada.</tt:p>
+           <tt:p>Deixeu anar la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> si voleu seleccionar la finestra realçada següent.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="32s">
            <tt:p>Per passar a través de la llista de les finestres obertes, mantingueu premuda la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> i premeu la tecla de <key>Tabulació</key>.</tt:p>
@@ -186,64 +169,13 @@
   </media>
   </ui:overlay>
 
-</if:when>
-<if:when test="platform:gnome-classic">
-
   <ui:overlay width="235" height="145">
-  <media type="video" src="figures/classic-task-switching.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-task-switching.svg">
-        <ui:caption><desc style="center">Switch tasks</desc></ui:caption>
-    </ui:thumb>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
-       <tt:body>
-         <tt:div begin="1s" end="5s">
-           <tt:p>Switching Tasks</tt:p>
-         </tt:div>
-         <tt:div begin="12s" end="14s">
-           <tt:p>Per maximitzar una finestra i que ocupi la part esquerra de la pantalla, agafeu la finestra per la barra del títol i arrossegueu-la cap a l'esquerra.</tt:p>
-         </tt:div>
-         <tt:div begin="14s" end="16s">
-           <tt:p>Quan es realci la meitat de la pantalla, deixeu anar la finestra.</tt:p>
-         </tt:div>
-         <tt:div begin="16s" end="18">
-           <tt:p>Per maximitzar una finestra i que ocupi la part dreta de la pantalla, agafeu la finestra per la barra del títol i arrossegueu-la cap a la dreta.</tt:p>
-         </tt:div>
-         <tt:div begin="18s" end="20s">
-           <tt:p>Quan es realci la meitat de la pantalla, deixeu anar la finestra.</tt:p>
-         </tt:div>
-         <tt:div begin="23s" end="27s">
-           <tt:p>Premeu <keyseq><key href="help:gnome-help/keyboard-key-super">Súper</key><key> Tabulació</key></keyseq> per visualitzar el <gui>canviador de finestres</gui>.</tt:p>
-         </tt:div>
-         <tt:div begin="27s" end="29s">
-           <tt:p>Deixeu anar la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> si voleu seleccionar la finestra realçada.</tt:p>
-         </tt:div>
-         <tt:div begin="29s" end="32s">
-           <tt:p>Per passar a través de la llista de les finestres obertes, mantingueu premuda la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> i premeu la tecla de <key>Tabulació</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="35s" end="37s">
-           <tt:p>Premeu la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> per visualitzar la <gui>Vista general de les activitats</gui>.</tt:p>
-         </tt:div>
-         <tt:div begin="37s" end="40s">
-           <tt:p>Comenceu a escriure el nom de l'aplicació a la que voleu canviar.</tt:p>
-         </tt:div>
-         <tt:div begin="40s" end="43s">
-           <tt:p>Quan l'aplicació aparegui com a primer resultat, premeu la tecla de <key>Retorn</key> per canviar a ella.</tt:p>
-         </tt:div>
-       </tt:body>
-     </tt:tt>
-  </media>
-  </ui:overlay>
-
-</if:when>
-</if:choose>
-
-  <ui:overlay width="235" height="145">
-  <media type="video" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-responding-to-messages.svg">
-            <ui:caption><desc style="center">Responeu missatges</desc>
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg">
+            <ui:caption its:translate="yes"><desc style="center">Respondre als missatges</desc>
             </ui:caption>
     </ui:thumb>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="3s">
            <tt:p>Responeu als missatges</tt:p>
@@ -258,18 +190,18 @@
            <tt:p>Tanqueu el missatge de xat.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>Delayed Response</tt:p>
+           <tt:p>Responeu més tard</tt:p>
          </tt:div>
          <tt:div begin="16s" end="20s">
            <tt:p>Si no moveu el ratolí fins a la safata de missatges, el missatge de xat desapareixerà al cap d'una estona.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="24s">
+         <tt:div begin="20s" end="23s">
            <tt:p>Per tornar a un missatge que no s'ha contestat, moveu el ratolí fins a la safata de missatges.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="26s">
+         <tt:div begin="23s" end="25s">
            <tt:p>Feu clic a sobre de la persona que us ha enviat el missatge.</tt:p>
          </tt:div>
-         <tt:div begin="26s" end="28s">
+         <tt:div begin="25s" end="28s">
            <tt:p>Escriviu la resposta i un cop hagueu acabat premeu la tecla de <key>Retorn</key>.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="30s">

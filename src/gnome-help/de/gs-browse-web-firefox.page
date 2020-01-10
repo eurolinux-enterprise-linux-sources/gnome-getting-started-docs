@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-browse-web-firefox" xml:lang="de">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web-firefox" version="1.0 if/1.0" xml:lang="de">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -15,12 +15,6 @@
     <title role="trail" type="link">Im Web surfen</title>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Benjamin Steinwender</mal:name>
-      <mal:email>b@stbe.at</mal:email>
-      <mal:years>2013</mal:years>
-    </mal:credit>
-  
-    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Mario Blättermann</mal:name>
       <mal:email>mario.blaettermann@gmail.com</mal:email>
       <mal:years>2013</mal:years>
@@ -29,7 +23,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2013, 2014</mal:years>
     </mal:credit>
   </info>
 
@@ -38,7 +38,7 @@
 <if:choose>
 <if:when test="!platform:gnome-classic">
 
-    <media type="image" src="gs-web-browser1-firefox.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox.svg" width="100%"/>
 
     <steps>
       <item><p>Bewegen Sie den Mauszeiger zu der <gui>Aktivitäten</gui>-Ecke am linken oberen Rand des Bildschirms, um die <gui>Aktivitäten-Übersicht</gui> anzuzeigen.</p></item>
@@ -50,7 +50,7 @@
 </if:when>
 <if:when test="platform:gnome-classic">
 
-    <media type="image" src="gs-web-browser1-firefox-classic.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox-classic.svg" width="100%"/>
 
     <steps>
       <item><p>Klicken Sie auf das Menü <gui>Anwendungen</gui> in der linken oberen Ecke des Bildschirms.</p></item>
@@ -60,7 +60,7 @@
 </if:when>
 </if:choose>
 
-    <media type="image" src="gs-web-browser2-firefox.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2-firefox.svg" width="100%"/>
 
     <steps style="continues">
       <item><p>Klicken sie auf die Adressleiste oben im Browser-Fenster und geben Sie die Webseite ein, die Sie besuchen wollen.</p></item>

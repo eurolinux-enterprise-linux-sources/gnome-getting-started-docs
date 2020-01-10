@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-browse-web" xml:lang="gu">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="gu">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -17,7 +17,7 @@
 
   <title>વેબ બ્રાઉઝ કરો</title>
 
-    <media type="image" src="gs-web-browser1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
 
     <steps>
       <item><p><gui>પ્રવૃત્તિ ઝાંખી</gui> ને બતાવવા માટે સ્ક્રીનની ટોચે ડાબે <gui>પ્રવૃત્તિઓ</gui> તરફ તમારા માઉસ પોઇંટરને ખસેડો.</p></item>
@@ -26,7 +26,7 @@
 
     <note><p>વૈકલ્પિક રીતે, તમે <gui>પ્રવૃત્તિ ઝાંખી</gui> માં <em>વેબ</em> <link xref="gs-use-system-search">ને ફક્ત ટાઇપ કરીને</link> બ્રાઉઝરને શરૂ કરી શકો છો.</p></note>
 
-    <media type="image" src="gs-web-browser2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
 
     <steps style="continues">
       <item><p>બ્રાઉઝર વિન્ડોની ટોચે સરનામાં પર ક્લિક કરો અને વેબસાઇટને ટાઇપ કરવાનું શરૂ કરો જે તમે મુલાકાત કરવા માંગો છો.</p></item>

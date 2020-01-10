@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-respond-messages" xml:lang="gu">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="gu">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,14 +13,15 @@
     <title role="trail" type="link">સંદેશાઓનો જવાબ આપો</title>
     <link type="seealso" xref="shell-notifications"/>
     <title role="seealso" type="link">સંદેશાને જવાબ આપવા પર માર્ગદર્શિકા</title>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>સંદેશાઓનો જવાબ આપો</title>
 
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-responding-to-messages.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="3s">
            <tt:p>સંદેશાના જવાબ આપી રહ્યા છે</tt:p>
@@ -40,13 +41,13 @@
          <tt:div begin="16s" end="20s">
            <tt:p>સંદેશા ટ્રેમાં વાર્તાલાપ સંદેશો થોડો સમય માટે અદૃશ્ય થાય છે જો તમે સંદેશા ટ્રેમાં તમારા માઉસને ખસેડો નહિં.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="24s">
+         <tt:div begin="20s" end="23s">
            <tt:p>તમારાં જવાબ ન આપેલ સંદેશામાં પાછુ આવવા માટે, સંદેશા ટ્રેમાં તમારા માઉસને ખસેડો.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="26s">
+         <tt:div begin="23s" end="25s">
            <tt:p>માણસ પર ક્લિક કરો જેને સંદેશાને તમને મોકલેલ છે.</tt:p>
          </tt:div>
-         <tt:div begin="26s" end="28s">
+         <tt:div begin="25s" end="28s">
            <tt:p>તમારાં જવાબને લખવાનું શરૂ કરો અને જ્યારે સમાપ્ત હોય, <key>Enter </key> ને દબાવો.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="30s">

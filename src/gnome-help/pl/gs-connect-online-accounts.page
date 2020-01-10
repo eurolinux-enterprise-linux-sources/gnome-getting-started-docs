@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="pl">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="pl">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,6 +13,7 @@
     <title role="trail" type="link">Łączenie z kontami online</title>
     <link type="seealso" xref="accounts"/>
     <title role="seealso" type="link">Samouczek łączenia z kontami online</title>
+    <link type="next" xref="gs-change-date-time-timezone"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Piotr Drąg</mal:name>
@@ -29,36 +30,35 @@
 
   <title>Łączenie z kontami online</title>
 
-    <media type="image" src="gs-goa1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>Kliknij na swoje imię na górnym pasku.</p></item>
-      <item><p>Wybierz element <gui>Ustawienia</gui>.</p></item>
+      <item><p>Kliknij menu systemowe po prawej stronie górnego paska.</p></item>
+      <item><p>Naciśnij przycisk ustawień na dole menu.</p></item>
     </steps>
        
-    <media type="image" src="gs-goa2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Z listy elementów wybierz <gui>Konta online</gui>.</p></item>
-      <item><p>Kliknij przycisk <gui>Dodaj konto online</gui>.</p></item>
+      <item><p>Z listy elementów wybierz <gui>Konta online</gui>, a następnie kliknij przycisk <gui>Dodaj konto online</gui>.</p></item>
     </steps>
     
     <note><p>Jeśli wcześniej ustawiono konto online, to można dodać kolejne klikając przycisk <gui>+</gui> w dolnym lewym rogu okna.</p></note>
     
-    <media type="image" src="gs-goa3.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>Kliknij konto online, którego chcesz używać. Otworzy to nowe okno, gdzie można zalogować się do konta online.</p></item>
     </steps>
       
-    <media type="image" src="gs-goa4.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>W większości przypadków konieczne jest udzielenie dostępu usłudze online po zalogowaniu, aby zacząć jej używać.</p></item>
       <item><p>Na przykład po połączeniu z kontem Google należy kliknąć przycisk <gui>Udziel dostęp</gui>.</p></item>
     </steps>
 
-    <media type="image" src="gs-goa5.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>Wiele kont online umożliwia wybranie usług, które mają być używane za pomocą danego konta. Aby wyłączyć usługę, kliknij przełącznik <gui>|/◯</gui> po prawej stronie okna.</p></item>

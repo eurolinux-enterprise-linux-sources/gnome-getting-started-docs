@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-change-date-time-timezone" xml:lang="pt-BR">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="pt-BR">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,6 +13,7 @@
     <title role="trail" type="link">Alterando a data, hora e fuso horário</title>
     <link type="seealso" xref="clock"/>
     <title role="seealso" type="link">Um tutorial sobre a alteração da data, hora e fuso horário</title>
+    <link type="next" xref="gs-change-wallpaper"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Enrico Nicoletto</mal:name>
@@ -29,90 +30,51 @@
 
   <title>Alterando a data, hora e fuso horário</title>
 
-<if:choose>
-<if:when test="!platform:gnome-classic">
-
   <ui:overlay width="812" height="452">
-  <media type="video" src="figures/gnome-timezone.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-timezone.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Alterando data e hora</tt:p>
          </tt:div>
-         <tt:div begin="6s" end="8s">
+         <tt:div begin="6s" end="9s">
            <tt:p>Clique no relógio na barra superior.</tt:p>
            </tt:div>
-         <tt:div begin="8s" end="13s">
-           <tt:p>Selecione o item <gui>Configurações de data e hora</gui>.</tt:p>
+         <tt:div begin="9s" end="13s">
+           <tt:p>Selecione o item <gui>Configurações de data &amp; hora</gui>.</tt:p>
          </tt:div>
-         <tt:div begin="13s" end="16s">
+         <tt:div begin="13s" end="15s">
+           <tt:p>Certifique-se de que o <gui>Fuso horário automático</gui> esteja desligado.</tt:p>
+         </tt:div>
+         <tt:div begin="15s" end="17s">
+           <tt:p>Clique em <gui>Fuso horário</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="17s" end="21s">
            <tt:p>Clique sobre o seu local no mapa.</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>Você pode ajustar a data e hora ao clicar nas setas para escolher hora, minuto e ano.</tt:p>
-         </tt:div>
          <tt:div begin="21s" end="23s">
+           <tt:p>Clique em <gui>Fechar</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="25s">
            <tt:p>Feche a janela.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
   </media>
   </ui:overlay>
-
-</if:when>
-<if:when test="platform:gnome-classic">
-
-  <ui:overlay width="812" height="452">
-  <media type="video" src="figures/classic-timezone.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-timezone.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
-       <tt:body>
-         <tt:div begin="1s" end="5s">
-           <tt:p>Alterando data e hora</tt:p>
-         </tt:div>
-         <tt:div begin="6s" end="8s">
-           <tt:p>Clique no relógio na barra superior.</tt:p>
-           </tt:div>
-         <tt:div begin="8s" end="13s">
-           <tt:p>Selecione o item <gui>Configurações de data e hora</gui>.</tt:p>
-         </tt:div>
-         <tt:div begin="13s" end="16s">
-           <tt:p>Clique sobre o seu local no mapa.</tt:p>
-         </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>Você pode ajustar a data e hora ao clicar nas setas para escolher hora, minuto e ano.</tt:p>
-         </tt:div>
-         <tt:div begin="21s" end="23s">
-           <tt:p>Feche a janela.</tt:p>
-         </tt:div>
-       </tt:body>
-     </tt:tt>
-  </media>
-  </ui:overlay>
-
-</if:when>
-</if:choose>
 
   <section id="change-date-time">
     <title>Alterando a data, hora e fuso horário</title>
 
   <steps>
-    <item><p>Clique no relógio na barra superior.</p></item>
-    <item><p>Selecione o item <gui>Configurações de data e hora</gui>.</p></item>
-    <item>
-    
-    <comment>
-    <cite date="2013-06-20">pmkovar</cite>
-    <p>Changing timezone hopefully won't require authorization.</p>
-    </comment>
-
-    <p>Vocẽ pode precisar clicar no botão <gui>Desbloquear</gui> e digitar a senha do administrador.</p></item>
-    <item><p>Clique sobre o seu local no mapa.</p>
-    <p>Isto seleciona sua cidade atual, que você também pode ver e alterar na lista suspensa abaixo do mapa.</p></item>
-    <item><p>No canto direito da janela, você pode ajustar a data e a hora clicando nas setas para escolher a hora, minuto e o ano.</p>
+    <item><p>Na barra superior, clique no relógio e selecione o item <gui>Configurações de data &amp; hora</gui>.</p></item>
+    <item><p>Certifique-se de que o ítem <gui>Fuso horário automático</gui> esteja desligado e então clique no item <gui>Fuso horário</gui>, abaixo.</p></item>
+    <item><p>Clique sobre o seu local no mapa. Isto seleciona sua cidade atual, que você também pode pesquisar na caixa de pesquisa acima do mapa.</p></item>
+    <item><p>Clique no botão <gui>Fechar</gui> para retornar a janela de <gui>Configurações de data &amp; hora</gui>.</p></item>
+    <item><p>Certifique-se de que o ítem <gui>Data &amp; hora automática</gui> esteja desligado e então clique no item <gui>Fuso horário</gui>, abaixo, para abrir a janela <gui>Data &amp; hora</gui>. Neste local você poderá ajustar suas configurações de data e hora clicando nos botões <gui>+</gui> ou <gui>-</gui>.</p>
      </item>
-    <item><p>Feche a janela clicando no X no canto superior direito da janela.</p></item>
+    <item><p>Clique no botão <gui>Fechar</gui> para retornar a janela de <gui>Configurações de data &amp; hora</gui> e então feche a janela clicando no X do canto superior direito da janela.</p></item>
   </steps>
 
   <!-- FIXME: 

@@ -1,7 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:ui="http://projectmallard.org/experimental/ui/"
-      type="topic" style="ui"
-      id="gs-use-system-search">
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="ui" id="gs-use-system-search">
 
   <info>
     <include href="gs-legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
@@ -15,22 +15,25 @@
     <title role="trail" type="link">Use the system search</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">A tutorial on using the system search</title>
+    <link type="next" xref="gs-get-online"/>
   </info>
 
   <title>Use the system search</title>
 
-    <media type="image" src="gs-search1.svg" width="100%" />
+    <media its:translate="no" type="image" mime="image/svg"
+    src="gs-search1.svg" width="100%" />
     
     <steps>
     <item><p>Open the <gui>Activities Overview</gui> by pressing the
-    <key href="help:gnome-help/keyboard-key-super">Super</key> key.</p></item>
-     <item><p>Start typing to search. Results matching what you have typed will
-      appear as you type.</p></item>
-     <item><p>The first result is always highlighted and shown at the top. Press
-     <key>Enter</key> to switch to the first highlighted result.</p></item>
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. Start typing
+    to search.</p>
+    <p>Results matching what you have typed will appear as you type. The first
+    result is always highlighted and shown at the top.</p>
+    <p>Press <key>Enter</key> to switch to the first highlighted result.</p></item>
     </steps>
     
-    <media type="image" src="gs-search2.svg" width="100%" />
+    <media its:translate="no" type="image" mime="image/svg"
+    src="gs-search2.svg" width="100%" />
     <steps style="continues">
       <item><p>Items that may appear in the search results include:</p>
       <list>
@@ -64,7 +67,8 @@
 
       <title>Customize search results</title>
 
-      <media type="image" src="gs-search-settings.svg" width="100%" />
+      <media its:translate="no" type="image" mime="image/svg"
+      src="gs-search-settings.svg" width="100%" />
 
       <note style="important">
       <p>GNOME lets you customize what you want to display in the search
@@ -76,8 +80,8 @@
       <p>To customize what is displayed in the search results:</p>
 
       <steps>
-        <item><p>Click your name on the top bar.</p></item>
-        <item><p>Select the <gui>Settings</gui> item.</p></item>
+        <item><p>Click the system menu on the right side of the top bar and press
+         the settings button at the bottom of the menu.</p></item>
         <item><p>From the list of items, select <gui>Search</gui>.</p></item>
         <item><p>In the list of search locations, click the <gui>ON/OFF</gui>
          switch next to the search location you want to enable or disable.</p>

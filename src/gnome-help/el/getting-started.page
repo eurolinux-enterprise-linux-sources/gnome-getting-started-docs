@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="guide" id="getting-started" style="task" xml:lang="el">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="getting-started" version="1.0 if/1.0" xml:lang="el">
 
 <info>
     <link type="guide" xref="index" group="#first"/>
@@ -27,11 +27,11 @@
 <if:when test="!platform:gnome-classic">
 
   <ui:overlay width="235" height="145">
-  <media type="video" src="figures/gnome-launching-applications.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-launching-apps.svg">
-      <ui:caption><desc style="center">Εκκίνηση εφαρμογών</desc></ui:caption>
+  <media type="video" its:translate="no" src="figures/gnome-launching-applications.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-launching-apps.svg">
+      <ui:caption its:translate="yes"><desc style="center">Εκκίνηση εφαρμογών</desc></ui:caption>
     </ui:thumb>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Εκκίνηση εφαρμογών</tt:p>
@@ -63,11 +63,11 @@
 <if:when test="platform:gnome-classic">
 
   <ui:overlay width="235" height="145">
-  <media type="video" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-windows-and-workspaces.svg">
-          <ui:caption><desc style="center">Χρήση παραθύρων και χώρων εργασίας</desc></ui:caption>
+  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg">
+          <ui:caption its:translate="yes"><desc style="center">Χρήση παραθύρων και χώρων εργασίας</desc></ui:caption>
     </ui:thumb>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Παράθυρα και χώροι εργασίας</tt:p>
@@ -96,22 +96,22 @@
          <tt:div begin="44s" end="48s">
            <tt:p>Όταν η μισή οθόνη επισημανθεί, ελευθερώστε το παράθυρο.</tt:p>
          </tt:div>
-         <tt:div begin="52s" end="58s">
+         <tt:div begin="54s" end="60s">
            <tt:p>Για μεγιστοποίηση ενός παραθύρου χρησιμοποιώντας το πληκτρολόγιο, κρατήστε πατημένο το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">λογότυπου</key> και πατήστε <key>↑</key>.</tt:p>
          </tt:div>
-         <tt:div begin="59s" end="63s">
+         <tt:div begin="61s" end="66s">
            <tt:p>Για επαναφορά παραθύρου στο αμεγιστοποίητο μέγεθος του, κρατήστε πατημένο το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">λογότυπου</key> και πατήστε <key>↓</key>.</tt:p>
          </tt:div>
-         <tt:div begin="63s" end="68s">
+         <tt:div begin="66s" end="73s">
            <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της δεξιάς πλευράς της οθόνης, κρατήστε πατημένο το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">λογότυπου</key> και πατήστε <key>→</key>.</tt:p>
          </tt:div>
-         <tt:div begin="69s" end="72s">
+         <tt:div begin="76s" end="82s">
            <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της αριστερής πλευράς της οθόνης, κρατήστε πατημένο το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">λογότυπου</key> και πατήστε <key>←</key>.</tt:p>
          </tt:div>
-         <tt:div begin="73s" end="76s">
+         <tt:div begin="83s" end="89s">
            <tt:p>Για μετακίνηση σε έναν χώρο εργασίας που είναι κάτω από τον τρέχοντα χώρο εργασίας, πατήστε το <keyseq><key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key><key>πλήκτρο της επόμενης σελίδας</key></keyseq>.</tt:p>
          </tt:div>
-         <tt:div begin="77s" end="80s">
+         <tt:div begin="90s" end="97s">
            <tt:p>Για μετακίνηση σε έναν χώρο εργασίας που είναι πάνω από τον τρέχοντα χώρο εργασίας, πατήστε το <keyseq><key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key> <key>πλήκτρο της προηγούμενης σελίδας</key></keyseq>.</tt:p>
          </tt:div>
        </tt:body>
@@ -122,22 +122,21 @@
 </if:when>
 </if:choose>
 
-<if:choose>
-<if:when test="!platform:gnome-classic">
-
   <ui:overlay width="235" height="145">
-  <media type="video" src="figures/gnome-task-switching.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-task-switching.svg">
-        <ui:caption><desc style="center">Εναλλαγή εργασιών</desc></ui:caption>
+  <media type="video" its:translate="no" src="figures/gnome-task-switching.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-task-switching.svg">
+        <ui:caption its:translate="yes"><desc style="center">Εναλλαγή εργασιών</desc></ui:caption>
     </ui:thumb>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
            <tt:p>Αλλαγή εργασιών</tt:p>
          </tt:div>
+         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
            <tt:p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>Ενέργειες</gui> στα πάνω αριστερά της οθόνης.</tt:p>
            </tt:div>
+         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Πατήστε σε ένα παράθυρο για να αλλάξετε σε αυτήν την εργασία.</tt:p>
          </tt:div>
@@ -176,64 +175,13 @@
   </media>
   </ui:overlay>
 
-</if:when>
-<if:when test="platform:gnome-classic">
-
   <ui:overlay width="235" height="145">
-  <media type="video" src="figures/classic-task-switching.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-task-switching.svg">
-        <ui:caption><desc style="center">Εναλλαγή εργασιών</desc></ui:caption>
-    </ui:thumb>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
-       <tt:body>
-         <tt:div begin="1s" end="5s">
-           <tt:p>Αλλαγή εργασιών</tt:p>
-         </tt:div>
-         <tt:div begin="12s" end="14s">
-           <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της αριστερής πλευράς της οθόνης, πάρτε τη γραμμή τίτλου του παραθύρου και μεταφέρτε την στα αριστερά.</tt:p>
-         </tt:div>
-         <tt:div begin="14s" end="16s">
-           <tt:p>Όταν η μισή οθόνη επισημανθεί, ελευθερώστε το παράθυρο.</tt:p>
-         </tt:div>
-         <tt:div begin="16s" end="18">
-           <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της δεξιάς πλευράς, πάρτε τη γραμμή τίτλου του παραθύρου και μεταφέρτε την στα δεξιά.</tt:p>
-         </tt:div>
-         <tt:div begin="18s" end="20s">
-           <tt:p>Όταν η μισή οθόνη επισημανθεί, ελευθερώστε το παράθυρο.</tt:p>
-         </tt:div>
-         <tt:div begin="23s" end="27s">
-           <tt:p>Πατήστε το <keyseq> <key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key><key>στηλοθέτης</key></keyseq> για να εμφανίσετε τον <gui>εναλλάκτη παραθύρου</gui>.</tt:p>
-         </tt:div>
-         <tt:div begin="27s" end="29s">
-           <tt:p>Απελευθερώστε το <key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key> για να επιλέξτε το επόμενο επισημασμένο παράθυρο.</tt:p>
-         </tt:div>
-         <tt:div begin="29s" end="32s">
-           <tt:p>Για να περιηγηθείτε στη λίστα των ανοικτών παραθύρων, μην αφήσετε το <key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key>, αλλά κρατήστε το πατημένο και πατήστε <key>στηλοθέτης</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="35s" end="37s">
-           <tt:p>Πατήστε το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">λογότυπου</key> για να εμφανίσετε την <gui>Επισκόπηση ενεργειών</gui>.</tt:p>
-         </tt:div>
-         <tt:div begin="37s" end="40s">
-           <tt:p>Αρχίστε να πληκτρολογείτε το όνομα της εφαρμογής στην οποία θέλετε να μεταβείτε.</tt:p>
-         </tt:div>
-         <tt:div begin="40s" end="43s">
-           <tt:p>Όταν η εφαρμογή εμφανιστεί ως το πρώτο αποτέλεσμα, πατήστε <key>Εισαγωγή</key> για να αλλάξετε σε αυτό.</tt:p>
-         </tt:div>
-       </tt:body>
-     </tt:tt>
-  </media>
-  </ui:overlay>
-
-</if:when>
-</if:choose>
-
-  <ui:overlay width="235" height="145">
-  <media type="video" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
-    <ui:thumb src="gs-thumb-responding-to-messages.svg">
-            <ui:caption><desc style="center">Απάντηση σε μηνύματα</desc>
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg">
+            <ui:caption its:translate="yes"><desc style="center">Απάντηση σε μηνύματα</desc>
             </ui:caption>
     </ui:thumb>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml">
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="3s">
            <tt:p>Απάντηση σε μηνύματα</tt:p>
@@ -253,13 +201,13 @@
          <tt:div begin="16s" end="20s">
            <tt:p>Ένα μήνυμα συνομιλίας στην περιοχή ειδοποιήσεων εξαφανίζεται μετά από λίγο, αν δεν μετακινήσετε το ποντίκι σας στην περιοχή ειδοποιήσεων.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="24s">
+         <tt:div begin="20s" end="23s">
            <tt:p>Για να επιστρέψετε στο αναπάντητο μήνυμα, μετακινήστε το ποντίκι σας στην περιοχή ειδοποιήσεων.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="26s">
+         <tt:div begin="23s" end="25s">
            <tt:p>Πατήστε στο άτομο που σας έστειλε το μήνυμα.</tt:p>
          </tt:div>
-         <tt:div begin="26s" end="28s">
+         <tt:div begin="25s" end="28s">
            <tt:p>Αρχίστε να πληκτρολογείτε την απάντησή σας και όταν τελειώσετε, πατήστε το πλήκτρο <key>Εισαγωγή</key>.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="30s">

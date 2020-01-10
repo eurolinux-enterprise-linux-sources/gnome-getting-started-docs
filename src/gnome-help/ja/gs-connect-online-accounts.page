@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="ja">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="ja">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -13,6 +13,7 @@
     <title role="trail" type="link">オンラインアカウントに接続する</title>
     <link type="seealso" xref="accounts"/>
     <title role="seealso" type="link">オンラインアカウントへの接続に関するチュートリアル</title>
+    <link type="next" xref="gs-change-date-time-timezone"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>松澤 二郎</mal:name>
@@ -23,36 +24,36 @@
 
   <title>オンラインアカウントに接続する</title>
 
-    <media type="image" src="gs-goa1.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>トップバーにあるユーザー名をクリックします。</p></item>
-      <item><p><gui>設定</gui>を選択します。</p></item>
+      <item><p>Click the system menu on the right side of the top bar.</p></item>
+      <item><p>Press the settings button at the bottom of the menu.</p></item>
     </steps>
        
-    <media type="image" src="gs-goa2.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>各種設定項目の中から、<gui>オンラインアカウント</gui>を選択します。</p></item>
-      <item><p><gui>オンラインアカウントの追加</gui>ボタンを押します。</p></item>
+      <item><p>From the list of items, select <gui>Online Accounts</gui>, then
+      click on the <gui>Add an online account</gui> button.</p></item>
     </steps>
     
     <note><p>何らかのオンラインアカウントを既にセットアップしている場合は、ウィンドウ左下角の <gui>+</gui> をボタンを押して、別のオンラインアカウントを追加できます。</p></note>
     
-    <media type="image" src="gs-goa3.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>使用するオンラインアカウントを選択します。すると、新規ウィンドウが開き、ここからあなたのオンラインアカウントにサインインできます。</p></item>
     </steps>
       
-    <media type="image" src="gs-goa4.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>たいていの場合、利用を始めるためには、サインイン後に、アプリケーションによるオンラインアカウントへのアクセスを承認する必要があります。</p></item>
       <item><p>たとえば、Google アカウントに接続する場合、<gui>承認</gui>ボタンを押す必要があります。</p></item>
     </steps>
 
-    <media type="image" src="gs-goa5.svg" width="100%"/>
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
     <steps style="continues">  
       <item><p>多くのオンラインアカウントで、そのアカウントで使用するサービスを選択できます。使用したくないサービスがあれば、ウィンドウ右側にある<gui>オン/オフ</gui>のスイッチを切り替えて、そのサービスを無効にしてください。</p></item>
