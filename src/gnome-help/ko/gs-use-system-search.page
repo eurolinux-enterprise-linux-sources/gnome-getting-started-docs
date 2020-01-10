@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="ko">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="ko">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">시스템 검색 활용하기</title>
@@ -18,7 +21,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>조성호</mal:name>
       <mal:email>shcho@gnome.org</mal:email>
-      <mal:years>2014, 2016</mal:years>
+      <mal:years>2014, 2016, 2017</mal:years>
     </mal:credit>
   </info>
 
@@ -27,7 +30,10 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p><key href="help:gnome-help/keyboard-key-super">Super</key>키를 눌러 <gui>현재 활동 개요</gui>를 여십시오. 검색하려면 입력을 시작하십시오.</p>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
     <p>입력한 내용과 일치하는 결과는 입력한 대로 나타납니다. 처음 결과는 최상위에 항상 강조된 상태로 나타납니다.</p>
     <p><key>Enter</key> 키를 눌러 처음 강조한 결과로 전환하십시오.</p></item>
     </steps>
@@ -38,8 +44,14 @@
       <list>
         <item><p>검색 결과 최상단에서 일치하는 프로그램,</p></item>
         <item><p>일치 설정,</p></item>
-        <item><p>일치 연락처,</p></item>
-        <item><p>일치 문서.</p></item>
+        <item><p>matching contacts,</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
       </list>
       </item>
       <item><p>검색 결과에서 전환하려는 항목을 누르십시오.</p>
@@ -69,7 +81,7 @@
         <title>검색 결과 표시 내용을 편집하려면:</title>
         <item><p>상단 표시줄의 우측에 있는 <gui xref="shell-introduction#yourname">시스템 메뉴</gui>를 누르십시오.</p></item>
         <item><p>메뉴 하단의 설정 단추를 누르십시오.</p></item>
-        <item><p><gui>검색</gui> 창을 누르십시오.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
         <item><p>검색 위치 목록에서 켜거나 끌 검색 위치 기능 옆에 있는 <gui>켬/끔</gui> 스위치를 누르십시오.</p>
          </item>
       </steps>

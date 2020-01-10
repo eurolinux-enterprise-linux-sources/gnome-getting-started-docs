@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0" xml:lang="lt">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Pakeiskite datą, laiką ar laiko juostą</title>
+    <link type="seealso" xref="clock"/>
+    <title role="seealso" type="link">Datos, laiko ir laiko juostos keitimo pamokos</title>
+    <link type="next" xref="gs-change-wallpaper"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mantas Kriaučiūnas</mal:name>
+      <mal:email>mantas@akl.lt</mal:email>
+      <mal:years>2013-2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Eglė Kriaučiūnienė</mal:name>
+      <mal:email>egle@valdorfas.org</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Pakeiskite datą, laiką ir laiko juostą</title>
+
+  <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+
+  <steps>
+    <item><p>Spauskite ant <gui xref="shell-introduction#yourname">sistemos meniu</gui> viršutinės juostos dešinėje.</p></item>
+    <item><p>Paspauskite mygtuką „Nustatymai“ apatiniame kairiajame meniu kampe.</p></item>
+    <item><p>Pasirinkite elementą <gui>Data ir Laikas</gui>.</p></item>
+  </steps>
+  
+  <media its:translate="no" type="image" mime="image/svg" src="gs-datetime.svg" width="100%"/>
+  
+  <steps style="continues">
+    <item><p>Įsitikinkite, kad elementas <gui>Automatinė laiko juosta</gui> yra išjungtas ir tuomet paspauskite ant elemento <gui>Laiko juosta</gui> žemiau.</p></item>
+    <item><p>Paspauskite ant savo vietos pasaulio žemėlapyje. Tai parenka jūsų miestą, taipogi jį matote ir galite pakeisti po žemėlapiu išsiskleidusiame sąraše.</p></item>
+    <item><p>Užverkite pasaulio žemėlapio langą ir grįžkite į <gui>Data ir Laikas</gui>.</p></item>
+    <item><p>Įsitikinkite, kad elementas <gui>Automatinė data ir laikas</gui> yra išjungtas ir spauskite ant elemento <gui>Data ir Laikas</gui> žemiau bei atverkite langą <gui>Data ir Laikas</gui>. Ten galite koreguoti datos ir laiko nustatymus spausdami mygtukus <gui>+</gui> or <gui>-</gui>.</p>
+     </item>
+    <item><p>Užverkite langą ir grįžkite į <gui>Datą ir Laiką</gui>, tuomet užverkite skydelį.</p></item>
+  </steps>
+
+</page>

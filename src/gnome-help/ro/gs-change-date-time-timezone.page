@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0" xml:lang="ro">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Schimbarea datei, orei și a fusului orar</title>
+    <link type="seealso" xref="clock"/>
+    <title role="seealso" type="link">Un ghid despre schimbarea datei, orei și a fusului orar</title>
+    <link type="next" xref="gs-change-wallpaper"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Șerbănescu</mal:name>
+      <mal:email>daniel [at] serbanescu [dot] dk</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Schimbarea datei, orei și a fusului orar</title>
+
+  <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+
+  <steps>
+    <item><p>Clic pe <gui xref="shell-introduction#yourname">meniul sistemului</gui> din partea dreaptă a barei de sus.</p></item>
+    <item><p>Clic pe butonul de configurări din partea stânga-jos a meniului.</p></item>
+    <item><p>Selectați panoul <gui>Data și ora</gui>.</p></item>
+  </steps>
+  
+  <media its:translate="no" type="image" mime="image/svg" src="gs-datetime.svg" width="100%"/>
+  
+  <steps style="continues">
+    <item><p>Asigurați-vă că elementul <gui>Data și ora automată</gui> este oprit, apoi clic pe elementul <gui>Fus orar</gui> de mai jos.</p></item>
+    <item><p>Clic pe locația dumneavoastră pe harta mondială. Aceasta va selecta orașul curent, pe care puteți de asemenea să-l căutați în căsuța de căutare de deasupra hărții.</p></item>
+    <item><p>Închideți fereastra cu harta mondială pentru a vă întoarce la <gui>Data și ora</gui>.</p></item>
+    <item><p>Asigurațivă că elementul <gui>Data și ora automată</gui> este oprit, și apoi clic pe elementul <gui>Data și ora</gui> de mai jos pentru a deschide fereastra <gui>Data și ora</gui>. Acolo puteți ajusta configurările de dată și oră apăsând clic pe butoanele <gui>+</gui> sau <gui>-</gui>.</p>
+     </item>
+    <item><p>Închideți fereastra pentru a reveni la <gui>Data și ora</gui>, apoi închideți panoul.</p></item>
+  </steps>
+
+</page>

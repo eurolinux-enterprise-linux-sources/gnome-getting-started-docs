@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="da">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Brug systemsøgningen</title>
+    <link type="seealso" xref="shell-apps-open"/>
+    <title role="seealso" type="link">En vejledning til at bruge systemsøgningen</title>
+    <link type="next" xref="gs-get-online"/>
+  </info>
+
+  <title>Brug systemsøgningen</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    
+    <steps>
+    <item><p>Åbn oversigten <gui>Aktiviteter</gui> ved at klikke på <gui>Aktiviteter</gui> øverst til venstre på skærmen eller ved at trykke på <key href="help:gnome-help/keyboard-key-super">Super</key>-tasten. Begynd at skrive for at søge.</p>
+    <p>Resultater, der matcher det du har skrevet, dukker op efterhånden som du skriver. Det første resultat fremhæves altid og vises øverst.</p>
+    <p>Tryk på <key>Enter</key> for at skifte til det første fremhævede resultat.</p></item>
+    </steps>
+    
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <steps style="continues">
+      <item><p>Elementer, der kan dukke op i søgeresultaterne, inkluderer:</p>
+      <list>
+        <item><p>matchende programmer, vist øverst i søgeresultaterne,</p></item>
+        <item><p>matchende indstillinger,</p></item>
+        <item><p>matchende kontakter,</p></item>
+        <item><p>matchende dokumenter,</p></item>
+        <item><p>matchende kalender,</p></item>
+        <item><p>matchende lommeregner,</p></item>
+        <item><p>matchende programmer,</p></item>
+        <item><p>matchende filer,</p></item>
+        <item><p>matchende terminal,</p></item>
+        <item><p>matchende adgangskoder og nøgler.</p></item>
+      </list>
+      </item>
+      <item><p>Klik på elementet i søgeresultaterne for at skifte til det.</p>
+      <p>Du kan også fremhæve et element ved at bruge piletasterne og trykke på <key>Enter</key>.</p></item>
+    </steps>
+
+    <section id="use-search-inside-applications">
+    
+      <title>Søg inden i programmer</title>
+      
+      <p>Systemsøgningen indsamler resultater fra adskillige programmer. Til venstre for søgeresultaterne, kan du se ikoner fra programmer, der leverede søgeresultaterne. Klik på et af ikonerne for at genstarte søgningen inden i det program, der er tilknyttet ikonet. Da kun de bedste match vises i <gui>Aktivitetsoversigten</gui>, kan det give et bedre søgeresultat, hvis du søger inden i programmet.</p>
+
+    </section>
+
+    <section id="use-search-customize">
+
+      <title>Tilpas søgeresultater</title>
+
+      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+
+      <note style="important">
+      <p>GNOME lader dig tilpasse det, du vil have vist i søgeresultaterne i <gui>Aktivitetsoversigten</gui>. Du kan f.eks. vælge hvorvidt du vil vise resultater for websteder, billeder eller musik.</p>
+      </note>
+
+
+      <steps>
+        <title>For at tilpasse det, der skal vises i søgeresultaterne:</title>
+        <item><p>Klik på <gui xref="shell-introduction#yourname">systemmenuen</gui> på højre side af toplinjen.</p></item>
+        <item><p>Klik på knappen indstillinger nederst til venstre i menuen.</p></item>
+        <item><p>Klik på <gui>Søg</gui> i panelet til venstre.</p></item>
+        <item><p>Klik på kontakten <gui>TIL/FRA</gui> i listen med søgeresultater ved siden af den søgeplacering, du vil aktivere eller deaktivere.</p>
+         </item>
+      </steps>
+      
+    </section>
+
+</page>

@@ -13,7 +13,7 @@
     <title role="trail" type="link">Pārslēgties starp uzdevumiem</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Pamācība, kā pārslēgties starp uzdevumiem</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>Pārslēgties starp uzdevumiem</title>
@@ -26,11 +26,9 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Pārslēgšanās starp uzdevumiem</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Pārvietojiet peles rādītāju uz <gui>Aktivitātes</gui> ekrāna augšā kreisajā stūrī.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Pārvietojiet peles rādītāju uz <gui>Aktivitātes</gui> ekrāna augšā kreisajā stūrī.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Spiediet uz loga, lai pārslēgtos uz to uzdevumu.</tt:p>
          </tt:div>

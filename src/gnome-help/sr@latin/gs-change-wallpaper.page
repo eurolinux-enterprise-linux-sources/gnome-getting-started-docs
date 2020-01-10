@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="sr-Latn">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Štajner (Jakub Steiner)</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar (Petr Kovar)</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Promena pozadine</title>
+    <link type="seealso" xref="look-background"/>
+    <title role="seealso" type="link">Uputstvo za promenu pozadine</title>
+  </info>
+
+  <title>Promena pozadine</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Promena pozadine</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Kliknite na sistemski izbornik u desnoj strani gornje trake i pritisnite dugme za podešavanja.</tt:p>
+           </tt:div>
+         <tt:div begin="10s" end="12s">
+           <tt:p>Izaberite <gui>Pozadina</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="13s">
+           <tt:p>Kliknite na trenutnu sliku pozadine.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="16s">
+           <tt:p>Kliknite na sliku koju želite da koristite kao pozadinu.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18s">
+           <tt:p>Kliknite na dugme <gui>Izaberi</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="21s">
+           <tt:p>Zatvorite prozor <gui>Pozadina</gui>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="change-wallpaper-overview">
+    <title>Promena pozadine</title>
+    
+    <steps>
+      <item><p>Kliknite na <gui xref="shell-introduction#yourname">sistemski izbornik</gui> u desnom delu gornje trake.</p></item>
+      <item><p>Kliknite na dugme za podešavanja u donjem levom delu izbornika.</p></item>
+      <item><p>Kliknite na površ <gui>Pozadina</gui>.</p></item>
+      <item><p>Kliknite na trenutnu sliku pozadine na levoj strani prozora <gui>Pozadina</gui>.</p></item>
+      <item><p>Kliknite na sliku koju želite da koristite kao pozadinu.</p></item>
+      <item><p>Kliknite na dugme <gui>Izaberi</gui>.</p></item>
+      <item><p>Zatvorite prozor <gui>Pozadina</gui> klikom na iks dugme u gornjem desnom uglu prozora.</p></item>
+    </steps>
+  </section>
+
+</page>

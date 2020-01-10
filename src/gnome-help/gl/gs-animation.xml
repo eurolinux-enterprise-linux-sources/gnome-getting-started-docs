@@ -6,7 +6,7 @@
 <t id="title-wallpaper">Cambiando o fondo de pantalla</t>
 <t id="title-respond">Respondendo unha mensaxe</t>
 <t id="title-switching">Cambiando entre tarefas</t>
-<t id="title-MT">Responsa posposta</t>
+<t id="title-MT">Resposta posposta</t>
 <t id="title-workspaces">Xanelas e espazos de traballo</t>
 <t id="title-datentime">Cambiar a data, hora e fuso horario</t>
 <t id="title-max">Maximizar</t>
@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">Preferencias de data e hora</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">Data e hora automática</t>
 <t id="autotimezone">Fuso horario automático</t>
-<t id="sstime">14 de Outubro de 2013, 20:00</t>
-<t id="sstime2">14 de Outubro de 2013, 14:00</t>
+<t id="sstime">14 de Outubro de 2013, 20∶00</t>
+<t id="sstime2">14 de Outubro de 2013, 14∶00</t>
 </titles>

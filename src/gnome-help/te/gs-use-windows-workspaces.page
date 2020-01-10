@@ -27,25 +27,29 @@
            <tt:p>విండోలు మరియు పనిస్థలాలు</tt:p>
          </tt:div>
          <tt:div begin="6s" end="10s">
-           <tt:p>విండోను పెద్దది చేయుటకు, విండో యొక్క శీర్షికపట్టీను పట్టుకొని తెర పైభాగమునకు లాగుము.</tt:p>
+           <tt:p>To maximize a window, grab the window’s titlebar and drag it to
+            the top of the screen.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="13s">
            <tt:p>తెర ఉద్దీపనం కాగానే, విండోను వదులుము.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="20s">
-           <tt:p>విండో పరిమాణం తగ్గించుటకు, విండో యొక్క శీర్షికపట్టీను పట్టుకొని తెర యొక్క అంచులనుండి లాగివేయండి.</tt:p>
+           <tt:p>To unmaximize a window, grab the window’s titlebar and drag it
+            away from the edges of the screen.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
            <tt:p>విండో పరిమాణం తగ్గించుటకు మీరు పై పట్టీను నొక్కి విండోను లాగివేయవచ్చు.</tt:p>
          </tt:div>
          <tt:div begin="34s" end="38s">
-           <tt:p>తెర ఎడమ వైపుకు విండోను పెద్దది చేయుటకు, విండో శీర్షికపట్టీను పట్టుకొని ఎడమవైపుకు లాగండి.</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="38s" end="40s">
            <tt:p>తెర అర్ధభాగం ఉద్దీపనం కాగానే, విండోను వదులుము.</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
-           <tt:p>తెర కుడి వైపుకు విండోను పెద్దది చేయుటకు, విండో శీర్షికపట్టీను పట్టుకొని కుడివైపుకు లాగండి.</tt:p>
+           <tt:p>To maximize a window along the right side of the screen, grab
+            the window’s titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="44s" end="48s">
            <tt:p>తెర అర్ధభాగం ఉద్దీపనం కాగానే, విండోను వదులుము.</tt:p>
@@ -78,9 +82,12 @@
     <p/>
     
     <steps>
-      <item><p>మీ డెస్కుటాప్ పైని మొత్తం జాగాను తీసుకొని విండోను పెద్దది చేయుటకు, విండో శీర్షికపట్టీను పట్టి దానిని తెర పై భాగముకు లాగుము.</p></item>
+      <item><p>To maximize a window so that it takes up all of the space on
+       your desktop, grab the window’s titlebar and drag it to the top of the
+       screen.</p></item>
       <item><p>తెర ఉద్దీపనం చెందగానే, దానిని పెద్దదిచేయుటకు విండోను వదులుము.</p></item>
-      <item><p>విండోను దాని గతపరిమాణంకు వుంచుటకు, విండో శీర్షికపట్టీ పట్టుకొని తెర అంచులనుండి దూరంగా లాగివేయి.</p></item>
+      <item><p>To restore a window to its unmaximized size, grab the window’s
+       titlebar and drag it away from the edges of the screen.</p></item>
     </steps>
     
   </section>
@@ -90,7 +97,8 @@
     <p/>
     
     <steps>
-      <item><p>తెర వెంబడి విండోను పెద్దది చేయుటకు, విండో యొక్క శీర్షికపట్టీను పట్టి దానిని తెర ఎడమ వైపుకు లేదా కుడి వైపుకు లాగుము.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>తెర అర్ధభాగం ఉద్దీపనం కాగానే, విండోను ఎంపికచేసిన తెర వైపుకు పెద్దది చేయుటకు దానిని వదులుము.</p></item>
       <item><p>వెండు విండోలను పక్క-పక్కనే పెద్దవి చేయుటకు, రెండో విండో యొక్క శీర్షిక పట్టీను పట్టీ దానిని తెరకు వ్యతిరేక దిశలో లాగుము.</p></item>
        <item><p>తెర అర్ధభాగం ఉద్దీపనం కాగానే, విండోను ఎంపికచేసిన తెర వ్యతిరేక దిశకు పెద్దది చేయుటకు దానిని వదులుము.</p></item>

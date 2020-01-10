@@ -9,11 +9,12 @@
     <credit type="author">
       <name>પેટર કોવર</name>
     </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">સંદેશાઓનો જવાબ આપો</title>
     <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">સંદેશાઓનો જવાબ આપો</title>
     <title role="seealso" type="link">સંદેશાને જવાબ આપવા પર માર્ગદર્શિકા</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>સંદેશાઓનો જવાબ આપો</title>

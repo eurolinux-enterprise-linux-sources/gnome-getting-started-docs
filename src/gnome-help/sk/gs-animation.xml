@@ -30,7 +30,7 @@
 <t id="wallpapers">Tapety</t>
 <t id="select">Vybrať</t>
 <t id="bubble.message">Prídeš na stretnutie?</t>
-<t id="bubble.response">Budem tam za chvíľku...</t>
+<t id="bubble.response">I’ll be there in a sec…</t>
 <t id="bubble.message2">Dobrá práca, ešte raz ďakujem</t>
 <t id="bubble.response2">Vďaka za pomoc</t>
 <t id="bubble.message3">Nie je za čo.</t>
@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">Nastavenia dátumu a času</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">Automatický dátum a čas</t>
 <t id="autotimezone">Automatické časové pásmo</t>
-<t id="sstime">14. október 2013, 20:00</t>
-<t id="sstime2">14. október 2013, 14:00</t>
+<t id="sstime">14 October 2013, 20∶00</t>
+<t id="sstime2">14 October 2013, 14∶00</t>
 </titles>

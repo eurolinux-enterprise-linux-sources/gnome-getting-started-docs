@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" version="1.0 if/1.0" xml:lang="he">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" version="1.0 if/1.0" xml:lang="he">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -49,7 +49,7 @@
     <note><p>לחלופין, ניתן להפעיל את הדפדפן באמצעות <link xref="gs-use-system-search">הקלדת</link> <em>Firefox</em> ב<gui>סקירת הפעילויות</gui>.</p></note>
 
 </if:when>
-<if:when test="platform:gnome-3">
+<if:else>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
 
@@ -62,7 +62,7 @@
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
 
-</if:when>
+</if:else>
 </if:choose>
 
 <!--Distributors might want to add their distro here if they ship Firefox by default.-->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="id">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="id">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">Memakai pencarian sistem</title>
@@ -18,7 +21,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Andika Triwidada</mal:name>
       <mal:email>andika@gmail.com</mal:email>
-      <mal:years>2013, 2016</mal:years>
+      <mal:years>2013, 2016, 2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kukuh Syafaat</mal:name>
+      <mal:email>syafaatkukuh@gmail.com</mal:email>
+      <mal:years>2016</mal:years>
     </mal:credit>
   </info>
 
@@ -27,7 +36,10 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Buka <gui>Ringkasan Aktivitas</gui> dengan menekan tombol <key href="help:gnome-help/keyboard-key-super">Super</key>. Mulailah mengetik untuk mencari.</p>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
     <p>Hasil yang cocok dengan apa yang telah Anda ketikkan akan muncul ketika Anda mengetik. Hasil pertama selalu disorot dan ditampilkan di puncak.</p>
     <p>Tekan <key>Enter</key> untuk bertukar ke hasil pertama yang disorot.</p></item>
     </steps>
@@ -38,8 +50,14 @@
       <list>
         <item><p>aplikasi yang cocok, ditampilkan di bagian puncak hasil pencarian,</p></item>
         <item><p>pengaturan yang cocok,</p></item>
-        <item><p>kontak yang cocok, dan</p></item>
-        <item><p>dokumen yang cocok.</p></item>
+        <item><p>matching contacts,</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
       </list>
       </item>
       <item><p>Di dalam hasil pencarian, klik butir tersebut untuk bertukar ke sana.</p>
@@ -69,7 +87,7 @@
         <title>Untuk menggubah apa yang ditampilkan dalam hasil pencarian:</title>
         <item><p>Klik <gui xref="shell-introduction#yourname">menu sistem</gui> pada sisi kanan bilah puncak.</p></item>
         <item><p>Tekan tombol pengaturan di kiri dasar menu.</p></item>
-        <item><p>Klik panel <gui>Cari</gui>.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
         <item><p>Dalam daftar lokasi pencarian, klik saklar <gui>NYALA/MATI</gui> di sebelah lokasi pencarian yang ingin Anda fungsikan atau nonaktifkan.</p>
          </item>
       </steps>

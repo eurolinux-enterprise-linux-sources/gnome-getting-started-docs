@@ -19,13 +19,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Piotr Drąg</mal:name>
       <mal:email>piotrdrag@gmail.com</mal:email>
-      <mal:years>2013-2016</mal:years>
+      <mal:years>2013-2018</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Aviary.pl</mal:name>
       <mal:email>community-poland@mozilla.org</mal:email>
-      <mal:years>2013-2016</mal:years>
+      <mal:years>2013-2018</mal:years>
     </mal:credit>
   </info>
 
@@ -79,7 +79,7 @@
   <steps>
     <item><p>Otwórz <gui>ekran podglądu</gui> naciskając klawisz <key href="help:gnome-help/keyboard-key-super">Super</key>.</p></item>
     <item><p>Zacznij wpisywać nazwę programu, który chcesz uruchomić. Wyszukiwanie programu rozpocznie się natychmiast.</p></item>
-    <item><p>Po wyświetleniu i wybraniu ikony programu, naciśnij przycisk <key>Enter</key>, aby uruchomić program.</p></item>
+    <item><p>Po wyświetleniu i wybraniu ikony programu, naciśnij klawisz <key>Enter</key>, aby go uruchomić.</p></item>
   </steps>
 
   </section>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="ro">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">Răspunderea la mesaje</title>
+    <title role="seealso" type="link">Un ghid despre răspunderea la mesaje</title>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Șerbănescu</mal:name>
+      <mal:email>daniel [at] serbanescu [dot] dk</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Răspunderea la mesaje</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="3s">
+           <tt:p>Răspunderea la mesaje</tt:p>
+         </tt:div>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Mutați mausul deasupra mesajului de chat care apare lângă partea superioară a ecranului.</tt:p>
+           </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Începeți să tastați un răspuns și când sunteți gata, apăsați <key>Enter</key> pentru a trimite răspunsul.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="10s">
+           <tt:p>Închideți mesajul de chat.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Răspuns întârziat</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="22s">
+           <tt:p>Un mesaj de chat lângă partea superioară a ecranului dispare după un timp dacă nu mutați mausul deasupra mesajului.</tt:p>
+         </tt:div>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Pentru a reveni la mesajul fără răspuns, clic pe ceasul din bara de sus.</tt:p>
+         </tt:div>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Din lista de notificări, alegeți mesajul.</tt:p>
+         </tt:div>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Începeți să tastați un răspuns.</tt:p>
+         </tt:div>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Pentru a afișa lista de notificări, apăsați <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key> <key>V</key></keyseq></tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Utilizați tastele săgeți pentru a selecta mesajul la care doriți să răspundeți, și apăsați <key>Enter</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Începeți să tastați un răspuns.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="respond-to-messages-mouse">
+    <title>Răspunderea la un mesaj de chat cu ajutorul mausului</title>
+    
+    <steps>
+      <item><p>Mutați mausul deasupra mesajului de chat care apare lângă partea superioară a ecranului.</p></item>
+      <item><p>Începeți să tastați un răspuns și când sunteți gata, apăsați <key>Enter</key> pentru a trimite răspunsul.</p></item>
+      <item><p>Pentru a închide mesajul de chat, clic pe butonul închide din colțul dreapta-sus al mesajului.</p></item>
+    </steps>
+    <p/>
+  </section>
+  
+  <section id="respond-to-messages-delayed-mouse">
+    <title>Răspunderea întârziată la un mesaj de chat utilizând mausul</title>
+    
+    <steps>
+      <item><p>Când un mesaj de chat apare lângă partea de sus a ecranului și nu mutați mausul deasupra mesajului, va dispărea după un timp.</p></item>
+      <item><p>Pentru a reveni la mesajul fără răspuns, clic pe ceasul din bara de sus.</p></item>
+      <item><p>Din lista de notificări, alegeți mesajul la care doriți să răspunde-ți, șî apăsați pe el.</p></item>
+      <item><p>Când mesajul de chat este afișat, începeți să tastați răspunsul.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="respond-to-messages-delayed-keyboard">
+    <title>Răspunderea întârziată la un mesaj de chat utilizând tastaura</title>
+    <steps>
+      <item><p>Pentru a reveni la mesajele de chat la care nu ați răspuns, apăsați <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key> </keyseq> pentru a afișa lista de notificări la care nu ați răspuns.</p>
+      </item>
+      <item><p>Utilizați săgețile pentru a selecta notificarea la care doriți să răspundeți și apăsați <key>Enter</key>.</p></item>
+      <item><p>Când mesajul de chat este afișat, începeți să tastați răspunsul.</p></item>
+    </steps>
+
+  </section>
+
+
+</page>

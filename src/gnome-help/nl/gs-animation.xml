@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<titles xmlns:its="http://www.w3.org/2005/11/its">
+<t id="title-welcome">Welkom</t>
+<t id="title-launch">Toepassingen starten</t>
+<t id="title-gettingstarted">Aan de slag</t>
+<t id="title-wallpaper">De achtergrond wijzigen</t>
+<t id="title-respond">Berichten beantwoorden</t>
+<t id="title-switching">Van taak wisselen</t>
+<t id="title-MT">Vertraagde reactie</t>
+<t id="title-workspaces">Vensters en werkbladen</t>
+<t id="title-datentime">Datum, tijd en tijdszone wijzigen</t>
+<t id="title-max">Maximaliseren</t>
+<t id="title-res">Herstellen</t>
+<t id="title-left">Linkerhelft van het scherm</t>
+<t id="title-workspace-down">Werkblad beneden</t>
+<t id="title-workspace-up">Werkblad boven</t>
+<t id="title-right">Rechterhelft van het scherm</t>
+<t id="activities">Activiteiten</t>
+<t its:locNote="Translators: Enter is the name of the key." id="enter">Enter</t>
+<t id="ctrl">Ctrl</t>
+<t id="alt">Alt</t>
+<t its:locNote="Translators: Tab is the name of the key." id="tab">Tab</t>
+<t id="esc">Esc</t>
+<t its:locNote="Translators: A GNOME Shell search keyword used to find the yelp help viewer." id="search">hulp</t>
+<t its:locNote="Translators: A GNOME Shell search keyword used to find the web browser." id="search2">web</t>
+<t id="title-justtype">Begin het typen…</t>
+<t id="user">Jan Janssen</t>
+<t id="systemsettings">Instellingen</t>
+<t id="background">Achtergrond</t>
+<t id="wallpapers">Bureaubladachtergronden</t>
+<t id="select">Selecteren</t>
+<t id="bubble.message">Klaar voor de vergadering?</t>
+<t id="bubble.response">Ik kom zo…</t>
+<t id="bubble.message2">Goed werk, nogmaals bedankt</t>
+<t id="bubble.response2">Bedankt voor de steun</t>
+<t id="bubble.message3">Maak je geen zorgen.</t>
+<t id="bubble.response3">Wat aardig.</t>
+<t id="opencalendar">Agenda openen</t>
+<t id="openclocks">Klok openen</t>
+<t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">Instellingen datum en tijd</t>
+<t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">Automatische datum en tijd</t>
+<t id="autotimezone">Automatische tijdszone</t>
+<t id="sstime">14 oktober 2013, 20:00</t>
+<t id="sstime2">14 oktober 2013, 14:00</t>
+</titles>

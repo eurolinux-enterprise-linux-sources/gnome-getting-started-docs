@@ -18,13 +18,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Mario Blättermann</mal:name>
       <mal:email>mario.blaettermann@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2017</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013, 2014, 2015, 2016</mal:years>
+      <mal:years>2013, 2014, 2015, 2016, 2017</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -57,13 +57,13 @@
            <tt:p>Sie können auch auf die obere Leiste klicken, um das Fenster wegzuziehen und die Größe wiederherzustellen.</tt:p>
          </tt:div>
          <tt:div begin="34s" end="38s">
-           <tt:p>Um ein Fenster auf der linken Bildschirmhälfte zu maximieren, klicken Sie die Titelleiste des Fensters und ziehen Sie sie an den linken Rand.</tt:p>
+           <tt:p>Um ein Fenster auf der linken Bildschirmhälfte zu maximieren, klicken Sie auf die Titelleiste des Fensters und ziehen Sie sie an den linken Rand.</tt:p>
          </tt:div>
          <tt:div begin="38s" end="40s">
            <tt:p>Wenn die Hälfte des Bildschirms markiert ist, lassen Sie das Fenster los.</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
-           <tt:p>Um ein Fenster auf der rechten Bildschirmhälfte zu maximieren, klicken Sie die Titelleiste des Fensters und ziehen Sie sie an den rechten Rand.</tt:p>
+           <tt:p>Um ein Fenster auf der rechten Bildschirmhälfte zu maximieren, klicken Sie auf die Titelleiste des Fensters und ziehen Sie sie an den rechten Rand.</tt:p>
          </tt:div>
          <tt:div begin="44s" end="48s">
            <tt:p>Wenn die Hälfte des Bildschirms markiert ist, lassen Sie das Fenster los.</tt:p>
@@ -108,7 +108,7 @@
     <p/>
     
     <steps>
-      <item><p>Um ein Fenster auf einer Bildschirmhälfte zu maximieren, klicken Sie die Titelleiste des Fensters und ziehen Sie sie an den linken oder rechten Rand.</p></item>
+      <item><p>Um ein Fenster auf einer Bildschirmhälfte zu maximieren, klicken Sie auf die Titelleiste des Fensters und ziehen Sie sie an den linken oder rechten Rand.</p></item>
       <item><p>Wenn die Hälfte des Bildschirms markiert ist, lassen Sie das Fenster los, um es auf der gewählten Seite des Bildschirms zu maximieren.</p></item>
       <item><p>Um zwei Fenster Seite-an-Seite zu maximieren, klicken Sie die Titelleiste des zweiten Fensters und ziehen Sie sie an den gegenüberliegenden Rand des Bildschirms.</p></item>
        <item><p>Wenn die Hälfte des Bildschirms markiert ist, lassen Sie das Fenster los, um es an der gegenüberliegenden Seite des Bildschirms zu maximieren.</p></item>

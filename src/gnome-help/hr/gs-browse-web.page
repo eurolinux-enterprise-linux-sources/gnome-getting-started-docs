@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" version="1.0 if/1.0" xml:lang="hr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Pregledavanje weba</title>
+    <link type="seealso" xref="net-browser"/>
+    <title role="seealso" type="link">Vodič pregledavanja weba</title>
+    <link type="next" xref="gs-connect-online-accounts"/>
+  </info>
+
+  <title>Pregledavanje weba</title>
+
+<if:choose>
+<if:when test="platform:gnome-classic">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox-classic.svg" width="100%"/>
+
+    <steps>
+      <item><p>Kliknite na <gui>Aplikacije</gui> izbornik gore lijevo u zaslonu.</p></item>
+      <item><p>Iz izbornika, odaberite <guiseq><gui>Internet</gui><gui>Firefox</gui> </guiseq>.</p></item>
+    </steps>
+
+</if:when>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:when test="platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox.svg" width="100%"/>
+
+    <steps>
+      <item><p>Pomaknite svoj pokazivač miša u <gui>Aktivnosti</gui> kut gore lijevo u zaslonu za prikaz <gui>Aktivnosti</gui> pregleda.</p></item>
+      <item><p>Odaberite ikonu <app>Firefox</app> preglednik iz trake na lijevoj strani zaslona.</p></item>
+    </steps>
+
+    <note><p>Alternativno, možete pokrenuti preglednik <link xref="gs-use-system-search">samo tipkanjem</link> <em>Firefox</em> u <gui>Aktivnosti</gui> pregledu.</p></note>
+
+</if:when>
+<if:else>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Pomaknite svoj pokazivač miša u <gui>Aktivnosti</gui> kut gore lijevo u zaslonu za prikaz <gui>Aktivnosti</gui> pregleda.</p></item>
+      <item><p>Odaberite ikonu <app>Web</app> preglednika iz trake na lijevoj streni zaslona.</p></item>
+    </steps>
+
+    <note><p>Alternativno, možete pokrenuti preglednik <link xref="gs-use-system-search">samo tipkanjem</link> <em>web</em> u <gui>Aktivnosti</gui> pregledu.</p></note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+
+</if:else>
+</if:choose>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:if test="platform:gnome-classic, platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2-firefox.svg" width="100%"/>
+
+</if:if>
+
+    <steps style="continues">
+      <item><p>Kliknite na adresnu traku na vrhu prozora preglednika i upišite web stranicu koju želite posjetiti.</p></item>
+      <item><p>Upisivanje web stranice pokreće njeno pretraživanje u povijesti preglednika i zabilješkama, stoga ne trebate zapamtiti točnu adresu.</p>
+        <p>Ako je web stranica pronađena u povijesti i zabilješkama, padajući popis se prikaže ispod adresne trake.</p></item>
+      <item><p>Iz padajućeg popisa, možete brzo odabrati web stranicu koristeći tipke strelica.</p>
+      </item>
+      <item><p>Nakon što ste odabrali web stranicu pritisnite <key>Enter</key> kako bi ju posjetili.</p>
+      </item>
+    </steps>
+
+</page>

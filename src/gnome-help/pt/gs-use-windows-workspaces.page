@@ -45,25 +45,29 @@
            <tt:p>Janelas e espaços de trabalho</tt:p>
          </tt:div>
          <tt:div begin="6s" end="10s">
-           <tt:p>Para maximizar uma janela, arraste a barra de títulos da janela e solte-a no topo do ecrã.</tt:p>
+           <tt:p>To maximize a window, grab the window’s titlebar and drag it to
+            the top of the screen.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="13s">
            <tt:p>Quando o ecrã for realçado, solte a janela.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="20s">
-           <tt:p>Para restaurar uma janela, arraste a barra de título da janela e solte-a para longe das cantos do ecrã.</tt:p>
+           <tt:p>To unmaximize a window, grab the window’s titlebar and drag it
+            away from the edges of the screen.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
            <tt:p>Também pode clicar na barra superior para arrastar a janela para fora e restaurá-la.</tt:p>
          </tt:div>
          <tt:div begin="34s" end="38s">
-           <tt:p>Para maximizar uma janela do lado esquerdo do ecrã, arraste a barra de título da janela e solte-a à esquerda.</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="38s" end="40s">
            <tt:p>Quando metade do ecrã for realçado, solte a janela.</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
-           <tt:p>Para maximizar uma janela do lado direito do ecrã, arraste a barra de título da janela e solte-a à direita.</tt:p>
+           <tt:p>To maximize a window along the right side of the screen, grab
+            the window’s titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="44s" end="48s">
            <tt:p>Quando metade do ecrã for realçado, solte a janela.</tt:p>
@@ -96,9 +100,12 @@
     <p/>
     
     <steps>
-      <item><p>Para maximizar uma janela de forma que ela tome todo o espaço da ecrã do seu ambiente, arraste a barra de título da janela para o topo do ecrã.</p></item>
+      <item><p>To maximize a window so that it takes up all of the space on
+       your desktop, grab the window’s titlebar and drag it to the top of the
+       screen.</p></item>
       <item><p>Quando o ecrã for realçado, solte a janela para maximizá-la.</p></item>
-      <item><p>Para restaurar uma janela para seu tamanho não maximizado, arraste a barra de título da janela para longe dos cantos do ecrã.</p></item>
+      <item><p>To restore a window to its unmaximized size, grab the window’s
+       titlebar and drag it away from the edges of the screen.</p></item>
     </steps>
     
   </section>
@@ -108,7 +115,8 @@
     <p/>
     
     <steps>
-      <item><p>Para maximizar uma janela junto a um lado do ecrã, arraste a barra de título de janela para o lado esquerdo ou direito do ecrã.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>Quando metade do ecrã estiver realçado, solte a janela para maximizá-la ao longo do lado selecionado do ecrã.</p></item>
       <item><p>Para maximizar duas janelas lado a lado, arraste a barra de título da segunda janela para o lado oposto do ecrã.</p></item>
        <item><p>Quando metade da ecrã estiver realçado, solte a janela para maximizá-la ao longo do lado oposto do ecrã.</p></item>

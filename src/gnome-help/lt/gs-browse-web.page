@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" version="1.0 if/1.0" xml:lang="lt">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Naršyti internete</title>
+    <link type="seealso" xref="net-browser"/>
+    <title role="seealso" type="link">Naršymo internete pamoka</title>
+    <link type="next" xref="gs-connect-online-accounts"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mantas Kriaučiūnas</mal:name>
+      <mal:email>mantas@akl.lt</mal:email>
+      <mal:years>2013-2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Eglė Kriaučiūnienė</mal:name>
+      <mal:email>egle@valdorfas.org</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Naršyti internete</title>
+
+<if:choose>
+<if:when test="platform:gnome-classic">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox-classic.svg" width="100%"/>
+
+    <steps>
+      <item><p>Paspauskite <gui>Programos</gui> meniu viršutiniame kairiajame ekrano kampe.</p></item>
+      <item><p>Iš meniu pasirinkite <guiseq><gui>Internetas</gui><gui>Firefox naršyklė</gui> </guiseq>.</p></item>
+    </steps>
+
+</if:when>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:when test="platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox.svg" width="100%"/>
+
+    <steps>
+      <item><p>Spustelkite ant <gui>Apžvalga</gui> kairiajame viršutiniame ekrano kampe ir pamatysite <gui>Veiklų Apžvalgą</gui>.</p></item>
+      <item><p>Pasirinkite <app>Firefox</app> interneto naršyklės piktogramą iš kairiojo ekrano šono juostos.</p></item>
+    </steps>
+
+    <note><p>Taipogi, naršyklę paleisti galite <gui>Veiklų Apžvalgoje</gui><link xref="gs-use-system-search">parašę tekstą</link> <em>Firefox</em>.</p></note>
+
+</if:when>
+<if:else>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Spustelkite ant <gui>Apžvalga</gui> kairiajame viršutiniame ekrano kampe ir pamatysite <gui>Veiklų Apžvalgą</gui>.</p></item>
+      <item><p>Pasirinkite <app>Interneto naršyklė</app> naršyklės piktogramą kairiojoje ekrano juostoje.</p></item>
+    </steps>
+
+    <note><p>Taipogi, naršyklę paleisti galite <gui>Veiklų Apžvalgoje</gui><link xref="gs-use-system-search">parašę tekstą</link> <em>internet</em>.</p></note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+
+</if:else>
+</if:choose>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:if test="platform:gnome-classic, platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2-firefox.svg" width="100%"/>
+
+</if:if>
+
+    <steps style="continues">
+      <item><p>Spustelėkite ant adreso juostos naršyklės lange ir pradėkite rašyti norimos interneto svetainės pavadinimą.</p></item>
+      <item><p>Jums berašant svetainės pavadinimą, jos iš karto ieškoma naršyklės istorijoje bei adresyne, taigi nebūtina prisiminti tikslų adresą.</p>
+        <p>Jei tinklalapis surandamas istorijoje ar adresyne, išsiskleidžia sąrašas po adreso juosta.</p></item>
+      <item><p>Išsiskleidusiame sąraše galite greitai pasirinkti tinklalapį rodyklių klavišų pagalba.</p>
+      </item>
+      <item><p>Išsirinkę norimą tinklalapį, paspauskite <key>Enter</key> ir nueisite į jį. </p>
+      </item>
+    </steps>
+
+</page>

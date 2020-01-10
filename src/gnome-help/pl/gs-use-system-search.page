@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="pl">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="pl">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -9,31 +9,34 @@
     <credit type="author">
       <name>Petr Kovar</name>
     </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
+    </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">Używanie systemu wyszukiwania</title>
+    <title role="trail" type="link">Używanie wyszukiwania systemowego</title>
     <link type="seealso" xref="shell-apps-open"/>
-    <title role="seealso" type="link">Samouczek używania systemu wyszukiwania</title>
+    <title role="seealso" type="link">Samouczek używania wyszukiwania systemowego</title>
     <link type="next" xref="gs-get-online"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Piotr Drąg</mal:name>
       <mal:email>piotrdrag@gmail.com</mal:email>
-      <mal:years>2013-2016</mal:years>
+      <mal:years>2013-2018</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Aviary.pl</mal:name>
       <mal:email>community-poland@mozilla.org</mal:email>
-      <mal:years>2013-2016</mal:years>
+      <mal:years>2013-2018</mal:years>
     </mal:credit>
   </info>
 
-  <title>Używanie systemu wyszukiwania</title>
+  <title>Używanie wyszukiwania systemowego</title>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Otwórz <gui>ekran podglądu</gui> naciskając klawisz <key href="help:gnome-help/keyboard-key-super">Super</key>. Zacznij pisać, aby wyszukać.</p>
+    <item><p>Otwórz <gui>ekran podglądu</gui> klikając przycisk <gui>Podgląd</gui> w górnym lewym rogu ekran lub naciskając klawisz <key href="help:gnome-help/keyboard-key-super">Super</key>. Zacznij pisać, aby wyszukać.</p>
     <p>Pasujące wyniki pojawiają się w trakcie pisania. Pierwszy wynik jest zawsze wyróżniony i wyświetlany na górze.</p>
     <p>Naciśnij klawisz <key>Enter</key>, aby przełączyć do pierwszego wyróżnionego wyniku.</p></item>
     </steps>
@@ -45,7 +48,13 @@
         <item><p>pasujące programy, wyświetlane na górze wyników wyszukiwania,</p></item>
         <item><p>pasujące ustawienia,</p></item>
         <item><p>pasujące kontakty,</p></item>
-        <item><p>pasujące dokumenty.</p></item>
+        <item><p>pasujące dokumenty,</p></item>
+        <item><p>pasujące wydarzenia,</p></item>
+        <item><p>pasujące obliczenia,</p></item>
+        <item><p>pasujące oprogramowanie,</p></item>
+        <item><p>pasujące pliki,</p></item>
+        <item><p>pasujące terminale,</p></item>
+        <item><p>pasujące hasła i klucze.</p></item>
       </list>
       </item>
       <item><p>W wynikach wyszukiwania można kliknąć element, aby na niego przełączyć.</p>
@@ -75,7 +84,7 @@
         <title>Aby dostosować, co ma być wyświetlane w wynikach wyszukiwania:</title>
         <item><p>Kliknij <gui xref="shell-introduction#yourname">menu systemowe</gui> po prawej stronie górnego paska.</p></item>
         <item><p>Kliknij przycisk ustawień w lewym dolnym rogu menu.</p></item>
-        <item><p>Kliknij panel <gui>Wyszukiwanie</gui>.</p></item>
+        <item><p>Kliknij <gui>Wyszukiwanie</gui> w lewym panelu.</p></item>
         <item><p>Na liście położeń wyszukiwania kliknij przełącznik <gui>|/◯</gui> obok położenia, które ma zostać włączone lub wyłączone.</p>
          </item>
       </steps>

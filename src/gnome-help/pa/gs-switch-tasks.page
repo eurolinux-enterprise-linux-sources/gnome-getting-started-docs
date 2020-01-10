@@ -13,7 +13,7 @@
     <title role="trail" type="link">ਟਾਸਕ ਸਵਿੱਚ ਕਰੋ</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">ਕੰਮ ਬਦਲਣ ਲਈ ਸਿਖਲਾਈ</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>ਟਾਸਕ ਸਵਿੱਚ ਕਰੋ</title>
@@ -26,22 +26,22 @@
          <tt:div begin="1s" end="5s">
            <tt:p>ਟਾਸਕ ਸਵਿੱਚ ਕਰਨੇ</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>ਆਪਣੇ ਮਾਊਂਸ ਪੁਆਇੰਟਰ ਨੂੰ ਸਕਰੀਨ ਦੇ ਉੱਤੇ ਖੱਬੇ ਕੋਨੇ ਉੱਤੇ <gui>ਸਰਗਰਮੀ</gui> ਉੱਤੇ ਲੈ ਕੇ ਜਾਉ।</tt:p>
+           <tt:p if:test="!platform:gnome-classic">ਆਪਣੇ ਮਾਊਂਸ ਪੁਆਇੰਟਰ ਨੂੰ ਸਕਰੀਨ ਦੇ ਉੱਤੇ ਖੱਬੇ ਕੋਨੇ ਉੱਤੇ <gui>ਸਰਗਰਮੀ</gui> ਉੱਤੇ ਲੈ ਕੇ ਜਾਉ।</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>ਕਿਸੇ ਟਾਸਕ ਉੱਤੇ ਜਾਣ ਲਈ ਉਸ ਵਿੰਡੋ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>ਕਿਸੇ ਵਿੰਡੋ ਨੂੰ ਸਕਰੀਨ ਦੇ ਖੱਬੇ ਹਿੱਸੇ ਉੱਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰਨ ਲਈ, ਵਿੰਡੋ ਨੂੰ ਟਾਈਟਲ-ਬਾਰ ਤੋਂ ਫੜੋ ਅਤੇ ਖੱਬੇ ਪਾਸੇ ਖਿੱਚੋ।</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="16s">
            <tt:p>ਜਦੋਂ ਸਕਰੀਨ ਦਾ ਅੱਧ ਉਭਾਰਿਆ ਜਾਵੇ ਤਾਂ ਵਿੰਡੋ ਨੂੰ ਛੱਡ ਦਿਉ</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>ਕਿਸੇ ਵਿੰਡੋ ਨੂੰ ਸਕਰੀਨ ਦੇ ਸੱਜੇ ਹਿੱਸੇ ਉੱਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰਨ ਲਈ, ਵਿੰਡੋ ਨੂੰ ਟਾਈਟਲ-ਬਾਰ ਤੋਂ ਫੜੋ ਅਤੇ ਸੱਜੇ ਪਾਸੇ ਖਿੱਚੋ।</tt:p>
+           <tt:p>To maximize a window along the right side, grab the window’s
+            titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
            <tt:p>ਜਦੋਂ ਸਕਰੀਨ ਦਾ ਅੱਧ ਉਭਾਰਿਆ ਜਾਵੇ ਤਾਂ ਵਿੰਡੋ ਨੂੰ ਛੱਡ ਦਿਉ</tt:p>
@@ -97,7 +97,8 @@
     <title>ਟਾਈਲ ਵਿੰਡੋਜ਼</title>
     
     <steps>
-      <item><p>ਕਿਸੇ ਵਿੰਡੋ ਨੂੰ ਸਕਰੀਨ ਦੇ ਹਿੱਸੇ ਉੱਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰਨ ਲਈ, ਵਿੰਡੋ ਨੂੰ ਟਾਈਟਲ-ਬਾਰ ਤੋਂ ਫੜੋ ਅਤੇ ਖੱਬੇ ਪਾਸੇ ਜਾਂ ਸੱਜੇ ਖਿੱਚੋ।</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>ਜਦੋਂ ਅੱਧੀ ਸਕਰੀਨ ਉਭਾਰੀ ਜਾਵੇ ਤਾਂ ਵਿੰਡੋ ਨੂੰ ਸਕਰੀਨ ਦੇ ਚੁਣੇ ਪਾਸ ਵਿੱਚ ਵੱਧ ਤੋਂ ਵੱਧ ਫੈਲਣ ਲਈ ਛੱਡ ਦਿਉ।</p></item>
       <item><p>ਦੋ ਵਿੰਡੋ ਨੂੰ ਨਾਲ-ਨਾਲ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰਨ ਲਈ, ਦੂਜੀ ਵਿੰਡੋ ਦੇ ਟਾਈਟਲ-ਪੱਟੀ ਨੂੰ ਫੜੋ ਅਤੇ ਇਸ ਨੂੰ ਸਕਰੀਨ ਦੇ ਉਲਟ ਦੂਜੇ ਪਾਸੇ ਖਿੱਚ ਦਿਉ।</p></item>
        <item><p>ਜਦੋਂ ਅੱਧੀ ਸਕਰੀਨ ਉਭਾਰੀ ਜਾਵੇ ਤਾਂ ਵਿੰਡੋ ਨੂੰ ਸਕਰੀਨ ਦੇ ਉਲਟ ਪਾਸਿਆਂ ਵਿੱਚ ਵੱਧ ਤੋਂ ਵੱਧ ਫੈਲਣ ਲਈ ਛੱਡ ਦਿਉ।</p></item>

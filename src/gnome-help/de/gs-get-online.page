@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="de">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="de">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -18,13 +18,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Mario Blättermann</mal:name>
       <mal:email>mario.blaettermann@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2017</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013, 2014, 2015, 2016</mal:years>
+      <mal:years>2013, 2014, 2015, 2016, 2017</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -49,7 +49,7 @@
     <steps>
       <item><p>Das Netzwerkverbindungssymbol rechts auf der oberen Leiste zeigt, dass Sie offline sind.</p>
       <p>Der Offline-Status kann verschiedene Ursachen haben: Zum Beispiel ist das Netzwerkkabel nicht eingesteckt, der Rechner wurde in den <em>Flugzeug-Modus</em> versetzt, oder es gibt keine verfügbaren Funknetzwerke in der Umgebung.</p>
-      <p>Wenn Sie eine kabelgebundene Verbindung verwenden wollen, stecken Sie einfach das Netzwerkkabel ein. Der Rechner wird versuchen, die Netzwerkverbindung für Sie automatisch einzurichten. </p>
+      <p>Wenn Sie eine kabelgebundene Verbindung verwenden wollen, stecken Sie einfach das Netzwerkkabel ein. Der Rechner wird versuchen, die Netzwerkverbindung für Sie automatisch einzurichten.</p>
       <p>Während der Rechner die Netzwerkverbindung für Sie einrichtet, werden drei Punkte anstelle des Netzwerkverbindungssymbols angezeigt.</p></item>
       <item><p>Sobald die Netzwerkverbindung erfolgreich eingerichtet wurde, ändert sich das Netzwerkverbindungssymbol und zeigt einen vernetzten Rechner an.</p></item>
     </steps>

@@ -9,11 +9,12 @@
     <credit type="author">
       <name>Petr Kovar</name>
     </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">ಸಂದೇಶಗಳಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಿ</title>
     <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">ಸಂದೇಶಗಳಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಿ</title>
     <title role="seealso" type="link">ಸಂದೇಶಗಳಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸುವಿಕೆಯ ಕುರಿತು ಮಾಹಿತಿ</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>ಸಂದೇಶಗಳಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಿ</title>

@@ -52,16 +52,13 @@
     <title>Vaihda taustakuvaa</title>
     
     <steps>
-      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
-      on the right side of the top bar.</p></item>
-      <item><p>Click the settings button at the bottom left of the menu.</p></item>
+      <item><p>Napsauta <gui xref="shell-introduction#yourname">järjestelmävalikkoa</gui> yläpalkin oikeasta laidasta.</p></item>
+      <item><p>Napsauta Asetukset-painiketta valikon vasemmanpuoleisesta alaosasta.</p></item>
       <item><p>Napsauta <gui>Taustakuva</gui>.</p></item>
-      <item><p>Click the current background image on the left side of the
-      <gui>Background</gui> window.</p></item>
+      <item><p>Napsauta nykyistä taustakuvaa <gui>Taustakuva</gui>-ikkunan vasemmassa laidassa.</p></item>
       <item><p>Napsauta kuvaa, jota haluat käyttää taustakuvana.</p></item>
       <item><p>Napsauta <gui>Valitse</gui>.</p></item>
-      <item><p>Close the <gui>Background</gui> window by clicking the cross at
-      the top-right corner of the window.</p></item>
+      <item><p>Sulje <gui>Taustakuva</gui>-ikkuna napsauttamalla rastia ikkunan oikeasta yläkulmasta.</p></item>
     </steps>
   </section>
 

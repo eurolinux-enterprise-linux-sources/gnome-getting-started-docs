@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-switch-tasks" version="1.0 if/1.0" xml:lang="lt">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Perjungti vykdomas programas</title>
+    <link type="seealso" xref="shell-windows-switching"/>
+    <title role="seealso" type="link">Perjungimo tarp programų pradžiamokslis</title>
+    <link type="next" xref="gs-use-windows-workspaces"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mantas Kriaučiūnas</mal:name>
+      <mal:email>mantas@akl.lt</mal:email>
+      <mal:years>2013-2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Eglė Kriaučiūnienė</mal:name>
+      <mal:email>egle@valdorfas.org</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Perjungti veikiančias programas</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-task-switching.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-task-switching.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Kaip persijungti iš vienos programos į kitą</tt:p>
+         </tt:div>
+         <tt:div begin="5s" end="8s">
+           <tt:p if:test="!platform:gnome-classic">Perkelkite pelės žymiklį ant užrašo <gui>Apžvalga</gui> viršutiniame kairiajame ekrano kampe.</tt:p>
+           </tt:div>
+         <tt:div begin="9s" end="12s">
+           <tt:p>Spustelėkite ant lango norėdami pereiti į tą programą.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
+         </tt:div>
+         <tt:div begin="14s" end="16s">
+           <tt:p>Kai ekrano pusė „apsišviečia“, atleiskite pelės klavišą.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18">
+           <tt:p>To maximize a window along the right side, grab the window’s
+            titlebar and drag it to the right.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="20s">
+           <tt:p>Kai ekrano pusė „apsišviečia“, atleiskite pelės klavišą.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="27s">
+           <tt:p><gui>Langų perjungiklį</gui> pamatysite paspaudę <keyseq> <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key><key> Tab</key></keyseq> klavišus.</tt:p>
+         </tt:div>
+         <tt:div begin="27s" end="29s">
+           <tt:p>Atleiskite <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> klavišą norėdami perjungti kitą pasirinktą langą.</tt:p>
+         </tt:div>
+         <tt:div begin="29s" end="32s">
+           <tt:p>Norėdami slinkti per atidarytų langų sąrašą, neatleisdami <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> klavišo spaudinėkite <key>Tab</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="37s">
+           <tt:p>Paspaudę <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> klavišą pamatysite <gui>Veiklų Apžvalgą</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="37s" end="40s">
+           <tt:p>Pradėkite rašyti pavadinimą programos, į kurią norite pereiti.</tt:p>
+         </tt:div>
+         <tt:div begin="40s" end="43s">
+           <tt:p>Kai norima programa atsiras pradžioje, paspauskite <key> Enter</key> klavišą, kad persijungtumėte į ją.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+  <section id="switch-tasks-overview">
+    <title>Perjungti veikiančias programas</title>
+
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
+  <steps>
+    <item><p>Spustelėję viršutiniame kairiajame ekrano kampe ant <gui>Apžvalga</gui> įjungsite <gui>Veiklų Apžvalga</gui> sąrašą, kur mažuose langeliuose pamatysite šiuo metu veikiančias programas.</p></item>
+     <item><p>Spustelėkite ant lango norėdami pereiti į tą programą.</p></item>
+  </steps>
+
+</if:when>
+<if:when test="platform:gnome-classic">
+
+  <steps>
+    <item><p>Galite persijungti tarp programų naudodami <gui>langų sąrašą</gui> ekrano apačioje. Atvertos programos <gui>langų sąraše</gui> matomos kaip mygtukai.</p></item>
+     <item><p>Paspauskite mygtuką <gui>langų sąraše</gui> ir persijungsite į tą programą.</p></item>
+  </steps>
+
+</if:when>
+</if:choose>
+
+  </section>
+
+  <section id="switching-tasks-tiling">
+    <title>Išdėstyti langus</title>
+    
+    <steps>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
+      <item><p>Kai ekrano pusė bus apšviesta, paleiskite langą ir jį išdidinsite toje ekrano pusėje.</p></item>
+      <item><p>Norėdami išdidinti 2 langus vieną šalia kito, paėmę už antrojo lango tempkite jį į priešingą ekrano pusę.</p></item>
+       <item><p>Kai ekrano pusė bus apšviesta, paleiskite langą ir jį išdidinsite kitoje ekrano pusėje.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="switch-tasks-windows">
+    <title>Persijungti tarp langų</title>
+    
+  <steps>
+   <item><p>Spauskite <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Tab</key></keyseq> ir pamatysite <gui>langų sąrašą</gui> su visais atvertais langais.</p></item>
+   <item><p>Atleiskite <key href="help:gnome-help/keyboard-key-super">Super</key> ir pasirinksite paryškintą langą <gui>langų sąraše</gui></p>
+   </item>
+   <item><p>Norėdami slinkti per atidarytų langų sąrašą, neatleisdami <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> klavišo spaudinėkite <key>Tab</key>.</p></item>
+  </steps>
+
+  </section>
+
+  <section id="switch-tasks-search">
+    <title>Naudokite paiešką persijungimui tarp programų</title>
+    
+    <steps>
+      <item><p>Paspauskite <key href="help:gnome-help/keyboard-key-super">Super</key> klavišą norėdami pamatyti <gui>Veiklų apžvalgą</gui>.</p></item>
+      <item><p>Tiesiog rašykite programos, į kurią norite persijungti, pavadinimą. Jums rašant bus rodomos atitinkamos programos.</p></item>
+      <item><p>Kai norima programa bus rodoma kaip pirmas rezultatas, spauskite <key>Enter</key> ir persijungsite į ją.</p></item>
+      
+    </steps>
+    
+  </section>
+
+</page>

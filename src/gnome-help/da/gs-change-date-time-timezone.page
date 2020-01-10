@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0" xml:lang="da">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Ændr dato, klokkeslæt og tidszone</title>
+    <link type="seealso" xref="clock"/>
+    <title role="seealso" type="link">En vejledning til at ændre dato, klokkeslæt og tidszone</title>
+    <link type="next" xref="gs-change-wallpaper"/>
+  </info>
+
+  <title>Ændr dato, klokkeslæt og tidszone</title>
+
+  <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+
+  <steps>
+    <item><p>Klik på <gui xref="shell-introduction#yourname">systemmenuen</gui> på højre side af toplinjen.</p></item>
+    <item><p>Klik på knappen indstillinger nederst til venstre i menuen.</p></item>
+    <item><p>Vælg panelet <gui>Dato &amp; klokkeslæt</gui>.</p></item>
+  </steps>
+  
+  <media its:translate="no" type="image" mime="image/svg" src="gs-datetime.svg" width="100%"/>
+  
+  <steps style="continues">
+    <item><p>Sørg for at <gui>Automatisk tidszone</gui> er slået fra, og klik så på <gui>Tidszone</gui> nedenunder.</p></item>
+    <item><p>Klik på din placering på verdenskortet. Dette vælger din nuværende by, som du også kan søge efter i søgeboksen oven over kortet.</p></item>
+    <item><p>Luk vinduet med verdenskortet for at gå tilbage til <gui>Indstillinger for dato &amp; klokkeslæt</gui>.</p></item>
+    <item><p>Sørg for at <gui>Automatisk dato &amp; klokkeslæt</gui> er slået fra, og klik så på <gui>Dato &amp; klokkeslæt</gui> nedenunder for at åbne vinduet <gui>Dato &amp; tid</gui>. Der kan du justere dine indstillinger for dato og klokkeslæt ved at klikke på knapperne <gui>+</gui> eller <gui>-</gui>.</p>
+     </item>
+    <item><p>Luk vinduet for at gå tilbage til <gui>Indstillinger for dato &amp; tid</gui>, og luk så panelet.</p></item>
+  </steps>
+
+</page>

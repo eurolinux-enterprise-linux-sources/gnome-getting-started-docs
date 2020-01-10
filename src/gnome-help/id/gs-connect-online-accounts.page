@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="id">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="id">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -18,7 +18,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Andika Triwidada</mal:name>
       <mal:email>andika@gmail.com</mal:email>
-      <mal:years>2013, 2016</mal:years>
+      <mal:years>2013, 2016, 2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kukuh Syafaat</mal:name>
+      <mal:email>syafaatkukuh@gmail.com</mal:email>
+      <mal:years>2016</mal:years>
     </mal:credit>
   </info>
 
@@ -34,27 +40,24 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Klik panel <gui>Akun Daring</gui>, lalu klik tombol <gui>Tambahkan akun daring</gui>.</p></item>
-    </steps>
-    
-    <note><p>Bila Anda telah menyiapkan suatu akun daring sebelumnya, Anda dapat menambahkan sebuah akun daring lain dengan mengklik tombol <gui>+</gui> di pojok kiri bawah jendela.</p></note>
-    
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+      <item><p>Click the <gui>Online Accounts</gui> panel, then click the online
+      account service you want to use.</p>
 
-    <steps style="continues">  
-      <item><p>Klik pada akun daring yang ingin Anda pakai. Ini akan membuka suatu jendela baru dimana Anda dapat masuk ke akun daring Anda.</p></item>
+      <p>This will open a new window where you can sign in to your online
+      account.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Dalam kebanyakan kasus, Anda mesti memberi hak akses ke layanan daring setelah masuk untuk memulai.</p></item>
-      <item><p>Sebagai contoh, bila Anda menyambung ke akun Google Anda, Anda mesti mengklik tombol <gui>Berikan Akses</gui>.</p></item>
+      <item><p>For example, if you are connecting to your Google account, you
+       will have to click the <gui>Allow</gui> button.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Banyak akun daring yang mengijinkan Anda memilih jenis layanan apa yang akan Anda pakai dengan akun daring Anda. Bila Anda tak berharap memakai suatu layanan tertentu, matikanlah itu dengan mengklik saklar <gui>NYALA/MATI</gui> di sisi kanan jendela.</p></item>
     </steps>
 

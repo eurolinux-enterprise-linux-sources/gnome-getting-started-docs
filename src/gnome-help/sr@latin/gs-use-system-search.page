@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="sr-Latn">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Štajner (Jakub Steiner)</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar (Petr Kovar)</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Korišćenje pretrage sistema</title>
+    <link type="seealso" xref="shell-apps-open"/>
+    <title role="seealso" type="link">Uputstvo o korišćenju pretrage sistema</title>
+    <link type="next" xref="gs-get-online"/>
+  </info>
+
+  <title>Korišćenje pretrage sistema</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    
+    <steps>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
+    <p>Rezultati pretrage će se pojaviti kako budete bili kucali. Prvi rezultat je uvek osvetljen i prikazan na vrhu.</p>
+    <p>Pritisnite taster <key>Enter</key> da biste se prebacili na prvi osvetljeni rezultat.</p></item>
+    </steps>
+    
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <steps style="continues">
+      <item><p>U stavke koje se mogu pojaviti u rezultatima pretrage spadaju:</p>
+      <list>
+        <item><p>podudarni programi, prikazani pri vrhu rezultata pretrage,</p></item>
+        <item><p>podudarna podešavanja,</p></item>
+        <item><p>matching contacts,</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
+      </list>
+      </item>
+      <item><p>Kliknite na stavku u rezultatima pretrage da biste se prebacili na nju.</p>
+      <p>Ili označite stavku koristeći strelice na tastaturi i pritisnite taster <key>Enter</key>.</p></item>
+    </steps>
+
+    <section id="use-search-inside-applications">
+    
+      <title>Pretraga unutar programa</title>
+      
+      <p>Pretraga sistema sakuplja rezultate iz raznih programa. Na levoj strani rezultata pretrage možete videti ikonice programa od kojih su podaci prikupljeni. Kliknite na jednu od ikonice da biste ponovo započeli pretraživanje unutar programa koji je označen tom ikonicom. Pošto se samo najbolji rezultati prikazuju u <gui>Pregledu aktivnosti</gui>, pretraživanjem unutar programa možete naći tačno ono što želite.</p>
+
+    </section>
+
+    <section id="use-search-customize">
+
+      <title>Prilagođavanje sistemske pretrage</title>
+
+      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+
+      <note style="important">
+      <p>Gnom vam omogućava da prilagodite šta se pojavljuje u rezultatima pretrage, u <gui>Pregledu aktivnosti</gui>. Na primer, možete odabrati da li želite da dobijate veb stranice, sliku ili muziku u rezultatima.</p>
+      </note>
+
+
+      <steps>
+        <title>Da biste prilagodili šta se prikazuje u rezultatima pretrage:</title>
+        <item><p>Kliknite na <gui xref="shell-introduction#yourname">sistemski izbornik</gui> u desnom delu gornje trake.</p></item>
+        <item><p>Kliknite na dugme za podešavanja u donjem levom delu izbornika.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
+        <item><p>U spisku lokacija za pretraživanje, kliknite na <gui>UKLJ/ISK</gui> dugme pored lokacije pretrage da biste je omogućili ili onemogućili.</p>
+         </item>
+      </steps>
+      
+    </section>
+
+</page>

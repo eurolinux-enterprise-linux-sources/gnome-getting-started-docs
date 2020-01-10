@@ -13,7 +13,7 @@
     <title role="trail" type="link">タスクを切り替える</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">タスクの切り替えに関するチュートリアル</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>松澤 二郎</mal:name>
@@ -32,22 +32,22 @@
          <tt:div begin="1s" end="5s">
            <tt:p>タスクの切り替え</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>マウスポインターを画面左上隅の<gui>アクティビティ</gui>まで移動させます。</tt:p>
+           <tt:p if:test="!platform:gnome-classic">マウスポインターを画面左上隅の<gui>アクティビティ</gui>まで移動させます。</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>ウィンドウをクリックすると、そのタスクに切り替わります。</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>ウィンドウを画面左半分に最大化するには、ウィンドウのタイトルバーをつかんで左端までドラッグします。</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="16s">
            <tt:p>画面半分がハイライト表示されたら、ウィンドウを離します。</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>ウィンドウを画面右半分に最大化するには、ウィンドウのタイトルバーをつかんで右端までドラッグします。</tt:p>
+           <tt:p>To maximize a window along the right side, grab the window’s
+            titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
            <tt:p>画面半分がハイライト表示されたら、ウィンドウを離します。</tt:p>
@@ -103,7 +103,8 @@
     <title>ウィンドウを左右に並べる</title>
     
     <steps>
-      <item><p>ウィンドウを画面の片側半分に最大化するには、ウィンドウのタイトルバーをつかんで画面の左右どちらかの端までドラッグします。</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>画面半分がハイライト表示されたら、ウィンドウを離すと、ドラッグした側半分に最大化します。</p></item>
       <item><p>ふたつのウィンドウを左右片側ずつに最大化するには、ふたつ目のウィンドウのタイトルバーをつかんで反対側の端までドラッグします。</p></item>
        <item><p>画面半分がハイライト表示されたら、ウィンドウを離すと、ドラッグした側半分に最大化します。</p></item>

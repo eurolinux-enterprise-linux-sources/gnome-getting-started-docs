@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="sr-Latn">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Štajner (Jakub Steiner)</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar (Petr Kovar)</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Pristupanje internetu</title>
+    <link type="seealso" xref="net"/>
+    <title role="seealso" type="link">Uputstvo za pristupanje internetu</title>
+    <link type="next" xref="gs-browse-web"/>
+  </info>
+
+  <title>Pristupanje internetu</title>
+  
+  <note style="important">
+      <p>Možete videti stanje vaše mrežne veze na desnoj strani gornje trake.</p>
+  </note>  
+
+  <section id="going-online-wired">
+
+    <title>Povezivanje na žičanu mrežu</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Ikonica mrežne veze na desnoj strani gornje trake pokazuje da niste zakačeni.</p>
+      <p>Možete biti otkačeni sa interneta zbog mnoštva razloga. Možda je pokidan ili izvučen mrežni kabl ili je računar podešen da radi u <em>režimu za avion</em> ili nema dostupnih bežičnih mreža u vašoj okolini.</p>
+      <p>Ako želite da koristite žičanu vezu, samo ubodite mrežni kabl da biste se zakačili na internet. Računar će sam pokušati da podesi mrežnu vezu.</p>
+      <p>U toku samostalnog podešavanja mrežne veze, ikonica mrežne veze će imati tri tačke na sebi.</p></item>
+      <item><p>Nakon što se samopodešavanje mrežne veze uspešno završi, ikonica mrežne veze će se promeniti u simbol umreženog računara.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="going-online-wifi">
+
+    <title>Povezivanje na bežičnu mrežu</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    
+    <steps>
+      <title>Da biste se povezali na Vaj-faj (bežičnu) mrežu:</title>
+      <item>
+        <p>Kliknite na <gui xref="shell-introduction#yourname">sistemski izbornik</gui> u desnom delu gornje trake.</p>
+      </item>
+      <item>
+        <p>Izaberite dugme <gui>Bežična isključeno</gui>. Izbornik bežične mreže će se raširiti.</p>
+      </item>
+      <item>
+        <p>Kliknite na <gui>Izaberi mrežu</gui>.</p>
+      </item>
+    </steps>
+
+     <note style="important">
+       <p>Možete se povezati na bežičnu mrežu samo ako hardver vašeg računara to podržava i ako ste u okruženju koje je pokriveno nekom bežičnom mrežom.</p>
+     </note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
+
+    <steps style="continues">
+    <item><p>Iz spiska dostupnih bežičnih mreža izaberite mrežu na koju se želite zakačiti i kliknite na dugme <gui>Poveži se</gui> da biste potvrdili povezivanje.</p>
+    <p>Računar vam može zatražiti pristupne parametre, zavisno od podešavanja bežične mreže.</p></item>
+    </steps>
+
+  </section>
+
+</page>

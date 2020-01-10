@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="ro">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Schimbarea tapetului</title>
+    <link type="seealso" xref="look-background"/>
+    <title role="seealso" type="link">Un ghid pentru schimbarea tapetului</title>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Șerbănescu</mal:name>
+      <mal:email>daniel [at] serbanescu [dot] dk</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Schimbarea tapetului</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Schimbarea tapetului</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Clic pe meniul sistemului din partea dreaptă a barei superioare și apăsați butonul configurări.</tt:p>
+           </tt:div>
+         <tt:div begin="10s" end="12s">
+           <tt:p>Selecatați <gui>Fundal</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="13s">
+           <tt:p>Clic pe imaginea de fundal curentă.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="16s">
+           <tt:p>Clic pe imaginea pe care doriți să o utilizați.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18s">
+           <tt:p>Clic pe butonul <gui>Selectează</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="21s">
+           <tt:p>Închideți fereastra <gui>Fundal</gui>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="change-wallpaper-overview">
+    <title>Schimbarea tapetului</title>
+    
+    <steps>
+      <item><p>Clic pe <gui xref="shell-introduction#yourname">meniul sistemului</gui> din partea dreaptă a barei de sus.</p></item>
+      <item><p>Clic pe butonul de configurări din partea stânga-jos a meniului.</p></item>
+      <item><p>Clic pe panoul <gui>Fundal</gui>.</p></item>
+      <item><p>Clic pe imaginea de fundal curentă din partea stângă a ferestrei <gui>Fundal</gui>.</p></item>
+      <item><p>Clic pe imaginea pe care doriți să o utilizați.</p></item>
+      <item><p>Clic pe butonul <gui>Selectează</gui>.</p></item>
+      <item><p>Închideți fereastra <gui>Fundal</gui> apăsând pe x din partea dreaptă-sus a ferestrei.</p></item>
+    </steps>
+  </section>
+
+</page>

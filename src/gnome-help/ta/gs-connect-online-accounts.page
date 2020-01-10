@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="ta">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="ta">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -35,28 +35,24 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Click the <gui>Online Accounts</gui> panel, then
-      click the <gui>Add an online account</gui> button.</p></item>
-    </steps>
-    
-    <note><p>முன்பே நீங்கள் ஒரு ஆன்லைன் கணக்கை அமைத்திருந்தால், நீங்கள் சாளரத்தின் அடி இடப்புற மூலையில் உள்ள <gui>+</gui> பொத்தானைச் சொடுக்குவதன் மூலம் மற்றுமொரு ஆன்லைன் கணக்கைச் சேர்க்கலாம்.</p></note>
-    
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+      <item><p>Click the <gui>Online Accounts</gui> panel, then click the online
+      account service you want to use.</p>
 
-    <steps style="continues">  
-      <item><p>நீங்கள் பயன்படுத்த விரும்பும் ஆன்லைன் கணக்கைச் சொடுக்கவும். இது ஒரு புதிய சாளரத்தைத் திறக்கும், அதில் உங்கள் ஆன்லைன் கணக்கில் நீங்கள் உள் நுழைய முடியும்.</p></item>
+      <p>This will open a new window where you can sign in to your online
+      account.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>பெரும்பாலான சந்தர்ப்பங்களில், தொடங்குதலில் உள்நுழைந்ததும் நீங்கள் ஆன்லைன் சேவைக்கு அணுகல் வழங்க வேண்டியிருக்கும்.</p></item>
-      <item><p>எடுத்துக்காட்டுக்கு, நீங்கள் உங்கள் Google கணக்குக்கு இணைக்கிறீர்கள் எனில், நீங்கள் <gui>அணுகல் வழங்கு</gui> பொத்தானைச் சொடுக்க வேண்டும்.</p></item>
+      <item><p>For example, if you are connecting to your Google account, you
+       will have to click the <gui>Allow</gui> button.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>பல ஆன்லைன் கணக்குகள், உங்கள் ஆன்லைன் கணக்குடன் நீங்கள் பயன்படுத்த விரும்பும் சேவைகளை நீங்கள் தேர்வு செய்துகொள்ளும் வசதியை வழங்குகின்றன. நீங்கள் ஒரு சேவையைப் பயன்படுத்த விரும்பாவிட்டால் சாளரத்தின் வலப்புறம் உள்ள சாவியில் <gui>ஆன்/ஆஃப்</gui> சாவியை சொடுக்குவதன் மூலம் அதை முடக்கலாம்.</p></item>
     </steps>
 

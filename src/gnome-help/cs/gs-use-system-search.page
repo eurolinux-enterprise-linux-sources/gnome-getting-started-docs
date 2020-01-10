@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="cs">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="cs">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovář</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">Vyhledávání v systému</title>
@@ -21,7 +24,7 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Otevřete <gui>Přehled činností</gui> zmáčknutím klávesy <key href="help:gnome-help/keyboard-key-super">Super</key> a začněte hledat tím, že začnete psát.</p>
+    <item><p>Otevřete přehled <gui>Činností</gui> kliknutím na <gui>Činnosti</gui> v levém horním rohu obrazovky, nebo zmáčknutím klávesy <key href="help:gnome-help/keyboard-key-super">Super</key>, a začněte hledat tím, že začnete psát.</p>
     <p>Výsledky vyhovující tomu, co jste napsali, se budou objevovat průběžně. První výsledek je vždy zvýrazněný a zobrazený nahoře.</p>
     <p>Zmáčknutím <key>Enter</key> se na tento první zvýrazněný výsledek přepnete.</p></item>
     </steps>
@@ -31,9 +34,15 @@
       <item><p>Mezi položky, které se mohou objevit ve výsledcích hledání patří:</p>
       <list>
         <item><p>vyhovující aplikace (zobrazí se ve výsledcích jako první)</p></item>
-        <item><p>vyhovující nastavení</p></item>
-        <item><p>vyhovující kontakty</p></item>
-        <item><p>vyhovující dokumenty</p></item>
+        <item><p>vyhovující nastavení,</p></item>
+        <item><p>vyhovující kontakty,</p></item>
+        <item><p>vyhovující dokumenty,</p></item>
+        <item><p>vyhovující kalendáře,</p></item>
+        <item><p>vyhovující výpočty na kalkulačce,</p></item>
+        <item><p>vyhovující software,</p></item>
+        <item><p>vyhovující soubory,</p></item>
+        <item><p>vyhovující terminály,</p></item>
+        <item><p>vyhovující hesla a klíče.</p></item>
       </list>
       </item>
       <item><p>Kliknutím na položku ve výsledcích hledání se na ni přepnete.</p>
@@ -63,7 +72,7 @@
         <title>Když si chcete přizpůsobit, co se má zobrazovat ve výsledcích hledání:</title>
         <item><p>Klikněte na <gui xref="shell-introduction#yourname">systémovou nabídku</gui> v pravé části horní lišty.</p></item>
         <item><p>Klikněte na tlačítko nastavení v levé dolní části nabídky.</p></item>
-        <item><p>Klikněte na panel <gui>Hledání</gui>.</p></item>
+        <item><p>Klikněte na <gui>Hledání</gui> v panelu vlevo.</p></item>
         <item><p>V seznamu prohledávaných míst klikněte na přepínač <gui>❙/○</gui> vedle prohledávaného místa, které chcete povolit či zakázat.</p>
          </item>
       </steps>

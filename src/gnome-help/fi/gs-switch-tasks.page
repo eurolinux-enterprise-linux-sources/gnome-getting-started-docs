@@ -13,7 +13,7 @@
     <title role="trail" type="link">Vaihda tehtävien välillä</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Opas tehtävien välillä vaihtamiseen</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>Vaihda tehtävien välillä</title>
@@ -26,17 +26,14 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Tehtävien välillä vaihtaminen</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Liikuta hiiren osoitin näytön vasemmassa yläkulmassa olevaan <gui>Toiminnot</gui>-kulmaan.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Liikuta hiiren osoitin näytön vasemmassa yläkulmassa olevaan <gui>Toiminnot</gui>-kulmaan.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Napsauta ikkunaa vaihtaaksesi kyseiseen tehtävään.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>To maximize a window along the left side of the screen, grab
-            the window's titlebar and drag it to the left.</tt:p>
+           <tt:p>Suurentaaksesi ikkunan näytön vasempaan laitaan, tartu kiinni ikkunan ikkunapalkista ja vedä se näytön vasempaan laitaan.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="16s">
            <tt:p>Kun puolet näytöstä on korostettuna, vapauta ikkuna.</tt:p>
@@ -51,25 +48,19 @@
            <tt:p>Paina <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key> Tab</key></keyseq> avataksesi <gui>ikkunavaihtiminen</gui>.</tt:p>
          </tt:div>
          <tt:div begin="27s" end="29s">
-           <tt:p>Release <key href="help:gnome-help/keyboard-key-super">Super
-           </key> to select the next highlighted window.
-           </tt:p>
+           <tt:p>Vapauta <key href="help:gnome-help/keyboard-key-super">Super </key> valitseksi seuraavan korostetun ikkunan.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="32s">
-           <tt:p>To cycle through the list of open windows, do not release
-           <key href="help:gnome-help/keyboard-key-super">Super</key> but hold
-           it down, and press <key>Tab</key>.</tt:p>
+           <tt:p>Kiertääksesi läpi avoinna olevien ikkunoiden listaa, älä vapauta <key href="help:gnome-help/keyboard-key-super">Super</key>-näppäintä, vaan pidä se pohjassa, ja paina <key>Tab</key>.</tt:p>
          </tt:div>
          <tt:div begin="35s" end="37s">
            <tt:p>Paina <key href="help:gnome-help/keyboard-key-super">Super </key> avataksesi <gui>Toiminnot-yleisnäkymän</gui>.</tt:p>
          </tt:div>
          <tt:div begin="37s" end="40s">
-           <tt:p>Start typing the name of the application you want to switch to.
-           </tt:p>
+           <tt:p>Aloita sen sovelluksen nimen kirjoittaminen, johon haluat vaihtaa.</tt:p>
          </tt:div>
          <tt:div begin="40s" end="43s">
-           <tt:p>When the application appears as the first result, press <key>
-           Enter</key> to switch to it.</tt:p>
+           <tt:p>Kun sovellus ilmestyy ensimmäisenä tuloksena, paina <key> Enter</key> vaihtaaksesi siihen.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -83,9 +74,7 @@
 <if:when test="!platform:gnome-classic">
 
   <steps>
-    <item><p>Move your mouse pointer to the <gui>Activities</gui> corner at the
-     top left of the screen to show the <gui>Activities Overview</gui> where you
-     can see the currently running tasks displayed as small windows.</p></item>
+    <item><p>Siirrä hiiren osoitin <gui>Toiminnot</gui>-kulmaan näytön vasemmassa ylälaidassa avataksesi <gui>Toiminnot</gui>-yleisnäkymän. Yleisnäkymässä näytetään parhaillaan käynnissä olevat tehtävät pieninä ikkunoina.</p></item>
      <item><p>Napsauta ikkunaa vaihtaaksesi kyseiseen tehtävään.</p></item>
   </steps>
 
@@ -93,11 +82,8 @@
 <if:when test="platform:gnome-classic">
 
   <steps>
-    <item><p>You can switch between tasks by using the <gui>window list</gui> at
-     the bottom of the screen. Open tasks appear as buttons in the <gui>window
-     list</gui>.</p></item>
-     <item><p>Click a button in the <gui>window list</gui> to switch to that
-     task.</p></item>
+    <item><p>Voit vaihtaa tehtävien välillä käyttämällä <gui>ikkunaluetteloa</gui> näytön alaosassa. Avoimet tehtävät näkyvät painikkeina <gui>ikkunaluettelossa</gui>.</p></item>
+     <item><p>Napsauta painiketta <gui>ikkunaluettelosta</gui> vaihtaaksesi kyseiseen tehtävään.</p></item>
   </steps>
 
 </if:when>
@@ -106,17 +92,13 @@
   </section>
 
   <section id="switching-tasks-tiling">
-    <title>Tile windows</title>
+    <title>Laatoita ikkunoita</title>
     
     <steps>
-      <item><p>To maximize a window along a side of the screen, grab the window's
-       titlebar and drag it to the left or right side of the screen.</p></item>
-      <item><p>When half of the screen is highlighted, release the window to
-       maximize it along the selected side of the screen.</p></item>
-      <item><p>To maximize two windows side-by-side, grab the titlebar of the
-       second window and drag it to the opposite side of the screen.</p></item>
-       <item><p>When half of the screen is highlighted, release the window to
-        maximize it along the opposite side of the screen.</p></item>
+      <item><p>Suurentaaksesi ikkunan näytön laitaan, tartu ikkunan ikkunapalkista kiinni ja vedä ikkuna joko näytön vasempaan tai oikeaan laitaan.</p></item>
+      <item><p>Kun puolet näytöstä on korostettuna, vapauta ikkuna suurentaaksesi sen valitulle puolelle näyttöä.</p></item>
+      <item><p>Suurentaaksesi kaksi ikkunaa vierekkäinen, tartu kiinni toisen ikkunan ikkunapalkista ja vedä se vastapuolelle näyttöä.</p></item>
+       <item><p>Kun puolet näytöstä on korostettuna, vapauta ikkuna suurentaaksesi sen vastapuolelle näyttöä.</p></item>
     </steps>
     
   </section>
@@ -125,15 +107,10 @@
     <title>Vaihda ikkunoiden välillä</title>
     
   <steps>
-   <item><p>Press <keyseq><key href="help:gnome-help/keyboard-key-super">Super
-   </key><key>Tab</key></keyseq> to show the <gui>window switcher</gui>, which
-   lists the currently open windows.</p></item>
-   <item><p>Release <key href="help:gnome-help/keyboard-key-super">Super</key>
-   to select the next highlighted window in the <gui>window switcher</gui>.</p>
+   <item><p>Paina <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Tab</key></keyseq> nähdäksesi <gui>ikkunavaihtimen</gui>, joka listaa avoinna olevat ikkunat.</p></item>
+   <item><p>Vapauta <key href="help:gnome-help/keyboard-key-super">Super</key> valitaksesi seuraavan korostetun ikkunan <gui>ikkunavaihtimessa</gui>.</p>
    </item>
-   <item><p>To cycle through the list of open windows, do not release
-   <key href="help:gnome-help/keyboard-key-super">Super</key> but hold it down,
-   and press <key>Tab</key>.</p></item>
+   <item><p>Kiertääksesi läpi avoinna olevien ikkunoiden listaa, älä vapauta <key href="help:gnome-help/keyboard-key-super">Super</key>-näppäintä, vaan pidä se pohjassa, ja paina <key>Tab</key>.</p></item>
   </steps>
 
   </section>
@@ -142,13 +119,9 @@
     <title>Käytä hakua vaihtaaksesi sovellusten välillä</title>
     
     <steps>
-      <item><p>Press the <key href="help:gnome-help/keyboard-key-super">Super</key>
-       key to show the <gui>Activities Overview</gui>.</p></item>
-      <item><p>Just start typing the name of the application you want to
-       switch to. Applications matching what you have typed will appear as
-       you type.</p></item>
-      <item><p>When the application that you want to switch to appears as the
-       first result, press <key>Enter</key> to switch to it.</p></item>
+      <item><p>Paina <key href="help:gnome-help/keyboard-key-super">Super</key> avataksesi <gui>Toiminnot-yleisnäkymän</gui>.</p></item>
+      <item><p>Aloita sen sovelluksen nimen kirjoittaminen, johon haluat vaihtaa. Sovellukset, jotka vastaavat kirjoittamaasi, ilmestyvät näkyviin kirjoittaessasi.</p></item>
+      <item><p>Kun sovellus, johon haluat vaihtaa, ilmestyy ensimmäisenä tuloksena, paina <key>Enter</key> vaihtaaksesi siihen.</p></item>
       
     </steps>
     

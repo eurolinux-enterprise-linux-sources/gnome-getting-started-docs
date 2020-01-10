@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="mr">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="mr">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">सिस्टीम शोध वापरा</title>
@@ -27,7 +30,10 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p><gui>कार्य पूर्वावलोकन</gui> ला <key href="help:gnome-help/keyboard-key-super">Super</key> कि दाबुन उघडा. शोधण्याकरिता टाइप करायला सुरूवात करा.</p>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
     <p>तुम्ही काय टाइप केले याचे परिणाम टाइप केल्याप्रमाणे आढळतील. पहिले परिणाम नेहमी ठळक केले जाते आणि शीर्षकरिता दाखवले जाते.</p>
     <p>पहिल्या दृष्टीवेधीत निष्कर्षावर येण्याकरिता <key>Enter</key> दाबा.</p></item>
     </steps>
@@ -38,8 +44,14 @@
       <list>
         <item><p>मिळतेजुळते ॲप्लिकेशन्स, शोध निष्कर्षांमध्ये उच्च दाखवलं आहे,</p></item>
         <item><p>मिळत्याजुळत्या सेटिंग</p></item>
-        <item><p>मिळतेजुळते संपर्क पत्ते, आणि</p></item>
-        <item><p>मिळतेजुळते दस्तऐवज.</p></item>
+        <item><p>matching contacts,</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
       </list>
       </item>
       <item><p>शोध निष्कर्षांमध्ये, घटकावर येण्याकरिता त्यावर क्लिक करा.</p>
@@ -70,7 +82,7 @@
         <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
         on the right side of the top bar.</p></item>
         <item><p>Click the settings button at the bottom left of the menu.</p></item>
-        <item><p>Click the <gui>Search</gui> panel.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
         <item><p>शोध स्थळांच्या यादीत, <gui>चालू/बंद</gui> बटण क्लिक करा जेणेकरून जे स्थळ तुम्हाला बंद किंवा चालू करायचं आहे ते शोधता येईल.</p>
          </item>
       </steps>

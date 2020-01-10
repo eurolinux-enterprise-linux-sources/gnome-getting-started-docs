@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="lt">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Darbastalio fono keitimas</title>
+    <link type="seealso" xref="look-background"/>
+    <title role="seealso" type="link">Darbastalio fono keitimo pamoka</title>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mantas Kriaučiūnas</mal:name>
+      <mal:email>mantas@akl.lt</mal:email>
+      <mal:years>2013-2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Eglė Kriaučiūnienė</mal:name>
+      <mal:email>egle@valdorfas.org</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Pakeiskite darbastalio foną</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Darbastalio fono keitimas</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Spauskite ant sistemos meniu dešinėje viršutinės juostos pusėje ir paspauskite nustatymų mygtuką.</tt:p>
+           </tt:div>
+         <tt:div begin="10s" end="12s">
+           <tt:p>Pasirinkite <gui>Fonas</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="13s">
+           <tt:p>Spustelėkite ant dabartinio fono paveikslėlio.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="16s">
+           <tt:p>Spustelėkite ant norimo fono paveikslėlio.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18s">
+           <tt:p>Paspauskite mygtuką <gui>Pasirinkti</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="21s">
+           <tt:p>Uždarykite <gui>Fono</gui> langą.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="change-wallpaper-overview">
+    <title>Pakeiskite darbastalio foną</title>
+    
+    <steps>
+      <item><p>Spauskite ant <gui xref="shell-introduction#yourname">sistemos meniu</gui> viršutinės juostos dešinėje.</p></item>
+      <item><p>Paspauskite mygtuką „Nustatymai“ apatiniame kairiajame meniu kampe.</p></item>
+      <item><p>Spustelėkite ant <gui>Fonas</gui>.</p></item>
+      <item><p>Paspauskite ant dabartinio darbastalio paveikslėlio <gui>Fono</gui> lango kairėje.</p></item>
+      <item><p>Spustelėkite ant norimo fono paveikslėlio.</p></item>
+      <item><p>Paspauskite mygtuką <gui>Pasirinkti</gui>.</p></item>
+      <item><p>Užverkite langą <gui>Fonas</gui> spustelėdami ant kryžiuko viršutiniame dešiniame lango kampe.</p></item>
+    </steps>
+  </section>
+
+</page>

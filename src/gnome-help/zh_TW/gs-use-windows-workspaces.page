@@ -33,25 +33,29 @@
            <tt:p>視窗與工作區</tt:p>
          </tt:div>
          <tt:div begin="6s" end="10s">
-           <tt:p>若要讓視窗放到最大，請用滑鼠抓取視窗的標題列，並將它拖曳到螢幕頂端。</tt:p>
+           <tt:p>To maximize a window, grab the window’s titlebar and drag it to
+            the top of the screen.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="13s">
            <tt:p>當螢幕反白時，放開視窗。</tt:p>
          </tt:div>
          <tt:div begin="14s" end="20s">
-           <tt:p>若要還原放到最大的視窗，請用滑鼠抓取視窗的標題列，並拖曳它離開螢幕邊緣。</tt:p>
+           <tt:p>To unmaximize a window, grab the window’s titlebar and drag it
+            away from the edges of the screen.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
            <tt:p>您也可以點按住頂端列不放，將視窗拖離開來就能取消最大化。</tt:p>
          </tt:div>
          <tt:div begin="34s" end="38s">
-           <tt:p>若要讓視窗靠螢幕左側放到最大，請用滑鼠抓取視窗的標題列，並拖曳它到螢幕左側。</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="38s" end="40s">
            <tt:p>當螢幕的一半反白時，放開視窗。</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
-           <tt:p>若要讓視窗靠螢幕右側放到最大，請用滑鼠抓取視窗的標題列，並拖曳它到螢幕右側。</tt:p>
+           <tt:p>To maximize a window along the right side of the screen, grab
+            the window’s titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="44s" end="48s">
            <tt:p>當螢幕的一半反白時，放開視窗。</tt:p>
@@ -84,9 +88,12 @@
     <p/>
     
     <steps>
-      <item><p>若要讓視窗最大化，使其佔滿整個桌面上的空間，使用滑鼠抓取視窗的標題列，並拖曳至螢幕的頂端。</p></item>
+      <item><p>To maximize a window so that it takes up all of the space on
+       your desktop, grab the window’s titlebar and drag it to the top of the
+       screen.</p></item>
       <item><p>當螢幕反白時，放開視窗可以讓它放到最大。</p></item>
-      <item><p>若要讓視窗還原回尚未放到最大的大小，用滑鼠抓取視窗的標題列，再將它拖離開螢幕的邊緣。</p></item>
+      <item><p>To restore a window to its unmaximized size, grab the window’s
+       titlebar and drag it away from the edges of the screen.</p></item>
     </steps>
     
   </section>
@@ -96,7 +103,8 @@
     <p/>
     
     <steps>
-      <item><p>若要讓視窗靠著螢幕的一側放到最大，用滑鼠抓取視窗的標題列，並將它拖曳到螢幕的左側或右側。</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>當螢幕的一半反白時，放開視窗來讓視窗靠著螢幕的那側放到最大。</p></item>
       <item><p>若要讓兩個視窗排排站放到最大，抓取第二個視窗的標題列，再拖曳至螢幕的對側。</p></item>
        <item><p>當螢幕的另一半反白時，放開視窗來讓視窗靠著螢幕的對側放到最大。</p></item>

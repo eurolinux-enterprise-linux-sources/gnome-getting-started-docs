@@ -13,7 +13,7 @@
     <title role="trail" type="link">Εναλλαγή εργασιών</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Ένα μάθημα στην αλλαγή εργασιών</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
@@ -44,22 +44,22 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Εναλλαγή εργασιών</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>Δραστηριότητες</gui> στα πάνω αριστερά της οθόνης.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>Δραστηριότητες</gui> στα πάνω αριστερά της οθόνης.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Πατήστε σε ένα παράθυρο για να αλλάξετε σε αυτήν την εργασία.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της αριστερής πλευράς της οθόνης, πάρτε τη γραμμή τίτλου του παραθύρου και μεταφέρτε την στα αριστερά.</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="16s">
            <tt:p>Όταν η μισή οθόνη επισημανθεί, ελευθερώστε το παράθυρο.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της δεξιάς πλευράς, πάρτε τη γραμμή τίτλου του παραθύρου και μεταφέρτε την στα δεξιά.</tt:p>
+           <tt:p>To maximize a window along the right side, grab the window’s
+            titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
            <tt:p>Όταν η μισή οθόνη επισημανθεί, ελευθερώστε το παράθυρο.</tt:p>
@@ -115,7 +115,8 @@
     <title>Παράθεση παραθύρων</title>
     
     <steps>
-      <item><p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος μιας πλευράς της οθόνης, πάρτε τη γραμμή τίτλου του παραθύρου και σύρετε την στα αριστερά ή δεξιά της οθόνης.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>Όταν επισημανθεί η μισή οθόνη, ελευθερώστε το παράθυρο για να το μεγιστοποιήσετε κατά μήκος της επιλεγμένης πλευράς της οθόνης.</p></item>
       <item><p>Για μεγιστοποίηση δύο παραθύρων πλάι-πλάι, πάρτε τη γραμμή τίτλου του δεύτερου παραθύρου και σύρετε την στην αντίθετη πλευρά της οθόνης.</p></item>
        <item><p>Όταν επισημανθεί η μισή οθόνη, ελευθερώστε το παράθυρο για να το μεγιστοποιήσετε κατά μήκος της αντίθετης πλευράς της οθόνης.</p></item>

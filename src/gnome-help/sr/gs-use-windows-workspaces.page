@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="sr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Јакуб Штајнер (Jakub Steiner)</name>
+    </credit>
+    <credit type="author">
+      <name>Петр Ковар (Petr Kovar)</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Коришћење прозора и радних површина</title>
+    <link type="seealso" xref="shell-windows-switching"/>
+    <title role="seealso" type="link">Упутство за коришћење прозора и радних површина</title>
+    <link type="next" xref="gs-use-system-search"/>
+  </info>
+
+  <title>Коришћење прозора и радних простора</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Прозори и радни простори</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="10s">
+           <tt:p>Да бисте увећали прозор, зграбите насловну траку прозора и повуците је на врх екрана.</tt:p>
+           </tt:div>
+         <tt:div begin="10s" end="13s">
+           <tt:p>Када се екран истакне, пустите прозор.</tt:p>
+         </tt:div>
+         <tt:div begin="14s" end="20s">
+           <tt:p>Да бисте поништили увећање прозора, зграбите насловну траку прозора и удаљите је од ивица екрана.</tt:p>
+         </tt:div>
+         <tt:div begin="25s" end="29s">
+           <tt:p>Такође можете кликнути на горњу траку да бисте повукли прозор ван и поништили увећање прозора.</tt:p>
+         </tt:div>
+         <tt:div begin="34s" end="38s">
+           <tt:p>Да бисте увећали прозор уз леву страну екрана, зграбите насловну траку прозора и повуците је налево.</tt:p>
+         </tt:div>
+         <tt:div begin="38s" end="40s">
+           <tt:p>Када се половина екрана истакне, пустите прозор.</tt:p>
+         </tt:div>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Да бисте увећали прозор уз десну страну екрана, зграбите насловну траку прозора и повуците је надесно.</tt:p>
+         </tt:div>
+         <tt:div begin="44s" end="48s">
+           <tt:p>Када се половина екрана истакне, пустите прозор.</tt:p>
+         </tt:div>
+         <tt:div begin="54s" end="60s">
+           <tt:p>Да бисте увећали прозор користећи тастатуру, држите притиснут тастер <key href="help:gnome-help/keyboard-key-super">Super</key>, а затим притисните <key>↑</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="61s" end="66s">
+           <tt:p>Да бисте поништили увећање прозора, држите притиснут тастер <key href="help:gnome-help/keyboard-key-super">Super</key>, а затим притисните <key>↓</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="66s" end="73s">
+           <tt:p>Да бисте увећали прозор уз десну страну екрана, држите притиснут тастер <key href="help:gnome-help/keyboard-key-super">Super</key>, а затим притисните тастер <key>→</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="76s" end="82s">
+           <tt:p>Да бисте увећали прозор уз леву страну екрана, држите притиснут тастер <key href="help:gnome-help/keyboard-key-super">Super</key>, а затим притисните тастер <key>←</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="83s" end="89s">
+           <tt:p>Да се преместите на радни простор који се налази испод тренутног радног простора, притисните <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Page Down</key></keyseq>.</tt:p>
+         </tt:div>
+         <tt:div begin="90s" end="97s">
+           <tt:p>Да се преместите на радни простор који се налази изнад тренутног радног простора, притисните <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Page Up</key></keyseq>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="use-workspaces-and-windows-maximize">
+    <title>Увећавање и смањивање прозора</title>
+    <p/>
+    
+    <steps>
+      <item><p>Да бисте повећали прозор тако да испуни сав простор на вашој радној површини, зграбите насловну траку прозора и повуците је ка врху екрана.</p></item>
+      <item><p>Када се екран осветли, пустите прозор да би се увећао.</p></item>
+      <item><p>Да бисте вратили прозор на своје претходно, неувећано стање, зграбите насловну траку прозора и удаљите је од ивица екрана.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="use-workspaces-and-windows-tile">
+    <title>Слагање прозора</title>
+    <p/>
+    
+    <steps>
+      <item><p>Да бисте увећали прозор преко леве или десне стране екрана, зграбите насловну траку прозора и скроз је повуците у леву или десну страну екрана.</p></item>
+      <item><p>Када се половина страна осветли, пустите прозор да бисте га увећали преко стране екрана на коју сте повукли прозор.</p></item>
+      <item><p>Да бисте сложили два прозора један поред другог, зграбите насловну траку другог прозора и повуците је на супротну страну екрана, у односу на први прозор.</p></item>
+       <item><p>Када се половина екрана осветли, пустите прозор да бисте га увећали преко целе супротне стране екрана.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="use-workspaces-and-windows-maximize-keyboard">
+    <title>Увећавање и смањивање прозора помоћу тастатуре</title>
+    
+    <steps>
+      <item><p>Да бисте увећали прозор користећи тастатуру, држите притиснут тастер <key href="help:gnome-help/keyboard-key-super">Super</key>, а затим притисните <key>↑</key>.</p></item>
+      <item><p>Да бисте смањили прозор помоћу тастатуре, притисните тастер <key href="help:gnome-help/keyboard-key-super">Super</key> и онда притисните<key>↓</key>.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="use-workspaces-and-windows-tile-keyboard">
+    <title>Слагање прозора помоћу тастатуре</title>
+    
+    <steps>
+      <item><p>Да бисте увећали прозор уз десну страну екрана, држите притиснут тастер <key href="help:gnome-help/keyboard-key-super">Super</key>, а затим притисните тастер <key>→</key>.</p></item>
+      <item><p>Да бисте увећали прозор уз леву страну екрана, држите притиснут тастер <key href="help:gnome-help/keyboard-key-super">Super</key>, а затим притисните тастер <key>←</key>.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="use-workspaces-and-windows-workspaces-keyboard">
+    <title>Пребацивање између радних површине помоћу тастатуре</title>
+    
+    <steps>
+    
+    <item><p>Да бисте се пребацили на радни простор који се налази испод тренутног радног простора, притисните <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Down</key></keyseq>.</p></item>
+    <item><p>Да бисте се пребацили на радни простор који се налази изнад тренутног радног простора, притисните <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Up</key></keyseq>.</p></item>
+
+    </steps>
+    
+  </section>
+
+</page>

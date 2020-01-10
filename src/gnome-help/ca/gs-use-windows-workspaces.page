@@ -84,9 +84,11 @@
     <p/>
     
     <steps>
-      <item><p>Per maximitzar una finestra, de forma que ocupi tot l'espai de l'escriptori, agafeu la finestra per la barra del títol i arrossegueu-la cap a la part superior de la pantalla.</p></item>
+      <item><p>To maximize a window so that it takes up all of the space on
+       your desktop, grab the window’s titlebar and drag it to the top of the
+       screen.</p></item>
       <item><p>Quan es realci la pantalla, deixeu anar la finestra.</p></item>
-      <item><p>Per restaurar la mida de la finestra desmaximitzada, agafeu la finestra per la barra del títol i arrossegueu-la cap al centre de la pantalla.</p></item>
+      <item><p>Per restaurar la mida de la finestra minimitzada, agafeu la finestra per la barra del títol i arrossegueu-la cap al centre de la pantalla.</p></item>
     </steps>
     
   </section>
@@ -96,7 +98,8 @@
     <p/>
     
     <steps>
-      <item><p>Per maximitzar una finestra de forma que ocupi la meitat de la pantalla, agafeu la finestra per la barra del títol i arrossegueu-la cap a la part dreta o esquerra de la pantalla.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>Quan es realci la meitat de la pantalla, deixeu-la anar. La finestra ocuparà la meitat escollida de la pantalla.</p></item>
       <item><p>Per maximitzar dues finestres, una al costat de l'altra, agafeu la segona finestra per la barra del títol i arrossegueu-la cap a la meitat oposada de la pantalla.</p></item>
        <item><p>Quan es realci la meitat de la pantalla, deixeu-la anar. La finestra ocuparà la meitat oposada de la pantalla.</p></item>

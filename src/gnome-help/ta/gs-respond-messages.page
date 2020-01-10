@@ -9,11 +9,12 @@
     <credit type="author">
       <name>பெட்ர் கோவர்</name>
     </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">செய்திகளுக்கு பதிலளிக்கவும்</title>
     <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">செய்திகளுக்கு பதிலளிக்கவும்</title>
     <title role="seealso" type="link">செய்திகளுக்கு பதிலளித்தல் பற்றிய பயிற்சி</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Dr. T. Vasudevan</mal:name>

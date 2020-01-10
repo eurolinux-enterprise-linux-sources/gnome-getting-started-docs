@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" version="1.0 if/1.0" xml:lang="nl">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Surfen op het web</title>
+    <link type="seealso" xref="net-browser"/>
+    <title role="seealso" type="link">Een handleiding over surfen op het web</title>
+    <link type="next" xref="gs-connect-online-accounts"/>
+  </info>
+
+  <title>Surfen op het web</title>
+
+<if:choose>
+<if:when test="platform:gnome-classic">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox-classic.svg" width="100%"/>
+
+    <steps>
+      <item><p>Klik op het <gui>Toepassingen</gui>-menu in de linkerbovenhoek van het scherm..</p></item>
+      <item><p>Selecteer in het menu <guiseq><gui>Internet</gui><gui>Firefox</gui> </guiseq>.</p></item>
+    </steps>
+
+</if:when>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:when test="platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox.svg" width="100%"/>
+
+    <steps>
+      <item><p>Breng de muisaanwijzer naar de <gui>Activiteiten</gui>-hoek linksboven van het scherm om het <gui>Activiteitenoverzicht</gui> te tonen.</p></item>
+      <item><p>Selecteer het pictogram van <app>Firefox</app> in de balk aan de linkerkant van het scherm.</p></item>
+    </steps>
+
+    <note><p>U kunt de browser ook starten door <em>Firefox</em> <link xref="gs-use-system-search">gewoon in te typen</link> in het <gui>Activiteitenoverzicht</gui>.</p></note>
+
+</if:when>
+<if:else>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Breng de muisaanwijzer naar de <gui>Activiteiten</gui>-hoek linksboven van het scherm om het <gui>Activiteitenoverzicht</gui> te tonen.</p></item>
+      <item><p>Selecteer het pictogram van de <app>Web</app>browser in de balk aan de linkerkant van het scherm.</p></item>
+    </steps>
+
+    <note><p>U kunt de browser ook starten door <em>web</em> <link xref="gs-use-system-search">gewoon in te typen</link> in het <gui>Activiteitenoverzicht</gui>.</p></note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+
+</if:else>
+</if:choose>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:if test="platform:gnome-classic, platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2-firefox.svg" width="100%"/>
+
+</if:if>
+
+    <steps style="continues">
+      <item><p>Klik op de adresbalk bovenaan het browservenster en begin met het intypen van de website die u wilt bezoeken.</p></item>
+      <item><p>Bij het intypen van de website wordt het zoeken ernaar gestart in de geschiedenis en bladwijzers van de browser; u hoeft dus niet het exacte adres te onthouden.</p>
+        <p>Als de website gevonden wordt in de geschiedenis of de bladwijzers, verschijnt er onder de adresbalk een keuzelijst.</p></item>
+      <item><p>Met de pijltjestoetsen kunt u snel een website uit de keuzelijst selecteren.</p>
+      </item>
+      <item><p>Druk, nadat u een website geselecteerd heeft, op <key>Enter</key> om er naartoe te gaan.</p>
+      </item>
+    </steps>
+
+</page>

@@ -13,7 +13,7 @@
     <title role="trail" type="link">Přepínání úloh</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Vysvětlení, jak přepínat úlohy</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>Přepínání úloh</title>
@@ -26,11 +26,9 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Přepínání úloh</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Přejeďte ukazatelem myši do rohu <gui>Činnosti</gui> v levém horním rohu obrazovky.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Přejeďte ukazatelem myši do rohu <gui>Činnosti</gui> v levém horním rohu obrazovky.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Kliknutím na okno se přepnete na příslušnou úlohu.</tt:p>
          </tt:div>

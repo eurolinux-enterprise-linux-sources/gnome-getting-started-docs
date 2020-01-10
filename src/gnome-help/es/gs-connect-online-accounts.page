@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="es">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="es">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Daniel Mustieles</mal:name>
       <mal:email>daniel.mustieles@gmail.com</mal:email>
-      <mal:years>2013 - 2016</mal:years>
+      <mal:years>2013 - 2018</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -46,27 +46,21 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Pulse el panel <gui>Cuentas en línea</gui> y pulse el botón <gui>Añadir una cuenta en línea</gui>.</p></item>
-    </steps>
-    
-    <note><p>Si ya ha creado una cuenta en línea, puede añadir otra cuenta en línea pulsando el botón <gui>+</gui> en la esquina izquierda inferior de la ventana.</p></note>
-    
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+      <item><p>Pulse el panel <gui>Cuentas en línea</gui> y luego pulse en el servicio de la cuenta que quiere usar.</p>
 
-    <steps style="continues">  
-      <item><p>Pulse la cuenta en línea que quiera utilizar. Se abrirá una nueva ventana donde puede iniciar sesión en su cuenta en línea.</p></item>
+      <p>Esto abrirá una ventana nueva donde puede iniciar sesión en su cuneta en línea.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>En la mayoría de los casos, después de haber iniciado sesión tendrá que conceder acceso al servicio en línea para comenzar.</p></item>
       <item><p>Por ejemplo, si se conecta a su cuenta de Google, tendrá que pulsar el botón <gui>Conceder acceso</gui>.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Muchas cuentas en línea le permiten elegir los servicios que desee utilizar con su cuenta en línea. Si no desea algún servicio en particular, desactívelo con el <gui>interruptor de encendido/apagado</gui> que está al lado derecho de la ventana.</p></item>
     </steps>
 

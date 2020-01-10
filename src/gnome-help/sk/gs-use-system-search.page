@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="sk">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="sk">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">Používanie systémového hľadania</title>
@@ -27,7 +30,10 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Otvoríme <gui>Prehľad aktivít</gui> stlačením klávesu <key href="help:gnome-help/keyboard-key-super">Super</key>. Písaním spustíme vyhľadávanie.</p>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
     <p>Počas písania sa zobrazujú výsledky zodpovedajúce tomu čo sme napísali. Prvý výsledok je vždy zvýraznený a zobrazuje sa hore.</p>
     <p>Stlačením klávesu <key>Enter</key> sa prepneme na prvý zvýraznený výsledok.</p></item>
     </steps>
@@ -38,8 +44,14 @@
       <list>
         <item><p>zodpovedajúce aplikácie, zobrazené navrchu výsledkov vyhľadávania,</p></item>
         <item><p>zodpovedajúce nastavenia,</p></item>
-        <item><p>zodpovedajúce kontakty a</p></item>
-        <item><p>zodpovedajúce dokumenty.</p></item>
+        <item><p>matching contacts,</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
       </list>
       </item>
       <item><p>Na položku vo výsledkoch vyhľadávania sa prepneme kliknutím.</p>
@@ -69,7 +81,7 @@
         <title>To, čo chceme zobraziť vo výsledkoch vyhľadávania môžeme prispôsobiť takto:</title>
         <item><p>Klikneme na ponuku <gui xref="shell-introduction#yourname">Systém </gui> v pravej časti horného panelu.</p></item>
         <item><p>Klikneme na tlačidlo Nastavenia v ľavej dolnej časti ponuky.</p></item>
-        <item><p>Klikneme na panel <gui>Hľadať</gui>.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
         <item><p>Ak chceme povoliť alebo blokovať vyhľadávanie v nejakom umiestnení, klikneme na prepínač <gui>ZAP/VYP</gui> vedľa daného umiestnenia v zozname.</p>
          </item>
       </steps>

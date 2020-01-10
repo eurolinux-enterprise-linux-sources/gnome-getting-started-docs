@@ -13,7 +13,7 @@
     <title role="trail" type="link">Alternando tarefas</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Um tutorial sobre alternar tarefas</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Enrico Nicoletto</mal:name>
@@ -30,7 +30,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Rafael Fontenelle</mal:name>
       <mal:email>rafaelff@gnome.org</mal:email>
-      <mal:years>2013, 2016</mal:years>
+      <mal:years>2013, 2016, 2017</mal:years>
     </mal:credit>
   </info>
 
@@ -44,11 +44,9 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Alternando tarefas</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Mova o ponteiro do seu mouse para o canto de <gui>Atividades</gui> ao topo à esquerda da tela.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Mova o ponteiro do seu mouse para o canto de <gui>Atividades</gui> ao topo à esquerda da tela.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Clique em uma janela para alternar para aquela tarefa.</tt:p>
          </tt:div>

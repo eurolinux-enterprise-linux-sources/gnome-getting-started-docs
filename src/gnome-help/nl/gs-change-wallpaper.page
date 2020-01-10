@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="nl">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">De achtergrond wijzigen</title>
+    <link type="seealso" xref="look-background"/>
+    <title role="seealso" type="link">Een handleiding over het wijzigen van de bureaubladachtergrond</title>
+  </info>
+
+  <title>De achtergrond wijzigen</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>De achtergrond wijzigen</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Klik op het systeemmenu aan de rechterkant van de bovenste balk en kies de knop Instellingen.</tt:p>
+           </tt:div>
+         <tt:div begin="10s" end="12s">
+           <tt:p>Kies <gui>Achtergrond</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="13s">
+           <tt:p>Klik op de huidige achtergrondafbeelding.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="16s">
+           <tt:p>Klik op de achtergrondafbeelding die u wilt gebruiken.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18s">
+           <tt:p>Klik op de knop <gui>Selecteren</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="21s">
+           <tt:p>Sluit het <gui>Achtergrond</gui>venster.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="change-wallpaper-overview">
+    <title>De achtergrond wijzigen</title>
+    
+    <steps>
+      <item><p>Klik op het <gui xref="shell-introduction#yourname">systeemmenu</gui> aan de rechterkant van de bovenste balk.</p></item>
+      <item><p>Klik op de knop Instellingen linksonder in het menu.</p></item>
+      <item><p>Klik op het <gui>Achtergrond</gui>paneel.</p></item>
+      <item><p>Klik op de huidige achtergrondafbeelding aan de linkerkant van het <gui>Achtergrond</gui>venster.</p></item>
+      <item><p>Klik op de achtergrondafbeelding die u wilt gebruiken.</p></item>
+      <item><p>Klik op de knop <gui>Selecteren</gui>.</p></item>
+      <item><p>Sluit het <gui>Achtergrond</gui>venster door op het kruisje rechtsboven in het venster te klikken.</p></item>
+    </steps>
+  </section>
+
+</page>

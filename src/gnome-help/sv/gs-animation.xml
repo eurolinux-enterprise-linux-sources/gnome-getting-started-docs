@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">Datum- och tidsinställningar</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">Automatisk datum och tid</t>
 <t id="autotimezone">Automatisk tidszon</t>
-<t id="sstime">14 Oktober 2013, 20:00</t>
-<t id="sstime2">14 Oktober 2013, 14:00</t>
+<t id="sstime">14 Oktober 2013, 20∶00</t>
+<t id="sstime2">14 Oktober 2013, 14∶00</t>
 </titles>

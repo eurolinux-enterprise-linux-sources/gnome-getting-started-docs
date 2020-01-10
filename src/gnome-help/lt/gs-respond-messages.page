@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="lt">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">Atsakyti į žinutes</title>
+    <title role="seealso" type="link">Atsakymo į žinutes vadovas</title>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mantas Kriaučiūnas</mal:name>
+      <mal:email>mantas@akl.lt</mal:email>
+      <mal:years>2013-2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Eglė Kriaučiūnienė</mal:name>
+      <mal:email>egle@valdorfas.org</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Atsakymas į pranešimus</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="3s">
+           <tt:p>Atsakinėjimas į žinutes</tt:p>
+         </tt:div>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Nuveskite pelės žymeklį virš pokalbio žinutės, kuri pasirodo ekrano viršuje.</tt:p>
+           </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Pradėkite atsakinėti ir kai pabaigsite, paspauskite <key>Enter </key> norėdami išsiųsti atsakymą.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="10s">
+           <tt:p>Užverkite pokalbio žinutę.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Vėlesnis atsakymas</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="22s">
+           <tt:p>Pokalbio žinutė ekrano viršuje pranyksta po kurio laiko, jei neužvedate pelės žymiklio virš jos.</tt:p>
+         </tt:div>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Neatsakytas žinutes pamatysite spustelėję ant ekrano viršuje esančio laikrodžio.</tt:p>
+         </tt:div>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Pasirinkite reikiamą žinutę iš pranešimų sąrašo</tt:p>
+         </tt:div>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Pradėkite rašyti savo atsakymą.</tt:p>
+         </tt:div>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Pranešimų sąrašą pamatysite paspaudę klaviatūroje <keyseq> <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> <key>V</key></keyseq></tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Naudodami rodyklių klavišais pasirinkite žinutę, į kurią norite atsakyti ir paspauskite <key>Enter</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Pradėkite rašyti savo atsakymą.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="respond-to-messages-mouse">
+    <title>Atsakyti į pokalbio žinutę su pele</title>
+    
+    <steps>
+      <item><p>Nuveskite pelės žymeklį virš pokalbio žinutės, kuri pasirodo ekrano viršuje.</p></item>
+      <item><p>Rašykite savo atsakymą ir norėdami išsiųsti atsakymą paspauskite <key>Enter</key>.</p></item>
+      <item><p>Norėdami užverti pokalbio žinutę, paspauskite uždarymo mygtuką viršutiniame dešiniajame pokalbio žinutės lango kampe.</p></item>
+    </steps>
+    <p/>
+  </section>
+  
+  <section id="respond-to-messages-delayed-mouse">
+    <title>Atidėti atsakymą į pokalbio žinutę su pele</title>
+    
+    <steps>
+      <item><p>Kai pokalbio žinutė atsiranda ekrano viršuje ir jūs nenuvedate pelės žymeklio virš žinutės, ji po kurio laiko pranyksta.</p></item>
+      <item><p>Neatsakytas žinutes pamatysite spustelėję ant ekrano viršuje esančio laikrodžio.</p></item>
+      <item><p>Pranešimų sąraše spustelėkite ant žinutės, į kurią norite atsakyti.</p></item>
+      <item><p>Kai pokalbio žinutė bus atverta – rašykite atsakymą, o pabaigę paspauskite <key>Enter</key>.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="respond-to-messages-delayed-keyboard">
+    <title>Atidėtas atsakymas į pokalbio žinutę naudojantis klaviatūra</title>
+    <steps>
+      <item><p>Norėdami pamatyti neatsakytas pokalbių žinutes, spauskite <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key> </keyseq> ir pamatysite neperžiūrėtų pranešimų sąrašą.</p>
+      </item>
+      <item><p>Naudodami rodyklių klavišus pasirinkite žinutę, į kurią norite atsakyti ir paspauskite <key>Enter</key>.</p></item>
+      <item><p>Kai pokalbio žinutė bus atverta – rašykite atsakymą, o pabaigę paspauskite <key>Enter</key>.</p></item>
+    </steps>
+
+  </section>
+
+
+</page>

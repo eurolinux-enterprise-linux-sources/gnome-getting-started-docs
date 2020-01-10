@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="getting-started" version="1.0 if/1.0" xml:lang="ro">
+
+<info>
+    <link type="guide" xref="index" group="#gs"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <desc>Este GNOME nou pentru dumneavoastră? Învățați cum să-l utilizați.</desc>
+    <title type="link">Primii pași în GNOME</title>
+    <title type="text">Primii pași</title>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Șerbănescu</mal:name>
+      <mal:email>daniel [at] serbanescu [dot] dk</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Primii Pași</title>
+
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
+  <ui:overlay width="235" height="145">
+  <media type="video" its:translate="no" src="figures/gnome-launching-applications.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-launching-apps.svg">
+      <ui:caption its:translate="yes"><desc style="center">Lansarea de aplicații</desc></ui:caption>
+    </ui:thumb>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Lansarea de aplicații</tt:p>
+         </tt:div>
+         <tt:div begin="5s" end="7.5s">
+           <tt:p>Mutați cursorul mausului în colțul cu <gui>Activități</gui> din partea stângă sus a ecranului.</tt:p>
+           </tt:div>
+         <tt:div begin="7.5s" end="9.5s">
+           <tt:p>Apăsați pe iconița <gui>Arată aplicații</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="9.5s" end="11s">
+           <tt:p>Clic pe aplicația pe care doriți să o executați, de exemplu, Ajutor.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="21s">
+           <tt:p>În mod alternativ, utilizați tastatura pentru a deschide <gui>Activități</gui> apăsând pe tasta <key href="help:gnome-help/keyboard-key-super">Super</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="22s" end="29s">
+           <tt:p>Începeți să tastați numele aplicației pe care doriți să o deschideți.</tt:p>
+         </tt:div>
+         <tt:div begin="30s" end="33s">
+           <tt:p>Apăsați <key>Enter</key> pentru a lansa aplicația.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+</if:when>
+<if:when test="platform:gnome-classic">
+
+  <ui:overlay width="235" height="145">
+  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg">
+          <ui:caption its:translate="yes"><desc style="center">Utilizarea ferestrelor și a spațiilor de lucru</desc></ui:caption>
+    </ui:thumb>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Ferestre și spații de lucru</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="10s">
+           <tt:p>Pentru a maximiza o fereastră, apucați bara de titlu a ferestrei și trageți-o în partea superioară a ecranului.</tt:p>
+           </tt:div>
+         <tt:div begin="10s" end="13s">
+           <tt:p>Când ecranul este evidențiat, eliberați fereastra.</tt:p>
+         </tt:div>
+         <tt:div begin="14s" end="20s">
+           <tt:p>Pentru a demaximiza o fereastră, apucați bara de titlu a ferestrei și trageți-o departe de marginile ecranului.</tt:p>
+         </tt:div>
+         <tt:div begin="25s" end="29s">
+           <tt:p>Puteți de asemenea apăsa pe bara de sus pentru a trage fereastra și a o demaximiza.</tt:p>
+         </tt:div>
+         <tt:div begin="34s" end="38s">
+           <tt:p>Pentru a maximiza fereastra în partea stângă a ecranului, apucați bara de titlu a ferestrei și trageți-o la stânga.</tt:p>
+         </tt:div>
+         <tt:div begin="38s" end="40s">
+           <tt:p>Când jumătate din ecran este evidențiat, eliberați fereastra.</tt:p>
+         </tt:div>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Pentru a maximiza fereastra în partea dreaptă a ecranului, apucați bara de titlu a ferestrei și trageți-o la dreapta.</tt:p>
+         </tt:div>
+         <tt:div begin="44s" end="48s">
+           <tt:p>Când jumătate din ecran este evidențiat, eliberați fereastra.</tt:p>
+         </tt:div>
+         <tt:div begin="54s" end="60s">
+           <tt:p>Pentru a maximiza fereastra utilizând tastatura, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>↑</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="61s" end="66s">
+           <tt:p>Pentru a restaura fereastra la dimensiunea ei demaximizată, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>↓</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="66s" end="73s">
+           <tt:p>Pentru a maximiza o fereastră la dreapta ecranului, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>→</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="76s" end="82s">
+           <tt:p>Pentru a maximiza o fereastră la stânga ecranului, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>←</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="83s" end="89s">
+           <tt:p>Pentru a muta un spațiu de lucru care este sub spațiul de lucru curent, apăsați <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Down</key></keyseq>.</tt:p>
+         </tt:div>
+         <tt:div begin="90s" end="97s">
+           <tt:p>Pentru a muta un spațiu de lucru care este deasupra spațiului de lucru curent, apăsați <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Up</key></keyseq>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+</if:when>
+</if:choose>
+
+  <ui:overlay width="235" height="145">
+  <media type="video" its:translate="no" src="figures/gnome-task-switching.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-task-switching.svg">
+        <ui:caption its:translate="yes"><desc style="center">Comutarea între sarcini</desc></ui:caption>
+    </ui:thumb>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Comutarea între sarcini</tt:p>
+         </tt:div>
+         <tt:div begin="5s" end="8s">
+           <tt:p if:test="!platform:gnome-classic">Mutați cursorul mausului în colțul cu <gui>Activități</gui> din partea stângă sus a ecranului.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="12s">
+           <tt:p>Clic pe o fereastră pentrua comuta la acea sarcină.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Pentru a maximiza fereastra în partea stângă a ecranului, apucați bara de titlu a ferestrei și trageți-o la stânga.</tt:p>
+         </tt:div>
+         <tt:div begin="14s" end="16s">
+           <tt:p>Când jumătate din ecran este evidențiat, eliberați fereastra.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18">
+           <tt:p>Pentru a maximiza fereastra în partea dreaptă, apucați bara de titlu a ferestrei și trageți-o la dreapta.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="20s">
+           <tt:p>Când jumătate din ecran este evidențiat, eliberați fereastra.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="27s">
+           <tt:p>Apăsați <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Tab</key></keyseq> pentru a arăta <gui>comutatorul de ferestre</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="27s" end="29s">
+           <tt:p>Eliberați tasta <key href="help:gnome-help/keyboard-key-super">Super</key> pentru a selecta următoarea fereastră evidențiată.</tt:p>
+         </tt:div>
+         <tt:div begin="29s" end="32s">
+           <tt:p>Pentru a cicla prin lista de ferestre deschise, nu elibarți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> în timp ce apăsați <key>Tab</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="37s">
+           <tt:p>Apăsați tasta <key href="help:gnome-help/keyboard-key-super">Super</key> pentru a arăta vederea de ansamblu <gui>Activități</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="37s" end="40s">
+           <tt:p>Începeți să tastați numele aplicației la care doriți să comutați.</tt:p>
+         </tt:div>
+         <tt:div begin="40s" end="43s">
+           <tt:p>Când aplicația va apărea ca prim rezultat, apăsați <key>Enter</key> pentru a comuta la ea.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
+  <ui:overlay width="235" height="145">
+  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg">
+          <ui:caption its:translate="yes"><desc style="center">Utilizarea ferestrelor și a spațiilor de lucru</desc></ui:caption>
+    </ui:thumb>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Ferestre și spații de lucru</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="10s">
+           <tt:p>Pentru a maximiza o fereastră, apucați bara de titlu a ferestrei și trageți-o în partea superioară a ecranului.</tt:p>
+           </tt:div>
+         <tt:div begin="10s" end="13s">
+           <tt:p>Când ecranul este evidențiat, eliberați fereastra.</tt:p>
+         </tt:div>
+         <tt:div begin="14s" end="20s">
+           <tt:p>Pentru a demaximiza o fereastră, apucați bara de titlu a ferestrei și trageți-o departe de marginile ecranului.</tt:p>
+         </tt:div>
+         <tt:div begin="25s" end="29s">
+           <tt:p>Puteți de asemenea apăsa pe bara de sus pentru a trage fereastra și a o demaximiza.</tt:p>
+         </tt:div>
+         <tt:div begin="34s" end="38s">
+           <tt:p>Pentru a maximiza fereastra în partea stângă a ecranului, apucați bara de titlu a ferestrei și trageți-o la stânga.</tt:p>
+         </tt:div>
+         <tt:div begin="38s" end="40s">
+           <tt:p>Când jumătate din ecran este evidențiat, eliberați fereastra.</tt:p>
+         </tt:div>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Pentru a maximiza fereastra în partea dreaptă a ecranului, apucați bara de titlu a ferestrei și trageți-o la dreapta.</tt:p>
+         </tt:div>
+         <tt:div begin="44s" end="48s">
+           <tt:p>Când jumătate din ecran este evidențiat, eliberați fereastra.</tt:p>
+         </tt:div>
+         <tt:div begin="54s" end="60s">
+           <tt:p>Pentru a maximiza fereastra utilizând tastatura, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>↑</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="61s" end="66s">
+           <tt:p>Pentru a restaura fereastra la dimensiunea ei demaximizată, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>↓</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="66s" end="73s">
+           <tt:p>Pentru a maximiza o fereastră la dreapta ecranului, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>→</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="76s" end="82s">
+           <tt:p>Pentru a maximiza o fereastră la stânga ecranului, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>←</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="83s" end="89s">
+           <tt:p>Pentru a muta un spațiu de lucru care este sub spațiul de lucru curent, apăsați <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Down</key></keyseq>.</tt:p>
+         </tt:div>
+         <tt:div begin="90s" end="97s">
+           <tt:p>Pentru a muta un spațiu de lucru care este deasupra spațiului de lucru curent, apăsați <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Up</key></keyseq>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+</if:when>
+<if:when test="platform:gnome-classic">
+
+  <ui:overlay width="235" height="145">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg">
+      <ui:caption its:translate="yes"><desc style="center">Schimbarea tapetului</desc></ui:caption>
+    </ui:thumb>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Schimbarea tapetului</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Clic pe meniul sistemului din partea dreaptă a barei superioare și apăsați butonul configurări.</tt:p>
+           </tt:div>
+         <tt:div begin="10s" end="12s">
+           <tt:p>Selecatați <gui>Fundal</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="13s">
+           <tt:p>Clic pe imaginea de fundal curentă.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="16s">
+           <tt:p>Clic pe imaginea pe care doriți să o utilizați.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18s">
+           <tt:p>Clic pe butonul <gui>Selectează</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="21s">
+           <tt:p>Închideți fereastra <gui>Fundal</gui>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+</if:when>
+</if:choose>
+
+<links type="topic" style="grid" groups="tasks">
+<title style="heading">Sarcini obișnuite</title>
+</links>
+
+<links type="guide" style="heading nodesc">
+<title/>
+</links>
+
+</page>

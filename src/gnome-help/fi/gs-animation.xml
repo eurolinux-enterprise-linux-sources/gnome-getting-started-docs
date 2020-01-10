@@ -22,7 +22,7 @@
 <t its:locNote="Translators: Tab is the name of the key." id="tab">Tab</t>
 <t id="esc">Esc</t>
 <t its:locNote="Translators: A GNOME Shell search keyword used to find the yelp help viewer." id="search">ohje</t>
-<t its:locNote="Translators: A GNOME Shell search keyword used to find the web browser." id="search2">web</t>
+<t its:locNote="Translators: A GNOME Shell search keyword used to find the web browser." id="search2">verkko</t>
 <t id="title-justtype">Aloita kirjoittaminen…</t>
 <t id="user">John Doe</t>
 <t id="systemsettings">Asetukset</t>
@@ -30,7 +30,7 @@
 <t id="wallpapers">Taustakuvat</t>
 <t id="select">Valitse</t>
 <t id="bubble.message">Valmiina kokoukseen?</t>
-<t id="bubble.response">Tulen aivan kohta...</t>
+<t id="bubble.response">Tulen aivan kohta…</t>
 <t id="bubble.message2">Hyvä juttu, kiitos taas</t>
 <t id="bubble.response2">Kiitos tuesta</t>
 <t id="bubble.message3">Ei kestä.</t>
@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">Päivän ja ajan asetukset</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">Automaattinen päivä ja aika</t>
 <t id="autotimezone">Automaattinen aikavyöhyke</t>
-<t id="sstime">14. lokakuuta 2013, 20:00</t>
-<t id="sstime2">14. lokakuuta 2013, 14:00</t>
+<t id="sstime">14. lokakuuta 2013, 20∶00</t>
+<t id="sstime2">14. lokakuuta 2013, 14∶00</t>
 </titles>

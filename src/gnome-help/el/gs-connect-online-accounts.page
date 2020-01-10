@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="el">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="el">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -46,27 +46,24 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Κάντε κλικ στον πίνακα <gui>Διαδικτυακοί λογαριασμοί</gui>, και μετά το κουμπί <gui>Προσθήκη διαδικτυακού λογαριασμού</gui>.</p></item>
-    </steps>
-    
-    <note><p>Εάν έχετε εγκαταστήσει ήδη έναν διαδικτυακό λογαριασμό, μπορείτε να προσθέσετε έναν άλλο διαδικτυακό λογαριασμό πατώντας το πλήκτρο <gui>+</gui> στην κάτω αριστερή γωνία του παραθύρου.</p></note>
-    
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+      <item><p>Click the <gui>Online Accounts</gui> panel, then click the online
+      account service you want to use.</p>
 
-    <steps style="continues">  
-      <item><p>Πατήστε στον διαδικτυακό λογαριασμό που θέλετε να χρησιμοποιήσετε. Αυτό θα ανοίξει ένα νέο παράθυρο όπου μπορείτε να γράψετε τον διαδικτυακό λογαριασμό σας.</p></item>
+      <p>This will open a new window where you can sign in to your online
+      account.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Στις περισσότερες περιπτώσεις, θα πρέπει να παραχωρήσετε πρόσβαση στη διαδικτυακή υπηρεσία μετά την είσοδο σας για να ξεκινήσετε.</p></item>
-      <item><p>Για παράδειγμα, εάν συνδεθείτε με τον λογαριασμό σας στο Google, θα πρέπει να πατήσετε το κουμπί <gui>Παραχώρηση πρόσβασης</gui>.</p></item>
+      <item><p>For example, if you are connecting to your Google account, you
+       will have to click the <gui>Allow</gui> button.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Πολλοί διαδικτυακοί λογαριασμοί σας επιτρέπουν να επιλέξετε τις υπηρεσίες που θέλετε να χρησιμοποιήσετε με τον διαδικτυακό λογαριασμό σας. Εάν δεν θέλετε να χρησιμοποιήσετε μια υπηρεσία, απενεργοποιήστε την πατώντας τον διακόπτη <gui>ΝΑΙ/ΟΧΙ</gui> στα δεξιά του παραθύρου.</p></item>
     </steps>
 

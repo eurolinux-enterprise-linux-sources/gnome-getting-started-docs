@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0" xml:lang="hr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Promjena datuma, vremena i vremenske zone</title>
+    <link type="seealso" xref="clock"/>
+    <title role="seealso" type="link">Vodič promjene datuma, vremena i vremenske zone</title>
+    <link type="next" xref="gs-change-wallpaper"/>
+  </info>
+
+  <title>Promjena datuma, vremena i vremenske zone</title>
+
+  <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+
+  <steps>
+    <item><p>Kliknite na <gui xref="shell-introduction#yourname">izbornik sustava</gui> na desnoj strani gornje trake.</p></item>
+    <item><p>Kliknite tipku postavki dolje lijevo u izborniku.</p></item>
+    <item><p>Odaberite <gui>Pojedinosti</gui> a zatim <gui>Datum i vrijeme</gui> panel .</p></item>
+  </steps>
+  
+  <media its:translate="no" type="image" mime="image/svg" src="gs-datetime.svg" width="100%"/>
+  
+  <steps style="continues">
+    <item><p>Pobrinite se da je stavka <gui>Automatska vremenska zona</gui> isključena, a zatim kliknite na stavku <gui>Vremenska zona</gui> ispod.</p></item>
+    <item><p>Kliknite na vašu lokaciju na karti svijeta. To odabire vaš trenutni grad, kojega isto možete potražiti u okviru pretrage na vrhu karte.</p></item>
+    <item><p>Zatvorite prozor karte svijeta kako bi se vratili natrag u <gui>Datum i vrijeme</gui>.</p></item>
+    <item><p>Pobrinite se da je stavka <gui>Automatska vremenska zona</gui> isključena, a zatim kliknite na stavku <gui>Vremenska zona</gui> ispod kako bi otvorili <gui>Datum i vrijeme</gui> prozor. Tamo možete prilagoditi vaše postavke datuma i vremena klikom na <gui>+</gui> ili <gui>-</gui> tipku.</p>
+     </item>
+    <item><p>Zatvorite prozor kako bi se vratili natrag u <gui>Datum i vrijeme</gui>, a zatim zatvorite panel.</p></item>
+  </steps>
+
+</page>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="sv">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="sv">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">Använd systemsökning</title>
@@ -33,7 +36,7 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Öppna <gui>Aktivitetsöversikt</gui> genom att trycka på <key href="help:gnome-help/keyboard-key-super">Super</key>. Börja skriva för att söka.</p>
+    <item><p>Öppna översiktsvyn <gui>Aktiviteter</gui> genom att klicka på <gui>Aktiviteter</gui> högst upp till vänster på skärmen, eller genom att trycka ned knappen <key href="help:gnome-help/keyboard-key-super">Super</key>. Börja skriva för att söka.</p>
     <p>Resultat som matchar det du har skrivit kommer att visas medan du skriver. Det första resultatet är alltid markerat och visas i längst upp.</p>
     <p>Tryck på <key>Retur</key> för att växla till det första, markerade resultatet.</p></item>
     </steps>
@@ -44,8 +47,14 @@
       <list>
         <item><p>program som matchar, visas överst bland sökresultaten,</p></item>
         <item><p>matchande inställningar,</p></item>
-        <item><p>matchande kontakter, och</p></item>
-        <item><p>matchande dokument.</p></item>
+        <item><p>matchande kontakter,</p></item>
+        <item><p>matchande dokument,</p></item>
+        <item><p>matchande kalender,</p></item>
+        <item><p>matchande kalkylator,</p></item>
+        <item><p>matchande programvara,</p></item>
+        <item><p>matchande filer,</p></item>
+        <item><p>matchande terminal,</p></item>
+        <item><p>matchande lösenord och nycklar.</p></item>
       </list>
       </item>
       <item><p>Bland sökresultaten, klicka på alternativet för att växla till det.</p>
@@ -75,7 +84,7 @@
         <title>För att anpassa vad som ska visas bland sökresultaten:</title>
         <item><p>Klicka på <gui xref="shell-introduction#yourname">systemmenyn</gui> på höger sida av systemraden.</p></item>
         <item><p>Tryck på inställningsknappen längst ner till vänster i menyn.</p></item>
-        <item><p>Klicka på panelen <gui>Sök</gui>.</p></item>
+        <item><p>Klicka på <gui>Sök</gui> i den vänstra panelen.</p></item>
         <item><p>I listan över sökplatser, klicka på <gui>AV/PÅ</gui>-brytaren intill sökplatsen som du vill slå av eller slå på.</p>
          </item>
       </steps>

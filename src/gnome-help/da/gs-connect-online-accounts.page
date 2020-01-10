@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="da">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Forbind til onlinekonti</title>
+    <link type="seealso" xref="accounts"/>
+    <title role="seealso" type="link">En vejledning til at forbinde til onlinekonti</title>
+    <link type="next" xref="gs-change-date-time-timezone"/>
+  </info>
+
+  <title>Forbind til onlinekonti</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Klik på <gui xref="shell-introduction#yourname">systemmenuen</gui> på højre side af toplinjen.</p></item>
+      <item><p>Klik på knappen indstillinger nederst til venstre i menuen.</p></item>
+    </steps>
+       
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
+    
+    <steps style="continues">
+      <item><p>Klik på panelet <gui>Onlinekonti</gui>, og klik så på den onlinekontotjeneste, du vil bruge.</p>
+
+      <p>Dette vil åbne et nyt vindue, hvor du kan logge ind på din onlinekonto.</p></item>
+    </steps>
+      
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Du skal for det meste give tilladelse til online-tjenesten efter du har logget ind for at komme i gang.</p></item>
+      <item><p>Klik f.eks. på knappen <gui>Tillad</gui> for at forbinde til din Google-konto.</p></item>
+    </steps>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Mange onlinekonti lader dig vælge de tjenester, du vil bruge med din online-konto. Hvis du ikke vil bruge en tjeneste, så deaktivér den ved at klikke på kontakten <gui>TIL/FRA</gui> på højre side af vinduet.</p></item>
+    </steps>
+
+</page>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" version="1.0 if/1.0" xml:lang="da">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Gå på webbet</title>
+    <link type="seealso" xref="net-browser"/>
+    <title role="seealso" type="link">En vejledning til at gå på webbet</title>
+    <link type="next" xref="gs-connect-online-accounts"/>
+  </info>
+
+  <title>Gå på webbet</title>
+
+<if:choose>
+<if:when test="platform:gnome-classic">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox-classic.svg" width="100%"/>
+
+    <steps>
+      <item><p>Klik på menuen <gui>Programmer</gui>, øverst til venstre på skærmen.</p></item>
+      <item><p>Vælg <guiseq><gui>Internet</gui><gui>Firefox</gui> </guiseq> fra menuen.</p></item>
+    </steps>
+
+</if:when>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:when test="platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox.svg" width="100%"/>
+
+    <steps>
+      <item><p>Flyt din musemarkør til hjørnet med <gui>Aktiviteter</gui>, øverst til venstre på skærmen for at vise <gui>Aktivitetsoversigten</gui>.</p></item>
+      <item><p>Vælg browserikonet <app>Firefox</app> fra linjen på venstre side af skærmen.</p></item>
+    </steps>
+
+    <note><p>Du kan også starte browseren ved <link xref="gs-use-system-search">blot at skrive</link> <em>Firefox</em> i <gui>Aktivitetsoversigten</gui>.</p></note>
+
+</if:when>
+<if:else>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Flyt din musemarkør til hjørnet med <gui>Aktiviteter</gui>, øverst til venstre på skærmen for at vise <gui>Aktivitetsoversigten</gui>.</p></item>
+      <item><p>Vælg browserikonet <app>Web</app> fra linjen på venstre side af skærmen.</p></item>
+    </steps>
+
+    <note><p>Du kan også starte browseren ved <link xref="gs-use-system-search">blot at skrive</link> <em>web</em> i <gui>Aktivitetsoversigten</gui>.</p></note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+
+</if:else>
+</if:choose>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:if test="platform:gnome-classic, platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2-firefox.svg" width="100%"/>
+
+</if:if>
+
+    <steps style="continues">
+      <item><p>Klik på adresslinjen øverst i browservinduet, og begynd at skrive det websted, du vil besøge.</p></item>
+      <item><p>Indtastning af et websted starter en søgning efter det i browserhistorikken og bogmærkerne, så du ikke behøver at huske den præcise adresse.</p>
+        <p>Hvis webstedet findes i historikken eller bogmærkerne, vises en rullegardinsliste under adresselinjen.</p></item>
+      <item><p>Du kan hurtigt vælge et websted fra rullegardinslisten ved at bruge piletasterne.</p>
+      </item>
+      <item><p>Tryk på <key>Enter</key> efter du har valgt webstedet for at besøge det.</p>
+      </item>
+    </steps>
+
+</page>

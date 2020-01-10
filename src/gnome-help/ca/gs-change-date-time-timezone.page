@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0" xml:lang="ca">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0" xml:lang="ca">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -29,7 +29,7 @@
   <steps>
     <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
     on the right side of the top bar.</p></item>
-    <item><p>Click the settings button at the bottom left of the menu.</p></item>
+    <item><p>Feu clic al botó de paràmetres situat al final esquerra del menú.</p></item>
     <item><p>Select the <gui>Date &amp; Time</gui> panel.</p></item>
   </steps>
   
@@ -37,8 +37,7 @@
   
   <steps style="continues">
     <item><p>Assegureu-vos que l'opció de <gui>Fus horari automàtic</gui> estigui desactivada, llavors feu clic a <gui>Fus Horari</gui> que es troba situat a sota.</p></item>
-    <item><p>Click on your location on the world map. This selects your current
-     city, which you can also search for in the search box above the map.</p></item>
+    <item><p>Podeu establir la vostra ciutat actual bé seleccionant-la sobre el mapa o bé fent servir el quadre de cerca situat a la part superior del mateix mapa.</p></item>
     <item><p>Close the world map window to go back to the <gui>Date &amp;
      Time</gui>.</p></item>
     <item><p>Assegureu-vos que l'opció de <gui>Data i hora automàtiques</gui> estigui desactivada, llavors feu clic a <gui>Data i hora</gui> per obrir la finestra de <gui>Data i hora</gui>. En aquesta finestra podeu ajustar la data i l'hora fent servir els botons de <gui>+</gui> o <gui>-</gui>.</p>

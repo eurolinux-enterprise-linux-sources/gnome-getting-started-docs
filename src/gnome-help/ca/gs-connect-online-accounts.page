@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="ca">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="ca">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -29,34 +29,30 @@
     <steps>
       <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
       on the right side of the top bar.</p></item>
-      <item><p>Click the settings button at the bottom left of the menu.</p></item>
+      <item><p>Feu clic al botó de paràmetres situat al final esquerra del menú.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Click the <gui>Online Accounts</gui> panel, then
-      click the <gui>Add an online account</gui> button.</p></item>
-    </steps>
-    
-    <note><p>Si ja teniu configurat algun compte en línia, podeu afegir-ne un altre fent clic al botó <gui>+</gui> situat a la cantonada inferior esquerra de la finestra.</p></note>
-    
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+      <item><p>Click the <gui>Online Accounts</gui> panel, then click the online
+      account service you want to use.</p>
 
-    <steps style="continues">  
-      <item><p>Feu clic al tipus de compte en línia que voleu crear. Aquesta acció obrirà una finestra des de la qual podeu iniciar la sessió del compte.</p></item>
+      <p>This will open a new window where you can sign in to your online
+      account.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Un cop iniciada la sessió, i en la majoria dels casos, haureu de permetre l'accés al servei per poder utilitzar-lo. </p></item>
-      <item><p>Per exemple, si us esteu connectant al vostre compte del Google, haureu de fer clic al botó <gui>Concedeix accés</gui>.</p></item>
+      <item><p>For example, if you are connecting to your Google account, you
+       will have to click the <gui>Allow</gui> button.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Molts comptes en línia us deixen escollir els serveis que es poden utilitzar amb el compte. Si no voleu utilitzar un servei feu clic al commutador <gui>actiu/inactiu</gui> situat a la part dreta de la finestra per inhabilitar-lo.</p></item>
     </steps>
 

@@ -13,12 +13,18 @@
     <title role="trail" type="link">Bertukar tugas</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Tutorial tentang bertukar tugas</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Andika Triwidada</mal:name>
       <mal:email>andika@gmail.com</mal:email>
-      <mal:years>2013, 2016</mal:years>
+      <mal:years>2013, 2016, 2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kukuh Syafaat</mal:name>
+      <mal:email>syafaatkukuh@gmail.com</mal:email>
+      <mal:years>2016</mal:years>
     </mal:credit>
   </info>
 
@@ -32,11 +38,9 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Berganti Tugas</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Pindahkan penunjuk tetikus Anda ke pojok <gui>Aktivitas</gui> di kiri atas layar.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Pindahkan penunjuk tetikus Anda ke pojok <gui>Aktivitas</gui> di kiri atas layar.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Klik suatu jendela untuk bertukar ke tugas tersebut.</tt:p>
          </tt:div>
@@ -47,7 +51,7 @@
            <tt:p>Ketika separuh layar sedang disorot, jatuhkan jendela.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>Untuk memaksimalkan suatu jendela sepanjang sisi kanan layar, tangkap bilah judul jendela dan seretlah ke sisi kanan.</tt:p>
+           <tt:p>Untuk memaksimalkan suatu jendela sepanjang sisi kanan, tangkap bilah judul jendela dan seretlah ke sisi kanan.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
            <tt:p>Ketika separuh layar sedang disorot, jatuhkan jendela.</tt:p>

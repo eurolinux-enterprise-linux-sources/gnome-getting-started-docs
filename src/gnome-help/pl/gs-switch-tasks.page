@@ -13,18 +13,18 @@
     <title role="trail" type="link">Przełączanie między zadaniami</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Samouczek przełączania między zadaniami</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Piotr Drąg</mal:name>
       <mal:email>piotrdrag@gmail.com</mal:email>
-      <mal:years>2013-2016</mal:years>
+      <mal:years>2013-2018</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Aviary.pl</mal:name>
       <mal:email>community-poland@mozilla.org</mal:email>
-      <mal:years>2013-2016</mal:years>
+      <mal:years>2013-2018</mal:years>
     </mal:credit>
   </info>
 
@@ -38,11 +38,9 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Przełączanie między zadaniami</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Przesuń kursor myszy na <gui>Podgląd</gui> w lewym górnym rogu ekranu.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Przesuń kursor myszy na <gui>Podgląd</gui> w lewym górnym rogu ekranu.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Kliknij okno, aby przełączyć na to zadanie.</tt:p>
          </tt:div>
@@ -134,7 +132,7 @@
     
     <steps>
       <item><p>Naciśnij klawisz <key href="help:gnome-help/keyboard-key-super">Super</key>, aby wyświetlić <gui>ekran podglądu</gui>.</p></item>
-      <item><p>Po prostu zacznij wpisywać nazwę programu, na który chcesz przełączyć. Pasujące programy będą pojawiały się w trakcie pisania.</p></item>
+      <item><p>Zacznij wpisywać nazwę programu, na który chcesz przełączyć. Pasujące programy będą pojawiały się w trakcie pisania.</p></item>
       <item><p>Kiedy program, na który chcesz przełączyć pojawi się jako pierwszy wynik, naciśnij klawisz <key>Enter</key>, aby na niego przełączyć.</p></item>
       
     </steps>

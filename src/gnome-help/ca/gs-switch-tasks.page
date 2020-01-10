@@ -13,7 +13,7 @@
     <title role="trail" type="link">Canvieu entre les tasques</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Un programa d'aprenentatge per canviar entre les tasques</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Manel Vidal</mal:name>
@@ -32,11 +32,9 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Canvieu entre les tasques</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Moveu el ratolí fins a la cantonada d'<gui>Activitats</gui> situat a la part superior esquerra de la pantalla.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Moveu el ratolí fins a la cantonada d'<gui>Activitats</gui> situat a la part superior esquerra de la pantalla.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Feu clic en una finestra per canviar a aquella tasca.</tt:p>
          </tt:div>
@@ -103,7 +101,8 @@
     <title>Organitzeu les finestres en mosaic</title>
     
     <steps>
-      <item><p>Per maximitzar una finestra de forma que ocupi la meitat de la pantalla, agafeu la finestra per la barra del títol i arrossegueu-la cap a la part dreta o esquerra de la pantalla.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>Quan es realci la meitat de la pantalla, deixeu-la anar. La finestra ocuparà la meitat escollida de la pantalla.</p></item>
       <item><p>Per maximitzar dues finestres, una al costat de l'altra, agafeu la segona finestra per la barra del títol i arrossegueu-la cap a la meitat oposada de la pantalla.</p></item>
        <item><p>Quan es realci la meitat de la pantalla, deixeu-la anar. La finestra ocuparà la meitat oposada de la pantalla.</p></item>
@@ -128,8 +127,8 @@
     
     <steps>
       <item><p>Premeu la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> per visualitzar la <gui>Vista general de les activitats</gui>.</p></item>
-      <item><p>Comenceu a escriure el nom de l'aplicació a la que voleu canviar. A mida que aneu escrivint es mostraran les aplicacions que hi coincideixin.</p></item>
-      <item><p>Quan l'aplicació a la que voleu canviar aparegui com a primer resultat, premeu la tecla de <key>Retorn</key> per canviar a ella.</p></item>
+      <item><p>Comenceu a escriure el nom de l'aplicació a la qual voleu canviar. A mida que aneu escrivint es mostraran les aplicacions que hi coincideixin.</p></item>
+      <item><p>Quan l'aplicació a la qual voleu canviar aparegui com a primer resultat, premeu la tecla de <key>Retorn</key> per canviar a ella.</p></item>
       
     </steps>
     

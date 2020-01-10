@@ -30,7 +30,7 @@
 <t id="wallpapers">Обои</t>
 <t id="select">Выбрать</t>
 <t id="bubble.message">Готовы ко встрече?</t>
-<t id="bubble.response">Буду через секунду…</t>
+<t id="bubble.response">I’ll be there in a sec…</t>
 <t id="bubble.message2">Спасибо за книжку!</t>
 <t id="bubble.response2">Спасибо за поддержку</t>
 <t id="bubble.message3">Не беспокойтесь.</t>
@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">Параметры даты и времени</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">Автоматические дата и время</t>
 <t id="autotimezone">Автоматический часовой пояс</t>
-<t id="sstime">14 октября 2013, 20:00</t>
-<t id="sstime2">14 октября 2013, 14:00</t>
+<t id="sstime">14 October 2013, 20∶00</t>
+<t id="sstime2">14 October 2013, 14∶00</t>
 </titles>

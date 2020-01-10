@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="sr-Latn">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Štajner (Jakub Steiner)</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar (Petr Kovar)</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Povezivanje sa nalozima na mreži</title>
+    <link type="seealso" xref="accounts"/>
+    <title role="seealso" type="link">Uputstvo za povezivanje sa nalozima na mreži</title>
+    <link type="next" xref="gs-change-date-time-timezone"/>
+  </info>
+
+  <title>Povezivanje sa nalozima na mreži</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Kliknite na <gui xref="shell-introduction#yourname">sistemski izbornik</gui> u desnom delu gornje trake.</p></item>
+      <item><p>Kliknite na dugme za podešavanja u donjem levom delu izbornika.</p></item>
+    </steps>
+       
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
+    
+    <steps style="continues">
+      <item><p>Click the <gui>Online Accounts</gui> panel, then click the online
+      account service you want to use.</p>
+
+      <p>This will open a new window where you can sign in to your online
+      account.</p></item>
+    </steps>
+      
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>U većini slučajeva će biti potrebno da date ovlašćenje za pristup nakon prijave na nalog na mreži da biste krenuli sa upotrebom naloga.</p></item>
+      <item><p>For example, if you are connecting to your Google account, you
+       will have to click the <gui>Allow</gui> button.</p></item>
+    </steps>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Većina mrežnih naloga vam omogućava da izaberete koje usluge želite da koristite. Ako ne želite da koristite određenu uslugu onemogućite je klikom na dugme <gui>UKLJ/ISK</gui>, na desnoj strani prozora.</p></item>
+    </steps>
+
+</page>

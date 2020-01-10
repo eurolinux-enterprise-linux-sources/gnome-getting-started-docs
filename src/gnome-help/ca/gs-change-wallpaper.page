@@ -60,8 +60,8 @@
     <steps>
       <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
       on the right side of the top bar.</p></item>
-      <item><p>Click the settings button at the bottom left of the menu.</p></item>
-      <item><p>Click the <gui>Background</gui> panel.</p></item>
+      <item><p>Feu clic al botó de paràmetres situat al final esquerra del menú.</p></item>
+      <item><p>cliqueu <gui>Fons</gui>.</p></item>
       <item><p>Feu clic a la imatge del fons de pantalla actual que es troba a la part esquerra de la finestra de <gui>Fons</gui>.</p></item>
       <item><p>Feu clic a la imatge que voleu utilitzar com a fons de pantalla.</p></item>
       <item><p>Feu clic al botó <gui>Selecciona</gui>.</p></item>

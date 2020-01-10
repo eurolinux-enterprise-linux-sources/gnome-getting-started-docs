@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="hr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Povezivanje mreže</title>
+    <link type="seealso" xref="net"/>
+    <title role="seealso" type="link">Vodič za povezivanje s mrežom</title>
+    <link type="next" xref="gs-browse-web"/>
+  </info>
+
+  <title>Povezivanje mreže</title>
+  
+  <note style="important">
+      <p>Možete vidjeti stanje svojih mrežnih povezivanja na desnoj strani gornje trake.</p>
+  </note>  
+
+  <section id="going-online-wired">
+
+    <title>Povezivanje sa žičanom mrežom</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Ikona mrežnog povezivanja na desnoj strani gornjeg panela prikazuje da ste povezani.</p>
+      <p>Prekinuto povezivanje može biti uzrokovano brojnim razlozima: na primjer, mrežni kabel je odspojen, mrežni pristup računala je postavljen na <em>način rada u zrakoplovu</em>, ili nemate dostupne bežične mreže u vašem području.</p>
+      <p>Ako želite koristiti žičano povezivanje, jednostavno priključite mrežni kabel i povežite se. Računalo će pokušati postaviti mrežu automatski.</p>
+      <p>Dok računalo postavlja mrežno povezivanje, ikona mrežnog povezivanja prikazuje tri točke.</p></item>
+      <item><p>Jednom kada je mrežno povezivanje uspješno postavljeno, ikona mrežnog povezivanja se promijeni u simbol umreženih računala.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="going-online-wifi">
+
+    <title>Povezivanje sa bežičnom mrežom</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    
+    <steps>
+      <title>Za povezivanje sa bežičnom mrežom:</title>
+      <item>
+        <p>Kliknite na <gui xref="shell-introduction#yourname">izbornik sustava</gui> na desnoj strani gornje trake.</p>
+      </item>
+      <item>
+        <p>Odaberite <gui>Bežična mreža isključena</gui>. Bežični odjeljak u izborniku će se proširiti.</p>
+      </item>
+      <item>
+        <p>Kliknite na <gui>Odaberi mrežu</gui>.</p>
+      </item>
+    </steps>
+
+     <note style="important">
+       <p>Možete se jedino povezati na bežičnu mrežu ako ju vaš računalni hardver podržava i ako ste u području pokrivenim signalom bežične mreže.</p>
+     </note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
+
+    <steps style="continues">
+    <item><p>S popisa dostupnih bežičnih mreža, odaberite mrežu s kojom se želite povezati, i kliknite na <gui>Povezivanje</gui> za potvrdu.</p>
+    <p>Ovisno o mrežnim podešavanjima, možete biti upitani za mrežne vjerodajnice.</p></item>
+    </steps>
+
+  </section>
+
+</page>

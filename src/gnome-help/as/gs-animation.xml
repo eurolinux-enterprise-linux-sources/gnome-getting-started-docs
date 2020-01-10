@@ -30,7 +30,7 @@
 <t id="wallpapers">ৱালপেপাৰসমূহ</t>
 <t id="select">বাছক</t>
 <t id="bubble.message">সভাৰ বাবে প্ৰস্তুত নে?</t>
-<t id="bubble.response">ম'ই এক ছেকেণ্ডত আহি আছো...</t>
+<t id="bubble.response">I’ll be there in a sec…</t>
 <t id="bubble.message2">খুব ভাল, পুনৰ ধন্যবাদ</t>
 <t id="bubble.response2">সমৰ্থনৰ বাবে ধন্যবাদ</t>
 <t id="bubble.message3">কোনো চিন্তা নাই।</t>
@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">তাৰিখ আৰু সময সংহতিসমূহ</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">স্বচালিত তাৰিখ আৰু সময়</t>
 <t id="autotimezone">স্বচালিত সময়অঞ্চল</t>
-<t id="sstime">14 অক্টোবৰ 2013, 20:00</t>
-<t id="sstime2">14 অক্টোবৰ 1413, 14:00</t>
+<t id="sstime">14 October 2013, 20∶00</t>
+<t id="sstime2">14 October 2013, 14∶00</t>
 </titles>

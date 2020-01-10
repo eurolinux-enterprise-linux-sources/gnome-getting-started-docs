@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="ru">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="ru">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Петр Ковар (Petr Kovar)</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">Использование системного поиска</title>
@@ -39,7 +42,10 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Откройте <gui>Обзор</gui>, нажав клавишу <key href="help:gnome-help/keyboard-key-super">Super</key>. Чтобы начать поиск, начните вводить символы.</p>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
     <p>Результаты поиска будут появляться по мере набора символов. Первый результат всегда выделяется и помещается в самой верхней строчке слева.</p>
     <p>Нажмите клавишу <key>Enter</key>, чтобы переключиться на первый выделенный результат.</p></item>
     </steps>
@@ -50,8 +56,14 @@
       <list>
         <item><p>приложения, показанные в верхней части страницы результатов поиска;</p></item>
         <item><p>параметры;</p></item>
-        <item><p>контакты;</p></item>
-        <item><p>документы.</p></item>
+        <item><p>matching contacts,</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
       </list>
       </item>
       <item><p>В списке результатов поиска нажмите на элемент, чтобы переключиться на него.</p>
@@ -82,7 +94,7 @@
         <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
         on the right side of the top bar.</p></item>
         <item><p>Click the settings button at the bottom left of the menu.</p></item>
-        <item><p>Click the <gui>Search</gui> panel.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
         <item><p>В списке местоположений для поиска нажмите переключатель <gui>Вкл/Выкл</gui> рядом с тем местоположением, которое вы хотите включить или исключить.</p>
          </item>
       </steps>

@@ -30,7 +30,7 @@
 <t id="wallpapers">Rivestimenti</t>
 <t id="select">Seleziona</t>
 <t id="bubble.message">Pronto per il meeting?</t>
-<t id="bubble.response">Arrivo subito...</t>
+<t id="bubble.response">I’ll be there in a sec…</t>
 <t id="bubble.message2">Ottimo, grazie ancora</t>
 <t id="bubble.response2">Grazie per il supporto</t>
 <t id="bubble.message3">Nessun problema.</t>
@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">Impostazioni data e ora</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">Ora da rete</t>
 <t id="autotimezone">Automatic Timezone</t>
-<t id="sstime">14 October 2013, 20:00</t>
-<t id="sstime2">14 October 2013, 14:00</t>
+<t id="sstime">14 October 2013, 20∶00</t>
+<t id="sstime2">14 October 2013, 14∶00</t>
 </titles>

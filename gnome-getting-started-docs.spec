@@ -1,11 +1,11 @@
 Name:           gnome-getting-started-docs
-Version:        3.22.0
+Version:        3.28.2
 Release:        1%{?dist}
 Summary:        Help a new user get started in GNOME
 
 License:        CC-BY-SA
 URL:            http://help.gnome.org/
-Source0:        http://download.gnome.org/sources/gnome-getting-started-docs/3.22/%{name}-%{version}.tar.xz
+Source0:        http://download.gnome.org/sources/gnome-getting-started-docs/3.28/%{name}-%{version}.tar.xz
 
 BuildArch:      noarch
 
@@ -161,6 +161,10 @@ make %{?_smp_mflags}
 
 
 %changelog
+* Tue May 08 2018 Kalev Lember <klember@redhat.com> - 3.28.2-1
+- Update to 3.28.2
+- Resolves: #1568174
+
 * Fri Mar 10 2017 Matthias Clasen <mclasen@redhat.com> - 3.22.0-1
 - Rebase to 3.22.0
   Resolves: rhbz#1386895

@@ -13,7 +13,7 @@
     <title role="trail" type="link">ಕಾರ್ಯಗಳನ್ನು ಬದಲಾಯಿಸಿ</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">ಕಾರ್ಯಗಳನ್ನು ಬದಲಾಯಿಸುವಿಕೆಯ ಕುರಿತು ಮಾಹಿತಿ</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>ಕಾರ್ಯಗಳನ್ನು ಬದಲಾಯಿಸಿ</title>
@@ -26,22 +26,22 @@
          <tt:div begin="1s" end="5s">
            <tt:p>ಕಾರ್ಯಗಳನ್ನು ಬದಲಾಯಿಸುವಿಕೆ</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>ನಿಮ್ಮ ಮೌಸ್‌ನ ಸೂಚಕವನ್ನು ತೆರೆಯ ಮೇಲ್ಭಾಗದ ಎಡಗಡೆ ಇರುವ <gui>ಚಟುವಟಿಕೆಗಳು</gui> ಮೂಲೆಗೆ ತೆಗೆದುಕೊಂಡುಹೋಗಿ.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">ನಿಮ್ಮ ಮೌಸ್‌ನ ಸೂಚಕವನ್ನು ತೆರೆಯ ಮೇಲ್ಭಾಗದ ಎಡಗಡೆ ಇರುವ <gui>ಚಟುವಟಿಕೆಗಳು</gui> ಮೂಲೆಗೆ ತೆಗೆದುಕೊಂಡುಹೋಗಿ.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>ಆ ಕಾರ್ಯಕ್ಕೆ ಬದಲಾಯಿಸಲು ಒಂದು ಕಿಟಕಿ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>ತೆರೆಯ ಎಡಭಾಗ ಮುಖಾಂತರ ಕಿಟಕಿಯನ್ನು ಹಿಗ್ಗಿಸಲು, ಕಿಟಕಿಯ ಶೀರ್ಷಿಕೆಪಟ್ಟಿಯನ್ನು ಹಿಡಿದುಕೊಳ್ಳಿ ನಂತರ ಎಡಕ್ಕೆ ಎಳೆತನ್ನಿ.</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="16s">
            <tt:p>ತೆರೆಯನ್ನು ಅರ್ಧ ಹೈಲೈಟ್ ಮಾಡಿದಾಗ, ಕಿಟಕಿಯನ್ನು ಮುಕ್ತಗೊಳಿಸಿ.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>ಬಲಭಾಗದ ಮುಖಾಂತರ ಕಿಟಕಿಯನ್ನು ಹಿಗ್ಗಿಸಲು, ಕಿಟಕಿಯ ಶೀರ್ಷಿಕೆಪಟ್ಟಿಯನ್ನು ಹಿಡಿದುಕೊಳ್ಳಿ ನಂತರ ಬಲಕ್ಕೆ ಎಳೆತನ್ನಿ.</tt:p>
+           <tt:p>To maximize a window along the right side, grab the window’s
+            titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
            <tt:p>ತೆರೆಯನ್ನು ಅರ್ಧ ಹೈಲೈಟ್ ಮಾಡಿದಾಗ, ಕಿಟಕಿಯನ್ನು ಮುಕ್ತಗೊಳಿಸಿ.</tt:p>
@@ -97,7 +97,8 @@
     <title>ಕಿಟಕಿಗಳನ್ನು ಟೈಲ್ ಮಾಡಿ</title>
     
     <steps>
-      <item><p>ತೆರೆಯ ಒಂದು ಬದಿಯ ಮುಖಾಂತರ ಕಿಟಕಿಯನ್ನು ಹಿಗ್ಗಿಸಲು, ಕಿಟಕಿಯ ಶೀರ್ಷಿಕೆಪಟ್ಟಿಯನ್ನು ಹಿಡಿದುಕೊಳ್ಳಿ ನಂತರ ತೆರೆಯ ಎಡ ಅಥವ ಬಲಭಾಗಕ್ಕೆ ಎಳೆತನ್ನಿ.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>ತೆರೆಯ ಅರ್ಧ ಭಾಗವನ್ನು ಹೈಲೈಟ್ ಮಾಡಿದಾಗ, ತೆರೆಯ ಆಯ್ದ ಬದಿಯಲ್ಲಿ ಕಿಟಕಿಯನ್ನು ಹಿಗ್ಗಿಸಲು ಅದನ್ನು ಮುಕ್ತಗೊಳಿಸಿ.</p></item>
       <item><p>ಒಂದರ-ಪಕ್ಕ-ಇನ್ನೊಂದು ಇರುವ ಎರಡು ಕಿಟಕಿಗಳನ್ನು ಹಿಗ್ಗಿಸಲು, ಎರಡನೆಯ ಕಿಟಕಿಯ ಶೀರ್ಷಿಕೆಪಟ್ಟಿಯನ್ನು ಎಳೆದುಹಿಡಿಯಿರಿ ನಂತರ ಅದನ್ನು ತೆರೆಯ ವಿರುದ್ಧ ದಿಕ್ಕಿಗೆ ಎಳೆಯಿರಿ.</p></item>
        <item><p>ತೆರೆಯ ಅರ್ಧ ಭಾಗವನ್ನು ಹೈಲೈಟ್ ಮಾಡಿದಾಗ, ತೆರೆಯ ಎದುರಿನ ಬದಿಯಲ್ಲಿ ಕಿಟಕಿಯನ್ನು ಹಿಗ್ಗಿಸಲು ಅದನ್ನು ಮುಕ್ತಗೊಳಿಸಿ.</p></item>

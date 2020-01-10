@@ -9,11 +9,12 @@
     <credit type="author">
       <name>Petr Kovar</name>
     </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">Responeu als missatges</title>
     <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">Responeu als missatges</title>
     <title role="seealso" type="link">Un programa d'aprenentatge per respondre als missatges</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Manel Vidal</mal:name>
@@ -54,10 +55,10 @@
            top bar.</tt:p>
          </tt:div>
          <tt:div begin="24s" end="26s">
-           <tt:p>From the notification list, choose your message.</tt:p>
+           <tt:p>Tria el teu missatge de la llista de notificacions.</tt:p>
          </tt:div>
          <tt:div begin="26s" end="28s">
-           <tt:p>Start typing your reply.</tt:p>
+           <tt:p>Comenceu a escriure la vostra resposta.</tt:p>
          </tt:div>
          <tt:div begin="32s" end="35s">
            <tt:p>To show the notification list, press <keyseq>
@@ -69,7 +70,7 @@
             and press <key>Enter</key>.</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
-           <tt:p>Start typing your reply.</tt:p>
+           <tt:p>Comenceu a escriure la vostra resposta.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -96,8 +97,7 @@
        not move your mouse over the message, it disappears after a while.</p></item>
       <item><p>To get back to your unanswered message, click the clock on the
        top bar.</p></item>
-      <item><p>From the notification list, choose the message you
-       want to reply to, and click it.</p></item>
+      <item><p>Tria el missatge de la llista de notificacions que voleu respondre i cliqueu en ell.</p></item>
       <item><p>When the chat message is shown, start typing your reply.</p></item>
     </steps>
     

@@ -30,7 +30,7 @@
 <t id="wallpapers">Ταπετσαρίες</t>
 <t id="select">Επιλογή</t>
 <t id="bubble.message">Έτοιμοι για τη συγκέντρωση;</t>
-<t id="bubble.response">Θα είμαι εκεί σε λίγο...</t>
+<t id="bubble.response">I’ll be there in a sec…</t>
 <t id="bubble.message2">Καλό υλικό, ευχαριστώ ξανά</t>
 <t id="bubble.response2">Ευχαριστώ για την υποστήριξη</t>
 <t id="bubble.message3">Καμία ανησυχία.</t>
@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">Ρυθμίσεις ώρας και ημερομηνίας</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">Αυτόματη ημερομηνία και ώρα</t>
 <t id="autotimezone">Αυτόματη ζώνη ώρας</t>
-<t id="sstime">14 Οκτωβρίου 2013, 20:00</t>
-<t id="sstime2">14 Οκτωβρίου 2013, 14:00</t>
+<t id="sstime">14 October 2013, 20∶00</t>
+<t id="sstime2">14 October 2013, 14∶00</t>
 </titles>

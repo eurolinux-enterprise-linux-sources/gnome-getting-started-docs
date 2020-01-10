@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="sr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Јакуб Штајнер (Jakub Steiner)</name>
+    </credit>
+    <credit type="author">
+      <name>Петр Ковар (Petr Kovar)</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Коришћење претраге система</title>
+    <link type="seealso" xref="shell-apps-open"/>
+    <title role="seealso" type="link">Упутство о коришћењу претраге система</title>
+    <link type="next" xref="gs-get-online"/>
+  </info>
+
+  <title>Коришћење претраге система</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    
+    <steps>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
+    <p>Резултати претраге ће се појавити како будете били куцали. Први резултат је увек осветљен и приказан на врху.</p>
+    <p>Притисните тастер <key>Enter</key> да бисте се пребацили на први осветљени резултат.</p></item>
+    </steps>
+    
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <steps style="continues">
+      <item><p>У ставке које се могу појавити у резултатима претраге спадају:</p>
+      <list>
+        <item><p>подударни програми, приказани при врху резултата претраге,</p></item>
+        <item><p>подударна подешавања,</p></item>
+        <item><p>matching contacts,</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
+      </list>
+      </item>
+      <item><p>Кликните на ставку у резултатима претраге да бисте се пребацили на њу.</p>
+      <p>Или означите ставку користећи стрелице на тастатури и притисните тастер <key>Enter</key>.</p></item>
+    </steps>
+
+    <section id="use-search-inside-applications">
+    
+      <title>Претрага унутар програма</title>
+      
+      <p>Претрага система сакупља резултате из разних програма. На левој страни резултата претраге можете видети иконице програма од којих су подаци прикупљени. Кликните на једну од иконице да бисте поново започели претраживање унутар програма који је означен том иконицом. Пошто се само најбољи резултати приказују у <gui>Прегледу активности</gui>, претраживањем унутар програма можете наћи тачно оно што желите.</p>
+
+    </section>
+
+    <section id="use-search-customize">
+
+      <title>Прилагођавање системске претраге</title>
+
+      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+
+      <note style="important">
+      <p>Гном вам омогућава да прилагодите шта се појављује у резултатима претраге, у <gui>Прегледу активности</gui>. На пример, можете одабрати да ли желите да добијате веб странице, слику или музику у резултатима.</p>
+      </note>
+
+
+      <steps>
+        <title>Да бисте прилагодили шта се приказује у резултатима претраге:</title>
+        <item><p>Кликните на <gui xref="shell-introduction#yourname">системски изборник</gui> у десном делу горње траке.</p></item>
+        <item><p>Кликните на дугме за подешавања у доњем левом делу изборника.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
+        <item><p>У списку локација за претраживање, кликните на <gui>УКЉ/ИСК</gui> дугме поред локације претраге да бисте је омогућили или онемогућили.</p>
+         </item>
+      </steps>
+      
+    </section>
+
+</page>

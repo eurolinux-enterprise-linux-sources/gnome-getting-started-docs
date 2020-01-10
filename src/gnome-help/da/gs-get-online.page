@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="da">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Kom online</title>
+    <link type="seealso" xref="net"/>
+    <title role="seealso" type="link">En vejledning til at komme online</title>
+    <link type="next" xref="gs-browse-web"/>
+  </info>
+
+  <title>Kom online</title>
+  
+  <note style="important">
+      <p>Du kan se status for din netværksforbindelse på højre side af toplinjen.</p>
+  </note>  
+
+  <section id="going-online-wired">
+
+    <title>Forbind til et kabel-netværk</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Ikonet netværksforbindelse på højre side af toplinjen viser at du er offline.</p>
+      <p>Offline-status kan have flere årsager: f.eks. at et netværkskabel er blevet fjernet, at computeren er blevet sat til at køre i <em>flytilstand</em> eller at der ikke er nogen tilgængelige trådløse netværk i dit område.</p>
+      <p>Hvis du vil bruge en kabelforbindelse, så indsæt blot et netværkskabel for at gå online. Computeren vil automatisk forsøge at opsætte netværksforbindelsen for dig.</p>
+      <p>Ikonet netværksforbindelse viser tre prikker mens computeren opsætter en netværksforbindelse for dig.</p></item>
+      <item><p>Når en netværksforbindelse er blevet sat op, ændres ikonet netværksforbindelse til symbolet netværkscomputer.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="going-online-wifi">
+
+    <title>Forbind til et trådløst netværk</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    
+    <steps>
+      <title>Forbind til et trådløst netværk:</title>
+      <item>
+        <p>Klik på <gui xref="shell-introduction#yourname">systemmenuen</gui> på højre side af toplinjen.</p>
+      </item>
+      <item>
+        <p>Vælg <gui>Wi-Fi er ikke forbundet</gui>. I menuen udfoldes afsnittet om trådløs forbindelse.</p>
+      </item>
+      <item>
+        <p>Klik på <gui>Vælg netværk</gui>.</p>
+      </item>
+    </steps>
+
+     <note style="important">
+       <p>Du kan kun forbinde til et trådløst netværk hvis dit computer-hardware understøtter det, og du er i et område med dækning.</p>
+     </note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
+
+    <steps style="continues">
+    <item><p>Vælg det netværk, du vil forbinde til, i listen over tilgængelige trådløse netværk, og klik på <gui>Forbind</gui> for at bekræfte.</p>
+    <p>Afhængigt af netværkskonfigurationen, kan du blive bedt om netværksloginoplysninger.</p></item>
+    </steps>
+
+  </section>
+
+</page>

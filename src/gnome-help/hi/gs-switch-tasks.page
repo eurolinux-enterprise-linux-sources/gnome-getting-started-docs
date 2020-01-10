@@ -13,7 +13,7 @@
     <title role="trail" type="link">कार्य बदलें</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">कार्य बदलने पर ट्यूटोरियल</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>कार्य बदलें</title>
@@ -26,22 +26,22 @@
          <tt:div begin="1s" end="5s">
            <tt:p>कार्य बदल रहा है</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>अपने मॉउस पॉइंटर को <gui>गतिविधि</gui> कोने में स्क्रीन के शीर्ष पर ले जाएँ.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">अपने मॉउस पॉइंटर को <gui>गतिविधि</gui> कोने में स्क्रीन के शीर्ष पर ले जाएँ.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>उस कार्य में जाने के लिए किसी विंडो में क्लिक करें.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>स्क्रीन के बायीं ओर की तरफ विंडो अधिकतम करने के लिए, विंडो के शीर्षकपट्टी को पकड़ें और इसे बायीं ओर खींचें.</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="16s">
            <tt:p>आधे स्क्रीन के आलोकित होने पर, विंडो को छोड़ें.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>दाहिनी ओर विंडो अधिकतम करने के लिए, विंडो के शीर्षकपट्टी को पकड़ें और इसे दाहिनी ओर खींचें.</tt:p>
+           <tt:p>To maximize a window along the right side, grab the window’s
+            titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
            <tt:p>आधे स्क्रीन के आलोकित होने पर, विंडो को छोड़ें.</tt:p>
@@ -97,7 +97,8 @@
     <title>टाइल विंडोज़</title>
     
     <steps>
-      <item><p>स्क्रीन की तरफ विंडो अधिकतम करने के लिए, विंडो के शीर्षकपट्टी को पकड़ें और इसे स्क्रीन के बायीं ओर खींचें या दाहिनी ओर खींचें.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>आधे स्क्रीन के आलोकित होने पर, विंडो को छोड़ें ताकि स्क्रीन के चुने किनारे की ओर इसे अधिकतम किया जा सके.</p></item>
       <item><p>दो विंडो को आजू-बाजू अधिकतम करने के लिए, दूसरे विंडो के शीर्षकपट्टी को पकड़ें और इसे स्क्रीन के विपरीत ओर खींचें.</p></item>
        <item><p>आधे स्क्रीन के आलोकित होने पर, विंडो को छोड़ें ताकि स्क्रीन के विपरीत किनारे की ओर इसे अधिकतम किया जा सके.</p></item>

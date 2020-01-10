@@ -9,11 +9,12 @@
     <credit type="author">
       <name>Petr Kovar</name>
     </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">Vastaa viesteihin</title>
     <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">Vastaa viesteihin</title>
     <title role="seealso" type="link">Opas viesteihin vastaamiseksi</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>Vastaa viesteihin</title>
@@ -27,12 +28,10 @@
            <tt:p>Viesteihin vastaaminen</tt:p>
          </tt:div>
          <tt:div begin="3s" end="6s">
-           <tt:p>Move your mouse over the chat message that appears near the top
-           of the screen.</tt:p>
+           <tt:p>Siirrä hiiren osoitin näytön yläosaan ilmestyvän keskusteluviestin päälle.</tt:p>
            </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Start typing your reply and when finished, press <key>Enter
-           </key> to send the reply.</tt:p>
+           <tt:p>Aloita vastauksesi kirjoittaminen, ja kun olet valmis, paina <key>Enter </key> lähettääksesi vastauksesi.</tt:p>
          </tt:div>
          <tt:div begin="9s" end="10s">
            <tt:p>Sulje viesti.</tt:p>
@@ -41,27 +40,22 @@
            <tt:p>Viivästynyt vastaus</tt:p>
          </tt:div>
          <tt:div begin="16s" end="22s">
-           <tt:p>A chat message near the top of the screen disappears after a
-           while if you do not move your mouse over the message.</tt:p>
+           <tt:p>Näytön yläosaan ilmestyvä keskusteluviesti katoaa hetken kuluttua, jos et siirrä hiiren osoitinta viestin päälle.</tt:p>
          </tt:div>
          <tt:div begin="22s" end="24s">
-           <tt:p>To get back to your unanswered message, click the clock on the
-           top bar.</tt:p>
+           <tt:p>Palataksesi vastaamattomaan viestiin, napsauta yläpalkissa olevaa kelloa.</tt:p>
          </tt:div>
          <tt:div begin="24s" end="26s">
-           <tt:p>From the notification list, choose your message.</tt:p>
+           <tt:p>Valitse viesti ilmoitusluettelosta.</tt:p>
          </tt:div>
          <tt:div begin="26s" end="28s">
            <tt:p>Aloita vastauksen kirjoittaminen.</tt:p>
          </tt:div>
          <tt:div begin="32s" end="35s">
-           <tt:p>To show the notification list, press <keyseq>
-           <key href="help:gnome-help/keyboard-key-super">Super</key>
-           <key>V</key></keyseq></tt:p>
+           <tt:p>Avaa ilmoitusluettelo painamalla <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>V</key></keyseq></tt:p>
          </tt:div>
          <tt:div begin="35s" end="41s">
-           <tt:p>Use the arrow keys to select the message you want to reply to,
-            and press <key>Enter</key>.</tt:p>
+           <tt:p>Käytä nuolinäppäimiä valitaksesi viestin, johon haluat vastata, ja paina <key>Enter</key>.</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
            <tt:p>Aloita vastauksen kirjoittaminen.</tt:p>
@@ -75,12 +69,9 @@
     <title>Vastaa keskusteluviestiin hiirellä</title>
     
     <steps>
-      <item><p>Move your mouse over the chat message that appears near the top
-       of the screen.</p></item>
-      <item><p>Start typing your reply and when finished, press <key>Enter</key>
-       to send the reply.</p></item>
-      <item><p>To close the chat message, click the close button at the top
-       right corner of the chat message.</p></item>
+      <item><p>Siirrä hiiren osoitin näytön yläosaan ilmestyvän keskusteluviestin päälle.</p></item>
+      <item><p>Aloita vastauksesi kirjoittaminen, ja kun olet valmis, paina <key>Enter</key> lähettääksesi vastauksesi.</p></item>
+      <item><p>Sulje keskusteluviesti painamalla sulkemispainiketta keskusteluviestin oikeasta yläkulmasta.</p></item>
     </steps>
     <p/>
   </section>
@@ -89,13 +80,10 @@
     <title>Viivästynyt vastaus keskusteluviestiin hiirtä käyttäen</title>
     
     <steps>
-      <item><p>When a chat message appears near the top of the screen and you do
-       not move your mouse over the message, it disappears after a while.</p></item>
-      <item><p>To get back to your unanswered message, click the clock on the
-       top bar.</p></item>
-      <item><p>From the notification list, choose the message you
-       want to reply to, and click it.</p></item>
-      <item><p>When the chat message is shown, start typing your reply.</p></item>
+      <item><p>Kun keskusteluviesti ilmestyy näytön yläosaan ja jos et siirrä hiiren osoitinta viestin päälle, se katoaa hetken kuluttua.</p></item>
+      <item><p>Palataksesi vastaamattomaan viestiin, napsauta yläpalkissa olevaa kelloa.</p></item>
+      <item><p>Valitse ilmoitusluettelosta viesti, johon haluat vastata, ja napsauta sitä.</p></item>
+      <item><p>Kun keskusteluviesti näkyy, aloita vastauksesi kirjoittaminen.</p></item>
     </steps>
     
   </section>
@@ -103,13 +91,10 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>Viivästynyt vastaus keskusteluviestiin näppäimistöä käyttäen</title>
     <steps>
-      <item><p>To get back to your unanswered chat messages, press <keyseq>
-      <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key>
-      </keyseq> to display the list of unanswered notifications.</p>
+      <item><p>Palataksesi vastaamattomiin keskusteluviesteihin, paina <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key> </keyseq> avataksesi luettelon ilmoituksista, joihin ei ole reagoitu.</p>
       </item>
-      <item><p>Use the arrow keys to select the notification you want to reply
-      to, and press <key>Enter</key>.</p></item>
-      <item><p>When the chat message is shown, start typing your reply.</p></item>
+      <item><p>Käytä nuolinäppäimiä valitaksesi ilmoituksen, johon haluat vastata, ja paina <key>Enter</key>.</p></item>
+      <item><p>Kun keskusteluviesti näkyy, aloita vastauksesi kirjoittaminen.</p></item>
     </steps>
 
   </section>

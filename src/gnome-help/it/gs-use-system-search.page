@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="it">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="it">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">Usare la ricerca di sistema</title>
@@ -27,9 +30,10 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Open the <gui>Activities Overview</gui> by pressing the
-    <key href="help:gnome-help/keyboard-key-super">Super</key> key. Start typing
-    to search.</p>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
     <p>Results matching what you have typed will appear as you type. The first
     result is always highlighted and shown at the top.</p>
     <p>Press <key>Enter</key> to switch to the first highlighted result.</p></item>
@@ -41,8 +45,14 @@
       <list>
         <item><p>applicazioni, mostrate in cima ai risultati della ricerca;</p></item>
         <item><p>impostazioni;</p></item>
-        <item><p>matching contacts, and</p></item>
-        <item><p>documenti.</p></item>
+        <item><p>contatti;</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
       </list>
       </item>
       <item><p>Nei risultati della ricerca fare clic sulla singola voce per attivarla.</p>
@@ -79,7 +89,7 @@
         <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
         on the right side of the top bar.</p></item>
         <item><p>Click the settings button at the bottom left of the menu.</p></item>
-        <item><p>Click the <gui>Search</gui> panel.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
         <item><p>Nell'elenco delle posizioni di ricerca fare clic sull'interruttore <gui>ON/OFF</gui> accanto alla posizione di ricerca che si vuole abilitare o disabilitare.</p>
          </item>
       </steps>

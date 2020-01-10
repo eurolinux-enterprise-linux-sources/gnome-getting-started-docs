@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-launch-applications" xml:lang="sr-Latn">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Štajner (Jakub Steiner)</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar (Petr Kovar)</name>
+    </credit>
+
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Pokretanje programa</title>
+    <link type="seealso" xref="shell-apps-open"/>
+    <title role="seealso" type="link">Uputstvo za pokretanje programa</title>
+    <link type="next" xref="gs-switch-tasks"/>
+  </info>
+
+  <title>Pokretanje programa</title>
+
+  <ui:overlay width="812" height="452">
+   <media type="video" its:translate="no" src="figures/gnome-launching-applications.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-launching-apps.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Pokretanje programa</tt:p>
+         </tt:div>
+         <tt:div begin="5s" end="7.5s">
+           <tt:p>Pomerite pokazivač miša u gornji levi ugao ekrana gde piše <gui>Aktivnosti</gui>.</tt:p>
+           </tt:div>
+         <tt:div begin="7.5s" end="9.5s">
+           <tt:p>Kliknite na stavku <gui>Prikaži programe</gui></tt:p>
+         </tt:div>
+         <tt:div begin="9.5s" end="11s">
+           <tt:p>Kliknite na program koji želite da pokrenete. Na primer, Pomoć.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="21s">
+           <tt:p>Postoji i drugi način da otvorite <gui>pregled aktivnosti</gui> a to je pomoću tastature. Da biste to uradili pritisnite <key href="help:gnome-help/keyboard-key-super">Super</key> taster.</tt:p>
+         </tt:div>
+         <tt:div begin="22s" end="29s">
+           <tt:p>Krenite sa kucanjem naziva programa koji želite da pokrenete.</tt:p>
+         </tt:div>
+         <tt:div begin="30s" end="33s">
+           <tt:p>Pritisnite taster <key>Enter</key> da biste pokrenuli program.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+   </media>
+  </ui:overlay>
+
+  <section id="launch-apps-mouse">
+    <title>Pokretanje programa pomoću miša</title>
+ 
+  <steps>
+    <item><p>Pomerite vaš pokazivač miša u gornji levi ugao ekrana gde piše <gui>Aktivnosti</gui> da bi vam se prikazao <gui>pregled aktivnosti</gui>.</p></item>
+    <item><p>Kliknite na ikonicu <gui>Prikaži programe</gui> koja se nalazi u dnu trake na levoj strani ekrana.</p></item>
+    <item><p>Biće prikazan spisak programa. Kliknite na program koji želite pokrenuti. Na primer: Pomoć.</p></item>
+  </steps>
+
+  </section>
+
+  <section id="launch-app-keyboard">
+    <title>Pokretanje programa pomoću tastature</title>
+
+  <steps>
+    <item><p>Otvorite <gui>Pregled aktivnosti</gui> pritiskom tastera <key href="help:gnome-help/keyboard-key-super">Super</key>.</p></item>
+    <item><p>Krenite sa kucanjem naziva programa koji želite pokrenuti. Traženje programa započinje automatski.</p></item>
+    <item><p>Nakon što se prikaže i odabere ikonica programa, pritisnite taster <key> Enter</key> da biste pokrenuli program.</p></item>
+  </steps>
+
+  </section>
+
+</page>

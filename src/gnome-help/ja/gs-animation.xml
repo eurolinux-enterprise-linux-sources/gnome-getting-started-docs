@@ -30,7 +30,7 @@
 <t id="wallpapers">壁紙</t>
 <t id="select">選択</t>
 <t id="bubble.message">Ready for the meeting?</t>
-<t id="bubble.response">I'll be there in a sec...</t>
+<t id="bubble.response">I’ll be there in a sec…</t>
 <t id="bubble.message2">Good stuff, thanks again</t>
 <t id="bubble.response2">Thanks for the support</t>
 <t id="bubble.message3">No worries.</t>
@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">日時の設定</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">日時の自動設定</t>
 <t id="autotimezone">タイムゾーンの自動設定</t>
-<t id="sstime">2013年10月14日 20:00</t>
-<t id="sstime2">2013年10月14日 14:00</t>
+<t id="sstime">14 October 2013, 20∶00</t>
+<t id="sstime2">14 October 2013, 14∶00</t>
 </titles>

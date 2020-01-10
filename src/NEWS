@@ -1,4 +1,99 @@
 ==============
+Version 3.28.2
+==============
+
+* Videos for all supported locales are now rendered using VP9 instead of VP8
+  (Petr Kovar)
+* Updated translations:
+  hr        (gogo)
+  lt        (Piotr Drąg)
+  nl        (Piotr Drąg)
+  ru        (Piotr Drąg)
+
+==============
+Version 3.28.1
+==============
+
+* Updates to Getting Started (Petr Kovar)
+* Videos for most locales are now rendered using VP9 instead of VP8
+  (Petr Kovar)
+* Updated translations:
+  hr        (gogo)
+  lv        (Rūdolfs Mazurs)
+  nl        (Hannie Dumoleyn)
+  ro        (Daniel Șerbănescu)
+
+==============
+Version 3.28.0
+==============
+
+* Updates to Getting Started (Piotr Drąg, Petr Kovar, hanniedu, Anders Jonsson)
+* Updated translations:
+  cs        (Marek Cernocky)
+  da        (Ask Hjorth Larsen)
+  de        (Christian Kirbach)
+  es        (Piotr Drąg, Daniel Mustieles)
+  fi        (Jiri Grönroos)
+  gl        (Marcos Lans, Fran Dieguez)
+  hr        (gogo, goranvid)
+  hu        (Gábor Kelemen)
+  pl        (Piotr Drąg)
+  pt_BR     (Isaac F. Ferreira Filho)
+  ro        (Daniel Șerbănescu)
+  sv        (Anders Jonsson)
+
+==============
+Version 3.26.1
+==============
+
+* Updates to Getting Started (Petr Kovar, Jakub Steiner)
+* Updated translations:
+  cs        (Marek Cernocky)
+  de        (Mario Blättermann)
+  pl        (Piotr Drąg)
+
+==============
+Version 3.26.0
+==============
+
+* Updates to Getting Started (Piotr Drąg)
+* Updated translations:
+  ca        (Jordi Mas)
+  cs        (Marek Cernocky)
+  de        (Mario Blättermann, Christian Kirbach)
+  es        (Daniel Mustieles)
+  fi        (Jiri Grönroos)
+  gl        (Fran Dieguez)
+  hu        (Gábor Kelemen)
+  id        (Andika Triwidada)
+  ko        (Seong-ho Cho)
+  lv        (Rūdolfs Mazurs)
+  nl        (hanniedu)
+  pl        (Piotr Drąg)
+  pt_BR     (Rafael Fontenelle)
+  sr        (Марко М. Костић, Марко Костић)
+  sr@latin  (Марко Костић)
+  sv        (Anders Jonsson)
+
+==============
+Version 3.24.1
+==============
+
+* Updates to Getting Started (Petr Kovar, Jeremy Bicha)
+
+==============
+Version 3.24.0
+==============
+
+* Updated translations:
+  da        (Ask Hjorth Larsen)
+  id        (Kukuh Syafaat)
+  ko        (Seong-ho Cho)
+  lt        (Aurimas Černius)
+  lv        (Rūdolfs Mazurs)
+  nl        (hanniedu)
+
+==============
 Version 3.22.0
 ==============
 

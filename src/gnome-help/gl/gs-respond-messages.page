@@ -9,16 +9,17 @@
     <credit type="author">
       <name>Petr Kovar</name>
     </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">Responder unha mensaxe</title>
     <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">Responder unha mensaxe</title>
     <title role="seealso" type="link">Un totorial sobre como responder unha mensaxe</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Fran Diéguez</mal:name>
       <mal:email>frandieguez@gnome.org</mal:email>
-      <mal:years>2013-2016.</mal:years>
+      <mal:years>2013-2018.</mal:years>
     </mal:credit>
   </info>
 
@@ -42,7 +43,7 @@
            <tt:p>Peche a mensaxe de chat.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>Responsa posposta</tt:p>
+           <tt:p>Resposta posposta</tt:p>
          </tt:div>
          <tt:div begin="16s" end="22s">
            <tt:p>Unha mensaxe de chat na parte superior da pantalal desaparece despois dun tempo se non move o rato sobre a mensaxe.</tt:p>

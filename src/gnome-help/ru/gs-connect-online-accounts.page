@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="ru">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="ru">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -47,28 +47,24 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Click the <gui>Online Accounts</gui> panel, then
-      click the <gui>Add an online account</gui> button.</p></item>
-    </steps>
-    
-    <note><p>Если у вас уже есть настроенная сетевая учётная запись, можно добавить ещё одну, нажав кнопку <gui>+</gui> в левом нижнем углу окна.</p></note>
-    
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+      <item><p>Click the <gui>Online Accounts</gui> panel, then click the online
+      account service you want to use.</p>
 
-    <steps style="continues">  
-      <item><p>Нажмите на сетевую учётную запись, которую вы хотите использовать. Откроется окно, которое позволит авторизоваться для входа под сетевой учётную запись.</p></item>
+      <p>This will open a new window where you can sign in to your online
+      account.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Чаще всего, чтобы начать пользоваться учётной записью, после авторизации необходимо разрешить доступ этому сетевому сервису.</p></item>
-      <item><p>Например, если вы подключены к учётной записи в Google, нужно будет нажать кнопку <gui>Разрешить доступ</gui>.</p></item>
+      <item><p>For example, if you are connecting to your Google account, you
+       will have to click the <gui>Allow</gui> button.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Многие сетевые учётные записи предоставляют выбор, какими сервисами вы хотели бы пользоваться. Если вы не хотите пользоваться сервисом, отключите его с помощью переключателя в правой части окна.</p></item>
     </steps>
 

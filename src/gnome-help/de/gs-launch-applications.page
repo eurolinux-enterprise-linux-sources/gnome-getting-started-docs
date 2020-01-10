@@ -19,13 +19,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Mario Blättermann</mal:name>
       <mal:email>mario.blaettermann@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2017</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013, 2014, 2015, 2016</mal:years>
+      <mal:years>2013, 2014, 2015, 2016, 2017</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -49,7 +49,7 @@
            <tt:p>Bewegen Sie den Mauszeiger zu der <gui>Aktivitäten</gui>-Ecke am linken oberen Rand des Bildschirms.</tt:p>
            </tt:div>
          <tt:div begin="7.5s" end="9.5s">
-           <tt:p>Klicken Sie auf das Symbol <gui>Anwendungen anzeigen</gui></tt:p>
+           <tt:p>Klicken Sie auf das Symbol <gui>Anwendungen anzeigen</gui>.</tt:p>
          </tt:div>
          <tt:div begin="9.5s" end="11s">
            <tt:p>Klicken Sie auf die Anwendung, die Sie starten wollen, zum Beispiel »Hilfe«.</tt:p>

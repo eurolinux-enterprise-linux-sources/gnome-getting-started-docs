@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="lt">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Prisijungti prie internetinių paskyrų</title>
+    <link type="seealso" xref="accounts"/>
+    <title role="seealso" type="link">Prisijungimo prie internetinių paskyrų pamoka</title>
+    <link type="next" xref="gs-change-date-time-timezone"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mantas Kriaučiūnas</mal:name>
+      <mal:email>mantas@akl.lt</mal:email>
+      <mal:years>2013-2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Eglė Kriaučiūnienė</mal:name>
+      <mal:email>egle@valdorfas.org</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Prisijungti prie internetinių paskyrų</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Spauskite ant <gui xref="shell-introduction#yourname">sistemos meniu</gui> viršutinės juostos dešinėje.</p></item>
+      <item><p>Paspauskite mygtuką „Nustatymai“ apatiniame kairiajame meniu kampe.</p></item>
+    </steps>
+       
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
+    
+    <steps style="continues">
+      <item><p>Click the <gui>Online Accounts</gui> panel, then click the online
+      account service you want to use.</p>
+
+      <p>This will open a new window where you can sign in to your online
+      account.</p></item>
+    </steps>
+      
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Dažniausiai, įvedus prisijungimo duomenis reikia duoti sutikimą, kad galėtumėte pradėti.</p></item>
+      <item><p>For example, if you are connecting to your Google account, you
+       will have to click the <gui>Allow</gui> button.</p></item>
+    </steps>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Daugelis internetinių paskyrų leidžia jums pasirinkti paslaugas, kurias naudosite su savo internetine paskyra. Jei kažkokios paslaugos nenorite naudoti, išjunkite ją  su <gui>ON/OFF</gui> mygtukais dešiniojoje lango pusėje.</p></item>
+    </steps>
+
+</page>

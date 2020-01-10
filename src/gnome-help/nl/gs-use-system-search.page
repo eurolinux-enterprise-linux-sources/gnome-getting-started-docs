@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="nl">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Gebruik de systeemzoekfunctie</title>
+    <link type="seealso" xref="shell-apps-open"/>
+    <title role="seealso" type="link">Een handleiding over het gebruik van de systeemzoekfunctie</title>
+    <link type="next" xref="gs-get-online"/>
+  </info>
+
+  <title>Gebruik de systeemzoekfunctie</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    
+    <steps>
+    <item><p>Open het <gui>Activiteiten</gui>overzicht door in de linkerbovenhoek te klikken op <gui>Activiteiten</gui>, of door te drukken op de <key href="help:gnome-help/keyboard-key-super">Super</key>-toets. Begin met typen om te zoeken.</p>
+    <p>Resultaten die overeenkomen met wat u heeft ingetypt zullen verschijnen terwijl u typt. Het eerste resultaat is altijd opgelicht en staat bovenaan.</p>
+    <p>Druk op <key>Enter</key> om naar het eerste opgelichte resultaat te gaan.</p></item>
+    </steps>
+    
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <steps style="continues">
+      <item><p>Tot de onderdelen die kunnen verschijnen in de zoekresultaten behoren:</p>
+      <list>
+        <item><p>overeenkomende toepassingen, weergegeven bovenaan de zoekresultaten,</p></item>
+        <item><p>overeenkomende instellingen.</p></item>
+        <item><p>overeenkomende contacten,</p></item>
+        <item><p>overeenkomende documenten,</p></item>
+        <item><p>overeenkomende agenda,</p></item>
+        <item><p>overeenkomende rekenmachine,</p></item>
+        <item><p>overeenkomende software,</p></item>
+        <item><p>overeenkomende bestanden,</p></item>
+        <item><p>overeenkomende terminal,</p></item>
+        <item><p>overeenkomende wachtwoorden en sleutels.</p></item>
+      </list>
+      </item>
+      <item><p>Klik in de zoekresultaten op het onderdeel waar u naartoe wilt.</p>
+      <p>U kunt ook een onderdeel doen oplichten door de pijltjestoetsen te gebruiken en op <key>Enter</key> te drukken.</p></item>
+    </steps>
+
+    <section id="use-search-inside-applications">
+    
+      <title>Vanuit een toepassing zoeken</title>
+      
+      <p>De systeemzoekfunctie levert resultaten op uit verschillende toepassingen. Aan de linkerkant van de zoekresultaten ziet u pictogrammen van toepassingen die zoekresultaten hebben opgeleverd. Klik op een van de pictogrammen om het zoeken opnieuw te starten vanuit de toepassing die bij dat pictogram hoort. Omdat alleen de beste overeenkomsten getoond worden in het <gui>Activiteitenoverzicht</gui> kan het zoeken vanuit de toepassing mogelijk betere zoekresultaten opleveren.</p>
+
+    </section>
+
+    <section id="use-search-customize">
+
+      <title>Zoekresultaten aanpassen</title>
+
+      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+
+      <note style="important">
+      <p>Met Gnome kunt u aanpassen wat u in de zoekresultaten in het <gui>Activiteitenoverzicht</gui> getoond wilt zien. U kunt bijvoorbeeld kiezen of u resultaten wilt zien van websites, foto's of muziek.</p>
+      </note>
+
+
+      <steps>
+        <title>Om aan te passen wat er in de zoekresultaten getoond wordt:</title>
+        <item><p>Klik op het <gui xref="shell-introduction#yourname">systeemmenu</gui> aan de rechterkant van de bovenste balk.</p></item>
+        <item><p>Klik op de knop Instellingen linksonder in het menu.</p></item>
+        <item><p>Klik op <gui>zoeken</gui> in het linkerpaneel.</p></item>
+        <item><p>Klik in de lijst met zoeklocaties op de <gui>AAN/UIT</gui>-schakelaar naast de zoeklocatie die u wilt in- of uitschakelen.</p>
+         </item>
+      </steps>
+      
+    </section>
+
+</page>

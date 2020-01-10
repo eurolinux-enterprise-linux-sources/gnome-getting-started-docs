@@ -30,7 +30,7 @@
 <t id="wallpapers">רקעים</t>
 <t id="select">בחירה</t>
 <t id="bubble.message">מוכן לפגישה?</t>
-<t id="bubble.response">אהיה שם בעוד רגע...</t>
+<t id="bubble.response">I’ll be there in a sec…</t>
 <t id="bubble.message2">מעניין, שוב תודה</t>
 <t id="bubble.response2">תודה על התמיכה</t>
 <t id="bubble.message3">אין דאגות.</t>
@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">הגדרות תאריך ושעה</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">תאריך ושעה אוטומטי</t>
 <t id="autotimezone">אזור זמן אוטומטי</t>
-<t id="sstime">14 באוקטובר 2013, 20:00</t>
-<t id="sstime2">14 באוקטובר 2013, 14:00</t>
+<t id="sstime">14 October 2013, 20∶00</t>
+<t id="sstime2">14 October 2013, 14∶00</t>
 </titles>

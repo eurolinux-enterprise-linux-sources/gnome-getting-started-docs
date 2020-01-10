@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="lt">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Prisijungimas prie tinklo</title>
+    <link type="seealso" xref="net"/>
+    <title role="seealso" type="link">Prisijungimo prie interneto pamoka</title>
+    <link type="next" xref="gs-browse-web"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mantas Kriaučiūnas</mal:name>
+      <mal:email>mantas@akl.lt</mal:email>
+      <mal:years>2013-2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Eglė Kriaučiūnienė</mal:name>
+      <mal:email>egle@valdorfas.org</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Prisijungimas prie tinklo</title>
+  
+  <note style="important">
+      <p>Prisijungimo prie tinklo būklė rodoma ekrano viršutinės juostos dešinėje pusėje.</p>
+  </note>  
+
+  <section id="going-online-wired">
+
+    <title>Jungtis prie laidinio tinklo</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Tinklo prisijungimo piktograma viršutinės ekrano juostos dešinėje pusėje rodo, kad kompiuteris atsijungęs nuo tinklo.</p>
+      <p>Būsena atsijungus gali būti dėl įvairių priežasčių: pavyzdžiui tinklo laidas gali būti neprijungtas, arba nustatymuose įjungta <em>skrydžio veiksena</em>, arba nėra prieinamų belaidžių tinklų šioje vietovėje.</p>
+      <p>Jei norite naudotis laidiniu tinklu, tiesiog prijunkite tinklo kabelį. Kompiuteris pabandys automatiškai nustatyti interneto ryšį.</p>
+      <p>Kol kompiuteris jums nustatinėja tinklo ryšį, tinklo ryšio piktograma rodo tris taškus.</p></item>
+      <item><p>Kai tik pavyksta sėkmingai prisijungti prie tinklo tinklo ryšio piktograma pasikeičia į kitą simbolį.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="going-online-wifi">
+
+    <title>Jungtis prie belaidžio tinklo</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    
+    <steps>
+      <title>Norėdami prisijungti prie belaidžio (Wi-Fi) tinklo:</title>
+      <item>
+        <p>Spauskite ant <gui xref="shell-introduction#yourname">sistemos meniu</gui> viršutinės juostos dešinėje.</p>
+      </item>
+      <item>
+        <p>Pasirinkite <gui>Neprisijungta prie belaidžio</gui>. Tuomet išsiskleis belaidžio ryšio nustatymų meniu.</p>
+      </item>
+      <item>
+        <p>Paspauskite <gui>Pasirinkti tinklą</gui>.</p>
+      </item>
+    </steps>
+
+     <note style="important">
+       <p>Prie belaidžio tinklo galite prisijungti tik jei jūsų kompiuterio aparatūra jį palaiko ir kai esate ryšio zonoje.</p>
+     </note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
+
+    <steps style="continues">
+    <item><p>Iš galimų belaidžių tinklų sąrašo pasirinkite tinklą, prie kurio norite prisijungti ir spauskite <gui>Prisijungti</gui>.</p>
+    <p>Jūsų gali paprašyti įvesti ryšio slaptažodį, jei taip nustatė belaidžio ryšio tiekėjas.</p></item>
+    </steps>
+
+  </section>
+
+</page>

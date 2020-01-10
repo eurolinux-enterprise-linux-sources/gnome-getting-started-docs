@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" version="1.0 if/1.0" xml:lang="ro">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Navigare pe internet</title>
+    <link type="seealso" xref="net-browser"/>
+    <title role="seealso" type="link">Un ghid despre navigarea pe internet</title>
+    <link type="next" xref="gs-connect-online-accounts"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Șerbănescu</mal:name>
+      <mal:email>daniel [at] serbanescu [dot] dk</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Navigare pe internet</title>
+
+<if:choose>
+<if:when test="platform:gnome-classic">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox-classic.svg" width="100%"/>
+
+    <steps>
+      <item><p>Clic pe meniul <gui>Aplicații</gui> din partea stânga sus a ecranului.</p></item>
+      <item><p>Din meniu, selectați <guiseq><gui>Internet</gui><gui>Firefox</gui></guiseq>.</p></item>
+    </steps>
+
+</if:when>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:when test="platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox.svg" width="100%"/>
+
+    <steps>
+      <item><p>Mutați cursorul mausului în colțul cu <gui>Activități</gui> din partea stângă superioară a ecranului pentru a afișa vederea de ansamblu <gui>Activități</gui>.</p></item>
+      <item><p>Selectați iconița navigatorului <app>Firefox</app> din bara din partea stângă a ecranului.</p></item>
+    </steps>
+
+    <note><p>Alternativ, puteți lansa navigatorul <link xref="gs-use-system-search">tastând</link> <em>Firefox</em> în vederea de ansamblu <gui>Activities Overview</gui>.</p></note>
+
+</if:when>
+<if:else>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Mutați cursorul mausului în colțul cu <gui>Activități</gui> din partea stângă superioară a ecranului pentru a afișa vederea de ansamblu <gui>Activități</gui>.</p></item>
+      <item><p>Selectați iconița navigatorului <app>Web</app> din bara din partea stângă a ecranului.</p></item>
+    </steps>
+
+    <note><p>Alternativ, puteți lansa navigatorul <link xref="gs-use-system-search">tastând</link> <em>web</em> în vederea de ansamblu <gui>Activities Overview</gui>.</p></note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+
+</if:else>
+</if:choose>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:if test="platform:gnome-classic, platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2-firefox.svg" width="100%"/>
+
+</if:if>
+
+    <steps style="continues">
+      <item><p>Clic pe bara de adrese din partea superioară a ferestrei navigatorului și începeți să tastați situl pe care doriți să-l vizitați.</p></item>
+      <item><p>Tastând un sit web va declanșa căutarea lui în istoricul și semnele de carte ale navigatorului, așa că nu trebuie să țineți minte adresa exactă.</p>
+        <p>Dacă situl web este găsit în istoric sau semne de carte, o listă derulantă este afișată sub bara de adrese.</p></item>
+      <item><p>Din lista derulantă, puteți selecta rapid un sit web folosind tastele săgeți.</p>
+      </item>
+      <item><p>După ce ați selectat un sit web, apăsați <key>Enter</key> pentru a-l vizita.</p>
+      </item>
+    </steps>
+
+</page>

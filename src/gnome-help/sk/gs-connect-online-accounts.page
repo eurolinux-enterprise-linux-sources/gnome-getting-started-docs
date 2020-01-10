@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="sk">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="sk">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -34,27 +34,24 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Klikneme na panel <gui>Účty služieb</gui>, potom klikneme na tlačidlo <gui>Pridať účet služieb</gui>.</p></item>
-    </steps>
-    
-    <note><p>Ak už máme účet služieb nastavený, ďalší môžeme pridať kliknutím na tlačidlo <gui>+</gui> v ľavom dolnom rohu okna.</p></note>
-    
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+      <item><p>Click the <gui>Online Accounts</gui> panel, then click the online
+      account service you want to use.</p>
 
-    <steps style="continues">  
-      <item><p>Klikneme na účet služieb, ktorý chceme použiť. Tým sa otvorí nové okno, v ktorom sa môžeme prihlásiť do svojho účtu služieb.</p></item>
+      <p>This will open a new window where you can sign in to your online
+      account.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Vo väčšine prípadov budeme musieť po prihlásení umožniť k službe prístup, aby sme mohli začať.</p></item>
-      <item><p>Napríklad, ak sa pripájame k účtu Google, budeme musieť kliknúť na tlačidlo <gui>Umožniť prístup</gui>.</p></item>
+      <item><p>For example, if you are connecting to your Google account, you
+       will have to click the <gui>Allow</gui> button.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Väčšina účtov služieb nás nechá vybrať služby, ktoré chceme používať s našim účtom služieb. Ak určitú službu  nechceme použiť, vypneme ju kliknutím na prepínač <gui>ZAP/VYP</gui> na pravej strane okna.</p></item>
     </steps>
 

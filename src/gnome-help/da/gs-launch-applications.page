@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-launch-applications" xml:lang="da">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Start programmer</title>
+    <link type="seealso" xref="shell-apps-open"/>
+    <title role="seealso" type="link">En vejledning til at starte programmer</title>
+    <link type="next" xref="gs-switch-tasks"/>
+  </info>
+
+  <title>Start programmer</title>
+
+  <ui:overlay width="812" height="452">
+   <media type="video" its:translate="no" src="figures/gnome-launching-applications.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-launching-apps.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Starte programmer</tt:p>
+         </tt:div>
+         <tt:div begin="5s" end="7.5s">
+           <tt:p>Flyt din musemarkør til hjørnet med <gui>Aktiviteter</gui>, øverst til venstre på skærmen.</tt:p>
+           </tt:div>
+         <tt:div begin="7.5s" end="9.5s">
+           <tt:p>Klik på ikonet <gui>Vis programmer</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="9.5s" end="11s">
+           <tt:p>Klik på det program, du vil køre. F.eks. Hjælp.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="21s">
+           <tt:p>Eller: Brug tastaturet til at åbne <gui>Aktivitetsoversigten</gui> ved at trykke på <key href="help:gnome-help/keyboard-key-super">Super</key>-tasten.</tt:p>
+         </tt:div>
+         <tt:div begin="22s" end="29s">
+           <tt:p>Begynd at skrive navnet på det program, du vil starte.</tt:p>
+         </tt:div>
+         <tt:div begin="30s" end="33s">
+           <tt:p>Tryk <key>Enter</key> for at starte programmet.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+   </media>
+  </ui:overlay>
+
+  <section id="launch-apps-mouse">
+    <title>Start programmer med musen</title>
+ 
+  <steps>
+    <item><p>Flyt din musemarkør til hjørnet med <gui>Aktiviteter</gui>, øverst til venstre på skærmen for at vise <gui>Aktivitetsoversigten</gui>.</p></item>
+    <item><p>Klik på ikonet <gui>Vis programmer</gui>, som vises i bunden af linjen på venstre side af skærmen.</p></item>
+    <item><p>Der vises en liste med programmer. Klik på det program, du vil køre. F.eks. Hjælp.</p></item>
+  </steps>
+
+  </section>
+
+  <section id="launch-app-keyboard">
+    <title>Start programmer med tastaturet</title>
+
+  <steps>
+    <item><p>Åbn <gui>Aktivitetsoversigten</gui> ved at trykke på <key href="help:gnome-help/keyboard-key-super">Super</key>-tasten.</p></item>
+    <item><p>Begynd at skrive navnet på det program, du vil starte. Søgning efter programmet starter med det samme.</p></item>
+    <item><p>Tryk på <key> Enter</key> for at starte programmet, når programmets ikon bliver vist og valgt.</p></item>
+  </steps>
+
+  </section>
+
+</page>

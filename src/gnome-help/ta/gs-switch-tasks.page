@@ -13,7 +13,7 @@
     <title role="trail" type="link">பணிகளுக்கிடையே மாறவும்</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">பணிகளுக்கு இடையே மாறுவது பற்றிய பயிற்சி</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Dr. T. Vasudevan</mal:name>
@@ -32,22 +32,22 @@
          <tt:div begin="1s" end="5s">
            <tt:p>பணிகளுக்கிடையே மாறுதல்</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>உங்கள் சொடுக்கி சுட்டியை திரையின் மேல் இடது புறம் உள்ள <gui>செயல்பாடுகள்</gui> மூலைக்குக் கொண்டு செல்லவும்.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">உங்கள் சொடுக்கி சுட்டியை திரையின் மேல் இடது புறம் உள்ள <gui>செயல்பாடுகள்</gui> மூலைக்குக் கொண்டு செல்லவும்.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>ஒரு பணிக்குச் செல்ல அதற்குரிய சாளரத்தைச் சொடுக்கவும்.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>திரையின் இடப்புறம் பக்கவாட்டில் ஒரு சாளரத்தைப் பெரிதாக்க, சாளரத்தின் தலைப்புப் பட்டியைப் பிடித்து, அதை திரையின் இடப்புறம் இழுத்துச் செல்லவும்.</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="16s">
            <tt:p>திரையில் பாதி தனிப்படுத்தப்பட்டிருக்கும் போது, சாளரத்தை விடுவிக்கவும்.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>வலப்புறம் பக்கவாட்டில் ஒரு சாளரத்தைப் பெரிதாக்க, சாளரத்தின் தலைப்புப் பட்டியைப் பிடித்து, அதை வலப்புறம் இழுத்துச் செல்லவும்.</tt:p>
+           <tt:p>To maximize a window along the right side, grab the window’s
+            titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
            <tt:p>திரையில் பாதி தனிப்படுத்தப்பட்டிருக்கும் போது, சாளரத்தை விடுவிக்கவும்.</tt:p>
@@ -103,7 +103,8 @@
     <title>சாளரங்களை கட்ட அமைப்பில் வை</title>
     
     <steps>
-      <item><p>திரையின் பக்கவாட்டில் ஒரு சாளரத்தைப் பெரிதாக்க, சாளரத்தின் தலைப்புப் பட்டியைப் பிடித்து, அதை திரையின் இட அல்லது வலப்புறம் இழுத்துச் செல்லவும்.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>திரையில் பாதி தனிப்படுத்தப்பட்டிருக்கும் போது, சாளரத்தை திரையின் தேர்ந்தெடுக்கப்பட்ட பக்கமாக பெரிதாக்க, சாளரத்தை விடுவிக்கவும்.</p></item>
       <item><p>இரண்டு சாளரங்களை பக்கத்திற்கொன்றாக பெரிதாக்க, இரண்டாவது சாளரத்தின் தலைப்புப் பட்டியைப் பிடித்து திரையின் எதிர்ப்பக்கத்திற்கு இழுத்துச் செல்லவும்.</p></item>
        <item><p>திரையில் பாதி தனிப்படுத்தப்பட்டிருக்கும் போது, சாளரத்தை திரையின் எதிர்ப்புறமாக பெரிதாக்க, சாளரத்தை விடுவிக்கவும்.</p></item>

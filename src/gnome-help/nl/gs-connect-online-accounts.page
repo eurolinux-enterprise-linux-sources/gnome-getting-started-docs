@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="nl">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Verbinding maken met online-accounts</title>
+    <link type="seealso" xref="accounts"/>
+    <title role="seealso" type="link">Een handleiding over het verbinding maken met online-accounts</title>
+    <link type="next" xref="gs-change-date-time-timezone"/>
+  </info>
+
+  <title>Verbinding maken met online-accounts</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Klik op het <gui xref="shell-introduction#yourname">systeemmenu</gui> aan de rechterkant van de bovenste balk.</p></item>
+      <item><p>Klik op de knop Instellingen linksonder in het menu.</p></item>
+    </steps>
+       
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
+    
+    <steps style="continues">
+      <item><p>Klik op het <gui>Online-accounts</gui>-paneel en klik dan op de online-account-dienst die u wilt gebruiken.</p>
+
+      <p>Hiermee opent u een nieuw venster waar u zich aan kunt melden bij uw online-account.</p></item>
+    </steps>
+      
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>In de meeste gevallen dient u na aanmelding de online-dienst toegang te verlenen om te kunnen beginnen.</p></item>
+      <item><p>Bijvoorbeeld, als u verbinding maakt met uw Google-account, moet u klikken op de knop <gui>Toestaan</gui></p></item>
+    </steps>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Bij veel online-accounts kunt u de diensten kiezen die u met uw online-account wilt gebruiken. Als u een dienst niet wilt gebruiken, schakel die dan uit door te klikken op de <gui>AAN/UIT</gui>-schakelaar aan de rechterkant van het venster.</p></item>
+    </steps>
+
+</page>

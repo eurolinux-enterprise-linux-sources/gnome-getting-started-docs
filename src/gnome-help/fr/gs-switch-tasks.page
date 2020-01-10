@@ -13,7 +13,7 @@
     <title role="trail" type="link">Navigation entre les tâches</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Naviguer entre les tâches</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Alain Lojewski</mal:name>
@@ -50,22 +50,22 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Navigation entre les tâches</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Déplacez le pointeur de votre souris vers <gui>Activités</gui> dans le coin supérieur gauche de l'écran.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Déplacez le pointeur de votre souris vers <gui>Activités</gui> dans le coin supérieur gauche de l'écran.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Cliquez sur une fenêtre pour passer à cette tâche.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>Pour maximiser une fenêtre le long du bord gauche de l'écran, saisissez la fenêtre par sa barre de titre et glissez-la vers la gauche.</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="16s">
            <tt:p>Lorsque la moitié de l'écran s'éclaire, lâchez la fenêtre.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>Pour maximiser une fenêtre le long du bord droit de l'écran, saisissez la fenêtre par sa barre de titre et glissez-la à droite.</tt:p>
+           <tt:p>To maximize a window along the right side, grab the window’s
+            titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
            <tt:p>Lorsque la moitié de l'écran s'éclaire, lâchez la fenêtre.</tt:p>
@@ -121,7 +121,8 @@
     <title>Disposition des fenêtres</title>
     
     <steps>
-      <item><p>Pour maximiser une fenêtre le long d'un bord de l'écran, saisissez la fenêtre par sa barre de titre et glissez-la à gauche ou à droite de l'écran.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>Lorsque la moitié de l'écran s'éclaire, lâchez la fenêtre et elle se trouve maximisée le long du bord de l'écran choisi.</p></item>
       <item><p>Pour maximiser deux fenêtres côte à côte, saisissez la seconde fenêtre par sa barre de titre et glissez-la de l'autre côté de l'écran.</p></item>
        <item><p>Lorsque la moitié de l'écran s'éclaire, lâchez la fenêtre et elle se trouve maximisée le long du bord de l'écran opposé.</p></item>

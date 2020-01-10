@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="lt">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Naudokite langus ir darbo sritis</title>
+    <link type="seealso" xref="shell-windows-switching"/>
+    <title role="seealso" type="link">Naudojimosi langais bei darbo sritimis pradžiamokslis</title>
+    <link type="next" xref="gs-use-system-search"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mantas Kriaučiūnas</mal:name>
+      <mal:email>mantas@akl.lt</mal:email>
+      <mal:years>2013-2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Eglė Kriaučiūnienė</mal:name>
+      <mal:email>egle@valdorfas.org</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Darbas su langais ir darbo sritimis</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Langai ir darbo sritys</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="10s">
+           <tt:p>To maximize a window, grab the window’s titlebar and drag it to
+            the top of the screen.</tt:p>
+           </tt:div>
+         <tt:div begin="10s" end="13s">
+           <tt:p>Kai ekrano fonas „apsišviečia“, atleiskite pelės klavišą.</tt:p>
+         </tt:div>
+         <tt:div begin="14s" end="20s">
+           <tt:p>To unmaximize a window, grab the window’s titlebar and drag it
+            away from the edges of the screen.</tt:p>
+         </tt:div>
+         <tt:div begin="25s" end="29s">
+           <tt:p>Taipogi, norėdami atstatyti lango dydį, galite spustelėti ir tempti viršutinę ekrano juostą.</tt:p>
+         </tt:div>
+         <tt:div begin="34s" end="38s">
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
+         </tt:div>
+         <tt:div begin="38s" end="40s">
+           <tt:p>Kai ekrano pusė „apsišviečia“, atleiskite pelės klavišą.</tt:p>
+         </tt:div>
+         <tt:div begin="41s" end="44s">
+           <tt:p>To maximize a window along the right side of the screen, grab
+            the window’s titlebar and drag it to the right.</tt:p>
+         </tt:div>
+         <tt:div begin="44s" end="48s">
+           <tt:p>Kai ekrano pusė „apsišviečia“, atleiskite pelės klavišą.</tt:p>
+         </tt:div>
+         <tt:div begin="54s" end="60s">
+           <tt:p>Norėdami išdidinti langą klaviatūros pagalba, laikykite nuspaudę <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> klavišą ir paspauskite <key>↑</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="61s" end="66s">
+           <tt:p>Norėdami atstatyti lango dydį, laikykite nuspaudę <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> klavišą ir paspauskite <key>↓</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="66s" end="73s">
+           <tt:p>Langą išdidinsite dešinėje ekrano pusėje laikydami nuspaudę <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> klavišą spusteldami <key>→</key> klaviatūroje.</tt:p>
+         </tt:div>
+         <tt:div begin="76s" end="82s">
+           <tt:p>Langą išdidinsite kairėje ekrano pusėje laikydami nuspaudę <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> klavišą spusteldami <key>←</key> klaviatūroje.</tt:p>
+         </tt:div>
+         <tt:div begin="83s" end="89s">
+           <tt:p>Norėdami pereiti į žemiau esantį darbalaukį, spauskite <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Psl. Žemyn</key></keyseq>.</tt:p>
+         </tt:div>
+         <tt:div begin="90s" end="97s">
+           <tt:p>Norėdami pereiti į aukščiau esantį darbalaukį, spauskite <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Psl. Aukštyn</key></keyseq>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="use-workspaces-and-windows-maximize">
+    <title>Išdidinti ir sumažinti langus</title>
+    <p/>
+    
+    <steps>
+      <item><p>To maximize a window so that it takes up all of the space on
+       your desktop, grab the window’s titlebar and drag it to the top of the
+       screen.</p></item>
+      <item><p>Kai ekranas bus apšviestas, atleiskite langą ir jį išdidinsite.</p></item>
+      <item><p>To restore a window to its unmaximized size, grab the window’s
+       titlebar and drag it away from the edges of the screen.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="use-workspaces-and-windows-tile">
+    <title>Išdėstyti langus</title>
+    <p/>
+    
+    <steps>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
+      <item><p>Kai ekrano pusė bus apšviesta, paleiskite langą ir jį išdidinsite toje ekrano pusėje.</p></item>
+      <item><p>Norėdami išdidinti 2 langus vieną šalia kito, paėmę už antrojo lango tempkite jį į priešingą ekrano pusę.</p></item>
+       <item><p>Kai ekrano pusė bus apšviesta, paleiskite langą ir jį išdidinsite kitoje ekrano pusėje.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="use-workspaces-and-windows-maximize-keyboard">
+    <title>Langų didinimas ir mažinimas klaviatūros pagalba</title>
+    
+    <steps>
+      <item><p>Norėdami išdidinti langą klaviatūros pagalba, laikykite nuspaudę <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> klavišą ir paspauskite <key>↑</key>.</p></item>
+      <item><p>Sumažinti langą klaviatūros pagalba, laikykite nuspaudę <key href="help:gnome-help/keyboard-key-super">Super</key> klavišą ir paspauskite <key>↓</key>.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="use-workspaces-and-windows-tile-keyboard">
+    <title>Išdėstyti langus naudojant klaviatūrą</title>
+    
+    <steps>
+      <item><p>Langą išdidinsite dešinėje ekrano pusėje laikydami nuspaudę <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> klavišą spusteldami <key>→</key> klaviatūroje.</p></item>
+      <item><p>Langą išdidinsite kairėje ekrano pusėje laikydami nuspaudę <key href="help:gnome-help/keyboard-key-super">Super(Windows)</key> klavišą spusteldami <key>←</key> klaviatūroje.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="use-workspaces-and-windows-workspaces-keyboard">
+    <title>Perjungti darbo sritis naudojant klaviatūrą</title>
+    
+    <steps>
+    
+    <item><p>Norėdami pereiti į aukščiau esantį darbo sritį, paspauskite <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Psl. Žemyn</key></keyseq>.</p></item>
+    <item><p>Norėdami pereiti į aukščiau esantį darbo sritį, paspauskite <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Psl. Žemyn</key></keyseq>.</p></item>
+
+    </steps>
+    
+  </section>
+
+</page>

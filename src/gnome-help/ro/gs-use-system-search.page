@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="ro">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Utilizarea căutării sistemului</title>
+    <link type="seealso" xref="shell-apps-open"/>
+    <title role="seealso" type="link">Un ghid pentru utilizarea căutării sistemului</title>
+    <link type="next" xref="gs-get-online"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Șerbănescu</mal:name>
+      <mal:email>daniel [at] serbanescu [dot] dk</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Utilizarea căutării sistemului</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    
+    <steps>
+    <item><p>Deschideți vederea de ansamblu <gui>Activități</gui> apăsând <gui>Activități</gui> din partea superioară a ecranului sau apăsând tasta <key href="help:gnome-help/keyboard-key-super">Super</key>. Începeți să tastați pentru a căuta.</p>
+    <p>Rezultatele ce se potrivesc cu ce ați tastat vor apărea pe măsură ce tastați. Primul rezultat este evidențiat întotdeauna în partea superioară.</p>
+    <p>Apăsați <key>Enter</key> pentru a comuta la primul rezultat evidențiat.</p></item>
+    </steps>
+    
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <steps style="continues">
+      <item><p>Elementele care pot apărea în rezultatele căutării includ:</p>
+      <list>
+        <item><p>aplicații care se potrivesc, afișate în partea superioară a rezultatelor căutării,</p></item>
+        <item><p>configurări care se potrivesc,</p></item>
+        <item><p>contacte care se potrivesc,</p></item>
+        <item><p>documente care se potrivesc,</p></item>
+        <item><p>calendare care se potrivesc,</p></item>
+        <item><p>expressi de calcul pentru calculator care se potrivesc,</p></item>
+        <item><p>programe care se potrivesc,</p></item>
+        <item><p>fișiere care se potrivesc,</p></item>
+        <item><p>comenzi de terminal care se potrivesc,</p></item>
+        <item><p>parole și chei care se potrivesc.</p></item>
+      </list>
+      </item>
+      <item><p>În rezultatele căutării, clic pe elementul la care doriți să comutați.</p>
+      <p>În mod alternativ, evidențiați un element utilizând tastele săgeți și apăsați <key>Enter</key>.</p></item>
+    </steps>
+
+    <section id="use-search-inside-applications">
+    
+      <title>Căutarea din interiorul aplicațiilor</title>
+      
+      <p>Căutarea de sistem agreghează rezultate din mai multe aplicații. În partea stângă a rezultatelor căutării, puteți vedea iconițe ale aplicații care au oferit rezultatele căutării. Clic pe una dintre iconițe pentru a reporni căutarea din interiorul aplicației asociate cu acea iconiță. Pentru că numai cele mai bune potriviri sunt afișate în vederea de ansamblu <gui>Activități</gui>, căutarea din interiorul aplicației vă poate oferi rezultate de căutare mai bune.</p>
+
+    </section>
+
+    <section id="use-search-customize">
+
+      <title>Personalizarea rezultatelor căutării</title>
+
+      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+
+      <note style="important">
+      <p>GNOME vă permite să personalizați ce doriți să afișați în rezultatele căutării din vederea de ansamblu <gui>Activități</gui>. De exemplu, puteți alege dacă să includeți rezultate pentru situri web, fotografii sau muzică.</p>
+      </note>
+
+
+      <steps>
+        <title>Pentru a personaliza ce este afișat în rezultatele căutării:</title>
+        <item><p>Clic pe <gui xref="shell-introduction#yourname">meniul sistemului</gui> din partea dreaptă a barei de sus.</p></item>
+        <item><p>Clic pe butonul de configurări din partea stânga-jos a meniului.</p></item>
+        <item><p>Clic <gui>Caută</gui> în panoul din stânga.</p></item>
+        <item><p>În lista de locații de căutare, clic pe comutatorul <gui>PORNIT/OPRIT</gui> din dreptul locației de căutare pe care doriți să o activați sau dezactivați.</p>
+         </item>
+      </steps>
+      
+    </section>
+
+</page>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="ca">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="ca">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -35,12 +35,8 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>The network connection icon on the right-hand side of the top
-       bar shows that you are offline.</p>
-      <p>The offline status can be caused by a number of reasons: for
-       example, a network cable has been unplugged, the computer has been set
-       to run in <em>airplane mode</em>, or there are no available Wi-Fi
-       networks in your area.</p>
+      <item><p>La icona de l'estat de la connexió a la xarxa situada a la part dreta de la barra superior indica que esteu fora de línia.</p>
+      <p>L'estat de fora de línia pot ser degut a diverses causes, per exemple: que el cable de xarxa estigui desconnectat, que l'ordinador estigui en <em>mode d'avió</em> o que no hi hagi cap xarxa sense fil disponible al vostre voltant.</p>
       <p>Si voleu utilitzar una connexió amb fil, només cal que connecteu un cable de xarxa. L'ordinador intentarà configurar la connexió de xarxa automàticament.</p>
       <p>Mentre s'està configurant la connexió de xarxa, la icona de l'estat de la connexió a la xarxa mostra tres punts.</p></item>
       <item><p>Un cop s'ha configurat correctament la connexió de xarxa, la icona de l'estat de la connexió a la xarxa canvia per mostrar el símbol d'un ordinador connectat en xarxa.</p></item>
@@ -55,17 +51,16 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-      <title>To connect to a Wi-Fi (wireless) network:</title>
+      <title>Per connectar-se a una xarxa Wi-Fi sense fil:</title>
       <item>
         <p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
         on the right side of the top bar.</p>
       </item>
       <item>
-        <p>Select <gui>Wi-Fi Not Connected</gui>. The Wi-Fi section of the menu
-        will expand.</p>
+        <p>Seleccioneu <gui>Wi-Fi Not Connected</gui> La secció de connexió Wi-Fi del menú s'expandirà.</p>
       </item>
       <item>
-        <p>Click <gui>Select Network</gui>.</p>
+        <p>Cliqueu <gui>Seleccioneu una xarxa</gui>.</p>
       </item>
     </steps>
 
@@ -76,7 +71,7 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
 
     <steps style="continues">
-    <item><p>De la llista de xarxes sense fil disponibles, seleccioneu la xarxa a la que us voleu connectar i per confirmar, feu clic a <gui>Connecta</gui>.</p>
+    <item><p>De la llista de xarxes sense fil disponibles, seleccioneu la xarxa a la qual us voleu connectar i per confirmar, feu clic a <gui>Connecta</gui>.</p>
     <p>En funció de quina sigui la configuració de la xarxa, se us demanaran les credencials per connectar-vos-hi.</p></item>
     </steps>
 

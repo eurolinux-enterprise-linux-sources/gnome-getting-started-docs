@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="da">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">Besvar meddelelser</title>
+    <title role="seealso" type="link">En vejledning til at besvare meddelelser</title>
+  </info>
+
+  <title>Besvar meddelelser</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="3s">
+           <tt:p>Besvare meddelelser</tt:p>
+         </tt:div>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Flyt din mus hen over chat-meddelelsen som dukker op nær toppen af skærmen.</tt:p>
+           </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Begynd at skrive dit svar og tryk på <key>Enter </key> når du er færdig, for at sende svaret.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="10s">
+           <tt:p>Luk chat-meddelelsen.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Forsinket besvarelse</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="22s">
+           <tt:p>En chat-meddelelse nær toppen af skærmen forsvinder efter et stykke tid, hvis ikke du flytter din mus hen over meddelelsen.</tt:p>
+         </tt:div>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Klik på uret i toplinjen for at gå tilbage til din ubesvarede meddelelse.</tt:p>
+         </tt:div>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Vælg din meddelelse fra påmindelseslisten.</tt:p>
+         </tt:div>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Begynd at skrive dit svar.</tt:p>
+         </tt:div>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Tryk på <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>V</key></keyseq> for at vise påmindelseslisten</tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Brug piletasterne til at vælge den meddelelse du vil svare på, og tryk på <key>Enter</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Begynd at skrive dit svar.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="respond-to-messages-mouse">
+    <title>Besvar chat-meddelelse med musen</title>
+    
+    <steps>
+      <item><p>Flyt din mus hen over chat-meddelelsen som dukker op nær toppen af skærmen.</p></item>
+      <item><p>Begynd at skrive dit svar, og tryk på <key>Enter</key> når du er færdig.</p></item>
+      <item><p>Klik på luk-knappen i øverste højre hjørne af chat-meddelelsen for at lukke chat-meddelelsen.</p></item>
+    </steps>
+    <p/>
+  </section>
+  
+  <section id="respond-to-messages-delayed-mouse">
+    <title>Besvarelse af chat-meddelelse efter ventetid ved brug af musen</title>
+    
+    <steps>
+      <item><p>Når en chat-meddelelse dukker op nær toppen af skærmen og du ikke flytter din mus hen over meddelelsen, forsvinder den efter et stykke tid.</p></item>
+      <item><p>Klik på uret i toplinjen for at gå tilbage til din ubesvarede meddelelse.</p></item>
+      <item><p>Vælg den meddelelse du vil svare på fra påmindelseslisten, og klik på den.</p></item>
+      <item><p>Begynd at skrive dit svar, når chat-meddelelsen vises.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="respond-to-messages-delayed-keyboard">
+    <title>Besvarelse af chat-meddelelse efter ventetid ved brug af tastaturet</title>
+    <steps>
+      <item><p>Tryk på <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key> </keyseq> for at vise listen med ubesvarede chat-meddelelser.</p>
+      </item>
+      <item><p>Brug piletasterne til at vælge den påmindelse, du vil svare på, og tryk på <key>Enter</key>.</p></item>
+      <item><p>Begynd at skrive dit svar, når chat-meddelelsen vises.</p></item>
+    </steps>
+
+  </section>
+
+
+</page>

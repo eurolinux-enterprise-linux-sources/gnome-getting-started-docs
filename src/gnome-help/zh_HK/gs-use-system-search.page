@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="zh-HK">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="zh-HK">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">使用系統搜尋</title>
@@ -27,7 +30,10 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>按下 <key href="help:gnome-help/keyboard-key-super">Super</key> 鍵開啟 <gui>活動概覽</gui> 畫面。開始輸入以展開搜尋。</p>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
     <p>符合你輸入內容的結果會隨着輸入即時出現。第一個結果總是會反白，並顯示在頂端。</p>
     <p>按下 <key>Enter</key> 鍵切換到第一個反白結果。</p></item>
     </steps>
@@ -38,8 +44,14 @@
       <list>
         <item><p>符合的應用程式，會顯示在搜尋結果的頂端、</p></item>
         <item><p>符合的設定值、</p></item>
-        <item><p>符合的聯絡人，以及</p></item>
-        <item><p>符合的文件。</p></item>
+        <item><p>matching contacts,</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
       </list>
       </item>
       <item><p>在搜尋結果中，點按項目可以切換至該項目。</p>
@@ -70,7 +82,7 @@
         <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
         on the right side of the top bar.</p></item>
         <item><p>Click the settings button at the bottom left of the menu.</p></item>
-        <item><p>Click the <gui>Search</gui> panel.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
         <item><p>在搜尋位置的清單中，點按搜尋位置旁的 <gui>開/關</gui> 功能開關來啟用或停用。</p>
          </item>
       </steps>

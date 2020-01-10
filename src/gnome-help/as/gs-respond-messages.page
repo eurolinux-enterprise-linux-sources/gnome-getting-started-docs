@@ -9,11 +9,12 @@
     <credit type="author">
       <name>পিটাৰ ক'ভাৰ</name>
     </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">বাৰ্তাসমূহলৈ প্ৰতিক্ৰিয়া কৰক</title>
     <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">বাৰ্তাসমূহলৈ প্ৰতিক্ৰিয়া কৰক</title>
     <title role="seealso" type="link">বাৰ্তাসমূহলৈ প্ৰতিক্ৰিয়া কৰিবলে শিক্ষা</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>বাৰ্তাসমূহলৈ প্ৰতিক্ৰিয়া কৰক</title>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="hr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Povezivanje s mrežnim računima</title>
+    <link type="seealso" xref="accounts"/>
+    <title role="seealso" type="link">Vodič za povezivanje s mrežnim računima</title>
+    <link type="next" xref="gs-change-date-time-timezone"/>
+  </info>
+
+  <title>Povezivanje s mrežnim računima</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Kliknite na <gui xref="shell-introduction#yourname">izbornik sustava</gui> na desnoj strani gornje trake.</p></item>
+      <item><p>Kliknite tipku postavki dolje lijevo u izborniku.</p></item>
+    </steps>
+       
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
+    
+    <steps style="continues">
+      <item><p>Kliknite na <gui>Mrežni računi</gui> panel, zatim kliknite na uslugu mrežnog računa koji želite koristiti.</p>
+
+      <p>To će otvoriti novi prozor gdje se možete prijaviti u svoj mrežni račun.</p></item>
+    </steps>
+      
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>U većini slučajeva, morati ćete dopustiti pristup mrežnoj usluzi nakon prijavljivanja kako bi započeli koristiti uslugu.</p></item>
+      <item><p>Na primjer, ako se povezujete s Google računom, morati ćete kliknuti na <gui>Dopusti</gui> tipku.</p></item>
+    </steps>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Mnogi mrežni računi omogućuju vam odabir usluga koje želite koristiti s vašim mrežnim računom. Ako ne želite koristiti uslugu, onemogućite ju klikom na <gui>UKLJ/ISKLJ</gui> prekidač na desnoj strani prozora.</p></item>
+    </steps>
+
+</page>

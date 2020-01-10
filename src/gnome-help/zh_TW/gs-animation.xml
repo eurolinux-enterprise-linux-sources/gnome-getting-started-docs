@@ -30,7 +30,7 @@
 <t id="wallpapers">桌布</t>
 <t id="select">選取</t>
 <t id="bubble.message">準備好開會了嗎？</t>
-<t id="bubble.response">我馬上趕到...</t>
+<t id="bubble.response">I’ll be there in a sec…</t>
 <t id="bubble.message2">好東西，多虧有你</t>
 <t id="bubble.response2">感謝支援</t>
 <t id="bubble.message3">別擔心。</t>
@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">日期與時刻設定值</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">自動調整日期與時刻</t>
 <t id="autotimezone">自動調整時區</t>
-<t id="sstime">2013年10月14日，20:00</t>
-<t id="sstime2">2013年10月14日，14:00</t>
+<t id="sstime">14 October 2013, 20∶00</t>
+<t id="sstime2">14 October 2013, 14∶00</t>
 </titles>

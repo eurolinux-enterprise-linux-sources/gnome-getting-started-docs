@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="fi">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="fi">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">Käytä hakua</title>
@@ -21,26 +24,28 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Open the <gui>Activities Overview</gui> by pressing the
-    <key href="help:gnome-help/keyboard-key-super">Super</key> key. Start typing
-    to search.</p>
-    <p>Results matching what you have typed will appear as you type. The first
-    result is always highlighted and shown at the top.</p>
-    <p>Press <key>Enter</key> to switch to the first highlighted result.</p></item>
+    <item><p>Avaa <gui>Toiminnot</gui>-yleisnäkymä napsauttamalla <gui>Toiminnot</gui> näytön vasemmasta yläreunasta, tai painamalla <key href="help:gnome-help/keyboard-key-super">Super</key>. Aloita kirjoittaminen etsiäksesi.</p>
+    <p>Hakuehtojasi vastaavat tulokset ilmestyvät näkyviin kirjoittaessasi. Ensimmäinen tulos on aina korostettu ja näytetään ylimpänä.</p>
+    <p>Paina <key>Enter</key> vaihtaaksesi ensimmäisenä korostettuun tulokseen.</p></item>
     </steps>
     
     <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
     <steps style="continues">
       <item><p>Hakutuloksiin saattaa sisältyä:</p>
       <list>
-        <item><p>matching applications, shown at the top of the search results,
-        </p></item>
-        <item><p>matching settings,</p></item>
-        <item><p>matching contacts, and</p></item>
-        <item><p>matching documents.</p></item>
+        <item><p>vastaavat sovellukset, jotka näytetään ylimpän hakutuloksissa</p></item>
+        <item><p>vastaavat asetukset</p></item>
+        <item><p>vastaavat yhteystiedot</p></item>
+        <item><p>vastaavat asiakirjat</p></item>
+        <item><p>vastaava kalenteri</p></item>
+        <item><p>vastaava laskin</p></item>
+        <item><p>vastaava ohjelmisto</p></item>
+        <item><p>vastaavat tiedostot</p></item>
+        <item><p>vastaava pääte</p></item>
+        <item><p>vastaavat salasanat ja avaimet.</p></item>
       </list>
       </item>
-      <item><p>In the search results, click the item to switch to it.</p>
+      <item><p>Napsauta hakutuloslistauksessa kohdetta vaihtaaksesi siihen.</p>
       <p>Vaihtoehtoisesti käytä näppäimistön nuolia valitaksesi kohteen ja paina sitten <key>Enter</key>.</p></item>
     </steps>
 
@@ -48,13 +53,7 @@
     
       <title>Käytä sovelluksien omaa hakutoimintoa</title>
       
-      <p>The system search aggregates results from various applications. On the
-      left-hand side of the search results, you can see icons of applications
-      that provided the search results. Click one of the icons to restart the
-      search from inside the application associated with that icon. Because
-      only the best matches are shown in the <gui>Activities Overview</gui>,
-      searching from inside the application may give you better search results.
-      </p>
+      <p>Järjestelmähaku kokoaa tuloksia useista sovelluksista. Hakutulosten vasemmasta reunasta näkee sen sovelluksen kuvakkeen, joka palauttaa hakutuloksia. Napsauta jotakin näistä vasemmalla olevista kuvakkeista avataksesi hakutulokset kyseisen sovelluksen ikkunaan. Koska vain parhaiten vastaavat tulokset näytetään <gui>Toiminnot</gui>-yleisnäkymässä, sovellusikkunoiden omat hakutulokset voivat näyttää enemmän tai parempia tuloksia.</p>
 
     </section>
 
@@ -65,21 +64,16 @@
       <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
-      <p>GNOME lets you customize what you want to display in the search
-       results in the <gui>Activities Overview</gui>. For example, you can
-        choose whether you want to show results for websites, photos, or music.
-        </p>
+      <p>Gnome sallii mukauttaa <gui>Toiminnot</gui>-yleisnäkymässä näytettäviä hakutuloksia. Voit valita näytettäväksi esimerkiksi verkkosivuja, kuvia tai musiikkia.</p>
       </note>
 
 
       <steps>
         <title>Mukauta näytettäviä hakutuloksia seuraavasti:</title>
-        <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
-        on the right side of the top bar.</p></item>
-        <item><p>Click the settings button at the bottom left of the menu.</p></item>
-        <item><p>Click the <gui>Search</gui> panel.</p></item>
-        <item><p>In the list of search locations, click the <gui>ON/OFF</gui>
-         switch next to the search location you want to enable or disable.</p>
+        <item><p>Napsauta <gui xref="shell-introduction#yourname">järjestelmävalikkoa</gui> yläpalkin oikeasta laidasta.</p></item>
+        <item><p>Napsauta Asetukset-painiketta valikon vasemmanpuoleisesta alaosasta.</p></item>
+        <item><p>Napsauta <gui>Etsi</gui> vasemmasta paneelista.</p></item>
+        <item><p>Napsauta hakusijaintilistauksessa <gui>Päällä/Pois</gui>-painiketta sen hakusijainnin vierestä, jonka haluat ottaa käyttöön tai poistaa käytöstä.</p>
          </item>
       </steps>
       

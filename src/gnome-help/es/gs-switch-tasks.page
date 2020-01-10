@@ -13,12 +13,12 @@
     <title role="trail" type="link">Cambiar entre tareas</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Un tutorial para cambiar entre tareas</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Daniel Mustieles</mal:name>
       <mal:email>daniel.mustieles@gmail.com</mal:email>
-      <mal:years>2013 - 2016</mal:years>
+      <mal:years>2013 - 2018</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -44,11 +44,9 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Cambiar entre tareas</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Mueva el cursor del ratón hacia la esquina de <gui>Actividades</gui> en la parte superior izquierda de la pantalla.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Mueva el cursor del ratón hacia la esquina de <gui>Actividades</gui> en la parte superior izquierda de la pantalla.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Pulse una ventana para cambiarse a esa tarea.</tt:p>
          </tt:div>

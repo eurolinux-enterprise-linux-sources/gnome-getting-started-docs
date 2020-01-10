@@ -33,25 +33,29 @@
            <tt:p>पटल आणि वर्कस्पेसेस</tt:p>
          </tt:div>
          <tt:div begin="6s" end="10s">
-           <tt:p>पटल मोठे करण्यासाठी, पटलाची शीर्षकपट्टी पकडून स्क्रीनच्या उच्चापर्यंत ओढा.</tt:p>
+           <tt:p>To maximize a window, grab the window’s titlebar and drag it to
+            the top of the screen.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="13s">
            <tt:p>जेव्हा स्क्रीन दृष्टीवेधली असेल, पटल सोडा.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="20s">
-           <tt:p>पटल छोटे करण्यासाठी, पटलाची शीर्षकपट्टी पकडून स्क्रीनच्या टोकांपासून दूर ओढा.</tt:p>
+           <tt:p>To unmaximize a window, grab the window’s titlebar and drag it
+            away from the edges of the screen.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
            <tt:p>तुम्ही उच्च पट्टीवर क्लिक करून पटलाला दूर नेऊ शकता आणि छोटे करू शकता.</tt:p>
          </tt:div>
          <tt:div begin="34s" end="38s">
-           <tt:p>स्क्रीनच्या डाव्या बाजूला पटल मोठे करण्यासाठी, पटलाची शीर्षकपट्टी पकडून डावीकडे ओढा.</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="38s" end="40s">
            <tt:p>जेव्हा अर्धी स्क्रीन दृष्टीवेधली असेल, पटल सोडा.</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
-           <tt:p>स्क्रीनच्या उजव्या बाजूला पटल मोठे करण्यासाठी, पटलाची शीर्षकपट्टी पकडून उजवीकडे ओढा.</tt:p>
+           <tt:p>To maximize a window along the right side of the screen, grab
+            the window’s titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="44s" end="48s">
            <tt:p>जेव्हा अर्धी स्क्रीन दृष्टीवेधली असेल, पटल सोडा.</tt:p>
@@ -84,9 +88,12 @@
     <p/>
     
     <steps>
-      <item><p>पटल मोठे करण्यासाठी जेणेकरून तुमच्या डेस्कटॉपची जागा व्यापेल, पटलाची शीर्षकपट्टी पकडून स्क्रीनच्या उच्चापर्यंत ओढा.</p></item>
+      <item><p>To maximize a window so that it takes up all of the space on
+       your desktop, grab the window’s titlebar and drag it to the top of the
+       screen.</p></item>
       <item><p>जेव्हा स्क्रीन दृष्टीवेधली असेल, मोठे करण्यासाठी पटल सोडा.</p></item>
-      <item><p>पटल पूर्वस्थितीत छोटे करण्यासाठी, पटलाची शीर्षकपट्टी पकडून स्क्रीनच्या टोकांपासून दूर ओढा.</p></item>
+      <item><p>To restore a window to its unmaximized size, grab the window’s
+       titlebar and drag it away from the edges of the screen.</p></item>
     </steps>
     
   </section>
@@ -96,7 +103,8 @@
     <p/>
     
     <steps>
-      <item><p>स्क्रीनला लागून पटल मोठे करण्यासाठी, पटलाची शीर्षकपट्टी पकडून उजवीकडे किंवा डावीकडे ओढा.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>जेव्हा अर्धी स्क्रीन दृष्टीवेधली असेल, मोठे करण्यासाठी स्क्रीनला लागून निवडलेला पटल सोडा.</p></item>
       <item><p>दोन पटल आजूबाजूला मोठे करण्यासाठी, दुसऱ्या पटलाची शीर्षकपट्टी पकडून स्क्रीनच्या विरुद्ध दिशेला ओढा.</p></item>
        <item><p>जेव्हा अर्धी स्क्रीन दृष्टीवेधली असेल, मोठे करण्यासाठी स्क्रीनच्या विरुद्ध दिशेला पटल सोडा.</p></item>

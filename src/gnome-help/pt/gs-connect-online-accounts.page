@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="pt">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="pt">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -46,27 +46,24 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Carregue no painel <gui>Contas online</gui> e clique em <gui>Adicionar uma conta online</gui>.</p></item>
-    </steps>
-    
-    <note><p>Se definiu uma conta online anteriormente, pode adicionar outra conta online clicando em <gui>+</gui> no canto inferior esquerdo da janela.</p></note>
-    
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+      <item><p>Click the <gui>Online Accounts</gui> panel, then click the online
+      account service you want to use.</p>
 
-    <steps style="continues">  
-      <item><p>Carregue na conta online que deseja usar. Isto vai abrir uma nova janela onde pode autenticar uma conta online.</p></item>
+      <p>This will open a new window where you can sign in to your online
+      account.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Na maioria dos casos, vai ter que conceder acesso ao serviço online após autenticar para começar.</p></item>
-      <item><p>Por exemplo, se se estiver a ligar à sua conta Google, terá que clicar no botão <gui>Conceder acesso</gui>.</p></item>
+      <item><p>For example, if you are connecting to your Google account, you
+       will have to click the <gui>Allow</gui> button.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Muitas contas online permitem-lhe escolher os serviços que deseja usar com sua conta online. Se não deseja usar um serviço, desative-o clicando no interruptor de <gui>LIG/DES</gui> no lado direito da janela.</p></item>
     </steps>
 

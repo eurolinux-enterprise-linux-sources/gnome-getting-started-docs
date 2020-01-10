@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="sr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Јакуб Штајнер (Jakub Steiner)</name>
+    </credit>
+    <credit type="author">
+      <name>Петр Ковар (Petr Kovar)</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Приступање интернету</title>
+    <link type="seealso" xref="net"/>
+    <title role="seealso" type="link">Упутство за приступање интернету</title>
+    <link type="next" xref="gs-browse-web"/>
+  </info>
+
+  <title>Приступање интернету</title>
+  
+  <note style="important">
+      <p>Можете видети стање ваше мрежне везе на десној страни горње траке.</p>
+  </note>  
+
+  <section id="going-online-wired">
+
+    <title>Повезивање на жичану мрежу</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Иконица мрежне везе на десној страни горње траке показује да нисте закачени.</p>
+      <p>Можете бити откачени са интернета због мноштва разлога. Можда је покидан или извучен мрежни кабл или је рачунар подешен да ради у <em>режиму за авион</em> или нема доступних бежичних мрежа у вашој околини.</p>
+      <p>Ако желите да користите жичану везу, само убодите мрежни кабл да бисте се закачили на интернет. Рачунар ће сам покушати да подеси мрежну везу.</p>
+      <p>У току самосталног подешавања мрежне везе, иконица мрежне везе ће имати три тачке на себи.</p></item>
+      <item><p>Након што се самоподешавање мрежне везе успешно заврши, иконица мрежне везе ће се променити у симбол умреженог рачунара.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="going-online-wifi">
+
+    <title>Повезивање на бежичну мрежу</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    
+    <steps>
+      <title>Да бисте се повезали на Вај-фај (бежичну) мрежу:</title>
+      <item>
+        <p>Кликните на <gui xref="shell-introduction#yourname">системски изборник</gui> у десном делу горње траке.</p>
+      </item>
+      <item>
+        <p>Изаберите дугме <gui>Бежична искључено</gui>. Изборник бежичне мреже ће се раширити.</p>
+      </item>
+      <item>
+        <p>Кликните на <gui>Изабери мрежу</gui>.</p>
+      </item>
+    </steps>
+
+     <note style="important">
+       <p>Можете се повезати на бежичну мрежу само ако хардвер вашег рачунара то подржава и ако сте у окружењу које је покривено неком бежичном мрежом.</p>
+     </note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
+
+    <steps style="continues">
+    <item><p>Из списка доступних бежичних мрежа изаберите мрежу на коју се желите закачити и кликните на дугме <gui>Повежи се</gui> да бисте потврдили повезивање.</p>
+    <p>Рачунар вам може затражити приступне параметре, зависно од подешавања бежичне мреже.</p></item>
+    </steps>
+
+  </section>
+
+</page>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<titles xmlns:its="http://www.w3.org/2005/11/its">
+<t id="title-welcome">Sveiki atvykę</t>
+<t id="title-launch">Programų paleidimas</t>
+<t id="title-gettingstarted">Išmokite naudotis</t>
+<t id="title-wallpaper">Darbastalio fono keitimas</t>
+<t id="title-respond">Atsakinėjimas į žinutes</t>
+<t id="title-switching">Kaip persijungti iš vienos programos į kitą</t>
+<t id="title-MT">Vėlesnis atsakymas</t>
+<t id="title-workspaces">Langai ir darbo sritys</t>
+<t id="title-datentime">Datos, laiko bei laiko juostos keitimas</t>
+<t id="title-max">Padidinti</t>
+<t id="title-res">Atkurti</t>
+<t id="title-left">Kairioji ekrano pusė</t>
+<t id="title-workspace-down">Darbalaukis žemiau</t>
+<t id="title-workspace-up">Darbalaukis aukščiau</t>
+<t id="title-right">Dešinioji ekrano pusė</t>
+<t id="activities">Apžvalga</t>
+<t its:locNote="Translators: Enter is the name of the key." id="enter">Enter</t>
+<t id="ctrl">Vald</t>
+<t id="alt">Alt</t>
+<t its:locNote="Translators: Tab is the name of the key." id="tab">Tab</t>
+<t id="esc">Esc</t>
+<t its:locNote="Translators: A GNOME Shell search keyword used to find the yelp help viewer." id="search">pagalba</t>
+<t its:locNote="Translators: A GNOME Shell search keyword used to find the web browser." id="search2">internetas</t>
+<t id="title-justtype">Pradėkite rašyti…</t>
+<t id="user">Jonas draugelis</t>
+<t id="systemsettings">Nustatymai</t>
+<t id="background">Fonas</t>
+<t id="wallpapers">Darbastalio fonai</t>
+<t id="select">Pasirinkite</t>
+<t id="bubble.message">Pasiruošę susitikimui?</t>
+<t id="bubble.response">I’ll be there in a sec…</t>
+<t id="bubble.message2">Puiki mintis, ačiū</t>
+<t id="bubble.response2">Ačiū už palaikymą</t>
+<t id="bubble.message3">Jokių rūpesčių.</t>
+<t id="bubble.response3">Per daug malonu.</t>
+<t id="opencalendar">Atverti Kalendorių</t>
+<t id="openclocks">Atverti Laikrodžius</t>
+<t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">Datos ir Laiko nustatymai</t>
+<t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">Automatinė data ir laikas</t>
+<t id="autotimezone">Automatinė laiko juosta</t>
+<t id="sstime">14 October 2013, 20∶00</t>
+<t id="sstime2">14 October 2013, 14∶00</t>
+</titles>

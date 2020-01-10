@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="hu">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="hu">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">Rendszerkeresés használata</title>
@@ -18,7 +21,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Kelemen Gábor</mal:name>
       <mal:email>kelemeng at gnome dot hu</mal:email>
-      <mal:years>2013, 2015.</mal:years>
+      <mal:years>2013, 2015, 2018.</mal:years>
     </mal:credit>
   </info>
 
@@ -27,7 +30,7 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Nyissa meg a <gui>Tevékenységek</gui> áttekintést a <key href="help:gnome-help/keyboard-key-super">Super</key> billentyű megnyomásával. Kezdjen el gépelni a kereséshez.</p>
+    <item><p>Nyissa meg a <gui>Tevékenységek</gui> áttekintést képernyő bal felső sarkában lévő <gui>Tevékenységek</gui> menüre kattintva, vagy a <key href="help:gnome-help/keyboard-key-super">Super</key> billentyű megnyomásával. Kezdjen el gépelni a kereséshez.</p>
     <p>A begépelt szövegnek megfelelő találatok megjelennek a gépelés közben. Az első találat mindig kiemelve, felül jelenik meg.</p>
     <p>Az első kiemelt találatra váltáshoz nyomja meg az <key>Enter</key> billentyűt.</p></item>
     </steps>
@@ -39,7 +42,13 @@
         <item><p>a megfelelő alkalmazások, a találatok listájának elején,</p></item>
         <item><p>a megfelelő beállítások,</p></item>
         <item><p>a megfelelő névjegyek, és</p></item>
-        <item><p>a megfelelő dokumentumok.</p></item>
+        <item><p>a megfelelő dokumentumok,</p></item>
+        <item><p>a megfelelő naptár,</p></item>
+        <item><p>a megfelelő számológép,</p></item>
+        <item><p>a megfelelő szoftverek,</p></item>
+        <item><p>a megfelelő fájlok,</p></item>
+        <item><p>a megfelelő terminál,</p></item>
+        <item><p>a megfelelő jelszavak és kulcsok.</p></item>
       </list>
       </item>
       <item><p>A találatok közt kattintson egy elemre az arra való átváltáshoz.</p>
@@ -69,7 +78,7 @@
         <title>A találatok személyre szabásához:</title>
         <item><p>Kattintson a <gui xref="shell-introduction#yourname">rendszer menüre</gui> a felső sáv jobb oldalán.</p></item>
         <item><p>Nyomja meg a Beállítások gombot a menü bal alsó részén.</p></item>
-        <item><p>Kattintson a <gui>Keresés</gui> panelre.</p></item>
+        <item><p>Kattintson a <gui>Keresés</gui> elemre a bal oldali panelen.</p></item>
         <item><p>A keresési helyek listájában kattintson a <gui>BE/KI</gui> kapcsolóra az engedélyezni vagy letiltani kívánt keresési hely mellett.</p>
          </item>
       </steps>

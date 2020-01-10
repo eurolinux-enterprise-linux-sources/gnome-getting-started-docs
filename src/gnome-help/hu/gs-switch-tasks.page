@@ -13,12 +13,12 @@
     <title role="trail" type="link">Feladatváltás</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Ismertető a feladatváltáshoz</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Kelemen Gábor</mal:name>
       <mal:email>kelemeng at gnome dot hu</mal:email>
-      <mal:years>2013, 2015.</mal:years>
+      <mal:years>2013, 2015, 2018.</mal:years>
     </mal:credit>
   </info>
 
@@ -32,11 +32,9 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Feladatváltás</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Vigye az egérmutatót a képernyő bal felső sarkában lévő <gui>Tevékenységek</gui> feliratra.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Vigye az egérmutatót a képernyő bal felső sarkában lévő <gui>Tevékenységek</gui> feliratra.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Kattintson egy ablakra az adott feladatra váltáshoz.</tt:p>
          </tt:div>

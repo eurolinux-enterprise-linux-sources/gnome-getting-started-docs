@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-windows-workspaces" xml:lang="ro">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Utilizarea ferestrelor și a spațiilor de lucru</title>
+    <link type="seealso" xref="shell-windows-switching"/>
+    <title role="seealso" type="link">Un ghid pentru utilizarea ferestrelor și a spațiilor de lucru</title>
+    <link type="next" xref="gs-use-system-search"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Șerbănescu</mal:name>
+      <mal:email>daniel [at] serbanescu [dot] dk</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Utilizarea ferestrelor și a spațiilor de lucru</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-windows-and-workspaces.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-windows-and-workspaces.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Ferestre și spații de lucru</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="10s">
+           <tt:p>Pentru a maximiza o fereastră, apucați bara de titlu a ferestrei și trageți-o în partea superioară a ecranului.</tt:p>
+           </tt:div>
+         <tt:div begin="10s" end="13s">
+           <tt:p>Când ecranul este evidențiat, eliberați fereastra.</tt:p>
+         </tt:div>
+         <tt:div begin="14s" end="20s">
+           <tt:p>Pentru a demaximiza o fereastră, apucați bara de titlu a ferestrei și trageți-o departe de marginile ecranului.</tt:p>
+         </tt:div>
+         <tt:div begin="25s" end="29s">
+           <tt:p>Puteți de asemenea apăsa pe bara de sus pentru a trage fereastra și a o demaximiza.</tt:p>
+         </tt:div>
+         <tt:div begin="34s" end="38s">
+           <tt:p>Pentru a maximiza fereastra în partea stângă a ecranului, apucați bara de titlu a ferestrei și trageți-o la stânga.</tt:p>
+         </tt:div>
+         <tt:div begin="38s" end="40s">
+           <tt:p>Când jumătate din ecran este evidențiat, eliberați fereastra.</tt:p>
+         </tt:div>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Pentru a maximiza fereastra în partea dreaptă a ecranului, apucați bara de titlu a ferestrei și trageți-o la dreapta.</tt:p>
+         </tt:div>
+         <tt:div begin="44s" end="48s">
+           <tt:p>Când jumătate din ecran este evidențiat, eliberați fereastra.</tt:p>
+         </tt:div>
+         <tt:div begin="54s" end="60s">
+           <tt:p>Pentru a maximiza fereastra utilizând tastatura, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>↑</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="61s" end="66s">
+           <tt:p>Pentru a restaura fereastra la dimensiunea ei demaximizată, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>↓</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="66s" end="73s">
+           <tt:p>Pentru a maximiza o fereastră la dreapta ecranului, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>→</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="76s" end="82s">
+           <tt:p>Pentru a maximiza o fereastră la stânga ecranului, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>←</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="83s" end="89s">
+           <tt:p>Pentru a muta un spațiu de lucru care este sub spațiul de lucru curent, apăsați <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Down</key></keyseq>.</tt:p>
+         </tt:div>
+         <tt:div begin="90s" end="97s">
+           <tt:p>Pentru a muta un spațiu de lucru care este deasupra spațiului de lucru curent, apăsați <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Up</key></keyseq>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="use-workspaces-and-windows-maximize">
+    <title>Maximizarea și demaximizarea ferestrelor</title>
+    <p/>
+    
+    <steps>
+      <item><p>Pentru a maximiza o fereastră așa încât să ocupe tot spațiul de pe desktop, apucați bara de titlu a ferestrei și trageți-o în partea superioară a ecranului.</p></item>
+      <item><p>Când ecranul este evidențiat, eliberați fereastra pentru a o maximiaza.</p></item>
+      <item><p>Pentru a restaura fereastra la dimensiunea ei demaximizată, apucați bara de titlu a ferestrei și trageți-o departe de marginile ecranului.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="use-workspaces-and-windows-tile">
+    <title>Juxtapunerea ferestrelor</title>
+    <p/>
+    
+    <steps>
+      <item><p>Pentru a maximiza o ferestră de-alungul unei părți a ecranului, apucați de titlul ferestrei și trageți-o în partea stângă sau dreaptă a ecranului.</p></item>
+      <item><p>Când jumătate din ecran este evidențiat, eliberați fereastra pentru a o maximiza de-alungul părții selectate de ecran.</p></item>
+      <item><p>Pentru a maximiza două ferestre una lângă alta, apucați bara de titlu a ferestrei a doua și trageți-o în partea opusă a ecranului.</p></item>
+       <item><p>Când jumătate din ecran este evidențiat, eliberați fereastra pentru a o maximiza în partea opusă a ecranului.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="use-workspaces-and-windows-maximize-keyboard">
+    <title>Maximizarea și demaximizarea ferestrelor utilizând tastatura</title>
+    
+    <steps>
+      <item><p>Pentru a maximiza fereastra utilizând tastatura, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>↑</key>.</p></item>
+      <item><p>Pentru a demaximiza o fereastră utilizând tastatura, țineți apăsată tasta <key href="help:gnome-help/keyboard-key-super">Super</key> și apoi apăsați <key>↓</key>.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="use-workspaces-and-windows-tile-keyboard">
+    <title>Juxtapunerea ferestrelor utilizând tastatura</title>
+    
+    <steps>
+      <item><p>Pentru a maximiza o fereastră la dreapta ecranului, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>→</key>.</p></item>
+      <item><p>Pentru a maximiza o fereastră la stânga ecranului, țineți tasta <key href="help:gnome-help/keyboard-key-super">Super</key> apăsată apoi apăsați <key>←</key>.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="use-workspaces-and-windows-workspaces-keyboard">
+    <title>Comutarea între spații de lucru folosind tastatura</title>
+    
+    <steps>
+    
+    <item><p>Pentru a vă muta la un spațiu de lucru care este sub spațiul de lucru curent, apăsați <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Down</key></keyseq>.</p></item>
+    <item><p>Pentru a vă muta la un spațiu de lucru care este deasupra spațiului de lucru curentă, apăsați <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Up</key></keyseq>.</p></item>
+
+    </steps>
+    
+  </section>
+
+</page>

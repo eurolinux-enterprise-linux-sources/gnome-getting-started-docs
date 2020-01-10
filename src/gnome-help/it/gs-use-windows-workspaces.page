@@ -33,14 +33,14 @@
            <tt:p>Finestre e spazi di lavoro</tt:p>
          </tt:div>
          <tt:div begin="6s" end="10s">
-           <tt:p>To maximize a window, grab the window's titlebar and drag it to
+           <tt:p>To maximize a window, grab the window’s titlebar and drag it to
             the top of the screen.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="13s">
            <tt:p>When the screen is highlighted, release the window.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="20s">
-           <tt:p>To unmaximize a window, grab the window's titlebar and drag it
+           <tt:p>To unmaximize a window, grab the window’s titlebar and drag it
             away from the edges of the screen.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
@@ -48,14 +48,15 @@
             unmaximize it.</tt:p>
          </tt:div>
          <tt:div begin="34s" end="38s">
-           <tt:p>Per massimizzare una finestra lungo il lato sinistro dello schermo, trascinare la finestra verso sinistra.</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="38s" end="40s">
            <tt:p>Quando metà dello schermo è evidenziato, rilasciare la finestra.</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
            <tt:p>To maximize a window along the right side of the screen, grab
-            the window's titlebar and drag it to the right.</tt:p>
+            the window’s titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="44s" end="48s">
            <tt:p>Quando metà dello schermo è evidenziato, rilasciare la finestra.</tt:p>
@@ -100,9 +101,12 @@
     <p/>
     
     <steps>
-      <item><p>Per massimizzare una finestra in modo che occupi tutto lo spazio della scrivania, trascinare la barra del titolo della finestra sulla parte superiore dello schermo.</p></item>
+      <item><p>To maximize a window so that it takes up all of the space on
+       your desktop, grab the window’s titlebar and drag it to the top of the
+       screen.</p></item>
       <item><p>Quando lo schermo è evidenziato, rilasciare la finestra per massimizzarla.</p></item>
-      <item><p>Per ripristinare una finestra al suo stato non massimizzato, trascinare la barra del titolo della finestra lontano dai bordi dello schermo.</p></item>
+      <item><p>To restore a window to its unmaximized size, grab the window’s
+       titlebar and drag it away from the edges of the screen.</p></item>
     </steps>
     
   </section>
@@ -112,7 +116,7 @@
     <p/>
     
     <steps>
-      <item><p>To maximize a window along a side of the screen, grab the window's
+      <item><p>To maximize a window along a side of the screen, grab the window’s
        titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>When half of the screen is highlighted, release the window to
        maximize it along the selected side of the screen.</p></item>

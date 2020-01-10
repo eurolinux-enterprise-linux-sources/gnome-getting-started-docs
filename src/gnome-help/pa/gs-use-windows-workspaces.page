@@ -27,25 +27,29 @@
            <tt:p>ਵਿੰਡੋਜ਼ ਤੇ ਵਰਕਸਪੇਸ</tt:p>
          </tt:div>
          <tt:div begin="6s" end="10s">
-           <tt:p>ਵਿੰਡੋ ਨੂੰ ਵੱਧੋ-ਵੱਧ ਕਰਨ ਲਈ ਵਿੰਡੋ ਦੇ ਟਾਈਟਲ-ਪੱਟੀ ਨੂੰ ਫੜੋ ਅਤੇ ਇਸ ਨੂੰ ਸਕਰੀਨ ਦੇ ਉੱਤੇ ਵੱਖ ਖਿੱਚ ਦਿਉ।</tt:p>
+           <tt:p>To maximize a window, grab the window’s titlebar and drag it to
+            the top of the screen.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="13s">
            <tt:p>ਜਦੋਂ ਸਕਰੀਨ ਨੂੰ ਉਭਾਰਿਆ ਜਾਵੇ ਤਾਂ ਵਿੰਡੋ ਨੂੰ ਛੱਡ ਦਿਉ</tt:p>
          </tt:div>
          <tt:div begin="14s" end="20s">
-           <tt:p>ਵਿੰਡੋ ਨੂੰ ਵੱਧ ਤੋਂ ਵੱਧ ਤੋਂ ਹਟਾਉਣ ਲਈ, ਵਿੰਡੋ ਦੀ ਟਾਈਟਲ-ਪੱਟੀ ਨੂੰ ਫੜੋ ਅਤੇ ਇਸ ਨੂੰ ਸਕਰੀਨ ਦੇ ਕੋਨੇ ਤੋਂ ਦੂਰ ਖਿੱਚੋ।</tt:p>
+           <tt:p>To unmaximize a window, grab the window’s titlebar and drag it
+            away from the edges of the screen.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
            <tt:p>ਤੁਸੀਂ ਵਿੰਡੋ ਨੂੰ ਦੂਰ ਕਰਨ ਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਤੋਂ ਸਧਾਰਨ ਰੂਪ ਵਿੱਚ ਲਿਆਉਣ ਲਈ ਉੱਤਲੀ ਪੱਟੀ ਉੱਤੇ ਕਲਿੱਕ ਵੀ ਕਰ ਸਕਦੇ ਹੋ।</tt:p>
          </tt:div>
          <tt:div begin="34s" end="38s">
-           <tt:p>ਕਿਸੇ ਵਿੰਡੋ ਨੂੰ ਸਕਰੀਨ ਦੇ ਖੱਬੇ ਹਿੱਸੇ ਉੱਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰਨ ਲਈ, ਵਿੰਡੋ ਨੂੰ ਟਾਈਟਲ-ਬਾਰ ਤੋਂ ਫੜੋ ਅਤੇ ਖੱਬੇ ਪਾਸੇ ਖਿੱਚੋ।</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="38s" end="40s">
            <tt:p>ਜਦੋਂ ਸਕਰੀਨ ਦਾ ਅੱਧ ਉਭਾਰਿਆ ਜਾਵੇ ਤਾਂ ਵਿੰਡੋ ਨੂੰ ਛੱਡ ਦਿਉ</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
-           <tt:p>ਕਿਸੇ ਵਿੰਡੋ ਨੂੰ ਸਕਰੀਨ ਦੇ ਸੱਜੇ ਹਿੱਸੇ ਉੱਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰਨ ਲਈ, ਵਿੰਡੋ ਨੂੰ ਟਾਈਟਲ-ਬਾਰ ਤੋਂ ਫੜੋ ਅਤੇ ਸੱਜੇ ਪਾਸੇ ਖਿੱਚੋ।</tt:p>
+           <tt:p>To maximize a window along the right side of the screen, grab
+            the window’s titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="44s" end="48s">
            <tt:p>ਜਦੋਂ ਸਕਰੀਨ ਦਾ ਅੱਧ ਉਭਾਰਿਆ ਜਾਵੇ ਤਾਂ ਵਿੰਡੋ ਨੂੰ ਛੱਡ ਦਿਉ</tt:p>
@@ -78,9 +82,12 @@
     <p/>
     
     <steps>
-      <item><p>ਵਿੰਡੋ ਨੂੰ ਵੱਧੋ-ਵੱਧ ਕਰਨ ਲਈ ਤਾਂ ਕਿ ਤੁਹਾਡੇ ਡੈਸਕਟਾਪ ਦੀ ਸਾਰੀ ਥਾਂ ਭਰ ਸਕੇ, ਵਿੰਡੋ ਦੇ ਟਾਈਟਲ-ਪੱਟੀ ਨੂੰ ਫੜੋ ਅਤੇ ਇਸ ਨੂੰ ਸਕਰੀਨ ਦੇ ਉੱਤੇ ਵੱਖ ਖਿੱਚ ਦਿਉ।</p></item>
+      <item><p>To maximize a window so that it takes up all of the space on
+       your desktop, grab the window’s titlebar and drag it to the top of the
+       screen.</p></item>
       <item><p>ਜਦੋਂ ਸਕਰੀਨ ਨੂੰ ਉਭਾਰਿਆ ਜਾਵੇ ਤਾਂ ਵਿੰਡੋ ਨੂੰ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰਨ ਲਈ ਛੱਡ ਦਿਉ</p></item>
-      <item><p>ਵਿੰਡੋ ਨੂੰ ਇਸ ਦੇ ਨਾ-ਵੱਧ ਤੋਂ ਵੱਧ ਆਕਾਰ ਨੂੰ ਮੁੜ-ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ, ਵਿੰਡੋ ਦੀ ਟਾਈਟਲ-ਪੱਟੀ ਨੂੰ ਫੜੋ ਅਤੇ ਇਸ ਨੂੰ ਸਕਰੀਨ ਦੇ ਕੋਨੇ ਤੋਂ ਦੂਰ ਖਿੱਚੋ।</p></item>
+      <item><p>To restore a window to its unmaximized size, grab the window’s
+       titlebar and drag it away from the edges of the screen.</p></item>
     </steps>
     
   </section>
@@ -90,7 +97,8 @@
     <p/>
     
     <steps>
-      <item><p>ਕਿਸੇ ਵਿੰਡੋ ਨੂੰ ਸਕਰੀਨ ਦੇ ਹਿੱਸੇ ਉੱਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰਨ ਲਈ, ਵਿੰਡੋ ਨੂੰ ਟਾਈਟਲ-ਬਾਰ ਤੋਂ ਫੜੋ ਅਤੇ ਖੱਬੇ ਪਾਸੇ ਜਾਂ ਸੱਜੇ ਖਿੱਚੋ।</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>ਜਦੋਂ ਅੱਧੀ ਸਕਰੀਨ ਉਭਾਰੀ ਜਾਵੇ ਤਾਂ ਵਿੰਡੋ ਨੂੰ ਸਕਰੀਨ ਦੇ ਚੁਣੇ ਪਾਸ ਵਿੱਚ ਵੱਧ ਤੋਂ ਵੱਧ ਫੈਲਣ ਲਈ ਛੱਡ ਦਿਉ।</p></item>
       <item><p>ਦੋ ਵਿੰਡੋ ਨੂੰ ਨਾਲ-ਨਾਲ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰਨ ਲਈ, ਦੂਜੀ ਵਿੰਡੋ ਦੇ ਟਾਈਟਲ-ਪੱਟੀ ਨੂੰ ਫੜੋ ਅਤੇ ਇਸ ਨੂੰ ਸਕਰੀਨ ਦੇ ਉਲਟ ਦੂਜੇ ਪਾਸੇ ਖਿੱਚ ਦਿਉ।</p></item>
        <item><p>ਜਦੋਂ ਅੱਧੀ ਸਕਰੀਨ ਉਭਾਰੀ ਜਾਵੇ ਤਾਂ ਵਿੰਡੋ ਨੂੰ ਸਕਰੀਨ ਦੇ ਉਲਟ ਪਾਸਿਆਂ ਵਿੱਚ ਵੱਧ ਤੋਂ ਵੱਧ ਫੈਲਣ ਲਈ ਛੱਡ ਦਿਉ।</p></item>

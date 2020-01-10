@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="ro">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Conectarea la rețea</title>
+    <link type="seealso" xref="net"/>
+    <title role="seealso" type="link">Un ghid despre conectarea la rețea</title>
+    <link type="next" xref="gs-browse-web"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Șerbănescu</mal:name>
+      <mal:email>daniel [at] serbanescu [dot] dk</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Conectarea la rețea</title>
+  
+  <note style="important">
+      <p>Puteți vedea starea conexiunii în partea dreaptă a barei de sus.</p>
+  </note>  
+
+  <section id="going-online-wired">
+
+    <title>Conectarea la o rețea cu fir</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Iconița de conectare la rețea din partea dreaptă a barei de sus arată că sunteți deconectat.</p>
+      <p>Starea deconectată poate fi folosită dintr-un număr de motive: de exemplu, un cablu de rețea a fost deconectat, calculatorul a fost configurat să ruleze în <em>modul avion</em>, sau nu există rețele Wi-Fi disponibile în zona dumneavoastră.</p>
+      <p>Dacă doriți să folosiți o conexiune cu fir, conectați un cablu de rețea și navigați online. Calculatorul va încerca să configureze automat conexiunea la rețea.</p>
+      <p>În timp ce calculatorul configurează conexiunea la rețea pentru dumneavoastră, iconița de conexiune la rețea afișează trei puncte.</p></item>
+      <item><p>Odată ce conexiunea la rețea a fost stabilită cu succes, iconița de conexiune la rețea se schimbă la un simbol de calculatoare conectate.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="going-online-wifi">
+
+    <title>Conectarea la o rețea Wi-Fi</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    
+    <steps>
+      <title>Pentru a vă conecta la o rețea Wi-Fi (fără fir):</title>
+      <item>
+        <p>Clic pe <gui xref="shell-introduction#yourname">meniul sistemului</gui> din partea dreaptă a barei de sus.</p>
+      </item>
+      <item>
+        <p>Selectați <gui>Wi-Fi deconectat</gui>. Secțiunea Wi-Fi a meniului va fi expandată.</p>
+      </item>
+      <item>
+        <p>Clic <gui>Selectează rețea</gui>.</p>
+      </item>
+    </steps>
+
+     <note style="important">
+       <p>Puteți să vă conectați la o rețea  Wi-Fi numai dacă componentele calculatorului suportă acest lucru și dacă sunteți în raza de acoperire Wi-Fi.</p>
+     </note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
+
+    <steps style="continues">
+    <item><p>Din lista de rețele disponibile Wi-Fi, selectați rețeaua la care doriți să vă conectați, și clic pe <gui>Conectează</gui> pentru a confirma.</p>
+    <p>În funcție de configurația rețelei, este posibil să vi se ceară credențiale pentru rețea.</p></item>
+    </steps>
+
+  </section>
+
+</page>

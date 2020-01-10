@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="hr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Korištenje pretrage sustava</title>
+    <link type="seealso" xref="shell-apps-open"/>
+    <title role="seealso" type="link">Vodič korištenja pretrage sustava</title>
+    <link type="next" xref="gs-get-online"/>
+  </info>
+
+  <title>Korištenje pretrage sustava</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    
+    <steps>
+    <item><p>Otvorite <gui>Aktivnosti</gui> prikaz klikom na <gui>Aktivnosti</gui> lijevo na vrhu zaslona, ili pritiskom <key href="help:gnome-help/keyboard-key-super">Super</key> tipke. Započnite upisivati izraz pretrage.</p>
+    <p>Podudarajući rezultati s izrazom pretrage će se pojaviti. Prvi rezultat je uvijek istaknut i prikazan na vrhu.</p>
+    <p>Pritisnite <key>Enter</key> za prebacivanje na prvi istaknuti rezultat.</p></item>
+    </steps>
+    
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <steps style="continues">
+      <item><p>Stavke koje se mogu pojaviti u rezultatima pretrage uključuju:</p>
+      <list>
+        <item><p>podudarajuće aplikacije, prikazane na vrhu rezultata pretrage,</p></item>
+        <item><p>podudarajuće postavke,</p></item>
+        <item><p>podudarajući kontakti,</p></item>
+        <item><p>podudarajući dokumenti,</p></item>
+        <item><p>podudarajući kalendar,</p></item>
+        <item><p>podudarajući kalkulator,</p></item>
+        <item><p>podudarajući softver,</p></item>
+        <item><p>podudarajuće datoteke,</p></item>
+        <item><p>podudarajući terminal,</p></item>
+        <item><p>podudarajuće lozinke i ključevi.</p></item>
+      </list>
+      </item>
+      <item><p>U rezultatima pretrage, kliknite na stavku za prebacivanje na nju.</p>
+      <p>Alternativno, istaknite stavku koristeći tipke strelica i pritisnite <key>Enter</key>.</p></item>
+    </steps>
+
+    <section id="use-search-inside-applications">
+    
+      <title>Pretraga unutar aplikacija</title>
+      
+      <p>Sustav prikuplja rezultate iz različitih aplikacija. Na lijevoj strani rezultata pretrage, možete vidjeti ikone aplikacija koje omogućuju rezultate pretrage, kliknite na jednu od ikona kako bi pokrenuli pretragu unutar aplikacije povezane s tom ikonom. Zato jer su samo najbolji rezultati prikazani u <gui>Aktivnosti</gui> pregledu, pretraživanje unutar aplikacije može dati bolje rezultate.</p>
+
+    </section>
+
+    <section id="use-search-customize">
+
+      <title>Prilagodba rezultata pretrage</title>
+
+      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+
+      <note style="important">
+      <p>GNOME vam omogućuje prilagodbu prikaza u rezultatima pretrage u <gui>Aktivnosti</gui> pregledu. Na primjer, možete odabrati želite li prikazati rezultat web stranice, fotografije ili glazbe.</p>
+      </note>
+
+
+      <steps>
+        <title>Za prilagodbu prikaza u rezultatima prikaza:</title>
+        <item><p>Kliknite na <gui xref="shell-introduction#yourname">izbornik sustava</gui> na desnoj strani gornje trake.</p></item>
+        <item><p>Kliknite tipku postavki dolje lijevo u izborniku.</p></item>
+        <item><p>Kliknite <gui>Pretraga</gui> na lijevom panelu.</p></item>
+        <item><p>U popisu lokacija pretrage, kliknite <gui>UKLJ/ISKLJ</gui> prekidač pokraj lokacije pretrage koju želite omogućiti ili onemogućiti.</p>
+         </item>
+      </steps>
+      
+    </section>
+
+</page>

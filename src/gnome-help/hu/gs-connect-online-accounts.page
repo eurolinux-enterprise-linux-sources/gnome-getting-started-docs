@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="hu">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="hu">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Kelemen Gábor</mal:name>
       <mal:email>kelemeng at gnome dot hu</mal:email>
-      <mal:years>2013, 2015.</mal:years>
+      <mal:years>2013, 2015, 2018.</mal:years>
     </mal:credit>
   </info>
 
@@ -34,27 +34,21 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Kattintson az <gui>Online fiókok</gui> panelre, majd az <gui>Online fiók hozzáadása</gui> gombra.</p></item>
-    </steps>
-    
-    <note><p>Ha korábban már beállított online fiókot, akkor egy másikat az ablak bal alsó sarkában lévő <gui>+</gui> gombra kattintva állíthat be.</p></note>
-    
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+      <item><p>Kattintson az <gui>Online fiókok</gui> panelre, majd a használni kívánt online fiók szolgáltatásra.</p>
 
-    <steps style="continues">  
-      <item><p>Kattintson a használni kívánt online fiók típusára. Ez egy új ablakot nyit meg, ahol bejelentkezhet az online fiókjába.</p></item>
+      <p>Ez egy új ablakot nyit meg, ahol bejelentkezhet az online fiókjába.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>A legtöbb esetben a bejelentkezés után hozzáférést kell adnia az online szolgáltatáshoz a folytatáshoz.</p></item>
-      <item><p>Ha például a Google fiókjához szeretne kapcsolódni, akkor a <gui>Hozzáférés megadása</gui> gombra kell kattintania.</p></item>
+      <item><p>Ha például a Google fiókjához szeretne kapcsolódni, akkor az <gui>Engedélyezés</gui> gombra kell kattintania.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Számos online fiók lehetővé teszi a használni kívánt szolgáltatások kiválasztását. Ha egy szolgáltatást nem szeretne használni, akkor tiltsa le az ablak jobb oldalán lévő <gui>BE/KI</gui> kapcsolóval.</p></item>
     </steps>
 

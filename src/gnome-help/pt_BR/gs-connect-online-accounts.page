@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="pt-BR">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="pt-BR">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -30,7 +30,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Rafael Fontenelle</mal:name>
       <mal:email>rafaelff@gnome.org</mal:email>
-      <mal:years>2013, 2016</mal:years>
+      <mal:years>2013, 2016, 2017</mal:years>
     </mal:credit>
   </info>
 
@@ -46,27 +46,21 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Clique no painel <gui>Contas on-line</gui> e, então, clique no botão <gui>Adicionar uma conta on-line</gui>.</p></item>
-    </steps>
-    
-    <note><p>Se você definiu uma conta on-line anteriormente, você pode adicionar outra conta on-line clicando no botão <gui>+</gui> no canto esquerdo da janela.</p></note>
-    
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+      <item><p>Clique no painel <gui>Contas on-line</gui> e, então, clique no serviço de conta on-line que você deseja adicionar.</p>
 
-    <steps style="continues">  
-      <item><p>Clique na conta on-line que você deseja usar. Isso vai abrir uma nova janela onde você pode autenticar sua conta online.</p></item>
+      <p>Isso vai abrir uma nova janela onde você pode autenticar sua conta on-line.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Na maioria dos casos, você vai ter que conceder acesso ao serviço on-line após autenticar para começar.</p></item>
-      <item><p>Por exemplo, se você está conectando a sua conta Google, você terá que clicar no botão <gui>Conceder acesso</gui>.</p></item>
+      <item><p>Por exemplo, se você está conectando a sua conta Google, você terá que clicar no botão <gui>Permitir</gui>.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
-    <steps style="continues">  
+    <steps style="continues">
       <item><p>Muitas contas on-line permitem que você escolha os serviços que você deseja usar com sua conta on-line. Se você não deseja usar um serviço, desabilite-o clicando no interruptor de <gui>ON/OFF</gui> no lado direito da janela.</p></item>
     </steps>
 

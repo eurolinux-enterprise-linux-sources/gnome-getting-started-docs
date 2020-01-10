@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="gl">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="gl">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">Usar a busca do sistema</title>
@@ -18,7 +21,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Fran Diéguez</mal:name>
       <mal:email>frandieguez@gnome.org</mal:email>
-      <mal:years>2013-2016.</mal:years>
+      <mal:years>2013-2018.</mal:years>
     </mal:credit>
   </info>
 
@@ -27,7 +30,7 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Abra a <gui>Vista xeral de Actividades</gui> premendo a tecla <key href="help:gnome-help/keyboard-key-super">Super</key>. Comece a escribir para buscar.</p>
+    <item><p>Abra a vista xeral de<gui>Actividades</gui> premendo <gui>Actividades</gui> na esquina superior esquerda da pantalla, ou premendo a tecla <key href="help:gnome-help/keyboard-key-super">Super</key>. Comece a escribir para buscar.</p>
     <p>Os resultados que coincidan aparecerán segundo escriba. O primeiro resultado realzarase sempre e mostrarase na parte superior.</p>
     <p>Prema <key>Intro</key> para cambiar ao primeiro resultado realzado.</p></item>
     </steps>
@@ -38,8 +41,14 @@
       <list>
         <item><p>aplicativos que coincidan, mostrados na parte superior dos resultados,</p></item>
         <item><p>preferencias que coincidan,</p></item>
-        <item><p>contactos que coincidan, e</p></item>
-        <item><p>documentos que coincidan.</p></item>
+        <item><p>contactos que coincidan,</p></item>
+        <item><p>documentos que coincidan,</p></item>
+        <item><p>calendarios que coincidan,</p></item>
+        <item><p>calculadora que coincida,</p></item>
+        <item><p>software que coincida,</p></item>
+        <item><p>ficheiros que coincidan,</p></item>
+        <item><p>terminais que coincidan,</p></item>
+        <item><p>contrasinais e chaves que coincidan,</p></item>
       </list>
       </item>
       <item><p>Nos resultados da busca, prema o elemento para cambiar a el.</p>
@@ -69,7 +78,7 @@
         <title>Para personalizar como se mostran os resultados da busca:</title>
         <item><p>Prema o <gui xref="shell-introduction#yourname">menú do sistema</gui> na parte dereita da barra superior.</p></item>
         <item><p>Prema o botón de preferencias na parte inferior esquerda do menú.</p></item>
-        <item><p>Prema no panel <gui>Buscar</gui>.</p></item>
+        <item><p>Prema <gui>Buscar</gui> no panel da esquerda.</p></item>
         <item><p>Na lista de localizacións de busca, prema o interruptor de <gui>acendido/apagado</gui> ao carón da localización de busca para activala ou desactivala.</p>
          </item>
       </steps>

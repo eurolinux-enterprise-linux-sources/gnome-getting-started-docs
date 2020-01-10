@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="lt">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Naudokite sistemos paiešką</title>
+    <link type="seealso" xref="shell-apps-open"/>
+    <title role="seealso" type="link">Sistemos paieškos naudojimo pamokos</title>
+    <link type="next" xref="gs-get-online"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mantas Kriaučiūnas</mal:name>
+      <mal:email>mantas@akl.lt</mal:email>
+      <mal:years>2013-2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Eglė Kriaučiūnienė</mal:name>
+      <mal:email>egle@valdorfas.org</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Naudokitės sistemos paieška</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
+    
+    <steps>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
+    <p>Rezultatai, atitinkantys jūsų rašomą tekstą pasirodys jums berašant. Pirmas rezultatas yra visada paryškintas ir rodomas viršuje.</p>
+    <p>Paspaudę <key>Enter</key> atversite pirmąjį paryškintą rezultatą.</p></item>
+    </steps>
+    
+    <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
+    <steps style="continues">
+      <item><p>Tarp paieškos rezultatų gali būti šių elementų:</p>
+      <list>
+        <item><p>atitinkančios programos, pateiktos paieškos rezultatų viršuje,</p></item>
+        <item><p>atitinkantys nustatymai,</p></item>
+        <item><p>matching contacts,</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
+      </list>
+      </item>
+      <item><p>Paieškos rezultatuose, norėdami nueiti į elementą – spustelėkite ant jo.</p>
+      <p>Taip pat galite paryškinti elementą naudodami rodyklių klavišus ir paspausti <key>Enter</key>.</p></item>
+    </steps>
+
+    <section id="use-search-inside-applications">
+    
+      <title>Paieška programose</title>
+      
+      <p>Sistemos paieška apjungia įvairių programų rezultatus. Kairėje paieškos rezultatų pusėje matote programas, kurios pateikė paieškos rezultatus. Paspauskite vieną iš piktogramų ir įvykdysite paiešką su ja susietoje programoje. Kadangi <gui>Veiklų apžvalgoje</gui> rodomi tik geriausi atitikmenys, ieškodami pačioje programoje galite gauti geresnius rezultatus.</p>
+
+    </section>
+
+    <section id="use-search-customize">
+
+      <title>Prisitaikyti paieškos rezultatus</title>
+
+      <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
+
+      <note style="important">
+      <p>GNOME leidžia jums pasirinkti ką norite matyti <gui>Veiklų Apžvalga</gui> rezultatuose. Pavyzdžiui, galite pasirinkti, kad rodytų interneto, fotografijų ar muzikos rezultatus.</p>
+      </note>
+
+
+      <steps>
+        <title>Norėdami sau prisitaikyti tai kas pateikiama paieškos rezultatuose:</title>
+        <item><p>Spauskite ant <gui xref="shell-introduction#yourname">sistemos meniu</gui> viršutinės juostos dešinėje.</p></item>
+        <item><p>Paspauskite mygtuką „Nustatymai“ apatiniame kairiajame meniu kampe.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
+        <item><p>Paieškos vietų sąraše spauskite <gui>ON/OFF</gui> jungiklį šalia paieškos vietos, kurią norite įjungti ar išjungti.</p>
+         </item>
+      </steps>
+      
+    </section>
+
+</page>

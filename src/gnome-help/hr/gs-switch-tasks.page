@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-switch-tasks" version="1.0 if/1.0" xml:lang="hr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Prebacivanje zadataka</title>
+    <link type="seealso" xref="shell-windows-switching"/>
+    <title role="seealso" type="link">Vodič prebacivanja zadataka</title>
+    <link type="next" xref="gs-use-windows-workspaces"/>
+  </info>
+
+  <title>Prebacivanje zadataka</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-task-switching.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-task-switching.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Prebacivanje zadataka</tt:p>
+         </tt:div>
+         <tt:div begin="5s" end="8s">
+           <tt:p if:test="!platform:gnome-classic">Pomaknite vaš pokazivač miša u <gui>Aktivnosti</gui> kut gore lijevo u zaslonu.</tt:p>
+           </tt:div>
+         <tt:div begin="9s" end="12s">
+           <tt:p>Kliknite na prozor kako bi prebacili na odabrani zadatak.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Kako bi uvećali prozor preko lijeve strane zaslona, uhvatite naslovnu traku prozora i povucite je do lijevog ruba zaslona.</tt:p>
+         </tt:div>
+         <tt:div begin="14s" end="16s">
+           <tt:p>Kada se polovica zaslona istakne, otpustite prozor.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18">
+           <tt:p>Kako bi uvećali prozor preko desne strane zaslona, uhvatite naslovnu traku prozora i povucite je do desnog ruba zaslona.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="20s">
+           <tt:p>Kada se polovica zaslona istakne, otpustite prozor.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="27s">
+           <tt:p>Pritisnite <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key> Tab</key></keyseq> za prikaz <gui>prebacivača prozora</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="27s" end="29s">
+           <tt:p>Otpustite <key href="help:gnome-help/keyboard-key-super">Super </key> kako bi odabrali sljedeći istaknuti prozor.</tt:p>
+         </tt:div>
+         <tt:div begin="29s" end="32s">
+           <tt:p>Kako bi kružili popisom otvorenih prozora, nemojte otpuštati <key href="help:gnome-help/keyboard-key-super">Super</key> držite ga pritisnutim, i pritisnite <key>Tab</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="37s">
+           <tt:p>Pritisnite <key href="help:gnome-help/keyboard-key-super">Super </key> tipku za prikaz <gui>Aktivnosti</gui> pregleda.</tt:p>
+         </tt:div>
+         <tt:div begin="37s" end="40s">
+           <tt:p>Započnite tipkati naziv aplikacije na koju se želite prebaciti.</tt:p>
+         </tt:div>
+         <tt:div begin="40s" end="43s">
+           <tt:p>Kada se aplikacija pojavi kao prvi rezultat, pritisnite <key> Enter</key> kako bi se prebacili na nju.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+  <section id="switch-tasks-overview">
+    <title>Prebacivanje zadataka</title>
+
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
+  <steps>
+    <item><p>Pomaknite svoj pokazivač miša na <gui>Aktivnosti</gui> kut gore lijevo u zaslonu za prikaz <gui>Aktivnosti</gui> pregleda gdje možete vidjeti trenutno pokrenute zadatke prikazane kao umanjene prozore.</p></item>
+     <item><p>Kliknite na prozor kako bi prebacili na odabrani zadatak.</p></item>
+  </steps>
+
+</if:when>
+<if:when test="platform:gnome-classic">
+
+  <steps>
+    <item><p>Možete prebacivati zadatke koristeći <gui>popis prozora</gui> na dnu zaslona. Otvoreni zadaci se pojavljuju kao tipke u <gui>popisu prozora</gui>.</p></item>
+     <item><p>Kliknite na tipku u <gui>popisu prozora</gui> za prebacivanje zaslona.</p></item>
+  </steps>
+
+</if:when>
+</if:choose>
+
+  </section>
+
+  <section id="switching-tasks-tiling">
+    <title>Poravnanje prozora</title>
+    
+    <steps>
+      <item><p>Kako bi uvećali prozor duž strane zaslona, uhvatite naslovnu traku i povucite ju na lijevu ili desnu stranu zaslona.</p></item>
+      <item><p>Kada se polovica zaslona istakne, otpustite prozor za uvećanje duž odabrane strane zaslona.</p></item>
+      <item><p>Kako bi uvećali dva prozora jednog pokraj drugog, uhvatite naslovnu traku drugog prozora i povucite na suprotnu stranu zaslona.</p></item>
+       <item><p>Kada se polovica naslova istakne, otpustite prozor za uvećanje duž suprotne strane zaslona.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="switch-tasks-windows">
+    <title>Prebacivanje između prozora</title>
+    
+  <steps>
+   <item><p>Pritisnite <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Tab</key></keyseq> za prikaz <gui>prebacivača prozora</gui>, koji prikazuje trenutno otvorene prozore.</p></item>
+   <item><p>Otpustite <key href="help:gnome-help/keyboard-key-super">Super</key> kako bi odabrali sljedeći istaknuti prozor u <gui>prebacivaču prozora</gui>.</p>
+   </item>
+   <item><p>Kako bi kružili popisom otvorenih prozora, nemojte otpuštati <key href="help:gnome-help/keyboard-key-super">Super</key> držite ga pritisnutim, i pritisnite <key>Tab</key>.</p></item>
+  </steps>
+
+  </section>
+
+  <section id="switch-tasks-search">
+    <title>Korištenje pretrage za prebacivanje aplikacija</title>
+    
+    <steps>
+      <item><p>Pritisnite <key href="help:gnome-help/keyboard-key-super">Super </key> tipku za prikaz <gui>Aktivnosti</gui> pregleda.</p></item>
+      <item><p>Jednostavno započnite upisivanje naziva aplikacije na koju se želite prebaciti. Podudarajuće aplikacije s vašim upisom će se pojaviti.</p></item>
+      <item><p>Kada se aplikacija na koju se želite prebaciti pojavi kao prvi rezultat, pritisnite <key>Enter</key> za prebacivanje.</p></item>
+      
+    </steps>
+    
+  </section>
+
+</page>

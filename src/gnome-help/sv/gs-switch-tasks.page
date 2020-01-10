@@ -13,7 +13,7 @@
     <title role="trail" type="link">Växla mellan uppgifter</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">En handledning i att växla mellan uppgifter</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Sebastian Rasmussen</mal:name>
@@ -38,11 +38,9 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Växlar uppgifter</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Flytta din musmarkör till <gui>Aktivitetshörnet</gui> längst upp till vänster på skärmen.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Flytta din musmarkör till <gui>Aktivitetshörnet</gui> längst upp till vänster på skärmen.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Klicka på ett fönster för att byta till den uppgiften.</tt:p>
          </tt:div>

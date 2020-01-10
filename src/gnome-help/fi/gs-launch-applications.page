@@ -54,12 +54,9 @@
     <title>Käynnistä sovelluksia hiirellä</title>
  
   <steps>
-    <item><p>Move your mouse pointer to the <gui>Activities</gui> corner at the
-     top left of the screen to show the <gui>Activities Overview</gui>.</p></item>
-    <item><p>Click the <gui>Show Applications</gui> icon that is shown at the
-     bottom of the bar on the left-hand side of the screen.</p></item>
-    <item><p>A list of applications is shown. Click the application you want to
-     run, for example, Help.</p></item>
+    <item><p>Siirrä hiiren osoitin näytön vasemman yläreunan <gui>Toiminnot</gui>-kulmaan avataksesi <gui>Toiminnot-yleisnäkymän</gui>.</p></item>
+    <item><p>Napsauta <gui>Näytä sovellukset</gui> -painiketta näytön vasemman puolen palkin alaosasta.</p></item>
+    <item><p>Luettelo sovelluksista ilmestyy näkyviin. Napsauta haluamaasi sovellusta, esimerkiksi Ohje.</p></item>
   </steps>
 
   </section>
@@ -68,12 +65,9 @@
     <title>Käynnistä sovelluksia näppäimistöllä</title>
 
   <steps>
-    <item><p>Open the <gui>Activities Overview</gui> by pressing the
-    <key href="help:gnome-help/keyboard-key-super">Super</key> key.</p></item>
-    <item><p>Start typing the name of the application you want to launch.
-     Searching for the application begins instantly.</p></item>
-    <item><p>Once the icon of the application is shown and selected, press <key>
-    Enter</key> to launch the application.</p></item>
+    <item><p>Avaa <gui>Toiminnot-yleisnäkymä</gui> painamalla <key href="help:gnome-help/keyboard-key-super">Super</key>.</p></item>
+    <item><p>Aloita sen sovelluksen nimen kirjoittaminen, jonka haluat käynnistää. Sovelluksen hakeminen käynnistyy välittömästi.</p></item>
+    <item><p>Kun sovelluksen kuvake on korostettuna, paina <key> Enter</key> käynnistääksesi sovelluksen.</p></item>
   </steps>
 
   </section>

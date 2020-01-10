@@ -9,11 +9,12 @@
     <credit type="author">
       <name>Petr Kovar</name>
     </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">回應訊息</title>
     <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">回應訊息</title>
     <title role="seealso" type="link">回應訊息的教學</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Cheng-Chia Tseng</mal:name>

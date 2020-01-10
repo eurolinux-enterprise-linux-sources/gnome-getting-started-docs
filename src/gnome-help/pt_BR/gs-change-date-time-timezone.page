@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0" xml:lang="pt-BR">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0" xml:lang="pt-BR">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -30,7 +30,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Rafael Fontenelle</mal:name>
       <mal:email>rafaelff@gnome.org</mal:email>
-      <mal:years>2013, 2016</mal:years>
+      <mal:years>2013, 2016, 2017</mal:years>
     </mal:credit>
   </info>
 
@@ -47,7 +47,7 @@
   <media its:translate="no" type="image" mime="image/svg" src="gs-datetime.svg" width="100%"/>
   
   <steps style="continues">
-    <item><p>Certifique-se de que o ítem <gui>Fuso horário automático</gui> esteja desligado e então clique no item <gui>Fuso horário</gui>, abaixo.</p></item>
+    <item><p>Certifique-se de que o item <gui>Fuso horário automático</gui> esteja desligado e então clique no item <gui>Fuso horário</gui>, abaixo.</p></item>
     <item><p>Clique sobre o seu local no mapa mundial. Isto seleciona sua cidade atual, sendo que você também pode pesquisar na caixa de pesquisa acima do mapa.</p></item>
     <item><p>Feche o mapa mundial para voltar para <gui>Data &amp; hora</gui>.</p></item>
     <item><p>Certifique-se de que o ítem <gui>Data &amp; hora automática</gui> esteja desligado e então clique no item <gui>Fuso horário</gui>, abaixo, para abrir a janela <gui>Data &amp; hora</gui>. Neste local você poderá ajustar suas configurações de data e hora clicando nos botões <gui>+</gui> ou <gui>-</gui>.</p>

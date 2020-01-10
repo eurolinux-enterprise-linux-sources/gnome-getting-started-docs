@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="nl">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Online gaan</title>
+    <link type="seealso" xref="net"/>
+    <title role="seealso" type="link">Een handleiding over het online gaan</title>
+    <link type="next" xref="gs-browse-web"/>
+  </info>
+
+  <title>Online gaan</title>
+  
+  <note style="important">
+      <p>Aan de rechterkant van de bovenste balk ziet u de status van uw netwerkverbinding.</p>
+  </note>  
+
+  <section id="going-online-wired">
+
+    <title>Verbinding maken met een bekabeld netwerk</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Het netwerkverbindingspictogram aan de rechterkant van de bovenste balk geeft aan dat u offline bent.</p>
+      <p>Er kunnen diverse redenen zijn voor de offlinestatus: er kan een netwerkkabel niet goed zijn aangesloten, de computer kan in de <em>vliegtuigstand</em> gezet zijn, of er zijn geen wifi-netwerken beschikbaar in uw buurt.</p>
+      <p>Als u een bekabelde verbinding wilt hebben, sluit dan een netwerkkabel aan om online te gaan. De computer zal proberen de netwerkverbinding automatisch voor u tot stand te brengen.</p>
+      <p>Terwijl de computer een netwerkverbinding voor u tot stand brengt, toont het netwerkpictogram drie stippen.</p></item>
+      <item><p>Als de netwerkverbinding eenmaal met succes tot stand is gebracht, verandert het netwerkpictogram in het symbool van een netwerkcomputer.</p></item>
+    </steps>
+    
+  </section>
+
+  <section id="going-online-wifi">
+
+    <title>Verbinding maken met een wifi-netwerk</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
+    
+    <steps>
+      <title>Om verbinding te maken met een wifi (draadloos) netwerk:</title>
+      <item>
+        <p>Klik op het <gui xref="shell-introduction#yourname">systeemmenu</gui> aan de rechterkant van de bovenste balk.</p>
+      </item>
+      <item>
+        <p>Selecteer <gui>Wifi niet verbonden</gui>. Het wifi-gedeelte van het menu zal uitgeklapt worden.</p>
+      </item>
+      <item>
+        <p>Klik op <gui>Netwerk selecteren</gui></p>
+      </item>
+    </steps>
+
+     <note style="important">
+       <p>U kunt alleen verbinding maken met een wifi-netwerk als uw computerhardware dit ondersteunt en u zich in een gebied bevindt met wifi-dekking.</p>
+     </note>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
+
+    <steps style="continues">
+    <item><p>Kies uit de lijst met beschikbare wifi-netwerken het netwerk waarmee u verbinding wilt maken en klik op <gui>Verbinden</gui> om het te bevestigen.</p>
+    <p>Afhankelijk van de netwerkconfiguratie kan er gevraagd worden naar uw aanmeldgegevens.</p></item>
+    </steps>
+
+  </section>
+
+</page>

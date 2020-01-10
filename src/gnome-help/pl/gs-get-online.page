@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="pl">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-get-online" xml:lang="pl">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -18,20 +18,20 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Piotr Drąg</mal:name>
       <mal:email>piotrdrag@gmail.com</mal:email>
-      <mal:years>2013-2016</mal:years>
+      <mal:years>2013-2018</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Aviary.pl</mal:name>
       <mal:email>community-poland@mozilla.org</mal:email>
-      <mal:years>2013-2016</mal:years>
+      <mal:years>2013-2018</mal:years>
     </mal:credit>
   </info>
 
   <title>Łączenie z siecią</title>
   
   <note style="important">
-      <p>Można zobaczyć stan połączenia sieciowego po prawej stronie górnego paska.</p>
+      <p>Stan połączenia sieciowego jest wyświetlany po prawej stronie górnego paska.</p>
   </note>  
 
   <section id="going-online-wired">
@@ -43,7 +43,7 @@
     <steps>
       <item><p>Ikona połączenia sieciowego po prawej stronie górnego paska pokazuje, że komputer nie jest połączony (tryb offline).</p>
       <p>Stan offline może mieć wiele przyczyn: na przykład kabel mógł zostać odłączony, komputer został ustawiony w <em>trybie samolotowym</em> lub brak dostępnych sieci Wi-Fi w okolicy.</p>
-      <p>Aby użyć połączenia przewodowego, po prostu podłącz kabel sieciowy. Komputer spróbuje automatycznie ustawić połączenie sieciowe.</p>
+      <p>Aby użyć połączenia przewodowego, podłącz kabel sieciowy. Komputer spróbuje automatycznie ustawić połączenie sieciowe.</p>
       <p>Kiedy komputer ustawia połączenie sieciowe, ikona połączenia wyświetla trzy kropki.</p></item>
       <item><p>Po pomyślnym ustawieniu połączenia sieciowego ikona połączenia zmienia się w symbol komputera podłączonego do sieci.</p></item>
     </steps>

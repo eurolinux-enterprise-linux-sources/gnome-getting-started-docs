@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-wallpaper" xml:lang="da">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Skift baggrundstapetet</title>
+    <link type="seealso" xref="look-background"/>
+    <title role="seealso" type="link">En vejledning til at skifte baggrundstapetet</title>
+  </info>
+
+  <title>Skift baggrundstapetet</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-change-wallpaper.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-changing-wallpaper.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Skifte baggrundstapet</tt:p>
+         </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Klik på systemmenuen på højre side af toplinjen, og tryk på knappen indstillinger.</tt:p>
+           </tt:div>
+         <tt:div begin="10s" end="12s">
+           <tt:p>Vælg <gui>Baggrund</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="13s">
+           <tt:p>Klik på det nuværende baggrundsbillede.</tt:p>
+         </tt:div>
+         <tt:div begin="13s" end="16s">
+           <tt:p>Klik på det baggrundsbillede du vil bruge.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18s">
+           <tt:p>Klik på knappen <gui>Vælg</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="21s">
+           <tt:p>Luk vinduet <gui>Baggrund</gui>.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="change-wallpaper-overview">
+    <title>Skift baggrundstapetet</title>
+    
+    <steps>
+      <item><p>Klik på <gui xref="shell-introduction#yourname">systemmenuen</gui> på højre side af toplinjen.</p></item>
+      <item><p>Klik på knappen indstillinger nederst til venstre i menuen.</p></item>
+      <item><p>Klik på panelet <gui>Baggrund</gui>.</p></item>
+      <item><p>Klik på det nuværende baggrundsbillede i venstre side af vinduet <gui>Baggrund</gui>.</p></item>
+      <item><p>Klik på det baggrundsbillede du vil bruge.</p></item>
+      <item><p>Klik på knappen <gui>Vælg</gui>.</p></item>
+      <item><p>Luk vinduet <gui>Baggrund</gui> ved at klikke på krydset øverst til højre i vinduet.</p></item>
+    </steps>
+  </section>
+
+</page>

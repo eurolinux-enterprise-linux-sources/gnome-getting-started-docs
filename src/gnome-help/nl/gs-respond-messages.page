@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="nl">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">Berichten beantwoorden</title>
+    <title role="seealso" type="link">Een handleiding over het beantwoorden van berichten</title>
+  </info>
+
+  <title>Berichten beantwoorden</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="3s">
+           <tt:p>Berichten beantwoorden</tt:p>
+         </tt:div>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Breng de muisaanwijzer naar het chatbericht dat aan de bovenkant van het scherm verschijnt.</tt:p>
+           </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Begin met het intypen van uw antwoord en druk wanneer u klaar bent op <key>Enter </key> om het antwoord te versturen.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="10s">
+           <tt:p>Sluit het chatbericht.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Vertraagde reactie</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="22s">
+           <tt:p>Een chatbericht aan de bovenkant van het scherm verdwijnt na een poosje als u de muisaanwijzer niet naar het bericht brengt.</tt:p>
+         </tt:div>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Om terug te keren naar het nog niet beantwoorde bericht: klik op de klok op de bovenste balk.</tt:p>
+         </tt:div>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Kies uw bericht uit de meldingenlijst.</tt:p>
+         </tt:div>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Begin met het intypen van uw antwoord.</tt:p>
+         </tt:div>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Om de meldingenlijst te tonen: druk op <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>V</key></keyseq></tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Gebruik de pijltjestoetsen om een bericht waarop u wilt antwoorden te selecteren en druk op <key>Enter</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Begin met het intypen van uw antwoord.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="respond-to-messages-mouse">
+    <title>Een chatbericht beantwoorden met de muis</title>
+    
+    <steps>
+      <item><p>Breng de muisaanwijzer naar het chatbericht dat aan de bovenkant van het scherm verschijnt.</p></item>
+      <item><p>Begin met het intypen van uw antwoord en druk wanneer u klaar bent op <key>Enter </key> om het antwoord te versturen.</p></item>
+      <item><p>Om het chatbericht te sluiten klikt u op de sluitknop in de rechterbovenhoek van het chatbericht.</p></item>
+    </steps>
+    <p/>
+  </section>
+  
+  <section id="respond-to-messages-delayed-mouse">
+    <title>Uitgesteld antwoord op een chatbericht met de muis</title>
+    
+    <steps>
+      <item><p>Wanneer er een chatbericht verschijnt aan de bovenkant van het scherm en u niet de muis boven het bericht plaatst, verdwijnt het na een poosje.</p></item>
+      <item><p>Om terug te keren naar het nog niet beantwoorde bericht: klik op de klok op de bovenste balk.</p></item>
+      <item><p>Kies uit de notificatielijst het bericht dat u wilt beantwoorden en klik erop.</p></item>
+      <item><p>Begin met het intypen van uw antwoord wanneer het chatbericht getoond wordt.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="respond-to-messages-delayed-keyboard">
+    <title>Uitgesteld antwoord op een chatbericht via het toetsenbord</title>
+    <steps>
+      <item><p>Om terug te gaan naar het nog niet beantwoorde chatbericht drukt u op <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key> </keyseq>, waardoor de lijst met onbeantwoorde notificaties verschijnt.</p>
+      </item>
+      <item><p>Gebruik de pijltjestoetsen om de notificatie waarop u wilt antwoorden te selecteren en druk op <key>Enter</key>.</p></item>
+      <item><p>Begin met het intypen van uw antwoord wanneer het chatbericht getoond wordt.</p></item>
+    </steps>
+
+  </section>
+
+
+</page>

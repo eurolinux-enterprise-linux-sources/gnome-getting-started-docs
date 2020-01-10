@@ -18,7 +18,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Andika Triwidada</mal:name>
       <mal:email>andika@gmail.com</mal:email>
-      <mal:years>2013, 2016</mal:years>
+      <mal:years>2013, 2016, 2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kukuh Syafaat</mal:name>
+      <mal:email>syafaatkukuh@gmail.com</mal:email>
+      <mal:years>2016</mal:years>
     </mal:credit>
   </info>
 
@@ -39,7 +45,7 @@
            <tt:p>Ketika layar disorot, lepaskan jendela.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="20s">
-           <tt:p>Untuk tak memaksimalkan suatu jendela, tangkap bilah judul jendela dan jauhkan dari puncak layar.</tt:p>
+           <tt:p>Untuk tak memaksimalkan suatu jendela, tangkap bilah judul jendela dan seret menjauh dari tepi layar.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
            <tt:p>Anda juga dapat mengklik pada bilah puncak untuk menyeret pergi jendela dan tak memaksimalkannya.</tt:p>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="el">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="el">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>Petr Kovar</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">Χρησιμοποιήστε το σύστημα αναζήτησης</title>
@@ -39,7 +42,10 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Ανοίξτε την επισκόπηση <gui>Δραστηριότητες</gui> πατώντας το πλήκτρο <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key>. Ξεκινήστε να πληκτρολογείτε για αναζήτηση.</p>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
     <p>Αποτελέσματα ανάλογα με αυτό που έχετε γράψει θα εμφανίζονται όσο γράφετε. Το πρώτο αποτέλεσμα πάντα επισημαίνεται και εμφανίζεται στην κορυφή.</p>
     <p>Για να μεταβείτε στο πρώτο επισημασμένο αποτέλεσμα, πατήστε το πλήκτρο <key>Enter</key>.</p></item>
     </steps>
@@ -50,8 +56,14 @@
       <list>
         <item><p>τις εφαρμογές που ταιριάζουν και εμφανίζονται στην κορυφή των αποτελεσμάτων αναζήτησης,</p></item>
         <item><p>τις ρυθμίσεις που ταιριάζουν,</p></item>
-        <item><p>τις επαφές που ταιριάζουν και</p></item>
-        <item><p>τα έγγραφα που ταιριάζουν.</p></item>
+        <item><p>matching contacts,</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
       </list>
       </item>
       <item><p>Στα αποτελέσματα αναζήτησης, πατήστε στο στοιχείο στο οποίο θέλετε να αλλάξετε.</p>
@@ -81,7 +93,7 @@
         <title>Για να προσαρμόσετε το τι εμφανίζεται στα αποτελέσματα αναζήτησης:</title>
         <item><p>Κάντε κλικ στο <gui xref="shell-introduction#yourname">μενού του συστήματος</gui> στο δεξί μέρος της πάνω μπάρας.</p></item>
         <item><p>Κάντε κλικ στο κουμπί ρυθμίσεις στο κάτω αριστερό μέρος του μενού.</p></item>
-        <item><p>Κάντε κλικ στον πίνακα <gui>Αναζήτηση</gui>.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
         <item><p>Στη λίστα των τοποθεσιών αναζήτησης, πατήστε τον διακόπτη <gui>ΝΑΙ/ΟΧΙ</gui> δίπλα στην τοποθεσία αναζήτησης που θέλετε να ενεργοποιήσετε ή να απενεργοποιήσετε.</p>
          </item>
       </steps>

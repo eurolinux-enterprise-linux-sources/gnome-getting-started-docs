@@ -13,7 +13,7 @@
     <title role="trail" type="link">Переключение задач</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">Руководство по переключению задач</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Юлия Дронова</mal:name>
@@ -44,22 +44,22 @@
          <tt:div begin="1s" end="5s">
            <tt:p>Переключение между задачами</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Переместите курсор мыши на <gui>Обзор</gui>, в левый верхний угол экрана.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">Переместите курсор мыши на <gui>Обзор</gui>, в левый верхний угол экрана.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>Нажмите на окно, чтобы переключиться на эту задачу.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>Чтобы растянуть окно вдоль левой стороны экрана, перетащите заголовок окна влево.</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="16s">
            <tt:p>Когда в левой половине экрана появится подсветка, отпустите окно.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>Чтобы максимально раскрыть окно вдоль левой стороны экрана, перетащите заголовок окна вправо.</tt:p>
+           <tt:p>To maximize a window along the right side, grab the window’s
+            titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
            <tt:p>Когда в левой половине экрана появится подсветка, отпустите окно.</tt:p>
@@ -71,9 +71,7 @@
            <tt:p>Чтобы выбрать следующее выделенное окно, отпустите клавишу <key href="help:gnome-help/keyboard-key-super">Super </key>.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="32s">
-           <tt:p>To cycle through the list of open windows, do not release
-           <key href="help:gnome-help/keyboard-key-super">Super</key> but hold
-           it down, and press <key>Tab</key>.</tt:p>
+           <tt:p>Для перемещения по списку открытых окон нажмите клавишу <key>Tab</key>, одновременно удерживая клавишу <key href="help:gnome-help/keyboard-key-super">Super</key>.</tt:p>
          </tt:div>
          <tt:div begin="35s" end="37s">
            <tt:p>Откройте <gui>Обзор</gui>, нажав клавишу <key href="help:gnome-help/keyboard-key-super">Super </key>.</tt:p>
@@ -117,7 +115,8 @@
     <title>Плиточное расположение окон</title>
     
     <steps>
-      <item><p>Чтобы развернуть окно вдоль правой или левой стороны экрана, перетащите заголовок окна на правую или на левую сторону экрана.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>При появлении на экране подсветки отпустите окно, чтобы оно заняло на экране всю выделенную область.</p></item>
       <item><p>Чтобы развернуть два окна рядом друг с другом, перетащите заголовок второго окна на противоположную сторону экрана.</p></item>
        <item><p>При появлении на экране подсветки отпустите окно, чтобы оно заняло на экране всю противоположную область.</p></item>
@@ -132,9 +131,7 @@
    <item><p>Чтобы открыть <gui>переключатель окон</gui>, где показаны все открытые на данный момент окна, нажмите комбинацию клавиш <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Tab</key></keyseq>.</p></item>
    <item><p>Отпустите клавишу <key href="help:gnome-help/keyboard-key-super">Super</key> для выбора следующего выделенного окна в <gui>переключателе окон</gui>.</p>
    </item>
-   <item><p>To cycle through the list of open windows, do not release
-   <key href="help:gnome-help/keyboard-key-super">Super</key> but hold it down,
-   and press <key>Tab</key>.</p></item>
+   <item><p>Для перемещения по списку открытых окон нажмите клавишу <key>Tab</key>, одновременно удерживая клавишу <key href="help:gnome-help/keyboard-key-super">Super</key>.</p></item>
   </steps>
 
   </section>

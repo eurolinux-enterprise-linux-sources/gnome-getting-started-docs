@@ -30,7 +30,7 @@
 <t id="wallpapers">నేపథ్యచిత్రాలు</t>
 <t id="select">ఎంపికచేయి</t>
 <t id="bubble.message">సమావేశంకు సిద్దమేనా?</t>
-<t id="bubble.response">నేను ఇంకో క్షణంలో అక్కడవుంటాను...</t>
+<t id="bubble.response">I’ll be there in a sec…</t>
 <t id="bubble.message2">మంచి విషయం, ధన్యవాదములు</t>
 <t id="bubble.response2">తోడ్పాటునకు ధన్యవాదములు</t>
 <t id="bubble.message3">మరేం పర్వాలేదు.</t>
@@ -40,6 +40,6 @@
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">తేదీ మరియు సమయం అమరికలు</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">స్యయంచాలక తేది మరియు సమయం</t>
 <t id="autotimezone">స్యయంచాలక సమయక్షేత్రం</t>
-<t id="sstime">14 అక్టోబర్ 2013, 20:00</t>
-<t id="sstime2">14 అక్టోబర్ 2013, 14:00</t>
+<t id="sstime">14 October 2013, 20∶00</t>
+<t id="sstime2">14 October 2013, 14∶00</t>
 </titles>

@@ -13,7 +13,7 @@
     <title role="trail" type="link">కర్తవ్యాలను మార్చు</title>
     <link type="seealso" xref="shell-windows-switching"/>
     <title role="seealso" type="link">కర్తవ్యాలను మార్చుటపై ట్యుటోరియల్</title>
-    <link type="next" xref="gs-respond-messages"/>
+    <link type="next" xref="gs-use-windows-workspaces"/>
   </info>
 
   <title>కర్తవ్యాలను మార్చు</title>
@@ -26,22 +26,22 @@
          <tt:div begin="1s" end="5s">
            <tt:p>కర్తవ్యాలను మార్చుట</tt:p>
          </tt:div>
-         <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>తెర పైన ఎడమవైపు మూలన <gui>కార్యకలాపాలు</gui> కు మీ మౌస్ సూచకిని కదుపుము.</tt:p>
+           <tt:p if:test="!platform:gnome-classic">తెర పైన ఎడమవైపు మూలన <gui>కార్యకలాపాలు</gui> కు మీ మౌస్ సూచకిని కదుపుము.</tt:p>
            </tt:div>
-         </if:if>
          <tt:div begin="9s" end="12s">
            <tt:p>కర్తవ్యమునకు మారుటకు విండోను నొక్కుము.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>తెర ఎడమ వైపుకు విండోను పెద్దది చేయుటకు, విండో శీర్షికపట్టీను పట్టుకొని ఎడమవైపుకు లాగండి.</tt:p>
+           <tt:p>To maximize a window along the left side of the screen, grab
+            the window’s titlebar and drag it to the left.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="16s">
            <tt:p>తెర అర్ధభాగం ఉద్దీపనం కాగానే, విండోను వదులుము.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>కుడి వైపుకు విండోను పెద్దది చేయుటకు, విండో శీర్షికపట్టీను పట్టుకొని కుడివైపుకు లాగండి.</tt:p>
+           <tt:p>To maximize a window along the right side, grab the window’s
+            titlebar and drag it to the right.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
            <tt:p>తెర అర్ధభాగం ఉద్దీపనం కాగానే, విండోను వదులుము.</tt:p>
@@ -97,7 +97,8 @@
     <title>టైల్ విండోలు</title>
     
     <steps>
-      <item><p>తెర వెంబడి విండోను పెద్దది చేయుటకు, విండో యొక్క శీర్షికపట్టీను పట్టి దానిని తెర ఎడమ వైపుకు లేదా కుడి వైపుకు లాగుము.</p></item>
+      <item><p>To maximize a window along a side of the screen, grab the window’s
+       titlebar and drag it to the left or right side of the screen.</p></item>
       <item><p>తెర అర్ధభాగం ఉద్దీపనం కాగానే, విండోను ఎంపికచేసిన తెర వైపుకు పెద్దది చేయుటకు దానిని వదులుము.</p></item>
       <item><p>వెండు విండోలను పక్క-పక్కనే పెద్దవి చేయుటకు, రెండో విండో యొక్క శీర్షిక పట్టీను పట్టీ దానిని తెరకు వ్యతిరేక దిశలో లాగుము.</p></item>
        <item><p>తెర అర్ధభాగం ఉద్దీపనం కాగానే, విండోను ఎంపికచేసిన తెర వ్యతిరేక దిశకు పెద్దది చేయుటకు దానిని వదులుము.</p></item>

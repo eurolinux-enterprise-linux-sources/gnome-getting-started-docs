@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0" xml:lang="nl">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Datum, tijd en tijdszone wijzigen</title>
+    <link type="seealso" xref="clock"/>
+    <title role="seealso" type="link">Een handleiding over het wijzigen van de datum, tijd en tijdzone</title>
+    <link type="next" xref="gs-change-wallpaper"/>
+  </info>
+
+  <title>Datum, tijd en tijdszone wijzigen</title>
+
+  <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+
+  <steps>
+    <item><p>Klik op het <gui xref="shell-introduction#yourname">systeemmenu</gui> aan de rechterkant van de bovenste balk.</p></item>
+    <item><p>Klik op de knop Instellingen linksonder in het menu.</p></item>
+    <item><p>Selecteer het paneel <gui>Datum en tijd</gui></p></item>
+  </steps>
+  
+  <media its:translate="no" type="image" mime="image/svg" src="gs-datetime.svg" width="100%"/>
+  
+  <steps style="continues">
+    <item><p>Zorg ervoor dat het onderdeel <gui>Automatische tijdzone</gui> is uitgeschakeld en klik daarna onderaan op het onderdeel <gui>Tijdzone</gui>.</p></item>
+    <item><p>Klik op uw locatie op de wereldkaart. Hierdoor wordt uw huidige locatie geselecteerd. U kunt hier ook naar zoeken in het zoekvak boven de kaart.</p></item>
+    <item><p>Sluit het wereldkaartvenster om terug te gaan naar <gui>Datum en tijd</gui>.</p></item>
+    <item><p>Zorg ervoor dat het onderdeel <gui>Automatische datum en tijd</gui> uitgeschakeld is en klik daarna op het onderdeel <gui>Datum en tijd</gui> onderaan om het <gui>Datum en tijd</gui>-venster te openen. Hier kunt u de datum- en tijdinstellingen aanpassen door te klikken op de knoppen <gui>+</gui> of <gui>-</gui></p>
+     </item>
+    <item><p>Sluit het venster om terug te gaan naar <gui>Datum en tijd</gui> en sluit vervolgens het paneel.</p></item>
+  </steps>
+
+</page>

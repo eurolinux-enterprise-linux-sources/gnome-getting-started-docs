@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="ro">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">Conectarea la conturi online</title>
+    <link type="seealso" xref="accounts"/>
+    <title role="seealso" type="link">Un ghid pentru conectarea la conturi online</title>
+    <link type="next" xref="gs-change-date-time-timezone"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Șerbănescu</mal:name>
+      <mal:email>daniel [at] serbanescu [dot] dk</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Conectarea la conturi online</title>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
+
+    <steps>
+      <item><p>Clic pe <gui xref="shell-introduction#yourname">meniul sistemului</gui> din partea dreaptă a barei de sus.</p></item>
+      <item><p>Clic pe butonul de configurări din partea stânga-jos a meniului.</p></item>
+    </steps>
+       
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
+    
+    <steps style="continues">
+      <item><p>Clic pe panoul <gui>Conturi online</gui>, apoi clic pe serviciul de conturi online pe care doriți să-l utilizați.</p>
+
+      <p>Aceasta va deschide o fereastră nouă unde puteți să vă conectați la contul dumneavoastră online.</p></item>
+    </steps>
+      
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>În cele mai multe cazuri, va trebui să permiteți accesul la serviciul online nupă ce vă autentificați pentru a începe lucrul.</p></item>
+      <item><p>De exemplu, dacă vă conectați la contul dumneavoastră Google, va trebui să apăsați pe butonul <gui>Permite</gui>.</p></item>
+    </steps>
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
+
+    <steps style="continues">
+      <item><p>Multe conturi online vă permit să alegeți serviciile pe care doriți să le utilizați cu contul dumneavoastră online. Dacă nu vreți să utilizați un serviciu, dezactivați-l folosind comutatorul <gui>PORNIT/OPRIT</gui> din dreapta ferestrei.</p></item>
+    </steps>
+
+</page>

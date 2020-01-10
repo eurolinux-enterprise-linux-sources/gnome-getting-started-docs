@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="sr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Јакуб Штајнер (Jakub Steiner)</name>
+    </credit>
+    <credit type="author">
+      <name>Петр Ковар (Petr Kovar)</name>
+    </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">Одговарање на поруке</title>
+    <title role="seealso" type="link">Упутство за одговарање на поруке</title>
+  </info>
+
+  <title>Одговарање на поруке</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="3s">
+           <tt:p>Одговарање на поруке</tt:p>
+         </tt:div>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Померите показивач миша на поруку која се појавила при врху екрана.</tt:p>
+           </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Почните са куцањем вашег одговора и, када завршите са писањем одговора, притисните <key>Enter </key> за слање одговора.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="10s">
+           <tt:p>Затворите поруку.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Одложено одговарање</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="22s">
+           <tt:p>Порука на врху екрана ће нестати после одређеног времена ако не померите миша преко поруке.</tt:p>
+         </tt:div>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Да бисте се вратили на вашу неодговорену поруку, кликните на сат у горњој траци.</tt:p>
+         </tt:div>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Из списка обавештења изаберите вашу поруку.</tt:p>
+         </tt:div>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Почните са куцањем одговора.</tt:p>
+         </tt:div>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Да бисте приказали списак са обавештењима, притисните <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>V</key></keyseq></tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Искористите стрелице да бисте изабрали поруку на коју желите да одговорите и притисните <key>Enter</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Почните са куцањем одговора.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="respond-to-messages-mouse">
+    <title>Одговарање на поруку помоћу миша</title>
+    
+    <steps>
+      <item><p>Померите показивач миша на поруку која се појавила при врху екрана.</p></item>
+      <item><p>Крените са куцањем одговора и када будете били завршили, притисните <key>Enter</key> да бисте послали одговор.</p></item>
+      <item><p>Да бисте затворили поруку, кликните на дугме за затварање у горњем десном углу поруке са ћаскања.</p></item>
+    </steps>
+    <p/>
+  </section>
+  
+  <section id="respond-to-messages-delayed-mouse">
+    <title>Одложено одговарање на поруку помоћу миша</title>
+    
+    <steps>
+      <item><p>Када се порука са ћаскања појави у врху екрана, ако не померите миша на поруку, она ће нестати после одређеног времена.</p></item>
+      <item><p>Да бисте се вратили на вашу неодговорену поруку, кликните на сат у горњој траци.</p></item>
+      <item><p>Из списка обавештења изаберите поруку на коју желите да одговорите и кликните на њу.</p></item>
+      <item><p>Када се порука са ћаскања прикаже, крените са куцањем вашег одговора.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="respond-to-messages-delayed-keyboard">
+    <title>Одложено одговарање на поруку помоћу тастатуре</title>
+    <steps>
+      <item><p>Да бисте погледали поруке са ћаскања на које нисте одговорили, притисните <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key> </keyseq> да би вам се приказао списак тих порука.</p>
+      </item>
+      <item><p>Користите стрелице на тастатури да бисте одабрали обавештење на које желите одговорити и онда притисните тастер <key>Enter</key>.</p></item>
+      <item><p>Када се порука са ћаскања прикаже, крените са куцањем вашег одговора.</p></item>
+    </steps>
+
+  </section>
+
+
+</page>

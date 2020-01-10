@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-respond-messages" xml:lang="hr">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">Odgovor na poruke</title>
+    <title role="seealso" type="link">Vodiča odgovora na poruke</title>
+  </info>
+
+  <title>Odgovor na poruke</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-responding-to-messages.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-responding-to-messages.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="3s">
+           <tt:p>Odgovaranje na poruke</tt:p>
+         </tt:div>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Pomaknite svoj pokazivač miša preko poruke razgovora koja se pojavi pri vrhu zaslona.</tt:p>
+           </tt:div>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Započnite upisivati svoj odgovor i kada završite, pritisnite <key>Enter </key> za slanje odgovora.</tt:p>
+         </tt:div>
+         <tt:div begin="9s" end="10s">
+           <tt:p>Zatvorite poruku razgovora.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Odgođeni odgovor</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="22s">
+           <tt:p>Poruka razgovora pri vrhu zaslona nestaje nakon nekog vremena ako ne pomaknete svoj miš preko poruke.</tt:p>
+         </tt:div>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Kako bi se vratili natrag u svoju neodgovorenu poruku, kliknite na sat na gornjoj traci.</tt:p>
+         </tt:div>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Iz popisa obavijesti, odaberite svoju poruku.</tt:p>
+         </tt:div>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Započnite upisivati svoj odgovor.</tt:p>
+         </tt:div>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Za prikaz popisa obavijesti, pritisnie <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>V</key></keyseq></tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Koristite tipke strelica za odabir poruke na koju želite odgovoriti, i pritisnite <key>Enter</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Započnite upisivati svoj odgovor.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+  
+  <section id="respond-to-messages-mouse">
+    <title>Odgovor na poruku razgovora mišem</title>
+    
+    <steps>
+      <item><p>Pomaknite svoj pokazivač miša preko poruke razgovora koja se pojavi pri vrhu zaslona.</p></item>
+      <item><p>Započnite upisivati svoj odgovor i kada završite, pritisnite <key>Enter</key> za slanje odgovora.</p></item>
+      <item><p>Za zatvaranje poruke, kliknite na tipku zatvaranja u gornjem desnom kutu poruke razgovora.</p></item>
+    </steps>
+    <p/>
+  </section>
+  
+  <section id="respond-to-messages-delayed-mouse">
+    <title>Zakašnjeli odgovor na poruku razgovora koristeći miš</title>
+    
+    <steps>
+      <item><p>Poruka razgovora pri vrhu zaslona nestaje nakon nekog vremena ako ne pomaknete svoj miš preko poruke.</p></item>
+      <item><p>Kako bi se vratili natrag u svoju neodgovorenu poruku, kliknite na sat na gornjoj traci.</p></item>
+      <item><p>Iz popisa obavijesti, odaberite poruku na koju želite odgovoriti.</p></item>
+      <item><p>Kada se poruka razgovora prikaže, započnite upisivati svoj dogovor.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="respond-to-messages-delayed-keyboard">
+    <title>Zakašnjeli odgovor na poruku razgovora koristeći tipkovnicu</title>
+    <steps>
+      <item><p>Kako bi se vratili natrag u svoju neodgovorenu poruku, pritisnite <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key> </keyseq> za prikaz popisa neodgovorenih poruka.</p>
+      </item>
+      <item><p>Koristite tipke strelica za odabir poruke na koju želite odgovoriti, i pritisnite <key>Enter</key>.</p></item>
+      <item><p>Kada se poruka razgovora prikaže, započnite upisivati svoj dogovor.</p></item>
+    </steps>
+
+  </section>
+
+
+</page>

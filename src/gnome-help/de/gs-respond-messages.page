@@ -9,22 +9,23 @@
     <credit type="author">
       <name>Petr Kovar</name>
     </credit>
+<!-- Many GNOME distros don't include Empathy by default any more
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">Auf Nachrichten antworten</title>
     <link type="seealso" xref="shell-notifications"/>
+-->
+    <title role="trail" type="link">Auf Nachrichten antworten</title>
     <title role="seealso" type="link">Eine Kurzanleitung zum Antworten auf Nachrichten</title>
-    <link type="next" xref="gs-use-windows-workspaces"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Mario Blättermann</mal:name>
       <mal:email>mario.blaettermann@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2017</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013, 2014, 2015, 2016</mal:years>
+      <mal:years>2013, 2014, 2015, 2016, 2017</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -69,7 +70,7 @@
            <tt:p>Tippen Sie Ihre Antwort ein.</tt:p>
          </tt:div>
          <tt:div begin="32s" end="35s">
-           <tt:p>Um die Benachrichtigungsliste anzuzeigen, drücken Sie <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq>.</tt:p>
+           <tt:p>Um die Benachrichtigungsliste anzuzeigen, drücken Sie <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq></tt:p>
          </tt:div>
          <tt:div begin="35s" end="41s">
            <tt:p>Verwenden Sie die Pfeiltasten, um die Nachricht auszuwählen, die Sie beantworten wollen, und drücken Sie die <key>Eingabetaste</key>.</tt:p>

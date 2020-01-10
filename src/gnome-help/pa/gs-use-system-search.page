@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="pa">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-use-system-search" xml:lang="pa">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -8,6 +8,9 @@
     </credit>
     <credit type="author">
       <name>ਪੇਟਰ ਕੋਵਰ</name>
+    </credit>
+    <credit type="author">
+      <name>Hannie Dumoleyn</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">ਸਿਸਟਮ ਖੋਜ ਵਰਤੋਂ</title>
@@ -21,7 +24,10 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p><key href="help:gnome-help/keyboard-key-super">ਸੁਪਰ</key> ਸਵਿੱਚ ਦੀ ਵਰਤੋਂ ਕਰਕੇ <gui>ਸਰਗਰਮੀ ਸਾਰ</gui> ਨੂੰ ਖੋਲ੍ਹੋ। ਲੱਭਣ ਲਈ ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ।</p>
+    <item><p>Open the <gui>Activities</gui> overview by clicking <gui>Activities</gui> 
+    at the top left of the screen, or by pressing the
+    <key href="help:gnome-help/keyboard-key-super">Super</key> key. 
+    Start typing to search.</p>
     <p>ਤੁਹਾਡੀ ਵਲੋਂ ਲਿਖੇ ਗਏ ਦੇ ਨਾਲ ਮਿਲਦੇ ਨਤੀਜੇ ਤੁਹਾਡੇ ਲਿਖੇ ਸਾਰ ਹੀ ਵਿਖਾਏ ਦੇਣਗੇ। ਪਹਿਲਾਂ ਨਤੀਜਾ ਹਮੇਸ਼ਾ ਉਭਾਰਿਆ ਜਾਂਦਾ ਹੈ ਤੇ ਹਮੇਸ਼ਾ ਸਭ ਤੋਂ ਉੱਤੇ ਵਿਖਾਇਆ ਹੁੰਦਾ ਹੈ।</p>
     <p>ਪਹਿਲੇ ਉਭਾਰੇ ਨਤੀਜੇ ਉੱਤੇ ਜਾਣ ਲਈ <key>Enter</key> ਦੱਬੋ।</p></item>
     </steps>
@@ -32,8 +38,14 @@
       <list>
         <item><p>ਮਿਲਦੀਆਂ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਖੋਜ ਨਤੀਜਿਆਂ ਦੇ ਉੱਤੇ ਵੇਖਾਇਆ ਜਾਂਦਾ ਹੈ,</p></item>
         <item><p>ਮਿਲਦੀ ਸੈਟਿੰਗ,</p></item>
-        <item><p>ਮਿਲਦੇ ਸੰਪਰਕ, ਅਤੇ</p></item>
-        <item><p>ਮਿਲਦੇ ਡੌਕੂਮੈਂਟ,</p></item>
+        <item><p>matching contacts,</p></item>
+        <item><p>matching documents,</p></item>
+        <item><p>matching calendar,</p></item>
+        <item><p>matching calculator,</p></item>
+        <item><p>matching software,</p></item>
+        <item><p>matching files,</p></item>
+        <item><p>matching terminal,</p></item>
+        <item><p>matching passwords and keys.</p></item>
       </list>
       </item>
       <item><p>ਖੋਜ ਨਤੀਜਿਆਂ ਵਿੱਚ, ਆਈਟਮ ਉੱਤੇ ਜਾਣ ਲਈ ਉਸ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p>
@@ -64,7 +76,7 @@
         <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
         on the right side of the top bar.</p></item>
         <item><p>Click the settings button at the bottom left of the menu.</p></item>
-        <item><p>Click the <gui>Search</gui> panel.</p></item>
+        <item><p>Click <gui>Search</gui> in the left panel.</p></item>
         <item><p>ਖੋਜ ਟਿਕਾਣਿਆਂ ਦੀ ਸੂਚੀ ਵਿੱਚ, ਉਹਨਾਂ ਖੋਜ ਟਿਕਾਣਿਆਂ ਜਿੰਨ੍ਹਾਂ ਲਈ ਤੁਸੀਂ ਖੋਜ ਚਾਲੂ ਜਾਂ ਬੰਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਦੇ ਅੱਗੇ ਦਿੱਤੀ <gui>ਚਾਲੂ/ਬੰਦ</gui> ਸਵਿੱਚ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p>
          </item>
       </steps>

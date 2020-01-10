@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-switch-tasks" version="1.0 if/1.0" xml:lang="da">
+
+  <info>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <credit type="author">
+      <name>Petr Kovar</name>
+    </credit>
+    <link type="guide" xref="getting-started" group="videos"/>
+    <title role="trail" type="link">Skift opgaver</title>
+    <link type="seealso" xref="shell-windows-switching"/>
+    <title role="seealso" type="link">En vejledning til at skifte opgaver</title>
+    <link type="next" xref="gs-use-windows-workspaces"/>
+  </info>
+
+  <title>Skift mellem opgaver</title>
+
+  <ui:overlay width="812" height="452">
+  <media type="video" its:translate="no" src="figures/gnome-task-switching.webm" width="700" height="394">
+    <ui:thumb type="image" mime="image/svg" src="gs-thumb-task-switching.svg"/>
+      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+       <tt:body>
+         <tt:div begin="1s" end="5s">
+           <tt:p>Skifte mellem opgaver</tt:p>
+         </tt:div>
+         <tt:div begin="5s" end="8s">
+           <tt:p if:test="!platform:gnome-classic">Flyt din musemarkør til hjørnet med <gui>Aktiviteter</gui>, øverst til venstre på skærmen.</tt:p>
+           </tt:div>
+         <tt:div begin="9s" end="12s">
+           <tt:p>Klik på et vindue for at skifte til den opgave.</tt:p>
+         </tt:div>
+         <tt:div begin="12s" end="14s">
+           <tt:p>Tag fat i vinduets titellinje og træk den til venstre for at maksimere vinduet langs den venstre side af skærmen.</tt:p>
+         </tt:div>
+         <tt:div begin="14s" end="16s">
+           <tt:p>Slip vinduet, når halvdelen af skærmen er fremhævet.</tt:p>
+         </tt:div>
+         <tt:div begin="16s" end="18">
+           <tt:p>Tag fat i vinduets titellinje og træk den til højre for at maksimere vinduet langs højre side.</tt:p>
+         </tt:div>
+         <tt:div begin="18s" end="20s">
+           <tt:p>Slip vinduet, når halvdelen af skærmen er fremhævet.</tt:p>
+         </tt:div>
+         <tt:div begin="23s" end="27s">
+           <tt:p>Tryk på <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key> Tab</key></keyseq> for at vise <gui>vinduesskifteren</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="27s" end="29s">
+           <tt:p>Slip <key href="help:gnome-help/keyboard-key-super">Super </key> for at vælge det næste fremhævede vindue.</tt:p>
+         </tt:div>
+         <tt:div begin="29s" end="32s">
+           <tt:p>For at bladre gennem listen af åbne vinduer, så undlad at slippe <key href="help:gnome-help/keyboard-key-super">Super</key>, men bliv ved at holde den nede, og tryk på <key>Tab</key>.</tt:p>
+         </tt:div>
+         <tt:div begin="35s" end="37s">
+           <tt:p>Tryk på <key href="help:gnome-help/keyboard-key-super">Super </key>-tasten for at vise <gui>Aktivitetsoversigten</gui>.</tt:p>
+         </tt:div>
+         <tt:div begin="37s" end="40s">
+           <tt:p>Begynd at skrive navnet på det program, du vil skifte til.</tt:p>
+         </tt:div>
+         <tt:div begin="40s" end="43s">
+           <tt:p>Tryk på <key> Enter</key>, når programmet dukker op som det første resultat, for at skifte til det.</tt:p>
+         </tt:div>
+       </tt:body>
+     </tt:tt>
+  </media>
+  </ui:overlay>
+
+  <section id="switch-tasks-overview">
+    <title>Skift mellem opgaver</title>
+
+<if:choose>
+<if:when test="!platform:gnome-classic">
+
+  <steps>
+    <item><p>Flyt din musemarkør til hjørnet med <gui>Aktiviteter</gui> øverst til venstre hjørne af skærmen for at vise <gui>Aktivitetsoversigten</gui>, hvor du kan se de i øjeblikket kørende opgaver som små vinduer.</p></item>
+     <item><p>Klik på et vindue for at skifte til den opgave.</p></item>
+  </steps>
+
+</if:when>
+<if:when test="platform:gnome-classic">
+
+  <steps>
+    <item><p>Du kan skifte mellem opgaver ved at bruge <gui>vindueslisten</gui> nederst på skærmen. Åbne opgaver dukker op som knapper i <gui>vindueslisten</gui>.</p></item>
+     <item><p>Klik på en knap i <gui>vindueslisten</gui> for at skifte til den opgave.</p></item>
+  </steps>
+
+</if:when>
+</if:choose>
+
+  </section>
+
+  <section id="switching-tasks-tiling">
+    <title>Fliselæg vinduer</title>
+    
+    <steps>
+      <item><p>Tag fat i vinduets titellinje og træk det til venstre eller højre side af skærmen for at maksimere et vindue langs en side af skærmen.</p></item>
+      <item><p>Slip vinduet for at maksimere det langs den valgte side af skærmen, når halvdelen af skærmen er fremhævet.</p></item>
+      <item><p>Tag fat i titellinjen på det andet vindue, og træk det til den modsatte side af skærmen for at maksimere to vinduer side om side.</p></item>
+       <item><p>Slip vinduet for at maksimere det langs den modsatte side af skærmen, når halvdelen af skærmen er fremhævet.</p></item>
+    </steps>
+    
+  </section>
+  
+  <section id="switch-tasks-windows">
+    <title>Skift mellem vinduer</title>
+    
+  <steps>
+   <item><p>Tryk på <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Tab</key></keyseq> for at vise <gui>vinduesskifteren</gui>. Denne viser en liste over vinduer, der er åbne i øjeblikket.</p></item>
+   <item><p>Slip <key href="help:gnome-help/keyboard-key-super">Super</key> for at vælge det næste fremhævede vindue i <gui>vindueskifteren</gui>.</p>
+   </item>
+   <item><p>For at bladre gennem listen af åbne vinduer, så undlad at slippe <key href="help:gnome-help/keyboard-key-super">Super</key>, men bliv ved at holde den nede, og tryk på <key>Tab</key>.</p></item>
+  </steps>
+
+  </section>
+
+  <section id="switch-tasks-search">
+    <title>Brug søg for at skifte mellem programmer</title>
+    
+    <steps>
+      <item><p>Tryk på <key href="help:gnome-help/keyboard-key-super">Super</key>-tasten for at vise <gui>Aktivitetsoversigten</gui>.</p></item>
+      <item><p>Begynd blot at skrive navnet på det program, du vil skifte til. Programmer som matcher det, du skriver, vil dukke op efterhånden.</p></item>
+      <item><p>Tryk på <key>Enter</key> når programmet dukker op som det første resultat, for at skifte til det.</p></item>
+      
+    </steps>
+    
+  </section>
+
+</page>

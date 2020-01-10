@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="fi">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-connect-online-accounts" xml:lang="fi">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -21,45 +21,29 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
-      on the right side of the top bar.</p></item>
-      <item><p>Click the settings button at the bottom left of the menu.</p></item>
+      <item><p>Napsauta <gui xref="shell-introduction#yourname">järjestelmävalikkoa</gui> yläpalkin oikeasta laidasta.</p></item>
+      <item><p>Napsauta Asetukset-painiketta valikon vasemmanpuoleisesta alaosasta.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Click the <gui>Online Accounts</gui> panel, then
-      click the <gui>Add an online account</gui> button.</p></item>
-    </steps>
-    
-    <note><p>If you have set up an online account before, you can add another
-     online account by clicking the <gui>+</gui> button at the bottom left
-     corner of the window.</p></note>
-    
-    <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
+      <item><p>Valitse <gui>Verkkotilit</gui> ja napsauta sitten sitä verkkotiliä, jota haluat käyttää.</p>
 
-    <steps style="continues">  
-      <item><p>Click the online account you want to use. This will open a new
-       window where you can sign in to your online account.</p></item>
+      <p>Tämä avaa uuden ikkunan, jonka kautta voit kirjautua verkkotilillesi.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
-    <steps style="continues">  
-      <item><p>In most cases, you will have to grant access to the online
-       service after signing in to get started.</p></item>
-      <item><p>For example, if you are connecting to your Google account, you
-       will have to click the <gui>Grant Access</gui> button.</p></item>
+    <steps style="continues">
+      <item><p>Useimmiten verkkopalvelulle tulee sallia käyttöoikeus sisäänkirjautumisen jälkeen.</p></item>
+      <item><p>Jos esimerkiksi yhdistät Google-tiliisi, napsauta <gui>Salli</gui>-painiketta.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
-    <steps style="continues">  
-      <item><p>Many online accounts let you choose the services you want to use
-       with your online account. If you do not want to use a service, disable it
-       by clicking the <gui>ON/OFF</gui> switch on the right-hand side of the
-       window.</p></item>
+    <steps style="continues">
+      <item><p>Monet verkkotilit mahdollistavat valita käytettävät palvelut. Jos et halua käyttää yksittäistä palvelua, voit poistaa sen käytöstä ikkunan oikeassa laidassa olevaa <gui>Päällä/Pois</gui>-painiketta käyttäen.</p></item>
     </steps>
 
 </page>
