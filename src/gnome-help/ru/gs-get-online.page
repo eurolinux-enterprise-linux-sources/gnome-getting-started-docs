@@ -7,32 +7,37 @@
       <name>Якуб Штайнер (Jakub Steiner)</name>
     </credit>
     <credit type="author">
-      <name>Пётр Ковар (Petr Kovar)</name>
+      <name>Петр Ковар (Petr Kovar)</name>
     </credit>
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Выход в сеть</title>
+    <title role="trail" type="link">Подключение к сети</title>
     <link type="seealso" xref="net"/>
-    <title role="seealso" type="link">Руководство по выходу в сеть</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <title role="seealso" type="link">Руководство по подключению к сети</title>
+    <link type="next" xref="gs-browse-web"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Юлия Дронова</mal:name>
       <mal:email>juliette.tux@gmail.com</mal:email>
-      <mal:years>2014</mal:years>
+      <mal:years>2014.</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Юрий Мясоедов</mal:name>
       <mal:email>ymyasoedov@yandex.ru</mal:email>
-      <mal:years>2014</mal:years>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2015.</mal:years>
     </mal:credit>
   </info>
 
-  <title>Выход в сеть</title>
+  <title>Подключение к сети</title>
   
   <note style="important">
-      <p>You can see the status of your network connection on the right-hand
-       side of the top bar.</p>
+      <p>Состояние вашего сетевого соединения можно увидеть в верхней панели с правой стороны рядом с вашим именем.</p>
   </note>  
 
   <section id="going-online-wired">
@@ -42,8 +47,9 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>Значок сетевого подключения в верхней панели с правой стороны показывает, что вы находитесь не в сети.</p>
-      <p>The off-line status can be caused by a number of reasons: for
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are offline.</p>
+      <p>The offline status can be caused by a number of reasons: for
        example, a network cable has been unplugged, the computer has been set
        to run in <em>airplane mode</em>, or there are no available Wi-Fi
        networks in your area.</p>
@@ -56,31 +62,35 @@
 
   <section id="going-online-wifi">
 
-    <title>Connect to a Wi-Fi network</title>
+    <title>Подключение к сети Wi-Fi</title>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>To connect to a Wi-Fi (wireless) network, click the status menu at
-     the top right of the screen, and then click <gui>Select Network</gui>.</p>
-    </item>
+      <title>To connect to a Wi-Fi (wireless) network:</title>
+      <item>
+        <p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p>
+      </item>
+      <item>
+        <p>Select <gui>Wi-Fi Not Connected</gui>. The Wi-Fi section of the menu
+        will expand.</p>
+      </item>
+      <item>
+        <p>Click <gui>Select Network</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
-       <p>You can only connect to a Wi-Fi network if your computer hardware
-        supports it and you are in an area with Wi-Fi coverage.</p>
+       <p>Вы можете подключиться к сети Wi-Fi только в том случае, если ваше оборудование поддерживает Wi-Fi, и рядом с вами есть доступная сеть Wi-Fi.</p>
      </note>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
 
     <steps style="continues">
-    <item><p>From the list of available Wi-Fi networks, select the network you
-    want to connect to, and click <gui>Connect</gui> to confirm.</p>
-    <p>Depending on the network configuration, you may be prompted for network
-     credentials.</p></item>
+    <item><p>Выберите в списке сетей Wi-Fi ту сеть, к которой вы хотите подключиться, и затем нажмите кнопку <gui>Подключить</gui>.</p>
+    <p>В зависимости от конфигурации сети, возможно, понадобится ввести параметры доступа к сети.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

@@ -21,14 +21,14 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>Spiediet sistēmas izvēlni augšējās joslas labajā pusē.</p></item>
-      <item><p>Spiediet iestatījumu pogu izvēlnes apakšā.</p></item>
+      <item><p>Spiediet <gui xref="shell-introduction#yourname">sistēmas izvēlni</gui> augšējās joslas labajā pusē.</p></item>
+      <item><p>Spiediet iestatījumu pogu izvēlnes apakšā pa kreisi.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>No vienumu saraksta izvēlieties <gui>Tiešsaistes konti</gui>, tad spiediet pogu <gui>Pievienot tiešsaistes kontu</gui>.</p></item>
+      <item><p>Spiediet uz paneli <gui>Tiešsaistes konti</gui>, tad spiediet pogu <gui>Pievienot tiešsaistes kontu</gui>.</p></item>
     </steps>
     
     <note><p>Ja esat jau izveidojis tiešsaistes kontu, jūs varat pievienot vēl vienu, spiežot pogu <gui>+</gui> loga apakšējā kreisajā pusē.</p></note>

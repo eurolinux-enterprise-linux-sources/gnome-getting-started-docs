@@ -58,8 +58,10 @@
     <title>更換桌布</title>
     
     <steps>
-      <item><p>點按頂端列右側的系統選單，接著按下選單底部的設定按鈕。</p></item>
-      <item><p>從項目清單中，選取 <gui>背景</gui>。</p></item>
+      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+      on the right side of the top bar.</p></item>
+      <item><p>Click the settings button at the bottom left of the menu.</p></item>
+      <item><p>Click the <gui>Background</gui> panel.</p></item>
       <item><p>點按 <gui>背景</gui> 視窗中左側的目前背景影像。</p></item>
       <item><p>點按您想要使用的背景影像。</p></item>
       <item><p>點按 <gui>選取</gui> button.</p></item>

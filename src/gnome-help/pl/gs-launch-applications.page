@@ -10,24 +10,22 @@
       <name>Petr Kovar</name>
     </credit>
 
-<!--
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Launch applications</title>
+    <title role="trail" type="link">Uruchamianie programów</title>
     <link type="seealso" xref="shell-apps-open"/>
-    <title role="seealso" type="link">A tutorial on launching applications</title>
+    <title role="seealso" type="link">Samouczek uruchamiania programów</title>
     <link type="next" xref="gs-switch-tasks"/>
--->
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Piotr Drąg</mal:name>
       <mal:email>piotrdrag@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013-2016</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Aviary.pl</mal:name>
-      <mal:email>gnomepl@aviary.pl</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2013-2016</mal:years>
     </mal:credit>
   </info>
 
@@ -42,7 +40,7 @@
            <tt:p>Uruchamianie programów</tt:p>
          </tt:div>
          <tt:div begin="5s" end="7.5s">
-           <tt:p>Przesuń kursor myszy na <gui>Podgląd</gui> w lewym górnym rogu ekranu.</tt:p>
+           <tt:p>Przesuń kursor myszy na <gui>Podgląd</gui> w lewym górnym rogu ekranu.</tt:p>
            </tt:div>
          <tt:div begin="7.5s" end="9.5s">
            <tt:p>Kliknij ikonę <gui>Wyświetl programy</gui>.</tt:p>
@@ -68,7 +66,7 @@
     <title>Uruchamianie programów za pomocą myszy</title>
  
   <steps>
-    <item><p>Przesuń kursor myszy na <gui>Podgląd</gui> w lewym górnym rogu ekranu, aby wyświetlić <gui>ekran podglądu</gui>.</p></item>
+    <item><p>Przesuń kursor myszy na <gui>Podgląd</gui> w lewym górnym rogu ekranu, aby wyświetlić <gui>ekran podglądu</gui>.</p></item>
     <item><p>Kliknij ikonę <gui>Wyświetl programy</gui>, wyświetlaną na dole paska po lewej stronie ekranu.</p></item>
     <item><p>Wyświetlona zostanie lista programów. Kliknij program, który chcesz uruchomić, na przykład Pomoc.</p></item>
   </steps>
@@ -81,7 +79,7 @@
   <steps>
     <item><p>Otwórz <gui>ekran podglądu</gui> naciskając klawisz <key href="help:gnome-help/keyboard-key-super">Super</key>.</p></item>
     <item><p>Zacznij wpisywać nazwę programu, który chcesz uruchomić. Wyszukiwanie programu rozpocznie się natychmiast.</p></item>
-    <item><p>Po wyświetleniu i wybraniu ikony programu, naciśnij przycisk <key>Enter</key>, aby uruchomić program.</p></item>
+    <item><p>Po wyświetleniu i wybraniu ikony programu, naciśnij przycisk <key>Enter</key>, aby uruchomić program.</p></item>
   </steps>
 
   </section>

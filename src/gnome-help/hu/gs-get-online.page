@@ -13,12 +13,12 @@
     <title role="trail" type="link">Kapcsolódás a hálózatra</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">Útmutató az internetre kapcsolódáshoz</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Kelemen Gábor</mal:name>
       <mal:email>kelemeng at gnome dot hu</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:years>2013, 2015.</mal:years>
     </mal:credit>
   </info>
 
@@ -51,8 +51,16 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>Wi-Fi (vezeték nélküli) hálózathoz kapcsolódáshoz kattintson a képernyő jobb felső sarkában lévő állapotmenüre, majd a <gui>Válasszon hálózatot</gui> pontra.</p>
-    </item>
+      <title>Csatlakozás Wi-Fi (vezeték nélküli) hálózathoz</title>
+      <item>
+        <p>Kattintson a <gui xref="shell-introduction#yourname">rendszer menüre</gui> a felső sáv jobb oldalán.</p>
+      </item>
+      <item>
+        <p>Válasza a <gui>Wi-Fi nincs csatlakoztatva</gui> lehetőséget. Ekkor kinyílik a menü Wi-Fi szakasza.</p>
+      </item>
+      <item>
+        <p>Nyomja meg a <gui>Hálózat választása</gui> gombot.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -65,8 +73,6 @@
     <item><p>Az elérhető Wi-Fi hálózatok listájából válasszon egy hálózatot, majd kattintson a <gui>Kapcsolódás</gui> gombra a megerősítéshez.</p>
     <p>A hálózat beállításaitól függően szükség lehet hitelesítési adatok megadására.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

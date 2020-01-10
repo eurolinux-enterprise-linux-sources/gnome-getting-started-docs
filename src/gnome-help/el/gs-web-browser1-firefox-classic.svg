@@ -101,7 +101,7 @@
   <ns0:metadata id="metadata10080">
     <rdf:RDF>
       <ns6:Work rdf:about="">
-        <dc:format>εικόνα/svg+xml</dc:format>
+        <dc:format>image/svg+xml</dc:format>
         <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
         <dc:title/>
       </ns6:Work>

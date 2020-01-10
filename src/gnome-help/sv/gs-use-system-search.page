@@ -18,7 +18,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Sebastian Rasmussen</mal:name>
       <mal:email>sebras@gmail.com</mal:email>
-      <mal:years>2014&lt;</mal:years>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015</mal:years>
     </mal:credit>
   </info>
 
@@ -64,11 +70,12 @@
       <p>GNOME låter dig anpassa vad som du vill ska visas bland sökresultaten i <gui>Aktivitetsöversikt</gui>. Till exempel så kan du välja om du vill visa resultat för webbplatser, foto eller musik.</p>
       </note>
 
-      <p>För att anpassa vad som ska visas bland sökresultaten:</p>
 
       <steps>
-        <item><p>Klicka på systemmenyn på högersidan av systemraden och tryck på inställningsknappen i botten av menyn.</p></item>
-        <item><p>Välj <gui>Sök</gui> från listan av alternativ.</p></item>
+        <title>För att anpassa vad som ska visas bland sökresultaten:</title>
+        <item><p>Klicka på <gui xref="shell-introduction#yourname">systemmenyn</gui> på höger sida av systemraden.</p></item>
+        <item><p>Tryck på inställningsknappen längst ner till vänster i menyn.</p></item>
+        <item><p>Klicka på panelen <gui>Sök</gui>.</p></item>
         <item><p>I listan över sökplatser, klicka på <gui>AV/PÅ</gui>-brytaren intill sökplatsen som du vill slå av eller slå på.</p>
          </item>
       </steps>

@@ -10,13 +10,11 @@
       <name>Petr Kovář</name>
     </credit>
 
-<!--
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Launch applications</title>
+    <title role="trail" type="link">Spouštění aplikací</title>
     <link type="seealso" xref="shell-apps-open"/>
-    <title role="seealso" type="link">A tutorial on launching applications</title>
+    <title role="seealso" type="link">Vysvětlení, jak spouštět aplikace</title>
     <link type="next" xref="gs-switch-tasks"/>
--->
   </info>
 
   <title>Spouštění aplikací</title>
@@ -30,27 +28,22 @@
            <tt:p>Spouštění aplikací</tt:p>
          </tt:div>
          <tt:div begin="5s" end="7.5s">
-           <tt:p>Move your mouse pointer to the <gui>Activities</gui> corner at
-            the top left of the screen.</tt:p>
+           <tt:p>Přejeďte ukazatelem myši do rohu <gui>Činnosti</gui> v levém horním rohu obrazovky.</tt:p>
            </tt:div>
          <tt:div begin="7.5s" end="9.5s">
-           <tt:p>Click the <gui>Show Applications</gui> icon.</tt:p>
+           <tt:p>Klikněte na ikonu <gui>Zobrazit aplikace</gui>.</tt:p>
          </tt:div>
          <tt:div begin="9.5s" end="11s">
-           <tt:p>Click the application you want to run, for example,
-            Help.</tt:p>
+           <tt:p>Klikněte na aplikaci, kterou chcete spustit, například Nápověda.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="21s">
-           <tt:p>Alternatively, use the keyboard to open the <gui>Activities
-            Overview</gui> by pressing the
-            <key href="help:gnome-help/keyboard-key-super">Super</key> key.</tt:p>
+           <tt:p>Případně použijte klávesnici k otevření <gui>Přehledu činností</gui> zmáčknutím klávesy <key href="help:gnome-help/keyboard-key-super">Super</key>.</tt:p>
          </tt:div>
          <tt:div begin="22s" end="29s">
-           <tt:p>Start typing the name of the application you want to launch.
-           </tt:p>
+           <tt:p>Začněte psát název aplikace, kterou chcete spustit.</tt:p>
          </tt:div>
          <tt:div begin="30s" end="33s">
-           <tt:p>Press <key>Enter</key> to launch the application.</tt:p>
+           <tt:p>Zmáčknutím <key>Enter</key> aplikaci spustíte.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -58,29 +51,23 @@
   </ui:overlay>
 
   <section id="launch-apps-mouse">
-    <title>Launch applications with the mouse</title>
+    <title>Spouštění aplikací pomocí myši</title>
  
   <steps>
-    <item><p>Move your mouse pointer to the <gui>Activities</gui> corner at the
-     top left of the screen to show the <gui>Activities Overview</gui>.</p></item>
-    <item><p>Click the <gui>Show Applications</gui> icon that is shown at the
-     bottom of the bar on the left-hand side of the screen.</p></item>
-    <item><p>A list of applications is shown. Click the application you want to
-     run, for example, Help.</p></item>
+    <item><p>Přejeďte ukazatelem myši do rohu <gui>Činnosti</gui> v levém horním rohu obrazovky a zobrazí se vám <gui>Přehled činností</gui>.</p></item>
+    <item><p>Klikněte na ikonu <gui>Zobrazit aplikace</gui>, kterou najdete v dolní části lišty na levé straně obrazovky.</p></item>
+    <item><p>Zobrazí se seznam aplikací. Klikněte na aplikaci, kterou chcete spustit, například Nápověda.</p></item>
   </steps>
 
   </section>
 
   <section id="launch-app-keyboard">
-    <title>Launch applications with the keyboard</title>
+    <title>Spouštění aplikací pomocí klávesnice</title>
 
   <steps>
-    <item><p>Open the <gui>Activities Overview</gui> by pressing the
-    <key href="help:gnome-help/keyboard-key-super">Super</key> key.</p></item>
-    <item><p>Start typing the name of the application you want to launch.
-     Searching for the application begins instantly.</p></item>
-    <item><p>Once the icon of the application is shown and selected, press <key>
-    Enter</key> to launch the application.</p></item>
+    <item><p>Otevřete <gui>Přehled činností</gui> zmáčknutím klávesy <key href="help:gnome-help/keyboard-key-super">Super</key>.</p></item>
+    <item><p>Začněte psát název aplikace, kterou chcete spustit. Aplikace se ihned začne vyhledávat.</p></item>
+    <item><p>Až se vám zobrazí ikona požadované aplikace, vyberte ji a zmáčknutím <key>Enter</key> aplikaci spusťte.</p></item>
   </steps>
 
   </section>

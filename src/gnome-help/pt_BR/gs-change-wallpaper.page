@@ -17,13 +17,19 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Enrico Nicoletto</mal:name>
       <mal:email>liverig@gmail.com</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:years>2013</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Rafael Ferreira</mal:name>
-      <mal:email>rafael.f.f1@gmail.com</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -64,8 +70,9 @@
     <title>Alterando o papel de parede</title>
     
     <steps>
-      <item><p>Clique no menu de sistema ao lado direito da barra superior e pressione o botão de configurações no canto inferior do menu.</p></item>
-      <item><p>Da lista de itens, selecione <gui>Plano de fundo</gui>.</p></item>
+      <item><p>Clique no <gui xref="shell-introduction#yourname">menu do sistema</gui> no lado direito da barra superior.</p></item>
+      <item><p>Clique no botão de configurações no canto inferior esquerdo do menu.</p></item>
+      <item><p>Clique no painel <gui>Plano de fundo</gui>.</p></item>
       <item><p>Clique na imagem do seu papel de parede atual ao lado esquerdo da janela do <gui>Plano de fundo</gui>.</p></item>
       <item><p>Clique na imagem de plano de fundo que você deseja usar.</p></item>
       <item><p>Clique no botão <gui>Selecionar</gui>.</p></item>

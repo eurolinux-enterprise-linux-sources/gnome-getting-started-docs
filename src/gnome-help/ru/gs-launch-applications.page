@@ -7,27 +7,31 @@
       <name>Якуб Штайнер (Jakub Steiner)</name>
     </credit>
     <credit type="author">
-      <name>Пётр Ковар (Petr Kovar)</name>
+      <name>Петр Ковар (Petr Kovar)</name>
     </credit>
 
-<!--
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Launch applications</title>
+    <title role="trail" type="link">Запуск приложений</title>
     <link type="seealso" xref="shell-apps-open"/>
-    <title role="seealso" type="link">A tutorial on launching applications</title>
+    <title role="seealso" type="link">Руководство по запуску приложений</title>
     <link type="next" xref="gs-switch-tasks"/>
--->
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Юлия Дронова</mal:name>
       <mal:email>juliette.tux@gmail.com</mal:email>
-      <mal:years>2014</mal:years>
+      <mal:years>2014.</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Юрий Мясоедов</mal:name>
       <mal:email>ymyasoedov@yandex.ru</mal:email>
-      <mal:years>2014</mal:years>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2015.</mal:years>
     </mal:credit>
   </info>
 
@@ -42,17 +46,16 @@
            <tt:p>Запуск приложений</tt:p>
          </tt:div>
          <tt:div begin="5s" end="7.5s">
-           <tt:p>Переместите курсор мыши на <gui>Обзор</gui> в левом верхнем углу экрана.</tt:p>
+           <tt:p>Переместите курсор мыши на <gui>Обзор</gui>, в левый верхний угол экрана.</tt:p>
            </tt:div>
          <tt:div begin="7.5s" end="9.5s">
            <tt:p>Нажмите значок <gui>Показать приложения</gui>.</tt:p>
          </tt:div>
          <tt:div begin="9.5s" end="11s">
-           <tt:p>Click the application you want to run, for example,
-            Help.</tt:p>
+           <tt:p>Нажмите на приложение для его запуска, например «Справка».</tt:p>
          </tt:div>
          <tt:div begin="12s" end="21s">
-           <tt:p>Также, <gui>Режим обзора</gui> можно запустить, нажав на левую клавишу <key href="help:gnome-help/keyboard-key-super">Win</key>.</tt:p>
+           <tt:p>Также можно открыть <gui>Обзор</gui> нажав клавишу <key href="help:gnome-help/keyboard-key-super">Super</key>.</tt:p>
          </tt:div>
          <tt:div begin="22s" end="29s">
            <tt:p>Начните вводить название приложения, которое вы хотите запустить.</tt:p>
@@ -69,9 +72,9 @@
     <title>Запуск приложений с помощью мыши</title>
  
   <steps>
-    <item><p>Чтобы включить <gui>Режим обзора</gui> переместите курсор мыши в левый верхний угол, где находится надпись <gui>Обзор</gui>.</p></item>
+    <item><p>Откройте <gui>Обзор</gui>, переместив указатель мыши в левый верхний угол, где находится надпись <gui>Обзор</gui>.</p></item>
     <item><p>Нажмите значок <gui>Показать приложения</gui>, расположенный в нижней панели с левой стороны экрана.</p></item>
-    <item><p>Откроектся список приложений. Нажмите на приложение, которое вы хотите запустить, например, «Справка».</p></item>
+    <item><p>Откроется список приложений. Нажмите на приложение, которое вы хотите запустить, например, «Справка».</p></item>
   </steps>
 
   </section>
@@ -80,9 +83,8 @@
     <title>Запуск приложений с помощью клавиатуры</title>
 
   <steps>
-    <item><p>Откройте <gui>режим обзора</gui>, нажав левую клавишу <key href="help:gnome-help/keyboard-key-super">Win</key>.</p></item>
-    <item><p>Start typing the name of the application you want to launch.
-     Searching for the application begins instantly.</p></item>
+    <item><p>Откройте <gui>Обзор</gui>, нажав клавишу <key href="help:gnome-help/keyboard-key-super">Super</key>.</p></item>
+    <item><p>Начните вводить название приложения, которое хотите запустить. Поиск начнётся сразу же по мере ввода названия.</p></item>
     <item><p>Как только появится значок этого приложения, нажмите клавишу <key> Enter</key>, чтобы запустить приложение.</p></item>
   </steps>
 

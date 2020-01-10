@@ -42,7 +42,7 @@
            <tt:p>Pôvodnú veľkosť okna obnovíme tak, že chytíme titulok okna a presunieme ho niekam preč od okraja obrazovky.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
-           <tt:p>Tiež môžeme kliknutím na hornú lištu okno potiahnuť preč a obnoviť tak jeho veľkosť.</tt:p>
+           <tt:p>Tiež môžeme kliknutím na horný panel okno potiahnuť preč a obnoviť tak jeho veľkosť.</tt:p>
          </tt:div>
          <tt:div begin="34s" end="38s">
            <tt:p>Keď chceme okno maximalizovať pozdĺž ľavej strany obrazovky, chytíme okno za titulok a presunieme ho vľavo.</tt:p>
@@ -92,7 +92,7 @@
   </section>
 
   <section id="use-workspaces-and-windows-tile">
-    <title>Tile windows</title>
+    <title>Usporiadanie okien do dlaždíc</title>
     <p/>
     
     <steps>
@@ -115,7 +115,7 @@
   </section>
   
   <section id="use-workspaces-and-windows-tile-keyboard">
-    <title>Tile windows using the keyboard</title>
+    <title>Usporiadanie okine do dlaždíc použitím klávesnice</title>
     
     <steps>
       <item><p>Keď chceme okno maximalizovať pozdĺž pravej strany obrazovky, podržíme stlačený kláves <key href="help:gnome-help/keyboard-key-super">Super</key> a zároveň stlačíme <key>→</key>.</p></item>

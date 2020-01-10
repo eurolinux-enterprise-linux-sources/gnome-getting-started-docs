@@ -24,7 +24,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013, 2014</mal:years>
+      <mal:years>2013, 2014, 2015, 2016</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -40,8 +40,8 @@
     
     <steps>
     <item><p>Öffnen Sie die <gui>Aktivitäten-Übersicht</gui> durch Drücken der <key href="help:gnome-help/keyboard-key-super">Super</key>-Taste. Tippen Sie, um mit der Suche zu beginnen.</p>
-    <p>Ergebnisse passend zu Ihrer Eingabe erscheinen während Sie tippen. Das erste Ergebnis wird immer hervorgehoben und ganz oben angezeigt.</p>
-    <p>Drücken Sie <key>Eingabe</key>, um zum ersten hervorgehobenen Ergebnis zu wechseln.</p></item>
+    <p>Während Sie tippen, erscheinen zu Ihrer Eingabe passende Ergebnisse. Das erste Ergebnis wird immer hervorgehoben und ganz oben angezeigt.</p>
+    <p>Drücken Sie die <key>Eingabetaste</key>, um zum ersten hervorgehobenen Ergebnis zu wechseln.</p></item>
     </steps>
     
     <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
@@ -54,15 +54,15 @@
         <item><p>passende Dokumente.</p></item>
       </list>
       </item>
-      <item><p>In den Suchergebnissen, klicken Sie auf das Symbol, um zu wechseln.</p>
-      <p>Alternativ markieren Sie einen Eintrag mit den Pfeiltasten und drücken Sie die <key>Eingabetaste</key>. </p></item>
+      <item><p>Klicken Sie auf das Symbol in den Suchergebnissen, um es zu öffnen.</p>
+      <p>Markieren Sie alternativ einen Eintrag mit den Pfeiltasten und drücken Sie die <key>Eingabetaste</key>.</p></item>
     </steps>
 
     <section id="use-search-inside-applications">
     
       <title>In Anwendungen suchen</title>
       
-      <p>Sie Systemsuche sammelt Ergebnisse von verschiedenen Anwendungen. Auf der linken Seite der Suchergebnisse ist das Symbol der Anwendung abgebildet, die das Suchergebnis liefert. Klicken Sie auf ein Symbol, um die Suche innerhalb der jeweiligen Anwendung neu zu starten. Weil nur die besten Treffer in der <gui>Aktivitäten-Übersicht</gui> dargestellt werden kann eine Suche innerhalb der Anwendung bessere Ergebnisse liefern.</p>
+      <p>Die Systemsuche sammelt Ergebnisse von verschiedenen Anwendungen. Auf der linken Seite der Suchergebnisse ist das Symbol der Anwendung abgebildet, die das Suchergebnis liefert. Klicken Sie auf ein Symbol, um die Suche innerhalb der jeweiligen Anwendung neu zu starten. Weil nur die besten Treffer in der <gui>Aktivitäten-Übersicht</gui> dargestellt werden, kann eine Suche innerhalb der Anwendung bessere Ergebnisse liefern.</p>
 
     </section>
 
@@ -73,14 +73,15 @@
       <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
-      <p>GNOME lässt Sie Ihre angezeigten Suchergebnisse in der <gui>Aktivitäten-Übersicht</gui> anpassen. Zum Beispiel können Sie wählen, ob Sie Suchergebnisse für Webseiten, Fotos oder Musik anzeigen lassen.</p>
+      <p>GNOME lässt Sie Ihre angezeigten Suchergebnisse in der <gui>Aktivitäten-Übersicht</gui> anpassen. Zum Beispiel können Sie wählen, ob Sie Suchergebnisse für Internetseiten, Fotos oder Musik anzeigen lassen.</p>
       </note>
 
-      <p>Zum Anpassen der Suchergebnisse:</p>
 
       <steps>
-        <item><p>Klicken Sie auf das Systemmenü auf der rechten Seite der oberen Leiste und dann auf den Knopf für Einstellungen im unteren Bereich des Menüs.</p></item>
-        <item><p>Wählen Sie <gui>Suchen</gui> aus der Liste aus.</p></item>
+        <title>So passen Sie die Suchergebnisse an:</title>
+        <item><p>Klicken Sie auf das <gui xref="shell-introduction#yourname">Systemmenü</gui> auf der rechten Seite der oberen Leiste.</p></item>
+        <item><p>Klicken Sie auf den Einstellungen-Knopf im linken unteren Bereich des Menüs.</p></item>
+        <item><p>Klicken Sie auf die <gui>Suchen</gui>-Leiste.</p></item>
         <item><p>Klicken Sie in der Liste der Suchpfade die <gui>AN/AUS</gui>-Schalter neben dem Suchpfad zum Aktivieren oder Deaktivieren.</p>
          </item>
       </steps>

@@ -53,9 +53,10 @@
     <title>વોલપેપરને બદલો</title>
     
     <steps>
-      <item><p>Click the system menu on the right side of the top bar and press
-      the settings button at the bottom of the menu.</p></item>
-      <item><p>વસ્તુઓની યાદીમાંથી, <gui>પાશ્ર્વભાગ</gui> ને પસંદ કરો.</p></item>
+      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+      on the right side of the top bar.</p></item>
+      <item><p>Click the settings button at the bottom left of the menu.</p></item>
+      <item><p>Click the <gui>Background</gui> panel.</p></item>
       <item><p><gui>પાશ્ર્વભાગ</gui> વિન્ડોની ડાબી બાજુ પર હાલની પાશ્ર્વભાગ ઇમેજ પર ક્લિક કરો.</p></item>
       <item><p>પાશ્ર્વભાગ ઇમેજ પર ક્લિક કરો કે જે તમે વાપરવા માંગો છો.</p></item>
       <item><p><gui>પસંદ કરો</gui> બટન પર ક્લિક કરો.</p></item>

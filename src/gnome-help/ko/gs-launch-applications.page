@@ -10,18 +10,16 @@
       <name>Petr Kovar</name>
     </credit>
 
-<!--
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Launch applications</title>
+    <title role="trail" type="link">프로그램 실행</title>
     <link type="seealso" xref="shell-apps-open"/>
-    <title role="seealso" type="link">A tutorial on launching applications</title>
+    <title role="seealso" type="link">프로그램 실행 따라하기</title>
     <link type="next" xref="gs-switch-tasks"/>
--->
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Seong-ho Cho</mal:name>
+      <mal:name>조성호</mal:name>
       <mal:email>shcho@gnome.org</mal:email>
-      <mal:years>2014</mal:years>
+      <mal:years>2014, 2016</mal:years>
     </mal:credit>
   </info>
 

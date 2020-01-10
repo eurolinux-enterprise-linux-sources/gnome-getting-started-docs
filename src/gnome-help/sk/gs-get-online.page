@@ -13,7 +13,7 @@
     <title role="trail" type="link">Pripojenie k internetu</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">Návod ako sa pripojiť k internetu</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Richard Stanislavský</mal:name>
@@ -25,8 +25,7 @@
   <title>Pripojenie k internetu</title>
   
   <note style="important">
-      <p>You can see the status of your network connection on the right-hand
-       side of the top bar.</p>
+      <p>Na pravej strane horného panelu môžeme vidieť stav nášho pripojenia k sieti.</p>
   </note>  
 
   <section id="going-online-wired">
@@ -37,10 +36,7 @@
 
     <steps>
       <item><p>Ikona sieťového pripojenia na pravej strane horného panelu ukazuje, že nie sme pripojení.</p>
-      <p>The off-line status can be caused by a number of reasons: for
-       example, a network cable has been unplugged, the computer has been set
-       to run in <em>airplane mode</em>, or there are no available Wi-Fi
-       networks in your area.</p>
+      <p>Odpojený stav môže mať niekoľko príčin: napríklad bol odpojený sieťový kábel, na počítači bol spustený <em>Režim v lietadle</em> alebo sa v dosahu nenachádza žiadna dostupná bezdrôtová sieť.</p>
       <p>Ak chceme použiť drôtové pripojenie, jednoducho pripojíme kábel počítačovej siete. Počítač sa automatický pokúsi nastaviť sieťové pripojenie.</p>
       <p>Pokiaľ počítač nastavuje sieťové pripojenie, ikona sieťového pripojenia bude zobrazovať tri bodky.</p></item>
       <item><p>Keď bude sieťové pripojenie nastavené, ikona sieťového pripojenia sa zmení na symbol zosieťovaného počítača.</p></item>
@@ -50,31 +46,33 @@
 
   <section id="going-online-wifi">
 
-    <title>Connect to a Wi-Fi network</title>
+    <title>Pripojenie k Wi-Fi sieti</title>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>To connect to a Wi-Fi (wireless) network, click the status menu at
-     the top right of the screen, and then click <gui>Select Network</gui>.</p>
-    </item>
+      <title>Pripojenie k Wi-Fi (bezdrôtovej) sieti</title>
+      <item>
+        <p>Klikneme na ponuku <gui xref="shell-introduction#yourname">Systém </gui> v pravej časti horného panelu.</p>
+      </item>
+      <item>
+        <p>Vyberieme <gui>Wi-Fi nepripojené</gui>. Otvorí sa oblasť ponuky pre Wi-Fi.</p>
+      </item>
+      <item>
+        <p>Klikneme na <gui>Vybrať sieť</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
-       <p>You can only connect to a Wi-Fi network if your computer hardware
-        supports it and you are in an area with Wi-Fi coverage.</p>
+       <p>K Wi-Fi sieti sa dá pripojiť iba ak má na to náš počítač potrebné hardvérové vybavenie a nachádzame sa v oblasti s Wi-Fi pokrytím.</p>
      </note>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
 
     <steps style="continues">
-    <item><p>From the list of available Wi-Fi networks, select the network you
-    want to connect to, and click <gui>Connect</gui> to confirm.</p>
-    <p>Depending on the network configuration, you may be prompted for network
-     credentials.</p></item>
+    <item><p>Zo zoznamu dostupných sietí Wi-Fi vyberieme sieť, ku ktorej sa chceme pripojiť, a potvrdíme kliknutím na <gui>Pripojiť</gui>.</p>
+    <p>V závislosti od nastavení siete, môžeme byť vyzvaní na zadanie sieťových poverení. </p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

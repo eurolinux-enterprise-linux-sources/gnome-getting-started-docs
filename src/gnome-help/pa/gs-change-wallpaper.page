@@ -52,8 +52,10 @@
     <title>ਵਾਲਪਪੇਰ ਬਦਲਣਾ</title>
     
     <steps>
-      <item><p>ਪੱਟੀ ਦੇ ਸੱਜੇ ਪਾਸੇ ਉੱਤੇ ਸਿਸਟਮ ਮੇਨੂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇਮੇਨੂ ਦੇ ਹੇਠਾਂ ਤੋਂ ਸੈਟਿੰਗ ਬਟਨ ਨੂੰ ਦੱਬੋ।</p></item>
-      <item><p>ਆਈਟਮਾਂ ਦੀ ਸੂਚੀ ਵਿੱਚੋਂ <gui>ਬੈਕਗਰਾਊਂਡ</gui> ਚੁਣੋ।</p></item>
+      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+      on the right side of the top bar.</p></item>
+      <item><p>Click the settings button at the bottom left of the menu.</p></item>
+      <item><p>Click the <gui>Background</gui> panel.</p></item>
       <item><p><gui>ਬੈਕਗਰਾਊਂਡ</gui> ਵਿੰਡੋ ਸੱਜੇ ਪਾਸੇ ਆਪਣੇ ਮੌਜੂਦਾ ਵਾਲਪੇਪਰ ਦੇ ਚਿੱਤਰ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p></item>
       <item><p>ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ।</p></item>
       <item><p><gui>ਚੁਣੋ</gui> ਬਟਨ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p></item>

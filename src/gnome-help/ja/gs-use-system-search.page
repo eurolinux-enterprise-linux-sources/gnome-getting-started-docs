@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>松澤 二郎</mal:name>
       <mal:email>jmatsuzawa@gnome.org</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2015, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -27,12 +27,9 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Open the <gui>Activities Overview</gui> by pressing the
-    <key href="help:gnome-help/keyboard-key-super">Super</key> key. Start typing
-    to search.</p>
-    <p>Results matching what you have typed will appear as you type. The first
-    result is always highlighted and shown at the top.</p>
-    <p>Press <key>Enter</key> to switch to the first highlighted result.</p></item>
+    <item><p><key href="help:gnome-help/keyboard-key-super">Super</key> キーを押して<gui>アクティビティ画面</gui>を開き、検索キーワードを入力します。</p>
+    <p>キーワードを入力するとヒットした検索結果が即座に表示されます。検索結果の先頭がハイライトされ、トップに表示されます。</p>
+    <p><key>Enter</key> を押すと、ハイライトされた先頭の項目を開きます。</p></item>
     </steps>
     
     <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
@@ -67,12 +64,12 @@
       <p><gui>アクティビティ画面</gui>に表示する検索結果をカスタマイズすることができます。例えば、検索結果として、Web サイト、写真、ミュージックを表示するかどうかを選択できます。</p>
       </note>
 
-      <p>検索結果に表示するものをカスタマイズする方法は次のとおりです。</p>
 
       <steps>
-        <item><p>Click the system menu on the right side of the top bar and press
-         the settings button at the bottom of the menu.</p></item>
-        <item><p>各種設定項目の中から、<gui>検索</gui>を選択します。</p></item>
+        <title>検索結果に表示するものをカスタマイズする方法は次のとおりです。</title>
+        <item><p>トップバー右側の<gui xref="shell-introduction#yourname">システムメニュー</gui>を開きます。</p></item>
+        <item><p>メニュー左下の設定ボタンを押します。</p></item>
+        <item><p><gui>検索</gui>パネルを選択します。</p></item>
         <item><p>検索対象の一覧から、<gui>ON/OFF</gui> スイッチを切り替えて、各検索対象の有効/無効を設定します。</p>
          </item>
       </steps>

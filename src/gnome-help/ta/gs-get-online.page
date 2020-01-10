@@ -13,7 +13,7 @@
     <title role="trail" type="link">ஆன்லைனில் பெறுக</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">இணைய இணைப்புகுக்குச் செல்வது பற்றிய பயிற்சி</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Dr. T. Vasudevan</mal:name>
@@ -35,8 +35,12 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>மேல் பட்டியின் வலப்புறம் உள்ள பிணைய இணைப்பு சின்னம் நீங்கள் இணைப்பின்றி இருப்பதைக் காண்பிக்கிறது.</p>
-      <p>இணைப்பில்லா நிலைக்கு பல காரணங்கள் இருக்கலாம்: எடுத்துக்காட்டாக, பிணைய கேபிள் அகற்றப்பட்டிருக்கலாம், கணினி <em>விமானப் பயன்முறையில்</em> இயங்கும்படி அமைக்கப்பட்டிருக்கலாம் அல்லது உங்கள் இடத்தில் Wi-Fi பிணையம் கிடைக்காதிருக்கலாம்.</p>
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are offline.</p>
+      <p>The offline status can be caused by a number of reasons: for
+       example, a network cable has been unplugged, the computer has been set
+       to run in <em>airplane mode</em>, or there are no available Wi-Fi
+       networks in your area.</p>
       <p>நீங்கள் வயர்டு இணைப்பைப் பயன்படுத்த விரும்பினால், ஆன்லைன் செல்ல ஒரு பிணைய கேபிளை இணைத்தால் போதும். உங்களுக்காக கணினியே பிணைய இணைப்பை தானாக அமைக்க முயற்சிக்கும்.</p>
       <p>கணினி உங்களுக்காக ஒரு பிணையை இணைப்பை அமைக்கும் போது, பிணைய இணைப்பு சின்னத்தில் மூன்று புள்ளிகள் காண்பிக்கப்படும்.</p></item>
       <item><p>பிணைய இணைப்பு வெற்றிகரமாக அமைக்கப்பட்டதும், பிணைய இணைப்பு சின்னமானது பிணையமுள்ள கணினி சின்னமாக மாறும்.</p></item>
@@ -51,8 +55,18 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>ஒரு Wi-Fi (வயர்லெஸ்) பிணையத்துடன் இணைக்க, திரையின் மேல் வலது பக்கம் உள்ள நிலை மெனுவை சொடுக்கி <gui>பிணையத்தைத் தேர்ந்தெடு</gui> என்பதைச் சொடுக்கவும்.</p>
-    </item>
+      <title>To connect to a Wi-Fi (wireless) network:</title>
+      <item>
+        <p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p>
+      </item>
+      <item>
+        <p>Select <gui>Wi-Fi Not Connected</gui>. The Wi-Fi section of the menu
+        will expand.</p>
+      </item>
+      <item>
+        <p>Click <gui>Select Network</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -65,8 +79,6 @@
     <item><p>கிடைக்கும் Wi-Fi பிணையங்களின் பட்டியலில் இருந்து, நீங்கள் இணைக்க விரும்பும் பிணையத்தைத் தேர்ந்தெடுத்து, அதை உறுதிப்படுத்த <gui>இணை</gui> என்பதை சொடுக்கவும்.</p>
     <p>பிணைய அமைவாக்கத்தைப் பொறுத்து, உங்களிடம் பிணைய சான்றளிப்புகள் கேட்கப்படலாம்.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

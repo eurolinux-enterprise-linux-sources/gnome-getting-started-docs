@@ -17,7 +17,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Andika Triwidada</mal:name>
       <mal:email>andika@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -58,8 +58,9 @@
     <title>Ubah gambar latar</title>
     
     <steps>
-      <item><p>Klik menu sistem pada sisi kanan bilah puncak dan tekan tombol pengaturan pada bagian dasar menu.</p></item>
-      <item><p>Dari daftar butir, pilih <gui>Latar Belakang</gui>.</p></item>
+      <item><p>Klik <gui xref="shell-introduction#yourname">menu sistem</gui> pada sisi kanan bilah puncak.</p></item>
+      <item><p>Tekan tombol pengaturan di kiri dasar menu.</p></item>
+      <item><p>Klik panel <gui>Latar Belakang</gui>.</p></item>
       <item><p>Klik gambar dari gambar latar kini di sisi kiri jendela <gui>Latar Belakang</gui>.</p></item>
       <item><p>Klik gambar latar yang ingin Anda pakai.</p></item>
       <item><p>Klik tombol <gui>Pilih</gui>.</p></item>

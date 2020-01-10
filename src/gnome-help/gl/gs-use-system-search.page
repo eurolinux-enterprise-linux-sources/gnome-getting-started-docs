@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Fran Diéguez</mal:name>
       <mal:email>frandieguez@gnome.org</mal:email>
-      <mal:years>2013-2014.</mal:years>
+      <mal:years>2013-2016.</mal:years>
     </mal:credit>
   </info>
 
@@ -64,11 +64,12 @@
       <p>GNOME permítelle personalizar o que quere mostrar nos resultados das buscas na <gui>Vista xeral de actividades</gui>. Por exemplo pode escoller se quere mostrar os resultados dos sitios web, fotos ou música.</p>
       </note>
 
-      <p>Para personalizar como se mostran os resultados da busca:</p>
 
       <steps>
-        <item><p>Prema o menú do sistema na parte dereita da barra superior e prema o botón de preferencias na parte inferior do menú.</p></item>
-        <item><p>Desde a lista de elementos, seleccione <gui>Busca</gui>.</p></item>
+        <title>Para personalizar como se mostran os resultados da busca:</title>
+        <item><p>Prema o <gui xref="shell-introduction#yourname">menú do sistema</gui> na parte dereita da barra superior.</p></item>
+        <item><p>Prema o botón de preferencias na parte inferior esquerda do menú.</p></item>
+        <item><p>Prema no panel <gui>Buscar</gui>.</p></item>
         <item><p>Na lista de localizacións de busca, prema o interruptor de <gui>acendido/apagado</gui> ao carón da localización de busca para activala ou desactivala.</p>
          </item>
       </steps>

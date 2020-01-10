@@ -58,11 +58,13 @@
       <p>ਗਨੋਮ ਤੁਹਾਨੂੰ <gui>ਸਰਗਰਮੀ ਝਲਕ</gui> ਵਿੱਚ ਖੋਜ ਨਤੀਜਿਆਂ ਨੂੰ ਵੇਖਾਉਣ ਲਈ ਆਪਣੀ ਪਸੰਦ ਮੁਤਾਬਕ ਬਦਲਣ ਲਈ ਸਹਾਇਕ ਹੈ। ਉਦਾਹਰਨ ਲਈ, ਤੁਸੀਂ ਚੋਣ ਕਰ ਸਕਦੇ ਹੋ ਕਿ ਵੈੱਬਸਾਈਟ, ਫੋਟੋ ਜਾਂ ਸੰਗੀਤ ਨਤੀਜੇ ਵੇਖਾਏ ਜਾਣ ਕਿ ਨਾ।</p>
       </note>
 
-      <p>ਖੋਜ ਨਤੀਜਿਆਂ ਵਿੱਚ ਕੀ ਵੇਖਾਇਆ ਜਾਵੇ ਦੀ ਚੋਣ ਕਰਨ ਲਈ:</p>
 
       <steps>
-        <item><p>ਪੱਟੀ ਦੇ ਸੱਜੇ ਪਾਸੇ ਉੱਤੇ ਸਿਸਟਮ ਮੇਨੂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇਮੇਨੂ ਦੇ ਹੇਠਾਂ ਤੋਂ ਸੈਟਿੰਗ ਬਟਨ ਨੂੰ ਦੱਬੋ।</p></item>
-        <item><p>ਆਈਟਮਾਂ ਦੀ ਸੂਚੀ ਤੋਂ, <gui>ਖੋਜ</gui> ਚੁਣੋ।</p></item>
+        <title>ਖੋਜ ਨਤੀਜਿਆਂ ਵਿੱਚ ਕੀ ਵੇਖਾਇਆ ਜਾਵੇ ਦੀ ਚੋਣ ਕਰਨ ਲਈ:</title>
+        <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p></item>
+        <item><p>Click the settings button at the bottom left of the menu.</p></item>
+        <item><p>Click the <gui>Search</gui> panel.</p></item>
         <item><p>ਖੋਜ ਟਿਕਾਣਿਆਂ ਦੀ ਸੂਚੀ ਵਿੱਚ, ਉਹਨਾਂ ਖੋਜ ਟਿਕਾਣਿਆਂ ਜਿੰਨ੍ਹਾਂ ਲਈ ਤੁਸੀਂ ਖੋਜ ਚਾਲੂ ਜਾਂ ਬੰਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਦੇ ਅੱਗੇ ਦਿੱਤੀ <gui>ਚਾਲੂ/ਬੰਦ</gui> ਸਵਿੱਚ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p>
          </item>
       </steps>

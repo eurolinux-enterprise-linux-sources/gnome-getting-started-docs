@@ -27,14 +27,16 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>மேல் பட்டியின் வலப்புறம் உள்ள கணினி மெனுவைச் சொடுக்கவும்.</p></item>
-      <item><p>மெனுவின் அடிப்பகுதியில் உள்ள அமைவுகள் பொத்தானை அழுத்தவும்.</p></item>
+      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+      on the right side of the top bar.</p></item>
+      <item><p>Click the settings button at the bottom left of the menu.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>உருப்படிகளின் பட்டியலிருந்து <gui>ஆன்லைன் கணக்குகள்</gui> என்பதைத் தேர்ந்தெடுத்து, <gui>ஒரு ஆன்லைன் கணக்கைச் சேர்</gui> என்பதைச் சொடுக்கவும்.</p></item>
+      <item><p>Click the <gui>Online Accounts</gui> panel, then
+      click the <gui>Add an online account</gui> button.</p></item>
     </steps>
     
     <note><p>முன்பே நீங்கள் ஒரு ஆன்லைன் கணக்கை அமைத்திருந்தால், நீங்கள் சாளரத்தின் அடி இடப்புற மூலையில் உள்ள <gui>+</gui> பொத்தானைச் சொடுக்குவதன் மூலம் மற்றுமொரு ஆன்லைன் கணக்கைச் சேர்க்கலாம்.</p></note>

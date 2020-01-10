@@ -58,11 +58,12 @@
       <p>GNOME jums ļauj pielāgot, kādus rezultātus attēlot <gui>Aktivitāšu pārskatā</gui>. Piemēram, jūs varat norādīt, vai vēlaties redzēt tīmekļa vietu, fotogrāfiju vai mūzikas meklēšanas rezultātus.</p>
       </note>
 
-      <p>Pielāgot, kas tiks attēlots meklēšanas rezultātos:</p>
 
       <steps>
-        <item><p>Spiediet uz sistēmas izvēlnes augšējās joslas labajā pusē un spiediet iestatījumu pogu izvēlnes apakšā.</p></item>
-        <item><p>No vienumu saraksta izvēlieties <gui>Meklēt</gui>.</p></item>
+        <title>Pielāgot, kas tiks attēlots meklēšanas rezultātos:</title>
+        <item><p>Spiediet <gui xref="shell-introduction#yourname">sistēmas izvēlni</gui> augšējās joslas labajā pusē.</p></item>
+        <item><p>Spiediet iestatījumu pogu izvēlnes apakšā pa kreisi.</p></item>
+        <item><p>Spiediet paneli <gui>Meklēšana</gui>.</p></item>
         <item><p>Meklēšanas vietu sarakstā, spiediet uz slēdža, kas ir pie meklēšanas vietas, kuru vēlaties aktivēt vai deaktivēt.</p>
          </item>
       </steps>

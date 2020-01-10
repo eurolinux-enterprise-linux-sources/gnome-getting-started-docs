@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Daniel Mustieles</mal:name>
       <mal:email>daniel.mustieles@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013 - 2016</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -76,11 +76,12 @@
       <p>GNOME le permite personalizar lo que quiere mostrar en los resultados de búsqueda en la <gui>Vista de actividades</gui>. Por ejemplo, puede decidir si quiere mostrar los resultados para los sitios web, fotografías o música.</p>
       </note>
 
-      <p>Para personalizar lo que aparece en los resultados de búsqueda:</p>
 
       <steps>
-        <item><p>Pulse en el menú del sistema en la parte derecha de la barra superior y pulse el botón de configuración en la parte inferior del menú.</p></item>
-        <item><p>De la lista de elementos, seleccione <gui>Buscar</gui>.</p></item>
+        <title>Para personalizar lo que aparece en los resultados de búsqueda:</title>
+        <item><p>Pulse en el <gui xref="shell-introduction#yourname">menú del sistema</gui> en la parte derecha de la barra superior.</p></item>
+        <item><p>Pulse el botón de configuración en la parte inferior izquierda del menú.</p></item>
+        <item><p>Pulse el panel <gui>Buscar</gui>.</p></item>
         <item><p>En la lista de direcciones de búsqueda, pulse el interruptor de <gui>ENCENDIDO/APAGADO</gui> que está al lado de la dirección de búsqueda que quiera activar o desactivar.</p>
          </item>
       </steps>

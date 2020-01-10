@@ -12,18 +12,24 @@
     <link type="guide" xref="getting-started" group="tasks"/>
     <title role="trail" type="link">Αλλαγή ταπετσαρίας</title>
     <link type="seealso" xref="look-background"/>
-    <title role="seealso" type="link">Ένα μάθημα στην αλλαγή ταπετσαρίας</title>
+    <title role="seealso" type="link">Ένα μάθημα για την αλλαγή της ταπετσαρίας</title>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name> Δημήτρης Σπίγγος</mal:name>
-      <mal:email>dmtrs32@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2012-2015</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
       <mal:email>tomtryf@gmail.com</mal:email>
-      <mal:years>2012</mal:years>
+      <mal:years>2012, 2015</mal:years>
     </mal:credit>
   </info>
 
@@ -41,7 +47,7 @@
            <tt:p>Επιλέξτε το μενού του συστήματος στο δεξί μέρος της γραμμής μενού και επιλέξτε το κουμπί ρυθμίσεις.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
-           <tt:p>Επιλέξτε <gui>παρασκήνιο</gui>.</tt:p>
+           <tt:p>Επιλέξτε <gui>Παρασκήνιο</gui>.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="13s">
            <tt:p>Πατήστε στην τρέχουσα εικόνα παρασκηνίου.</tt:p>
@@ -53,7 +59,7 @@
            <tt:p>Πατήστε το κουμπί <gui>Επιλογή</gui>.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="21s">
-           <tt:p>Κλείστε το παράθυρο <gui>παρασκήνιο</gui>.</tt:p>
+           <tt:p>Κλείστε το παράθυρο <gui>Παρασκήνιο</gui>.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -64,12 +70,13 @@
     <title>Αλλαγή ταπετσαρίας</title>
     
     <steps>
-      <item><p>Επιλέξτε το μενού του συστήματος στο δεξί μέρος της γραμμής μενού και επιλέξτε το κουμπί ρυθμίσεις στο τέλος του μενού.</p></item>
-      <item><p>Από τη λίστα των στοιχείων, επιλέξτε <gui>παρασκήνιο</gui>.</p></item>
-      <item><p>Πατήστε την εικόνα της τρέχουσας ταπετσαρίας σας στο κέντρο του παραθύρου <gui>παρασκήνιο</gui>.</p></item>
+      <item><p>Κάντε κλικ στο <gui xref="shell-introduction#yourname">μενού του συστήματος</gui> στο δεξί μέρος της πάνω μπάρας.</p></item>
+      <item><p>Κάντε κλικ στο κουμπί ρυθμίσεις στο κάτω αριστερό μέρος του μενού.</p></item>
+      <item><p>Κάντε κλικ στον πίνακα <gui>Παρασκήνιο</gui>.</p></item>
+      <item><p>Πατήστε την εικόνα της τρέχουσας ταπετσαρίας σας στο αριστερό μέρος του παραθύρου <gui>Παρασκήνιο</gui>.</p></item>
       <item><p>Κάντε κλικ στην εικόνα παρασκηνίου που θέλετε να χρησιμοποιήσετε.</p></item>
       <item><p>Πατήστε το κουμπί <gui>Επιλογή</gui>.</p></item>
-      <item><p>Κλείστε το παράθυρο <gui>παρασκηνίου</gui> πατώντας τον σταυρό στην πάνω δεξιά γωνία του παραθύρου.</p></item>
+      <item><p>Κλείστε το παράθυρο <gui>Παρασκήνιο</gui> πατώντας το εικονίδιο στην πάνω δεξιά γωνία του παραθύρου.</p></item>
     </steps>
   </section>
 

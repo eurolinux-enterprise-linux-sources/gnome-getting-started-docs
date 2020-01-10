@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Kelemen Gábor</mal:name>
       <mal:email>kelemeng at gnome dot hu</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:years>2013, 2015.</mal:years>
     </mal:credit>
   </info>
 
@@ -32,47 +32,38 @@
          <tt:div begin="1s" end="3s">
            <tt:p>Üzenetek megválaszolása</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>Vigye az egérmutatót a képernyő alján lévő üzenettálcára, és kattintson a csevegési üzenetre.</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Vigye az egérmutatót a képernyő tetején megjelenő csevegési üzenetre.</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
+         <tt:div begin="6s" end="9s">
            <tt:p>Kezdje el beírni a válaszát, amikor kész, nyomja meg az <key>Enter</key> billentyűt az elküldéséhez.</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
+         <tt:div begin="9s" end="10s">
            <tt:p>Zárja be a csevegési üzenetet.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>Késleltetett válasz</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>Ha nem viszi egerét az üzenettálcára, az ott látható csevegési üzenet egy idő után eltűnik.</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>Ha nem viszi egerét az üzenetre, akkor a képernyő tetején látható csevegési üzenet egy idő után eltűnik.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>A megválaszolatlan üzenetekhez való visszatéréshez vigye az egérmutatót az üzenettálcára.</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>A megválaszolatlan üzenethez való visszatéréshez kattintson az órára a felső sávon.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>Kattintson az üzenet feladójára.</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Az értesítési listából válassza ki az üzenetet.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>Kezdje el beírni a válaszát, amikor kész, nyomja meg az <key>Enter</key> billentyűt.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Kezdje el beírni a válaszát.</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>Zárja be a csevegési üzenetet.</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Az értesítési lista megjelenítéséhez nyomja meg a <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>V</key></keyseq> billentyűkombinációt. </tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>Az üzenettálca megjelenítéséhez nyomja meg a <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>M</key></keyseq> billentyűkombinációt. </tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>A nyílbillentyűkkel válassza ki az üzenetet, amelyre válaszolni szeretne, majd nyomja meg az <key>Enter</key> billentyűt.</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>A nyílbillentyűk segítségével válassza ki, hogy kinek szeretne válaszolni, majd nyomja meg az <key>Enter</key> billentyűt.</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>Kezdje el beírni a válaszát, amikor kész, nyomja meg az <key>Enter</key> billentyűt.</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p>A csevegési üzenet bezárásához nyomja meg az <key>Esc</key> billentyűt.</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>Az üzenettálca elrejtéséhez nyomja meg az <key>Esc</key> billentyűt.</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Kezdje el beírni a válaszát.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -83,7 +74,7 @@
     <title>Csevegési üzenet megválaszolása egérrel</title>
     
     <steps>
-      <item><p>Vigye az egérmutatót a képernyő alján lévő üzenettálcára, és kattintson a csevegési üzenetre.</p></item>
+      <item><p>Vigye az egérmutatót a képernyő tetején megjelenő csevegési üzenetre.</p></item>
       <item><p>Kezdje el beírni a válaszát, majd amikor kész, nyomja meg az <key>Enter</key> billentyűt az elküldéséhez.</p></item>
       <item><p>A csevegési üzenet bezárásához kattintson a bezárás gombra a csevegési üzenet jobb felső sarkában.</p></item>
     </steps>
@@ -94,11 +85,10 @@
     <title>Csevegési üzenet késleltetett megválaszolása egérrel</title>
     
     <steps>
-      <item><p>Amikor egy csevegési üzenet megjelenik az üzenettálcán, és nem viszi oda az egérmutatót, akkor az üzenet hamarosan eltűnik.</p></item>
-      <item><p>A megválaszolatlan üzenetekhez való visszatéréshez vigye az egérmutatót az üzenettálcára a képernyő alján.</p></item>
-      <item><p>Amikor az üzenettálca megjelenik, kattintson arra a kis képre, amely az üzenet feladóját képviseli.</p></item>
-      <item><p>A csevegési üzenet megjelenésekor kezdje el beírni a válaszát, majd amikor kész, nyomja meg az <key>Enter</key> billentyűt az elküldéséhez.</p></item>
-      <item><p>A csevegési üzenet bezárásához kattintson a bezárás gombra a csevegési üzenet jobb felső sarkában.</p></item>
+      <item><p>Amikor egy csevegési üzenet megjelenik a képernyő tetején, és nem viszi oda az egérmutatót, akkor az üzenet hamarosan eltűnik.</p></item>
+      <item><p>A megválaszolatlan üzenethez való visszatéréshez kattintson az órára a felső sávon.</p></item>
+      <item><p>Az értesítési listából válassza ki az üzenetet, amelyre válaszolni szeretne.</p></item>
+      <item><p>A csevegési üzenet megjelenésekor kezdje el beírni a válaszát.</p></item>
     </steps>
     
   </section>
@@ -106,12 +96,10 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>Csevegési üzenet késleltetett megválaszolása billentyűzettel</title>
     <steps>
-      <item><p>A megválaszolatlan csevegési üzeneteire való visszatéréshez nyomja meg a <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq> billentyűkombinációt az üzeneteket tartalmazó üzenettálca megjelenítéséhez.</p>
+      <item><p>A megválaszolatlan csevegési üzeneteire való visszatéréshez nyomja meg a <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq> billentyűkombinációt a megválaszolatlan üzenetek megjelenítéséhez.</p>
       </item>
-      <item><p>A nyílbillentyűk segítségével válassza ki azon személy kis képét, akinek válaszolni szeretne, majd nyomja meg az <key>Enter</key> billentyűt.</p></item>
-      <item><p>Kezdje el beírni a válaszát, majd amikor kész, nyomja meg az <key>Enter</key> billentyűt az elküldéséhez.</p></item>
-      <item><p>A csevegési üzenet bezárásához nyomja meg az <key>Esc</key> billentyűt.</p></item>
-      <item><p>Az üzenettálca elrejtéséhez nyomja meg az <key>Esc</key> billentyűt vagy a <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq> billentyűkombinációt.</p></item>
+      <item><p>A nyílbillentyűk segítségével válassza ki az üzenetet, amelyre válaszolni szeretne, majd nyomja meg az <key>Enter</key> billentyűt.</p></item>
+      <item><p>A csevegési üzenet megjelenésekor kezdje el beírni a válaszát.</p></item>
     </steps>
 
   </section>

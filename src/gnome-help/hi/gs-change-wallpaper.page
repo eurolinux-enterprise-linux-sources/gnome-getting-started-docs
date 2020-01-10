@@ -52,8 +52,10 @@
     <title>वालपेपर बदलें</title>
     
     <steps>
-      <item><p>शीर्ष पट्टी के दाहिनी ओर तंत्र मेन्यू पर क्लिक करें और सेटिंग बटन मेन्यू के तल में दबाएँ.</p></item>
-      <item><p>मदों की सूची से, <gui>पृष्ठभूमि</gui> से चुनें.</p></item>
+      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+      on the right side of the top bar.</p></item>
+      <item><p>Click the settings button at the bottom left of the menu.</p></item>
+      <item><p>Click the <gui>Background</gui> panel.</p></item>
       <item><p><gui>पृष्ठभूमि</gui> विंडो के बायीं ओर मौजूदा पृष्ठभूमि छवि क्लिक करें</p></item>
       <item><p>पृष्ठभूमि छवि क्लिक करें जिसे आप उपयोग करना चाहते हैं.</p></item>
       <item><p><gui>चुनें</gui> बटन क्लिक करें.</p></item>

@@ -10,13 +10,11 @@
       <name>పెత్ర్ కోవర్</name>
     </credit>
 
-<!--
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Launch applications</title>
+    <title role="trail" type="link">అనువర్తనాలు ఆరంభించండి</title>
     <link type="seealso" xref="shell-apps-open"/>
-    <title role="seealso" type="link">A tutorial on launching applications</title>
+    <title role="seealso" type="link">అనువర్తనాలు ఆరంభించుట పై ట్యుటోరియల్</title>
     <link type="next" xref="gs-switch-tasks"/>
--->
   </info>
 
   <title>అనువర్తనాలు ఆరంభించండి</title>

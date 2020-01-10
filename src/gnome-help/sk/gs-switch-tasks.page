@@ -90,11 +90,8 @@
 <if:when test="platform:gnome-classic">
 
   <steps>
-    <item><p>You can switch between tasks by using the <gui>window list</gui> at
-     the bottom of the screen. Open tasks appear as buttons in the <gui>window
-     list</gui>.</p></item>
-     <item><p>Click a button in the <gui>window list</gui> to switch to that
-     task.</p></item>
+    <item><p>iMedzi úlohami môžeme prepnúť použitím <gui>zoznamu okien</gui> na spodku obrazovky. Otvorené úlohy sú zobrazené ako tlačidlá v tomto zozname.</p></item>
+     <item><p>Vyberieme si úlohu kliknutím na zodpovedajúce tlačidlo v <gui>zozname okien</gui>.</p></item>
   </steps>
 
 </if:when>
@@ -103,7 +100,7 @@
   </section>
 
   <section id="switching-tasks-tiling">
-    <title>Tile windows</title>
+    <title>Usporiadanie okien do dlaždíc</title>
     
     <steps>
       <item><p>Keď chceme okno maximalizovať pozdĺž strany obrazovky, chytíme titulok okna a presunieme okno na ľavý alebo pravý okraj obrazovky.</p></item>

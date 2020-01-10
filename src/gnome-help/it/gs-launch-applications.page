@@ -10,13 +10,11 @@
       <name>Petr Kovar</name>
     </credit>
 
-<!--
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Launch applications</title>
+    <title role="trail" type="link">Lanciare applicazioni</title>
     <link type="seealso" xref="shell-apps-open"/>
     <title role="seealso" type="link">A tutorial on launching applications</title>
     <link type="next" xref="gs-switch-tasks"/>
--->
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Luca Ferretti</mal:name>

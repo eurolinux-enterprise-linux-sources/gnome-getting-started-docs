@@ -13,7 +13,7 @@
     <title role="trail" type="link">ઓનલાઇન થાવ</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">ઓનલાઇન થવા પર માર્ગદર્શિકા</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   </info>
 
   <title>ઓનલાઇન થાવ</title>
@@ -30,8 +30,9 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>ટોચની પટ્ટીની જમણી બાજુ પર નેટવર્ક જોડાણ ચિહ્ન બતાવે છે કે તમે ઓફલાઇન હોય.</p>
-      <p>The off-line status can be caused by a number of reasons: for
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are offline.</p>
+      <p>The offline status can be caused by a number of reasons: for
        example, a network cable has been unplugged, the computer has been set
        to run in <em>airplane mode</em>, or there are no available Wi-Fi
        networks in your area.</p>
@@ -49,9 +50,18 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>To connect to a Wi-Fi (wireless) network, click the status menu at
-     the top right of the screen, and then click <gui>Select Network</gui>.</p>
-    </item>
+      <title>To connect to a Wi-Fi (wireless) network:</title>
+      <item>
+        <p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p>
+      </item>
+      <item>
+        <p>Select <gui>Wi-Fi Not Connected</gui>. The Wi-Fi section of the menu
+        will expand.</p>
+      </item>
+      <item>
+        <p>Click <gui>Select Network</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -67,8 +77,6 @@
     <p>Depending on the network configuration, you may be prompted for network
      credentials.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

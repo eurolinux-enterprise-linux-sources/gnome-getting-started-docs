@@ -15,7 +15,7 @@
 <t id="title-workspace-down">下のワークスペースへ</t>
 <t id="title-workspace-up">上のワークスペースへ</t>
 <t id="title-right">画面の右半分</t>
-<t id="activities"> </t>
+<t id="activities">アクティビティ</t>
 <t its:locNote="Translators: Enter is the name of the key." id="enter">Enter</t>
 <t id="ctrl">Ctrl</t>
 <t id="alt">Alt</t>
@@ -39,7 +39,7 @@
 <t id="openclocks">時計を開く</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">日時の設定</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">日時の自動設定</t>
-<t id="autotimezone">Automatic Timezone</t>
-<t id="sstime">14 October 2013, 20:00</t>
-<t id="sstime2">14 October 2013, 14:00</t>
+<t id="autotimezone">タイムゾーンの自動設定</t>
+<t id="sstime">2013年10月14日 20:00</t>
+<t id="sstime2">2013年10月14日 14:00</t>
 </titles>

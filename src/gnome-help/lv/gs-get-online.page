@@ -13,7 +13,7 @@
     <title role="trail" type="link">Nokļūt internetā</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">Ceļvedis, kā tikt pie interneta savienojuma</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   </info>
 
   <title>Nokļūt internetā</title>
@@ -45,8 +45,16 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>Lai savienotos ar Wi-Fi (bezvadu) tīklu, spiediet uz statusa izvēlnes ekrāna augšējā labajā stūrī un spiediet <gui>Izvēlieties tīklu</gui>.</p>
-    </item>
+      <title>Lai savienotos ar Wi-Fi (bezvadu) tīklu:</title>
+      <item>
+        <p>Spiediet <gui xref="shell-introduction#yourname">sistēmas izvēlni</gui> augšējās joslas labajā pusē.</p>
+      </item>
+      <item>
+        <p>Izvēlieties <gui>Wi-Fi nav savienots</gui>. Tiks izvēsta Wi-Fi izvēlnes sadaļa.</p>
+      </item>
+      <item>
+        <p>Spiediet <gui>Izvēlieties tīklu</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -59,8 +67,6 @@
     <item><p>No pieejamo Wi-Fi tīklu saraksta izvēlieties tīklu, ar kuru vēlaties savienoties un spiediet <gui>Savienot</gui>, lai apstiprinātu.</p>
     <p>Atkarība no tīkla konfigurācijas, jums varētu prasīt tīkla akreditācijas datus.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

@@ -26,47 +26,44 @@
          <tt:div begin="1s" end="3s">
            <tt:p>संदेशों में प्रतिक्रिया दे रहा है</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>स्क्रीन के तल पर संदेश तश्तरी में अपने माउस को खिसकाएँ और चैट संदेश क्लिक करें.</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Move your mouse over the chat message that appears near the top
+           of the screen.</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
+         <tt:div begin="6s" end="9s">
            <tt:p>अपने जवाब टाइप करना आरंभ करें और समाप्त होने पर, <key>Enter </key> को जवाब भेजने के लिए दबाएँ.</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
+         <tt:div begin="9s" end="10s">
            <tt:p>गपशप संदेश बंद करें.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>विलंबित अनुक्रिया</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>संदेश ट्रे में चैट संदेश कुछ समय के बाद ओझल हो जाता है यदि आप अपने संदेश ट्रे में अपने माउस को खिसकाना नहीं चाहते हैं.</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>A chat message near the top of the screen disappears after a
+           while if you do not move your mouse over the message.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>अनुत्तरित संदेशों का जवाब देने के लिए, संदेश ट्रे में अपने माउस को खिसकाएँ.</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>To get back to your unanswered message, click the clock on the
+           top bar.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>व्यक्ति को क्लिक करें जिसे आपने संदेश भेजा है.</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>From the notification list, choose your message.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>अपने जवाब टाइप करना आरंभ करें और समाप्त होने पर, <key>Enter </key> दबाएँ.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Start typing your reply.</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>गपशप संदेश बंद करें.</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>To show the notification list, press <keyseq>
+           <key href="help:gnome-help/keyboard-key-super">Super</key>
+           <key>V</key></keyseq></tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>संदेश ट्रे दिखाने के लिए, <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>M</key></keyseq> दबाएँ</tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Use the arrow keys to select the message you want to reply to,
+            and press <key>Enter</key>.</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>तीर कुँजी का उपयोग उन व्यक्तियों को चुनने के लिए करें जिसे आप जवाब देना चाहते हैं, <key>Enter</key> दबाएँ.</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>अपने जवाब टाइप करना आरंभ करें और समाप्त होने पर, <key>Enter </key> दबाएँ.</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p><key>Esc</key> को गपशप संदेश बंद करने के लिए दबाएँ.</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>संदेश ट्रे हटाने के लिए, <key>Esc</key> दबाएँ.</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Start typing your reply.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -77,7 +74,8 @@
     <title>माउस के साथ चैट संदेश में प्रतिक्रिया दें</title>
     
     <steps>
-      <item><p>स्क्रीन के तल पर संदेश तश्तरी में अपने माउस को खिसकाएँ और चैट संदेश क्लिक करें.</p></item>
+      <item><p>Move your mouse over the chat message that appears near the top
+       of the screen.</p></item>
       <item><p>अपने जवाब टाइप करना आरंभ करें और समाप्त होने पर, <key>Enter</key> को जवाब भेजने के लिए दबाएँ.</p></item>
       <item><p>इस गपशप संदेश को बंद करने के लिए, गपशप संदेश के शीर्ष दाहिनी कोने पर बटन को बंद करने के लिए क्लिक करें.</p></item>
     </steps>
@@ -88,11 +86,13 @@
     <title>माउस के उपयोग से गपशप संदेश को प्रतिक्रिया देने के लिए बिलंबित संदेश</title>
     
     <steps>
-      <item><p>संदेश ट्रे में चैट संदेश कुछ समय के बाद ओझल हो जाता है जब संदेश ट्रे में गपशप संदेश प्रकट होता है.</p></item>
-      <item><p>अनुत्तरित संदेशों का जवाब देने के लिए, संदेश ट्रे में अपने माउस को खिसकाएँ स्क्रीन के सबसे नीचे.</p></item>
-      <item><p>जब संदेश तश्तरी प्रकट होता है, किसी छोटे संदेश को क्लिक करें जो उन व्यक्तियों का प्रतिनिधित्व करता है जो आपको संदेश भेजता है.</p></item>
-      <item><p>जब गपशप संदेश दिखता है, अपने जवाब टाइप करना आरंभ करें और समाप्त होने पर, <key>Enter</key> को जवाब भेजने के लिए दबाएँ.</p></item>
-      <item><p>इस गपशप संदेश को बंद करने के लिए, गपशप संदेश के शीर्ष दाहिनी कोने पर बटन को बंद करने के लिए क्लिक करें.</p></item>
+      <item><p>When a chat message appears near the top of the screen and you do
+       not move your mouse over the message, it disappears after a while.</p></item>
+      <item><p>To get back to your unanswered message, click the clock on the
+       top bar.</p></item>
+      <item><p>From the notification list, choose the message you
+       want to reply to, and click it.</p></item>
+      <item><p>When the chat message is shown, start typing your reply.</p></item>
     </steps>
     
   </section>
@@ -100,12 +100,13 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>कुँजीपटल के उपयोग से गपशप संदेश को प्रतिक्रिया देने के लिए बिलंबित संदेश</title>
     <steps>
-      <item><p>अपने अनुत्तरित गपशप संदेश पर जाने के लिए, <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq> दबाएँ ताकि संदेशों को दिखाने वाले संदेश तश्तरी को दिखाया जा सके.</p>
+      <item><p>To get back to your unanswered chat messages, press <keyseq>
+      <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key>
+      </keyseq> to display the list of unanswered notifications.</p>
       </item>
-      <item><p>तीर कुँजी का उपयोग व्यक्तियों का प्रतिनिधित्व करने वाले छोटे छवि चुनने के लिए करें जिसे आप जवाब देना चाहते हैं, <key>Enter</key> दबाएँ.</p></item>
-      <item><p>अपने जवाब टाइप करना आरंभ करें और समाप्त होने पर, <key>Enter</key> को जवाब भेजने के लिए दबाएँ.</p></item>
-      <item><p><key>Esc</key> को गपशप संदेश बंद करने के लिए दबाएँ.</p></item>
-      <item><p>संदेश तश्तरी छोड़ने के लिए, <key>Esc</key> or <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq> दबाएँ.</p></item>
+      <item><p>Use the arrow keys to select the notification you want to reply
+      to, and press <key>Enter</key>.</p></item>
+      <item><p>When the chat message is shown, start typing your reply.</p></item>
     </steps>
 
   </section>

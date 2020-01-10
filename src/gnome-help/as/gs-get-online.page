@@ -13,7 +13,7 @@
     <title role="trail" type="link">অনলাইন হওক</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">অনলাইন হবলৈ এটা শিক্ষা</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   </info>
 
   <title>অনলাইন হওক</title>
@@ -29,8 +29,12 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>ওপৰ বাৰৰ সোঁ-ফালে থকা নেটৱাৰ্ক সংযোগ আইকনে আপুনি অফ-লাইন থকাটো দেখুৱায়।</p>
-      <p>অফলাইন অৱস্থা কেইবাটাও কাৰণৰ বাবে হ'ব পাৰে: উদাহৰণস্বৰূপ, এটা নেটৱাৰ্ক কেবুল আনপ্লাগ্গড্ থাকিব পাৰে, কমপিউটাৰক হয়তো <em>বিমান অৱস্থা</em> ত চলিবলৈ সংহতি কৰা আছে, অথবা আপোনাৰ স্থানত কোনো Wi-Fi নেটৱাৰ্ক উপলব্ধ নাই।</p>
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are offline.</p>
+      <p>The offline status can be caused by a number of reasons: for
+       example, a network cable has been unplugged, the computer has been set
+       to run in <em>airplane mode</em>, or there are no available Wi-Fi
+       networks in your area.</p>
       <p>যদি আপুনি এটা তাঁৰযুক্ত নেটৱাৰ্ক ব্যৱহাৰ কৰিব বিচাৰে, অনলাইন হ'বলৈ এটা নেটৱাৰ্ক কেবুল প্লাগ কৰক। কমপিউটাৰে আপোনাৰ বাবে স্বচালিতভাৱে নেটৱাৰ্ক সংযোগ সংস্থাপন কৰাৰ চেষ্টা কৰিব।</p>
       <p>যেতিয়া কমপিউটাৰে আপোনাৰ বাবে এটা নেটৱাৰ্ক সংযোগ সংস্থাপন কৰি থাকে, নেটৱাৰ্ক সংযোগ আইকনে তিনিটা বিন্দু দেখুৱাব।</p></item>
       <item><p>যেতিয়া নেটৱাৰ্ক সংযোগ সফলভাৱে সংস্থাপন হৈ যায়, নেটৱাৰ্ক সংযোগ আইকন নেটৱাৰ্ক কমপিউটাৰ চিহ্নলৈ পৰিবৰ্তন হৈ যায়।</p></item>
@@ -45,8 +49,18 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>এটা Wi-Fi (বেতাঁৰ) নেটৱাৰ্কৰ সৈতে সংযোগ কৰিবলৈ, পৰ্দাৰ ওপৰ সোঁফালে অৱস্থা মেনুত ক্লিক কৰক, আৰু তাৰ পিছত <gui>নেটৱাৰ্ক বাছক</gui> ক্লিক কৰক।</p>
-    </item>
+      <title>To connect to a Wi-Fi (wireless) network:</title>
+      <item>
+        <p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p>
+      </item>
+      <item>
+        <p>Select <gui>Wi-Fi Not Connected</gui>. The Wi-Fi section of the menu
+        will expand.</p>
+      </item>
+      <item>
+        <p>Click <gui>Select Network</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -59,8 +73,6 @@
     <item><p>উপলব্ধ Wi-Fi নেটৱাৰ্কসমূহৰ তালিকাৰ পৰা, আপুনি সংযোগ কৰিব বিচৰা নেটৱাৰ্ক বাছক, আৰু সুনিশ্চিত কৰিবলৈ <gui>সংযোগ কৰক</gui> ক্লিক কৰক।</p>
     <p>নেটৱাৰ্ক সংযোগৰ ওপৰত নিৰ্ভৰ কৰি, আপোনাক নেটৱাৰ্ক তথ্যসমূহৰ বাবে প্ৰমপ্ট কৰা হব পাৰে।</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

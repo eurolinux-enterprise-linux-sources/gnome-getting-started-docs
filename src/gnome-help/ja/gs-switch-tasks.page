@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>松澤 二郎</mal:name>
       <mal:email>jmatsuzawa@gnome.org</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2015, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -34,7 +34,7 @@
          </tt:div>
          <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>マウスポインターを画面左上角の<gui>アクティビティ</gui>まで移動させます。</tt:p>
+           <tt:p>マウスポインターを画面左上隅の<gui>アクティビティ</gui>まで移動させます。</tt:p>
            </tt:div>
          </if:if>
          <tt:div begin="9s" end="12s">
@@ -82,7 +82,7 @@
 <if:when test="!platform:gnome-classic">
 
   <steps>
-    <item><p>マウスポインターを画面左上角の<gui>アクティビティ</gui>まで移動させ、<gui>アクティビティ画面</gui>を開きます。アクティビティ画面には、現在実行中のタスクが小さなウィンドウで表示されます。</p></item>
+    <item><p>マウスポインターを画面左上隅の<gui>アクティビティ</gui>まで移動させ、<gui>アクティビティ画面</gui>を開きます。アクティビティ画面には、現在実行中のタスクが小さなウィンドウで表示されます。</p></item>
      <item><p>ウィンドウをクリックすると、そのタスクに切り替わります。</p></item>
   </steps>
 

@@ -52,8 +52,10 @@
     <title>ৱালপেপাৰ পৰিবৰ্তন কৰক</title>
     
     <steps>
-      <item><p>ওপৰ বাৰৰ সোঁ কাষত চিস্টেম মেনুত ক্লিক কৰক আৰু মেনুৰ তলত সংহতিসমূহ বুটাম টিপক।</p></item>
-      <item><p>বস্তুবোৰৰ তালিকাৰ পৰা, <gui>পটভূমি</gui> বাছক।</p></item>
+      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+      on the right side of the top bar.</p></item>
+      <item><p>Click the settings button at the bottom left of the menu.</p></item>
+      <item><p>Click the <gui>Background</gui> panel.</p></item>
       <item><p><gui>পটভূমি</gui> উইন্ডোৰ বাঁওফালে আপোনাৰ বৰ্তমান পটভূমি ছবিত ক্লিক কৰক।</p></item>
       <item><p>আপুনি ব্যৱহাৰ কৰিব বিচৰা পটভূমি ছবিত ক্লিক কৰক।</p></item>
       <item><p><gui>বাছক</gui> বুটাম ক্লিক কৰক।</p></item>

@@ -10,24 +10,28 @@
       <name>Petr Kovar</name>
     </credit>
 
-<!--
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Launch applications</title>
+    <title role="trail" type="link">Εκκίνηση εφαρμογών</title>
     <link type="seealso" xref="shell-apps-open"/>
-    <title role="seealso" type="link">A tutorial on launching applications</title>
+    <title role="seealso" type="link">Ένα μάθημα στην εκκίνηση εφαρμογών</title>
     <link type="next" xref="gs-switch-tasks"/>
--->
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name> Δημήτρης Σπίγγος</mal:name>
-      <mal:email>dmtrs32@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2012-2015</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
       <mal:email>tomtryf@gmail.com</mal:email>
-      <mal:years>2012</mal:years>
+      <mal:years>2012, 2015</mal:years>
     </mal:credit>
   </info>
 
@@ -42,22 +46,22 @@
            <tt:p>Εκκίνηση εφαρμογών</tt:p>
          </tt:div>
          <tt:div begin="5s" end="7.5s">
-           <tt:p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>Ενέργειες</gui> στα πάνω αριστερά της οθόνης.</tt:p>
+           <tt:p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>Δραστηριότητες</gui> στα πάνω αριστερά της οθόνης.</tt:p>
            </tt:div>
          <tt:div begin="7.5s" end="9.5s">
            <tt:p>Πατήστε το εικονίδιο <gui>Εμφάνιση εφαρμογών</gui>.</tt:p>
          </tt:div>
          <tt:div begin="9.5s" end="11s">
-           <tt:p>Πατήστε την εφαρμογή που θέλετε να εκτελέσετε, για παράδειγμα, βοήθεια.</tt:p>
+           <tt:p>Πατήστε την εφαρμογή που θέλετε να εκτελέσετε, για παράδειγμα, «Βοήθεια».</tt:p>
          </tt:div>
          <tt:div begin="12s" end="21s">
-           <tt:p>Εναλλακτικά, χρησιμοποιήστε το πληκτρολόγιο για να ανοίξετε το <gui>Επισκόπηση ενεργειών</gui> πατώντας το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">Λογότυπου</key>.</tt:p>
+           <tt:p>Εναλλακτικά, χρησιμοποιήστε το πληκτρολόγιο για να ανοίξετε την επισκόπηση <gui>Δραστηριότητες</gui> πατώντας το πλήκτρο <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key>.</tt:p>
          </tt:div>
          <tt:div begin="22s" end="29s">
-           <tt:p>Αρχίστε να πληκτρολογείτε το όνομα της εφαρμογής που θέλετε να ξεκινήσετε.</tt:p>
+           <tt:p>Αρχίστε να πληκτρολογείτε το όνομα της εφαρμογής που θέλετε να εκκινήσετε.</tt:p>
          </tt:div>
          <tt:div begin="30s" end="33s">
-           <tt:p>Πατήστε <key>Εισαγωγή-Enter</key> για να ξεκινήσετε την εφαρμογή.</tt:p>
+           <tt:p>Πατήστε <key>Enter</key> για να ξεκινήσετε την εφαρμογή.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -68,9 +72,9 @@
     <title>Έναρξη εφαρμογών με το ποντίκι</title>
  
   <steps>
-    <item><p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>ενέργειες</gui> στα πάνω αριστερά της οθόνης για να εμφανίσετε την <gui>επισκόπηση ενεργειών</gui>.</p></item>
-    <item><p>Πατήστε το εικονίδιο <gui>Εμφάνιση εφαρμογών</gui> που προβάλλεται στο τέλος της γραμμής στα αριστερά της οθόνης.</p></item>
-    <item><p>Εμφανίζεται μια λίστα εφαρμογών. Πατήστε την εφαρμογή που θέλετε να εκτελέσετε, για παράδειγμα, βοήθεια.</p></item>
+    <item><p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>Δραστηριότητες</gui> πάνω αριστερά της οθόνης για να εμφανίσετε την επισκόπηση <gui>Δραστηριότητες</gui>.</p></item>
+    <item><p>Πατήστε το εικονίδιο <gui>Εμφάνιση εφαρμογών</gui> που προβάλλεται στο κάτω μέρος της γραμμής στα αριστερά της οθόνης.</p></item>
+    <item><p>Εμφανίζεται μια λίστα εφαρμογών. Κάντε κλικ στην εφαρμογή που θέλετε να εκτελέσετε, για παράδειγμα, «Βοήθεια».</p></item>
   </steps>
 
   </section>
@@ -79,9 +83,9 @@
     <title>Έναρξη εφαρμογών με το πληκτρολόγιο</title>
 
   <steps>
-    <item><p>Ανοίξτε την <gui>Επισκόπηση ενεργειών</gui> πατώντας το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">Λογότυπου</key>.</p></item>
-    <item><p>Αρχίστε να πληκτρολογείτε το όνομα της εφαρμογής που θέλετε να ξεκινήσει. Η αναζήτηση για την εφαρμογή ξεκινά αμέσως.</p></item>
-    <item><p>Μόλις το εικονίδιο της εφαρμογής εμφανιστεί και επιλεγεί, πατήστε το πλήκτρο <key>Εισαγωγή</key> για την έναρξη της εφαρμογής.</p></item>
+    <item><p>Ανοίξτε την επισκόπηση <gui>Δραστηριότητες</gui> πατώντας το πλήκτρο <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key>.</p></item>
+    <item><p>Αρχίστε να πληκτρολογείτε το όνομα της εφαρμογής που θέλετε να εκκινήσετε. Η αναζήτηση για την εφαρμογή ξεκινά αμέσως.</p></item>
+    <item><p>Μόλις το εικονίδιο της εφαρμογής εμφανιστεί και επιλεγεί, πατήστε το πλήκτρο <key>Enter</key> για την εκκίνηση της εφαρμογής.</p></item>
   </steps>
 
   </section>

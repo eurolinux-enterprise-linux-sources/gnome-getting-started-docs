@@ -52,8 +52,10 @@
     <title>ವಾಲ್‌ಪೇಪರ್ ಅನ್ನು ಬದಲಿಸಿ</title>
     
     <steps>
-      <item><p>ಮೇಲಿನ ಪಟ್ಟಿಯ ಬಲಭಾಗದಲ್ಲಿರುವ ವ್ಯವಸ್ಥೆಯ ಮೆನುವಿನ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ನಂತರ ಮೆನುವಿನ ಕೆಳಭಾಗದಲ್ಲಿರುವ ಸಿದ್ಧತೆಗಳ ಗುಂಡಿಯನ್ನು ಒತ್ತಿ.</p></item>
-      <item><p>ಅಂಶಗಳ ಪಟ್ಟಿಯಿಂದ, <gui>ಹಿನ್ನೆಲೆ</gui>ಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.</p></item>
+      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+      on the right side of the top bar.</p></item>
+      <item><p>Click the settings button at the bottom left of the menu.</p></item>
+      <item><p>Click the <gui>Background</gui> panel.</p></item>
       <item><p><gui>ಹಿನ್ನಲೆ</gui> ಕಿಟಕಿಯ ಎಡಭಾಗದಲ್ಲಿರುವ ನಿಮ್ಮ ಪ್ರಸಕ್ತ ಹಿನ್ನಲೆ ಚಿತ್ರದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.</p></item>
       <item><p>ನೀವು ಬಳಸಲು ಬಯಸುವ ಹಿನ್ನೆಲೆ ಚಿತ್ರವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ.</p></item>
       <item><p><gui>ಆರಿಸು</gui> ಗುಂಡಿಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.</p></item>

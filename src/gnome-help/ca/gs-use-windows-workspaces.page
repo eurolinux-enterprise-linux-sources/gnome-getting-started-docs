@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Manel Vidal</mal:name>
       <mal:email>verduler@gmail.com</mal:email>
-      <mal:years>2013, 2014/t</mal:years>
+      <mal:years>2013, 2014</mal:years>
     </mal:credit>
   </info>
 
@@ -84,7 +84,7 @@
     <p/>
     
     <steps>
-      <item><p>Per maximitzar una finestra, de forma que ocupi tot l'espai de l'escriptori, agafeu la finestra per la barra del títol i arrossegueu-la cap la part superior de la pantalla.</p></item>
+      <item><p>Per maximitzar una finestra, de forma que ocupi tot l'espai de l'escriptori, agafeu la finestra per la barra del títol i arrossegueu-la cap a la part superior de la pantalla.</p></item>
       <item><p>Quan es realci la pantalla, deixeu anar la finestra.</p></item>
       <item><p>Per restaurar la mida de la finestra desmaximitzada, agafeu la finestra per la barra del títol i arrossegueu-la cap al centre de la pantalla.</p></item>
     </steps>

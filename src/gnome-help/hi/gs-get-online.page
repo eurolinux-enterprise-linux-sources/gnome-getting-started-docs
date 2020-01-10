@@ -13,7 +13,7 @@
     <title role="trail" type="link">ऑनलाइन होएँ</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">ऑनलाइन होने के लिए ट्यूटोरियल</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   </info>
 
   <title>ऑनलाइन होएँ</title>
@@ -29,8 +29,12 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>शीर्ष पट्टी के दाहिनी ओर संजाल कनेक्शन चिह्न दिखाता है कि आप ऑफ़ लाइन हैं.</p>
-      <p>कई कारणों से ऑफ़लाइन स्थिति हो सकती है: उदाहरण के लिए, संजाल केबल प्लग किया हुआ नहीं है, कंप्यूटर को <em>एयरप्लेन अवस्था</em> में चलने के लिए छोड़ा गया है, या आपके क्षेत्र में कोई उपलब्ध वाइ-फाइ संजाल नहीं है.</p>
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are offline.</p>
+      <p>The offline status can be caused by a number of reasons: for
+       example, a network cable has been unplugged, the computer has been set
+       to run in <em>airplane mode</em>, or there are no available Wi-Fi
+       networks in your area.</p>
       <p>यदि आप तारयुक्त कनेक्शन का उपयोग करना चाहते हैं, ऑनलाइन होने के लिए किसी संजाल केबल में प्लगइन करें. यह कंप्यूटर आपके लिए स्वचालित तरीके से संजाल कनेक्शन सेटअप के लिए कोशिश करेगा.</p>
       <p>जब कंप्यूटर आपके लिए संजाल कनेक्शन सेटअप करता है, संजाल कनेक्शन चिह्न तीन डॉट दिखाता है.</p></item>
       <item><p>संजाल कनेक्शन के सफलतापूर्वक सेटअप होने पर, संजाल कनेक्शन चिह्न संजाल कंप्यूटर संकेत में बदलेगा.</p></item>
@@ -45,8 +49,18 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>वाई-फ़ाई (बेतार) संजाल से कनेक्ट करने के लिए, स्क्रीन के दाहिनी ओर स्थिति मेन्यू क्लिक करें, और फिर <gui>संजाल चुनें</gui> क्लिक करें.</p>
-    </item>
+      <title>To connect to a Wi-Fi (wireless) network:</title>
+      <item>
+        <p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p>
+      </item>
+      <item>
+        <p>Select <gui>Wi-Fi Not Connected</gui>. The Wi-Fi section of the menu
+        will expand.</p>
+      </item>
+      <item>
+        <p>Click <gui>Select Network</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -59,8 +73,6 @@
     <item><p>उपलब्ध वाई-फ़ाई संजाल की सूची से, संजाल चुनें जिसमें आप कनेक्ट होना चाहते हैं, और <gui>कनेक्ट करें</gui> को पुष्टि करने के लिए क्लिक करें.</p>
     <p>संजाल विन्यास पर निर्भर रहते हुए, आपको संजाल प्रमाण के लिए प्रांप्ट किया जाएगा.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

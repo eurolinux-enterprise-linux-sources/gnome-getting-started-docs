@@ -1,12 +1,11 @@
 Name:           gnome-getting-started-docs
-Version:        3.14.1.0.2
-Release:        3%{?dist}
+Version:        3.22.0
+Release:        1%{?dist}
 Summary:        Help a new user get started in GNOME
 
 License:        CC-BY-SA
 URL:            http://help.gnome.org/
-Source0:        %{name}-%{version}.tar.xz
-Group:          Documentation
+Source0:        http://download.gnome.org/sources/gnome-getting-started-docs/3.22/%{name}-%{version}.tar.xz
 
 BuildArch:      noarch
 
@@ -16,10 +15,6 @@ BuildRequires:  itstool
 BuildRequires:  yelp-tools
 Requires: gnome-user-docs
 
-# https://bugzilla.redhat.com/show_bug.cgi?id=1302982
-Patch0: gnome-getting-started-docs-3.14.1.0.2-EL7.3_translations.patch
-Patch1: gnome-getting-started-docs-3.14.1.0.2-EL7.3_translations_for_it.patch
-
 %description
 This package contains a 'Getting Started' guide that can be viewed
 with yelp. It is normally used together with gnome-initial-setup.
@@ -27,7 +22,6 @@ with yelp. It is normally used together with gnome-initial-setup.
 
 %package cs
 Summary:        Czech translations for gnome-getting-started-docs videos
-Group:          Documentation
 Requires:       gnome-getting-started-docs = %{version}-%{release}
 
 %description cs
@@ -36,7 +30,6 @@ Czech (cs) translations for the Getting Started guide videos.
 
 %package de
 Summary:        German translations for gnome-getting-started-docs videos
-Group:          Documentation
 Requires:       gnome-getting-started-docs = %{version}-%{release}
 
 %description de
@@ -45,7 +38,6 @@ German (de) translations for the Getting Started guide videos.
 
 %package es
 Summary:        Spanish translations for gnome-getting-started-docs videos
-Group:          Documentation
 Requires:       gnome-getting-started-docs = %{version}-%{release}
 
 %description es
@@ -54,7 +46,6 @@ Spanish (es) translations for the Getting Started guide videos.
 
 %package fr
 Summary:        French translations for gnome-getting-started-docs videos
-Group:          Documentation
 Requires:       gnome-getting-started-docs = %{version}-%{release}
 
 %description fr
@@ -63,7 +54,6 @@ French (fr) translations for the Getting Started guide videos.
 
 %package gl
 Summary:        Galician translations for gnome-getting-started-docs videos
-Group:          Documentation
 Requires:       gnome-getting-started-docs = %{version}-%{release}
 
 %description gl
@@ -72,7 +62,6 @@ Galician (gl) translations for the Getting Started guide videos.
 
 %package hu
 Summary:        Hungarian translations for gnome-getting-started-docs videos
-Group:          Documentation
 Requires:       gnome-getting-started-docs = %{version}-%{release}
 
 %description hu
@@ -81,7 +70,6 @@ Hungarian (hu) translations for the Getting Started guide videos.
 
 %package it
 Summary:        Italian translations for gnome-getting-started-docs videos
-Group:          Documentation
 Requires:       gnome-getting-started-docs = %{version}-%{release}
 
 %description it
@@ -90,7 +78,6 @@ Italian (it) translations for the Getting Started guide videos.
 
 %package pl
 Summary:        Polish translations for gnome-getting-started-docs videos
-Group:          Documentation
 Requires:       gnome-getting-started-docs = %{version}-%{release}
 
 %description pl
@@ -99,7 +86,6 @@ Polish (pl) translations for the Getting Started guide videos.
 
 %package pt_BR
 Summary:        Brazilian Portuguese translations for gnome-getting-started-docs videos
-Group:          Documentation
 Requires:       gnome-getting-started-docs = %{version}-%{release}
 
 %description pt_BR
@@ -108,7 +94,6 @@ Brazilian Portuguese (pt_BR) translations for the Getting Started guide videos.
 
 %package ru
 Summary:        Russian translations for gnome-getting-started-docs videos
-Group:          Documentation
 Requires:       gnome-getting-started-docs = %{version}-%{release}
 
 %description ru
@@ -117,8 +102,6 @@ Russian (ru) translations for the Getting Started guide videos.
 
 %prep
 %setup -q
-%patch0 -p1 -b gnome-getting-started-docs-3.14.1.0.2-EL7.3_translations.patch
-%patch1 -p1 -b gnome-getting-started-docs-3.14.1.0.2-EL7.3_translations_for_it.patch
 
 
 %build
@@ -127,7 +110,7 @@ make %{?_smp_mflags}
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT INSTALL="install -p"
+%make_install
 
 %find_lang %{name} --all-name --with-gnome
 
@@ -178,6 +161,10 @@ make install DESTDIR=$RPM_BUILD_ROOT INSTALL="install -p"
 
 
 %changelog
+* Fri Mar 10 2017 Matthias Clasen <mclasen@redhat.com> - 3.22.0-1
+- Rebase to 3.22.0
+  Resolves: rhbz#1386895
+
 * Thu Jun 23 2016 Petr Kovar <pkovar@redhat.com> - 3.14.1.0.2-3
 - Update it translation
 - Resolves: rhbz#1302982

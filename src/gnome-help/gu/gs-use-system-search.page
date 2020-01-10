@@ -61,12 +61,13 @@
       <p>GNOME ને તમે વૈવિધ્યપૂર્ણ બનવા દો જે તમે <gui>પ્રવૃત્તિ ઝાંખી</gui> માં શોધ પરિણામોમાં દેખવા માંગો છો. ઉદાહરણ તરીકે, તમે પસંદ કરી શકો છો ક્યાંતો તમે વેબસાઇટ, ફોટો, અથવા સંગીત માટે પરિણામો ને બતાવવા ઇચ્છો છો. </p>
       </note>
 
-      <p>વૈવિધ્યપૂર્ણ બનાવવા માટે શોધ પરિણામોમાં શું દર્શાવેલ છે:</p>
 
       <steps>
-        <item><p>Click the system menu on the right side of the top bar and press
-         the settings button at the bottom of the menu.</p></item>
-        <item><p>વસ્તુઓની યાદીમાંથી, <gui>શોધો</gui> પસંદ કરો.</p></item>
+        <title>વૈવિધ્યપૂર્ણ બનાવવા માટે શોધ પરિણામોમાં શું દર્શાવેલ છે:</title>
+        <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p></item>
+        <item><p>Click the settings button at the bottom left of the menu.</p></item>
+        <item><p>Click the <gui>Search</gui> panel.</p></item>
         <item><p>શોધ સ્થાનોની યાદીમાં, સ્થાનને શોધવા માટે આગળ <gui>ચાલુ/બંધ</gui> સ્વીચ પર ક્લિક કરો જે તમે સક્રિય અથવા નિષ્ક્રિય કરવા માંગો છો.</p>
          </item>
       </steps>

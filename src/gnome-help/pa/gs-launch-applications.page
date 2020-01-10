@@ -10,13 +10,11 @@
       <name>ਪੇਟਰ ਕੋਵਰ</name>
     </credit>
 
-<!--
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Launch applications</title>
+    <title role="trail" type="link">ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਣਾ</title>
     <link type="seealso" xref="shell-apps-open"/>
-    <title role="seealso" type="link">A tutorial on launching applications</title>
+    <title role="seealso" type="link">ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਣ ਲਈ ਸਿਖਲਾਈ</title>
     <link type="next" xref="gs-switch-tasks"/>
--->
   </info>
 
   <title>ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਣਾ</title>

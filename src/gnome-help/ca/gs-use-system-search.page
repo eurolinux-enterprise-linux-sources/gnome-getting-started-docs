@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Manel Vidal</mal:name>
       <mal:email>verduler@gmail.com</mal:email>
-      <mal:years>2013, 2014/t</mal:years>
+      <mal:years>2013, 2014</mal:years>
     </mal:credit>
   </info>
 
@@ -64,11 +64,13 @@
       <p>El GNOME us permet personalitzar quins resultats de cerca voleu mostrar a la <gui>Vista general de les activitats</gui>. Per exemple, podeu escollir si voleu incloure als resultats els llocs web, les fotografies o la música.</p>
       </note>
 
-      <p>Si voleu personalitzar quins resultats es mostraran als resultats de la cerca:</p>
 
       <steps>
-        <item><p>Feu clic al menú del sistema situat a la part dreta del la barra superior i feu clic al botó de paràmetres situat a la part inferior del menú.</p></item>
-        <item><p>A la llista d'elements, seleccioneu <gui>Cerca</gui>.</p></item>
+        <title>Si voleu personalitzar quins resultats es mostraran als resultats de la cerca:</title>
+        <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p></item>
+        <item><p>Click the settings button at the bottom left of the menu.</p></item>
+        <item><p>Click the <gui>Search</gui> panel.</p></item>
         <item><p>A la llista llocs on es pot cercar, feu clic al commutador <gui>actiu/inactiu</gui> al costat del lloc que voleu habilitar o deshabilitar.  </p>
          </item>
       </steps>

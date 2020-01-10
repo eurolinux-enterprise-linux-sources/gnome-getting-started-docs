@@ -27,12 +27,9 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-search1.svg" width="100%"/>
     
     <steps>
-    <item><p>Open the <gui>Activities Overview</gui> by pressing the
-    <key href="help:gnome-help/keyboard-key-super">Super</key> key. Start typing
-    to search.</p>
-    <p>Results matching what you have typed will appear as you type. The first
-    result is always highlighted and shown at the top.</p>
-    <p>Press <key>Enter</key> to switch to the first highlighted result.</p></item>
+    <item><p>Otvoríme <gui>Prehľad aktivít</gui> stlačením klávesu <key href="help:gnome-help/keyboard-key-super">Super</key>. Písaním spustíme vyhľadávanie.</p>
+    <p>Počas písania sa zobrazujú výsledky zodpovedajúce tomu čo sme napísali. Prvý výsledok je vždy zvýraznený a zobrazuje sa hore.</p>
+    <p>Stlačením klávesu <key>Enter</key> sa prepneme na prvý zvýraznený výsledok.</p></item>
     </steps>
     
     <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
@@ -67,12 +64,12 @@
       <p>GNOME nám umožňuje prispôsobiť to, čo chceme zobrazovať medzi výsledkami vyhľadávania v <gui>Prehľade aktivít</gui>. Napríklad si môžeme vybrať, či chceme zobraziť výsledky internetových stránok, fotografií, alebo hudby.</p>
       </note>
 
-      <p>To, čo chceme zobraziť vo výsledkoch vyhľadávania môžeme prispôsobiť takto:</p>
 
       <steps>
-        <item><p>Click the system menu on the right side of the top bar and press
-         the settings button at the bottom of the menu.</p></item>
-        <item><p>Zo zoznamu položiek vyberieme <gui>Vyhľadávanie</gui>.</p></item>
+        <title>To, čo chceme zobraziť vo výsledkoch vyhľadávania môžeme prispôsobiť takto:</title>
+        <item><p>Klikneme na ponuku <gui xref="shell-introduction#yourname">Systém </gui> v pravej časti horného panelu.</p></item>
+        <item><p>Klikneme na tlačidlo Nastavenia v ľavej dolnej časti ponuky.</p></item>
+        <item><p>Klikneme na panel <gui>Hľadať</gui>.</p></item>
         <item><p>Ak chceme povoliť alebo blokovať vyhľadávanie v nejakom umiestnení, klikneme na prepínač <gui>ZAP/VYP</gui> vedľa daného umiestnenia v zozname.</p>
          </item>
       </steps>

@@ -7,24 +7,30 @@
       <name>Якуб Штайнер (Jakub Steiner)</name>
     </credit>
     <credit type="author">
-      <name>Пётр Ковар (Petr Kovar)</name>
+      <name>Петр Ковар (Petr Kovar)</name>
     </credit>
     <link type="guide" xref="getting-started" group="tasks"/>
-    <title role="trail" type="link">Использование окон и рабочих столов</title>
+    <title role="trail" type="link">Использование окон и рабочих мест</title>
     <link type="seealso" xref="shell-windows-switching"/>
-    <title role="seealso" type="link">Руководство по использованию окон и рабочих столов</title>
+    <title role="seealso" type="link">Руководство по использованию окон и рабочих мест</title>
     <link type="next" xref="gs-use-system-search"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Юлия Дронова</mal:name>
       <mal:email>juliette.tux@gmail.com</mal:email>
-      <mal:years>2014</mal:years>
+      <mal:years>2014.</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Юрий Мясоедов</mal:name>
       <mal:email>ymyasoedov@yandex.ru</mal:email>
-      <mal:years>2014</mal:years>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2015.</mal:years>
     </mal:credit>
   </info>
 
@@ -63,19 +69,19 @@
            <tt:p>Когда в левой половине экрана появится подсветка, отпустите окно.</tt:p>
          </tt:div>
          <tt:div begin="54s" end="60s">
-           <tt:p>Чтобы раскрыть окно на весь экран используя клавиатуру, нажмите левую клавишу <key href="help:gnome-help/keyboard-key-super">Win</key> и затем <key>↑</key>.</tt:p>
+           <tt:p>Чтобы развернуть окно на весь экран с помощью клавиатуры, нажмите клавишу <key href="help:gnome-help/keyboard-key-super">Super</key> и затем <key>↑</key>.</tt:p>
          </tt:div>
          <tt:div begin="61s" end="66s">
-           <tt:p>Чтобы восстановить прежний размер окна используя клавиатуру, нажмите левую клавишу <key href="help:gnome-help/keyboard-key-super">Win</key> и затем <key>↓</key>.</tt:p>
+           <tt:p>Чтобы восстановить прежний размер окна используя клавиатуру, нажмите клавишу <key href="help:gnome-help/keyboard-key-super">Super</key> и затем <key>↓</key>.</tt:p>
          </tt:div>
          <tt:div begin="66s" end="73s">
-           <tt:p>Чтобы максимально раскрыть окно вдоль правой стороны экрана, нажмите левую клавишу <key href="help:gnome-help/keyboard-key-super">Win</key> и затем <key>→</key>.</tt:p>
+           <tt:p>Чтобы растянуть окно вдоль правой стороны экрана, нажмите клавишу <key href="help:gnome-help/keyboard-key-super">Super</key> и затем <key>→</key>.</tt:p>
          </tt:div>
          <tt:div begin="76s" end="82s">
-           <tt:p>Чтобы максимально раскрыть окно вдоль левой стороны экрана, нажмите левую клавишу <key href="help:gnome-help/keyboard-key-super">Win</key> и затем <key>←</key>.</tt:p>
+           <tt:p>Чтобы растянуть окно вдоль левой стороны экрана, нажмите клавишу <key href="help:gnome-help/keyboard-key-super">Super</key> и затем <key>←</key>.</tt:p>
          </tt:div>
          <tt:div begin="83s" end="89s">
-           <tt:p>Чтобы переключиться на нижнее рабочее место, нажмите <keyseq><key href="help:gnome-help/keyboard-key-super">Win </key><key>Page Down</key></keyseq>.</tt:p>
+           <tt:p>Чтобы переключиться на нижнее рабочее место, нажмите <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Page Down</key></keyseq>.</tt:p>
          </tt:div>
          <tt:div begin="90s" end="97s">
            <tt:p>Чтобы переключиться на верхнее рабочее место, нажмите <keyseq><key href="help:gnome-help/keyboard-key-super">Super </key><key>Page Up</key></keyseq>.</tt:p>
@@ -86,36 +92,36 @@
   </ui:overlay>
   
   <section id="use-workspaces-and-windows-maximize">
-    <title>Полноэкранный и обычный размер окон</title>
+    <title>Разворачивание окон на полный экран и восстановление их размеров</title>
     <p/>
     
     <steps>
-      <item><p>Чтобы раскрыть окно во весь экран, перетащите заголовок окна к верхней части экрана.</p></item>
-      <item><p>Когда на экране появится подсветка, отпустите окно чтобы его раскрыть.</p></item>
-      <item><p>Чтобы восстановить окно из полноэкранного состояния, перетащите его заголовок по направлению от краёв экрана.</p></item>
+      <item><p>Чтобы развернуть окно на весь экран, перетащите заголовок окна в верхную часть экрана.</p></item>
+      <item><p>Когда на экране появится подсветка, отпустите окно, чтобы его развернуть.</p></item>
+      <item><p>Чтобы восстановить размеры окна, перетащите его заголовок от края экрана.</p></item>
     </steps>
     
   </section>
 
   <section id="use-workspaces-and-windows-tile">
-    <title>Расположить окна «плиткой»</title>
+    <title>Плиточное расположение окон</title>
     <p/>
     
     <steps>
       <item><p>Чтобы развернуть окно вдоль правой или левой стороны экрана, перетащите заголовок окна на правую или на левую сторону экрана.</p></item>
-      <item><p>Когда выделится половина экрана, отпустите окно, чтобы оно развернулось на всю выделенную область.</p></item>
-      <item><p>Чтобы развернуть два окна рядом друг с другом, захватите заголовок второго окна и перетащите его на противоположную сторону экрана.</p></item>
-       <item><p>Когда выделится половина экрана, отпустите окно, чтобы оно развернулось на всю противоположную сторону экрана.</p></item>
+      <item><p>При появлении на экране подсветки отпустите окно, чтобы оно заняло на экране всю выделенную область.</p></item>
+      <item><p>Чтобы развернуть два окна рядом друг с другом, перетащите заголовок второго окна на противоположную сторону экрана.</p></item>
+       <item><p>При появлении на экране подсветки отпустите окно, чтобы оно заняло на экране всю противоположную область.</p></item>
     </steps>
     
   </section>
   
   <section id="use-workspaces-and-windows-maximize-keyboard">
-    <title>Полноэкранный и обычный размер окон с помощью клавиатуры</title>
+    <title>Разворачивание окон на полный экран и восстановление их размеров с помощью клавиатуры</title>
     
     <steps>
-      <item><p>Чтобы раскрыть окно на весь экран используя клавиатуру, нажмите левую клавишу <key href="help:gnome-help/keyboard-key-super">Win</key> и затем <key>↑</key>.</p></item>
-      <item><p>Чтобы вернуть прежний размер окна с помощью клавиатуры, нажмите левую , <key href="help:gnome-help/keyboard-key-super">Win</key> и затем <key>↓</key>.</p></item>
+      <item><p>Чтобы развернуть окно на весь экран с помощью клавиатуры, нажмите клавишу <key href="help:gnome-help/keyboard-key-super">Super</key> и затем <key>↑</key>.</p></item>
+      <item><p>Чтобы восстановить размеры окна с помощью клавиатуры, нажмите клавишу <key href="help:gnome-help/keyboard-key-super">Super</key> и затем <key>↓</key>.</p></item>
     </steps>
     
   </section>
@@ -124,19 +130,19 @@
     <title>Плиточное расположение окон с помощью клавиатуры</title>
     
     <steps>
-      <item><p>Чтобы максимально раскрыть окно вдоль правой стороны экрана, нажмите левую клавишу <key href="help:gnome-help/keyboard-key-super">Win</key> и затем <key>→</key>.</p></item>
-      <item><p>Чтобы максимально раскрыть окно вдоль левой стороны экрана, нажмите левую клавишу <key href="help:gnome-help/keyboard-key-super">Win</key> и затем <key>←</key>.</p></item>
+      <item><p>Чтобы растянуть окно вдоль правой стороны экрана, нажмите клавишу <key href="help:gnome-help/keyboard-key-super">Super</key> и затем <key>→</key>.</p></item>
+      <item><p>Чтобы растянуть окно вдоль левой стороны экрана, нажмите клавишу <key href="help:gnome-help/keyboard-key-super">Super</key> и затем <key>←</key>.</p></item>
     </steps>
     
   </section>
   
   <section id="use-workspaces-and-windows-workspaces-keyboard">
-    <title>Перемещение между рабочими местами с помощью клавиатуры</title>
+    <title>Переключение рабочих мест с помощью клавиатуры</title>
     
     <steps>
     
-    <item><p>Чтобы переключиться на рабочий стол под текущим, нажмите сочетание клавиш: левая <keyseq><key href="help:gnome-help/keyboard-key-super">Win</key><key>Page Down</key></keyseq>.</p></item>
-    <item><p>Чтобы переключиться на рабочий стол над текущим, нажмите сочетание клавиш: левая <keyseq><key href="help:gnome-help/keyboard-key-super">Win</key><key>Page Up</key></keyseq>.</p></item>
+    <item><p>Чтобы переключиться на одно рабочее место вниз, нажмите комбинацию клавиш <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Down</key></keyseq>.</p></item>
+    <item><p>Чтобы переключиться на одно рабочее место вверх, нажмите комбинацию клавиш <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Up</key></keyseq>.</p></item>
 
     </steps>
     

@@ -27,36 +27,35 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>Click the system menu on the right side of the top bar.</p></item>
-      <item><p>Press the settings button at the bottom of the menu.</p></item>
+      <item><p>Klikneme na ponuku <gui xref="shell-introduction#yourname">Systém </gui> v pravej časti horného panelu.</p></item>
+      <item><p>Klikneme na tlačidlo Nastavenia v ľavej dolnej časti ponuky.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>From the list of items, select <gui>Online Accounts</gui>, then
-      click on the <gui>Add an online account</gui> button.</p></item>
+      <item><p>Klikneme na panel <gui>Účty služieb</gui>, potom klikneme na tlačidlo <gui>Pridať účet služieb</gui>.</p></item>
     </steps>
     
-    <note><p>Ak už máme online účet nastavený, ďalší môžeme pridať kliknutím na tlačidlo <gui>+</gui> v ľavom spodnom rohu okna.</p></note>
+    <note><p>Ak už máme účet služieb nastavený, ďalší môžeme pridať kliknutím na tlačidlo <gui>+</gui> v ľavom dolnom rohu okna.</p></note>
     
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
 
     <steps style="continues">  
-      <item><p>Klikneme na online účet, ktorý chceme použiť. Tým sa otvorí nové okno, v ktorom sa môžeme prihlásiť do svojho online účtu.</p></item>
+      <item><p>Klikneme na účet služieb, ktorý chceme použiť. Tým sa otvorí nové okno, v ktorom sa môžeme prihlásiť do svojho účtu služieb.</p></item>
     </steps>
       
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa4.svg" width="100%"/>
 
     <steps style="continues">  
-      <item><p>Vo väčšine prípadov budeme musieť po prihlásení umožniť online službe prístup, aby sme mohli začať.</p></item>
+      <item><p>Vo väčšine prípadov budeme musieť po prihlásení umožniť k službe prístup, aby sme mohli začať.</p></item>
       <item><p>Napríklad, ak sa pripájame k účtu Google, budeme musieť kliknúť na tlačidlo <gui>Umožniť prístup</gui>.</p></item>
     </steps>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa5.svg" width="100%"/>
 
     <steps style="continues">  
-      <item><p>Väčšina online účtov nás nechá vybrať služby, ktoré chceme používať s našim online účtom. Ak určitú službu  nechceme použiť, vypneme ju kliknutím na prepínač <gui>ZAP/VYP</gui> na pravej strane okna.</p></item>
+      <item><p>Väčšina účtov služieb nás nechá vybrať služby, ktoré chceme používať s našim účtom služieb. Ak určitú službu  nechceme použiť, vypneme ju kliknutím na prepínač <gui>ZAP/VYP</gui> na pravej strane okna.</p></item>
     </steps>
 
 </page>

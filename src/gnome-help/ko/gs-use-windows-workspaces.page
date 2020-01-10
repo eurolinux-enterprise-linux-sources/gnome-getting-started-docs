@@ -16,9 +16,9 @@
     <link type="next" xref="gs-use-system-search"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Seong-ho Cho</mal:name>
+      <mal:name>조성호</mal:name>
       <mal:email>shcho@gnome.org</mal:email>
-      <mal:years>2014</mal:years>
+      <mal:years>2014, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -42,7 +42,7 @@
            <tt:p>창 최대화 상태를 취소하려면, 창의 제목 표시줄을 붙잡고 화면 가장자리로부터 끌어내십시오.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
-           <tt:p>상단 표시줄을 눌러서 창을 다른 곳으로 끌어내어 최대화 상태에서 복귀 할 수 있습니다.</tt:p>
+           <tt:p>상단 표시줄을 눌러 창을 다른 곳으로 끌어내면 최대화 상태에서 복귀 할 수 있습니다.</tt:p>
          </tt:div>
          <tt:div begin="34s" end="38s">
            <tt:p>화면 좌측으로 창을 최대화하려면, 창의 제목 표시줄을 붙잡고 좌측으로 끌어 이동하십시오.</tt:p>

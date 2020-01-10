@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="as">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0" xml:lang="as">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -18,57 +18,27 @@
 
   <title>তাৰিখ, সময় আৰু সময়অঞ্চল পৰিবৰ্তন কৰক</title>
 
-  <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
-       <tt:body>
-         <tt:div begin="1s" end="5s">
-           <tt:p>তাৰিখ &amp; সময় পৰিবৰ্তন কৰা হৈছে</tt:p>
-         </tt:div>
-         <tt:div begin="6s" end="9s">
-           <tt:p>ওপৰৰ বাৰত ঘড়ীত ক্লিক কৰক।</tt:p>
-           </tt:div>
-         <tt:div begin="9s" end="13s">
-           <tt:p><gui>তাৰিখ &amp; সময় সংহতিসমূহ</gui> বাছক।</tt:p>
-         </tt:div>
-         <tt:div begin="13s" end="15s">
-           <tt:p><gui>স্বচালিত সময় অঞ্চল</gui> বন্ধ থকাটো সুনিশ্চিত কৰক।</tt:p>
-         </tt:div>
-         <tt:div begin="15s" end="17s">
-           <tt:p><gui>সময় অঞ্চল</gui> ক্লিক কৰক।</tt:p>
-         </tt:div>
-         <tt:div begin="17s" end="21s">
-           <tt:p>আপোনাৰ মেপৰ অৱস্থানত ক্লিক কৰক।</tt:p>
-         </tt:div>
-         <tt:div begin="21s" end="23s">
-           <tt:p><gui>বন্ধ কৰক</gui> ক্লিক কৰক।</tt:p>
-         </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>উইন্ডো বন্ধ কৰক।</tt:p>
-         </tt:div>
-       </tt:body>
-     </tt:tt>
-  </media>
-  </ui:overlay>
-
-  <section id="change-date-time">
-    <title>তাৰিখ, সময় আৰু সময়অঞ্চল পৰিবৰ্তন কৰক</title>
+  <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
   <steps>
-    <item><p>ওপৰ বাৰত থকা ঘড়ী ক্লিক কৰক আৰু <gui>তাৰিখ &amp; সময় সংহতিসমূহ</gui> বস্তু বাছক।</p></item>
+    <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+    on the right side of the top bar.</p></item>
+    <item><p>Click the settings button at the bottom left of the menu.</p></item>
+    <item><p>Select the <gui>Date &amp; Time</gui> panel.</p></item>
+  </steps>
+  
+  <media its:translate="no" type="image" mime="image/svg" src="gs-datetime.svg" width="100%"/>
+  
+  <steps style="continues">
     <item><p><gui>স্বচালিত সময় অঞ্চল</gui> বস্তু বন্ধ থকাটো সুনিশ্চিত কৰক, আৰু তাৰ পিছত তলত <gui>সময় অঞ্চল</gui> বস্তু ক্লিক কৰক।</p></item>
-    <item><p>মানচিত্ৰত আপোনাৰ অৱস্থানত ক্লিক কৰক। ই আপোনাৰ বৰ্তমান শহৰ নিৰ্বাচন কৰে, যাক আপুনি মানচিত্ৰৰ ওপৰৰ সন্ধান বাকচতো সন্ধান কৰিব পাৰিব।</p></item>
-    <item><p><gui>তাৰিখ &amp; সময় সংহতিসমূহ</gui> উইন্ডোলৈ ঘুৰি যাবলৈ <gui>বন্ধ কৰক</gui> বুটাম ক্লিক কৰক।</p></item>
+    <item><p>Click on your location on the world map. This selects your current
+     city, which you can also search for in the search box above the map.</p></item>
+    <item><p>Close the world map window to go back to the <gui>Date &amp;
+     Time</gui>.</p></item>
     <item><p>সুনিশ্চিত কৰক যে <gui>স্বচালিত তাৰিখ &amp; সময়</gui> বন্ধ আছে, আৰু তাৰ পিছত <gui>তাৰিখ &amp; সময়</gui> উইন্ডো খোলিবলৈ তলত <gui>তাৰিখ &amp; সময়</gui> বস্তু ক্লিক কৰক। তাত আপুনি <gui>+</gui> অথবা <gui>-</gui> বুটামসমূহ ক্লিক কৰি আপোনাৰ তাৰিখ আৰু সময় সংহতিসমূহ পৰিবৰ্তন কৰিব পাৰিব।</p>
      </item>
-    <item><p><gui>তাৰিখ &amp; সময় সংহতিসমূহ</gui> উইন্ডোলৈ ঘুৰি যাবলৈ <gui>বন্ধ কৰক</gui> বুটাম ক্লিক কৰক, আৰু তাৰ পিছত সেই উইন্ডোক ওপৰফালে সোঁ চুকত ক্ৰচত ক্লিক কৰি বন্ধ কৰক।</p></item>
+    <item><p>Close the window to go back to the <gui>Date &amp;
+     Time</gui>, and then close the panel.</p></item>
   </steps>
-
-  <!-- FIXME: 
-	- explain what time/date does - a reference in further reading?
-  -->
-
-  </section>
 
 </page>

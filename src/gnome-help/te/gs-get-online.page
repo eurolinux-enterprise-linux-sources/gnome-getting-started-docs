@@ -13,7 +13,7 @@
     <title role="trail" type="link">ఆన్‌లైన్ రండి</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">ఆన్‌లైన్‌కు వచ్చుటపై ట్యుటోరియల్</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   </info>
 
   <title>ఆన్‌లైన్ రండి</title>
@@ -29,8 +29,12 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>పై పట్టీ యొక్క కుడి-చేతి వైపుని నెట్వర్కు అనుసంధానం ప్రతిమ మీరు ఆఫ్-లైన్ నందు వున్నారని చూపును.</p>
-      <p>ఆఫ్‌-లైన్ స్థితి చాలా కారణాల వలన కలిగివుండవచ్చు: ఉదాహరణకు, నెట్వర్కు కేబుల్ వూడిపోయి వుండవచ్చు, కంప్యూటర్ అనునది <em>విమాన రీతి</em> నందు నడుచుటకు వుంచివుండవచ్చు, లేదా మీ ప్రాంతమునందు ఏ వై-ఫై నెట్వర్కులు అందుబాటులో వుండివుండకపోవచ్చు.</p>
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are offline.</p>
+      <p>The offline status can be caused by a number of reasons: for
+       example, a network cable has been unplugged, the computer has been set
+       to run in <em>airplane mode</em>, or there are no available Wi-Fi
+       networks in your area.</p>
       <p>మీరు వైరు అనుసంధానం వుపయోగించాలని అనుకుంటే, ఆన్‌లైన్‌కు వెళ్ళుటకు నెట్వర్కు కేబుల్ గుచ్చండి. కంప్యూటర్ మీ కొరకు నెట్వర్కు అనుసంధానం స్వయంచాలకంగా ఏర్పరుచుటకు ప్రయత్నించును.</p>
       <p>మీ కొరకు కంప్యూటర్ నెట్వర్కు అనుసంధానం అమర్చునప్పుడు, నెట్వర్కు అనుసంధానం ప్రతిమ మూడు చుక్కలను చూపును.</p></item>
       <item><p>ఒకసారి నెట్వర్కు అనుసంధానం సఫలవంతంగా అమర్చిన తరువాత, నెట్వర్కు అనుసంధానం ప్రతిమ నెట్వర్కువున్న కంప్యూటర్ చిహ్నముకు మారును.</p></item>
@@ -45,8 +49,18 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>వై-ఫై (వైరులేని) నెట్వర్క్‌నకు అనుసంధానమగుటకు, తెర పై కుడి మూలనవున్న స్థితి మెనూను నొక్కి, అప్పుడు <gui>నెట్వర్కు ఎంపికచేయి</gui> నొక్కుము.</p>
-    </item>
+      <title>To connect to a Wi-Fi (wireless) network:</title>
+      <item>
+        <p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p>
+      </item>
+      <item>
+        <p>Select <gui>Wi-Fi Not Connected</gui>. The Wi-Fi section of the menu
+        will expand.</p>
+      </item>
+      <item>
+        <p>Click <gui>Select Network</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -59,8 +73,6 @@
     <item><p>అందుబాటులోవున్న వై-ఫై నెట్వర్కుల జాబితానుండి, మీరు అనుసంధానించదలచిన నెట్వర్కును ఎంపికచేయుము, ఖాయపరచుటకు <gui>అనుసంధానించు</gui> నొక్కుము.</p>
     <p>నెట్వర్క్ ఆకృతీకరణపై ఆధారపడి, మిమ్ములను నెట్వర్క్ క్రెడెన్షియల్స్ అడుగవచ్చు.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

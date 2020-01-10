@@ -3,7 +3,7 @@
 <t id="title-welcome">Vítejte</t>
 <t id="title-launch">Spouštění aplikací</t>
 <t id="title-gettingstarted">Začínáme</t>
-<t id="title-wallpaper">Změna pozadí</t>
+<t id="title-wallpaper">Změna tapety na pozadí</t>
 <t id="title-respond">Odpovídání na zprávy</t>
 <t id="title-switching">Přepínání úloh</t>
 <t id="title-MT">Opožděná odpověď</t>
@@ -15,7 +15,7 @@
 <t id="title-workspace-down">Plocha níže</t>
 <t id="title-workspace-up">Plocha výše</t>
 <t id="title-right">Pravá polovina obrazovky</t>
-<t id="activities"> </t>
+<t id="activities">Činnosti</t>
 <t its:locNote="Translators: Enter is the name of the key." id="enter">Enter</t>
 <t id="ctrl">Ctrl</t>
 <t id="alt">Alt</t>
@@ -39,7 +39,7 @@
 <t id="openclocks">Otevřít hodiny</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">Nastavení data a času</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">Datum a čas automaticky</t>
-<t id="autotimezone">Automatic Timezone</t>
-<t id="sstime">14 October 2013, 20:00</t>
-<t id="sstime2">14 October 2013, 14:00</t>
+<t id="autotimezone">Časové pásmo automaticky</t>
+<t id="sstime">14. říjen 2013, 20∶00</t>
+<t id="sstime2">14. říjen 2013, 14∶00</t>
 </titles>

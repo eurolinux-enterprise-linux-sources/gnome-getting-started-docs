@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Kelemen Gábor</mal:name>
       <mal:email>kelemeng at gnome dot hu</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:years>2013, 2015.</mal:years>
     </mal:credit>
   </info>
 
@@ -64,11 +64,12 @@
       <p>A GNOME lehetővé teszi a <gui>Tevékenységek áttekintésben</gui> megjelenő találatok személyre szabását. Eldöntheti például, hogy szeretné-e megjeleníteni a weboldalak, fényképek vagy zenék közti találatokat.</p>
       </note>
 
-      <p>A találatok személyre szabásához:</p>
 
       <steps>
-        <item><p>Kattintson a rendszer menüre a felső sáv jobb oldalán, és válassza a Beállítások gombot a menü alján.</p></item>
-        <item><p>Az elemek listájából válassza a <gui>Keresés</gui> elemet.</p></item>
+        <title>A találatok személyre szabásához:</title>
+        <item><p>Kattintson a <gui xref="shell-introduction#yourname">rendszer menüre</gui> a felső sáv jobb oldalán.</p></item>
+        <item><p>Nyomja meg a Beállítások gombot a menü bal alsó részén.</p></item>
+        <item><p>Kattintson a <gui>Keresés</gui> panelre.</p></item>
         <item><p>A keresési helyek listájában kattintson a <gui>BE/KI</gui> kapcsolóra az engedélyezni vagy letiltani kívánt keresési hely mellett.</p>
          </item>
       </steps>

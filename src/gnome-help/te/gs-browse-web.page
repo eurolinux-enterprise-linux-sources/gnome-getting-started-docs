@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" xml:lang="te">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-browse-web" version="1.0 if/1.0" xml:lang="te">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -9,13 +9,41 @@
     <credit type="author">
       <name>పెత్ర్ కోవర్</name>
     </credit>
-<!--Distributors might need to comment out the two elements below if they
-    don't ship GNOME's Web browser by default.-->
-<!--    <link type="guide" xref="getting-started" group="tasks"/>-->
-<!--    <title role="trail" type="link">Browse the web</title>-->
+    <link type="guide" xref="getting-started" group="tasks"/>
+    <title role="trail" type="link">వెబ్ బ్రౌజ్ చేయి</title>
+    <link type="seealso" xref="net-browser"/>
+    <title role="seealso" type="link">A tutorial on browsing the web</title>
+    <link type="next" xref="gs-connect-online-accounts"/>
   </info>
 
   <title>వెబ్ బ్రౌజ్ చేయి</title>
+
+<if:choose>
+<if:when test="platform:gnome-classic">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox-classic.svg" width="100%"/>
+
+    <steps>
+      <item><p>తెర పైఎడమ వద్ద <gui>అనువర్తనాలు</gui> మెనూ నొక్కుము.</p></item>
+      <item><p>మెనూ నుండి, <guiseq><gui>అంతర్జాలం</gui><gui>ఫైర్‌ఫాక్స్</gui> </guiseq> ఎంపికచేయి.</p></item>
+    </steps>
+
+</if:when>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:when test="platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1-firefox.svg" width="100%"/>
+
+    <steps>
+      <item><p><gui>కార్యకలాపాల అవలోకనం</gui> చూపుటకు తెర పైన ఎడమవైపు మూలన <gui>కార్యకలాపాలు</gui> కు మీ మౌస్ సూచకిని కదుపుము</p></item>
+      <item><p>తెర ఎడమ-చేతి వైపుని పట్టీ నుండి <app>ఫైర్‌ఫాక్స్</app> బ్రౌజర్ ప్రతిమను ఎంపికచేయి.</p></item>
+    </steps>
+
+    <note><p>ప్రత్యామ్నాయంగా, <gui>కార్యకలాపాల అవలోకనం</gui> నందు <em>Firefox</em> <link xref="gs-use-system-search">టైపు చేయుట</link> ద్వారా మీరు బ్రౌజర్ ఆరంభించవచ్చు.</p></note>
+
+</if:when>
+<if:when test="platform:gnome-3">
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser1.svg" width="100%"/>
 
@@ -27,6 +55,16 @@
     <note><p>ప్రత్యామ్నాయంగా, <gui>కార్యకలాపాల అవలోకనం</gui> నందు <em>web</em> <link xref="gs-use-system-search">టైపు చేయుట</link> ద్వారా మీరు బ్రౌజర్ ఆరంభించవచ్చు.</p></note>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2.svg" width="100%"/>
+
+</if:when>
+</if:choose>
+
+<!--Distributors might want to add their distro here if they ship Firefox by default.-->
+<if:if test="platform:gnome-classic, platform:centos, platform:debian, platform:fedora, platform:rhel, platform:ubuntu, platform:opensuse, platform:sled, platform:sles">
+
+    <media its:translate="no" type="image" mime="image/svg" src="gs-web-browser2-firefox.svg" width="100%"/>
+
+</if:if>
 
     <steps style="continues">
       <item><p>బ్రౌజర్ విండో పైన చిరునామా పట్టీ పై నొక్కి మీరు దర్శించాలని అనుకొనుచున్న వెబ్‌సైట్ టైపు చేయుట ప్రారంభించవచ్చు.</p></item>

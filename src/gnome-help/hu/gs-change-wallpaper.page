@@ -17,7 +17,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Kelemen Gábor</mal:name>
       <mal:email>kelemeng at gnome dot hu</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:years>2013, 2015.</mal:years>
     </mal:credit>
   </info>
 
@@ -58,8 +58,9 @@
     <title>Háttérkép módosítása</title>
     
     <steps>
-      <item><p>Kattintson a rendszer menüre a felső sáv jobb oldalán, és válassza a Beállítások gombot a menü alján.</p></item>
-      <item><p>Az elemek listájából válassza a <gui>Háttér</gui> ikont.</p></item>
+      <item><p>Kattintson a <gui xref="shell-introduction#yourname">rendszer menüre</gui> a felső sáv jobb oldalán.</p></item>
+      <item><p>Nyomja meg a Beállítások gombot a menü bal alsó részén.</p></item>
+      <item><p>Kattintson a <emph>Háttér</emph> panelre.</p></item>
       <item><p>Kattintson a jelenlegi háttérkép képére a <gui>Háttér</gui> ablak bal oldalán.</p></item>
       <item><p>Kattintson a használni kívánt háttérképre.</p></item>
       <item><p>Nyomja meg a <gui>Kijelölés</gui> gombot.</p></item>

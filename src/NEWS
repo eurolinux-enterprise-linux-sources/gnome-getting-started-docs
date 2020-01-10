@@ -1,19 +1,118 @@
-==================
-Version 3.14.1.0.2
-==================
+==============
+Version 3.22.0
+==============
 
-* Re-branded videos and SVGs (Jakub Steiner, Petr Kovar)
+* Updates to Getting Started (Jeremy Bicha, Jakub Steiner, Dominique Leuenberger)
+* Updated translations:
+  ca        (Jordi Mas)
+  cs        (Marek Černocký)
+  de        (Christian Kirbach)
+  es        (Daniel Mustieles)
+  fr        (Jean-Baptiste Holcroft)
+  gl        (Fran Dieguez)
+  he        (Yosef Or Boczko)
+  hu        (Balázs Úr)
+  pl        (Piotr Drąg)
+  pt        (Tiago Santos)
+  pt_BR     (Rafael Fontenelle)
+  sv        (Anders Jonsson)
 
-==================
-Version 3.14.1.0.1
-==================
+===============
+Version 3.21.90
+===============
 
-* Downstream updates to Getting Started (Jakub Steiner, Petr Kovar)
-* Use the correct gs-browse-web page and not gs-switch-tasks
+* Drop gs-browse-web-firefox.page and use conditional content for downstream
+  in gs-browse-web. Distributors might want to add their distro there if they
+  ship Firefox by default.
+* Updated translations:
+  as        (Piotr Drąg)
+  gu        (Piotr Drąg)
+  id        (Andika Triwidada)
+  pt        (Pedro Albuquerque)
+  sk        (Peter Mráz)
+  sv        (Anders Jonsson)
+  zh_HK     (Piotr Drąg)
+
+==============
+Version 3.20.0
+==============
+
+* Updated translations:
+  ca        (Jordi Mas)
+  ja        (Jiro Matsuzawa)
+  ko        (Seong-ho Cho)
+  lv        (Rūdolfs Mazurs)
+  pt_BR     (Rafael Fontenelle)
+
+==============
+Version 3.18.2
+==============
+
+* Updates to Getting Started (Petr Kovar)
+* Updated translations:
+  el        (Tom Tryfonidis)
+  es        (Daniel Mustieles)
+  hu        (Gábor Kelemen)
+  pt_BR     (Felipe Braga)
+  sv        (Anders Jonsson)
+
+==============
+Version 3.18.1
+==============
+
+* Updates to Getting Started (Petr Kovar, Marek Černocký)
+* Updated translations:
+  cs        (Marek Černocký)
+  de        (Wolfgang Stöggl, Christian Kirbach)
+  el        (Tom Tryfonidis)
+  es        (Daniel Mustieles)
+  fi        (Jiri Grönroos)
+  hu        (Gábor Kelemen)
+  pl        (Piotr Drąg)
+  sv        (Anders Jonsson)
+
+==============
+Version 3.18.0
+==============
+
+* Updates to Getting Started (Petr Kovar, Michael Catanzaro, Jakub Steiner)
+* Updated translations:
+  de        (Christian Kirbach)
+  el        (Dimitris Spingos)
+  fi        (Timo Jyrinki)
+  fr        (Leonor Palazzo)
+  ja        (Jiro Matsuzawa)
+  ko        (Seong-ho Cho)
+  ru        (Stas Solovey)
+  sv        (Sebastian Rasmussen)
+
+==============
+Version 3.16.2
+==============
+
+* Updates to gnome-responding-to-messages (Jakub Steiner, Petr Kovar)
+* Updated translations:
+  cs        (Marek Černocký)
+  es        (Daniel Mustieles)
+  hu        (Gábor Kelemen)
+  pl        (Piotr Drąg)
+
+==============
+Version 3.16.1
+==============
+
+* Updates to gnome-responding-to-messages (Jakub Steiner, Petr Kovar)
+
+==============
+Version 3.16.0
+==============
+
 * Updated translations:
   ca        (Manel Vidal)
+  cs        (Marek Černocký)
   gu        (Sweta Kothari)
   ru        (Yuri Myasoedov)
+  sk        (Pavol Klačanský)
 
 ==============
 Version 3.14.1

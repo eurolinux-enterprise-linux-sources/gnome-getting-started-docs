@@ -15,7 +15,7 @@
 <t id="title-workspace-down">ಕಾರ್ಯಸ್ಥಳ ಕೆಳಕ್ಕೆ</t>
 <t id="title-workspace-up">ಕಾರ್ಯಸ್ಥಳ ಮೇಲಕ್ಕೆ</t>
 <t id="title-right">ತೆರೆಯ ಬಲ ಅರ್ಧಭಾಗ</t>
-<t id="activities"> </t>
+<t id="activities">ಚಟುವಟಿಕೆಗಳು</t>
 <t its:locNote="Translators: Enter is the name of the key." id="enter">Enter</t>
 <t id="ctrl">Ctrl</t>
 <t id="alt">Alt</t>

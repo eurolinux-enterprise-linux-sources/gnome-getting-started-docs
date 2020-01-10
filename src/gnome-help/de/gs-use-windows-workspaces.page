@@ -24,7 +24,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013, 2014</mal:years>
+      <mal:years>2013, 2014, 2015, 2016</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -92,13 +92,13 @@
   </ui:overlay>
   
   <section id="use-workspaces-and-windows-maximize">
-    <title>Maximieren und wiederherstellen des Fensters</title>
+    <title>Maximieren und Wiederherstellen von Fenstern</title>
     <p/>
     
     <steps>
-      <item><p>Zum Maximieren des Fensters so dass es den ganzen Platz auf der Arbeitsfläche einnimmt, klicken Sie die Titelleiste des Fensters und ziehen Sie sie an den oberen Rand des Bildschirms.</p></item>
-      <item><p>Wenn der Bildschirm markiert ist, lassen Sie das Fenster los, um es zu maximieren. </p></item>
-      <item><p>Um die Fenstergröße wiederherzustellen, klicken Sie die Titelleiste des Fensters und ziehen Sie es vom Rand des Bildschirms weg.</p></item>
+      <item><p>Zum Maximieren eines Fensters über die gesamte Arbeitsfläche klicken Sie auf die Titelleiste des Fensters und ziehen Sie sie an den oberen Rand des Bildschirms.</p></item>
+      <item><p>Wenn der Bildschirm markiert wird, lassen Sie das Fenster los, um es zu maximieren.</p></item>
+      <item><p>Um das Fenster in seiner ursprünglichen Größe wiederherzustellen, klicken Sie auf die Titelleiste des Fensters und ziehen Sie es vom Rand des Bildschirms weg.</p></item>
     </steps>
     
   </section>
@@ -117,7 +117,7 @@
   </section>
   
   <section id="use-workspaces-and-windows-maximize-keyboard">
-    <title>Maximieren und wiederherstellen der Fenster mit Hilfe der Tastatur</title>
+    <title>Maximieren und Wiederherstellen von Fenstern mit Hilfe der Tastatur</title>
     
     <steps>
       <item><p>Um ein Fenster mit der Tastatur zu maximieren, halten Sie die <key href="help:gnome-help/keyboard-key-super">Super</key>-Taste und drücken Sie <key>↑</key>.</p></item>
@@ -127,7 +127,7 @@
   </section>
   
   <section id="use-workspaces-and-windows-tile-keyboard">
-    <title>Fenster anordnen mit Hilfe der Tastatur</title>
+    <title>Fenster mit Hilfe der Tastatur anordnen</title>
     
     <steps>
       <item><p>Um ein Fenster auf der rechten Bildschirmhälfte zu maximieren, halten Sie die <key href="help:gnome-help/keyboard-key-super">Super</key>-Taste und drücken Sie <key>→</key>.</p></item>

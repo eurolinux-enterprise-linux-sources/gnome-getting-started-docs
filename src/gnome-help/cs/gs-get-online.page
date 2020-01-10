@@ -12,68 +12,61 @@
     <link type="guide" xref="getting-started" group="videos"/>
     <title role="trail" type="link">Připojení k internetu</title>
     <link type="seealso" xref="net"/>
-    <title role="seealso" type="link">A tutorial on getting online</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <title role="seealso" type="link">Vysvětlení, jak se připojit</title>
+    <link type="next" xref="gs-browse-web"/>
   </info>
 
   <title>Připojení k internetu</title>
   
   <note style="important">
-      <p>You can see the status of your network connection on the right-hand
-       side of the top bar.</p>
+      <p>Stav svého síťového připojení můžete vidět na pravé straně horní lišty.</p>
   </note>  
 
   <section id="going-online-wired">
 
-    <title>Connect to a wired network</title>
+    <title>Připojení k drátové síti</title>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>The network connection icon on the right-hand side of the top
-       bar shows that you are off-line.</p>
-      <p>The off-line status can be caused by a number of reasons: for
-       example, a network cable has been unplugged, the computer has been set
-       to run in <em>airplane mode</em>, or there are no available Wi-Fi
-       networks in your area.</p>
-      <p>If you want to use a wired connection, just plug in a network
-      cable to go online. The computer will try to set up the network
-      connection for you automatically.</p>
-      <p>While the computer sets up a network connection for you, the
-      network connection icon shows three dots.</p></item>
-      <item><p>Once the network connection has been successfully set up, the
-      network connection icon changes to the networked computer symbol.</p></item>
+      <item><p>Ikona síťového připojení na pravé straně horní lišty zobrazuje, že jste odpojeni.</p>
+      <p>Stav odpojení může být způsoben řadou různých důvodů: například může být vypojen síťový kabel, počítač může být přepnut do <em>režimu „letadlo“</em> nebo ve vašem okolí nemusí být dostupné žádné sítě Wi-Fi.</p>
+      <p>Jestli chcete použít drátové připojení, stačí do počítače zapojit síťový kabel. Počítač se pokusí síťové připojení nastavit automaticky.</p>
+      <p>Během doby, co bude počítač síťové přípojení nastavovat, budou na ikoně síťovéh připojení zobrazeny tři tečky.</p></item>
+      <item><p>Až se nastavení síťového připojení úspěšně dokončí, změní se ikona síťového připojení na symbol počítače.</p></item>
     </steps>
     
   </section>
 
   <section id="going-online-wifi">
 
-    <title>Connect to a Wi-Fi network</title>
+    <title>Připojení k bezdrátové síti</title>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>To connect to a Wi-Fi (wireless) network, click the status menu at
-     the top right of the screen, and then click <gui>Select Network</gui>.</p>
-    </item>
+      <title>Když se chcete připojit k bezdrátové síti (Wi-Fi):</title>
+      <item>
+        <p>Klikněte na <gui xref="shell-introduction#yourname">systémovou nabídku</gui> v pravé části horní lišty.</p>
+      </item>
+      <item>
+        <p>Vyberte <gui>Wi-Fi   Nepřipojeno</gui>. Část nabídky Wi-Fi se rozbalí.</p>
+      </item>
+      <item>
+        <p>Klikněte na <gui>Vybrat síť</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
-       <p>You can only connect to a Wi-Fi network if your computer hardware
-        supports it and you are in an area with Wi-Fi coverage.</p>
+       <p>K síti Wi-Fi se můžete připojit, jen pokud k tomu má váš počítač patřičný hardware a jste v místě pokryté signálem Wi-Fi.</p>
      </note>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
 
     <steps style="continues">
-    <item><p>From the list of available Wi-Fi networks, select the network you
-    want to connect to, and click <gui>Connect</gui> to confirm.</p>
-    <p>Depending on the network configuration, you may be prompted for network
-     credentials.</p></item>
+    <item><p>V seznamu dostupných sítí Wi-Fi vyberte síť, ke které se chcete připojit, a připojení potvrďte kliknutím na <gui>Připojit</gui>.</p>
+    <p>V závislosti na nastavení sítě můžete být vyzváni ke kontrole svých pověření.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

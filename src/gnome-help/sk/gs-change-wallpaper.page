@@ -32,17 +32,16 @@
            <tt:p>Zmena tapety</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Click the system menu on the right side of the top bar and press
-           the settings button.</tt:p>
+           <tt:p>Klikneme na ponuku Systém v pravej časti horného panelu a klikneme na tlačidlo Nastavenia.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p>Vyberieme <gui>Pozadie</gui>.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="13s">
-           <tt:p>Click the current background image.</tt:p>
+           <tt:p>Klikneme na aktuálny obrázok pozadia.</tt:p>
          </tt:div>
          <tt:div begin="13s" end="16s">
-           <tt:p>Click the background image you want to use.</tt:p>
+           <tt:p>Klikneme na obrázok pozadia, ktorý chceme použiť.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18s">
            <tt:p>Klikneme na tlačidlo <gui>Vybrať</gui>.</tt:p>
@@ -59,12 +58,11 @@
     <title>Zmena tapety</title>
     
     <steps>
-      <item><p>Click the system menu on the right side of the top bar and press
-      the settings button at the bottom of the menu.</p></item>
-      <item><p>Zo zoznamu položiek vyberieme <gui>Pozadie</gui>.</p></item>
-      <item><p>Click the current background image on the left side of the
-      <gui>Background</gui> window.</p></item>
-      <item><p>Click the background image you want to use.</p></item>
+      <item><p>Klikneme na ponuku <gui xref="shell-introduction#yourname">Systém </gui> v pravej časti horného panelu.</p></item>
+      <item><p>Klikneme na tlačidlo Nastavenia v ľavej dolnej časti ponuky.</p></item>
+      <item><p>Klikneme na panel <gui>Pozadie</gui>.</p></item>
+      <item><p>Klikneme na aktuálny obrázok pozadia v ľavej časti okna <gui>Pozadie</gui>.</p></item>
+      <item><p>Klikneme na obrázok pozadia, ktorý chceme použiť.</p></item>
       <item><p>Klikneme na tlačidlo <gui>Vybrať</gui>.</p></item>
       <item><p>Zatvorime okno <gui>Pozadie</gui> kliknutím na krížik v pravej hornej časti okna.</p></item>
     </steps>

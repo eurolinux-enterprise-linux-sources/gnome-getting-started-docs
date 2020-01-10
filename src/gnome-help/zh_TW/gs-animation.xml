@@ -15,7 +15,7 @@
 <t id="title-workspace-down">下個工作區</t>
 <t id="title-workspace-up">上個工作區</t>
 <t id="title-right">螢幕右半邊</t>
-<t id="activities"> </t>
+<t id="activities">概覽</t>
 <t its:locNote="Translators: Enter is the name of the key." id="enter">Enter</t>
 <t id="ctrl">Ctrl</t>
 <t id="alt">Alt</t>

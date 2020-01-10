@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0 if/1.0" xml:lang="ja">
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="gs-change-date-time-timezone" version="1.0" xml:lang="ja">
 
   <info>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
@@ -18,74 +18,29 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>松澤 二郎</mal:name>
       <mal:email>jmatsuzawa@gnome.org</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2015, 2016</mal:years>
     </mal:credit>
   </info>
 
   <title>日付、時刻、タイムゾーンを変更する</title>
 
-  <ui:overlay width="812" height="452">
-  <media type="video" its:translate="no" src="figures/gnome-timezone.webm" width="700" height="394">
-    <ui:thumb type="image" mime="image/svg" src="gs-thumb-timezone.svg"/>
-      <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
-       <tt:body>
-         <tt:div begin="1s" end="5s">
-           <tt:p>日時の変更</tt:p>
-         </tt:div>
-         <tt:div begin="6s" end="9s">
-           <tt:p>トップバーの時計をクリックします。</tt:p>
-           </tt:div>
-         <tt:div begin="9s" end="13s">
-           <tt:p>Select <gui>Date &amp; Time Settings</gui>.</tt:p>
-         </tt:div>
-         <tt:div begin="13s" end="15s">
-           <tt:p>Make sure that <gui>Automatic Time Zone</gui> is switched
-            off.</tt:p>
-         </tt:div>
-         <tt:div begin="15s" end="17s">
-           <tt:p>Click <gui>Time Zone</gui>.</tt:p>
-         </tt:div>
-         <tt:div begin="17s" end="21s">
-           <tt:p>あなたのいる場所を地図から選択します。</tt:p>
-         </tt:div>
-         <tt:div begin="21s" end="23s">
-           <tt:p>Click <gui>Close</gui>.</tt:p>
-         </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>ウィンドウを閉じます。</tt:p>
-         </tt:div>
-       </tt:body>
-     </tt:tt>
-  </media>
-  </ui:overlay>
-
-  <section id="change-date-time">
-    <title>日付、時刻、タイムゾーンを変更する</title>
+  <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
   <steps>
-    <item><p>Click the clock on the top bar and select the <gui>Date &amp; Time
-     Settings</gui> item.</p></item>
-    <item><p>Make sure that the <gui>Automatic Time Zone</gui> item is switched
-     off, and then click the <gui>Time Zone</gui> item below.</p></item>
-    <item><p>Click on your location on the map. This selects your current city,
-     which you can also search for in the
-     search box above the map.</p></item>
-    <item><p>Click the <gui>Close</gui> button to go back to the <gui>Date &amp;
-     Time Settings</gui> window.</p></item>
-    <item><p>Make sure that the <gui>Automatic Date &amp; Time</gui> item is
-     switched off, and then click the <gui>Date &amp; Time</gui> item below to
-     open the <gui>Date &amp; Time</gui> window. There you can adjust your date
-     and time settings by clicking on the <gui>+</gui> or <gui>-</gui> buttons.</p>
-     </item>
-    <item><p>Click the <gui>Close</gui> button to go back to the <gui>Date &amp;
-     Time Settings</gui> window, and then close that window by clicking the
-     cross at the top-right corner of that window.</p></item>
+    <item><p>トップバー右側の<gui xref="shell-introduction#yourname">システムメニュー</gui>を開きます。</p></item>
+    <item><p>メニュー左下の設定ボタンを押します。</p></item>
+    <item><p><gui>日付と時刻</gui>を選択します。</p></item>
   </steps>
-
-  <!-- FIXME: 
-	- explain what time/date does - a reference in further reading?
-  -->
-
-  </section>
+  
+  <media its:translate="no" type="image" mime="image/svg" src="gs-datetime.svg" width="100%"/>
+  
+  <steps style="continues">
+    <item><p><gui>自動タイムゾーン設定</gui>をオフにし、その下の<gui>タイムゾーン</gui>をクリックします。</p></item>
+    <item><p>世界地図から現在の地域をクリックすると、該当する都市が選択されます。あるいは、地図の上の検索ボックスから都市を検索することもできます。</p></item>
+    <item><p>世界地図のウィンドウを閉じて、<gui>日付と時刻の設定</gui>ウィンドウに戻ります。</p></item>
+    <item><p><gui>自動日時設定</gui>をオフにし、その下の<gui>日付と時刻</gui>をクリックして<gui>日付と時刻</gui>ウィンドウを開きます。<gui>+</gui> と <gui>-</gui> ボタンで日時を調節できます。</p>
+     </item>
+    <item><p>ウィンドウを閉じて、<gui>日付と時刻の設定</gui>ウィンドウに戻り、最後にパネルを閉じます。</p></item>
+  </steps>
 
 </page>

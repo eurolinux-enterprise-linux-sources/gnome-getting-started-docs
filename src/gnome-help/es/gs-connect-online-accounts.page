@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Daniel Mustieles</mal:name>
       <mal:email>daniel.mustieles@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013 - 2016</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -39,14 +39,14 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>Pulse en el menú del sistema en la parte derecha de la barra superior.</p></item>
-      <item><p>Pulse el botón de configuración en la parte inferior del menú.</p></item>
+      <item><p>Pulse en el <gui xref="shell-introduction#yourname">menú del sistema</gui> en la parte derecha de la barra superior.</p></item>
+      <item><p>Pulse el botón de configuración en la parte inferior izquierda del menú.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>De la lista de elementos, seleccione <gui>Cuentas en línea</gui> y pulse el botón <gui>Añadir una cuenta en línea</gui>.</p></item>
+      <item><p>Pulse el panel <gui>Cuentas en línea</gui> y pulse el botón <gui>Añadir una cuenta en línea</gui>.</p></item>
     </steps>
     
     <note><p>Si ya ha creado una cuenta en línea, puede añadir otra cuenta en línea pulsando el botón <gui>+</gui> en la esquina izquierda inferior de la ventana.</p></note>

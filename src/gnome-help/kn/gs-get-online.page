@@ -13,7 +13,7 @@
     <title role="trail" type="link">ಆನ್‌ಲೈನ್‌ಗೆ ಹೋಗಿ</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">ಆನ್‌ಲೈನ್‌ಗೆ ಹೋಗುವ ಕುರಿತು ಮಾಹಿತಿ</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   </info>
 
   <title>ಆನ್‌ಲೈನ್‌ಗೆ ಹೋಗಿ</title>
@@ -29,8 +29,12 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>ಮೇಲಿನಪಟ್ಟಿಯಲ್ಲಿ ಬಲಭಾಗದಲ್ಲಿರುವ ಜಾಲಬಂಧ ಸಂಪರ್ಕದ ಸ್ಥಿತಿಯು ನೀವು ಆಫ್‌ಲೈನಿನಲ್ಲಿದ್ದೀರಿ ಎನ್ನುವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ.</p>
-      <p>ಆಫ್‌-ಲೈನ್ ಸ್ಥಿತಿ ಉಂಟಾಗಲು ಹಲವಾರು ಕಾರಣಗಳಿರಬಹುದು: ಉದಾಹರಣೆಗೆ, ಒಂದು ಜಾಲಬಂಧ ಕೇಬಲ್ ಅನ್ನು ಪ್ಲಗ್‌ನಿಂದ ಹೊರತೆಗೆದಿರಬಹುದು, ಗಣಕವನ್ನು <em>ಏರ್‌ಪ್ಲೇನ್ ಸ್ಥಿತಿ</em>ಯಲ್ಲಿ ಚಲಾಯಿಸಲ್ಪಡುವಂತೆ ಹೊಂದಿಸಲಾಗಿರಬಹುದು, ಅಥವ ನೀವಿರುವ ಜಾಗದಲ್ಲಿ ಯಾವುದೆ ವೈ-ಫೈ ಜಾಲಬಂಧಗಳು ಇರದೆ ಇರಬಹುದು.</p>
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are offline.</p>
+      <p>The offline status can be caused by a number of reasons: for
+       example, a network cable has been unplugged, the computer has been set
+       to run in <em>airplane mode</em>, or there are no available Wi-Fi
+       networks in your area.</p>
       <p>ನೀವು ಒಂದು ತಂತಿಯುಕ್ತ ಸಂಪರ್ಕವನ್ನು ಬಳಸಲು ಬಯಸಿದಲ್ಲಿ, ಆನ್‌ಲೈನ್‌ಗೆ ಹೋಗಲು ಒಂದು ಜಾಲಬಂಧ ಕೇಬಲ್‌ ಅನ್ನು ಜೋಡಿಸಿ. ಗಣಕವು ನಿಮಗಾಗಿ ತಾನಾಗಿಯೆ ಒಂದು ಜಾಲಬಂಧ ಸಂಪರ್ಕವನ್ನು ಸಿದ್ಧಗೊಳಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತದೆ.</p>
       <p>ಗಣಕವು ನಿಮಗಾಗಿ ಜಾಲಬಂಧ ಸಂಪರ್ಕವನ್ನು ಸಿದ್ಧಗೊಳಿಸಿದಾಗ, ಜಾಲಬಂಧ ಸಂಪರ್ಕದ ಚಿಹ್ನೆಯು ಮೂರು ಚುಕ್ಕೆಗಳನ್ನು ತೋರಿಸುತ್ತದೆ.</p></item>
       <item><p>ಒಮ್ಮೆ ಜಾಲಬಂಧ ಸಂಪರ್ಕವನ್ನು ಸಿದ್ಧಗೊಳಿಸಿದ ನಂತರ, ಜಾಲಬಂಧ ಸಂಪರ್ಕದ ಚಿಹ್ನೆಯು ಜಾಲಬಂಧಿತವಾದ ಗಣಕದ ಚಿಹ್ನೆಯಾಗಿ ಬದಲಾವಣೆಗೊಳ್ಳುತ್ತದೆ.</p></item>
@@ -45,8 +49,18 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>ಒಂದು Wi-Fi (ವೈರ್‌ಲೆಸ್‌) ಜಾಲಬಂಧಕ್ಕೆ ಸಂಪರ್ಕ ಜೋಡಿಸಲು, ತೆರೆಯ ಮೇಲಿನ ಬಲಭಾಗದಲ್ಲಿನ ಸ್ಥಿತಿ ಮೆನುವಿನ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ನಂತರ <gui>ಜಾಲಬಂಧವನ್ನು ಆರಿಸು</gui> ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.</p>
-    </item>
+      <title>To connect to a Wi-Fi (wireless) network:</title>
+      <item>
+        <p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p>
+      </item>
+      <item>
+        <p>Select <gui>Wi-Fi Not Connected</gui>. The Wi-Fi section of the menu
+        will expand.</p>
+      </item>
+      <item>
+        <p>Click <gui>Select Network</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -59,8 +73,6 @@
     <item><p>ಲಭ್ಯವಿರುವ Wi-Fi ಜಾಲಬಂಧಗಳ ಪಟ್ಟಿಯಿಂದ, ನೀವು ಸಂಪರ್ಕಸಾಧಿಸಲು ಬಯಸುವ ಜಾಲಬಂಧವನ್ನು ಆರಿಸಿ, ಮತ್ತ ಖಚಿತಪಡಿಸಲು <gui>ಸಂಪರ್ಕಿಸು</gui> ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.</p>
     <p>ಜಾಲಬಂಧದ ಸಂರಚನೆಗೆ ಆಧರಿಸಿ, ನೀವು ಜಾಲಬಂಧದ ರುಜುವಾತುಗಳನ್ನು (ಕ್ರೆಡೆಂಶಿಯಲ್‌) ಒದಗಿಸುವಂತೆ ನಿಮಗೆ ತಿಳಿಸಲಾಗುತ್ತದೆ.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

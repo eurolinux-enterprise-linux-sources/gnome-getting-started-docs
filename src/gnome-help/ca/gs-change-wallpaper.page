@@ -17,7 +17,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Manel Vidal</mal:name>
       <mal:email>verduler@gmail.com</mal:email>
-      <mal:years>2013, 2014/t</mal:years>
+      <mal:years>2013, 2014</mal:years>
     </mal:credit>
   </info>
 
@@ -32,7 +32,7 @@
            <tt:p>Canvieu el fons de pantalla</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Feu clic al menú del sistema situat a la part dreta del la barra superior i feu clic al botó de paràmetres.</tt:p>
+           <tt:p>Feu clic al menú del sistema situat a la part dreta de la barra superior i feu clic al botó de paràmetres.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p>Seleccioneu <gui>Fons</gui>.</tt:p>
@@ -58,8 +58,10 @@
     <title>Canvieu el fons de pantalla</title>
     
     <steps>
-      <item><p>Feu clic al menú del sistema situat a la part dreta del la barra superior i feu clic al botó de paràmetres situat a la part inferior del menú.</p></item>
-      <item><p>De la llista d'elements, seleccioneu <gui>Fons</gui>.</p></item>
+      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+      on the right side of the top bar.</p></item>
+      <item><p>Click the settings button at the bottom left of the menu.</p></item>
+      <item><p>Click the <gui>Background</gui> panel.</p></item>
       <item><p>Feu clic a la imatge del fons de pantalla actual que es troba a la part esquerra de la finestra de <gui>Fons</gui>.</p></item>
       <item><p>Feu clic a la imatge que voleu utilitzar com a fons de pantalla.</p></item>
       <item><p>Feu clic al botó <gui>Selecciona</gui>.</p></item>

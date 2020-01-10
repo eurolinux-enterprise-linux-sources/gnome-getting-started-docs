@@ -21,15 +21,16 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>ટોચની પટ્ટીની જમણી બાજુ પર સિસ્ટમ મેનુ પર ક્લિક કરો.</p></item>
-      <item><p>મેનુની નીચે સુયોજનો બટનને દબાવો.</p></item>
+      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+      on the right side of the top bar.</p></item>
+      <item><p>Click the settings button at the bottom left of the menu.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>From the list of items, select <gui>Online Accounts</gui>, then
-      click on the <gui>Add an online account</gui> button.</p></item>
+      <item><p>Click the <gui>Online Accounts</gui> panel, then
+      click the <gui>Add an online account</gui> button.</p></item>
     </steps>
     
     <note><p>જો તમે પહેલાં ઓનલાઇન ખાતાને સુયોજિત કર્યુ હોય તો, તમે વિન્ડોની નીચે ડાબે ખૂણે <gui>+</gui> બટન પર ક્લિક કરીને બીજા ઓનલાઇન ખાતાને ઉમેરી શકો છો.</p></note>

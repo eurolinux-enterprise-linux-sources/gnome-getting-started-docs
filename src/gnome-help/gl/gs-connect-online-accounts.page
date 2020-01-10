@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Fran Diéguez</mal:name>
       <mal:email>frandieguez@gnome.org</mal:email>
-      <mal:years>2013-2014.</mal:years>
+      <mal:years>2013-2016.</mal:years>
     </mal:credit>
   </info>
 
@@ -27,14 +27,14 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>Prema o menú do sistema na parte dereita da barra superior.</p></item>
-      <item><p>Prema o botón de preferencias na parte inferior do menú.</p></item>
+      <item><p>Prema o <gui xref="shell-introduction#yourname">menú do sistema</gui> na parte dereita da barra superior.</p></item>
+      <item><p>Prema o botón de preferencias na parte inferior esquerda do menú.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Desde a lista de elementos seleccione <gui>Contas en liña</gui> e logo prema o botón <gui>Engadir unha conta en liña</gui>.</p></item>
+      <item><p>Prema no panel <gui>Contas en liña</gui> e logo prema o botón <gui>Engadir unha conta en liña</gui>.</p></item>
     </steps>
     
     <note><p>Se xa configurou unha conta en liña anteriormente, pode engadir outra conta en liña máis premendo no botón <gui>+</gui> na esquina inferior esquerda da xanela.</p></note>

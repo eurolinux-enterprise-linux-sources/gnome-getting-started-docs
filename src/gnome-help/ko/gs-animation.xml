@@ -15,7 +15,7 @@
 <t id="title-workspace-down">아래 작업공간으로 이동</t>
 <t id="title-workspace-up">위 작업공간으로 이동</t>
 <t id="title-right">화면 우측 절반</t>
-<t id="activities"> </t>
+<t id="activities">현재 활동</t>
 <t its:locNote="Translators: Enter is the name of the key." id="enter">Enter</t>
 <t id="ctrl">Ctrl</t>
 <t id="alt">Alt</t>
@@ -30,7 +30,7 @@
 <t id="wallpapers">바탕 화면</t>
 <t id="select">선택</t>
 <t id="bubble.message">회의할 준비 되셨나요?</t>
-<t id="bubble.response">금방 갈께요~</t>
+<t id="bubble.response">금방 갈께요...</t>
 <t id="bubble.message2">좋네요. 거듭 감사~</t>
 <t id="bubble.response2">도와주셔서 고마워요</t>
 <t id="bubble.message3">걱정마세요.</t>

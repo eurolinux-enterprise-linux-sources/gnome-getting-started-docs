@@ -26,6 +26,18 @@
       <mal:email>alexandre.franke@gmail.com</mal:email>
       <mal:years>2013</mal:years>
     </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonor Palazzo</mal:name>
+      <mal:email>leonor.palazzo@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jean-Baptiste Holcroft</mal:name>
+      <mal:email>jean-baptiste@holcroft.fr</mal:email>
+      <mal:years>2016</mal:years>
+    </mal:credit>
   </info>
 
   <title>Réponses aux messages</title>
@@ -38,47 +50,38 @@
          <tt:div begin="1s" end="3s">
            <tt:p>Répondre aux messages</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>Amenez la souris au tiroir de messagerie qui se trouve en bas de l'écran et cliquez sur le message de discussion.</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Déplacez le pointeur de votre souris sur le message qui apparait en haut de votre écran.</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
+         <tt:div begin="6s" end="9s">
            <tt:p>Saisissez votre réponse et appuyez sur <key>Entrée</key> pour l'envoyer.</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
+         <tt:div begin="9s" end="10s">
            <tt:p>Fermer le message.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>Réponse retardée</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>Lorsqu'un message s'affiche dans le tiroir de messagerie et que vous ne l'ouvrez pas, il disparaît au bout d'un moment.</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>Un message de discussion en haut de l’écran disparaît au bout d’un moment si vous ne déplacez pas le pointeur de votre souris sur le message.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>Pour retourner à votre message laissé sans réponse, positionnez la souris sur le tiroir de messagerie.</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Pour retourner à votre message laissé sans réponse, cliquez sur l’horloge dans la barre supérieure.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>Cliquez sur l'expéditeur du message.</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Dans la liste des notifications, choisissez votre message.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>Saisissez votre réponse et appuyez sur <key>Entrée</key> pour l'envoyer.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Saisissez votre réponse.</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>Fermer le message.</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Pour afficher la liste des notifications, appuyez sur les touches <keyseq> <key href="help:gnome-help/keyboard-key-super">Logo</key> <key>V</key></keyseq></tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>Pour afficher le tiroir de messagerie, faites le raccourci <keyseq><key href="help:gnome-help/keyboard-key-super">Logo</key><key>M</key></keyseq>.</tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Déplacez-vous avec les touches fléchées pour sélectionner le message auquel vous voulez répondre et appuyez sur <key>Entrée</key>.</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>Déplacez-vous avec les touches fléchées pour sélectionner le destinataire de votre réponse et appuyez sur <key>Entrée</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>Saisissez votre réponse et appuyez sur <key>Entrée</key> pour l'envoyer.</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p>Appuyez sur <key>Échap</key> pour fermer le message.</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>Pour fermer le tiroir de messagerie, appuyez sur <key>Échap</key>.</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Saisissez votre réponse.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -89,7 +92,7 @@
     <title>Réponse à un message de discussion à l'aide de la souris</title>
     
     <steps>
-      <item><p>Amenez la souris au tiroir de messagerie qui se trouve en bas de l'écran et cliquez sur le message de discussion.</p></item>
+      <item><p>Déplacez le pointeur de votre souris sur le message qui apparait en haut de votre écran.</p></item>
       <item><p>Saisissez votre réponse et appuyez sur <key>Entrée</key> pour l'envoyer.</p></item>
       <item><p>Pour fermer le message de discussion, cliquez sur la croix en haut à droite de la fenêtre du message.</p></item>
     </steps>
@@ -100,11 +103,10 @@
     <title>Réponse retardée à un message de discussion à l'aide de la souris</title>
     
     <steps>
-      <item><p>Lorsqu'un message s'affiche dans le tiroir de messagerie et que vous ne l'ouvrez pas, il disparaît au bout d'un moment.</p></item>
-      <item><p>Pour en prendre connaissance plus tard, ouvrez le tiroir de messagerie en bas de l'écran en y positionnant le pointeur de la souris.</p></item>
-      <item><p>Cliquez sur l'image représentant l'expéditeur de votre message.</p></item>
-      <item><p>Quand le message s'affiche, saisissez votre réponse et appuyez sur <key>Entrée</key> pour l'envoyer.</p></item>
-      <item><p>Pour fermer le message de discussion, cliquez sur la croix en haut à droite de la fenêtre du message.</p></item>
+      <item><p>Lorsqu'un message s'affiche en haut de l’écran et que vous ne le survolez pas avec la souris, il disparaît au bout d'un moment.</p></item>
+      <item><p>Pour retourner à votre message laissé sans réponse, cliquez sur l’horloge dans la barre supérieure.</p></item>
+      <item><p>Dans la liste des notifications, cliquez sur le message auquel vous voulez répondre.</p></item>
+      <item><p>Quand le message s'affiche, saisissez votre réponse.</p></item>
     </steps>
     
   </section>
@@ -112,12 +114,10 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>Réponse retardée à un message de discussion à l'aide du clavier</title>
     <steps>
-      <item><p>Pour prendre connaissance de vos messages laissés sans réponse, appuyez sur le raccourci clavier <keyseq> <key href="help:gnome-help/keyboard-key-super">Logo</key><key>M</key> </keyseq> pour afficher le tiroir de messagerie qui contient les messages.</p>
+      <item><p>Pour prendre connaissance de vos messages laissés sans réponse, appuyez sur le raccourci clavier <keyseq> <key href="help:gnome-help/keyboard-key-super">Logo</key><key>V</key> </keyseq> pour afficher la liste des notifications laissées sans réponse.</p>
       </item>
-      <item><p>Déplacez-vous avec les touches fléchées sur l'image représentant l'expéditeur de votre message et appuyez sur <key>Entrée</key>.</p></item>
-      <item><p>Saisissez votre réponse et appuyez sur <key>Entrée</key> pour l'envoyer.</p></item>
-      <item><p>Appuyez sur <key>Échap</key> pour fermer le message.</p></item>
-      <item><p>Pour fermer le tiroir de messagerie, appuyez sur <key>Échap</key> ou sur <keyseq> <key href="help:gnome-help/keyboard-key-super">Logo</key><key>M</key></keyseq>.</p></item>
+      <item><p>Déplacez-vous avec les touches fléchées pour sélectionner la notification à laquelle vous voulez répondre et appuyez sur <key>Entrée</key>.</p></item>
+      <item><p>Quand le message s'affiche, saisissez votre réponse.</p></item>
     </steps>
 
   </section>

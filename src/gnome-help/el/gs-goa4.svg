@@ -34,7 +34,7 @@
   <ns0:metadata id="metadata10080">
     <rdf:RDF>
       <ns6:Work rdf:about="">
-        <dc:format>εικόνα/svg+xml</dc:format>
+        <dc:format>image/svg+xml</dc:format>
         <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
         <dc:title/>
       </ns6:Work>
@@ -67,7 +67,7 @@
         <ns0:path d="m 1341.89,1216.73 0,19.87 -0.17,0 -6.08,-19.87 -1.94,0 -6.09,19.87 -0.15,0 0,-19.87 -2.2,0 0,21.73 3.76,0 5.65,-17.59 0,0 5.57,17.59 3.76,0 0,-21.73 -2.11,0" id="path24298" style="fill:#babdb6;fill-opacity:1;fill-rule:nonzero;stroke:none" ns1:connector-curvature="0"/>
       </ns0:g>
       <ns0:rect height="34" id="rect24895" style="color:#000000;fill:#cc0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.36666679;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" width="106" x="538" y="162"/>
-      <ns0:text id="text24897" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" x="594" y="183" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan24899" x="594" y="183" ns2:role="line">Σύνδεση</ns0:tspan></ns0:text>
+      <ns0:text id="text24897" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" x="594" y="183" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan24899" x="594" y="183" ns2:role="line">ΣΥΝΔΕΣΗ</ns0:tspan></ns0:text>
       <ns0:text id="text24901" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans" x="163" y="226" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan24903" x="163" y="226" ns2:role="line">Σύνδεση</ns0:tspan></ns0:text>
       <ns0:text id="text24905" style="font-size:13px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold" x="163" y="259" ns2:linespacing="125%" xml:space="preserve"><ns0:tspan id="tspan24907" x="163" y="259" ns2:role="line">Ηλεκτρονικό ταχυδρομείο</ns0:tspan></ns0:text>
       <ns0:rect height="35" id="rect24909" rx="0.38461545" ry="0.36744055" style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" width="480" x="164.5" y="265.5"/>

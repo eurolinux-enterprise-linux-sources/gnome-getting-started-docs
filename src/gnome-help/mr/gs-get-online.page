@@ -13,7 +13,7 @@
     <title role="trail" type="link">ऑनलाईन या</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">ऑनलाईन येण्याबाबत वर्गपाठ</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Aniket Deshpande</mal:name>
@@ -35,8 +35,12 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>नेटवर्कची जोडणी चिन्ह जे उजव्या हाताला सगळ्यात वरच्या पट्टीवर दाखवत आहे तुम्ही ऑफलाईन आहात.</p>
-      <p>ऑफ-लाईन स्थिती ही वेगवेगळ्या कारणांमुळे निर्माण होऊ शकते: उदाहरणार्थ, नेटवर्क तार निघाली, कम्प्युटर हा <em>एअरप्लेन मोड</em>मध्ये गेला आहे, किंवा तुमच्या क्षेत्रात उपलब्ध वाय-फाय नेटवर्क्स नाहीत.</p>
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are offline.</p>
+      <p>The offline status can be caused by a number of reasons: for
+       example, a network cable has been unplugged, the computer has been set
+       to run in <em>airplane mode</em>, or there are no available Wi-Fi
+       networks in your area.</p>
       <p>तुम्हाला वायर्ड जोडणी वापरायची असेल तर, ऑनलाईन जायला फक्त जोडणी तार लावा. कम्प्युटर तुमच्यासाठी आपोआप नेटवर्क जोडणी स्थापित करण्याचा प्रयत्न करेल.</p>
       <p>संगणक तुमच्यासाठी नेटवर्कची जोडणी करत असतांना, नेटवर्कची जोडणी चिन्ह तीन टिंब दाखवतं.</p></item>
       <item><p>एकदा नेटवर्क जोडणी स्थापित झाली की, नेटवर्क जोडणी चिन्ह हे कमप्यूटर चिन्हामध्ये बदलतं.</p></item>
@@ -51,8 +55,18 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>वाय-फाय नेटवर्कशी जोडणीकरिता, पडद्याच्या उजव्या बाजूवरील स्टेटस मेन्यु क्लिक करा, आणि त्यानंतर <gui>नेटवर्क नीवडा</gui> क्लिक करा.</p>
-    </item>
+      <title>To connect to a Wi-Fi (wireless) network:</title>
+      <item>
+        <p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p>
+      </item>
+      <item>
+        <p>Select <gui>Wi-Fi Not Connected</gui>. The Wi-Fi section of the menu
+        will expand.</p>
+      </item>
+      <item>
+        <p>Click <gui>Select Network</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -65,8 +79,6 @@
     <item><p>उपलब्ध वाय-फाय नेटवर्क्सच्या सूचीतून, जोडणीजोगी नेटवर्क पसंत करा, आणि खात्रीकरिता <gui>जोडणी करा</gui> क्लिक करा.</p>
     <p>नेटवर्क संरचनावर आधारित, तुम्हाला नेटवर्क श्रेयकरिता विनंती केली जाईल.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

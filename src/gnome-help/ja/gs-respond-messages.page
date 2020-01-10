@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>松澤 二郎</mal:name>
       <mal:email>jmatsuzawa@gnome.org</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2015, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -32,47 +32,38 @@
          <tt:div begin="1s" end="3s">
            <tt:p>メッセージへの返事</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>マウスを画面下部のメッセージトレイに移動させ、チャットメッセージをクリックします。</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>チャットメッセージが画面上部に表示されたら、マウスをメッセージの位置に移動させます。</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
-           <tt:p>返信内容を入力し、完了したら <key>Enter</key> を押して送信します。</tt:p>
+         <tt:div begin="6s" end="9s">
+           <tt:p>返信内容を入力したら、<key>Enter</key> を押して送信します。</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
+         <tt:div begin="9s" end="10s">
            <tt:p>チャットメッセージを閉じます。</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>あとで返信する</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>メッセージトレイのチャットメッセージは、マウスをトレイに移動させなければ、しばらくすると、画面から消えます。</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>画面上部のチャットメッセージにマウスを移動させなければ、しばらくするとメッセージは画面から消えます。</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>未返事のメッセージを再表示するには、マウスをメッセージにトレイに移動させます。</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>まだ返信していないメッセージを再表示するには、トップバーの時計をクリックします。</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>メッセージを送信してきた人をクリックします。</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>通知リストから、メッセージを選択します。</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>返信内容を入力し、完了したら <key>Enter</key> を押します。</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>返事を入力します。</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>チャットメッセージを閉じます。</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>通知リストを表示するには、<keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq> を押します。</tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>メッセージトレイを表示するには、<keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq> を押します。</tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>矢印キーを使い、返信するメッセージを選択して <key>Enter</key> を押します。</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>矢印キーを使い、返信する相手を選択して、<key>Enter</key> を押します。</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>返信内容を入力し、完了したら <key>Enter</key> を押します。</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p><key>Esc</key> を押して、チャットメッセージを閉じます。</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>メッセージトレイを隠すには、<key>Esc</key> を押します。</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>返事を入力します。</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -83,9 +74,9 @@
     <title>マウスを使って、チャットメッセージに返信する</title>
     
     <steps>
-      <item><p>マウスを画面下部のメッセージトレイに移動させ、チャットメッセージをクリックします。</p></item>
+      <item><p>チャットメッセージが画面上部に表示されたら、マウスをメッセージの位置に移動させます。</p></item>
       <item><p>返信内容を入力し、完了したら <key>Enter</key> を押して送信します。</p></item>
-      <item><p>チャットメッセージを閉じるには、メッセージの右上角にある閉じるボタンを押します。</p></item>
+      <item><p>チャットメッセージを閉じるには、メッセージの右上隅にある閉じるボタンを押します。</p></item>
     </steps>
     <p/>
   </section>
@@ -94,11 +85,10 @@
     <title>マウスを使って、あとでチャットメッセージに返信する</title>
     
     <steps>
-      <item><p>チャットメッセージがメッセージトレイに表示されたときに、マウスをメッセージトレイに移動させなければ、しばらくするとメッセージが画面から消えます。</p></item>
-      <item><p>未返事のメッセージを再表示するには、画面下端のメッセージにトレイまでマウスを移動させます。</p></item>
-      <item><p>メッセージトレイが表示されたら、メッセージを送信してきた人の小さなアイコンをクリックします。</p></item>
-      <item><p>チャットメッセージが表示されたら、返信内容を入力し、<key>Enter</key> を押して返信します。</p></item>
-      <item><p>チャットメッセージを閉じるには、メッセージの右上角にある閉じるボタンを押します。</p></item>
+      <item><p>チャットメッセージが画面上部に表示されたあと、マウスをメッセージの位置まで移動させなければ、しばらくするとメッセージが画面から消えます。</p></item>
+      <item><p>まだ返信していないメッセージを再表示するには、トップバーの時計をクリックします。</p></item>
+      <item><p>通知リストから、返信するメッセージを選択してクリックします。</p></item>
+      <item><p>チャットメッセージが表示されたら、返信内容を入力します。</p></item>
     </steps>
     
   </section>
@@ -106,12 +96,10 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>キーボードを使って、あとでチャットメッセージに返信する</title>
     <steps>
-      <item><p>未返事のメッセージを再表示するには、<keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq> を押して、メッセージトレイを表示します。メッセージトレイには該当のメッセージが残っています。</p>
+      <item><p>まだ返信していないメッセージを再表示するには、<keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq> を押して、未返事の通知リストを表示します。</p>
       </item>
-      <item><p>矢印キーを使い、返信する相手の小さなアイコンを選択して、<key>Enter</key> を押します。</p></item>
-      <item><p>返信内容を入力し、完了したら <key>Enter</key> を押して送信します。</p></item>
-      <item><p><key>Esc</key> を押して、チャットメッセージを閉じます。</p></item>
-      <item><p>メッセージトレイを隠すには、<key>Esc</key> か、<keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq> を押します。</p></item>
+      <item><p>矢印キーを使い、返信する通知を選択して、<key>Enter</key> を押します。</p></item>
+      <item><p>チャットメッセージが表示されたら、返信内容を入力します。</p></item>
     </steps>
 
   </section>

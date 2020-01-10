@@ -13,12 +13,12 @@
     <title role="trail" type="link">Conectarse a Internet</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">Un titorial sobre como conectarse a Internet</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Fran Diéguez</mal:name>
       <mal:email>frandieguez@gnome.org</mal:email>
-      <mal:years>2013-2014.</mal:years>
+      <mal:years>2013-2016.</mal:years>
     </mal:credit>
   </info>
 
@@ -51,8 +51,16 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>Para conectarse a unha rede Wifi (sen fíos), prema no menú de estado na parte superior dereita da xanela e logo oprema <gui>Seleccionar rede</gui>.</p>
-    </item>
+      <title>Conectarse a unha rede Wifi (sen fíos):</title>
+      <item>
+        <p>Prema o <gui xref="shell-introduction#yourname">menú do sistema</gui> na parte dereita da barra superior.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui>Wifi non conectada</gui>. A sección de Wifi do menú expandirase.</p>
+      </item>
+      <item>
+        <p>Prema <gui>Seleccionar rede</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -65,8 +73,6 @@
     <item><p>Seleccione a rede á que quere conectarse, desde a lista de redes dispoñíbeis, e prema <gui>Conectar</gui> para confirmar.</p>
     <p>Dependendo da configuración da rede podería preguntárselle polas credenciais da rede.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

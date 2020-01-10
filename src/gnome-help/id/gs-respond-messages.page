@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Andika Triwidada</mal:name>
       <mal:email>andika@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -32,47 +32,38 @@
          <tt:div begin="1s" end="3s">
            <tt:p>Merespon ke Pesan</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>Gerakkan penunjuk tetikus Anda ke baki pesan di dasar layar dan klik pesan obrolan tersebut.</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Pindahkan tetikus Anda di atas pesan obrolan yang muncul di dekat puncak layar.</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
+         <tt:div begin="6s" end="9s">
            <tt:p>Mulailah mengetikkan jawaban Anda dan ketika selesai, tekan <key>Enter</key> untuk mengirim jawaban.</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
+         <tt:div begin="9s" end="10s">
            <tt:p>Tutup pesan obrolan.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>Respon Tertunda</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>Suatu pesan obrolan di baki pesan lenyap setelah beberapa saat bila Anda tak menggerakkan tetikus Anda ke baki pesan.</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>Suatu pesan obrolan dekat puncak layar lenyap setelah beberapa saat bila Anda tak menggerakkan tetikus Anda ke atas pesan.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>Untuk mendapatkan kembali pesan Anda yang belum terjawab, gerakkan tetikus Anda ke baki pesan.</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Untuk mendapatkan kembali pesan Anda yang belum terjawab, klik jam pada bilah puncak.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>Klik orang yang ingin Anda kirimi pesan.</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Dari daftar pemberitahuan, pilih pesan Anda.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>Mulailah mengetikkan jawaban Anda dan ketika selesai, tekan <key>Enter</key>.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Mulailah mengetikkan jawaban Anda.</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>Tutup pesan obrolan.</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Untuk menampilkan daftar pemberitahuan, tekan <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>V</key></keyseq></tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>Untuk menampilkan baki pesan, tekan <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>M</key></keyseq></tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Gunakan tombol panah untuk memilih pesan yang ingin Anda balas, dan tekan <key>Enter</key>.</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>Gunakan tombol panah untuk memilih orang yang ingin Anda balas, dan tekan <key>Enter</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>Mulailah mengetikkan jawaban Anda dan ketika selesai, tekan <key>Enter</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p>Tekan <key>Esc</key> untuk menutup pesan obrolan.</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>Untuk menyembunyikan baki pesan, tekan <key>Esc</key>.</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Mulailah mengetikkan jawaban Anda.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -83,7 +74,7 @@
     <title>Merespon ke pesan obrolan memakai tetikus</title>
     
     <steps>
-      <item><p>Gerakkan penunjuk tetikus Anda ke baki pesan di dasar layar dan klik pesan obrolan tersebut.</p></item>
+      <item><p>Pindahkan tetikus Anda di atas pesan obrolan yang muncul di dekat puncak layar.</p></item>
       <item><p>Mulailah mengetikkan jawaban Anda dan ketika selesai, tekan <key>Enter</key> untuk mengirim jawaban.</p></item>
       <item><p>Untuk menutup pesan obrolan, klik tombol tutup pada pojok kanan atas dari pesan obrolan tersebut.</p></item>
     </steps>
@@ -94,11 +85,10 @@
     <title>Respon tertunda ke pesan obrolan memakai tetikus</title>
     
     <steps>
-      <item><p>Ketika suatu pesan obrolan muncul di baki pesan dan Anda tak menggerakkan tetikus Anda ke baki pesan, pesan lenyap setelah beberapa saat.</p></item>
-      <item><p>Untuk mendapat kembali pesan Anda yang belum terjawab, gerakkan tetikus Anda ke baki pesan di bagian paling dasar layar.</p></item>
-      <item><p>Ketika baki pesan muncul, klik gambar kecil yang mewakili orang yang mengirimi Anda pesan.</p></item>
-      <item><p>Ketika pesan obrolan ditampilkan, mulailah mengetikkan jawaban Anda dan ketika selesai, tekan <key>Enter</key> untuk mengirim jawaban.</p></item>
-      <item><p>Untuk menutup pesan obrolan, klik tombol tutup pada pojok kanan atas dari pesan obrolan tersebut.</p></item>
+      <item><p>Ketika suatu pesan obrolan muncul dekat puncak layar dan Anda tak menggerakkan tetikus Anda ke atas pesan, pesan lenyap setelah beberapa saat.</p></item>
+      <item><p>Untuk mendapatkan kembali pesan Anda yang belum terjawab, klik jam pada bilah puncak.</p></item>
+      <item><p>Dari daftar pemberitahuan, pilih pesan yang ingin Anda balas, lalu klik itu.</p></item>
+      <item><p>Ketika pesan obrolan ditampilkan, mulailah mengetikkan jawaban Anda.</p></item>
     </steps>
     
   </section>
@@ -106,12 +96,10 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>Respon tertunda ke suatu pesan obrolan memakai papan tik</title>
     <steps>
-      <item><p>Untuk mendapat kembali pesan-pesan obrolan Anda yang belum terjawab, tekan <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq> untuk menampilkan baki pesan yang memuat pesan-pesan.</p>
+      <item><p>Untuk mendapat kembali pesan-pesan obrolan Anda yang belum terjawab, tekan <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq> untuk menampilkan daftar pemberitahuan yang belum terjawab.</p>
       </item>
-      <item><p>Gunakan tombol panah untuk memiliki gambar kecil yang mewakili orang yang ingin Anda balas, dan tekan <key>Enter</key>.</p></item>
-      <item><p>Mulailah mengetikkan jawaban Anda dan ketika selesai, tekan <key>Enter</key> untuk mengirim jawaban.</p></item>
-      <item><p>Tekan <key>Esc</key> untuk menutup pesan obrolan.</p></item>
-      <item><p>Untuk menyembunyikan baki pesan, tekan <key>Esc</key> atau <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq>.</p></item>
+      <item><p>Gunakan tombol panah untuk memilih pemberitahuan yang ingin Anda balas, dan tekan <key>Enter</key>.</p></item>
+      <item><p>Ketika pesan obrolan ditampilkan, mulailah mengetikkan jawaban Anda.</p></item>
     </steps>
 
   </section>

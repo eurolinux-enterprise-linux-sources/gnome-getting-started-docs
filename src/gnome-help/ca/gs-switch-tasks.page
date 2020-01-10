@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Manel Vidal</mal:name>
       <mal:email>verduler@gmail.com</mal:email>
-      <mal:years>2013, 2014/t</mal:years>
+      <mal:years>2013, 2014</mal:years>
     </mal:credit>
   </info>
 
@@ -65,7 +65,7 @@
            <tt:p>Premeu la tecla <key href="help:gnome-help/keyboard-key-super">Súper</key> per visualitzar la <gui>Vista general de les activitats</gui>.</tt:p>
          </tt:div>
          <tt:div begin="37s" end="40s">
-           <tt:p>Comenceu a escriure el nom de l'aplicació a la que voleu canviar.</tt:p>
+           <tt:p>Comenceu a escriure el nom de l'aplicació a la qual voleu canviar.</tt:p>
          </tt:div>
          <tt:div begin="40s" end="43s">
            <tt:p>Quan l'aplicació aparegui com a primer resultat, premeu la tecla de <key>Retorn</key> per canviar a ella.</tt:p>

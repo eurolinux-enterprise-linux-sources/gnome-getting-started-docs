@@ -13,20 +13,19 @@
     <title role="trail" type="link">ネットワークに接続する</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">ネットワーク接続に関するチュートリアル</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>松澤 二郎</mal:name>
       <mal:email>jmatsuzawa@gnome.org</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2015, 2016</mal:years>
     </mal:credit>
   </info>
 
   <title>ネットワークに接続する</title>
   
   <note style="important">
-      <p>You can see the status of your network connection on the right-hand
-       side of the top bar.</p>
+      <p>ネットワークの接続状態は、トップバー右側で確認できます。</p>
   </note>  
 
   <section id="going-online-wired">
@@ -37,10 +36,7 @@
 
     <steps>
       <item><p>上記のトップバー右側にあるネットワーク接続アイコンは、現在オフラインであることを示しています。</p>
-      <p>The off-line status can be caused by a number of reasons: for
-       example, a network cable has been unplugged, the computer has been set
-       to run in <em>airplane mode</em>, or there are no available Wi-Fi
-       networks in your area.</p>
+      <p>オフライン状態となる原因はいろいろあります。例えば、ネットワークケーブルが抜けている、コンピューターが<em>機内モード</em>に設定されている、利用可能な Wi-Fi ネットワークが近くにない、などです。</p>
       <p>有線接続したい場合は、ただネットワークケーブルをつなぐだけでオンライン接続できます。コンピューターがネットワーク接続のセットアップを自動的に試みます。</p>
       <p>ネットワーク接続のセットアップ処理中は、ネットワーク接続アイコンにみっつの点が表示されます。</p></item>
       <item><p>ネットワーク接続のセットアップが正常に完了すれば、ネットワーク接続アイコンはコンピューターのマークに変わります。</p></item>
@@ -50,31 +46,33 @@
 
   <section id="going-online-wifi">
 
-    <title>Connect to a Wi-Fi network</title>
+    <title>Wi-Fi ネットワークに接続する</title>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>To connect to a Wi-Fi (wireless) network, click the status menu at
-     the top right of the screen, and then click <gui>Select Network</gui>.</p>
-    </item>
+      <title>Wi-Fi (無線) ネットワークに接続する</title>
+      <item>
+        <p>トップバー右側の<gui xref="shell-introduction#yourname">システムメニュー</gui>を開きます。</p>
+      </item>
+      <item>
+        <p><gui>Wi-Fi 未接続</gui>を選択します。すると Wi-Fi 関連のメニューが展開します。</p>
+      </item>
+      <item>
+        <p><gui>ネットワークを選択</gui>をクリックします。</p>
+      </item>
     </steps>
 
      <note style="important">
-       <p>You can only connect to a Wi-Fi network if your computer hardware
-        supports it and you are in an area with Wi-Fi coverage.</p>
+       <p>お使いのハードウェアが Wi-Fi に対応しており、かつ Wi-Fi カバーエリア内にいる場合のみ、Wi-Fi ネットワークに接続できます。</p>
      </note>
 
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online3.svg" width="100%"/>
 
     <steps style="continues">
-    <item><p>From the list of available Wi-Fi networks, select the network you
-    want to connect to, and click <gui>Connect</gui> to confirm.</p>
-    <p>Depending on the network configuration, you may be prompted for network
-     credentials.</p></item>
+    <item><p>利用可能な Wi-Fi ネットワーク一覧の中から接続するネットワークを選択し、<gui>接続</gui>ボタンを押します。</p>
+    <p>ネットワークの設定によっては、接続のための認証情報を要求される場合があります。</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

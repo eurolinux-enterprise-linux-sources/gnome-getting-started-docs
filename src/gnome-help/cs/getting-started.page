@@ -2,7 +2,7 @@
 <page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="getting-started" version="1.0 if/1.0" xml:lang="cs">
 
 <info>
-    <link type="guide" xref="index" group="#first"/>
+    <link type="guide" xref="index" group="#gs"/>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
     <desc>Začínáte s GNOME? Naučte se základní triky.</desc>
     <title type="link">Začínáme s GNOME</title>
@@ -25,27 +25,22 @@
            <tt:p>Spouštění aplikací</tt:p>
          </tt:div>
          <tt:div begin="5s" end="7.5s">
-           <tt:p>Move your mouse pointer to the <gui>Activities</gui> corner at
-            the top left of the screen.</tt:p>
+           <tt:p>Přejeďte ukazatelem myši do rohu <gui>Činnosti</gui> v levém horním rohu obrazovky.</tt:p>
            </tt:div>
          <tt:div begin="7.5s" end="9.5s">
-           <tt:p>Click the <gui>Show Applications</gui> icon.</tt:p>
+           <tt:p>Klikněte na ikonu <gui>Zobrazit aplikace</gui>.</tt:p>
          </tt:div>
          <tt:div begin="9.5s" end="11s">
-           <tt:p>Click the application you want to run, for example,
-            Help.</tt:p>
+           <tt:p>Klikněte na aplikaci, kterou chcete spustit, například Nápověda.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="21s">
-           <tt:p>Alternatively, use the keyboard to open the <gui>Activities
-            Overview</gui> by pressing the
-            <key href="help:gnome-help/keyboard-key-super">Super</key> key.</tt:p>
+           <tt:p>Případně použijte klávesnici k otevření <gui>Přehledu činností</gui> zmáčknutím klávesy <key href="help:gnome-help/keyboard-key-super">Super</key>.</tt:p>
          </tt:div>
          <tt:div begin="22s" end="29s">
-           <tt:p>Start typing the name of the application you want to launch.
-           </tt:p>
+           <tt:p>Začněte psát název aplikace, kterou chcete spustit.</tt:p>
          </tt:div>
          <tt:div begin="30s" end="33s">
-           <tt:p>Press <key>Enter</key> to launch the application.</tt:p>
+           <tt:p>Zmáčknutím <key>Enter</key> aplikaci spustíte.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -66,65 +61,46 @@
            <tt:p>Okna a pracovní plochy</tt:p>
          </tt:div>
          <tt:div begin="6s" end="10s">
-           <tt:p>To maximize a window, grab the window's titlebar and drag it to
-            the top of the screen.</tt:p>
+           <tt:p>Když chcete okno maximalizovat, chytněte jej za záhlaví a táhněte jej k horní části obrazovky.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="13s">
-           <tt:p>When the screen is highlighted, release the window.</tt:p>
+           <tt:p>Až se obrazovka zvýrazní, okno upusťte.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="20s">
-           <tt:p>To unmaximize a window, grab the window's titlebar and drag it
-            away from the edges of the screen.</tt:p>
+           <tt:p>Když chcete maximalizaci okna zrušit, chyťte jej za záhlaví a přetáhněte jej pryč od okrajů obrazovky.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
-           <tt:p>You can also click the top bar to drag the window away and
-            unmaximize it.</tt:p>
+           <tt:p>Pro přetažení okna pryč a zrušení jeho maximalizace můžete kliknou i na horní lištu, místo na záhlaví.</tt:p>
          </tt:div>
          <tt:div begin="34s" end="38s">
-           <tt:p>To maximize a window along the left side of the screen, grab
-            the window's titlebar and drag it to the left.</tt:p>
+           <tt:p>Aby se okno maximalizovalo podél levé strany obrazovky, uchopte jej za záhlaví a přetáhněte doleva.</tt:p>
          </tt:div>
          <tt:div begin="38s" end="40s">
-           <tt:p>When half of the screen is highlighted, release the window.
-           </tt:p>
+           <tt:p>Až se zvýrazní polovina obrazovky, okno upusťte.</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
-           <tt:p>To maximize a window along the right side of the screen, grab
-            the window's titlebar and drag it to the right.</tt:p>
+           <tt:p>Obdobně pro maximalizaci okna podél pravé strany obrazovky jej uchopte za záhlaví a přetáhněte doprava.</tt:p>
          </tt:div>
          <tt:div begin="44s" end="48s">
-           <tt:p>When half of the screen is highlighted, release the window.
-           </tt:p>
+           <tt:p>Až se zvýrazní polovina obrazovky, okno upusťte.</tt:p>
          </tt:div>
          <tt:div begin="54s" end="60s">
-           <tt:p>To maximize a window using the keyboard, hold down the
-            <key href="help:gnome-help/keyboard-key-super">Super</key> key and
-            press <key>↑</key>.</tt:p>
+           <tt:p>Pomocí klávesnice se okno maximalizuje podržením <key href="help:gnome-help/keyboard-key-super">Super</key> a zmáčknutím <key>↑</key>.</tt:p>
          </tt:div>
          <tt:div begin="61s" end="66s">
-           <tt:p>To restore the window to its unmaximized size, hold down the
-            <key href="help:gnome-help/keyboard-key-super">Super</key> key and
-            press <key>↓</key>.</tt:p>
+           <tt:p>Pro obnovení původní velikosti okna z maximalizace podržte zmáčknutou klávesu <key href="help:gnome-help/keyboard-key-super">Super</key> a zmáčkněte <key>↓</key>.</tt:p>
          </tt:div>
          <tt:div begin="66s" end="73s">
-           <tt:p>To maximize a window along the right side of the screen, hold
-            down the <key href="help:gnome-help/keyboard-key-super">Super</key>
-            key and press <key>→</key>.</tt:p>
+           <tt:p>Pro maximalizaci okna podél pravé strany obrazovky podržte zmáčknutou klávesu <key href="help:gnome-help/keyboard-key-super">Super</key> a zmáčkněte <key>→</key>.</tt:p>
          </tt:div>
          <tt:div begin="76s" end="82s">
-           <tt:p>To maximize a window along the left side of the screen, hold
-            down the <key href="help:gnome-help/keyboard-key-super">Super</key>
-            key and press <key>←</key>.</tt:p>
+           <tt:p>Pro maximalizaci okna podél levé strany obrazovky podržte zmáčknutou klávesu <key href="help:gnome-help/keyboard-key-super">Super</key> a zmáčkněte <key>←</key>.</tt:p>
          </tt:div>
          <tt:div begin="83s" end="89s">
-           <tt:p>To move to a workspace which is below the current workspace,
-            press <keyseq><key href="help:gnome-help/keyboard-key-super">Super
-            </key><key>Page Down</key></keyseq>.</tt:p>
+           <tt:p>K přesunu na pracovní plochu pod aktuální pracovní plochou použijte kombinaci <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Down</key></keyseq>.</tt:p>
          </tt:div>
          <tt:div begin="90s" end="97s">
-           <tt:p>To move to a workspace which is above the current workspace,
-            press <keyseq><key href="help:gnome-help/keyboard-key-super">Super
-            </key><key>Page Up</key></keyseq>.</tt:p>
+           <tt:p>K přesunu na pracovní plochu nad aktuální pracovní plochou použijte kombinaci <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Page Up</key></keyseq>.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -146,55 +122,41 @@
          </tt:div>
          <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Move your mouse pointer to the <gui>Activities</gui> corner at
-            the top left of the screen.</tt:p>
+           <tt:p>Přejeďte ukazatelem myši do rohu <gui>Činnosti</gui> v levém horním rohu obrazovky.</tt:p>
            </tt:div>
          </if:if>
          <tt:div begin="9s" end="12s">
-           <tt:p>Click a window to switch to that task.</tt:p>
+           <tt:p>Kliknutím na okno se přepnete na příslušnou úlohu.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>To maximize a window along the left side of the screen, grab
-            the window's titlebar and drag it to the left.</tt:p>
+           <tt:p>Aby se okno maximalizovalo podél levé strany obrazovky, uchopte jej za záhlaví a přetáhněte doleva.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="16s">
-           <tt:p>When half of the screen is highlighted, release the window.
-           </tt:p>
+           <tt:p>Až se zvýrazní polovina obrazovky, okno upusťte.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>To maximize a window along the right side, grab the window's
-            titlebar and drag it to the right.</tt:p>
+           <tt:p>Aby se okno maximalizovalo podél pravé strany obrazovky, uchopte jej za záhlaví a přetáhněte doprava.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
-           <tt:p>When half of the screen is highlighted, release the window.
-           </tt:p>
+           <tt:p>Až se zvýrazní polovina obrazovky, okno upusťte.</tt:p>
          </tt:div>
          <tt:div begin="23s" end="27s">
-           <tt:p>Press <keyseq>
-           <key href="help:gnome-help/keyboard-key-super">Super</key><key>
-           Tab</key></keyseq> to show the <gui>window switcher</gui>.</tt:p>
+           <tt:p>Zmáčknutím <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key> <key>Tab</key></keyseq> zobrazte <gui>přepínač oken</gui>.</tt:p>
          </tt:div>
          <tt:div begin="27s" end="29s">
-           <tt:p>Release <key href="help:gnome-help/keyboard-key-super">Super
-           </key> to select the next highlighted window.
-           </tt:p>
+           <tt:p>Uvolněním klávesy <key href="help:gnome-help/keyboard-key-super">Super</key> se vybere následující zvýrazněné okno.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="32s">
-           <tt:p>To cycle through the list of open windows, do not release
-           <key href="help:gnome-help/keyboard-key-super">Super</key> but hold
-           it down, and press <key>Tab</key>.</tt:p>
+           <tt:p>Jestli chcete seznam otevřených oken postupně procházet, tak klávesu <key href="help:gnome-help/keyboard-key-super">Super</key> nepouštějte, ale stále ji držte a mačkejte <key>Tab</key>.</tt:p>
          </tt:div>
          <tt:div begin="35s" end="37s">
-           <tt:p>Press the <key href="help:gnome-help/keyboard-key-super">Super
-           </key> key to show the <gui>Activities Overview</gui>.</tt:p>
+           <tt:p>Zmáčknutím klávesy <key href="help:gnome-help/keyboard-key-super">Super</key> zobrazte <gui>Přehled činností</gui>.</tt:p>
          </tt:div>
          <tt:div begin="37s" end="40s">
-           <tt:p>Start typing the name of the application you want to switch to.
-           </tt:p>
+           <tt:p>Začněte psát název aplikace, na kterou se chcete přepnout.</tt:p>
          </tt:div>
          <tt:div begin="40s" end="43s">
-           <tt:p>When the application appears as the first result, press <key>
-           Enter</key> to switch to it.</tt:p>
+           <tt:p>Až se požadovaná aplikace objeví ve výsledcích jako první, zmáčkněte <key>Enter</key> a tím se na ni přepnete.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -212,56 +174,38 @@
          <tt:div begin="1s" end="3s">
            <tt:p>Odpovídání na zprávy</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>Move your mouse to the message tray at the bottom of the screen
-            and click the chat message.</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Přejeďte ukazatelem myši na zprávu z diskuze, která se objevila v horní části obrazovky.</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
-           <tt:p>Start typing your reply and when finished, press <key>Enter
-           </key> to send the reply.</tt:p>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Začněte psát svou odpověď a po dokončení ji odešlete zmáčknutím <key>Enter</key>.</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
-           <tt:p>Close the chat message.</tt:p>
+         <tt:div begin="9s" end="10s">
+           <tt:p>Zavřete zprávu z diskuze.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>Opožděná odpověď</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>A chat message in the message tray disappears after a while if
-            you do not move your mouse to the message tray.</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>V případě, že ukazatelem myši nenajedete na zprávu v horní části obrazovky, zpráva po chvíli zmizí.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>To get back to your unanswered message, move your mouse to the
-            message tray.</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Abyste se k nezodpovězené zprávě znovu dostali, klikněte na hodiny na horní liště.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>Click the person who sent you the message.</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>V seznamu upozornění zvolte svoji zprávu.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>Start typing your reply and when finished, press <key>Enter
-           </key>.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Začněte psát odpověď.</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>Close the chat message.</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Pro zobrazení seznamu upozornění, zmáčkněte <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq>.</tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>To show the message tray, press <keyseq>
-           <key href="help:gnome-help/keyboard-key-super">Super</key>
-           <key>M</key></keyseq></tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Pomocí klávesových šipek vyberte zprávu, na kterou chcete odpovědět, a zmáčkněte <key>Enter</key>.</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>Use the arrow keys to select the person you want to reply to,
-            and press <key>Enter</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>Start typing your reply and when finished, press <key>Enter
-           </key>.</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p>Press <key>Esc</key> to close the chat message.</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>To dismiss the message tray, press <key>Esc</key>.</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Začněte psát odpověď.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>

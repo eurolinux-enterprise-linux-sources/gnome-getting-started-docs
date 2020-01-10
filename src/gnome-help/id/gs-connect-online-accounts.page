@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Andika Triwidada</mal:name>
       <mal:email>andika@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -27,14 +27,14 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>Klik menu sistem pada sisi kanan bilah puncak.</p></item>
-      <item><p>Tekan tombol pengaturan di dasar menu.</p></item>
+      <item><p>Klik <gui xref="shell-introduction#yourname">menu sistem</gui> pada sisi kanan bilah puncak.</p></item>
+      <item><p>Tekan tombol pengaturan di kiri dasar menu.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>Dari daftar butir, pilih <gui>Akun Daring</gui>, lalu klik pada tombol <gui>Tambahkan akun daring</gui>.</p></item>
+      <item><p>Klik panel <gui>Akun Daring</gui>, lalu klik tombol <gui>Tambahkan akun daring</gui>.</p></item>
     </steps>
     
     <note><p>Bila Anda telah menyiapkan suatu akun daring sebelumnya, Anda dapat menambahkan sebuah akun daring lain dengan mengklik tombol <gui>+</gui> di pojok kiri bawah jendela.</p></note>

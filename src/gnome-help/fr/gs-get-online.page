@@ -13,7 +13,7 @@
     <title role="trail" type="link">Connexion au réseau</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">Se connecter au réseau</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Alain Lojewski</mal:name>
@@ -25,6 +25,18 @@
       <mal:name>Alexandre Franke</mal:name>
       <mal:email>alexandre.franke@gmail.com</mal:email>
       <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonor Palazzo</mal:name>
+      <mal:email>leonor.palazzo@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jean-Baptiste Holcroft</mal:name>
+      <mal:email>jean-baptiste@holcroft.fr</mal:email>
+      <mal:years>2016</mal:years>
     </mal:credit>
   </info>
 
@@ -42,7 +54,7 @@
 
     <steps>
       <item><p>L'icône de connexion réseau située dans le coin en haut à droite dans la barre supérieure indique que vous êtes déconnecté.</p>
-      <p>Si vous êtes déconnecté, cela peut être dû à différentes raisons : le câble réseau est débranché, votre ordinateur est en <em>mode avion</em>, ou alors il n'y a pas de réseau Wi-Fi disponible dans votre environnement.</p>
+      <p>Différentes raisons : le câble réseau est débranché, votre ordinateur est en <em>mode avion</em>, ou alors il n'y a pas de réseau Wi-Fi disponible dans votre environnement.</p>
       <p>Si vous voulez une liaison filaire, branchez simplement le câble réseau et l'ordinateur commence automatiquement à configurer une connexion.</p>
       <p>Pendant que l'ordinateur configure une connexion réseau, l'îcone de connexion affiche trois points.</p></item>
       <item><p>Dès que la configuration est achevée, les trois points se transforment en icône ordinateur connecté.</p></item>
@@ -57,8 +69,16 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>Pour vous connecter à un réseau Wi-Fi (sans fil), cliquez sur le menu état dans le coin droit de l'écran et cliquez sur <gui>Selectionner un réseau</gui>.</p>
-    </item>
+      <title>Pour se connecter à un réseau Wi-Fi (sans fil) :</title>
+      <item>
+        <p>Cliquez sur le <gui xref="shell-introduction#yourname">menu système</gui> à droite dans la barre supérieure.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui>Wi-Fi non connecté</gui>. La section Wi-Fi du menu s'ouvrira.</p>
+      </item>
+      <item>
+        <p>Cliquez sur <gui>Sélectionner le réseau</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -71,8 +91,6 @@
     <item><p>Dans la liste des réseaux Wi-Fi disponibles, choisissez celui auquel vous souhaitez vous connecter et cliquez sur <gui>Connexion</gui> pour confirmer.</p>
     <p>Selon la configuration du réseau, il peut vous être demandé de vous identifier.</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

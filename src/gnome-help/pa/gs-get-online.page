@@ -13,7 +13,7 @@
     <title role="trail" type="link">ਆਨਲਾਈਨ ਜਾਉ</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">ਆਨਲਾਈਨ ਹੋਣ ਲਈ ਸਿਖਲਾਈ</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   </info>
 
   <title>ਆਨਲਾਈਨ ਜਾਉ</title>
@@ -29,8 +29,12 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>ਉੱਤੇ ਪੱਟੀ ਵਿੱਚ ਸੱਜੇ ਹੱਥ ਨੈੱਟਵਰਕ ਕੁਨੈਕਸ਼ਨ ਆਈਕਾਨ ਵੇਖਾਇਆ ਜਾਂਦਾ ਹੈ, ਜੇ ਤੁਸੀਂ ਆਫ-ਲਾਈਨ ਹੋ।</p>
-      <p>ਆਫਲਾਈਨ ਹੋਣ ਦੇ ਕਈ ਕਾਰਨ ਹੋ ਸਕਦੇ ਹਨ: ਜਿਵੇਂ ਕਿ ਨੈੱਟਵਰਕ ਕੇਬਲ ਨਾ ਲੱਗੀ ਹੋਣੀ, ਕੰਪਿਊਟਰ ਨੂੰ <em>ਏਅਰਪਲੇਨ ਮੋਡ</em> ਵਿੱਚ ਸੈੱਟ ਕੀਤਾ ਹੋਣਾ ਜਾਂ ਤੁਹਾਡੇ ਖੇਤਰ ਵਿੱਚ ਕੋਈ ਵੀ ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਉਪਲੱਬਧ ਹੋਣਾ ਹੋ ਸਕਦਾ ਹੈ।</p>
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are offline.</p>
+      <p>The offline status can be caused by a number of reasons: for
+       example, a network cable has been unplugged, the computer has been set
+       to run in <em>airplane mode</em>, or there are no available Wi-Fi
+       networks in your area.</p>
       <p>ਜੇ ਤੁਸੀਂ ਤਾਰ ਵਾਲਾ ਕੁਨੈਕਸ਼ਨ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਆਨਲਾਈਨ ਜਾਣ ਲਈ ਕੇਵਲ ਨੈੱਟਵਰਕ ਕੇਬਲ ਲਗਾ ਦਿਉ। ਕੰਪਿਊਟਰ ਤੁਹਾਡੇ ਲਈ ਆਪਣੇ-ਆਪ ਨੈੱਟਵਰਕ ਕੁਨੈਕਸ਼ਨ ਸੈੱਟ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੇਗਾ।</p>
       <p>ਜਦੋਂ ਤੱਕ ਕੰਪਿਊਟਰ ਨੂੰ ਤੁਹਾਡੇ ਲਈ ਨੈੱਟਵਰਕ ਨਾਲ ਸੈਟਅੱਪ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੁੰਦਾ ਹੈ, ਨੈੱਟਵਰਕ ਕੁਨੈਕਸ਼ਨ ਆਈਕਾਨ ਨੂੰ ਤਿੰਨ ਬਿੰਦੂਆਂ ਵਜੋਂ ਵੇਖਾਇਆ ਜਾਂਦਾ ਹੈ।</p></item>
       <item><p>ਜਦੋਂ ਨੈੱਟਵਰਕ ਕੁਨੈਕਸ਼ਨ ਠੀਕ ਤਰ੍ਹਾਂ ਸੈੱਟ ਅੱਪ ਹੋ ਗਿਆ ਤਾਂ ਨੈੱਟਵਰਕ ਕੁਨੈਕਸ਼ਨ ਆਈਕਾਨ ਨੂੰ ਨੈੱਟਵਰਕ ਨਾਲ ਜੁੜੇ ਹੋਏ ਕੰਪਿਊਟਰ ਨਿਸ਼ਾਨ ਨਾਲ ਬਦਲ ਦੇਵੇਗਾ।</p></item>
@@ -45,8 +49,18 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>ਵਾਈ-ਫਾਈ (ਬੇਤਾਰ) ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਲਈ, ਸਕਰੀਨ ਦੇ ਉੱਤੇ ਪਾਸੇ ਕੋਨੇ ਉੱਤੇ ਸਥਿਤੀ ਮੇਨੂ ਨੂੰ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਤਦ <gui>ਨੈੱਟਵਰਕ ਚੁਣੋ</gui> ਨੂੰ ਕਲਿੱਕ ਕਰੋ।</p>
-    </item>
+      <title>To connect to a Wi-Fi (wireless) network:</title>
+      <item>
+        <p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p>
+      </item>
+      <item>
+        <p>Select <gui>Wi-Fi Not Connected</gui>. The Wi-Fi section of the menu
+        will expand.</p>
+      </item>
+      <item>
+        <p>Click <gui>Select Network</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -59,8 +73,6 @@
     <item><p>ਮੌਜੂਦ ਵਾਈ-ਫਾਈ ਨੈੱਟਵਰਕ ਦੀ ਸੂਚੀ ਤੋਂ ਜਿਸ ਨੈੱਟਵਰਕ ਨਾਲ ਤੁਸੀਂ ਕੁਨੈਕਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਚੁਣੋ ਅਤੇ ਤਸਦੀਕ ਕਰਨ ਲਈ <gui>ਕੁਨੈਕਟ ਕਰੋ</gui> ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।</p>
     <p>ਨੈੱਟਵਰਕ ਸੰਰਚਨਾ ਦੇ ਮੁਤਾਬਕ ਤੁਹਾਨੂੰ ਨੈੱਟਵਰਕ ਸਨਦ ਲਈ ਪੁੱਛਿਆ ਜਾ ਸਕਦਾ ਹੈ।</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

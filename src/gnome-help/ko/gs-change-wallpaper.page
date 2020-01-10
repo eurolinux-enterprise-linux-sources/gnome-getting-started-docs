@@ -15,9 +15,9 @@
     <title role="seealso" type="link">배경 화면 바꾸기 따라하기</title>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Seong-ho Cho</mal:name>
+      <mal:name>조성호</mal:name>
       <mal:email>shcho@gnome.org</mal:email>
-      <mal:years>2014</mal:years>
+      <mal:years>2014, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -58,8 +58,9 @@
     <title>배경 화면 바꾸기</title>
     
     <steps>
-      <item><p>상단 표시줄의 우측에 있는 시스템 메뉴를 누르고 메뉴 하단의 설정 단추를 누르세요.</p></item>
-      <item><p>목록의 항목 중, <gui>배경 화면</gui>을 선택하세요.</p></item>
+      <item><p>상단 표시줄의 우측에 있는 <gui xref="shell-introduction#yourname">시스템 메뉴</gui>를 누르십시오.</p></item>
+      <item><p>메뉴 하단의 설정 단추를 누르십시오.</p></item>
+      <item><p><gui>배경 화면</gui> 창을 누르십시오.</p></item>
       <item><p><gui>배경 화면</gui>창의 우측에 있는 현재 배경 그림을 누르세요.</p></item>
       <item><p>사용하려는 배경 화면 이미지를 누르세요.</p></item>
       <item><p><gui>선택</gui> 단추를 누르세요.</p></item>

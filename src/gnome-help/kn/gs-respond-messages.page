@@ -26,47 +26,44 @@
          <tt:div begin="1s" end="3s">
            <tt:p>ಸಂದೇಶಗಳಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸುವಿಕೆ</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>ನಿಮ್ಮ ಮೌಸ್‌ ಅನ್ನು ತೆರೆಯ ಕೆಳಭಾಗದಲ್ಲಿರುವ ಸಂದೇಶದ ಟ್ರೇಗೆ ಒಯ್ದು ನಂತರ ಚಾಟ್‌ ಸಂದೇಶದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Move your mouse over the chat message that appears near the top
+           of the screen.</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
+         <tt:div begin="6s" end="9s">
            <tt:p>ನಿಮ್ಮ ಪ್ರತ್ಯುತ್ತರವನ್ನು ನಮೂದಿಸಲು ಆರಂಭಿಸಿ ಮತ್ತು ಮುಗಿದ ಕೂಡಲೆ, ಅದನ್ನು ಕಳುಹಿಸಲು <key>Enter </key> ಅನ್ನು ಒತ್ತಿ.</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
+         <tt:div begin="9s" end="10s">
            <tt:p>ಚಾಟ್‌ ಸಂದೇಶವನ್ನು ಮುಚ್ಚಿ.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>ತಡವಾದ ಪ್ರತಿಕ್ರಿಯೆ</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>ನೀವು ಸಂದೇಶದ ಟ್ರೇಗೆ ಮೌಸ್ ಅನ್ನು ತೆಗೆದುಕೊಂಡು ಹೋಗದೆ ಇದ್ದರೆ ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಸಂದೇಶ ಟ್ರೇಯಲ್ಲಿನ ಒಂದು ಚಾಟ್ ಸಂದೇಶವು ಅದೃಶ್ಯವಾಗುತ್ತದೆ.</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>A chat message near the top of the screen disappears after a
+           while if you do not move your mouse over the message.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>ನಿಮ್ಮ ಉತ್ತರಿಸದೆ ಇರುವ ಸಂದೇಶಕ್ಕೆ ಮರಳಲು, ಮೌಸ್‌ ಅನ್ನು ಸಂದೇಶದ ಟ್ರೇಗೆ ತೆಗೆದುಕೊಂಡು ಹೋಗಿ.</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>To get back to your unanswered message, click the clock on the
+           top bar.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>ನಿಮಗೆ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಿದ ವ್ಯಕ್ತಿಯ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>From the notification list, choose your message.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>ನಿಮ್ಮ ಪ್ರತ್ಯುತ್ತರವನ್ನು ನಮೂದಿಸಲು ಆರಂಭಿಸಿ ಮತ್ತು ಮುಗಿದ ಕೂಡಲೆ <key>Enter </key> ಅನ್ನು ಒತ್ತಿ.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Start typing your reply.</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>ಚಾಟ್‌ ಸಂದೇಶವನ್ನು ಮುಚ್ಚಿ.</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>To show the notification list, press <keyseq>
+           <key href="help:gnome-help/keyboard-key-super">Super</key>
+           <key>V</key></keyseq></tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>ಸಂದೇಶದ ಟ್ರೇ ಅನ್ನು ತೋರಿಸಲು, <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>M</key></keyseq> ಅನ್ನು ಒತ್ತಿ</tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Use the arrow keys to select the message you want to reply to,
+            and press <key>Enter</key>.</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>ನೀವು ಪ್ರತ್ಯುತ್ತರಿಸಲು ಬಯಸುವ ವ್ಯಕ್ತಿಯನ್ನು ಆರಿಸಲು ಬಾಣದ ಗುರುತಿನ ಕೀಲಿಗಳನ್ನು ಬಳಸಿ, ನಂತರ <key>Enter</key> ಅನ್ನು ಒತ್ತಿ.</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>ನಿಮ್ಮ ಪ್ರತ್ಯುತ್ತರವನ್ನು ನಮೂದಿಸಲು ಆರಂಭಿಸಿ ಮತ್ತು ಮುಗಿದ ಕೂಡಲೆ <key>Enter </key> ಅನ್ನು ಒತ್ತಿ.</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p>ಚಾಟ್‌ನ ಸಂದೇಶವನ್ನು ಮುಚ್ಚಲು <key>Esc</key> ಅನ್ನು ಒತ್ತಿ.</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>ಟ್ರೇ ಸಂದೇಶವನ್ನು ಮುಚ್ಚಲು, <key>Esc</key> ಅನ್ನು ಒತ್ತಿ.</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Start typing your reply.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -77,7 +74,8 @@
     <title>ಮೌಸ್‌ ಅನ್ನು ಬಳಸಿಕೊಂಡು ಚಾಟ್‌ ಸಂದೇಶಕ್ಕೆ ಪ್ರತಿಕ್ರಿಯಿಸಿ</title>
     
     <steps>
-      <item><p>ನಿಮ್ಮ ಮೌಸ್‌ ಅನ್ನು ತೆರೆಯ ಕೆಳಭಾಗದಲ್ಲಿರುವ ಸಂದೇಶದ ಟ್ರೇಗೆ ಒಯ್ದು ನಂತರ ಚಾಟ್‌ ಸಂದೇಶದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.</p></item>
+      <item><p>Move your mouse over the chat message that appears near the top
+       of the screen.</p></item>
       <item><p>ನಿಮ್ಮ ಪ್ರತ್ಯುತ್ತರವನ್ನು ನಮೂದಿಸಲು ಆರಂಭಿಸಿ ಮತ್ತು ಮುಗಿದ ಕೂಡಲೆ, ಅದನ್ನು ಕಳುಹಿಸಲು <key>Enter </key> ಅನ್ನು ಒತ್ತಿ.</p></item>
       <item><p>ಚಾಟ್‌ ಸಂದೇಶವನ್ನು ಮುಚ್ಚಲು, ಚಾಟ್‌ ಸಂದೇಶದ ಮೇಲ್ಭಾಗದ ಬಲಮೂಲೆಯಲ್ಲಿರುವ ಮುಚ್ಚುವ ಗುಂಡಿಯ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.</p></item>
     </steps>
@@ -88,11 +86,13 @@
     <title>ಒಂದು ಚಾಟ್‌ ಸಂದೇಶಕ್ಕೆ ಮೌಸ್‌ ಅನ್ನು ಬಳಸಿಕೊಂಡು ತಡವಾದ ಪ್ರತಿಕ್ರಿಯೆ</title>
     
     <steps>
-      <item><p>ಒಂದು ಸಂದೇಶ ಟ್ರೇಯಲ್ಲಿ ಒಂದು ಚಾಟ್ ಸಂದೇಶವು ಕಾಣಿಸಿಕೊಂಡಾಗ, ನೀವು ಸಂದೇಶದ ಟ್ರೇಗೆ ಮೌಸ್ ಅನ್ನು ತೆಗೆದುಕೊಂಡು ಹೋಗದೆ ಇದ್ದರೆ, ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಸಂದೇಶವು ಅದೃಶ್ಯವಾಗುತ್ತದೆ.</p></item>
-      <item><p>ನಿಮ್ಮ ಉತ್ತರಿಸದೆ ಇರುವ ಸಂದೇಶಕ್ಕೆ ಮರಳಲು, ತೆರೆಯ ಅತ್ಯಂತ ಕೆಳಭಾಗದಲ್ಲಿರುವ ಮೌಸ್‌ ಅನ್ನು ಸಂದೇಶದ ಟ್ರೇಗೆ ತೆಗೆದುಕೊಂಡು ಹೋಗಿ.</p></item>
-      <item><p>ಸಂದೇಶದ ಟ್ರೇ ಕಾಣಿಸಿಕೊಂಡಾಗ, ನಿಮಗೆ ಸಂದೇಶ ಕಳುಹಿಸದವರನ್ನು ಪ್ರತಿನಿಧಿಸುವ ಒಂದು ಸಣ್ಣ ಚಿತ್ರದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.</p></item>
-      <item><p>ಚಾಟ್ ಸಂದೇಶವನ್ನು ತೋರಿಸಿದಾಗ, ನಿಮ್ಮ ಪ್ರತ್ಯುತ್ತರವನ್ನು ನಮೂದಿಸಲು ಆರಂಭಿಸಿ ಮತ್ತು ಮುಗಿದ ಕೂಡಲೆ, ಅದನ್ನು ಕಳುಹಿಸಲು <key>Enter </key> ಅನ್ನು ಒತ್ತಿ.</p></item>
-      <item><p>ಚಾಟ್‌ ಸಂದೇಶವನ್ನು ಮುಚ್ಚಲು, ಚಾಟ್‌ ಸಂದೇಶದ ಮೇಲ್ಭಾಗದ ಬಲಮೂಲೆಯಲ್ಲಿರುವ ಮುಚ್ಚುವ ಗುಂಡಿಯ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.</p></item>
+      <item><p>When a chat message appears near the top of the screen and you do
+       not move your mouse over the message, it disappears after a while.</p></item>
+      <item><p>To get back to your unanswered message, click the clock on the
+       top bar.</p></item>
+      <item><p>From the notification list, choose the message you
+       want to reply to, and click it.</p></item>
+      <item><p>When the chat message is shown, start typing your reply.</p></item>
     </steps>
     
   </section>
@@ -100,12 +100,13 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>ಒಂದು ಚಾಟ್‌ ಸಂದೇಶಕ್ಕೆ ಕೀಲಿಮಣೆಯನ್ನು ಬಳಸಿಕೊಂಡು ತಡವಾದ ಪ್ರತಿಕ್ರಿಯೆ</title>
     <steps>
-      <item><p>ಉತ್ತರಿಸದೆ ಇರುವ ಚಾಟ್‌ ಸಂದೇಶಗಳಿಗೆ ಮರಳಲು, ಸಂದೇಶಗಳನ್ನು ಹೊಂದಿರುವ ಸಂದೇಶದ ಟ್ರೇ ಅನ್ನು ತೋರಿಸಲು <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq>ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.</p>
+      <item><p>To get back to your unanswered chat messages, press <keyseq>
+      <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key>
+      </keyseq> to display the list of unanswered notifications.</p>
       </item>
-      <item><p>ಒಂದು ಸಣ್ಣ ಚಿತ್ರದಿಂದ ಸೂಚಿಸಲಾದ ನೀವು ಪ್ರತ್ಯುತ್ತರಿಸಲು ಬಯಸುವ ವ್ಯಕ್ತಿಯನ್ನು ಆರಿಸಲು ಬಾಣದ ಗುರುತಿನ ಕೀಲಿಗಳನ್ನು ಬಳಸಿ, ನಂತರ <key>Enter</key> ಅನ್ನು ಒತ್ತಿ.</p></item>
-      <item><p>ನಿಮ್ಮ ಪ್ರತ್ಯುತ್ತರವನ್ನು ನಮೂದಿಸಲು ಆರಂಭಿಸಿ ಮತ್ತು ಮುಗಿದ ಕೂಡಲೆ, ಅದನ್ನು ಕಳುಹಿಸಲು <key>Enter </key> ಅನ್ನು ಒತ್ತಿ.</p></item>
-      <item><p>ಚಾಟ್‌ನ ಸಂದೇಶವನ್ನು ಮುಚ್ಚಲು <key>Esc</key> ಅನ್ನು ಒತ್ತಿ.</p></item>
-      <item><p>ಟ್ರೇ ಸಂದೇಶವನ್ನು ಮುಚ್ಚಲು, <key>Esc</key> ಅಥವ <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq> ಅನ್ನು ಒತ್ತಿ.</p></item>
+      <item><p>Use the arrow keys to select the notification you want to reply
+      to, and press <key>Enter</key>.</p></item>
+      <item><p>When the chat message is shown, start typing your reply.</p></item>
     </steps>
 
   </section>

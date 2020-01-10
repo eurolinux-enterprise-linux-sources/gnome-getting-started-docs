@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Andika Triwidada</mal:name>
       <mal:email>andika@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -64,11 +64,12 @@
       <p>GNOME memungkinkan Anda untuk menggubah apa yang ingin Anda tampilkan dalam hasil pencarian di <gui>Ringkasan Aktivitas</gui>. Sebagai contoh, Anda dapat memilih apakah Anda ingin menampilkan hasil untuk situs-situs web, foto-foto, atau musik.</p>
       </note>
 
-      <p>Untuk menggubah apa yang ditampilkan dalam hasil pencarian:</p>
 
       <steps>
-        <item><p>Klik menu sistem pada sisi kanan bilah puncak dan tekan tombol pengaturan pada bagian dasar menu.</p></item>
-        <item><p>Dari daftar butir, pilih <gui>Cari</gui>.</p></item>
+        <title>Untuk menggubah apa yang ditampilkan dalam hasil pencarian:</title>
+        <item><p>Klik <gui xref="shell-introduction#yourname">menu sistem</gui> pada sisi kanan bilah puncak.</p></item>
+        <item><p>Tekan tombol pengaturan di kiri dasar menu.</p></item>
+        <item><p>Klik panel <gui>Cari</gui>.</p></item>
         <item><p>Dalam daftar lokasi pencarian, klik saklar <gui>NYALA/MATI</gui> di sebelah lokasi pencarian yang ingin Anda fungsikan atau nonaktifkan.</p>
          </item>
       </steps>

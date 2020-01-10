@@ -73,12 +73,13 @@
       <p>GNOME permette di personalizzare ciò che si vuole mostrare nei risultati di ricerca nella <gui>Panoramica attività</gui>. Per esempio, è possibile scegliere se mostrare oppure no risultati per i siti web, le foto o la musica.</p>
       </note>
 
-      <p>Per personalizzare ciò che è mostrato nei risultati di ricerca:</p>
 
       <steps>
-        <item><p>Click the system menu on the right side of the top bar and press
-         the settings button at the bottom of the menu.</p></item>
-        <item><p>Dall'elenco di voci selezionare <gui>Cerca</gui>.</p></item>
+        <title>Per personalizzare ciò che è mostrato nei risultati di ricerca:</title>
+        <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p></item>
+        <item><p>Click the settings button at the bottom left of the menu.</p></item>
+        <item><p>Click the <gui>Search</gui> panel.</p></item>
         <item><p>Nell'elenco delle posizioni di ricerca fare clic sull'interruttore <gui>ON/OFF</gui> accanto alla posizione di ricerca che si vuole abilitare o disabilitare.</p>
          </item>
       </steps>

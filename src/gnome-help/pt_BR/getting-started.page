@@ -2,7 +2,7 @@
 <page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="getting-started" version="1.0 if/1.0" xml:lang="pt-BR">
 
 <info>
-    <link type="guide" xref="index" group="#first"/>
+    <link type="guide" xref="index" group="#gs"/>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
     <desc>Você é novo no GNOME? Aprenda como começar.</desc>
     <title type="link">Primeiros passos com o GNOME</title>
@@ -11,13 +11,19 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Enrico Nicoletto</mal:name>
       <mal:email>liverig@gmail.com</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:years>2013</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Rafael Ferreira</mal:name>
-      <mal:email>rafael.f.f1@gmail.com</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -91,7 +97,7 @@
            <tt:p>Quando metade da tela for destacada, solte a janela.</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
-           <tt:p>Para maximizar uma janela ao lado direito da tela, arraste a barra de título da janela e solte-a à direita.</tt:p>
+           <tt:p>Para maximizar uma janela no lado direito da tela, arraste a barra de título da janela e solte-a à direita.</tt:p>
          </tt:div>
          <tt:div begin="44s" end="48s">
            <tt:p>Quando metade da tela for destacada, solte a janela.</tt:p>
@@ -147,7 +153,7 @@
            <tt:p>Quando metade da tela for destacada, solte a janela.</tt:p>
          </tt:div>
          <tt:div begin="16s" end="18">
-           <tt:p>Para maximizar uma janela ao lado direito, arraste a barra de título da janela e solte-a à direita.</tt:p>
+           <tt:p>Para maximizar uma janela no lado direito, arraste a barra de título da janela e solte-a à direita.</tt:p>
          </tt:div>
          <tt:div begin="18s" end="20s">
            <tt:p>Quando metade da tela for destacada, solte a janela.</tt:p>
@@ -186,47 +192,38 @@
          <tt:div begin="1s" end="3s">
            <tt:p>Respondendo a mensagens</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>Mova seu mouse para a área de notificação, na parte inferior da tela, e clique na mensagem de bate-papo.</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Mova o mouse sobre a mensagem de bate-papo que aparecer no topo da tela.</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
+         <tt:div begin="6s" end="9s">
            <tt:p>Comece a digitar sua resposta e, quando finalizar, pressione <key>Enter</key> para enviá-la.</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
+         <tt:div begin="9s" end="10s">
            <tt:p>Fechando a mensagem de bate-papo.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>Resposta atrasada</tt:p>
+           <tt:p>Resposta posterior</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>Uma mensagem de bate-papo na área de notificação desaparece depois de um tempo se você não move seu mouse da área de notificação.</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>As mensagens de bate-papo do topo da tela desaparecem depois de algum tempo se você não coloca o mouse sobre elas.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>Para voltar para a sua mensagem não respondida, mova seu mouse para a área de notificação.</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Para voltar para uma mensagem não respondida, clique na área de notificação no topo da tela.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>Clique na pessoa que lhe envia a mensagem.</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Na lista de notificações, escolha a mensagem.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>Comece a digitar sua resposta e, quando finalizar, pressione <key>Enter</key>.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Comece a digitar a resposta.</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>Fechando a mensagem de bate-papo.</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Para mostrar a área de notificação, pressione <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq></tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>Para mostrar a área de notificação, pressione <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq></tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Use as teclas de setas para selecionar a mensagem que você deseja responder e pressione <key>Enter</key>.</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>Use as teclas de setas para selecionar uma pequena imagem representando a pessoa para quem você deseja responder e pressione <key>Enter</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>Comece a digitar sua resposta e, quando finalizar, pressione <key>Enter</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p>Pressione <key>Esc</key> para fechar a mensagem de bate-papo.</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>Para dispensar a área de notificação, pressione <key>Esc</key>.</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Comece a digitar a resposta.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>

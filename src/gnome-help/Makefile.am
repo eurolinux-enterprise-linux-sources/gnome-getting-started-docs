@@ -2,14 +2,13 @@
 
 HELP_ID = gnome-help
 
-HELP_LINGUAS = as ca cs de el es fr gl gu hi hu id it ja kn ko lv mr pa pl pt_BR ru sk sv ta te zh_HK zh_TW
+HELP_LINGUAS = as ca cs de el es fi fr gl gu he hi hu id it ja kn ko lv mr pa pl pt pt_BR ru sk sv ta te zh_HK zh_TW
 
 HELP_MEDIA = \
 	figures/gnome-change-wallpaper.webm \
 	figures/gnome-launching-applications.webm \
 	figures/gnome-responding-to-messages.webm \
 	figures/gnome-task-switching.webm \
-	figures/gnome-timezone.webm \
 	figures/gnome-windows-and-workspaces.webm
 
 # Please ASK MAINTAINERS first before updating the HELP_FILES list below.
@@ -19,10 +18,10 @@ HELP_FILES = \
 	getting-started.page \
 	gs-animation.xml \
 	gs-browse-web.page \
-	gs-browse-web-firefox.page \
 	gs-change-date-time-timezone.page \
 	gs-change-wallpaper.page \
 	gs-connect-online-accounts.page \
+	gs-datetime.svg \
 	gs-get-online.page \
 	gs-goa1.svg \
 	gs-goa2.svg \

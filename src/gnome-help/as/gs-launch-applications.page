@@ -10,13 +10,11 @@
       <name>পিটাৰ ক'ভাৰ</name>
     </credit>
 
-<!--
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Launch applications</title>
+    <title role="trail" type="link">এপ্লিকেচনসমূহ আৰম্ভ কৰক</title>
     <link type="seealso" xref="shell-apps-open"/>
-    <title role="seealso" type="link">A tutorial on launching applications</title>
+    <title role="seealso" type="link">এপ্লিকেচনসমূহ আৰম্ভ কৰিবলে এটা শিক্ষা</title>
     <link type="next" xref="gs-switch-tasks"/>
--->
   </info>
 
   <title>এপ্লিকেচনসমূহ আৰম্ভ কৰক</title>

@@ -18,13 +18,19 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Enrico Nicoletto</mal:name>
       <mal:email>liverig@gmail.com</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:years>2013</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Rafael Ferreira</mal:name>
-      <mal:email>rafael.f.f1@gmail.com</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -38,47 +44,38 @@
          <tt:div begin="1s" end="3s">
            <tt:p>Respondendo a mensagens</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>Mova seu mouse para a área de notificação, na parte inferior da tela, e clique na mensagem de bate-papo.</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Mova o mouse sobre a mensagem de bate-papo que aparecer no topo da tela.</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
+         <tt:div begin="6s" end="9s">
            <tt:p>Comece a digitar sua resposta e, quando finalizar, pressione <key>Enter</key> para enviá-la.</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
+         <tt:div begin="9s" end="10s">
            <tt:p>Fechando a mensagem de bate-papo.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
-           <tt:p>Resposta atrasada</tt:p>
+           <tt:p>Resposta posterior</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>Uma mensagem de bate-papo na área de notificação desaparece depois de um tempo se você não move seu mouse da área de notificação.</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>As mensagens de bate-papo do topo da tela desaparecem depois de algum tempo se você não coloca o mouse sobre elas.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>Para voltar para a sua mensagem não respondida, mova seu mouse para a área de notificação.</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Para voltar para uma mensagem não respondida, clique na área de notificação no topo da tela.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>Clique na pessoa que lhe envia a mensagem.</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Na lista de notificações, escolha a mensagem.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>Comece a digitar sua resposta e, quando finalizar, pressione <key>Enter</key>.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Comece a digitar a resposta.</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>Fechando a mensagem de bate-papo.</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Para mostrar a área de notificação, pressione <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq></tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>Para mostrar a área de notificação, pressione <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq></tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Use as teclas de setas para selecionar a mensagem que você deseja responder e pressione <key>Enter</key>.</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>Use as teclas de setas para selecionar uma pequena imagem representando a pessoa para quem você deseja responder e pressione <key>Enter</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>Comece a digitar sua resposta e, quando finalizar, pressione <key>Enter</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p>Pressione <key>Esc</key> para fechar a mensagem de bate-papo.</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>Para dispensar a área de notificação, pressione <key>Esc</key>.</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Comece a digitar a resposta.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -89,7 +86,7 @@
     <title>Respondendo a uma mensagem de bate-papo com o mouse</title>
     
     <steps>
-      <item><p>Mova seu mouse para a área de notificação, na parte inferior da tela, e clique na mensagem de bate-papo.</p></item>
+      <item><p>Mova o mouse sobre a mensagem de bate-papo que aparecer no topo da tela.</p></item>
       <item><p>Comece a digitar sua resposta e, quando finalizar, pressione <key>Enter</key> para enviá-la.</p></item>
       <item><p>Para fechar a mensagem de bate-papo, clique no botão de fechar no canto direito da mensagem de bate-papo.</p></item>
     </steps>
@@ -97,27 +94,24 @@
   </section>
   
   <section id="respond-to-messages-delayed-mouse">
-    <title>Resposta atrasada a uma mensagem de bate-papo usando o mouse</title>
+    <title>Respondendo posteriormente a uma mensagem de bate-papo usando o mouse</title>
     
     <steps>
-      <item><p>Quando uma mensagem aparece na área de notificação e você não move seu mouse da área de notificação, a mensagem desaparece depois de um tempo.</p></item>
-      <item><p>Para voltar para a sua mensagem não respondida, mova seu mouse para a área de notificação na parte inferior da tela.</p></item>
-      <item><p>Quando a área de notificação aparecer, clique na pequena imagem que representa a pessoa que lhe enviou a mensagem.</p></item>
-      <item><p>Quando a mensagem de bate-papo é mostrada, comece a digitar sua resposta e, quando finalizar, pressione <key>Enter</key> para enviá-la.</p></item>
-      <item><p>Para fechar a mensagem de bate-papo, clique no botão de fechar no canto direito da mensagem de bate-papo.</p></item>
+      <item><p>Quando uma mensagem de bate-papo aparece no topo da tela e você não move seu mouse sobre ela, a mensagem desaparece depois de algum tempo.</p></item>
+      <item><p>Para voltar para uma mensagem não respondida, clique na área de notificação no topo da tela.</p></item>
+      <item><p>Na lista de notificações (no topo da tela), escolha a mensagem que você deseja responder e clique nela.</p></item>
+      <item><p>Quando a mensagem de bate-papo for mostrada, comece a digitar sua resposta.</p></item>
     </steps>
     
   </section>
   
   <section id="respond-to-messages-delayed-keyboard">
-    <title>Reposta atrasada a uma mensagem de bate-papo usando o teclado</title>
+    <title>Respondendo posteriormente a uma mensagem de bate-papo usando o teclado</title>
     <steps>
-      <item><p>Para retornar às suas mensagens não respondidas, pressione <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq> para exibir a área de notificação que contém as mensagens.</p>
+      <item><p>Para retornar às suas mensagens não respondidas, pressione <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq> para exibir a área de notificação que contém as mensagens.</p>
       </item>
-      <item><p>Use as teclas de setas para selecionar uma pequena imagem representando a pessoa para quem você deseja responder e pressione <key>Enter</key>.</p></item>
-      <item><p>Comece a digitar sua resposta e, quando finalizar, pressione <key>Enter</key> para enviá-la.</p></item>
-      <item><p>Pressione <key>Esc</key> para fechar a mensagem de bate-papo.</p></item>
-      <item><p>Para dispensar a área de notificação, pressione <key>Esc</key> ou <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq>.</p></item>
+      <item><p>Use as teclas de setas para selecionar a notificação que você deseja responder e pressione <key>Enter</key>.</p></item>
+      <item><p>Quando a mensagem de bate-papo for mostrada, comece a digitar sua resposta.</p></item>
     </steps>
 
   </section>

@@ -24,7 +24,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Christian Kirbach</mal:name>
       <mal:email>christian.kirbach@gmail.com</mal:email>
-      <mal:years>2013, 2014</mal:years>
+      <mal:years>2013, 2014, 2015, 2016</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -80,7 +80,7 @@
            <tt:p>Beginnen Sie den Namen der Anwendung zu tippen, zu der Sie wechseln wollen.</tt:p>
          </tt:div>
          <tt:div begin="40s" end="43s">
-           <tt:p>Wenn die Anwendung als erstes Ergebnis erscheint, drücken Sie <key>Eingabe</key>, um zur Anwendung zu wechseln.</tt:p>
+           <tt:p>Wenn die Anwendung als erstes Ergebnis erscheint, drücken Sie die <key>Eingabetaste</key>, um zur Anwendung zu wechseln.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -94,7 +94,7 @@
 <if:when test="!platform:gnome-classic">
 
   <steps>
-    <item><p>Bewegen Sie den Mauszeiger zu der <gui>Aktivitäten</gui>-Ecke am linken oberen Rand des Bildschirms, um die <gui>Aktivitäten-Übersicht</gui>, wo Sie die aktuell laufenden Anwendungen als kleine Fenster sehen können, anzuzeigen.</p></item>
+    <item><p>Bewegen Sie den Mauszeiger zu der <gui>Aktivitäten</gui>-Ecke am linken oberen Rand des Bildschirms, um die <gui>Aktivitäten-Übersicht</gui> anzuzeigen, wo Sie die aktuell laufenden Anwendungen als kleine Fenster sehen können.</p></item>
      <item><p>Klicken Sie auf ein Fenster, um die Anwendung zu wechseln.</p></item>
   </steps>
 
@@ -128,7 +128,7 @@
     
   <steps>
    <item><p>Drücken Sie <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>Tabulator</key></keyseq>, um den <gui>Fensterwechsler</gui> anzuzeigen, der die momentan geöffneten Fenster auflistet.</p></item>
-   <item><p>Lassen Sie <key href="help:gnome-help/keyboard-key-super">&gt;Super</key> los, um das nächste markierte Fenster im Fensterwechsler auszuwählen.</p>
+   <item><p>Lassen Sie <key href="help:gnome-help/keyboard-key-super">Super</key> los, um das nächste markierte Fenster im Fensterwechsler auszuwählen.</p>
    </item>
    <item><p>Um durch die Liste geöffneter Fenster zu wechseln, halten Sie <key href="help:gnome-help/keyboard-key-super">Super</key> gedrückt und drücken Sie <key>Tabulator</key>.</p></item>
   </steps>
@@ -141,7 +141,7 @@
     <steps>
       <item><p>Drücken Sie die <key href="help:gnome-help/keyboard-key-super">Super</key>-Taste, um die <gui>Aktivitäten-Übersicht</gui> anzuzeigen.</p></item>
       <item><p>Beginnen Sie einfach den Namen der Anwendung zu tippen, zu der Sie wechseln wollen. Passende Anwendungen werden erscheinen, sobald Sie tippen.</p></item>
-      <item><p>Wenn die Anwendung, zu der Sie wechseln wollen, als erstes Ergebnis erscheint, drücken Sie <key>Eingabe</key>, um zu ihr zu wechseln.</p></item>
+      <item><p>Wenn die Anwendung, zu der Sie wechseln wollen, als erstes Ergebnis erscheint, drücken Sie die <key>Eingabetaste</key>, um zu ihr zu wechseln.</p></item>
       
     </steps>
     

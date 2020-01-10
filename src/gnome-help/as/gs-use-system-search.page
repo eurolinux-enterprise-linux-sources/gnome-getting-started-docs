@@ -58,11 +58,13 @@
       <p>GNOME এ আপোনাক <gui>Activities Overview</gui> ত সন্ধান ফলাফলসমূহত আপুনি কি প্ৰদৰ্শন কৰাব বিচাৰে স্বনিৰ্বাচন কৰাৰ সুবিধা দিয়ে। উদাহৰণস্বৰূপ, আপুনি ৱেবছাইটসমূহ, ফ'টোসমূহ, অথবা সংগীতৰ মাজত কি দেখাব বিচাৰে নিৰ্বাচন কৰিব পাৰে।</p>
       </note>
 
-      <p>সন্ধান ফলাফলসমূহত কি প্ৰদৰ্শন কৰা হ'ব স্বনিৰ্বাচন কৰিবলে:</p>
 
       <steps>
-        <item><p>ওপৰ বাৰৰ সোঁ কাষত চিস্টেম মেনুত ক্লিক কৰক আৰু মেনুৰ তলত সংহতিসমূহ বুটাম টিপক।</p></item>
-        <item><p>বস্তুবোৰৰ তালিকাৰ পৰা, <gui>সন্ধান কৰক</gui> বাছক।</p></item>
+        <title>সন্ধান ফলাফলসমূহত কি প্ৰদৰ্শন কৰা হ'ব স্বনিৰ্বাচন কৰিবলে:</title>
+        <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p></item>
+        <item><p>Click the settings button at the bottom left of the menu.</p></item>
+        <item><p>Click the <gui>Search</gui> panel.</p></item>
         <item><p>সন্ধান অৱস্থানসমূহৰ তালিকাৰ পৰা, আপুনি সামৰ্থবান অথবা অসামৰ্থবান কৰিব বিচৰা সন্ধান অৱস্থানৰ কাষত <gui>ON/OFF</gui> চুইচ ক্লিক কৰক।</p>
          </item>
       </steps>

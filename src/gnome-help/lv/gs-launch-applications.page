@@ -10,13 +10,11 @@
       <name>Petr Kovar</name>
     </credit>
 
-<!--
     <link type="guide" xref="getting-started" group="videos"/>
-    <title role="trail" type="link">Launch applications</title>
+    <title role="trail" type="link">Palaist lietotnes</title>
     <link type="seealso" xref="shell-apps-open"/>
-    <title role="seealso" type="link">A tutorial on launching applications</title>
+    <title role="seealso" type="link">Lietotņu palaišanas ceļvedis</title>
     <link type="next" xref="gs-switch-tasks"/>
--->
   </info>
 
   <title>Palaist lietotnes</title>

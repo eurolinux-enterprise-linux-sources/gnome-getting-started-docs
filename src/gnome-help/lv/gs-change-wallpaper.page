@@ -52,8 +52,9 @@
     <title>Mainīt tapetes</title>
     
     <steps>
-      <item><p>Spiediet uz sistēmas izvēlnes augšējās joslas labajā pusē un spiediet iestatījumu pogu izvēlnes apakšā.</p></item>
-      <item><p>No vienumu saraksta izvēlieties <gui>Fons</gui>.</p></item>
+      <item><p>Spiediet <gui xref="shell-introduction#yourname">sistēmas izvēlni</gui> augšējās joslas labajā pusē.</p></item>
+      <item><p>Spiediet iestatījumu pogu izvēlnes apakšā pa kreisi.</p></item>
+      <item><p>Spiediet uz paneli <gui>Fons</gui>.</p></item>
       <item><p>Spiediet uz savas pašreizējās tapetes attēla, kas ir loga <gui>Fons</gui> kreisajā pusē.</p></item>
       <item><p>Spiediet uz fona attēla, kuru vēlaties izmantot.</p></item>
       <item><p>Spiediet pogu <gui>Izvēlēties</gui>.</p></item>

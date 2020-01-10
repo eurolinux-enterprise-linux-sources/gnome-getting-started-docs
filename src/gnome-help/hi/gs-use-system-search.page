@@ -58,11 +58,13 @@
       <p>गनोम आपको <gui>गतिविधि सारांश</gui> में खोज परिणाम में दिखाने के लिए चाही गई चीज को पसंदीदा करने देता है. उदाहरण के लिए, आप चुन सकते हैं कि क्या आप वेबसाइट, तस्वीर या संगीत के लिए परिणाम दिखाना चाहते हैं.</p>
       </note>
 
-      <p>खोज परिणाम में दिखाए गए को मनपसंद बनाने के लिए:</p>
 
       <steps>
-        <item><p>शीर्ष पट्टी के दाहिनी ओर तंत्र मेन्यू पर क्लिक करें और सेटिंग बटन मेन्यू के तल में दबाएँ.</p></item>
-        <item><p>मदों की सूची से, <gui>खोज</gui> से चुनें</p></item>
+        <title>खोज परिणाम में दिखाए गए को मनपसंद बनाने के लिए:</title>
+        <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p></item>
+        <item><p>Click the settings button at the bottom left of the menu.</p></item>
+        <item><p>Click the <gui>Search</gui> panel.</p></item>
         <item><p>खोज स्थान की सूची में, <gui>चालू/बंद</gui> खोज स्थान के बगल में क्लिक करें जिसे आप सक्रिय या निष्क्रिय करना चाहते हैं.</p>
          </item>
       </steps>

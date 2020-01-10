@@ -5,17 +5,17 @@
 <t id="title-gettingstarted">Начало работы</t>
 <t id="title-wallpaper">Смена фона рабочего стола</t>
 <t id="title-respond">Ответы на сообщения</t>
-<t id="title-switching">Переключение задач.</t>
+<t id="title-switching">Переключение между задачами</t>
 <t id="title-MT">Отложенный ответ</t>
 <t id="title-workspaces">Окна и рабочие столы</t>
 <t id="title-datentime">Смена даты, времени и часового пояса</t>
 <t id="title-max">На весь экран</t>
 <t id="title-res">Восстановить</t>
 <t id="title-left">Левая половина экрана</t>
-<t id="title-workspace-down">Workspace down</t>
-<t id="title-workspace-up">Workspace up</t>
+<t id="title-workspace-down">Рабочее место ниже</t>
+<t id="title-workspace-up">Рабочее место выше</t>
 <t id="title-right">Правая половина экрана</t>
-<t id="activities"> </t>
+<t id="activities">Обзор</t>
 <t its:locNote="Translators: Enter is the name of the key." id="enter">Enter</t>
 <t id="ctrl">Ctrl</t>
 <t id="alt">Alt</t>
@@ -29,9 +29,9 @@
 <t id="background">Фон</t>
 <t id="wallpapers">Обои</t>
 <t id="select">Выбрать</t>
-<t id="bubble.message">Готовы к встрече?</t>
+<t id="bubble.message">Готовы ко встрече?</t>
 <t id="bubble.response">Буду через секунду…</t>
-<t id="bubble.message2">Спасибо за материал!</t>
+<t id="bubble.message2">Спасибо за книжку!</t>
 <t id="bubble.response2">Спасибо за поддержку</t>
 <t id="bubble.message3">Не беспокойтесь.</t>
 <t id="bubble.response3">Очень добры.</t>
@@ -39,7 +39,7 @@
 <t id="openclocks">Открыть часы</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Date &amp; Time Settings&quot; but we cannot use an ampersand here." id="datetimesettings">Параметры даты и времени</t>
 <t its:locNote="Translators: The actual string in the GUI reads &quot;Automatic Date &amp; Time&quot; but we cannot use an ampersand here." id="autotime">Автоматические дата и время</t>
-<t id="autotimezone">Automatic Timezone</t>
-<t id="sstime">14 October 2013, 20:00</t>
-<t id="sstime2">14 October 2013, 14:00</t>
+<t id="autotimezone">Автоматический часовой пояс</t>
+<t id="sstime">14 октября 2013, 20:00</t>
+<t id="sstime2">14 октября 2013, 14:00</t>
 </titles>

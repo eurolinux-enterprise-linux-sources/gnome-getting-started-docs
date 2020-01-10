@@ -25,6 +25,18 @@
       <mal:email>alexandre.franke@gmail.com</mal:email>
       <mal:years>2013</mal:years>
     </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonor Palazzo</mal:name>
+      <mal:email>leonor.palazzo@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jean-Baptiste Holcroft</mal:name>
+      <mal:email>jean-baptiste@holcroft.fr</mal:email>
+      <mal:years>2016</mal:years>
+    </mal:credit>
   </info>
 
   <title>Modifier le papier peint</title>
@@ -64,8 +76,9 @@
     <title>Modifier le papier peint</title>
     
     <steps>
-      <item><p>Ouvrez le menu système à droite dans la barre supérieure et cliquez sur le bouton des paramètres en bas du menu.</p></item>
-      <item><p>Dans la boîte de dialogue, sélectionnez <gui>Arrière-plan</gui>.</p></item>
+      <item><p>Cliquez sur le <gui xref="shell-introduction#yourname">menu système</gui> à droite dans la barre supérieure.</p></item>
+      <item><p>Cliquez sur le bouton des paramètres au bas du menu à gauche.</p></item>
+      <item><p>Cliquez sur le panneau <gui>Arrière-plan</gui>.</p></item>
       <item><p>Cliquez sur votre image d'arrière-plan actuelle à gauche de la boîte de dialogue <gui>Arrière-plan</gui>.</p></item>
       <item><p>Cliquez sur l'image que vous voulez utiliser comme arrière-plan.</p></item>
       <item><p>Cliquez sur <gui>Sélectionner</gui>.</p></item>

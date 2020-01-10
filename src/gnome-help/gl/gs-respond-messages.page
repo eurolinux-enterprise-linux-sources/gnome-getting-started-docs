@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Fran Diéguez</mal:name>
       <mal:email>frandieguez@gnome.org</mal:email>
-      <mal:years>2013-2014.</mal:years>
+      <mal:years>2013-2016.</mal:years>
     </mal:credit>
   </info>
 
@@ -32,47 +32,38 @@
          <tt:div begin="1s" end="3s">
            <tt:p>Respondendo unha mensaxe</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>Mova o seu rato á bandexa de mensaxes na parte inferior da pantalla e prema na mensaxe de chat.</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Move o rato sobre a mensaxe de chat que aparece perto da parte superior da pantalla.</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
+         <tt:div begin="6s" end="9s">
            <tt:p>Comece a escribir a súa resposta e ao rematar prema <key>Intro</key> para enviala.</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
+         <tt:div begin="9s" end="10s">
            <tt:p>Peche a mensaxe de chat.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>Responsa posposta</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>Unha mensaxe de chat na bandexa de mensaxes desaparece despois dun tempo se non move o rato á bandexa de mensaxes.</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>Unha mensaxe de chat na parte superior da pantalal desaparece despois dun tempo se non move o rato sobre a mensaxe.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>Para voltar ao seu mensaxe sen resposta, mova o seu rato á bandexa de mensaxes.</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Para volver ao seu mensaxe sen resposta, prema no reloxo na barra superior.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>Prema na persoa que lle enviou o mensaxe.</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Desde a lista de notificacións, seleccione a súa mensaxe.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>Comece a escribir a súa resposta e ao rematar prema <key>Intro</key>.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Comece a escribir a súa resposta.</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>Peche a mensaxe de chat.</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Para mostrar a lista de notificacións, prema <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq></tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>Para mostrar a bandexa de entrada prema <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq></tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Use as teclas de frecha para seleccionar a mensaxe que quere responder, e prema <key>Intro</key>.</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>Use as teclas de frecha para seleccionar a persoa á que quere responder, e prema <key>Intro</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>Comece a escribir a súa resposta e ao rematar prema <key>Intro</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p>Prema <key>Esc</key> para pechar a mensaxe de chat.</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>Para omitir a bandexa de entrada, prema <key>Esc</key>.</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Comece a escribir a súa resposta.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -83,7 +74,7 @@
     <title>Responder unha mensaxe de texto co rato</title>
     
     <steps>
-      <item><p>Mova o seu rato á bandexa de mensaxes na parte inferior da pantalla e prema na mensaxe de chat.</p></item>
+      <item><p>Move o rato sobre a mensaxe de chat que aparece perto da parte superior da pantalla.</p></item>
       <item><p>Comece a escribir a súa resposta e ao rematar prema <key>Intro</key> para enviala.</p></item>
       <item><p>Para pechar unha conversa de chat, prema sobre o botón de pechar da parte superior dereita da mensaxe de chat.</p></item>
     </steps>
@@ -94,11 +85,10 @@
     <title>Resposta atrasada dunha mensaxe de chat usando o rato</title>
     
     <steps>
-      <item><p>Cando unha mensaxe de chat aparece na bandexa de mensaxes e non quere mover o rato á bandexa de mensaxes, o mensaxe desaparecerá logo dun intre.</p></item>
-      <item><p>Para volver ao seu mensaxe sen resposta, mova o seu rato á bandexa de mensaxes na parte inferior da pantalla.</p></item>
-      <item><p>Cando a súa bandexa de mensaxes apareza, prema na pequena imaxe que representa a persoa que lle enviou unha mensaxe.</p></item>
-      <item><p>Cando se mostre a mensaxe de chat comece a escribir a súa resposta, e logo de rematar prema <key>Intro</key> para enviala.</p></item>
-      <item><p>Para pechar unha conversa de chat, prema sobre o botón de pechar da parte superior dereita da mensaxe de chat.</p></item>
+      <item><p>Cando unha mensaxe de chat aparece na parte superior da pantalla e non move o rato sobre a mensaxe, a mensaxe desaparecerá logo dun intre.</p></item>
+      <item><p>Para volver ao seu mensaxe sen resposta, prema no reloxo na barra superior.</p></item>
+      <item><p>Desde a lista de notificacións, seleccione a mensaxe que quere responder e prema sobre ela.</p></item>
+      <item><p>Cando se mostre a mensaxe de chat comece a escribir a súa resposta.</p></item>
     </steps>
     
   </section>
@@ -106,12 +96,10 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>Atrasar unha resposta ao mensaxe de chat co rato</title>
     <steps>
-      <item><p>Para volver ao mensaxe de chat non respondido, prema <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq> para mostrar a bandexa de mensaxes que contén os mensaxes.</p>
+      <item><p>Para volver ás mensaxes de chat non respondidas, prema <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key></keyseq> para mostrar a lista das notificacións sen resposta.</p>
       </item>
-      <item><p>Use as frechas para seleccionar unha imaxe que representa a persoa á que quere responder, e prema <key>Intro</key>.</p></item>
-      <item><p>Comece a escribir a súa resposta e ao rematar prema <key>Intro</key> para enviala.</p></item>
-      <item><p>Prema <key>Esc</key> para pechar a mensaxe de chat.</p></item>
-      <item><p>Para quitar a bandexa de entrada prema <key>Esc</key> ou <keyseq><key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key></keyseq>.</p></item>
+      <item><p>Use as teclas de frecha para seleccionar a notificación que quere responder, e prema <key>Intro</key>.</p></item>
+      <item><p>Cando se mostre a mensaxe de chat comece a escribir a súa resposta.</p></item>
     </steps>
 
   </section>

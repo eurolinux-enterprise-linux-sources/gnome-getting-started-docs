@@ -18,13 +18,19 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Enrico Nicoletto</mal:name>
       <mal:email>liverig@gmail.com</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:years>2013</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Rafael Ferreira</mal:name>
-      <mal:email>rafael.f.f1@gmail.com</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -57,7 +63,7 @@
            <tt:p>Quando metade da tela for destacada, solte a janela.</tt:p>
          </tt:div>
          <tt:div begin="41s" end="44s">
-           <tt:p>Para maximizar uma janela ao lado direito da tela, arraste a barra de título da janela e solte-a à direita.</tt:p>
+           <tt:p>Para maximizar uma janela no lado direito da tela, arraste a barra de título da janela e solte-a à direita.</tt:p>
          </tt:div>
          <tt:div begin="44s" end="48s">
            <tt:p>Quando metade da tela for destacada, solte a janela.</tt:p>

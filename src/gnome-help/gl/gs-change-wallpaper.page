@@ -17,7 +17,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Fran Diéguez</mal:name>
       <mal:email>frandieguez@gnome.org</mal:email>
-      <mal:years>2013-2014.</mal:years>
+      <mal:years>2013-2016.</mal:years>
     </mal:credit>
   </info>
 
@@ -58,8 +58,9 @@
     <title>Cambiar o fondo de pantalla</title>
     
     <steps>
-      <item><p>Prema o menú do sistema na parte dereita da barra superior e prema o botón de preferencias na parte inferior do menú.</p></item>
-      <item><p>Desde a lista de elementos, seleccione <gui>Fondo de pantalla</gui>.</p></item>
+      <item><p>Prema o <gui xref="shell-introduction#yourname">menú do sistema</gui> na parte dereita da barra superior.</p></item>
+      <item><p>Prema o botón de preferencias na parte inferior esquerda do menú.</p></item>
+      <item><p>Prema no panel <gui>Fondos de pantalla</gui>.</p></item>
       <item><p>Prema sobre a imaxe de fondo de pantalla actual na parte esquerda da xanela <gui>Fondo de pantalal</gui>.</p></item>
       <item><p>Prema na imaxe de fondo que quere usar.</p></item>
       <item><p>Prema o botón <gui>Seleccionar</gui>.</p></item>

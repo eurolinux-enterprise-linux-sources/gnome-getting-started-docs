@@ -17,13 +17,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Piotr Drąg</mal:name>
       <mal:email>piotrdrag@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013-2016</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Aviary.pl</mal:name>
-      <mal:email>gnomepl@aviary.pl</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2013-2016</mal:years>
     </mal:credit>
   </info>
 
@@ -38,7 +38,7 @@
            <tt:p>Zmienianie tapety</tt:p>
          </tt:div>
          <tt:div begin="6s" end="9s">
-           <tt:p>Kliknij menu systemowe po prawej stronie górnego paska i naciśnij przycisk ustawień.</tt:p>
+           <tt:p>Kliknij menu systemowe po prawej stronie górnego paska i naciśnij przycisk ustawień.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="12s">
            <tt:p>Wybierz <gui>Tło</gui>.</tt:p>
@@ -64,12 +64,13 @@
     <title>Zmiana tapety</title>
     
     <steps>
-      <item><p>Kliknij menu systemowe po prawej stronie górnego paska i naciśnij przycisk ustawień na dole menu.</p></item>
-      <item><p>Z listy elementów wybierz <gui>Tło</gui>.</p></item>
+      <item><p>Kliknij <gui xref="shell-introduction#yourname">menu systemowe</gui> po prawej stronie górnego paska.</p></item>
+      <item><p>Kliknij przycisk ustawień w lewym dolnym rogu menu.</p></item>
+      <item><p>Kliknij panel <gui>Tło</gui>.</p></item>
       <item><p>Kliknij obraz obecnej tapety po lewej stronie okna <gui>Tło</gui>.</p></item>
       <item><p>Kliknij obraz tła, który chcesz użyć.</p></item>
       <item><p>Kliknij przycisk <gui>Wybierz</gui>.</p></item>
-      <item><p>Zamknij okno <gui>Tło</gui> klikając krzyżyk w prawym górnym rogu okna.</p></item>
+      <item><p>Zamknij okno <gui>Tło</gui> klikając krzyżyk w prawym górnym rogu okna.</p></item>
     </steps>
   </section>
 

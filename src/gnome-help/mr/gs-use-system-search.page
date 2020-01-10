@@ -64,11 +64,13 @@
       <p><gui>कार्य सारांश</gui> मधून तुम्हाला शोध निष्कर्षांमध्ये जे दाखवायचं असेल त्याबाबत GNOME सुधारणा करू देतं. उदहरण म्हणून, निष्कर्षांमध्ये वेबसाईट, छबी किंवा संगीत यापैकी काय दिसावं हे निवडू शकता.</p>
       </note>
 
-      <p>शोध निष्कर्षांमध्ये काय दिसेल हे सुधारण्याकरिता:</p>
 
       <steps>
-        <item><p>शीर्ष पट्टीच्या ऊजव्या बाजूवरील प्रणाली मेन्यु क्लिक करा आणि मेन्युच्या ताळाशी सेटिंग्ज बटन दाबा.</p></item>
-        <item><p>घटकांच्या यादीतून, <gui>शोधा</gui> निवडा.</p></item>
+        <title>शोध निष्कर्षांमध्ये काय दिसेल हे सुधारण्याकरिता:</title>
+        <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p></item>
+        <item><p>Click the settings button at the bottom left of the menu.</p></item>
+        <item><p>Click the <gui>Search</gui> panel.</p></item>
         <item><p>शोध स्थळांच्या यादीत, <gui>चालू/बंद</gui> बटण क्लिक करा जेणेकरून जे स्थळ तुम्हाला बंद किंवा चालू करायचं आहे ते शोधता येईल.</p>
          </item>
       </steps>

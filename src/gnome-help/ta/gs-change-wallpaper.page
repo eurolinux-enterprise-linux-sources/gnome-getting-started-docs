@@ -58,8 +58,10 @@
     <title>சுவர்ச்சித்திரத்தை மாற்றவும்</title>
     
     <steps>
-      <item><p>மேல்பட்டியின் வலப்புறம் உள்ள கணினி மெனுவைச் சொடுக்கி, மெனுவின் அடிப்பகுதியில் உள்ள அமைவுகள் பொத்தானை அழுத்தவும்.</p></item>
-      <item><p>உருப்படிகளின் பட்டியலிருந்து <gui>பின்புலம்</gui> என்பதைத் தேர்ந்தெடுக்கவும்.</p></item>
+      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+      on the right side of the top bar.</p></item>
+      <item><p>Click the settings button at the bottom left of the menu.</p></item>
+      <item><p>Click the <gui>Background</gui> panel.</p></item>
       <item><p><gui>பின்புலம்</gui> சாளரத்தின் இடது புறம் உள்ள தற்போதைய பின்புலப் படத்தைச் சொடுக்கவும்.</p></item>
       <item><p>நீங்கள் பயன்படுத்த விரும்பும் பின்புலப் படத்தைச் சொடுக்கவும்.</p></item>
       <item><p><gui>தேர்ந்தெடு</gui> பொத்தானைச் சொடுக்கவும்.</p></item>

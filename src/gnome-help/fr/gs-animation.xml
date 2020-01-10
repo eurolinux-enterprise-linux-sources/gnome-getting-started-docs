@@ -15,7 +15,7 @@
 <t id="title-workspace-down">Espace de travail du dessous</t>
 <t id="title-workspace-up">Espace de travail du dessus</t>
 <t id="title-right">Moitié droite de l'écran</t>
-<t id="activities"> </t>
+<t id="activities">Activités</t>
 <t its:locNote="Translators: Enter is the name of the key." id="enter">Entrée</t>
 <t id="ctrl">Ctrl</t>
 <t id="alt">Alt</t>

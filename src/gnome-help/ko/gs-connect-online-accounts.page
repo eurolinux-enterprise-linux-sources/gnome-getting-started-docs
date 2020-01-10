@@ -16,9 +16,9 @@
     <link type="next" xref="gs-change-date-time-timezone"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Seong-ho Cho</mal:name>
+      <mal:name>조성호</mal:name>
       <mal:email>shcho@gnome.org</mal:email>
-      <mal:years>2014</mal:years>
+      <mal:years>2014, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -27,14 +27,14 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>상단 표시줄의 우측에 있는 시스템 메뉴를 누르세요.</p></item>
-      <item><p>메뉴 하단의 설정 단추를 누르세요.</p></item>
+      <item><p>상단 표시줄의 우측에 있는 <gui xref="shell-introduction#yourname">시스템 메뉴</gui>를 누르십시오.</p></item>
+      <item><p>메뉴 하단의 설정 단추를 누르십시오.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>목록의 항목 중, <gui>온라인 계정</gui>을 선택하고 <gui>온라인 계정 추가</gui> 단추를 누르세요.</p></item>
+      <item><p><gui>온라인 계정</gui> 창을 누른 후, <gui>온라인 계정 추가</gui> 단추를 누르십시오.</p></item>
     </steps>
     
     <note><p>온라인 계정을 설정하기 전에, 창의 좌측 하단에 있는 <gui>+</gui> 단추를 눌러 다른 온라인 계정을 추가할 수 있습니다.</p></note>

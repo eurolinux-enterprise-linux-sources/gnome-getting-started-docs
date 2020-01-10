@@ -26,47 +26,44 @@
          <tt:div begin="1s" end="3s">
            <tt:p>సందేశాలను స్పందించుచున్నది</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>తెర కింది వైపున సందేశాల ట్రేనకు మీ మౌస్‌ను కదిపి సంభాషణ సందేశాలపై నొక్కుము.</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Move your mouse over the chat message that appears near the top
+           of the screen.</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
+         <tt:div begin="6s" end="9s">
            <tt:p>మీ ప్రత్యుత్తరమును టైపు చేసి పూర్తవగానే, దానిని పంపుటకు <key>Enter </key> వత్తండి.</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
+         <tt:div begin="9s" end="10s">
            <tt:p>సంభాషణ సందేశం మూయండి.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>ఆలస్యమైన స్పందన</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>మీ మౌస్‌ను సందేశ ట్రేనకు కదల్చకపోతే కొంతసేపటి తరువాత సందేశ ట్రే నందలి సంభాషణ సందేశం కనిపించదు.</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>A chat message near the top of the screen disappears after a
+           while if you do not move your mouse over the message.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>మీరు సమాధానమివ్వని సందేశం తిరిగి పొందుటకు, మీ మౌస్‌ను సందేశ ట్రేనకు కదుల్చుము.</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>To get back to your unanswered message, click the clock on the
+           top bar.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>మీ సందేశం పంపిన వ్యక్తిని నొక్కుము.</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>From the notification list, choose your message.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>మీ ప్రత్యుత్తరమును టైపు చేసి పూర్తవగానే, <key>Enter </key> వత్తండి.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Start typing your reply.</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>సంభాషణ సందేశం మూయండి.</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>To show the notification list, press <keyseq>
+           <key href="help:gnome-help/keyboard-key-super">Super</key>
+           <key>V</key></keyseq></tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>సందేశ ట్రేను చూపుటకు, <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key> <key>M</key></keyseq> వత్తుము</tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Use the arrow keys to select the message you want to reply to,
+            and press <key>Enter</key>.</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>మీరు ప్రత్యుత్తరము ఇవ్వాలనుకుంటున్న వ్యక్తిని ఎంపికచేయుటకు బాణపు గుర్తులను వుపయోగించుము, మరియు <key>Enter</key> వత్తుము.</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>మీ ప్రత్యుత్తరమును టైపు చేసి పూర్తవగానే, <key>Enter </key> వత్తండి.</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p>సంభాషణ సందేశం మూయుటకు <key>Esc</key> వత్తండి.</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>సందేశ ట్రేను తొలగించుటకు, <key>Esc</key> వత్తండి.</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Start typing your reply.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -77,7 +74,8 @@
     <title>మౌస్‌తో సంభాషణ సందేశముకు స్పందించు</title>
     
     <steps>
-      <item><p>తెర కింది వైపున సందేశాల ట్రేనకు మీ మౌస్‌ను కదిపి సంభాషణ సందేశాలపై నొక్కుము.</p></item>
+      <item><p>Move your mouse over the chat message that appears near the top
+       of the screen.</p></item>
       <item><p>మీ ప్రత్యుత్తరమును టైపు చేసి పూర్తవగానే, దానిని పంపుటకు <key>Enter</key> వత్తండి.</p></item>
       <item><p>సంభాషణ సందేశం మూయుటకు, సంభాషణ సందేశపు పై కుడి మూలవద్దని మూయి బటన్ నొక్కుము.</p></item>
     </steps>
@@ -88,11 +86,13 @@
     <title>మౌస్ వుపయోగించే సంభాషణ సందేశమునకు ఆలస్యమైన స్పందన</title>
     
     <steps>
-      <item><p>సందేశ ట్రే నందు సంభాషణ సందేశం కనిపించినప్పుడు మీ మౌస్‌ను సందేశ ట్రే కు కదల్చకపోతే, సందేశం కొంత సేపటి తరువాత కనిపించదు.</p></item>
-      <item><p>మీరు సమాధానమివ్వని సందేశమునకు తిరిగివచ్చుటకు, మీ మౌస్‌ను తెర సాంతం కిందన వున్న సందేశం ట్రే కు కదుపుము.</p></item>
-      <item><p>సందేశం ట్రే కనిపించినప్పుడు, మీకు సందేశం పంపిన వ్యక్తిని తెలిపే చిన్ని చిత్రముపై నొక్కుము.</p></item>
-      <item><p>సంభాషణ సందేశం చూపబడినప్పుడు, మీ ప్రత్యుత్తరము టైపుచేయుట ప్రారంబించుము మరియు పూర్తవగానే, ప్రత్యుత్తరమును పంపుటకు <key>Enter</key> వత్తుము.</p></item>
-      <item><p>సంభాషణ సందేశం మూయుటకు, సంభాషణ సందేశపు పై కుడి మూలవద్దని మూయి బటన్ నొక్కుము.</p></item>
+      <item><p>When a chat message appears near the top of the screen and you do
+       not move your mouse over the message, it disappears after a while.</p></item>
+      <item><p>To get back to your unanswered message, click the clock on the
+       top bar.</p></item>
+      <item><p>From the notification list, choose the message you
+       want to reply to, and click it.</p></item>
+      <item><p>When the chat message is shown, start typing your reply.</p></item>
     </steps>
     
   </section>
@@ -100,12 +100,13 @@
   <section id="respond-to-messages-delayed-keyboard">
     <title>కీబోర్డు వుపయోగించే సంభాషణ సందేశమునకు ఆలస్యమైన స్పందన</title>
     <steps>
-      <item><p>మీరు సమాధానమివ్వని సంభాషణ సందేశాలకు తిరిగి వచ్చుటకు, సందేశాలను కలిగివున్న సందేశ ట్రే ప్రదర్శింపచేయుటకు <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq> వత్తుము.</p>
+      <item><p>To get back to your unanswered chat messages, press <keyseq>
+      <key href="help:gnome-help/keyboard-key-super">Super</key><key>V</key>
+      </keyseq> to display the list of unanswered notifications.</p>
       </item>
-      <item><p>మీరు ప్రత్యుత్తరము ఇవ్వాలనుకుంటున్న వ్యక్తిని తెలిపే చిన్న చిత్రమును ఎంపికచేయుటకు బాణపు గుర్తులను వుపయోగించుము, మరియు <key>Enter</key> వత్తుము.</p></item>
-      <item><p>మీ ప్రత్యుత్తరమును టైపు చేసి పూర్తవగానే, దానిని పంపుటకు <key>Enter</key> వత్తండి.</p></item>
-      <item><p>సంభాషణ సందేశం మూయుటకు <key>Esc</key> వత్తండి.</p></item>
-      <item><p>సందేశ ట్రేను రద్దుచేయుటకు, <key>Esc</key> లేదా <keyseq> <key href="help:gnome-help/keyboard-key-super">Super</key><key>M</key> </keyseq> వత్తుము.</p></item>
+      <item><p>Use the arrow keys to select the notification you want to reply
+      to, and press <key>Enter</key>.</p></item>
+      <item><p>When the chat message is shown, start typing your reply.</p></item>
     </steps>
 
   </section>

@@ -13,7 +13,7 @@
     <title role="trail" type="link">連上網絡</title>
     <link type="seealso" xref="net"/>
     <title role="seealso" type="link">連上網絡的教學</title>
-    <link type="next" xref="gs-connect-online-accounts"/>
+    <link type="next" xref="gs-browse-web"/>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Cheng-Chia Tseng</mal:name>
@@ -35,8 +35,12 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online1.svg" width="100%"/>
 
     <steps>
-      <item><p>頂端列右手邊的網絡連線圖示顯示你目前尚未連線。</p>
-      <p>離線狀態的成因有許多：例如，網絡纜線已拔除、電腦設為 <em>飛安模式</em>、你附近區域沒有可用的 Wi-Fi 等。</p>
+      <item><p>The network connection icon on the right-hand side of the top
+       bar shows that you are offline.</p>
+      <p>The offline status can be caused by a number of reasons: for
+       example, a network cable has been unplugged, the computer has been set
+       to run in <em>airplane mode</em>, or there are no available Wi-Fi
+       networks in your area.</p>
       <p>若你想要使用有線網絡連線，只要插入網絡纜線就能連線。電腦會嘗試替你自動設置網絡連線。</p>
       <p>當電腦試圖替你設置網絡連線時，網絡連線圖示會顯示三個點。</p></item>
       <item><p>一旦網絡連線設置成功，網絡連線圖示會變成已連線的電腦符號。</p></item>
@@ -51,8 +55,18 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-go-online2.svg" width="100%"/>
     
     <steps>
-    <item><p>若要連上 Wi-Fi (無線) 網絡，請點按畫面右上角的狀態選單，接着點按 <gui>選擇網絡</gui>。</p>
-    </item>
+      <title>To connect to a Wi-Fi (wireless) network:</title>
+      <item>
+        <p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p>
+      </item>
+      <item>
+        <p>Select <gui>Wi-Fi Not Connected</gui>. The Wi-Fi section of the menu
+        will expand.</p>
+      </item>
+      <item>
+        <p>Click <gui>Select Network</gui>.</p>
+      </item>
     </steps>
 
      <note style="important">
@@ -65,8 +79,6 @@
     <item><p>從可用的 Wi-Fi 網絡清單中，選取你想要連接的網絡，接着點按 <gui>連線</gui> 以確認。</p>
     <p>取決於網絡設定，你可能需要輸入網絡密碼。</p></item>
     </steps>
-
-    <!-- FIXME: links to existing wireless/broadband connection documents. -->
 
   </section>
 

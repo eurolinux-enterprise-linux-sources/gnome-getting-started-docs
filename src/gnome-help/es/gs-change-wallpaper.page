@@ -17,7 +17,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Daniel Mustieles</mal:name>
       <mal:email>daniel.mustieles@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013 - 2016</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -70,8 +70,9 @@
     <title>Cambiar el fondo de pantalla</title>
     
     <steps>
-      <item><p>Pulse en el menú del sistema en la parte derecha de la barra superior y pulse el botón de configuración en la parte inferior del menú.</p></item>
-      <item><p>De la lista de elementos, seleccione <gui>Fondo</gui>.</p></item>
+      <item><p>Pulse en el <gui xref="shell-introduction#yourname">menú del sistema</gui> en la parte derecha de la barra superior.</p></item>
+      <item><p>Pulse el botón de configuración en la parte inferior izquierda del menú.</p></item>
+      <item><p>Pulse el panel <gui>Fondo</gui>.</p></item>
       <item><p>Pulse la imagen del fondo de pantalla actual que está en la parte izquierda de la ventana <gui>Fondo</gui>.</p></item>
       <item><p>Pulse en la imagen de fondo que quiera utilizar.</p></item>
       <item><p>Pulse el botón <gui>Seleccionar</gui>.</p></item>

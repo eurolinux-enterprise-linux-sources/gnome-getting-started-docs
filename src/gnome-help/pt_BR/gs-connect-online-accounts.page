@@ -18,13 +18,19 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Enrico Nicoletto</mal:name>
       <mal:email>liverig@gmail.com</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:years>2013</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name>Rafael Ferreira</mal:name>
-      <mal:email>rafael.f.f1@gmail.com</mal:email>
-      <mal:years>2013.</mal:years>
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -33,14 +39,14 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>Clique no menu do sistema ao lado direito da barra superior.</p></item>
-      <item><p>Pressione o botão de configurações no canto inferior do menu.</p></item>
+      <item><p>Clique no <gui xref="shell-introduction#yourname">menu do sistema</gui> no lado direito da barra superior.</p></item>
+      <item><p>Clique no botão de configurações no canto inferior esquerdo do menu.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>A partir da lista de itens, selecione <gui>Contas on-line</gui> e então clique no botão <gui>Adicionar uma conta on-line</gui>.</p></item>
+      <item><p>Clique no painel <gui>Contas on-line</gui> e, então, clique no botão <gui>Adicionar uma conta on-line</gui>.</p></item>
     </steps>
     
     <note><p>Se você definiu uma conta on-line anteriormente, você pode adicionar outra conta on-line clicando no botão <gui>+</gui> no canto esquerdo da janela.</p></note>

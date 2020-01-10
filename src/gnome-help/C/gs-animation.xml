@@ -15,7 +15,7 @@
 <t id='title-workspace-down'>Workspace down</t>
 <t id='title-workspace-up'>Workspace up</t>
 <t id='title-right'>Right half of screen</t>
-<t id='activities'> </t>
+<t id='activities'>Activities</t>
 <t its:locNote='Translators: Enter is the name of the key.'
    id='enter'>Enter</t>
 <t id='ctrl'>Ctrl</t>

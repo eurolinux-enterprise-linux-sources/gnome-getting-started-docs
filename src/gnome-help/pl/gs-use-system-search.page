@@ -18,13 +18,13 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Piotr Drąg</mal:name>
       <mal:email>piotrdrag@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013-2016</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Aviary.pl</mal:name>
-      <mal:email>gnomepl@aviary.pl</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2013-2016</mal:years>
     </mal:credit>
   </info>
 
@@ -34,13 +34,13 @@
     
     <steps>
     <item><p>Otwórz <gui>ekran podglądu</gui> naciskając klawisz <key href="help:gnome-help/keyboard-key-super">Super</key>. Zacznij pisać, aby wyszukać.</p>
-    <p>Pasujące wyniki pojawiają się w trakcie pisania. Pierwszy wynik jest zawsze wyróżniony i wyświetlany na górze.</p>
+    <p>Pasujące wyniki pojawiają się w trakcie pisania. Pierwszy wynik jest zawsze wyróżniony i wyświetlany na górze.</p>
     <p>Naciśnij klawisz <key>Enter</key>, aby przełączyć do pierwszego wyróżnionego wyniku.</p></item>
     </steps>
     
     <media its:translate="no" type="image" mime="image/svg" src="gs-search2.svg" width="100%"/>
     <steps style="continues">
-      <item><p>Elementy, które mogą pojawić się w wynikach wyszukiwania obejmują:</p>
+      <item><p>Elementy, które mogą pojawić się w wynikach wyszukiwania obejmują:</p>
       <list>
         <item><p>pasujące programy, wyświetlane na górze wyników wyszukiwania,</p></item>
         <item><p>pasujące ustawienia,</p></item>
@@ -48,15 +48,15 @@
         <item><p>pasujące dokumenty.</p></item>
       </list>
       </item>
-      <item><p>W wynikach wyszukiwania można kliknąć element, aby na niego przełączyć.</p>
-      <p>Można też wyróżnić element używając klawiszy strzałek i nacisnąć klawisz <key>Enter</key>.</p></item>
+      <item><p>W wynikach wyszukiwania można kliknąć element, aby na niego przełączyć.</p>
+      <p>Można też wyróżnić element za pomocą klawiszy strzałek i nacisnąć klawisz <key>Enter</key>.</p></item>
     </steps>
 
     <section id="use-search-inside-applications">
     
       <title>Wyszukiwanie wewnątrz programów</title>
       
-      <p>Wyszukiwanie systemowe zbiera wyniki z różnych programów. Po lewej stronie wyników wyszukiwania można zobaczyć ikony programów, z których one pochodzą. Kliknij jedną z ikon, aby ponownie wyszukać wewnątrz danego programu. Ponieważ tylko najlepiej pasujące wyniki są wyświetlane na <gui>ekranie podglądu</gui>, wyszukiwanie z programu może podać więcej wyników.</p>
+      <p>Wyszukiwanie systemowe zbiera wyniki z różnych programów. Po lewej stronie wyników wyszukiwania można zobaczyć ikony programów, z których one pochodzą. Kliknij jedną z ikon, aby ponownie wyszukać wewnątrz danego programu. Ponieważ tylko najlepiej pasujące wyniki są wyświetlane na <gui>ekranie podglądu</gui>, wyszukiwanie z programu może podać więcej wyników.</p>
 
     </section>
 
@@ -67,14 +67,15 @@
       <media its:translate="no" type="image" mime="image/svg" src="gs-search-settings.svg" width="100%"/>
 
       <note style="important">
-      <p>Środowisko GNOME umożliwia dostosowanie, co ma być wyświetlane w wynikach wyszukiwania na <gui>ekranie podglądu</gui>. Na przykład można wybrać, czy strony WWW, zdjęcia lub muzyka mają być wyświetlane.</p>
+      <p>Środowisko GNOME umożliwia dostosowanie, co ma być wyświetlane w wynikach wyszukiwania na <gui>ekranie podglądu</gui>. Na przykład można wybrać, czy strony WWW, zdjęcia lub muzyka mają być wyświetlane.</p>
       </note>
 
-      <p>Aby dostosować, co ma być wyświetlane w wynikach wyszukiwania:</p>
 
       <steps>
-        <item><p>Kliknij menu systemowe po prawej stronie górnego paska i naciśnij przycisk ustawień na dole menu.</p></item>
-        <item><p>Z listy elementów wybierz <gui>Wyszukiwanie</gui>.</p></item>
+        <title>Aby dostosować, co ma być wyświetlane w wynikach wyszukiwania:</title>
+        <item><p>Kliknij <gui xref="shell-introduction#yourname">menu systemowe</gui> po prawej stronie górnego paska.</p></item>
+        <item><p>Kliknij przycisk ustawień w lewym dolnym rogu menu.</p></item>
+        <item><p>Kliknij panel <gui>Wyszukiwanie</gui>.</p></item>
         <item><p>Na liście położeń wyszukiwania kliknij przełącznik <gui>|/◯</gui> obok położenia, które ma zostać włączone lub wyłączone.</p>
          </item>
       </steps>

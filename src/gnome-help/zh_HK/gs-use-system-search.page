@@ -64,11 +64,13 @@
       <p>GNOME 讓你自選你想要在 <gui>活動概覽</gui> 畫面中顯示的搜尋類型。舉例來說，你可以選擇是否要顯示網站、相片、音樂之類的結果。</p>
       </note>
 
-      <p>若要自選搜尋結果中要顯示的項目：</p>
 
       <steps>
-        <item><p>點按頂端列右側的系統選單，接着按下選單底部的設定按鈕。</p></item>
-        <item><p>從項目清單中，選取 <gui>搜尋</gui>。</p></item>
+        <title>若要自選搜尋結果中要顯示的項目：</title>
+        <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+        on the right side of the top bar.</p></item>
+        <item><p>Click the settings button at the bottom left of the menu.</p></item>
+        <item><p>Click the <gui>Search</gui> panel.</p></item>
         <item><p>在搜尋位置的清單中，點按搜尋位置旁的 <gui>開/關</gui> 功能開關來啟用或停用。</p>
          </item>
       </steps>

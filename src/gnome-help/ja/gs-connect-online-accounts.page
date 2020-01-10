@@ -18,7 +18,7 @@
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>松澤 二郎</mal:name>
       <mal:email>jmatsuzawa@gnome.org</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:years>2013, 2015, 2016</mal:years>
     </mal:credit>
   </info>
 
@@ -27,18 +27,17 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>Click the system menu on the right side of the top bar.</p></item>
-      <item><p>Press the settings button at the bottom of the menu.</p></item>
+      <item><p>トップバー右側の<gui xref="shell-introduction#yourname">システムメニュー</gui>を開きます。</p></item>
+      <item><p>メニュー左下の設定ボタンを押します。</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>From the list of items, select <gui>Online Accounts</gui>, then
-      click on the <gui>Add an online account</gui> button.</p></item>
+      <item><p><gui>オンラインアカウント</gui>パネルを選択し、<gui>オンラインアカウントの追加</gui>ボタンを押します。</p></item>
     </steps>
     
-    <note><p>何らかのオンラインアカウントを既にセットアップしている場合は、ウィンドウ左下角の <gui>+</gui> をボタンを押して、別のオンラインアカウントを追加できます。</p></note>
+    <note><p>何らかのオンラインアカウントを既にセットアップしている場合は、ウィンドウ左下隅の <gui>+</gui> をボタンを押して、別のオンラインアカウントを追加できます。</p></note>
     
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa3.svg" width="100%"/>
 

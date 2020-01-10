@@ -21,14 +21,16 @@
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa1.svg" width="100%"/>
 
     <steps>
-      <item><p>शीर्ष पट्टी के दाहिनी ओर तंत्र मेन्यू पर क्लिक करें.</p></item>
-      <item><p>मेन्यू के तल में सेटिंग बटन दबाएँ.</p></item>
+      <item><p>Click the <gui xref="shell-introduction#yourname">system menu</gui>
+      on the right side of the top bar.</p></item>
+      <item><p>Click the settings button at the bottom left of the menu.</p></item>
     </steps>
        
     <media its:translate="no" type="image" mime="image/svg" src="gs-goa2.svg" width="100%"/>
     
     <steps style="continues">
-      <item><p>मद की सूची से, <gui>ऑनलाइन खाता</gui> चुनें, फिर <gui>ऑनलाइन खाता जोड़ें</gui> बटन को क्लिक करें.</p></item>
+      <item><p>Click the <gui>Online Accounts</gui> panel, then
+      click the <gui>Add an online account</gui> button.</p></item>
     </steps>
     
     <note><p>यदि आपके पास ऑनलाइन खाता पहले से है, आप दूसरा ऑनलाइन खाता को <gui>+</gui> बटन पर क्लिक करके जोड़ सकते हैं विंडो के तलवर्ती बायें कोने पर.</p></note>

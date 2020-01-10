@@ -2,22 +2,28 @@
 <page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:ui="http://projectmallard.org/experimental/ui/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="getting-started" version="1.0 if/1.0" xml:lang="el">
 
 <info>
-    <link type="guide" xref="index" group="#first"/>
+    <link type="guide" xref="index" group="#gs"/>
     <include xmlns="http://www.w3.org/2001/XInclude" href="gs-legal.xml"/>
-    <desc>Νέος στο GNOME; Μάθετε πώς να τα καταφέρετε.</desc>
+    <desc>Είστε νέος στο GNOME; Μάθετε πώς να τα καταφέρετε.</desc>
     <title type="link">Ξεκινώντας με το GNOME</title>
     <title type="text">Ξεκινώντας</title>
 
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name> Δημήτρης Σπίγγος</mal:name>
-      <mal:email>dmtrs32@gmail.com</mal:email>
-      <mal:years>2013</mal:years>
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2012-2015</mal:years>
     </mal:credit>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
-      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
       <mal:email>tomtryf@gmail.com</mal:email>
-      <mal:years>2012</mal:years>
+      <mal:years>2012, 2015</mal:years>
     </mal:credit>
   </info>
 
@@ -37,22 +43,22 @@
            <tt:p>Εκκίνηση εφαρμογών</tt:p>
          </tt:div>
          <tt:div begin="5s" end="7.5s">
-           <tt:p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>Ενέργειες</gui> στα πάνω αριστερά της οθόνης.</tt:p>
+           <tt:p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>Δραστηριότητες</gui> στα πάνω αριστερά της οθόνης.</tt:p>
            </tt:div>
          <tt:div begin="7.5s" end="9.5s">
            <tt:p>Πατήστε το εικονίδιο <gui>Εμφάνιση εφαρμογών</gui>.</tt:p>
          </tt:div>
          <tt:div begin="9.5s" end="11s">
-           <tt:p>Πατήστε την εφαρμογή που θέλετε να εκτελέσετε, για παράδειγμα, βοήθεια.</tt:p>
+           <tt:p>Πατήστε την εφαρμογή που θέλετε να εκτελέσετε, για παράδειγμα, «Βοήθεια».</tt:p>
          </tt:div>
          <tt:div begin="12s" end="21s">
-           <tt:p>Εναλλακτικά, χρησιμοποιήστε το πληκτρολόγιο για να ανοίξετε το <gui>Επισκόπηση ενεργειών</gui> πατώντας το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">Λογότυπου</key>.</tt:p>
+           <tt:p>Εναλλακτικά, χρησιμοποιήστε το πληκτρολόγιο για να ανοίξετε την επισκόπηση <gui>Δραστηριότητες</gui> πατώντας το πλήκτρο <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key>.</tt:p>
          </tt:div>
          <tt:div begin="22s" end="29s">
-           <tt:p>Αρχίστε να πληκτρολογείτε το όνομα της εφαρμογής που θέλετε να ξεκινήσετε.</tt:p>
+           <tt:p>Αρχίστε να πληκτρολογείτε το όνομα της εφαρμογής που θέλετε να εκκινήσετε.</tt:p>
          </tt:div>
          <tt:div begin="30s" end="33s">
-           <tt:p>Πατήστε <key>Εισαγωγή-Enter</key> για να ξεκινήσετε την εφαρμογή.</tt:p>
+           <tt:p>Πατήστε <key>Enter</key> για να ξεκινήσετε την εφαρμογή.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -73,13 +79,13 @@
            <tt:p>Παράθυρα και χώροι εργασίας</tt:p>
          </tt:div>
          <tt:div begin="6s" end="10s">
-           <tt:p>Για μεγιστοποίηση ενός παραθύρου, πάρτε τη γραμμή τίτλου του παραθύρου και μεταφέρτε το στην κορυφή της οθόνης.</tt:p>
+           <tt:p>Για μεγιστοποίηση ενός παραθύρου, πάρτε τη γραμμή τίτλου του παραθύρου και μεταφέρτε την στην κορυφή της οθόνης.</tt:p>
            </tt:div>
          <tt:div begin="10s" end="13s">
            <tt:p>Όταν η οθόνη επισημανθεί, ελευθερώστε το παράθυρο.</tt:p>
          </tt:div>
          <tt:div begin="14s" end="20s">
-           <tt:p>Για απομεγιστοποίηση ενός παραθύρου, πάρτε τη γραμμή τίτλου του παραθύρου και μεταφέρτε το από τις άκρες της οθόνης.</tt:p>
+           <tt:p>Για απομεγιστοποίηση ενός παραθύρου, πάρτε τη γραμμή τίτλου του παραθύρου και μεταφέρτε την από τις άκρες της οθόνης.</tt:p>
          </tt:div>
          <tt:div begin="25s" end="29s">
            <tt:p>Μπορείτε επίσης να πατήσετε την πάνω γραμμή για να μεταφέρετε το παράθυρο μακριά και να το απομεγιστοποιήσετε.</tt:p>
@@ -97,22 +103,22 @@
            <tt:p>Όταν η μισή οθόνη επισημανθεί, ελευθερώστε το παράθυρο.</tt:p>
          </tt:div>
          <tt:div begin="54s" end="60s">
-           <tt:p>Για μεγιστοποίηση ενός παραθύρου χρησιμοποιώντας το πληκτρολόγιο, κρατήστε πατημένο το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">λογότυπου</key> και πατήστε <key>↑</key>.</tt:p>
+           <tt:p>Για μεγιστοποίηση ενός παραθύρου χρησιμοποιώντας το πληκτρολόγιο, κρατήστε πατημένο το πλήκτρο <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key> και πατήστε <key>↑</key>.</tt:p>
          </tt:div>
          <tt:div begin="61s" end="66s">
-           <tt:p>Για επαναφορά παραθύρου στο αμεγιστοποίητο μέγεθος του, κρατήστε πατημένο το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">λογότυπου</key> και πατήστε <key>↓</key>.</tt:p>
+           <tt:p>Για επαναφορά του παραθύρου στο αμεγιστοποίητο μέγεθος του, κρατήστε πατημένο το πλήκτρο <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key> και πατήστε <key>↓</key>.</tt:p>
          </tt:div>
          <tt:div begin="66s" end="73s">
-           <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της δεξιάς πλευράς της οθόνης, κρατήστε πατημένο το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">λογότυπου</key> και πατήστε <key>→</key>.</tt:p>
+           <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της δεξιάς πλευράς της οθόνης, κρατήστε πατημένο το πλήκτρο <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key> και πατήστε <key>→</key>.</tt:p>
          </tt:div>
          <tt:div begin="76s" end="82s">
-           <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της αριστερής πλευράς της οθόνης, κρατήστε πατημένο το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">λογότυπου</key> και πατήστε <key>←</key>.</tt:p>
+           <tt:p>Για μεγιστοποίηση ενός παραθύρου κατά μήκος της αριστερής πλευράς της οθόνης, κρατήστε πατημένο το πλήκτρο <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key> και πατήστε <key>←</key>.</tt:p>
          </tt:div>
          <tt:div begin="83s" end="89s">
-           <tt:p>Για μετακίνηση σε έναν χώρο εργασίας που είναι κάτω από τον τρέχοντα χώρο εργασίας, πατήστε το <keyseq><key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key><key>πλήκτρο της επόμενης σελίδας</key></keyseq>.</tt:p>
+           <tt:p>Για μετακίνηση σε έναν χώρο εργασίας που είναι κάτω από τον τρέχοντα χώρο εργασίας, πατήστε το πλήκτρο <keyseq><key href="help:gnome-help/keyboard-key-super">Λογότυπο </key><key>Page Down</key></keyseq>.</tt:p>
          </tt:div>
          <tt:div begin="90s" end="97s">
-           <tt:p>Για μετακίνηση σε έναν χώρο εργασίας που είναι πάνω από τον τρέχοντα χώρο εργασίας, πατήστε το <keyseq><key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key> <key>πλήκτρο της προηγούμενης σελίδας</key></keyseq>.</tt:p>
+           <tt:p>Για μετακίνηση σε έναν χώρο εργασίας που είναι πάνω από τον τρέχοντα χώρο εργασίας, πατήστε το πλήκτρο <keyseq><key href="help:gnome-help/keyboard-key-super">Λογότυπο </key><key>Page Up</key></keyseq>.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -130,11 +136,11 @@
       <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
        <tt:body>
          <tt:div begin="1s" end="5s">
-           <tt:p>Αλλαγή εργασιών</tt:p>
+           <tt:p>Εναλλαγή εργασιών</tt:p>
          </tt:div>
          <if:if test="!platform:gnome-classic">
          <tt:div begin="5s" end="8s">
-           <tt:p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>Ενέργειες</gui> στα πάνω αριστερά της οθόνης.</tt:p>
+           <tt:p>Μετακινήστε τον δείκτη του ποντικιού στη γωνία <gui>Δραστηριότητες</gui> στα πάνω αριστερά της οθόνης.</tt:p>
            </tt:div>
          </if:if>
          <tt:div begin="9s" end="12s">
@@ -153,22 +159,22 @@
            <tt:p>Όταν η μισή οθόνη επισημανθεί, ελευθερώστε το παράθυρο.</tt:p>
          </tt:div>
          <tt:div begin="23s" end="27s">
-           <tt:p>Πατήστε το <keyseq> <key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key><key>στηλοθέτης</key></keyseq> για να εμφανίσετε τον <gui>εναλλάκτη παραθύρου</gui>.</tt:p>
+           <tt:p>Πατήστε το πλήκτρο <keyseq> <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key><key>στηλοθέτης</key></keyseq> για να εμφανίσετε τον <gui>εναλλάκτη παραθύρου</gui>.</tt:p>
          </tt:div>
          <tt:div begin="27s" end="29s">
-           <tt:p>Απελευθερώστε το <key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key> για να επιλέξτε το επόμενο επισημασμένο παράθυρο.</tt:p>
+           <tt:p>Απελευθερώστε το πλήκτρο <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key> για να επιλέξτε το επόμενο επισημασμένο παράθυρο.</tt:p>
          </tt:div>
          <tt:div begin="29s" end="32s">
-           <tt:p>Για να περιηγηθείτε στη λίστα των ανοικτών παραθύρων, μην αφήσετε το <key href="help:gnome-help/keyboard-key-super">πλήκτρο του λογότυπου</key>, αλλά κρατήστε το πατημένο και πατήστε <key>στηλοθέτης</key>.</tt:p>
+           <tt:p>Για να περιηγηθείτε στη λίστα των ανοικτών παραθύρων, μην αφήσετε το πλήκτρο <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key>, αλλά κρατήστε το πατημένο και πατήστε το πλήκτρο <key>Tab</key>.</tt:p>
          </tt:div>
          <tt:div begin="35s" end="37s">
-           <tt:p>Πατήστε το πλήκτρο του <key href="help:gnome-help/keyboard-key-super">λογότυπου</key> για να εμφανίσετε την <gui>Επισκόπηση ενεργειών</gui>.</tt:p>
+           <tt:p>Πατήστε το πλήκτρο <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key> για να εμφανίσετε την επισκόπηση <gui>Δραστηριότητες</gui>.</tt:p>
          </tt:div>
          <tt:div begin="37s" end="40s">
            <tt:p>Αρχίστε να πληκτρολογείτε το όνομα της εφαρμογής στην οποία θέλετε να μεταβείτε.</tt:p>
          </tt:div>
          <tt:div begin="40s" end="43s">
-           <tt:p>Όταν η εφαρμογή εμφανιστεί ως το πρώτο αποτέλεσμα, πατήστε <key>Εισαγωγή</key> για να αλλάξετε σε αυτό.</tt:p>
+           <tt:p>Όταν η εφαρμογή εμφανιστεί ως το πρώτο αποτέλεσμα, πατήστε <key> Enter</key> για να αλλάξετε σε αυτό.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
@@ -186,47 +192,38 @@
          <tt:div begin="1s" end="3s">
            <tt:p>Απάντηση σε μηνύματα</tt:p>
          </tt:div>
-         <tt:div begin="4s" end="7s">
-           <tt:p>Μετακινήστε το ποντίκι σας στην περιοχή ειδοποιήσεων στο τέλος της οθόνης και πατήστε στο μήνυμα συνομιλίας.</tt:p>
+         <tt:div begin="3s" end="6s">
+           <tt:p>Μετακινήστε το ποντίκι σας πάνω από το μήνυμα συζήτησης που εμφανίζεται κοντά στην κορυφή της οθόνης.</tt:p>
            </tt:div>
-         <tt:div begin="7s" end="9s">
-           <tt:p>Αρχίστε να πληκτρολογείτε την απάντησή σας και όταν τελειώσετε, πατήστε το πλήκτρο <key>Εισαγωγή</key> για να στείλετε την απάντηση.</tt:p>
+         <tt:div begin="6s" end="9s">
+           <tt:p>Αρχίστε να πληκτρολογείτε την απάντησή σας και όταν τελειώσετε, πατήστε το πλήκτρο <key>Enter</key> για να στείλετε την απάντηση.</tt:p>
          </tt:div>
-         <tt:div begin="9s" end="11s">
+         <tt:div begin="9s" end="10s">
            <tt:p>Κλείστε το μήνυμα συνομιλίας.</tt:p>
          </tt:div>
          <tt:div begin="12s" end="14s">
            <tt:p>Καθυστέρηση απάντησης</tt:p>
          </tt:div>
-         <tt:div begin="16s" end="20s">
-           <tt:p>Ένα μήνυμα συνομιλίας στην περιοχή ειδοποιήσεων εξαφανίζεται μετά από λίγο, αν δεν μετακινήσετε το ποντίκι σας στην περιοχή ειδοποιήσεων.</tt:p>
+         <tt:div begin="16s" end="22s">
+           <tt:p>Ένα μήνυμα συνομιλίας στην κορυφή της οθόνης εξαφανίζεται μετά από λίγο, αν δεν μετακινήσετε το ποντίκι σας πάνω από το μήνυμα.</tt:p>
          </tt:div>
-         <tt:div begin="20s" end="23s">
-           <tt:p>Για να επιστρέψετε στο αναπάντητο μήνυμα, μετακινήστε το ποντίκι σας στην περιοχή ειδοποιήσεων.</tt:p>
+         <tt:div begin="22s" end="24s">
+           <tt:p>Για να επιστρέψετε στο αναπάντητο μήνυμα, πατήστε στο ρολόι στην πάνω γραμμή.</tt:p>
          </tt:div>
-         <tt:div begin="23s" end="25s">
-           <tt:p>Πατήστε στο άτομο που σας έστειλε το μήνυμα.</tt:p>
+         <tt:div begin="24s" end="26s">
+           <tt:p>Από τη λίστα ειδοποιήσεων, επιλέξτε το μήνυμά σας.</tt:p>
          </tt:div>
-         <tt:div begin="25s" end="28s">
-           <tt:p>Αρχίστε να πληκτρολογείτε την απάντησή σας και όταν τελειώσετε, πατήστε το πλήκτρο <key>Εισαγωγή</key>.</tt:p>
+         <tt:div begin="26s" end="28s">
+           <tt:p>Έναρξη πληκτρολόγησης της απάντησή σας.</tt:p>
          </tt:div>
-         <tt:div begin="29s" end="30s">
-           <tt:p>Κλείστε το μήνυμα συνομιλίας.</tt:p>
+         <tt:div begin="32s" end="35s">
+           <tt:p>Για να εμφανίσετε τη λίστα ειδοποιήσεων, πατήστε το πλήκτρο <keyseq> <key href="help:gnome-help/keyboard-key-super">Λογότυπο</key> και το <key>V</key></keyseq>.</tt:p>
          </tt:div>
-         <tt:div begin="36s" end="38s">
-           <tt:p>Για να εμφανίσετε την περιοχή ειδοποιήσεων, πατήστε το πλήκτρο του <keyseq> <key href="help:gnome-help/keyboard-key-super">Λογότυπου</key><key>M</key></keyseq>.</tt:p>
+         <tt:div begin="35s" end="41s">
+           <tt:p>Χρησιμοποιήστε τα πλήκτρα βελών για να επιλέξετε το μήνυμα στο οποίο θέλετε να απαντήσετε και πατήστε το πλήκτρο <key>Enter</key>.</tt:p>
          </tt:div>
-         <tt:div begin="39s" end="42s">
-           <tt:p>Χρησιμοποιήστε τα πλήκτρα βελών για να επιλέξετε το άτομο στο οποίο θέλετε να απαντήσετε και πατήστε το πλήκτρο <key>Εισαγωγή</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="42s" end="45s">
-           <tt:p>Αρχίστε να πληκτρολογείτε την απάντησή σας και όταν τελειώσετε, πατήστε το πλήκτρο <key>Εισαγωγή</key>.</tt:p>
-         </tt:div>
-         <tt:div begin="45s" end="46s">
-           <tt:p>Πατήστε <key>Esc</key> για να κλείσετε το μήνυμα συνομιλίας.</tt:p>
-         </tt:div>
-         <tt:div begin="46s" end="48s">
-           <tt:p>Για να διώξετε την περιοχή ειδοποιήσεων, πατήστε το πλήκτρο <key>Διαφυγή</key>.</tt:p>
+         <tt:div begin="41s" end="44s">
+           <tt:p>Έναρξη πληκτρολόγησης της απάντησή σας.</tt:p>
          </tt:div>
        </tt:body>
      </tt:tt>
